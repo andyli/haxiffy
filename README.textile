@@ -1,0 +1,5 @@
+*haxiffy* is an attempt of automating the process of creating haXe binding of existing C++ libraries. It is still work-in-progress.
+
+Following projects are included in the source: 
+
+ * "htemplate":http://github.com/ciscoheat/htemplate

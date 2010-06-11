@@ -1,0 +1,12 @@
+<haxiffy name="stk">
+	<gccxml path="/usr/local/bin/gccxml" />
+	<csource path="/Users/andylihahaha/Downloads/stk-4.4.2/src">
+		<class name="StkError" />
+		<class name="Stk" />
+		<class name="StkFrames" />
+		<class name="SineWave" />
+	</csource>
+	<output path="../project">
+		<haxePackage name="stk" />
+	</output>
+</haxiffy>

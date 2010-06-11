@@ -1,0 +1,9 @@
+-neko bin/Main.n
+-main Main
+-lib ListTools
+-lib HashTools
+-lib casalib
+-lib hscript
+
+-cmd cd bin
+-cmd neko Main
