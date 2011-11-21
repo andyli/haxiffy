@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_main_8h" kind="file">
+    <compoundname>ofMain.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includes local="yes">ofFileUtils.h</includes>
+    <includes local="yes">ofLog.h</includes>
+    <includes local="yes">ofSystemUtils.h</includes>
+    <includes local="yes">ofThread.h</includes>
+    <includes local="yes">ofURLFileLoader.h</includes>
+    <includes local="yes">ofUtils.h</includes>
+    <includes local="yes">ofBaseTypes.h</includes>
+    <includes local="yes">ofTypes.h</includes>
+    <includes local="yes">ofColor.h</includes>
+    <includes local="yes">ofPoint.h</includes>
+    <includes local="yes">ofRectangle.h</includes>
+    <includes local="yes">ofMath.h</includes>
+    <includes local="yes">ofVectorMath.h</includes>
+    <includes local="yes">ofSerial.h</includes>
+    <includes local="yes">ofArduino.h</includes>
+    <includes local="yes">ofFbo.h</includes>
+    <includes local="yes">ofGLRenderer.h</includes>
+    <includes local="yes">ofGLUtils.h</includes>
+    <includes local="yes">ofLight.h</includes>
+    <includes local="yes">ofMaterial.h</includes>
+    <includes local="yes">ofShader.h</includes>
+    <includes local="yes">ofTexture.h</includes>
+    <includes local="yes">ofVbo.h</includes>
+    <includes local="yes">ofVboMesh.h</includes>
+    <includes local="yes">ofCairoRenderer.h</includes>
+    <includes local="yes">ofGraphics.h</includes>
+    <includes local="yes">ofImage.h</includes>
+    <includes local="yes">ofPath.h</includes>
+    <includes local="yes">ofPixels.h</includes>
+    <includes local="yes">ofPolyline.h</includes>
+    <includes local="yes">ofRendererCollection.h</includes>
+    <includes local="yes">ofTessellator.h</includes>
+    <includes local="yes">ofTrueTypeFont.h</includes>
+    <includes local="yes">ofBaseApp.h</includes>
+    <includes local="yes">ofAppRunner.h</includes>
+    <includes local="yes">ofSoundStream.h</includes>
+    <includes local="yes">ofSoundPlayer.h</includes>
+    <includes local="yes">ofVideoGrabber.h</includes>
+    <includes local="yes">ofVideoPlayer.h</includes>
+    <includes local="yes">ofEvents.h</includes>
+    <includes local="yes">of3dUtils.h</includes>
+    <includes local="yes">ofCamera.h</includes>
+    <includes local="yes">ofEasyCam.h</includes>
+    <includes local="yes">ofMesh.h</includes>
+    <includes local="yes">ofNode.h</includes>
+    <incdepgraph>
+      <node id="333">
+        <label>ofUtils.h</label>
+      </node>
+      <node id="342">
+        <label>ofArduino.h</label>
+      </node>
+      <node id="366">
+        <label>ofVideoPlayer.h</label>
+      </node>
+      <node id="329">
+        <label>ofLog.h</label>
+      </node>
+      <node id="332">
+        <label>ofURLFileLoader.h</label>
+      </node>
+      <node id="341">
+        <label>ofSerial.h</label>
+      </node>
+      <node id="327">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="359">
+        <label>ofTessellator.h</label>
+      </node>
+      <node id="347">
+        <label>ofMaterial.h</label>
+      </node>
+      <node id="369">
+        <label>ofCamera.h</label>
+      </node>
+      <node id="357">
+        <label>ofPolyline.h</label>
+      </node>
+      <node id="368">
+        <label>of3dUtils.h</label>
+      </node>
+      <node id="328">
+        <label>ofFileUtils.h</label>
+      </node>
+      <node id="345">
+        <label>ofGLUtils.h</label>
+      </node>
+      <node id="361">
+        <label>ofBaseApp.h</label>
+      </node>
+      <node id="355">
+        <label>ofPath.h</label>
+      </node>
+      <node id="367">
+        <label>ofEvents.h</label>
+      </node>
+      <node id="344">
+        <label>ofGLRenderer.h</label>
+      </node>
+      <node id="371">
+        <label>ofMesh.h</label>
+      </node>
+      <node id="352">
+        <label>ofCairoRenderer.h</label>
+      </node>
+      <node id="340">
+        <label>ofVectorMath.h</label>
+      </node>
+      <node id="370">
+        <label>ofEasyCam.h</label>
+      </node>
+      <node id="326">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/ofMain.h</label>
+        <link refid="ofMain.h"/>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="333" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="335" relation="include">
+        </childnode>
+        <childnode refid="336" relation="include">
+        </childnode>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+        <childnode refid="345" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="347" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+        <childnode refid="349" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
+        <childnode refid="360" relation="include">
+        </childnode>
+        <childnode refid="361" relation="include">
+        </childnode>
+        <childnode refid="362" relation="include">
+        </childnode>
+        <childnode refid="363" relation="include">
+        </childnode>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+      </node>
+      <node id="343">
+        <label>ofFbo.h</label>
+      </node>
+      <node id="346">
+        <label>ofLight.h</label>
+      </node>
+      <node id="362">
+        <label>ofAppRunner.h</label>
+      </node>
+      <node id="331">
+        <label>ofThread.h</label>
+      </node>
+      <node id="349">
+        <label>ofTexture.h</label>
+      </node>
+      <node id="360">
+        <label>ofTrueTypeFont.h</label>
+      </node>
+      <node id="336">
+        <label>ofColor.h</label>
+      </node>
+      <node id="335">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="348">
+        <label>ofShader.h</label>
+      </node>
+      <node id="363">
+        <label>ofSoundStream.h</label>
+      </node>
+      <node id="337">
+        <label>ofPoint.h</label>
+      </node>
+      <node id="339">
+        <label>ofMath.h</label>
+      </node>
+      <node id="356">
+        <label>ofPixels.h</label>
+      </node>
+      <node id="330">
+        <label>ofSystemUtils.h</label>
+      </node>
+      <node id="334">
+        <label>ofBaseTypes.h</label>
+      </node>
+      <node id="353">
+        <label>ofGraphics.h</label>
+      </node>
+      <node id="350">
+        <label>ofVbo.h</label>
+      </node>
+      <node id="351">
+        <label>ofVboMesh.h</label>
+      </node>
+      <node id="358">
+        <label>ofRendererCollection.h</label>
+      </node>
+      <node id="365">
+        <label>ofVideoGrabber.h</label>
+      </node>
+      <node id="364">
+        <label>ofSoundPlayer.h</label>
+      </node>
+      <node id="354">
+        <label>ofImage.h</label>
+      </node>
+      <node id="372">
+        <label>ofNode.h</label>
+      </node>
+      <node id="338">
+        <label>ofRectangle.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>utils</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofFileUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofLog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofSystemUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofThread.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofURLFileLoader.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofBaseTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofColor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofPoint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofRectangle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>math</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofMath.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofVectorMath.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>communication</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(<sp/>TARGET_OF_IPHONE<sp/>)<sp/>&amp;<sp/>!defined(TARGET_ANDROID)</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#include<sp/>&quot;ofSerial.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#include<sp/>&quot;ofArduino.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>gl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofFbo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofGLRenderer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofGLUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofLight.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofMaterial.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofShader.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTexture.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofVbo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofVboMesh.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>graphics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofCairoRenderer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofGraphics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofImage.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofPath.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofPixels.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofPolyline.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofRendererCollection.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTessellator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTrueTypeFont.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>app</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofBaseApp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofAppRunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>audio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofSoundStream.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofSoundPlayer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>video</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofVideoGrabber.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofVideoPlayer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>events</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofEvents.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//--------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>3d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;of3dUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofCamera.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofEasyCam.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofMesh.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/ofMain.h"/>
+  </compounddef>
+</doxygen>

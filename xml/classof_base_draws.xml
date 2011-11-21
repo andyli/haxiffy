@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_base_draws" kind="class" prot="public">
+    <compoundname>ofBaseDraws</compoundname>
+    <derivedcompoundref refid="classof_abstract_image" prot="public" virt="non-virtual">ofAbstractImage</derivedcompoundref>
+    <derivedcompoundref refid="classof_base_video_draws" prot="public" virt="non-virtual">ofBaseVideoDraws</derivedcompoundref>
+    <derivedcompoundref refid="classof_fbo" prot="public" virt="non-virtual">ofFbo</derivedcompoundref>
+    <derivedcompoundref refid="classof_texture" prot="public" virt="non-virtual">ofTexture</derivedcompoundref>
+    <includes refid="of_base_types_8h" local="no">ofBaseTypes.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_base_draws_1af97993d6809a3a3bce934ce2d1fc3fc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofBaseDraws::~ofBaseDraws</definition>
+        <argsstring>()</argsstring>
+        <name>~ofBaseDraws</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="38" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1aa672814ee548835e571561863855262e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseDraws::draw</definition>
+        <argsstring>(float x, float y)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_video_player_1aafccb79dd9407583af71afb0b622bd8b">draw</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1ad650d9f550f9750ea1ed94364495c44d">draw</reimplementedby>
+        <reimplementedby refid="classof_image___1a0b1b3cbe3443fd7aa31f80a6eb6fa2bd">draw</reimplementedby>
+        <reimplementedby refid="classof_texture_1ac01ca3d49b6c3fa875c657d90d2080a9">draw</reimplementedby>
+        <reimplementedby refid="classof_fbo_1a083acab9d604f1ec41393e9778f7fe6d">draw</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1a34e129056ed6238b2cc0b8b13cfab676" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseDraws::draw</definition>
+        <argsstring>(float x, float y, float w, float h)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_video_player_1acc2ec4614bd20d0a906fdc36bc6f4713">draw</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1a1d2887efcde17ebab37daa845eede3fe">draw</reimplementedby>
+        <reimplementedby refid="classof_image___1a6656ffac4fcf989d97ab15bb42501af3">draw</reimplementedby>
+        <reimplementedby refid="classof_texture_1a2babfbe0a2a8d99571aa683623c99be5">draw</reimplementedby>
+        <reimplementedby refid="classof_fbo_1afbfa27be404bd8dc90c4b50efa639c39">draw</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1a768768895b8cb95515094c958f9ec0f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseDraws::draw</definition>
+        <argsstring>(const ofPoint &amp;point)</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_video_player_1a8745cdd7c87657c2bc1e127efc782e88">draw</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1a796c1dd2e2f605ca16817b793b3690cb">draw</reimplementedby>
+        <reimplementedby refid="classof_image___1a05172d53b163d17009d73469eb7197cf">draw</reimplementedby>
+        <reimplementedby refid="classof_texture_1a3aedb1439bf358cb974b63bb624a3b07">draw</reimplementedby>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="42" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1a0ae112e1709647d6dd84d0787876cb8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseDraws::draw</definition>
+        <argsstring>(const ofRectangle &amp;rect)</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_video_player_1ab6b5feb16c8435079f199134c24c976c">draw</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1aa76e21e4b8700c284756e4af1d4cc27f">draw</reimplementedby>
+        <reimplementedby refid="classof_image___1aef9ce48512fa0372759dd46438270273">draw</reimplementedby>
+        <reimplementedby refid="classof_texture_1adeb9b690ad862873e2df870695db7f9b">draw</reimplementedby>
+        <param>
+          <type>const <ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1ac192eb9129a4548f64ed05c504c84b45" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float ofBaseDraws::getHeight</definition>
+        <argsstring>()=0</argsstring>
+        <name>getHeight</name>
+        <reimplementedby refid="classof_video_player_1af4d9762abaf3a390886bff3e48286455">getHeight</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1afb6570df9cbb25c38c3fa149700f1af9">getHeight</reimplementedby>
+        <reimplementedby refid="classof_image___1af39591f8ff0e19177725ccfd379063f9">getHeight</reimplementedby>
+        <reimplementedby refid="classof_texture_1ac14833c0221c45645d3ca16d3687a613">getHeight</reimplementedby>
+        <reimplementedby refid="classof_fbo_1a8b7ed597edaf8d76f5a7c1d49ef8d0b1">getHeight</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1ab85c73ed90a60ab75453f1e9ca831a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float ofBaseDraws::getWidth</definition>
+        <argsstring>()=0</argsstring>
+        <name>getWidth</name>
+        <reimplementedby refid="classof_video_player_1af98dc59bae16394353b0d43090d14d36">getWidth</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1abfe4a8329f1eef52cc42903040c63baf">getWidth</reimplementedby>
+        <reimplementedby refid="classof_image___1a298b4bbeb121ad7285e82f6df9e64068">getWidth</reimplementedby>
+        <reimplementedby refid="classof_texture_1a45d8511f11af12cfebd04ebcaadba12f">getWidth</reimplementedby>
+        <reimplementedby refid="classof_fbo_1acc0fd73ba942a85500931ee2f62d398e">getWidth</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1a3cf9dd7a898b3503ac0509574eaaeff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseDraws::setAnchorPercent</definition>
+        <argsstring>(float xPct, float yPct)</argsstring>
+        <name>setAnchorPercent</name>
+        <reimplementedby refid="classof_video_player_1a79ca310c6bf6a1db4eef74594f1e2b81">setAnchorPercent</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1a542277985c3820a48801c1502827c9b4">setAnchorPercent</reimplementedby>
+        <reimplementedby refid="classof_image___1a9339282eaa5f99419cdc25e739680f65">setAnchorPercent</reimplementedby>
+        <reimplementedby refid="classof_texture_1a5409b3dfe503bc05d7e06c1977ead2ac">setAnchorPercent</reimplementedby>
+        <reimplementedby refid="classof_fbo_1a8750a2af0540fac6b7b36cfa795a5570">setAnchorPercent</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>xPct</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yPct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="53" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1aefa6eaad3d976a6c1717105ea4443e56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseDraws::setAnchorPoint</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>setAnchorPoint</name>
+        <reimplementedby refid="classof_video_player_1a42462f21cc6ce547c0525928cd814e67">setAnchorPoint</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1ac1680df9d3d19130af0594e37b80487f">setAnchorPoint</reimplementedby>
+        <reimplementedby refid="classof_image___1afb1368077f520e88abae9b4d60870247">setAnchorPoint</reimplementedby>
+        <reimplementedby refid="classof_texture_1a294061077b44d033ee778615679d5b78">setAnchorPoint</reimplementedby>
+        <reimplementedby refid="classof_fbo_1a8d72faa9d813033b4fad5e5bdf0edc4a">setAnchorPoint</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="54" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_draws_1a8e60af373caa636320b505ca07f274ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseDraws::resetAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>resetAnchor</name>
+        <reimplementedby refid="classof_video_player_1a6e1feaa83809bdc5b8b412b77b645597">resetAnchor</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1a6ed806a21364bca25177b2b178ecb0db">resetAnchor</reimplementedby>
+        <reimplementedby refid="classof_image___1a40741723f2ef1f969e7fbba3fa20c29c">resetAnchor</reimplementedby>
+        <reimplementedby refid="classof_texture_1abc09e6df3f365142faff8b929a846bab">resetAnchor</reimplementedby>
+        <reimplementedby refid="classof_fbo_1adc4416303195844582849bd0c879c142">resetAnchor</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="55" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>ofFbo</label>
+        <link refid="classof_fbo"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>ofBaseImage_&lt; PixelType &gt;</label>
+        <link refid="classof_base_image__"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>ofImage_&lt; PixelType &gt;</label>
+        <link refid="classof_image__"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>ofTexture</label>
+        <link refid="classof_texture"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>ofVideoPlayer</label>
+        <link refid="classof_video_player"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>ofAbstractImage</label>
+        <link refid="classof_abstract_image"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>ofBaseVideoDraws</label>
+        <link refid="classof_base_video_draws"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="53">
+        <label>ofBaseImage_&lt; T &gt;</label>
+        <link refid="classof_base_image__"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>ofVideoGrabber</label>
+        <link refid="classof_video_grabber"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="36" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="36" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classof_base_draws_1aa672814ee548835e571561863855262e" prot="public" virt="pure-virtual"><scope>ofBaseDraws</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a34e129056ed6238b2cc0b8b13cfab676" prot="public" virt="pure-virtual"><scope>ofBaseDraws</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a768768895b8cb95515094c958f9ec0f0" prot="public" virt="virtual"><scope>ofBaseDraws</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a0ae112e1709647d6dd84d0787876cb8a" prot="public" virt="virtual"><scope>ofBaseDraws</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1ac192eb9129a4548f64ed05c504c84b45" prot="public" virt="pure-virtual"><scope>ofBaseDraws</scope><name>getHeight</name></member>
+      <member refid="classof_base_draws_1ab85c73ed90a60ab75453f1e9ca831a84" prot="public" virt="pure-virtual"><scope>ofBaseDraws</scope><name>getWidth</name></member>
+      <member refid="classof_base_draws_1a8e60af373caa636320b505ca07f274ae" prot="public" virt="virtual"><scope>ofBaseDraws</scope><name>resetAnchor</name></member>
+      <member refid="classof_base_draws_1a3cf9dd7a898b3503ac0509574eaaeff3" prot="public" virt="virtual"><scope>ofBaseDraws</scope><name>setAnchorPercent</name></member>
+      <member refid="classof_base_draws_1aefa6eaad3d976a6c1717105ea4443e56" prot="public" virt="virtual"><scope>ofBaseDraws</scope><name>setAnchorPoint</name></member>
+      <member refid="classof_base_draws_1af97993d6809a3a3bce934ce2d1fc3fc4" prot="public" virt="virtual"><scope>ofBaseDraws</scope><name>~ofBaseDraws</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_base_sound_stream_8h" kind="file">
+    <compoundname>ofBaseSoundStream.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includedby refid="of_p_a_sound_stream_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h</includedby>
+    <includedby refid="of_rt_audio_sound_stream_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h</includedby>
+    <includedby refid="of_sound_stream_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h</includedby>
+    <incdepgraph>
+      <node id="379">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="378">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundStream.h</label>
+        <link refid="ofBaseSoundStream.h"/>
+        <childnode refid="379" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="381">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h</label>
+        <link refid="of_p_a_sound_stream_8h"/>
+      </node>
+      <node id="383">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h</label>
+        <link refid="of_sound_stream_8h"/>
+      </node>
+      <node id="382">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h</label>
+        <link refid="of_rt_audio_sound_stream_8h"/>
+      </node>
+      <node id="380">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundStream.h</label>
+        <link refid="ofBaseSoundStream.h"/>
+        <childnode refid="381" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classof_base_sound_stream" prot="public">ofBaseSoundStream</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classof_base_sound_stream" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_base_sound_stream" kindref="compound">ofBaseSoundStream</ref>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9" refid="classof_base_sound_stream_1a238e638c8990dce27b1b2f2774f0aa68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a238e638c8990dce27b1b2f2774f0aa68" kindref="member">~ofBaseSoundStream</ref>(){}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1aec4462be763b5b784a91aa569733d94e" kindref="member">listDevices</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a309be9bbda641649d801093359a3b2c5" kindref="member">setDeviceID</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deviceID)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a603054248acf232b3a36c944cbe5fdb4" kindref="member">setup</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>outChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sampleRate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBuffers)=0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a603054248acf232b3a36c944cbe5fdb4" kindref="member">setup</ref>(<ref refid="classof_base_app" kindref="compound">ofBaseApp</ref><sp/>*<sp/>app,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>outChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sampleRate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBuffers)=0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a1fa47c366b7790ee7419513b3efcd0e5" kindref="member">setInput</ref>(<ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref><sp/>*<sp/>soundInput)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a7ab9e9a649a08921bfbde67cd6a752f7" kindref="member">setOutput</ref>(<ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref><sp/>*<sp/>soundOutput)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a68cb0a39471073a6bc9ca14abeb60c61" kindref="member">start</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a500ed10a32ae3b6efa223cfba115086e" kindref="member">stop</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a972327e868ca15ecc79476919fbd25bf" kindref="member">close</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream_1a8f0693f0fb84d3a83763b32e3ee8496c" kindref="member">getTickCount</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundStream.h"/>
+  </compounddef>
+</doxygen>

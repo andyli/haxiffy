@@ -1,0 +1,987 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_file" kind="class" prot="public">
+    <compoundname>ofFile</compoundname>
+    <includes refid="of_file_utils_8h" local="no">ofFileUtils.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classof_file_1afc27b4186457038ca30b5471b497f2a0" prot="public" static="no">
+        <name>Mode</name>
+        <enumvalue id="classof_file_1afc27b4186457038ca30b5471b497f2a0abb55cc602958c614b6f71d8cccba0409" prot="public">
+          <name>Reference</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classof_file_1afc27b4186457038ca30b5471b497f2a0acd40290526a21f290283fbac48132c95" prot="public">
+          <name>ReadOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classof_file_1afc27b4186457038ca30b5471b497f2a0aff8f040e5a5c98cb4b54586e5e87a9e5" prot="public">
+          <name>WriteOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classof_file_1afc27b4186457038ca30b5471b497f2a0a76eb0c59eb14c3b2842cab7f0f2ff081" prot="public">
+          <name>ReadWrite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classof_file_1afc27b4186457038ca30b5471b497f2a0a3babb4eb099702aed27cc05ecbab91fa" prot="public">
+          <name>Append</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="82" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" bodystart="82" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_file_1a76356cfbd3885c90a2b24eccd25e114e" prot="private" static="no" mutable="no">
+        <type>Poco::File</type>
+        <definition>Poco::File ofFile::myFile</definition>
+        <argsstring></argsstring>
+        <name>myFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="182" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_file_1a83fadc02dcd648db20aa2cb026a8c88e" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref></type>
+        <definition>Mode ofFile::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="183" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_file_1a62a49ff9ccba5ffbb21277dca7fd0a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofFile::ofFile</definition>
+        <argsstring>()</argsstring>
+        <name>ofFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a927aa6f7a0027604d4fa2c598e97b235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofFile::ofFile</definition>
+        <argsstring>(string filePath, Mode mode=ReadOnly, bool binary=false)</argsstring>
+        <name>ofFile</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref></type>
+          <declname>mode</declname>
+          <defval>ReadOnly</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>binary</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1acf760d0731687e227266a154aa852575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofFile::ofFile</definition>
+        <argsstring>(const ofFile &amp;mom)</argsstring>
+        <name>ofFile</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a6d5785562ff676dc3d73e5d3e2527a6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+        <definition>ofFile&amp; ofFile::operator=</definition>
+        <argsstring>(const ofFile &amp;mom)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a35ec4268eb647e175dae6e25599b212f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofFile::~ofFile</definition>
+        <argsstring>()</argsstring>
+        <name>~ofFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1aa4caa47cb239adb19d4a62999468d98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::open</definition>
+        <argsstring>(string path, Mode mode=ReadOnly, bool binary=false)</argsstring>
+        <name>open</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref></type>
+          <declname>mode</declname>
+          <defval>ReadOnly</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>binary</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1aeabacce0bed7bba4e9d403a375b365ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::changeMode</definition>
+        <argsstring>(Mode mode, bool binary=false)</argsstring>
+        <name>changeMode</name>
+        <param>
+          <type><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>binary</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1af7d1492a4840af4c5a1e2efae6c43b9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFile::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1aa0fe27d0d49ed64a77aea5df5604c07f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a89edeada38040a64d81e0a1ecfb63649" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::exists</definition>
+        <argsstring>() const </argsstring>
+        <name>exists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1ac34ab6a2eb4b26244cae36408ae29f5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofFile::path</definition>
+        <argsstring>() const </argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a504a13b30ae208d4acf72039629bd3ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofFile::getExtension</definition>
+        <argsstring>() const </argsstring>
+        <name>getExtension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a9d023ed4397b4b516c7a5ae92233057f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofFile::getFileName</definition>
+        <argsstring>() const </argsstring>
+        <name>getFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a9fdcdd4323dbafa6d6b39fa56d948d13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofFile::getBaseName</definition>
+        <argsstring>() const </argsstring>
+        <name>getBaseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a1e2dffe5af0ed290ec069d75ad0abd8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofFile::getEnclosingDirectory</definition>
+        <argsstring>() const </argsstring>
+        <name>getEnclosingDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a9610b1be8e7fa935a5017e575c6cbced" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofFile::getAbsolutePath</definition>
+        <argsstring>() const </argsstring>
+        <name>getAbsolutePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a8dc5ef3d0b7fd7886dc6c62410ab8eb9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::canRead</definition>
+        <argsstring>() const </argsstring>
+        <name>canRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1aec11adac4eaf74cf0ba1bc186f7fcc27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::canWrite</definition>
+        <argsstring>() const </argsstring>
+        <name>canWrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a5a1aadf7a845ebf3419d9ff320796d80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::canExecute</definition>
+        <argsstring>() const </argsstring>
+        <name>canExecute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1ae8bc4eabab1f99c9138404dd04caf3b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::isFile</definition>
+        <argsstring>() const </argsstring>
+        <name>isFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a2a98cb815ca0566192812b4344c1ff5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::isLink</definition>
+        <argsstring>() const </argsstring>
+        <name>isLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a7cdcc9df50be658ea950a15e665fd004" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::isDirectory</definition>
+        <argsstring>() const </argsstring>
+        <name>isDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a72bf5e488720909773bea5f086cfa4a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::isDevice</definition>
+        <argsstring>() const </argsstring>
+        <name>isDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a9104cfd558d4b0c04ce8377a21db8e0d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::isHidden</definition>
+        <argsstring>() const </argsstring>
+        <name>isHidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1ad32d5143ed9f7095329a50ec5d750e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFile::setWriteable</definition>
+        <argsstring>(bool writeable)</argsstring>
+        <name>setWriteable</name>
+        <param>
+          <type>bool</type>
+          <declname>writeable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a8c5bfcd06a4155e7ea716b7fd58d6bf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFile::setReadOnly</definition>
+        <argsstring>(bool readable)</argsstring>
+        <name>setReadOnly</name>
+        <param>
+          <type>bool</type>
+          <declname>readable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a8b838bfe80e9b08a2326a9428a323dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFile::setExecutable</definition>
+        <argsstring>(bool executable)</argsstring>
+        <name>setExecutable</name>
+        <param>
+          <type>bool</type>
+          <declname>executable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a8bd21dbb6272467f8bf0bae607f51cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::copyTo</definition>
+        <argsstring>(string path, bool bRelativeToData=true, bool overwrite=false)</argsstring>
+        <name>copyTo</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a78d7f3030034b09ba37d624aacd04bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::moveTo</definition>
+        <argsstring>(string path, bool bRelativeToData=true, bool overwrite=false)</argsstring>
+        <name>moveTo</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a58e464d3243f88dc93b29043bad28ae4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::renameTo</definition>
+        <argsstring>(string path, bool bRelativeToData=true, bool overwrite=false)</argsstring>
+        <name>renameTo</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a1ada95ac9e0857f715e48601a22890f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::remove</definition>
+        <argsstring>(bool recursive=false)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>bool</type>
+          <declname>recursive</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1ac43ee53e818d89472b842b5a01d05bbc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t ofFile::getSize</definition>
+        <argsstring>() const </argsstring>
+        <name>getSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a9834156d6f99bb0f5531b705c834b787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Poco::File &amp;</type>
+        <definition>Poco::File&amp; ofFile::getPocoFile</definition>
+        <argsstring>()</argsstring>
+        <name>getPocoFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a4e92e06c38febba5bec7283e9bcf1216" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::operator==</definition>
+        <argsstring>(const ofFile &amp;file) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1aa27d1f6ac56f1560a49fbfb9e402ba80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::operator!=</definition>
+        <argsstring>(const ofFile &amp;file) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a7286772fb88b2a0510d92d905c93f085" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::operator&lt;</definition>
+        <argsstring>(const ofFile &amp;file) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a873775a8d455be8f7f91b4e73c89e69e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::operator&lt;=</definition>
+        <argsstring>(const ofFile &amp;file) const </argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a8f4bca14bbf82a2776845bc8e50a1cb9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::operator&gt;</definition>
+        <argsstring>(const ofFile &amp;file) const </argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a85a68df822547812728cf9c5e7971b86" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::operator&gt;=</definition>
+        <argsstring>(const ofFile &amp;file) const </argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a8376d6fa18ad17657aa8456d4e4a1a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_buffer" kindref="compound">ofBuffer</ref></type>
+        <definition>ofBuffer ofFile::readToBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>readToBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a9564d6ef00b79b2c431b132619c3964a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::writeFromBuffer</definition>
+        <argsstring>(ofBuffer &amp;buffer)</argsstring>
+        <name>writeFromBuffer</name>
+        <param>
+          <type><ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a909e77a988bf20afe38c112f3aca7914" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>filebuf *</type>
+        <definition>filebuf* ofFile::getFileBuffer</definition>
+        <argsstring>() const </argsstring>
+        <name>getFileBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="164"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classof_file_1ae33f5db76aadc8b9ddd1702833243d0e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ofFile::copyFromTo</definition>
+        <argsstring>(string pathSrc, string pathDst, bool bRelativeToData=true, bool overwrite=false)</argsstring>
+        <name>copyFromTo</name>
+        <param>
+          <type>string</type>
+          <declname>pathSrc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pathDst</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1ab1a18937f2c403779b21ea0dc6d19e70" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ofFile::moveFromTo</definition>
+        <argsstring>(string pathSrc, string pathDst, bool bRelativeToData=true, bool overwrite=false)</argsstring>
+        <name>moveFromTo</name>
+        <param>
+          <type>string</type>
+          <declname>pathSrc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pathDst</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1ac6572c1f12a649c90a70ba36a9e08d99" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ofFile::doesFileExist</definition>
+        <argsstring>(string fPath, bool bRelativeToData=true)</argsstring>
+        <name>doesFileExist</name>
+        <param>
+          <type>string</type>
+          <declname>fPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1a39790919712930cd3778b70af0a0b45d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ofFile::removeFile</definition>
+        <argsstring>(string path, bool bRelativeToData=true)</argsstring>
+        <name>removeFile</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="176"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_file_1ab21c3eef78a54aab9393b91a999ba5be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::isWriteMode</definition>
+        <argsstring>()</argsstring>
+        <name>isWriteMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1ac697d4972d7d1734126612994698f5e7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFile::openStream</definition>
+        <argsstring>(Mode _mode, bool binary)</argsstring>
+        <name>openStream</name>
+        <param>
+          <type><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref></type>
+          <declname>_mode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>binary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_1acdd0af77f3d64ad8e8ee047d5e03fb13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFile::copyFrom</definition>
+        <argsstring>(const ofFile &amp;mom)</argsstring>
+        <name>copyFrom</name>
+        <param>
+          <type>const <ref refid="classof_file" kindref="compound">ofFile</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="78" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" bodystart="78" bodyend="184"/>
+    <listofallmembers>
+      <member refid="classof_file_1afc27b4186457038ca30b5471b497f2a0a3babb4eb099702aed27cc05ecbab91fa" prot="public" virt="non-virtual"><scope>ofFile</scope><name>Append</name></member>
+      <member refid="classof_file_1a5a1aadf7a845ebf3419d9ff320796d80" prot="public" virt="non-virtual"><scope>ofFile</scope><name>canExecute</name></member>
+      <member refid="classof_file_1a8dc5ef3d0b7fd7886dc6c62410ab8eb9" prot="public" virt="non-virtual"><scope>ofFile</scope><name>canRead</name></member>
+      <member refid="classof_file_1aec11adac4eaf74cf0ba1bc186f7fcc27" prot="public" virt="non-virtual"><scope>ofFile</scope><name>canWrite</name></member>
+      <member refid="classof_file_1aeabacce0bed7bba4e9d403a375b365ac" prot="public" virt="non-virtual"><scope>ofFile</scope><name>changeMode</name></member>
+      <member refid="classof_file_1af7d1492a4840af4c5a1e2efae6c43b9f" prot="public" virt="non-virtual"><scope>ofFile</scope><name>close</name></member>
+      <member refid="classof_file_1acdd0af77f3d64ad8e8ee047d5e03fb13" prot="private" virt="non-virtual"><scope>ofFile</scope><name>copyFrom</name></member>
+      <member refid="classof_file_1ae33f5db76aadc8b9ddd1702833243d0e" prot="public" virt="non-virtual"><scope>ofFile</scope><name>copyFromTo</name></member>
+      <member refid="classof_file_1a8bd21dbb6272467f8bf0bae607f51cc9" prot="public" virt="non-virtual"><scope>ofFile</scope><name>copyTo</name></member>
+      <member refid="classof_file_1aa0fe27d0d49ed64a77aea5df5604c07f" prot="public" virt="non-virtual"><scope>ofFile</scope><name>create</name></member>
+      <member refid="classof_file_1ac6572c1f12a649c90a70ba36a9e08d99" prot="public" virt="non-virtual"><scope>ofFile</scope><name>doesFileExist</name></member>
+      <member refid="classof_file_1a89edeada38040a64d81e0a1ecfb63649" prot="public" virt="non-virtual"><scope>ofFile</scope><name>exists</name></member>
+      <member refid="classof_file_1a9610b1be8e7fa935a5017e575c6cbced" prot="public" virt="non-virtual"><scope>ofFile</scope><name>getAbsolutePath</name></member>
+      <member refid="classof_file_1a9fdcdd4323dbafa6d6b39fa56d948d13" prot="public" virt="non-virtual"><scope>ofFile</scope><name>getBaseName</name></member>
+      <member refid="classof_file_1a1e2dffe5af0ed290ec069d75ad0abd8c" prot="public" virt="non-virtual"><scope>ofFile</scope><name>getEnclosingDirectory</name></member>
+      <member refid="classof_file_1a504a13b30ae208d4acf72039629bd3ab" prot="public" virt="non-virtual"><scope>ofFile</scope><name>getExtension</name></member>
+      <member refid="classof_file_1a909e77a988bf20afe38c112f3aca7914" prot="public" virt="non-virtual"><scope>ofFile</scope><name>getFileBuffer</name></member>
+      <member refid="classof_file_1a9d023ed4397b4b516c7a5ae92233057f" prot="public" virt="non-virtual"><scope>ofFile</scope><name>getFileName</name></member>
+      <member refid="classof_file_1a9834156d6f99bb0f5531b705c834b787" prot="public" virt="non-virtual"><scope>ofFile</scope><name>getPocoFile</name></member>
+      <member refid="classof_file_1ac43ee53e818d89472b842b5a01d05bbc" prot="public" virt="non-virtual"><scope>ofFile</scope><name>getSize</name></member>
+      <member refid="classof_file_1a72bf5e488720909773bea5f086cfa4a8" prot="public" virt="non-virtual"><scope>ofFile</scope><name>isDevice</name></member>
+      <member refid="classof_file_1a7cdcc9df50be658ea950a15e665fd004" prot="public" virt="non-virtual"><scope>ofFile</scope><name>isDirectory</name></member>
+      <member refid="classof_file_1ae8bc4eabab1f99c9138404dd04caf3b5" prot="public" virt="non-virtual"><scope>ofFile</scope><name>isFile</name></member>
+      <member refid="classof_file_1a9104cfd558d4b0c04ce8377a21db8e0d" prot="public" virt="non-virtual"><scope>ofFile</scope><name>isHidden</name></member>
+      <member refid="classof_file_1a2a98cb815ca0566192812b4344c1ff5d" prot="public" virt="non-virtual"><scope>ofFile</scope><name>isLink</name></member>
+      <member refid="classof_file_1ab21c3eef78a54aab9393b91a999ba5be" prot="private" virt="non-virtual"><scope>ofFile</scope><name>isWriteMode</name></member>
+      <member refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" prot="public" virt="non-virtual"><scope>ofFile</scope><name>Mode</name></member>
+      <member refid="classof_file_1a83fadc02dcd648db20aa2cb026a8c88e" prot="private" virt="non-virtual"><scope>ofFile</scope><name>mode</name></member>
+      <member refid="classof_file_1ab1a18937f2c403779b21ea0dc6d19e70" prot="public" virt="non-virtual"><scope>ofFile</scope><name>moveFromTo</name></member>
+      <member refid="classof_file_1a78d7f3030034b09ba37d624aacd04bde" prot="public" virt="non-virtual"><scope>ofFile</scope><name>moveTo</name></member>
+      <member refid="classof_file_1a76356cfbd3885c90a2b24eccd25e114e" prot="private" virt="non-virtual"><scope>ofFile</scope><name>myFile</name></member>
+      <member refid="classof_file_1a62a49ff9ccba5ffbb21277dca7fd0a13" prot="public" virt="non-virtual"><scope>ofFile</scope><name>ofFile</name></member>
+      <member refid="classof_file_1a927aa6f7a0027604d4fa2c598e97b235" prot="public" virt="non-virtual"><scope>ofFile</scope><name>ofFile</name></member>
+      <member refid="classof_file_1acf760d0731687e227266a154aa852575" prot="public" virt="non-virtual"><scope>ofFile</scope><name>ofFile</name></member>
+      <member refid="classof_file_1aa4caa47cb239adb19d4a62999468d98e" prot="public" virt="non-virtual"><scope>ofFile</scope><name>open</name></member>
+      <member refid="classof_file_1ac697d4972d7d1734126612994698f5e7" prot="private" virt="non-virtual"><scope>ofFile</scope><name>openStream</name></member>
+      <member refid="classof_file_1aa27d1f6ac56f1560a49fbfb9e402ba80" prot="public" virt="non-virtual"><scope>ofFile</scope><name>operator!=</name></member>
+      <member refid="classof_file_1a7286772fb88b2a0510d92d905c93f085" prot="public" virt="non-virtual"><scope>ofFile</scope><name>operator&lt;</name></member>
+      <member refid="classof_file_1a873775a8d455be8f7f91b4e73c89e69e" prot="public" virt="non-virtual"><scope>ofFile</scope><name>operator&lt;=</name></member>
+      <member refid="classof_file_1a6d5785562ff676dc3d73e5d3e2527a6e" prot="public" virt="non-virtual"><scope>ofFile</scope><name>operator=</name></member>
+      <member refid="classof_file_1a4e92e06c38febba5bec7283e9bcf1216" prot="public" virt="non-virtual"><scope>ofFile</scope><name>operator==</name></member>
+      <member refid="classof_file_1a8f4bca14bbf82a2776845bc8e50a1cb9" prot="public" virt="non-virtual"><scope>ofFile</scope><name>operator&gt;</name></member>
+      <member refid="classof_file_1a85a68df822547812728cf9c5e7971b86" prot="public" virt="non-virtual"><scope>ofFile</scope><name>operator&gt;=</name></member>
+      <member refid="classof_file_1ac34ab6a2eb4b26244cae36408ae29f5d" prot="public" virt="non-virtual"><scope>ofFile</scope><name>path</name></member>
+      <member refid="classof_file_1afc27b4186457038ca30b5471b497f2a0acd40290526a21f290283fbac48132c95" prot="public" virt="non-virtual"><scope>ofFile</scope><name>ReadOnly</name></member>
+      <member refid="classof_file_1a8376d6fa18ad17657aa8456d4e4a1a01" prot="public" virt="non-virtual"><scope>ofFile</scope><name>readToBuffer</name></member>
+      <member refid="classof_file_1afc27b4186457038ca30b5471b497f2a0a76eb0c59eb14c3b2842cab7f0f2ff081" prot="public" virt="non-virtual"><scope>ofFile</scope><name>ReadWrite</name></member>
+      <member refid="classof_file_1afc27b4186457038ca30b5471b497f2a0abb55cc602958c614b6f71d8cccba0409" prot="public" virt="non-virtual"><scope>ofFile</scope><name>Reference</name></member>
+      <member refid="classof_file_1a1ada95ac9e0857f715e48601a22890f3" prot="public" virt="non-virtual"><scope>ofFile</scope><name>remove</name></member>
+      <member refid="classof_file_1a39790919712930cd3778b70af0a0b45d" prot="public" virt="non-virtual"><scope>ofFile</scope><name>removeFile</name></member>
+      <member refid="classof_file_1a58e464d3243f88dc93b29043bad28ae4" prot="public" virt="non-virtual"><scope>ofFile</scope><name>renameTo</name></member>
+      <member refid="classof_file_1a8b838bfe80e9b08a2326a9428a323dd5" prot="public" virt="non-virtual"><scope>ofFile</scope><name>setExecutable</name></member>
+      <member refid="classof_file_1a8c5bfcd06a4155e7ea716b7fd58d6bf0" prot="public" virt="non-virtual"><scope>ofFile</scope><name>setReadOnly</name></member>
+      <member refid="classof_file_1ad32d5143ed9f7095329a50ec5d750e7b" prot="public" virt="non-virtual"><scope>ofFile</scope><name>setWriteable</name></member>
+      <member refid="classof_file_1a9564d6ef00b79b2c431b132619c3964a" prot="public" virt="non-virtual"><scope>ofFile</scope><name>writeFromBuffer</name></member>
+      <member refid="classof_file_1afc27b4186457038ca30b5471b497f2a0aff8f040e5a5c98cb4b54586e5e87a9e5" prot="public" virt="non-virtual"><scope>ofFile</scope><name>WriteOnly</name></member>
+      <member refid="classof_file_1a35ec4268eb647e175dae6e25599b212f" prot="public" virt="non-virtual"><scope>ofFile</scope><name>~ofFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

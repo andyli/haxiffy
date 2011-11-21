@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_sub_path" kind="class" prot="public">
+    <compoundname>ofSubPath</compoundname>
+    <includes refid="of_path_8h" local="no">ofPath.h</includes>
+    <innerclass refid="structof_sub_path_1_1_command" prot="public">ofSubPath::Command</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_sub_path_1ad6dbb8a38367ad678f0f6d4f91face36" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structof_sub_path_1_1_command" kindref="compound">Command</ref> &gt;</type>
+        <definition>vector&lt;Command&gt; ofSubPath::commands</definition>
+        <argsstring></argsstring>
+        <name>commands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="178" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_sub_path_1a83b6b77971bf9c0749c43e018afe64f5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofSubPath::bClosed</definition>
+        <argsstring></argsstring>
+        <name>bClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="179" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_sub_path_1a351b77500bcb26899b625f030683bf3e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofSubPath::bHasChanged</definition>
+        <argsstring></argsstring>
+        <name>bHasChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="180" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_sub_path_1ab785c40cdb6e1e6d1ec7d77fd6baa180" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofSubPath::ofSubPath</definition>
+        <argsstring>()</argsstring>
+        <name>ofSubPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_sub_path_1a1449af52508a6d93ce821dd482d4a15d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structof_sub_path_1_1_command" kindref="compound">Command</ref> &gt; &amp;</type>
+        <definition>vector&lt;Command&gt;&amp; ofSubPath::getCommands</definition>
+        <argsstring>()</argsstring>
+        <name>getCommands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_sub_path_1ad22986415b716ccd715b29dc728aeb89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const vector&lt; <ref refid="structof_sub_path_1_1_command" kindref="compound">Command</ref> &gt; &amp;</type>
+        <definition>const vector&lt;Command&gt;&amp; ofSubPath::getCommands</definition>
+        <argsstring>() const </argsstring>
+        <name>getCommands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_sub_path_1acc77625b0b10c1f528587b8468e8ad42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSubPath::addCommand</definition>
+        <argsstring>(const Command &amp;command)</argsstring>
+        <name>addCommand</name>
+        <param>
+          <type>const <ref refid="structof_sub_path_1_1_command" kindref="compound">Command</ref> &amp;</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_sub_path_1a5bf55161fded71ef5c9eb4edc5f06e3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofSubPath::hasChanged</definition>
+        <argsstring>()</argsstring>
+        <name>hasChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_sub_path_1a1935607f36e1a6647c97ae797d1ef0ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSubPath::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_sub_path_1a77d23c2d58dee65f545a38003649658d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofSubPath::isClosed</definition>
+        <argsstring>()</argsstring>
+        <name>isClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_sub_path_1a7b392eaff2485234bce2b691033c3dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofSubPath::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="140" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="140" bodyend="181"/>
+    <listofallmembers>
+      <member refid="classof_sub_path_1acc77625b0b10c1f528587b8468e8ad42" prot="public" virt="non-virtual"><scope>ofSubPath</scope><name>addCommand</name></member>
+      <member refid="classof_sub_path_1a83b6b77971bf9c0749c43e018afe64f5" prot="private" virt="non-virtual"><scope>ofSubPath</scope><name>bClosed</name></member>
+      <member refid="classof_sub_path_1a351b77500bcb26899b625f030683bf3e" prot="private" virt="non-virtual"><scope>ofSubPath</scope><name>bHasChanged</name></member>
+      <member refid="classof_sub_path_1a1935607f36e1a6647c97ae797d1ef0ab" prot="public" virt="non-virtual"><scope>ofSubPath</scope><name>close</name></member>
+      <member refid="classof_sub_path_1ad6dbb8a38367ad678f0f6d4f91face36" prot="private" virt="non-virtual"><scope>ofSubPath</scope><name>commands</name></member>
+      <member refid="classof_sub_path_1a1449af52508a6d93ce821dd482d4a15d" prot="public" virt="non-virtual"><scope>ofSubPath</scope><name>getCommands</name></member>
+      <member refid="classof_sub_path_1ad22986415b716ccd715b29dc728aeb89" prot="public" virt="non-virtual"><scope>ofSubPath</scope><name>getCommands</name></member>
+      <member refid="classof_sub_path_1a5bf55161fded71ef5c9eb4edc5f06e3c" prot="public" virt="non-virtual"><scope>ofSubPath</scope><name>hasChanged</name></member>
+      <member refid="classof_sub_path_1a77d23c2d58dee65f545a38003649658d" prot="public" virt="non-virtual"><scope>ofSubPath</scope><name>isClosed</name></member>
+      <member refid="classof_sub_path_1ab785c40cdb6e1e6d1ec7d77fd6baa180" prot="public" virt="non-virtual"><scope>ofSubPath</scope><name>ofSubPath</name></member>
+      <member refid="classof_sub_path_1a7b392eaff2485234bce2b691033c3dbc" prot="public" virt="non-virtual"><scope>ofSubPath</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_serial_device_info" kind="class" prot="public">
+    <compoundname>ofSerialDeviceInfo</compoundname>
+    <includes refid="of_types_8h" local="no">ofTypes.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classof_serial_device_info_1a738b5a6b2bbb311ba6946feda233b755" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ofSerial</definition>
+        <argsstring></argsstring>
+        <name>ofSerial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="17" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_serial_device_info_1a1deaf8b2c01372d41c2df925160bd7e7" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofSerialDeviceInfo::devicePath</definition>
+        <argsstring></argsstring>
+        <name>devicePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="45" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_serial_device_info_1a0f79add7e2658721d4dda9b9417a27e8" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofSerialDeviceInfo::deviceName</definition>
+        <argsstring></argsstring>
+        <name>deviceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_serial_device_info_1a66fce352d89f67409c40e4a767cfb7f7" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofSerialDeviceInfo::deviceID</definition>
+        <argsstring></argsstring>
+        <name>deviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="47" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_serial_device_info_1a8450a8c81f18cadec7be90a87f81ccfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofSerialDeviceInfo::ofSerialDeviceInfo</definition>
+        <argsstring>(string devicePathIn, string deviceNameIn, int deviceIDIn)</argsstring>
+        <name>ofSerialDeviceInfo</name>
+        <param>
+          <type>string</type>
+          <declname>devicePathIn</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>deviceNameIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>deviceIDIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="21" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_device_info_1a65097c45e9bb5d470ddf9747125e283d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofSerialDeviceInfo::ofSerialDeviceInfo</definition>
+        <argsstring>()</argsstring>
+        <name>ofSerialDeviceInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="27" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_device_info_1a9456ff5a5b06dac481c287c65e6557e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofSerialDeviceInfo::getDevicePath</definition>
+        <argsstring>()</argsstring>
+        <name>getDevicePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="32" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_device_info_1ace475223571db70566eb7cb50e2b5928" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofSerialDeviceInfo::getDeviceName</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="36" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_device_info_1a00b99cf903d54bfd118d149fddb24328" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofSerialDeviceInfo::getDeviceID</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="40" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="16" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="16" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classof_serial_device_info_1a66fce352d89f67409c40e4a767cfb7f7" prot="protected" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>deviceID</name></member>
+      <member refid="classof_serial_device_info_1a0f79add7e2658721d4dda9b9417a27e8" prot="protected" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>deviceName</name></member>
+      <member refid="classof_serial_device_info_1a1deaf8b2c01372d41c2df925160bd7e7" prot="protected" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>devicePath</name></member>
+      <member refid="classof_serial_device_info_1a00b99cf903d54bfd118d149fddb24328" prot="public" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>getDeviceID</name></member>
+      <member refid="classof_serial_device_info_1ace475223571db70566eb7cb50e2b5928" prot="public" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>getDeviceName</name></member>
+      <member refid="classof_serial_device_info_1a9456ff5a5b06dac481c287c65e6557e4" prot="public" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>getDevicePath</name></member>
+      <member refid="classof_serial_device_info_1a738b5a6b2bbb311ba6946feda233b755" prot="private" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>ofSerial</name></member>
+      <member refid="classof_serial_device_info_1a8450a8c81f18cadec7be90a87f81ccfa" prot="public" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>ofSerialDeviceInfo</name></member>
+      <member refid="classof_serial_device_info_1a65097c45e9bb5d470ddf9747125e283d" prot="public" virt="non-virtual"><scope>ofSerialDeviceInfo</scope><name>ofSerialDeviceInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

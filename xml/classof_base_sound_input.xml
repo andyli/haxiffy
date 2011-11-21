@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_base_sound_input" kind="class" prot="public">
+    <compoundname>ofBaseSoundInput</compoundname>
+    <derivedcompoundref refid="classof_base_app" prot="public" virt="non-virtual">ofBaseApp</derivedcompoundref>
+    <includes refid="of_base_types_8h" local="no">ofBaseTypes.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_base_sound_input_1a430cbf02af4a2a14767b53fcc5cc1383" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofBaseSoundInput::~ofBaseSoundInput</definition>
+        <argsstring>()</argsstring>
+        <name>~ofBaseSoundInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="130" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_input_1a27614c83263da3af6ba55f91ec651b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundInput::audioIn</definition>
+        <argsstring>(float *input, int bufferSize, int nChannels, int deviceID, long unsigned long tickCount)</argsstring>
+        <name>audioIn</name>
+        <param>
+          <type>float *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>deviceID</declname>
+        </param>
+        <param>
+          <type>long unsigned long</type>
+          <declname>tickCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="132" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="132" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_input_1ac30f51b9b092efcbf631a1c1c04ebee5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundInput::audioIn</definition>
+        <argsstring>(float *input, int bufferSize, int nChannels)</argsstring>
+        <name>audioIn</name>
+        <param>
+          <type>float *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nChannels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="136" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="136" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_input_1aa25595a25f26bade23a380ec76a52849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundInput::audioReceived</definition>
+        <argsstring>(float *input, int bufferSize, int nChannels)</argsstring>
+        <name>audioReceived</name>
+        <param>
+          <type>float *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nChannels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="140" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="140" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="113">
+        <label>ofBaseApp</label>
+        <link refid="classof_base_app"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>ofBaseSoundInput</label>
+        <link refid="classof_base_sound_input"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="127" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="127" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classof_base_sound_input_1a27614c83263da3af6ba55f91ec651b70" prot="public" virt="virtual"><scope>ofBaseSoundInput</scope><name>audioIn</name></member>
+      <member refid="classof_base_sound_input_1ac30f51b9b092efcbf631a1c1c04ebee5" prot="public" virt="virtual"><scope>ofBaseSoundInput</scope><name>audioIn</name></member>
+      <member refid="classof_base_sound_input_1aa25595a25f26bade23a380ec76a52849" prot="public" virt="virtual"><scope>ofBaseSoundInput</scope><name>audioReceived</name></member>
+      <member refid="classof_base_sound_input_1a430cbf02af4a2a14767b53fcc5cc1383" prot="public" virt="virtual"><scope>ofBaseSoundInput</scope><name>~ofBaseSoundInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

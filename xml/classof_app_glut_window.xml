@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_app_glut_window" kind="class" prot="public">
+    <compoundname>ofAppGlutWindow</compoundname>
+    <basecompoundref refid="classof_app_base_window" prot="public" virt="non-virtual">ofAppBaseWindow</basecompoundref>
+    <includes refid="of_app_glut_window_8h" local="no">ofAppGlutWindow.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_app_glut_window_1ab2b4ce19f9d244bd899ab69e6f6d5d08" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofAppGlutWindow::displayString</definition>
+        <argsstring></argsstring>
+        <name>displayString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="66" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_app_glut_window_1afda73b6b69e66540ee144a88e7bee66b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofAppGlutWindow::ofAppGlutWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ofAppGlutWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a99f5c43ecc2f41ea79872cdf750a659e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofAppGlutWindow::~ofAppGlutWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~ofAppGlutWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="16" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a598b8efb3d962e0261ef5e3faaa75213" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::setupOpenGL</definition>
+        <argsstring>(int w, int h, int screenMode)</argsstring>
+        <name>setupOpenGL</name>
+        <reimplements refid="classof_app_base_window_1a9711b1ab1fe2e765eace3e7fb64f011b">setupOpenGL</reimplements>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>screenMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a71a97b33e147d22a619fa7fe7f3721f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::initializeWindow</definition>
+        <argsstring>()</argsstring>
+        <name>initializeWindow</name>
+        <reimplements refid="classof_app_base_window_1a4a4d7346e04b0f9292c8c92449269ec4">initializeWindow</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a52733b702e7f2b7ff42b8c128111c91d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::runAppViaInfiniteLoop</definition>
+        <argsstring>(ofBaseApp *appPtr)</argsstring>
+        <name>runAppViaInfiniteLoop</name>
+        <reimplements refid="classof_app_base_window_1a039ff5b4950c30ea0416dfa32031736e">runAppViaInfiniteLoop</reimplements>
+        <param>
+          <type><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> *</type>
+          <declname>appPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1aad099bff29975f5061fce60e6889c500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::setGlutDisplayString</definition>
+        <argsstring>(string str)</argsstring>
+        <name>setGlutDisplayString</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a1a3c21c45dbadf7f88c5d43e886c4d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::hideCursor</definition>
+        <argsstring>()</argsstring>
+        <name>hideCursor</name>
+        <reimplements refid="classof_app_base_window_1af4ef05008c4f77e2a0f8c271268ecfc1">hideCursor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a25d4500a8e1502eee1973a4c5824db3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::showCursor</definition>
+        <argsstring>()</argsstring>
+        <name>showCursor</name>
+        <reimplements refid="classof_app_base_window_1ac252b1bb722cc7b21b7c3629b7113c85">showCursor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a807f6970e7acb19d8e65549eb99ac15a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::setFullscreen</definition>
+        <argsstring>(bool fullScreen)</argsstring>
+        <name>setFullscreen</name>
+        <reimplements refid="classof_app_base_window_1a4d4f5560b718479f81d4cbdbd90e7f7d">setFullscreen</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>fullScreen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a7854c88880586b16f915bdb8e515cd6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::toggleFullscreen</definition>
+        <argsstring>()</argsstring>
+        <name>toggleFullscreen</name>
+        <reimplements refid="classof_app_base_window_1ad9164e5949d0c0f4a8b72e452fa9ce61">toggleFullscreen</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a3154be2e347e4f074b3a7c6e96191f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::setWindowTitle</definition>
+        <argsstring>(string title)</argsstring>
+        <name>setWindowTitle</name>
+        <reimplements refid="classof_app_base_window_1ae07e37bc05f8e58bdb836784f9405e10">setWindowTitle</reimplements>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a9437eeb528c2e911e0104b1ddc2fb158" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::setWindowPosition</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>setWindowPosition</name>
+        <reimplements refid="classof_app_base_window_1a086fffc9787f57b808a82f47b33eada8">setWindowPosition</reimplements>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1aab86a5fef13f29b3de991d5a7e345963" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::setWindowShape</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>setWindowShape</name>
+        <reimplements refid="classof_app_base_window_1afb277ec2522adf086b5d7f3b954a1d15">setWindowShape</reimplements>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a2e04950e05339ead6441943fd86fdc6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofAppGlutWindow::getWindowPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getWindowPosition</name>
+        <reimplements refid="classof_app_base_window_1ae974e4e85cb4ffb0ebe767550420b1a0">getWindowPosition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a2d76bf1ec3a2aeebced7a7b540105a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofAppGlutWindow::getWindowSize</definition>
+        <argsstring>()</argsstring>
+        <name>getWindowSize</name>
+        <reimplements refid="classof_app_base_window_1a40c5c710165d97f0e7102ceec8b99f39">getWindowSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a44b3f4a8d1d7ab66e360ac4861bac00b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofAppGlutWindow::getScreenSize</definition>
+        <argsstring>()</argsstring>
+        <name>getScreenSize</name>
+        <reimplements refid="classof_app_base_window_1aa30f7ba6708173a82d8a774de3169f02">getScreenSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a468c82ba3d1df660718c8f9aaeee940b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::setOrientation</definition>
+        <argsstring>(ofOrientation orientation)</argsstring>
+        <name>setOrientation</name>
+        <reimplements refid="classof_app_base_window_1abf382ecbee7aaad01a699d19072f54d7">setOrientation</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a20aa6e576abce9c595ff60c51c650ca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+        <definition>ofOrientation ofAppGlutWindow::getOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>getOrientation</name>
+        <reimplements refid="classof_app_base_window_1addb4b11af8f02dd874bc34deed4b207f">getOrientation</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a8b3e0b32065891d25b0d54ad55d288b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofAppGlutWindow::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplements refid="classof_app_base_window_1a4cbd97f9295367d64a3047e4545a35bc">getWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a13bd98a9f21be288ccc273bcb4938cb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofAppGlutWindow::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplements refid="classof_app_base_window_1aef76e7138aef773ee573b23d42947ae9">getHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a4f22f0bb8ec81dd32e7dadbf623b8563" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofAppGlutWindow::getWindowMode</definition>
+        <argsstring>()</argsstring>
+        <name>getWindowMode</name>
+        <reimplements refid="classof_app_base_window_1ad8f46154fee1ad30cea04552125236db">getWindowMode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a1c9b0b4f4fb8e3bf0c0a534868e738e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofAppGlutWindow::getFrameNum</definition>
+        <argsstring>()</argsstring>
+        <name>getFrameNum</name>
+        <reimplements refid="classof_app_base_window_1ac6553f116e21ac34f6f35af9f2629d84">getFrameNum</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1acd6b8dbc1e8a7aa985858b28c9e3cda9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofAppGlutWindow::getFrameRate</definition>
+        <argsstring>()</argsstring>
+        <name>getFrameRate</name>
+        <reimplements refid="classof_app_base_window_1a8bd75700687d9b9b47477a02f58bf125">getFrameRate</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a70ce41329c3060d85f389920f21d6b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double ofAppGlutWindow::getLastFrameTime</definition>
+        <argsstring>()</argsstring>
+        <name>getLastFrameTime</name>
+        <reimplements refid="classof_app_base_window_1ae5c3432bc9c7aa2fd720c4d9c500a63e">getLastFrameTime</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a65901e3c14e5664d6434c996f4534419" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::setFrameRate</definition>
+        <argsstring>(float targetRate)</argsstring>
+        <name>setFrameRate</name>
+        <reimplements refid="classof_app_base_window_1abd35c26a978c0838670800c498c1a573">setFrameRate</reimplements>
+        <param>
+          <type>float</type>
+          <declname>targetRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1aa20121ddf3f4b3c2f8e60788c0ea902f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::enableSetupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>enableSetupScreen</name>
+        <reimplements refid="classof_app_base_window_1ae5a096f8d1e8b367391fe2cf3ed86cfe">enableSetupScreen</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1af9ed83c7199f400f9a97667c332d5db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofAppGlutWindow::disableSetupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>disableSetupScreen</name>
+        <reimplements refid="classof_app_base_window_1aeb601b01dbfa47c94857512cbc3710c2">disableSetupScreen</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classof_app_glut_window_1aebaf7f3dd525cccb62067f966602c32b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::display</definition>
+        <argsstring>(void)</argsstring>
+        <name>display</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a81c6f68ee908481f31050604d16a3660" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::mouse_cb</definition>
+        <argsstring>(int button, int state, int x, int y)</argsstring>
+        <name>mouse_cb</name>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a45ffcdfa73a866f97a2dbd70254852fc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::motion_cb</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>motion_cb</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a99f89b58fa5f9ea49580db3914156f31" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::passive_motion_cb</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>passive_motion_cb</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1ac6c746ec71f99ca35b05ba9acfffdbaf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::idle_cb</definition>
+        <argsstring>(void)</argsstring>
+        <name>idle_cb</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1ae60c30c0e7699768950df06d0ebb8e26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::keyboard_cb</definition>
+        <argsstring>(unsigned char key, int x, int y)</argsstring>
+        <name>keyboard_cb</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a28c511dcccb4ff90f86080992253b709" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::keyboard_up_cb</definition>
+        <argsstring>(unsigned char key, int x, int y)</argsstring>
+        <name>keyboard_up_cb</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1ad705f067ed8cee850926d61037506eea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::special_key_cb</definition>
+        <argsstring>(int key, int x, int y)</argsstring>
+        <name>special_key_cb</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a248bce4dbb3e0304282c05e57d91a3dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::special_key_up_cb</definition>
+        <argsstring>(int key, int x, int y)</argsstring>
+        <name>special_key_up_cb</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a4f8de35cce3c2a1a9c9ca3aa11d2204c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::resize_cb</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>resize_cb</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_glut_window_1a61cbac08a6431398dfb285d6893dbea2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofAppGlutWindow::dragEvent</definition>
+        <argsstring>(char **fileNames, int howManyFiles, int dragX, int dragY)</argsstring>
+        <name>dragEvent</name>
+        <param>
+          <type>char **</type>
+          <declname>fileNames</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>howManyFiles</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dragX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dragY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>ofAppGlutWindow</label>
+        <link refid="classof_app_glut_window"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>ofAppBaseWindow</label>
+        <link refid="classof_app_base_window"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="40">
+        <label>ofAppGlutWindow</label>
+        <link refid="classof_app_glut_window"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>ofAppBaseWindow</label>
+        <link refid="classof_app_base_window"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" line="11" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppGlutWindow.h" bodystart="11" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classof_app_glut_window_1af9ed83c7199f400f9a97667c332d5db8" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>disableSetupScreen</name></member>
+      <member refid="classof_app_glut_window_1aebaf7f3dd525cccb62067f966602c32b" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>display</name></member>
+      <member refid="classof_app_glut_window_1ab2b4ce19f9d244bd899ab69e6f6d5d08" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>displayString</name></member>
+      <member refid="classof_app_base_window_1a7bb214b855429ac2ddf1091d93cfb4a8" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>doesHWOrientation</name></member>
+      <member refid="classof_app_glut_window_1a61cbac08a6431398dfb285d6893dbea2" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>dragEvent</name></member>
+      <member refid="classof_app_glut_window_1aa20121ddf3f4b3c2f8e60788c0ea902f" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>enableSetupScreen</name></member>
+      <member refid="classof_app_glut_window_1a1c9b0b4f4fb8e3bf0c0a534868e738e1" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getFrameNum</name></member>
+      <member refid="classof_app_glut_window_1acd6b8dbc1e8a7aa985858b28c9e3cda9" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getFrameRate</name></member>
+      <member refid="classof_app_glut_window_1a13bd98a9f21be288ccc273bcb4938cb5" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getHeight</name></member>
+      <member refid="classof_app_glut_window_1a70ce41329c3060d85f389920f21d6b35" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getLastFrameTime</name></member>
+      <member refid="classof_app_glut_window_1a20aa6e576abce9c595ff60c51c650ca7" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getOrientation</name></member>
+      <member refid="classof_app_glut_window_1a44b3f4a8d1d7ab66e360ac4861bac00b" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getScreenSize</name></member>
+      <member refid="classof_app_glut_window_1a8b3e0b32065891d25b0d54ad55d288b8" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getWidth</name></member>
+      <member refid="classof_app_glut_window_1a4f22f0bb8ec81dd32e7dadbf623b8563" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getWindowMode</name></member>
+      <member refid="classof_app_glut_window_1a2e04950e05339ead6441943fd86fdc6f" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getWindowPosition</name></member>
+      <member refid="classof_app_glut_window_1a2d76bf1ec3a2aeebced7a7b540105a7d" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>getWindowSize</name></member>
+      <member refid="classof_app_glut_window_1a1a3c21c45dbadf7f88c5d43e886c4d38" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>hideCursor</name></member>
+      <member refid="classof_app_glut_window_1ac6c746ec71f99ca35b05ba9acfffdbaf" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>idle_cb</name></member>
+      <member refid="classof_app_glut_window_1a71a97b33e147d22a619fa7fe7f3721f7" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>initializeWindow</name></member>
+      <member refid="classof_app_glut_window_1ae60c30c0e7699768950df06d0ebb8e26" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>keyboard_cb</name></member>
+      <member refid="classof_app_glut_window_1a28c511dcccb4ff90f86080992253b709" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>keyboard_up_cb</name></member>
+      <member refid="classof_app_glut_window_1a45ffcdfa73a866f97a2dbd70254852fc" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>motion_cb</name></member>
+      <member refid="classof_app_glut_window_1a81c6f68ee908481f31050604d16a3660" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>mouse_cb</name></member>
+      <member refid="classof_app_base_window_1a434ff7f77c33c507a9ea2144f9a13a3d" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>ofAppBaseWindow</name></member>
+      <member refid="classof_app_glut_window_1afda73b6b69e66540ee144a88e7bee66b" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>ofAppGlutWindow</name></member>
+      <member refid="classof_app_glut_window_1a99f89b58fa5f9ea49580db3914156f31" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>passive_motion_cb</name></member>
+      <member refid="classof_app_glut_window_1a4f8de35cce3c2a1a9c9ca3aa11d2204c" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>resize_cb</name></member>
+      <member refid="classof_app_glut_window_1a52733b702e7f2b7ff42b8c128111c91d" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>runAppViaInfiniteLoop</name></member>
+      <member refid="classof_app_glut_window_1a65901e3c14e5664d6434c996f4534419" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>setFrameRate</name></member>
+      <member refid="classof_app_glut_window_1a807f6970e7acb19d8e65549eb99ac15a" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>setFullscreen</name></member>
+      <member refid="classof_app_glut_window_1aad099bff29975f5061fce60e6889c500" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>setGlutDisplayString</name></member>
+      <member refid="classof_app_glut_window_1a468c82ba3d1df660718c8f9aaeee940b" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>setOrientation</name></member>
+      <member refid="classof_app_glut_window_1a598b8efb3d962e0261ef5e3faaa75213" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>setupOpenGL</name></member>
+      <member refid="classof_app_glut_window_1a9437eeb528c2e911e0104b1ddc2fb158" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>setWindowPosition</name></member>
+      <member refid="classof_app_glut_window_1aab86a5fef13f29b3de991d5a7e345963" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>setWindowShape</name></member>
+      <member refid="classof_app_glut_window_1a3154be2e347e4f074b3a7c6e96191f59" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>setWindowTitle</name></member>
+      <member refid="classof_app_glut_window_1a25d4500a8e1502eee1973a4c5824db3f" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>showCursor</name></member>
+      <member refid="classof_app_glut_window_1ad705f067ed8cee850926d61037506eea" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>special_key_cb</name></member>
+      <member refid="classof_app_glut_window_1a248bce4dbb3e0304282c05e57d91a3dd" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>special_key_up_cb</name></member>
+      <member refid="classof_app_glut_window_1a7854c88880586b16f915bdb8e515cd6e" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>toggleFullscreen</name></member>
+      <member refid="classof_app_base_window_1ad77f4c6d448b1450bff55331657b8f3d" prot="public" virt="virtual"><scope>ofAppGlutWindow</scope><name>~ofAppBaseWindow</name></member>
+      <member refid="classof_app_glut_window_1a99f5c43ecc2f41ea79872cdf750a659e" prot="public" virt="non-virtual"><scope>ofAppGlutWindow</scope><name>~ofAppGlutWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_vbo" kind="class" prot="public">
+    <compoundname>ofVbo</compoundname>
+    <includes refid="of_vbo_8h" local="no">ofVbo.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_vbo_1ac1aeccadefd7da7dc6c2fd271876aa62" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::indexId</definition>
+        <argsstring></argsstring>
+        <name>indexId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="70" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a3775b7f31555658fdb27414fd09fa701" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::vertId</definition>
+        <argsstring></argsstring>
+        <name>vertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="72" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1abcfbc3d1199f4cfa1e464834a7c43a5a" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::colorId</definition>
+        <argsstring></argsstring>
+        <name>colorId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="73" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a40b96919bd0f5653b2e62b18c27499f9" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::normalId</definition>
+        <argsstring></argsstring>
+        <name>normalId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="74" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1aafbd37adc3c1b3717c9e650cea775190" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::texCoordId</definition>
+        <argsstring></argsstring>
+        <name>texCoordId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="75" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a9ac2e55b9c57aa25d54553ea12a5cd0e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofVbo::bAllocated</definition>
+        <argsstring></argsstring>
+        <name>bAllocated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="77" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a74f8ea4c7aec681e1db2c9d3852f2c0b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofVbo::bUsingVerts</definition>
+        <argsstring></argsstring>
+        <name>bUsingVerts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="79" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1acb5105893de7192c81911e168fa2b022" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofVbo::bUsingTexCoords</definition>
+        <argsstring></argsstring>
+        <name>bUsingTexCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="80" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a1443d9433360e6ca6fde86637e7e252e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofVbo::bUsingColors</definition>
+        <argsstring></argsstring>
+        <name>bUsingColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="81" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a367ae2af7b6e621520ec60694001654f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofVbo::bUsingNormals</definition>
+        <argsstring></argsstring>
+        <name>bUsingNormals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="82" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1ab76e77dcf10c6e47a9631d6c0ca9f9a7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofVbo::bUsingIndices</definition>
+        <argsstring></argsstring>
+        <name>bUsingIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a9957d9aa65de1ac74ba460aba104ca89" prot="private" static="no" mutable="no">
+        <type>GLsizei</type>
+        <definition>GLsizei ofVbo::vertStride</definition>
+        <argsstring></argsstring>
+        <name>vertStride</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="85" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1ae4e6724b5c3feac7bdcd490acf1a11f4" prot="private" static="no" mutable="no">
+        <type>GLsizei</type>
+        <definition>GLsizei ofVbo::colorStride</definition>
+        <argsstring></argsstring>
+        <name>colorStride</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="86" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a99ea448d9e9cc5ebfd04e7b8d8699312" prot="private" static="no" mutable="no">
+        <type>GLsizei</type>
+        <definition>GLsizei ofVbo::normalStride</definition>
+        <argsstring></argsstring>
+        <name>normalStride</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="87" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1aaf94468efc12b4382701f2f04f65b9d0" prot="private" static="no" mutable="no">
+        <type>GLsizei</type>
+        <definition>GLsizei ofVbo::texCoordStride</definition>
+        <argsstring></argsstring>
+        <name>texCoordStride</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a04232e12f103c5ba1ca2882b204a6250" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofVbo::vertSize</definition>
+        <argsstring></argsstring>
+        <name>vertSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="90" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a8002a2009569f8f256aca67478c81a23" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofVbo::totalVerts</definition>
+        <argsstring></argsstring>
+        <name>totalVerts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="91" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a037e1b82d9a234432b3cb5f13933c84f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofVbo::vertUsage</definition>
+        <argsstring></argsstring>
+        <name>vertUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="93" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a93b21646d340ca25bb6ce92f65173668" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofVbo::colorUsage</definition>
+        <argsstring></argsstring>
+        <name>colorUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="94" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1af0cb6dce2ffd81d8184d917577489a02" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofVbo::normUsage</definition>
+        <argsstring></argsstring>
+        <name>normUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vbo_1a5828ffa2a582339833463d2d0beed919" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofVbo::texUsage</definition>
+        <argsstring></argsstring>
+        <name>texUsage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="96" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_vbo_1aff203260b1f4e8d7a650045014b8e8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofVbo::ofVbo</definition>
+        <argsstring>()</argsstring>
+        <name>ofVbo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a16a4658c6e2b80ae94aefde2664398dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofVbo::ofVbo</definition>
+        <argsstring>(const ofVbo &amp;mom)</argsstring>
+        <name>ofVbo</name>
+        <param>
+          <type>const <ref refid="classof_vbo" kindref="compound">ofVbo</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1ac67b42b3eced88acd0513a620c6c0113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vbo" kindref="compound">ofVbo</ref> &amp;</type>
+        <definition>ofVbo&amp; ofVbo::operator=</definition>
+        <argsstring>(const ofVbo &amp;mom)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_vbo" kindref="compound">ofVbo</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a1d4461c6bacdc97a50407dd48e03723b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofVbo::~ofVbo</definition>
+        <argsstring>()</argsstring>
+        <name>~ofVbo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a7b006f7ec9d6da4ab852e9592157e0df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setMesh</definition>
+        <argsstring>(const ofMesh &amp;mesh, int usage)</argsstring>
+        <name>setMesh</name>
+        <param>
+          <type>const <ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a56b0d11cae3bb66e76e78c57d52041a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setVertexData</definition>
+        <argsstring>(const ofVec3f *verts, int total, int usage)</argsstring>
+        <name>setVertexData</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> *</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a9d1b18119de2626afeeb6e2e72c528ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setVertexData</definition>
+        <argsstring>(const ofVec2f *verts, int total, int usage)</argsstring>
+        <name>setVertexData</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> *</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1ae9d907d11e66989fabf9c618224ad71e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setColorData</definition>
+        <argsstring>(const ofFloatColor *colors, int total, int usage)</argsstring>
+        <name>setColorData</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofFloatColor</ref> *</type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a661122cc62a0b83bca2be039236d61c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setNormalData</definition>
+        <argsstring>(const ofVec3f *normals, int total, int usage)</argsstring>
+        <name>setNormalData</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a6b35c5e7cd9d2bfea0fff641e23e27c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setTexCoordData</definition>
+        <argsstring>(const ofVec2f *texCoords, int total, int usage)</argsstring>
+        <name>setTexCoordData</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> *</type>
+          <declname>texCoords</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1ab7f5b57b67630dccd83158b5e0567fb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setIndexData</definition>
+        <argsstring>(const ofIndexType *indices, int total, int usage)</argsstring>
+        <name>setIndexData</name>
+        <param>
+          <type>const <ref refid="of_constants_8h_1ad4acc3774c730c65a67b4419154717d3" kindref="member">ofIndexType</ref> *</type>
+          <declname>indices</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a57b8af3a490965f4c25da074db1e16c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setVertexData</definition>
+        <argsstring>(const float *vert0x, int numCoords, int total, int usage, int stride=0)</argsstring>
+        <name>setVertexData</name>
+        <param>
+          <type>const float *</type>
+          <declname>vert0x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numCoords</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stride</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1aec1bc322f8d934c33d9ff8e923e48232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setColorData</definition>
+        <argsstring>(const float *color0r, int total, int usage, int stride=0)</argsstring>
+        <name>setColorData</name>
+        <param>
+          <type>const float *</type>
+          <declname>color0r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stride</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a883b47f14db91aaf6a97a8c5832e0cc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setNormalData</definition>
+        <argsstring>(const float *normal0x, int total, int usage, int stride=0)</argsstring>
+        <name>setNormalData</name>
+        <param>
+          <type>const float *</type>
+          <declname>normal0x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stride</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a30993eec23997da4010354912e63078a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::setTexCoordData</definition>
+        <argsstring>(const float *texCoord0x, int total, int usage, int stride=0)</argsstring>
+        <name>setTexCoordData</name>
+        <param>
+          <type>const float *</type>
+          <declname>texCoord0x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>usage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stride</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a2bbf602f80c8fff31417f34ea05b59d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateMesh</definition>
+        <argsstring>(const ofMesh &amp;mesh)</argsstring>
+        <name>updateMesh</name>
+        <param>
+          <type>const <ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1ab243e68e338fe4f1762d0a804713ea3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateVertexData</definition>
+        <argsstring>(const ofVec3f *verts, int total)</argsstring>
+        <name>updateVertexData</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> *</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a9621e647a75b448c55b82b81af8f13db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateVertexData</definition>
+        <argsstring>(const ofVec2f *verts, int total)</argsstring>
+        <name>updateVertexData</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> *</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a99bc260586e7686f50cc40d998cd96d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateColorData</definition>
+        <argsstring>(const ofFloatColor *colors, int total)</argsstring>
+        <name>updateColorData</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofFloatColor</ref> *</type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1abde8f4cd7d566af2088832e53ec8ae34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateNormalData</definition>
+        <argsstring>(const ofVec3f *normals, int total)</argsstring>
+        <name>updateNormalData</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> *</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a704c38c06160e14bc8d4ecdad666d19c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateTexCoordData</definition>
+        <argsstring>(const ofVec2f *texCoords, int total)</argsstring>
+        <name>updateTexCoordData</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> *</type>
+          <declname>texCoords</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a258d69bac6f6ed967d6a689f3e2e1ca5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateIndexData</definition>
+        <argsstring>(const ofIndexType *indices, int total)</argsstring>
+        <name>updateIndexData</name>
+        <param>
+          <type>const <ref refid="of_constants_8h_1ad4acc3774c730c65a67b4419154717d3" kindref="member">ofIndexType</ref> *</type>
+          <declname>indices</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a779a64c43240b83ceb80dd2d4b6ce582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateVertexData</definition>
+        <argsstring>(const float *ver0x, int total)</argsstring>
+        <name>updateVertexData</name>
+        <param>
+          <type>const float *</type>
+          <declname>ver0x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a727665f71d382894169552e996e68f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateColorData</definition>
+        <argsstring>(const float *color0r, int total)</argsstring>
+        <name>updateColorData</name>
+        <param>
+          <type>const float *</type>
+          <declname>color0r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a292b1681f93ba160afc6d325ff8a70e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateNormalData</definition>
+        <argsstring>(const float *normal0x, int total)</argsstring>
+        <name>updateNormalData</name>
+        <param>
+          <type>const float *</type>
+          <declname>normal0x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1ab570cac69fbea4c2428116b1fde81fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::updateTexCoordData</definition>
+        <argsstring>(const float *texCoord0x, int total)</argsstring>
+        <name>updateTexCoordData</name>
+        <param>
+          <type>const float *</type>
+          <declname>texCoord0x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1aa59f76aa83cc14b431deacfba6eaef2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::getVertId</definition>
+        <argsstring>()</argsstring>
+        <name>getVertId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1afca502c9aa0ce7d83e9e70a41388c39d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::getColorId</definition>
+        <argsstring>()</argsstring>
+        <name>getColorId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1accffaabb5d98df22d509a56cbbd2a4bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::getNormalId</definition>
+        <argsstring>()</argsstring>
+        <name>getNormalId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1ae444d0a466df0454361facf0951424d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::getTexCoordId</definition>
+        <argsstring>()</argsstring>
+        <name>getTexCoordId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a14b921b9401f3707b3b201a69c159207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofVbo::getIndexId</definition>
+        <argsstring>()</argsstring>
+        <name>getIndexId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1ab570340b58e08f01cc13b14c3aec32ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVbo::getIsAllocated</definition>
+        <argsstring>()</argsstring>
+        <name>getIsAllocated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1ab2125d38064f5a414c9c9e418e77f51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVbo::getUsingVerts</definition>
+        <argsstring>()</argsstring>
+        <name>getUsingVerts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a6224c7d43017c5efcb0c69a1930e3b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVbo::getUsingColors</definition>
+        <argsstring>()</argsstring>
+        <name>getUsingColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1af6e0840d3ae2526d8e5aaaaab89881e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVbo::getUsingNormals</definition>
+        <argsstring>()</argsstring>
+        <name>getUsingNormals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a2d039312de6896c915fde05b9e952c89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVbo::getUsingTexCoords</definition>
+        <argsstring>()</argsstring>
+        <name>getUsingTexCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a666907e4dcd20ae80e762b67eac595bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVbo::getUsingIndices</definition>
+        <argsstring>()</argsstring>
+        <name>getUsingIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a53d346c3087ad113ecf2cf24162abc5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::draw</definition>
+        <argsstring>(int drawMode, int first, int total)</argsstring>
+        <name>draw</name>
+        <param>
+          <type>int</type>
+          <declname>drawMode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1aa963a1a6941e42c917d47ca8322242f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::drawElements</definition>
+        <argsstring>(int drawMode, int amt)</argsstring>
+        <name>drawElements</name>
+        <param>
+          <type>int</type>
+          <declname>drawMode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a669ef62d998a8a30492bb155a885b80c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::bind</definition>
+        <argsstring>()</argsstring>
+        <name>bind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1aa8443a60bf4108b625e806f0a413d7f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::unbind</definition>
+        <argsstring>()</argsstring>
+        <name>unbind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vbo_1a836a2dcbde0393792debe3306487323f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVbo::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" line="11" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVbo.h" bodystart="11" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classof_vbo_1a9ac2e55b9c57aa25d54553ea12a5cd0e" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>bAllocated</name></member>
+      <member refid="classof_vbo_1a669ef62d998a8a30492bb155a885b80c" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>bind</name></member>
+      <member refid="classof_vbo_1a1443d9433360e6ca6fde86637e7e252e" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>bUsingColors</name></member>
+      <member refid="classof_vbo_1ab76e77dcf10c6e47a9631d6c0ca9f9a7" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>bUsingIndices</name></member>
+      <member refid="classof_vbo_1a367ae2af7b6e621520ec60694001654f" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>bUsingNormals</name></member>
+      <member refid="classof_vbo_1acb5105893de7192c81911e168fa2b022" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>bUsingTexCoords</name></member>
+      <member refid="classof_vbo_1a74f8ea4c7aec681e1db2c9d3852f2c0b" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>bUsingVerts</name></member>
+      <member refid="classof_vbo_1a836a2dcbde0393792debe3306487323f" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>clear</name></member>
+      <member refid="classof_vbo_1abcfbc3d1199f4cfa1e464834a7c43a5a" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>colorId</name></member>
+      <member refid="classof_vbo_1ae4e6724b5c3feac7bdcd490acf1a11f4" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>colorStride</name></member>
+      <member refid="classof_vbo_1a93b21646d340ca25bb6ce92f65173668" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>colorUsage</name></member>
+      <member refid="classof_vbo_1a53d346c3087ad113ecf2cf24162abc5f" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>draw</name></member>
+      <member refid="classof_vbo_1aa963a1a6941e42c917d47ca8322242f1" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>drawElements</name></member>
+      <member refid="classof_vbo_1afca502c9aa0ce7d83e9e70a41388c39d" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getColorId</name></member>
+      <member refid="classof_vbo_1a14b921b9401f3707b3b201a69c159207" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getIndexId</name></member>
+      <member refid="classof_vbo_1ab570340b58e08f01cc13b14c3aec32ee" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getIsAllocated</name></member>
+      <member refid="classof_vbo_1accffaabb5d98df22d509a56cbbd2a4bb" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getNormalId</name></member>
+      <member refid="classof_vbo_1ae444d0a466df0454361facf0951424d6" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getTexCoordId</name></member>
+      <member refid="classof_vbo_1a6224c7d43017c5efcb0c69a1930e3b2f" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getUsingColors</name></member>
+      <member refid="classof_vbo_1a666907e4dcd20ae80e762b67eac595bb" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getUsingIndices</name></member>
+      <member refid="classof_vbo_1af6e0840d3ae2526d8e5aaaaab89881e0" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getUsingNormals</name></member>
+      <member refid="classof_vbo_1a2d039312de6896c915fde05b9e952c89" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getUsingTexCoords</name></member>
+      <member refid="classof_vbo_1ab2125d38064f5a414c9c9e418e77f51d" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getUsingVerts</name></member>
+      <member refid="classof_vbo_1aa59f76aa83cc14b431deacfba6eaef2c" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>getVertId</name></member>
+      <member refid="classof_vbo_1ac1aeccadefd7da7dc6c2fd271876aa62" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>indexId</name></member>
+      <member refid="classof_vbo_1a40b96919bd0f5653b2e62b18c27499f9" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>normalId</name></member>
+      <member refid="classof_vbo_1a99ea448d9e9cc5ebfd04e7b8d8699312" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>normalStride</name></member>
+      <member refid="classof_vbo_1af0cb6dce2ffd81d8184d917577489a02" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>normUsage</name></member>
+      <member refid="classof_vbo_1aff203260b1f4e8d7a650045014b8e8da" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>ofVbo</name></member>
+      <member refid="classof_vbo_1a16a4658c6e2b80ae94aefde2664398dd" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>ofVbo</name></member>
+      <member refid="classof_vbo_1ac67b42b3eced88acd0513a620c6c0113" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>operator=</name></member>
+      <member refid="classof_vbo_1ae9d907d11e66989fabf9c618224ad71e" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setColorData</name></member>
+      <member refid="classof_vbo_1aec1bc322f8d934c33d9ff8e923e48232" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setColorData</name></member>
+      <member refid="classof_vbo_1ab7f5b57b67630dccd83158b5e0567fb9" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setIndexData</name></member>
+      <member refid="classof_vbo_1a7b006f7ec9d6da4ab852e9592157e0df" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setMesh</name></member>
+      <member refid="classof_vbo_1a661122cc62a0b83bca2be039236d61c3" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setNormalData</name></member>
+      <member refid="classof_vbo_1a883b47f14db91aaf6a97a8c5832e0cc0" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setNormalData</name></member>
+      <member refid="classof_vbo_1a6b35c5e7cd9d2bfea0fff641e23e27c3" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setTexCoordData</name></member>
+      <member refid="classof_vbo_1a30993eec23997da4010354912e63078a" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setTexCoordData</name></member>
+      <member refid="classof_vbo_1a56b0d11cae3bb66e76e78c57d52041a4" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setVertexData</name></member>
+      <member refid="classof_vbo_1a9d1b18119de2626afeeb6e2e72c528ba" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setVertexData</name></member>
+      <member refid="classof_vbo_1a57b8af3a490965f4c25da074db1e16c8" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>setVertexData</name></member>
+      <member refid="classof_vbo_1aafbd37adc3c1b3717c9e650cea775190" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>texCoordId</name></member>
+      <member refid="classof_vbo_1aaf94468efc12b4382701f2f04f65b9d0" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>texCoordStride</name></member>
+      <member refid="classof_vbo_1a5828ffa2a582339833463d2d0beed919" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>texUsage</name></member>
+      <member refid="classof_vbo_1a8002a2009569f8f256aca67478c81a23" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>totalVerts</name></member>
+      <member refid="classof_vbo_1aa8443a60bf4108b625e806f0a413d7f4" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>unbind</name></member>
+      <member refid="classof_vbo_1a99bc260586e7686f50cc40d998cd96d1" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateColorData</name></member>
+      <member refid="classof_vbo_1a727665f71d382894169552e996e68f3c" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateColorData</name></member>
+      <member refid="classof_vbo_1a258d69bac6f6ed967d6a689f3e2e1ca5" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateIndexData</name></member>
+      <member refid="classof_vbo_1a2bbf602f80c8fff31417f34ea05b59d5" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateMesh</name></member>
+      <member refid="classof_vbo_1abde8f4cd7d566af2088832e53ec8ae34" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateNormalData</name></member>
+      <member refid="classof_vbo_1a292b1681f93ba160afc6d325ff8a70e4" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateNormalData</name></member>
+      <member refid="classof_vbo_1a704c38c06160e14bc8d4ecdad666d19c" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateTexCoordData</name></member>
+      <member refid="classof_vbo_1ab570cac69fbea4c2428116b1fde81fb0" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateTexCoordData</name></member>
+      <member refid="classof_vbo_1ab243e68e338fe4f1762d0a804713ea3b" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateVertexData</name></member>
+      <member refid="classof_vbo_1a9621e647a75b448c55b82b81af8f13db" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateVertexData</name></member>
+      <member refid="classof_vbo_1a779a64c43240b83ceb80dd2d4b6ce582" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>updateVertexData</name></member>
+      <member refid="classof_vbo_1a3775b7f31555658fdb27414fd09fa701" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>vertId</name></member>
+      <member refid="classof_vbo_1a04232e12f103c5ba1ca2882b204a6250" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>vertSize</name></member>
+      <member refid="classof_vbo_1a9957d9aa65de1ac74ba460aba104ca89" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>vertStride</name></member>
+      <member refid="classof_vbo_1a037e1b82d9a234432b3cb5f13933c84f" prot="private" virt="non-virtual"><scope>ofVbo</scope><name>vertUsage</name></member>
+      <member refid="classof_vbo_1a1d4461c6bacdc97a50407dd48e03723b" prot="public" virt="non-virtual"><scope>ofVbo</scope><name>~ofVbo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

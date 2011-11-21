@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_app_base_window" kind="class" prot="public">
+    <compoundname>ofAppBaseWindow</compoundname>
+    <derivedcompoundref refid="classof_app_glut_window" prot="public" virt="non-virtual">ofAppGlutWindow</derivedcompoundref>
+    <includes refid="of_app_base_window_8h" local="no">ofAppBaseWindow.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_app_base_window_1a434ff7f77c33c507a9ea2144f9a13a3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofAppBaseWindow::ofAppBaseWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ofAppBaseWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="12" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ad77f4c6d448b1450bff55331657b8f3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofAppBaseWindow::~ofAppBaseWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~ofAppBaseWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="13" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a9711b1ab1fe2e765eace3e7fb64f011b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::setupOpenGL</definition>
+        <argsstring>(int w, int h, int screenMode)</argsstring>
+        <name>setupOpenGL</name>
+        <reimplementedby refid="classof_app_glut_window_1a598b8efb3d962e0261ef5e3faaa75213">setupOpenGL</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>screenMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="15" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a4a4d7346e04b0f9292c8c92449269ec4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::initializeWindow</definition>
+        <argsstring>()</argsstring>
+        <name>initializeWindow</name>
+        <reimplementedby refid="classof_app_glut_window_1a71a97b33e147d22a619fa7fe7f3721f7">initializeWindow</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="16" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a039ff5b4950c30ea0416dfa32031736e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::runAppViaInfiniteLoop</definition>
+        <argsstring>(ofBaseApp *appPtr)</argsstring>
+        <name>runAppViaInfiniteLoop</name>
+        <reimplementedby refid="classof_app_glut_window_1a52733b702e7f2b7ff42b8c128111c91d">runAppViaInfiniteLoop</reimplementedby>
+        <param>
+          <type><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> *</type>
+          <declname>appPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="17" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1af4ef05008c4f77e2a0f8c271268ecfc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::hideCursor</definition>
+        <argsstring>()</argsstring>
+        <name>hideCursor</name>
+        <reimplementedby refid="classof_app_glut_window_1a1a3c21c45dbadf7f88c5d43e886c4d38">hideCursor</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="19" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ac252b1bb722cc7b21b7c3629b7113c85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::showCursor</definition>
+        <argsstring>()</argsstring>
+        <name>showCursor</name>
+        <reimplementedby refid="classof_app_glut_window_1a25d4500a8e1502eee1973a4c5824db3f">showCursor</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="20" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a086fffc9787f57b808a82f47b33eada8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::setWindowPosition</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>setWindowPosition</name>
+        <reimplementedby refid="classof_app_glut_window_1a9437eeb528c2e911e0104b1ddc2fb158">setWindowPosition</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1afb277ec2522adf086b5d7f3b954a1d15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::setWindowShape</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>setWindowShape</name>
+        <reimplementedby refid="classof_app_glut_window_1aab86a5fef13f29b3de991d5a7e345963">setWindowShape</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="23" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ac6553f116e21ac34f6f35af9f2629d84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int ofAppBaseWindow::getFrameNum</definition>
+        <argsstring>()</argsstring>
+        <name>getFrameNum</name>
+        <reimplementedby refid="classof_app_glut_window_1a1c9b0b4f4fb8e3bf0c0a534868e738e1">getFrameNum</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="25" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a8bd75700687d9b9b47477a02f58bf125" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>virtual float ofAppBaseWindow::getFrameRate</definition>
+        <argsstring>()</argsstring>
+        <name>getFrameRate</name>
+        <reimplementedby refid="classof_app_glut_window_1acd6b8dbc1e8a7aa985858b28c9e3cda9">getFrameRate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="26" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ae5c3432bc9c7aa2fd720c4d9c500a63e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double ofAppBaseWindow::getLastFrameTime</definition>
+        <argsstring>()</argsstring>
+        <name>getLastFrameTime</name>
+        <reimplementedby refid="classof_app_glut_window_1a70ce41329c3060d85f389920f21d6b35">getLastFrameTime</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="27" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ae974e4e85cb4ffb0ebe767550420b1a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>virtual ofPoint ofAppBaseWindow::getWindowPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getWindowPosition</name>
+        <reimplementedby refid="classof_app_glut_window_1a2e04950e05339ead6441943fd86fdc6f">getWindowPosition</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="29" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a40c5c710165d97f0e7102ceec8b99f39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>virtual ofPoint ofAppBaseWindow::getWindowSize</definition>
+        <argsstring>()</argsstring>
+        <name>getWindowSize</name>
+        <reimplementedby refid="classof_app_glut_window_1a2d76bf1ec3a2aeebced7a7b540105a7d">getWindowSize</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="30" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1aa30f7ba6708173a82d8a774de3169f02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>virtual ofPoint ofAppBaseWindow::getScreenSize</definition>
+        <argsstring>()</argsstring>
+        <name>getScreenSize</name>
+        <reimplementedby refid="classof_app_glut_window_1a44b3f4a8d1d7ab66e360ac4861bac00b">getScreenSize</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1abf382ecbee7aaad01a699d19072f54d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::setOrientation</definition>
+        <argsstring>(ofOrientation orientation)</argsstring>
+        <name>setOrientation</name>
+        <reimplementedby refid="classof_app_glut_window_1a468c82ba3d1df660718c8f9aaeee940b">setOrientation</reimplementedby>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="33" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1addb4b11af8f02dd874bc34deed4b207f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+        <definition>virtual ofOrientation ofAppBaseWindow::getOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>getOrientation</name>
+        <reimplementedby refid="classof_app_glut_window_1a20aa6e576abce9c595ff60c51c650ca7">getOrientation</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="34" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a7bb214b855429ac2ddf1091d93cfb4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool ofAppBaseWindow::doesHWOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>doesHWOrientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="35" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a4cbd97f9295367d64a3047e4545a35bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int ofAppBaseWindow::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplementedby refid="classof_app_glut_window_1a8b3e0b32065891d25b0d54ad55d288b8">getWidth</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="38" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1aef76e7138aef773ee573b23d42947ae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int ofAppBaseWindow::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplementedby refid="classof_app_glut_window_1a13bd98a9f21be288ccc273bcb4938cb5">getHeight</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="39" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1abd35c26a978c0838670800c498c1a573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::setFrameRate</definition>
+        <argsstring>(float targetRate)</argsstring>
+        <name>setFrameRate</name>
+        <reimplementedby refid="classof_app_glut_window_1a65901e3c14e5664d6434c996f4534419">setFrameRate</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>targetRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="41" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ae07e37bc05f8e58bdb836784f9405e10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::setWindowTitle</definition>
+        <argsstring>(string title)</argsstring>
+        <name>setWindowTitle</name>
+        <reimplementedby refid="classof_app_glut_window_1a3154be2e347e4f074b3a7c6e96191f59">setWindowTitle</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="42" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ad8f46154fee1ad30cea04552125236db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int ofAppBaseWindow::getWindowMode</definition>
+        <argsstring>()</argsstring>
+        <name>getWindowMode</name>
+        <reimplementedby refid="classof_app_glut_window_1a4f22f0bb8ec81dd32e7dadbf623b8563">getWindowMode</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="44" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1a4d4f5560b718479f81d4cbdbd90e7f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::setFullscreen</definition>
+        <argsstring>(bool fullscreen)</argsstring>
+        <name>setFullscreen</name>
+        <reimplementedby refid="classof_app_glut_window_1a807f6970e7acb19d8e65549eb99ac15a">setFullscreen</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>fullscreen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ad9164e5949d0c0f4a8b72e452fa9ce61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::toggleFullscreen</definition>
+        <argsstring>()</argsstring>
+        <name>toggleFullscreen</name>
+        <reimplementedby refid="classof_app_glut_window_1a7854c88880586b16f915bdb8e515cd6e">toggleFullscreen</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="47" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1ae5a096f8d1e8b367391fe2cf3ed86cfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::enableSetupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>enableSetupScreen</name>
+        <reimplementedby refid="classof_app_glut_window_1aa20121ddf3f4b3c2f8e60788c0ea902f">enableSetupScreen</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="49" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_app_base_window_1aeb601b01dbfa47c94857512cbc3710c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofAppBaseWindow::disableSetupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>disableSetupScreen</name>
+        <reimplementedby refid="classof_app_glut_window_1af9ed83c7199f400f9a97667c332d5db8">disableSetupScreen</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="50" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="36">
+        <label>ofAppGlutWindow</label>
+        <link refid="classof_app_glut_window"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>ofAppBaseWindow</label>
+        <link refid="classof_app_base_window"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" line="8" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppBaseWindow.h" bodystart="8" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classof_app_base_window_1aeb601b01dbfa47c94857512cbc3710c2" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>disableSetupScreen</name></member>
+      <member refid="classof_app_base_window_1a7bb214b855429ac2ddf1091d93cfb4a8" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>doesHWOrientation</name></member>
+      <member refid="classof_app_base_window_1ae5a096f8d1e8b367391fe2cf3ed86cfe" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>enableSetupScreen</name></member>
+      <member refid="classof_app_base_window_1ac6553f116e21ac34f6f35af9f2629d84" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getFrameNum</name></member>
+      <member refid="classof_app_base_window_1a8bd75700687d9b9b47477a02f58bf125" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getFrameRate</name></member>
+      <member refid="classof_app_base_window_1aef76e7138aef773ee573b23d42947ae9" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getHeight</name></member>
+      <member refid="classof_app_base_window_1ae5c3432bc9c7aa2fd720c4d9c500a63e" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getLastFrameTime</name></member>
+      <member refid="classof_app_base_window_1addb4b11af8f02dd874bc34deed4b207f" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getOrientation</name></member>
+      <member refid="classof_app_base_window_1aa30f7ba6708173a82d8a774de3169f02" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getScreenSize</name></member>
+      <member refid="classof_app_base_window_1a4cbd97f9295367d64a3047e4545a35bc" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getWidth</name></member>
+      <member refid="classof_app_base_window_1ad8f46154fee1ad30cea04552125236db" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getWindowMode</name></member>
+      <member refid="classof_app_base_window_1ae974e4e85cb4ffb0ebe767550420b1a0" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getWindowPosition</name></member>
+      <member refid="classof_app_base_window_1a40c5c710165d97f0e7102ceec8b99f39" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>getWindowSize</name></member>
+      <member refid="classof_app_base_window_1af4ef05008c4f77e2a0f8c271268ecfc1" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>hideCursor</name></member>
+      <member refid="classof_app_base_window_1a4a4d7346e04b0f9292c8c92449269ec4" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>initializeWindow</name></member>
+      <member refid="classof_app_base_window_1a434ff7f77c33c507a9ea2144f9a13a3d" prot="public" virt="non-virtual"><scope>ofAppBaseWindow</scope><name>ofAppBaseWindow</name></member>
+      <member refid="classof_app_base_window_1a039ff5b4950c30ea0416dfa32031736e" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>runAppViaInfiniteLoop</name></member>
+      <member refid="classof_app_base_window_1abd35c26a978c0838670800c498c1a573" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>setFrameRate</name></member>
+      <member refid="classof_app_base_window_1a4d4f5560b718479f81d4cbdbd90e7f7d" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>setFullscreen</name></member>
+      <member refid="classof_app_base_window_1abf382ecbee7aaad01a699d19072f54d7" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>setOrientation</name></member>
+      <member refid="classof_app_base_window_1a9711b1ab1fe2e765eace3e7fb64f011b" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>setupOpenGL</name></member>
+      <member refid="classof_app_base_window_1a086fffc9787f57b808a82f47b33eada8" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>setWindowPosition</name></member>
+      <member refid="classof_app_base_window_1afb277ec2522adf086b5d7f3b954a1d15" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>setWindowShape</name></member>
+      <member refid="classof_app_base_window_1ae07e37bc05f8e58bdb836784f9405e10" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>setWindowTitle</name></member>
+      <member refid="classof_app_base_window_1ac252b1bb722cc7b21b7c3629b7113c85" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>showCursor</name></member>
+      <member refid="classof_app_base_window_1ad9164e5949d0c0f4a8b72e452fa9ce61" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>toggleFullscreen</name></member>
+      <member refid="classof_app_base_window_1ad77f4c6d448b1450bff55331657b8f3d" prot="public" virt="virtual"><scope>ofAppBaseWindow</scope><name>~ofAppBaseWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

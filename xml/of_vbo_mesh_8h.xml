@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_vbo_mesh_8h" kind="file">
+    <compoundname>ofVboMesh.h</compoundname>
+    <includes local="yes">ofMesh.h</includes>
+    <includes refid="of_vbo_8h" local="yes">ofVbo.h</includes>
+    <incdepgraph>
+      <node id="151">
+        <label>ofUtils.h</label>
+      </node>
+      <node id="148">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="152">
+        <label>ofGLUtils.h</label>
+        <link refid="of_g_l_utils_8h"/>
+      </node>
+      <node id="146">
+        <label>ofMesh.h</label>
+      </node>
+      <node id="149">
+        <label>ofVec3f.h</label>
+      </node>
+      <node id="150">
+        <label>ofColor.h</label>
+      </node>
+      <node id="147">
+        <label>ofVbo.h</label>
+        <link refid="of_vbo_8h"/>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVboMesh.h</label>
+        <link refid="ofVboMesh.h"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classof_vbo_mesh" prot="public">ofVboMesh</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofMesh.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_vbo_8h" kindref="compound">ofVbo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classof_vbo_mesh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_vbo_mesh" kindref="compound">ofVboMesh</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_mesh" kindref="compound">ofMesh</ref>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classof_mesh_1aa97850592c56c4e52492afe0a5643c93" kindref="member">ofMesh::draw</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vbo_mesh_1af148219c2bf064301d81403b0582abb5" kindref="member">ofVboMesh</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vbo_mesh_1af148219c2bf064301d81403b0582abb5" kindref="member">ofVboMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_mesh" kindref="compound">ofMesh</ref><sp/>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_vbo_mesh_1ac02e0fd9f08d40fb9d8cc63838654fd8" kindref="member">setUsage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_vbo_mesh_1a7b6aee635794d10e13b02c814716aba0" kindref="member">usage</ref>);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_mesh_1aa97850592c56c4e52492afe0a5643c93" kindref="member">draw</ref>(<ref refid="of_g_l_utils_8h_1a6beb1fbbaba728909c78cda1eadfe28e" kindref="member">ofPolyRenderMode</ref><sp/>drawMode);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vbo" kindref="compound">ofVbo</ref><sp/><ref refid="classof_vbo_mesh_1af5229350358d115e4812b56dad4b728b" kindref="member">vbo</ref>;</highlight></codeline>
+<codeline lineno="18" refid="classof_vbo_mesh_1af5229350358d115e4812b56dad4b728b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_vbo_mesh_1a7b6aee635794d10e13b02c814716aba0" kindref="member">usage</ref>;</highlight></codeline>
+<codeline lineno="19" refid="classof_vbo_mesh_1a7b6aee635794d10e13b02c814716aba0" refkind="member"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofVboMesh.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="structof_gst_device" kind="struct" prot="public">
+    <compoundname>ofGstDevice</compoundname>
+    <includes refid="of_gst_video_grabber_8h" local="no">ofGstVideoGrabber.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structof_gst_device_1a45d87469d12194cc5bcedc2a3029bee8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofGstDevice::video_device</definition>
+        <argsstring></argsstring>
+        <name>video_device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="19" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_gst_device_1a7e15fc84e6c43955108a34efc1a5b4ee" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofGstDevice::gstreamer_src</definition>
+        <argsstring></argsstring>
+        <name>gstreamer_src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="20" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_gst_device_1a73a9a7c630ca51d1bd0654dc45eb59c9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofGstDevice::product_name</definition>
+        <argsstring></argsstring>
+        <name>product_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="21" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_gst_device_1ab3756a09657730e1a249c8f1f3357272" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structof_gst_video_format" kindref="compound">ofGstVideoFormat</ref> &gt;</type>
+        <definition>vector&lt;ofGstVideoFormat&gt; ofGstDevice::video_formats</definition>
+        <argsstring></argsstring>
+        <name>video_formats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_gst_device_1ab8c77e5f17b1a806cd8bc13a4ac83dc4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofGstDevice::current_format</definition>
+        <argsstring></argsstring>
+        <name>current_format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="23" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="18" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="18" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structof_gst_device_1ab8c77e5f17b1a806cd8bc13a4ac83dc4" prot="public" virt="non-virtual"><scope>ofGstDevice</scope><name>current_format</name></member>
+      <member refid="structof_gst_device_1a7e15fc84e6c43955108a34efc1a5b4ee" prot="public" virt="non-virtual"><scope>ofGstDevice</scope><name>gstreamer_src</name></member>
+      <member refid="structof_gst_device_1a73a9a7c630ca51d1bd0654dc45eb59c9" prot="public" virt="non-virtual"><scope>ofGstDevice</scope><name>product_name</name></member>
+      <member refid="structof_gst_device_1a45d87469d12194cc5bcedc2a3029bee8" prot="public" virt="non-virtual"><scope>ofGstDevice</scope><name>video_device</name></member>
+      <member refid="structof_gst_device_1ab3756a09657730e1a249c8f1f3357272" prot="public" virt="non-virtual"><scope>ofGstDevice</scope><name>video_formats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

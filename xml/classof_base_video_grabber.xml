@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_base_video_grabber" kind="class" prot="public">
+    <compoundname>ofBaseVideoGrabber</compoundname>
+    <basecompoundref refid="classof_base_video" prot="public" virt="virtual">ofBaseVideo</basecompoundref>
+    <derivedcompoundref refid="classof_direct_show_grabber" prot="public" virt="non-virtual">ofDirectShowGrabber</derivedcompoundref>
+    <derivedcompoundref refid="classof_gst_video_grabber" prot="public" virt="non-virtual">ofGstVideoGrabber</derivedcompoundref>
+    <derivedcompoundref refid="classofi_phone_video_grabber" prot="public" virt="non-virtual">ofiPhoneVideoGrabber</derivedcompoundref>
+    <derivedcompoundref refid="classof_quick_time_grabber" prot="public" virt="non-virtual">ofQuickTimeGrabber</derivedcompoundref>
+    <derivedcompoundref refid="classof_video_grabber" prot="public" virt="non-virtual">ofVideoGrabber</derivedcompoundref>
+    <includes refid="of_base_types_8h" local="no">ofBaseTypes.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_base_video_grabber_1a75e74f70959698d0800e960ccc525be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofBaseVideoGrabber::~ofBaseVideoGrabber</definition>
+        <argsstring>()</argsstring>
+        <name>~ofBaseVideoGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1a0ee487203961b1d6b635598a181a9835" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseVideoGrabber::listDevices</definition>
+        <argsstring>()=0</argsstring>
+        <name>listDevices</name>
+        <reimplementedby refid="classof_video_grabber_1a4cbf5779fa46c662bbca0832c524946c">listDevices</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a69cba04c77f24d6035fa8003fcbe5f9b">listDevices</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1adc914814d4a6d78b227af16e88bc129b">listDevices</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1ab21f6214be63c89a9ae75562ff9bf7a8">listDevices</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1a72c855fb2e216429011e1e872eb59ac9">listDevices</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1a7dc4e14ca5c1bf64f6c9ef49fff421e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ofBaseVideoGrabber::initGrabber</definition>
+        <argsstring>(int w, int h)=0</argsstring>
+        <name>initGrabber</name>
+        <reimplementedby refid="classof_video_grabber_1a7a9697fb37dbdbd76f256bb845b2b33f">initGrabber</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a7b5b519e5fcbd70ff1eedf71ab376731">initGrabber</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1ac6d50adc772820891d4b3209e81407ce">initGrabber</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a6450e8b568e28e8d5f0559230606ee14">initGrabber</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1a185b01c9f15aa39113c4c9cdc093f05f">initGrabber</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1afa0adff5581f2aeb2f2973a5686097de" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseVideoGrabber::update</definition>
+        <argsstring>()=0</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_updates_1aafe52b53362bf3401d666970557d5250">update</reimplements>
+        <reimplementedby refid="classof_video_grabber_1aced0c426fd6967ac2c21900ac1e43823">update</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1ad83a7982a79ac87d486452afbe5278bb">update</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a43d60991aa0825944656ba28565e625a">update</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a221290453f8283bf8b4542833c8d10e9">update</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1a1038c645d3d298f22e28789ae923c21a">update</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1a49571efac6ac055c07b5147e15a98643" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ofBaseVideoGrabber::isFrameNew</definition>
+        <argsstring>()=0</argsstring>
+        <name>isFrameNew</name>
+        <reimplements refid="classof_base_video_1a614f817009e02303e075f7552c78cfb0">isFrameNew</reimplements>
+        <reimplementedby refid="classof_video_grabber_1a946631a547cac9c3ebb2e4a7072a9a79">isFrameNew</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a06bd850a1a2b9eda86040c06d1d46baf">isFrameNew</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1aabbecd00628353b122464d4bcf678704">isFrameNew</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1af3edeb02c89e43dc4ad0a02b376d4a07">isFrameNew</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1a81859b980eeb27cd285c435f9c500188">isFrameNew</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1a7a9d9dc85963036f16d937cee730f654" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>unsigned char *</type>
+        <definition>virtual unsigned char* ofBaseVideoGrabber::getPixels</definition>
+        <argsstring>()=0</argsstring>
+        <name>getPixels</name>
+        <reimplements refid="classof_base_has_pixels___1a680c5d134ff80d892abbe681fa5ce2e0">getPixels</reimplements>
+        <reimplementedby refid="classof_video_grabber_1a1845c068d08da798861c639c2dfc6b27">getPixels</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a0dd62853a77aeb042bf29ff0b8277ae9">getPixels</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a1b1f85f11fa046594da0a60d9e78f3bc">getPixels</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a28ddc9db5e4a9b968971b63710455766">getPixels</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1acc815e60b8edd19f443a5e2ac0caa893">getPixels</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1a8c7237c2cf5d2aac261d37a0fc22a2a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseVideoGrabber::close</definition>
+        <argsstring>()=0</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_video_1af21eaad083952a7daf955042551a773e">close</reimplements>
+        <reimplementedby refid="classof_video_grabber_1a7f848dbcbab3c49abc82b5c97df0fba4">close</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a82b7004cb9da462391efff82bd484fcb">close</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a0a3e3f6d46c72c83b0b0136c6efd5df9">close</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1aba7ede0a638a3f61c628f86f4e409406">close</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1a28a14fb712670f3adb146cea7301c0a5">close</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1adc370b3e10351d456a70c3097e5a25bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float ofBaseVideoGrabber::getHeight</definition>
+        <argsstring>()=0</argsstring>
+        <name>getHeight</name>
+        <reimplementedby refid="classof_video_grabber_1afb6570df9cbb25c38c3fa149700f1af9">getHeight</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a8b0aae3a91c48a557e38c8a285861550">getHeight</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1adcf47ad85d21006b79e4472b47b805a4">getHeight</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1ab6aa141cd4c31cfce96230d19539bb37">getHeight</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1af9774c3107f0a4665fb48d32f8af7fcd">getHeight</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1a92e4e75c73b92c7eb3da31cdfbf9927e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float ofBaseVideoGrabber::getWidth</definition>
+        <argsstring>()=0</argsstring>
+        <name>getWidth</name>
+        <reimplementedby refid="classof_video_grabber_1abfe4a8329f1eef52cc42903040c63baf">getWidth</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a890e789907e0d63d694e77db55722e64">getWidth</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a82b3ba175d8f63b1f4e16b7cdb4a6651">getWidth</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a7fd170dd9f1f740c0c344f9db348f1f8">getWidth</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1af3506788cee6a2dae8e4c7c3425a8a05">getWidth</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1a16805cae9b0c71b209b2dba9d99ce5f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseVideoGrabber::setVerbose</definition>
+        <argsstring>(bool bTalkToMe)</argsstring>
+        <name>setVerbose</name>
+        <reimplementedby refid="classof_video_grabber_1ab37d83fce8e1ef9f73ecd0df9f65b4bc">setVerbose</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a98b57f09a21343e7712b35c58fb2b22a">setVerbose</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1aeb63237b2af0546d49cccc6a7269e2ea">setVerbose</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1a92384fe1da5f91d33d977cd84232db7f">setVerbose</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>bTalkToMe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1aa38de069285824287a24a7a5680f6ab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseVideoGrabber::setDeviceID</definition>
+        <argsstring>(int _deviceID)</argsstring>
+        <name>setDeviceID</name>
+        <reimplementedby refid="classof_video_grabber_1aeb5e64bb2065455eda50d394093405e4">setDeviceID</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1adb7dcb7d8a3a7aa6541cbb38b9c025a6">setDeviceID</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a3972fb794c4c2682a641495056f9cb19">setDeviceID</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a2d9434f03798a7217f20d98555130fa3">setDeviceID</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1af15df017688112c8e1381e3e7170995d">setDeviceID</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>_deviceID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1acfd1ec20c5ad349c4c611e1f55dfb3b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseVideoGrabber::setDesiredFrameRate</definition>
+        <argsstring>(int framerate)</argsstring>
+        <name>setDesiredFrameRate</name>
+        <reimplementedby refid="classof_video_grabber_1af1af351daf65526e5be0dc9da61f649b">setDesiredFrameRate</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a573328a8689c99fa75bb4aad869cb692">setDesiredFrameRate</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a1efdcb90053f3910a134f20cbe271cd3">setDesiredFrameRate</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a02aeaf88681b341faa1580873a1a273b">setDesiredFrameRate</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1ae59bdb914b1419a1f1c51e628b18ce85">setDesiredFrameRate</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>framerate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1ab3601be3ab4dc5fed812916e2c3cdc1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseVideoGrabber::videoSettings</definition>
+        <argsstring>()</argsstring>
+        <name>videoSettings</name>
+        <reimplementedby refid="classof_video_grabber_1ab567acb17d97916e14bb3e5e5f7e1722">videoSettings</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a0b4b94dc5ffa373d4913789201f66d54">videoSettings</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1abac46aa81c7a50386398f9f358615c8b">videoSettings</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1a01a1f41cc1c4db5b062211f6b5f32089">videoSettings</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1ac3bea58983a64528ba6ba7473d17eafe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseVideoGrabber::setPixelFormat</definition>
+        <argsstring>(ofPixelFormat pixelFormat)</argsstring>
+        <name>setPixelFormat</name>
+        <reimplementedby refid="classof_video_grabber_1ac56d8af5e4102dedfe5ab081406ea88d">setPixelFormat</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a6d14ceb1c6538e8bc9f2ba837a415cba">setPixelFormat</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a627db28d07be7a1470d21d6574289143">setPixelFormat</reimplementedby>
+        <param>
+          <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_video_grabber_1a366ed68409e1851f4871cb873ef076b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+        <definition>virtual ofPixelFormat ofBaseVideoGrabber::getPixelFormat</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelFormat</name>
+        <reimplementedby refid="classof_video_grabber_1a5af35e197b1dca488b9dc803f6b41964">getPixelFormat</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a6a2f40d53a22f443a541a4beb257c9fa">getPixelFormat</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="184">
+        <label>ofGstVideoGrabber</label>
+        <link refid="classof_gst_video_grabber"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>ofQuickTimeGrabber</label>
+        <link refid="classof_quick_time_grabber"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>ofiPhoneVideoGrabber</label>
+        <link refid="classofi_phone_video_grabber"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="178">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>ofVideoGrabber</label>
+        <link refid="classof_video_grabber"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>ofDirectShowGrabber</label>
+        <link refid="classof_direct_show_grabber"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="190">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="188">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="186" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="186" bodyend="212"/>
+    <listofallmembers>
+      <member refid="classof_base_video_grabber_1a8c7237c2cf5d2aac261d37a0fc22a2a3" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>close</name></member>
+      <member refid="classof_base_video_grabber_1adc370b3e10351d456a70c3097e5a25bd" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>getHeight</name></member>
+      <member refid="classof_base_video_grabber_1a366ed68409e1851f4871cb873ef076b5" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>getPixelFormat</name></member>
+      <member refid="classof_base_video_grabber_1a7a9d9dc85963036f16d937cee730f654" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>getPixels</name></member>
+      <member refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>getPixelsRef</name></member>
+      <member refid="classof_base_video_grabber_1a92e4e75c73b92c7eb3da31cdfbf9927e" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>getWidth</name></member>
+      <member refid="classof_base_video_grabber_1a7dc4e14ca5c1bf64f6c9ef49fff421e3" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>initGrabber</name></member>
+      <member refid="classof_base_video_grabber_1a49571efac6ac055c07b5147e15a98643" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>isFrameNew</name></member>
+      <member refid="classof_base_video_grabber_1a0ee487203961b1d6b635598a181a9835" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>listDevices</name></member>
+      <member refid="classof_base_video_grabber_1acfd1ec20c5ad349c4c611e1f55dfb3b5" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>setDesiredFrameRate</name></member>
+      <member refid="classof_base_video_grabber_1aa38de069285824287a24a7a5680f6ab4" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>setDeviceID</name></member>
+      <member refid="classof_base_video_grabber_1ac3bea58983a64528ba6ba7473d17eafe" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>setPixelFormat</name></member>
+      <member refid="classof_base_video_grabber_1a16805cae9b0c71b209b2dba9d99ce5f7" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>setVerbose</name></member>
+      <member refid="classof_base_video_grabber_1afa0adff5581f2aeb2f2973a5686097de" prot="public" virt="pure-virtual"><scope>ofBaseVideoGrabber</scope><name>update</name></member>
+      <member refid="classof_base_video_grabber_1ab3601be3ab4dc5fed812916e2c3cdc1b" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>videoSettings</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_updates_1a48cbac34caf49b4b72092888a7e63b27" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>~ofBaseUpdates</name></member>
+      <member refid="classof_base_video_1af8004a840c98637ba7572b2c34bbc249" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>~ofBaseVideo</name></member>
+      <member refid="classof_base_video_grabber_1a75e74f70959698d0800e960ccc525be7" prot="public" virt="virtual"><scope>ofBaseVideoGrabber</scope><name>~ofBaseVideoGrabber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1021 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_video_player" kind="class" prot="public">
+    <compoundname>ofVideoPlayer</compoundname>
+    <basecompoundref refid="classof_base_video_player" prot="public" virt="non-virtual">ofBaseVideoPlayer</basecompoundref>
+    <basecompoundref refid="classof_base_video_draws" prot="public" virt="non-virtual">ofBaseVideoDraws</basecompoundref>
+    <includes refid="of_video_player_8h" local="no">ofVideoPlayer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_video_player_1ae3e7c8bc4fa4e92611065b0bd555a307" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofVideoPlayer::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_video_player_1a1c6aa5598aa92d47d56f1d9b5e76906d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofVideoPlayer::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="89" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_video_player_1aefee9f46c334e5c283a9bd154985980e" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_video_player" kindref="compound">ofBaseVideoPlayer</ref> &gt;</type>
+        <definition>ofPtr&lt;ofBaseVideoPlayer&gt; ofVideoPlayer::player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="92" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_video_player_1acf9f1587ac4b3196da0513041eabd25b" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_texture" kindref="compound">ofTexture</ref></type>
+        <definition>ofTexture ofVideoPlayer::tex</definition>
+        <argsstring></argsstring>
+        <name>tex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="94" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_video_player_1a353f7f59b819d7a693e5d9498157bbff" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_texture" kindref="compound">ofTexture</ref> *</type>
+        <definition>ofTexture* ofVideoPlayer::playerTex</definition>
+        <argsstring></argsstring>
+        <name>playerTex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_video_player_1ab0973c67f94faa8d5ec4bc1528e1a262" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofVideoPlayer::bUseTexture</definition>
+        <argsstring></argsstring>
+        <name>bUseTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="96" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_video_player_1a04b2f407a7818ff30861cfc094ef5a6b" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+        <definition>ofPixelFormat ofVideoPlayer::internalPixelFormat</definition>
+        <argsstring></argsstring>
+        <name>internalPixelFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="97" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_video_player_1a2aa827cace796093f66abdefc990dd0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofVideoPlayer::ofVideoPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>ofVideoPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a02cb633a06bdde7688222ea0c3208efa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setPlayer</definition>
+        <argsstring>(ofPtr&lt; ofBaseVideoPlayer &gt; newPlayer)</argsstring>
+        <name>setPlayer</name>
+        <param>
+          <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_video_player" kindref="compound">ofBaseVideoPlayer</ref> &gt;</type>
+          <declname>newPlayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a38558d562e7aa95ab83f34966aa5adee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_video_player" kindref="compound">ofBaseVideoPlayer</ref> &gt;</type>
+        <definition>ofPtr&lt;ofBaseVideoPlayer&gt; ofVideoPlayer::getPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a48bac06cc3be16f380000889a9cbdb5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofVideoPlayer::loadMovie</definition>
+        <argsstring>(string name)</argsstring>
+        <name>loadMovie</name>
+        <reimplements refid="classof_base_video_player_1a5729b23ec498767da1439d272456b982">loadMovie</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a5d471a0a50297c474d5bb2abe3a549c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setPixelFormat</definition>
+        <argsstring>(ofPixelFormat pixelFormat)</argsstring>
+        <name>setPixelFormat</name>
+        <reimplements refid="classof_base_video_player_1aed1a18f1eafa7669bd537429f61361ed">setPixelFormat</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1ac327a63685be6b35de67b343f6eb509d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::closeMovie</definition>
+        <argsstring>()</argsstring>
+        <name>closeMovie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1afda9f40e959588862cff21a02de95886" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_video_player_1a36a8d556e9e5a92c5f9415e14ca15deb">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a9c690759b70c7041fbd839f049adbb1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_video_player_1a792ee92185229d27e9a8d6554034622a">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1aea6b4c97a8e70d8a36bba0f0332f2f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::idleMovie</definition>
+        <argsstring>()</argsstring>
+        <name>idleMovie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1aab50668f50a7326a8fdd54c5ab5d3f24" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <reimplements refid="classof_base_video_player_1af147fdc80b43b2f9b9bf2b5316475b6c">play</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a1f324b141bccedd87975848dcea0012a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classof_base_video_player_1a3335147d5f721caf1eb9f66fb77a8ead">stop</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a73119c8aaa8ca9fb7890668d4d9479c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofVideoPlayer::isFrameNew</definition>
+        <argsstring>()</argsstring>
+        <name>isFrameNew</name>
+        <reimplements refid="classof_base_video_player_1a0490cb3fdf0a98aed9232fd14fd8873d">isFrameNew</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a9aa7b3505ae92dceea77c9913eefac65" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char* ofVideoPlayer::getPixels</definition>
+        <argsstring>()</argsstring>
+        <name>getPixels</name>
+        <reimplements refid="classof_base_video_player_1a219fabc2debd7c542e10a56738fe1f5a">getPixels</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a7702772cc77fd61d2d4e2c2b338b5291" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref></type>
+        <definition>ofPixelsRef ofVideoPlayer::getPixelsRef</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelsRef</name>
+        <reimplements refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45">getPixelsRef</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1aba3c6653625a62d0aad8e481af2c65f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofVideoPlayer::getPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getPosition</name>
+        <reimplements refid="classof_base_video_player_1ab7922b6b4eb47e491f2359418f807f85">getPosition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a53033996f7e5ecaeafde2d53d2040834" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofVideoPlayer::getSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>getSpeed</name>
+        <reimplements refid="classof_base_video_player_1a7ade13b100352b5f9bac10c1f41340e9">getSpeed</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a04fdcf02e3a05cd309b5e7949ca00ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofVideoPlayer::getDuration</definition>
+        <argsstring>()</argsstring>
+        <name>getDuration</name>
+        <reimplements refid="classof_base_video_player_1ab588d8d53e643bafa4207b10d6b78e27">getDuration</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a4589359ebd9f8f0d83a7f2deadce44e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofVideoPlayer::getIsMovieDone</definition>
+        <argsstring>()</argsstring>
+        <name>getIsMovieDone</name>
+        <reimplements refid="classof_base_video_player_1a7865e11fc5d7522da1d848373837ea03">getIsMovieDone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a60f71852bc24f9be5e3151375c4f5f5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setPosition</definition>
+        <argsstring>(float pct)</argsstring>
+        <name>setPosition</name>
+        <reimplements refid="classof_base_video_player_1ab4062ece76897e05541f649facdbfdc5">setPosition</reimplements>
+        <param>
+          <type>float</type>
+          <declname>pct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1af1b234d8572df4d36cacdc09efc4f62d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setVolume</definition>
+        <argsstring>(int volume)</argsstring>
+        <name>setVolume</name>
+        <reimplements refid="classof_base_video_player_1a80c26c4218597f0e071f7ef7f3099f59">setVolume</reimplements>
+        <param>
+          <type>int</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a55f0c257824061ad7a82b1b646b2fd08" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setLoopState</definition>
+        <argsstring>(ofLoopType state)</argsstring>
+        <name>setLoopState</name>
+        <reimplements refid="classof_base_video_player_1a8f9599e7ef06655b028c196bdd7e9fa7">setLoopState</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a10213537a43a583f9caa5764d76ff4a4" kindref="member">ofLoopType</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a7fa3782938fb9294340a886f1b84c27e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofVideoPlayer::getLoopState</definition>
+        <argsstring>()</argsstring>
+        <name>getLoopState</name>
+        <reimplements refid="classof_base_video_player_1af9bf92d459f19767ea5458d34f879f2c">getLoopState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1aec9f4433b115e28d5ddeb0f4d101281a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setSpeed</definition>
+        <argsstring>(float speed)</argsstring>
+        <name>setSpeed</name>
+        <reimplements refid="classof_base_video_player_1ac0662c003a3e6b9a97a81d1b5ef1785d">setSpeed</reimplements>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a428b640a76c446b5aef7d5c513260524" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setFrame</definition>
+        <argsstring>(int frame)</argsstring>
+        <name>setFrame</name>
+        <reimplements refid="classof_base_video_player_1abe2aa4c206d203cfc74355acee227a74">setFrame</reimplements>
+        <param>
+          <type>int</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a8123063e80de2710185200f6650ec213" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setUseTexture</definition>
+        <argsstring>(bool bUse)</argsstring>
+        <name>setUseTexture</name>
+        <reimplements refid="classof_base_has_texture_1a3d2529a36a39ad5277f3050459cc3c80">setUseTexture</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bUse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1ab1b772dd93c22d9c40214bdf5c83f267" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_texture" kindref="compound">ofTexture</ref> &amp;</type>
+        <definition>ofTexture&amp; ofVideoPlayer::getTextureReference</definition>
+        <argsstring>()</argsstring>
+        <name>getTextureReference</name>
+        <reimplements refid="classof_base_has_texture_1ae0f27d5ca6d5a92ee3d9b3d6088745f6">getTextureReference</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1acc2ec4614bd20d0a906fdc36bc6f4713" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::draw</definition>
+        <argsstring>(float x, float y, float w, float h)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_draws_1a34e129056ed6238b2cc0b8b13cfab676">draw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1aafccb79dd9407583af71afb0b622bd8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::draw</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_draws_1aa672814ee548835e571561863855262e">draw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a8745cdd7c87657c2bc1e127efc782e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::draw</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_draws_1a768768895b8cb95515094c958f9ec0f0">draw</reimplements>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1ab6b5feb16c8435079f199134c24c976c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::draw</definition>
+        <argsstring>(const ofRectangle &amp;r)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_draws_1a0ae112e1709647d6dd84d0787876cb8a">draw</reimplements>
+        <param>
+          <type>const <ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a79ca310c6bf6a1db4eef74594f1e2b81" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setAnchorPercent</definition>
+        <argsstring>(float xPct, float yPct)</argsstring>
+        <name>setAnchorPercent</name>
+        <reimplements refid="classof_base_draws_1a3cf9dd7a898b3503ac0509574eaaeff3">setAnchorPercent</reimplements>
+        <param>
+          <type>float</type>
+          <declname>xPct</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yPct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a42462f21cc6ce547c0525928cd814e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setAnchorPoint</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>setAnchorPoint</name>
+        <reimplements refid="classof_base_draws_1aefa6eaad3d976a6c1717105ea4443e56">setAnchorPoint</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a6e1feaa83809bdc5b8b412b77b645597" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::resetAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>resetAnchor</name>
+        <reimplements refid="classof_base_draws_1a8e60af373caa636320b505ca07f274ae">resetAnchor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a70fc61857c367dd3b07badd2cf6b882f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::setPaused</definition>
+        <argsstring>(bool bPause)</argsstring>
+        <name>setPaused</name>
+        <reimplements refid="classof_base_video_player_1a21ef216c2f1f9e56e18acdda5481fc72">setPaused</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bPause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a43fa58cf0bcda38da046700d343e9c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofVideoPlayer::getCurrentFrame</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentFrame</name>
+        <reimplements refid="classof_base_video_player_1afefe27f110d8d8a4979539c53bfb32b6">getCurrentFrame</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a8adb473c579b336a1913dc4e7667ad10" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofVideoPlayer::getTotalNumFrames</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalNumFrames</name>
+        <reimplements refid="classof_base_video_player_1a67e6f1bff3c40685408d5e6cc0797b0a">getTotalNumFrames</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1aee11bb258f296c782c9e31f9482c8d83" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::firstFrame</definition>
+        <argsstring>()</argsstring>
+        <name>firstFrame</name>
+        <reimplements refid="classof_base_video_player_1a0d6187f84d4aceb7e2cf3b24065256bb">firstFrame</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a899fccde364c629262508a7a5347f698" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::nextFrame</definition>
+        <argsstring>()</argsstring>
+        <name>nextFrame</name>
+        <reimplements refid="classof_base_video_player_1ad41d679181a0ba579ffa74f9a111dba8">nextFrame</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a4931d96ed01eefcab7a0663aabcf2b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofVideoPlayer::previousFrame</definition>
+        <argsstring>()</argsstring>
+        <name>previousFrame</name>
+        <reimplements refid="classof_base_video_player_1aeecaa58315db3f080420d429c68ac0a2">previousFrame</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1af4d9762abaf3a390886bff3e48286455" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofVideoPlayer::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplements refid="classof_base_video_player_1a3047ea3f60cae76366314c7dca5de8e2">getHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1af98dc59bae16394353b0d43090d14d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofVideoPlayer::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplements refid="classof_base_video_player_1aa641fa782033d2f46f09970d2f94a57f">getWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1af0ac0b0ce9ae5cf0aeb445626200c8ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofVideoPlayer::isPaused</definition>
+        <argsstring>()</argsstring>
+        <name>isPaused</name>
+        <reimplements refid="classof_base_video_player_1aceff7a4857b19b7813a6dae15b95a998">isPaused</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1adf398990a189851afa576b4de4c8b814" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofVideoPlayer::isLoaded</definition>
+        <argsstring>()</argsstring>
+        <name>isLoaded</name>
+        <reimplements refid="classof_base_video_player_1a23210b8f2c1a3ba979b0f097fc43b50b">isLoaded</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_video_player_1a5085fc12c696697a8fc9c4863318449b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofVideoPlayer::isPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>isPlaying</name>
+        <reimplements refid="classof_base_video_player_1af716ac15560b86d5138b46e8d367178c">isPlaying</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="643">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="644" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="642">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="643" relation="public-inheritance">
+        </childnode>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="645">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="640">
+        <label>ofVideoPlayer</label>
+        <link refid="classof_video_player"/>
+        <childnode refid="641" relation="public-inheritance">
+        </childnode>
+        <childnode refid="646" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="641">
+        <label>ofBaseVideoPlayer</label>
+        <link refid="classof_base_video_player"/>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="646">
+        <label>ofBaseVideoDraws</label>
+        <link refid="classof_base_video_draws"/>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+        <childnode refid="647" relation="public-inheritance">
+        </childnode>
+        <childnode refid="648" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="647">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="648">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+      <node id="644">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="662">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="652">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="653" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="659">
+        <label>std::tr1::shared_ptr&lt; ofBaseVideoPlayer &gt;</label>
+        <link refid="classstd_1_1tr1_1_1shared__ptr"/>
+      </node>
+      <node id="651">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="652" relation="public-inheritance">
+        </childnode>
+        <childnode refid="654" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="654">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="660">
+        <label>ofTexture</label>
+        <link refid="classof_texture"/>
+        <childnode refid="656" relation="public-inheritance">
+        </childnode>
+        <childnode refid="661" relation="usage">
+          <edgelabel>texData</edgelabel>
+        </childnode>
+        <childnode refid="662" relation="usage">
+          <edgelabel>anchor</edgelabel>
+        </childnode>
+      </node>
+      <node id="649">
+        <label>ofVideoPlayer</label>
+        <link refid="classof_video_player"/>
+        <childnode refid="650" relation="public-inheritance">
+        </childnode>
+        <childnode refid="655" relation="public-inheritance">
+        </childnode>
+        <childnode refid="658" relation="usage">
+          <edgelabel>player</edgelabel>
+        </childnode>
+        <childnode refid="660" relation="usage">
+          <edgelabel>playerTex</edgelabel>
+          <edgelabel>tex</edgelabel>
+        </childnode>
+      </node>
+      <node id="650">
+        <label>ofBaseVideoPlayer</label>
+        <link refid="classof_base_video_player"/>
+        <childnode refid="651" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="655">
+        <label>ofBaseVideoDraws</label>
+        <link refid="classof_base_video_draws"/>
+        <childnode refid="651" relation="public-inheritance">
+        </childnode>
+        <childnode refid="656" relation="public-inheritance">
+        </childnode>
+        <childnode refid="657" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="658">
+        <label>ofPtr&lt; ofBaseVideoPlayer &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="659" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="656">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="661">
+        <label>ofTextureData</label>
+        <link refid="classof_texture_data"/>
+      </node>
+      <node id="657">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+      <node id="653">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" line="24" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofVideoPlayer.h" bodystart="24" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classof_video_player_1ab0973c67f94faa8d5ec4bc1528e1a262" prot="private" virt="non-virtual"><scope>ofVideoPlayer</scope><name>bUseTexture</name></member>
+      <member refid="classof_video_player_1afda9f40e959588862cff21a02de95886" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>close</name></member>
+      <member refid="classof_video_player_1ac327a63685be6b35de67b343f6eb509d" prot="public" virt="non-virtual"><scope>ofVideoPlayer</scope><name>closeMovie</name></member>
+      <member refid="classof_video_player_1acc2ec4614bd20d0a906fdc36bc6f4713" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>draw</name></member>
+      <member refid="classof_video_player_1aafccb79dd9407583af71afb0b622bd8b" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>draw</name></member>
+      <member refid="classof_video_player_1a8745cdd7c87657c2bc1e127efc782e88" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>draw</name></member>
+      <member refid="classof_video_player_1ab6b5feb16c8435079f199134c24c976c" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>draw</name></member>
+      <member refid="classof_video_player_1aee11bb258f296c782c9e31f9482c8d83" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>firstFrame</name></member>
+      <member refid="classof_video_player_1a43fa58cf0bcda38da046700d343e9c38" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getCurrentFrame</name></member>
+      <member refid="classof_video_player_1a04fdcf02e3a05cd309b5e7949ca00ef1" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getDuration</name></member>
+      <member refid="classof_video_player_1af4d9762abaf3a390886bff3e48286455" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getHeight</name></member>
+      <member refid="classof_video_player_1a4589359ebd9f8f0d83a7f2deadce44e2" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getIsMovieDone</name></member>
+      <member refid="classof_video_player_1a7fa3782938fb9294340a886f1b84c27e" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getLoopState</name></member>
+      <member refid="classof_video_player_1a9aa7b3505ae92dceea77c9913eefac65" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getPixels</name></member>
+      <member refid="classof_video_player_1a7702772cc77fd61d2d4e2c2b338b5291" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getPixelsRef</name></member>
+      <member refid="classof_video_player_1a38558d562e7aa95ab83f34966aa5adee" prot="public" virt="non-virtual"><scope>ofVideoPlayer</scope><name>getPlayer</name></member>
+      <member refid="classof_video_player_1aba3c6653625a62d0aad8e481af2c65f3" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getPosition</name></member>
+      <member refid="classof_video_player_1a53033996f7e5ecaeafde2d53d2040834" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getSpeed</name></member>
+      <member refid="classof_base_video_player_1a4a8134aab90cdd2f94c73d1e871be8b0" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getTexture</name></member>
+      <member refid="classof_video_player_1ab1b772dd93c22d9c40214bdf5c83f267" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getTextureReference</name></member>
+      <member refid="classof_video_player_1a8adb473c579b336a1913dc4e7667ad10" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getTotalNumFrames</name></member>
+      <member refid="classof_video_player_1af98dc59bae16394353b0d43090d14d36" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>getWidth</name></member>
+      <member refid="classof_video_player_1ae3e7c8bc4fa4e92611065b0bd555a307" prot="public" virt="non-virtual"><scope>ofVideoPlayer</scope><name>height</name></member>
+      <member refid="classof_video_player_1aea6b4c97a8e70d8a36bba0f0332f2f08" prot="public" virt="non-virtual"><scope>ofVideoPlayer</scope><name>idleMovie</name></member>
+      <member refid="classof_video_player_1a04b2f407a7818ff30861cfc094ef5a6b" prot="private" virt="non-virtual"><scope>ofVideoPlayer</scope><name>internalPixelFormat</name></member>
+      <member refid="classof_video_player_1a73119c8aaa8ca9fb7890668d4d9479c6" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>isFrameNew</name></member>
+      <member refid="classof_video_player_1adf398990a189851afa576b4de4c8b814" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>isLoaded</name></member>
+      <member refid="classof_video_player_1af0ac0b0ce9ae5cf0aeb445626200c8ba" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>isPaused</name></member>
+      <member refid="classof_video_player_1a5085fc12c696697a8fc9c4863318449b" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>isPlaying</name></member>
+      <member refid="classof_video_player_1a48bac06cc3be16f380000889a9cbdb5b" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>loadMovie</name></member>
+      <member refid="classof_video_player_1a899fccde364c629262508a7a5347f698" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>nextFrame</name></member>
+      <member refid="classof_video_player_1a2aa827cace796093f66abdefc990dd0c" prot="public" virt="non-virtual"><scope>ofVideoPlayer</scope><name>ofVideoPlayer</name></member>
+      <member refid="classof_video_player_1aab50668f50a7326a8fdd54c5ab5d3f24" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>play</name></member>
+      <member refid="classof_video_player_1aefee9f46c334e5c283a9bd154985980e" prot="private" virt="non-virtual"><scope>ofVideoPlayer</scope><name>player</name></member>
+      <member refid="classof_video_player_1a353f7f59b819d7a693e5d9498157bbff" prot="private" virt="non-virtual"><scope>ofVideoPlayer</scope><name>playerTex</name></member>
+      <member refid="classof_video_player_1a4931d96ed01eefcab7a0663aabcf2b97" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>previousFrame</name></member>
+      <member refid="classof_video_player_1a6e1feaa83809bdc5b8b412b77b645597" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>resetAnchor</name></member>
+      <member refid="classof_video_player_1a79ca310c6bf6a1db4eef74594f1e2b81" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setAnchorPercent</name></member>
+      <member refid="classof_video_player_1a42462f21cc6ce547c0525928cd814e67" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setAnchorPoint</name></member>
+      <member refid="classof_video_player_1a428b640a76c446b5aef7d5c513260524" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setFrame</name></member>
+      <member refid="classof_video_player_1a55f0c257824061ad7a82b1b646b2fd08" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setLoopState</name></member>
+      <member refid="classof_video_player_1a70fc61857c367dd3b07badd2cf6b882f" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setPaused</name></member>
+      <member refid="classof_video_player_1a5d471a0a50297c474d5bb2abe3a549c8" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setPixelFormat</name></member>
+      <member refid="classof_video_player_1a02cb633a06bdde7688222ea0c3208efa" prot="public" virt="non-virtual"><scope>ofVideoPlayer</scope><name>setPlayer</name></member>
+      <member refid="classof_video_player_1a60f71852bc24f9be5e3151375c4f5f5d" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setPosition</name></member>
+      <member refid="classof_video_player_1aec9f4433b115e28d5ddeb0f4d101281a" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setSpeed</name></member>
+      <member refid="classof_video_player_1a8123063e80de2710185200f6650ec213" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setUseTexture</name></member>
+      <member refid="classof_video_player_1af1b234d8572df4d36cacdc09efc4f62d" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>setVolume</name></member>
+      <member refid="classof_video_player_1a1f324b141bccedd87975848dcea0012a" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>stop</name></member>
+      <member refid="classof_video_player_1acf9f1587ac4b3196da0513041eabd25b" prot="private" virt="non-virtual"><scope>ofVideoPlayer</scope><name>tex</name></member>
+      <member refid="classof_video_player_1a9c690759b70c7041fbd839f049adbb1e" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>update</name></member>
+      <member refid="classof_video_player_1a1c6aa5598aa92d47d56f1d9b5e76906d" prot="public" virt="non-virtual"><scope>ofVideoPlayer</scope><name>width</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_draws_1af97993d6809a3a3bce934ce2d1fc3fc4" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>~ofBaseDraws</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_has_texture_1a45f59246be49ccf62aa090d928cd9096" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>~ofBaseHasTexture</name></member>
+      <member refid="classof_base_updates_1a48cbac34caf49b4b72092888a7e63b27" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>~ofBaseUpdates</name></member>
+      <member refid="classof_base_video_1af8004a840c98637ba7572b2c34bbc249" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>~ofBaseVideo</name></member>
+      <member refid="classof_base_video_draws_1ab8575811d51c0da504acfd4a1e1581d5" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>~ofBaseVideoDraws</name></member>
+      <member refid="classof_base_video_player_1a86a1a45f064c32fce624e6b104f61491" prot="public" virt="virtual"><scope>ofVideoPlayer</scope><name>~ofBaseVideoPlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

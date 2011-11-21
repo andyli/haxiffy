@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_file_dialog_result" kind="class" prot="public">
+    <compoundname>ofFileDialogResult</compoundname>
+    <includes refid="of_system_utils_8h" local="no">ofSystemUtils.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_file_dialog_result_1a10333951dbf932e377a866e290bea374" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofFileDialogResult::filePath</definition>
+        <argsstring></argsstring>
+        <name>filePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="12" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_file_dialog_result_1ae23f66d2b7acca659640bed99850b462" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofFileDialogResult::fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="13" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_file_dialog_result_1a63f36565e8613c7fd654c310ae127204" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofFileDialogResult::bSuccess</definition>
+        <argsstring></argsstring>
+        <name>bSuccess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="14" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_file_dialog_result_1a1dc2551f2b1f749291f25f750dc9831c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofFileDialogResult::ofFileDialogResult</definition>
+        <argsstring>()</argsstring>
+        <name>ofFileDialogResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_dialog_result_1a80fd7a5c48d882cc6c93c0aa4675b5a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofFileDialogResult::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_dialog_result_1ad410507288163f82834434ac7ede39a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofFileDialogResult::getPath</definition>
+        <argsstring>()</argsstring>
+        <name>getPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="4" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" bodystart="4" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classof_file_dialog_result_1a63f36565e8613c7fd654c310ae127204" prot="public" virt="non-virtual"><scope>ofFileDialogResult</scope><name>bSuccess</name></member>
+      <member refid="classof_file_dialog_result_1ae23f66d2b7acca659640bed99850b462" prot="public" virt="non-virtual"><scope>ofFileDialogResult</scope><name>fileName</name></member>
+      <member refid="classof_file_dialog_result_1a10333951dbf932e377a866e290bea374" prot="public" virt="non-virtual"><scope>ofFileDialogResult</scope><name>filePath</name></member>
+      <member refid="classof_file_dialog_result_1a80fd7a5c48d882cc6c93c0aa4675b5a2" prot="public" virt="non-virtual"><scope>ofFileDialogResult</scope><name>getName</name></member>
+      <member refid="classof_file_dialog_result_1ad410507288163f82834434ac7ede39a5" prot="public" virt="non-virtual"><scope>ofFileDialogResult</scope><name>getPath</name></member>
+      <member refid="classof_file_dialog_result_1a1dc2551f2b1f749291f25f750dc9831c" prot="public" virt="non-virtual"><scope>ofFileDialogResult</scope><name>ofFileDialogResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

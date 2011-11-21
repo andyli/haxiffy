@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_gst_video_grabber_8h" kind="file">
+    <compoundname>ofGstVideoGrabber.h</compoundname>
+    <includes refid="of_gst_utils_8h" local="yes">ofGstUtils.h</includes>
+    <incdepgraph>
+      <node id="620">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="618">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h</label>
+        <link refid="ofGstVideoGrabber.h"/>
+        <childnode refid="619" relation="include">
+        </childnode>
+      </node>
+      <node id="622">
+        <label>gst/app/gstappsink.h</label>
+      </node>
+      <node id="619">
+        <label>ofGstUtils.h</label>
+        <link refid="of_gst_utils_8h"/>
+        <childnode refid="620" relation="include">
+        </childnode>
+        <childnode refid="621" relation="include">
+        </childnode>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="623" relation="include">
+        </childnode>
+        <childnode refid="624" relation="include">
+        </childnode>
+        <childnode refid="625" relation="include">
+        </childnode>
+        <childnode refid="626" relation="include">
+        </childnode>
+      </node>
+      <node id="626">
+        <label>ofEvents.h</label>
+      </node>
+      <node id="621">
+        <label>gst/gst.h</label>
+      </node>
+      <node id="625">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="624">
+        <label>ofPixels.h</label>
+      </node>
+      <node id="623">
+        <label>ofBaseTypes.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structof_gst_framerate" prot="public">ofGstFramerate</innerclass>
+    <innerclass refid="structof_gst_video_format" prot="public">ofGstVideoFormat</innerclass>
+    <innerclass refid="structof_gst_device" prot="public">ofGstDevice</innerclass>
+    <innerclass refid="structof_gst_cam_data" prot="public">ofGstCamData</innerclass>
+    <innerclass refid="classof_gst_video_grabber" prot="public">ofGstVideoGrabber</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_gst_utils_8h" kindref="compound">ofGstUtils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="structof_gst_framerate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structof_gst_framerate" kindref="compound">ofGstFramerate</ref>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structof_gst_framerate_1a3a01084ed84af512a6386ed3eaa888a4" kindref="member">numerator</ref>;</highlight></codeline>
+<codeline lineno="7" refid="structof_gst_framerate_1a3a01084ed84af512a6386ed3eaa888a4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structof_gst_framerate_1ac6a3f4271b7cdfe95d8d410b177bfa16" kindref="member">denominator</ref>;</highlight></codeline>
+<codeline lineno="8" refid="structof_gst_framerate_1ac6a3f4271b7cdfe95d8d410b177bfa16" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="structof_gst_video_format" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structof_gst_video_format" kindref="compound">ofGstVideoFormat</ref>{</highlight></codeline>
+<codeline lineno="11" refid="structof_gst_video_format_1a5a2f9019f50ea6bf84196cde3163e4c4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structof_gst_video_format_1a5a2f9019f50ea6bf84196cde3163e4c4" kindref="member">mimetype</ref>;</highlight></codeline>
+<codeline lineno="12" refid="structof_gst_video_format_1a1b8646ae51a9f3a7c0e9ffccbada3d63" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structof_gst_video_format_1a1b8646ae51a9f3a7c0e9ffccbada3d63" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="13" refid="structof_gst_video_format_1a22df8a1a0c5dc4692ab0a0c7961b49f0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structof_gst_video_format_1a22df8a1a0c5dc4692ab0a0c7961b49f0" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="14" refid="structof_gst_video_format_1a2b275183e3b89ba578a3ee87620f08a5" refkind="member"><highlight class="normal"><sp/><sp/>vector&lt;ofGstFramerate&gt;<sp/><ref refid="structof_gst_video_format_1a2b275183e3b89ba578a3ee87620f08a5" kindref="member">framerates</ref>;</highlight></codeline>
+<codeline lineno="15" refid="structof_gst_video_format_1a0bef7e243d526026eea3d7a7cb6f24f8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structof_gst_framerate" kindref="compound">ofGstFramerate</ref><sp/><ref refid="structof_gst_video_format_1a0bef7e243d526026eea3d7a7cb6f24f8" kindref="member">choosen_framerate</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structof_gst_device" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structof_gst_device" kindref="compound">ofGstDevice</ref>{</highlight></codeline>
+<codeline lineno="19" refid="structof_gst_device_1a45d87469d12194cc5bcedc2a3029bee8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structof_gst_device_1a45d87469d12194cc5bcedc2a3029bee8" kindref="member">video_device</ref>;</highlight></codeline>
+<codeline lineno="20" refid="structof_gst_device_1a7e15fc84e6c43955108a34efc1a5b4ee" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structof_gst_device_1a7e15fc84e6c43955108a34efc1a5b4ee" kindref="member">gstreamer_src</ref>;</highlight></codeline>
+<codeline lineno="21" refid="structof_gst_device_1a73a9a7c630ca51d1bd0654dc45eb59c9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structof_gst_device_1a73a9a7c630ca51d1bd0654dc45eb59c9" kindref="member">product_name</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structof_gst_device_1ab3756a09657730e1a249c8f1f3357272" refkind="member"><highlight class="normal"><sp/><sp/>vector&lt;ofGstVideoFormat&gt;<sp/><ref refid="structof_gst_device_1ab3756a09657730e1a249c8f1f3357272" kindref="member">video_formats</ref>;</highlight></codeline>
+<codeline lineno="23" refid="structof_gst_device_1ab8c77e5f17b1a806cd8bc13a4ac83dc4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structof_gst_device_1ab8c77e5f17b1a806cd8bc13a4ac83dc4" kindref="member">current_format</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structof_gst_cam_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structof_gst_cam_data" kindref="compound">ofGstCamData</ref>{</highlight></codeline>
+<codeline lineno="27" refid="structof_gst_cam_data_1a5fcd5442429dea68357028ea56f96ceb" refkind="member"><highlight class="normal"><sp/><sp/>vector&lt;ofGstDevice&gt;<sp/><ref refid="structof_gst_cam_data_1a5fcd5442429dea68357028ea56f96ceb" kindref="member">webcam_devices</ref>;</highlight></codeline>
+<codeline lineno="28" refid="structof_gst_cam_data_1a46b8480a2c81c80d5760dca7794ac3bc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structof_gst_cam_data_1a46b8480a2c81c80d5760dca7794ac3bc" kindref="member">bInited</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classof_gst_video_grabber" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_gst_video_grabber" kindref="compound">ofGstVideoGrabber</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_base_video_grabber" kindref="compound">ofBaseVideoGrabber</ref>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a7d2490075151f6a65f70462a9f5b7fbd" kindref="member">ofGstVideoGrabber</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1ada6936b978359779b52eca47cc6e9113" kindref="member">~ofGstVideoGrabber</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_gst_video_grabber_1a627db28d07be7a1470d21d6574289143" kindref="member" tooltip="needs to be called before initGrabber">setPixelFormat</ref>(<ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref><sp/>pixelFormat);</highlight></codeline>
+<codeline lineno="38" refid="classof_gst_video_grabber_1abac46aa81c7a50386398f9f358615c8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_gst_video_grabber_1abac46aa81c7a50386398f9f358615c8b" kindref="member">videoSettings</ref>(){};</highlight><highlight class="comment">//TODO:<sp/>what<sp/>is<sp/>this??</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_gst_video_grabber_1ab21f6214be63c89a9ae75562ff9bf7a8" kindref="member">listDevices</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_gst_video_grabber_1a2d9434f03798a7217f20d98555130fa3" kindref="member">setDeviceID</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_gst_video_grabber_1a02aeaf88681b341faa1580873a1a273b" kindref="member">setDesiredFrameRate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>framerate);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_gst_video_grabber_1a6450e8b568e28e8d5f0559230606ee14" kindref="member">initGrabber</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a221290453f8283bf8b4542833c8d10e9" kindref="member">update</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1af3edeb02c89e43dc4ad0a02b376d4a07" kindref="member">isFrameNew</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classof_gst_video_grabber_1a28ddc9db5e4a9b968971b63710455766" kindref="member">getPixels</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a82629d46c4013b68ff18203d62a1f85f" kindref="member">getPixelsRef</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1ab6aa141cd4c31cfce96230d19539bb37" kindref="member">getHeight</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a7fd170dd9f1f740c0c344f9db348f1f8" kindref="member">getWidth</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1aba7ede0a638a3f61c628f86f4e409406" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1aeb63237b2af0546d49cccc6a7269e2ea" kindref="member">setVerbose</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bVerbose);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_utils" kindref="compound">ofGstVideoUtils</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a3518f02084944cb76c900fb9e1a7ae31" kindref="member">getGstVideoUtils</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structof_gst_video_format" kindref="compound">ofGstVideoFormat</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a6674f40f34447709fdfc42ebac9e7133" kindref="member">selectFormat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>desired_framerate);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classof_gst_video_grabber_1a65dbe953510a6ea3d6094b58f12840de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structof_gst_cam_data" kindref="compound">ofGstCamData</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a65dbe953510a6ea3d6094b58f12840de" kindref="member">camData</ref>;</highlight></codeline>
+<codeline lineno="62" refid="classof_gst_video_grabber_1a66fc242ced4ce196cbca92afdd20ca65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a66fc242ced4ce196cbca92afdd20ca65" kindref="member">bIsCamera</ref>;</highlight></codeline>
+<codeline lineno="63" refid="classof_gst_video_grabber_1afe7c8e2954eab762515b099dcd75413d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1afe7c8e2954eab762515b099dcd75413d" kindref="member">attemptFramerate</ref>;</highlight></codeline>
+<codeline lineno="64" refid="classof_gst_video_grabber_1a9ee7a22907f7cb3645ee76a80286b266" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a9ee7a22907f7cb3645ee76a80286b266" kindref="member">deviceID</ref>;</highlight></codeline>
+<codeline lineno="65" refid="classof_gst_video_grabber_1a0ca7e279cf6c461613535e4cfda4edbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a0ca7e279cf6c461613535e4cfda4edbe" kindref="member">internalPixelFormat</ref>;</highlight></codeline>
+<codeline lineno="66" refid="classof_gst_video_grabber_1a757a156ed62a6704d2a935340666df37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_utils" kindref="compound">ofGstVideoUtils</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_gst_video_grabber_1a757a156ed62a6704d2a935340666df37" kindref="member">videoUtils</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,838 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_quick_time_player" kind="class" prot="public">
+    <compoundname>ofQuickTimePlayer</compoundname>
+    <basecompoundref refid="classof_base_video_player" prot="public" virt="non-virtual">ofBaseVideoPlayer</basecompoundref>
+    <includes refid="of_quick_time_player_8h" local="no">ofQuickTimePlayer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_quick_time_player_1ae1939f757afa3b8ee059df6a139d0b0a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::bHavePixelsChanged</definition>
+        <argsstring></argsstring>
+        <name>bHavePixelsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="60" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_quick_time_player_1af213d46cf81a4652fb94a96ef9dcc3c1" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref></type>
+        <definition>ofPixels ofQuickTimePlayer::pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="68" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1a4e335e1c380c9d1b2441125a36a2181d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofQuickTimePlayer::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="69" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1a128acd211315b1f85462fbea64ca8f04" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofQuickTimePlayer::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="69" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1a81433930194f1ac575a460f26392a742" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::bLoaded</definition>
+        <argsstring></argsstring>
+        <name>bLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="70" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1a4809703464e4f2fda196d1e224c61b56" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofQuickTimePlayer::nFrames</definition>
+        <argsstring></argsstring>
+        <name>nFrames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="75" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1af8045d10cf3bbc17cb54b886d360027a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::allocated</definition>
+        <argsstring></argsstring>
+        <name>allocated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="76" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1a5ac30f96ae2a7c633d594ab88fa47752" prot="protected" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1a10213537a43a583f9caa5764d76ff4a4" kindref="member">ofLoopType</ref></type>
+        <definition>ofLoopType ofQuickTimePlayer::currentLoopState</definition>
+        <argsstring></argsstring>
+        <name>currentLoopState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="78" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1ae4e2b7f7366bf4ece7468f88ac200df9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::bStarted</definition>
+        <argsstring></argsstring>
+        <name>bStarted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="79" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1a9e0df8387255474384f9447216f02e7c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::bPlaying</definition>
+        <argsstring></argsstring>
+        <name>bPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="80" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1ac47d1ac31356e5008114e6bf55a5cb94" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::bPaused</definition>
+        <argsstring></argsstring>
+        <name>bPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="81" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1a108eba22bd55c74e495d0d8456d4262f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::bIsFrameNew</definition>
+        <argsstring></argsstring>
+        <name>bIsFrameNew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="82" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_player_1a62e30f811be3cd2bdb3a992e0a1c79b8" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofQuickTimePlayer::speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_quick_time_player_1a53c9975c7213cb72e0da45a84139bc52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofQuickTimePlayer::ofQuickTimePlayer</definition>
+        <argsstring>()</argsstring>
+        <name>ofQuickTimePlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1aac1e3c52f7c845148ff94adc88151612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofQuickTimePlayer::~ofQuickTimePlayer</definition>
+        <argsstring>()</argsstring>
+        <name>~ofQuickTimePlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a1601517ab0a4c6c4feddd018e75785bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::loadMovie</definition>
+        <argsstring>(string name)</argsstring>
+        <name>loadMovie</name>
+        <reimplements refid="classof_base_video_player_1a5729b23ec498767da1439d272456b982">loadMovie</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1ae8ca7ce316661fb2f7dc129d4c9f2bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::closeMovie</definition>
+        <argsstring>()</argsstring>
+        <name>closeMovie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1aab051d0f4bd0f357a6b2613e37a0fe7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_video_player_1a36a8d556e9e5a92c5f9415e14ca15deb">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a4fb991b5ef3fa66a0eea5912b5b4e8a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_video_player_1a792ee92185229d27e9a8d6554034622a">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a03d7e2260ac10f7669709081e4432dff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <reimplements refid="classof_base_video_player_1af147fdc80b43b2f9b9bf2b5316475b6c">play</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a072ad3692bdd0868bf2cdf316064f3bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classof_base_video_player_1a3335147d5f721caf1eb9f66fb77a8ead">stop</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a44d9ec240d6e0f21b44c14920e4e35e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::clearMemory</definition>
+        <argsstring>()</argsstring>
+        <name>clearMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1aa8b8f3e0283c81de094c7998ecdbd21f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::isFrameNew</definition>
+        <argsstring>()</argsstring>
+        <name>isFrameNew</name>
+        <reimplements refid="classof_base_video_player_1a0490cb3fdf0a98aed9232fd14fd8873d">isFrameNew</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a3142b560121f45c47b0ab0424d9382f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char* ofQuickTimePlayer::getPixels</definition>
+        <argsstring>()</argsstring>
+        <name>getPixels</name>
+        <reimplements refid="classof_base_video_player_1a219fabc2debd7c542e10a56738fe1f5a">getPixels</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a6c26d4a7433f40a82eeb9687b16a4f9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref></type>
+        <definition>ofPixelsRef ofQuickTimePlayer::getPixelsRef</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelsRef</name>
+        <reimplements refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45">getPixelsRef</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1acde29908f8bb0b85ecbfc31018bf9595" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classof_pixels__" kindref="compound">ofPixels</ref> &amp;</type>
+        <definition>const ofPixels&amp; ofQuickTimePlayer::getPixelsRef</definition>
+        <argsstring>() const </argsstring>
+        <name>getPixelsRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1ae3cac442ba35a5cceefe2de4ea4e2722" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofQuickTimePlayer::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplements refid="classof_base_video_player_1aa641fa782033d2f46f09970d2f94a57f">getWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a897d52ee946aecd57911f9d2368b3e74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofQuickTimePlayer::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplements refid="classof_base_video_player_1a3047ea3f60cae76366314c7dca5de8e2">getHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a93a6d63567291bdf6750d2bea72ef532" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::isPaused</definition>
+        <argsstring>()</argsstring>
+        <name>isPaused</name>
+        <reimplements refid="classof_base_video_player_1aceff7a4857b19b7813a6dae15b95a998">isPaused</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a6ecafc5c1a20df96284bdc7ef13ba5fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::isLoaded</definition>
+        <argsstring>()</argsstring>
+        <name>isLoaded</name>
+        <reimplements refid="classof_base_video_player_1a23210b8f2c1a3ba979b0f097fc43b50b">isLoaded</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1ace4ee92acd7030c39c69796506f76ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::isPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>isPlaying</name>
+        <reimplements refid="classof_base_video_player_1af716ac15560b86d5138b46e8d367178c">isPlaying</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1ab31fa90cd264ccf603c9426a5f417b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofQuickTimePlayer::getPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getPosition</name>
+        <reimplements refid="classof_base_video_player_1ab7922b6b4eb47e491f2359418f807f85">getPosition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1afca88cfea4a8b16e7cfe491cfb48fdd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofQuickTimePlayer::getDuration</definition>
+        <argsstring>()</argsstring>
+        <name>getDuration</name>
+        <reimplements refid="classof_base_video_player_1ab588d8d53e643bafa4207b10d6b78e27">getDuration</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a0af1b38cf887fa0b46b6c54d67c68d9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofQuickTimePlayer::getTotalNumFrames</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalNumFrames</name>
+        <reimplements refid="classof_base_video_player_1a67e6f1bff3c40685408d5e6cc0797b0a">getTotalNumFrames</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1ac524686099db485d6741ed7b65f95f41" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofQuickTimePlayer::getSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>getSpeed</name>
+        <reimplements refid="classof_base_video_player_1a7ade13b100352b5f9bac10c1f41340e9">getSpeed</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a3177d8ac57fd3890c45fd87c21ff80f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimePlayer::getIsMovieDone</definition>
+        <argsstring>()</argsstring>
+        <name>getIsMovieDone</name>
+        <reimplements refid="classof_base_video_player_1a7865e11fc5d7522da1d848373837ea03">getIsMovieDone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a8931a0107d9842452a056816c368da69" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::setPosition</definition>
+        <argsstring>(float pct)</argsstring>
+        <name>setPosition</name>
+        <reimplements refid="classof_base_video_player_1ab4062ece76897e05541f649facdbfdc5">setPosition</reimplements>
+        <param>
+          <type>float</type>
+          <declname>pct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a84b2e66e6b2f29b26850932be7cb4e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::setVolume</definition>
+        <argsstring>(int volume)</argsstring>
+        <name>setVolume</name>
+        <reimplements refid="classof_base_video_player_1a80c26c4218597f0e071f7ef7f3099f59">setVolume</reimplements>
+        <param>
+          <type>int</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1aa593c64021bce5aa4d8f89ef81228813" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::setLoopState</definition>
+        <argsstring>(ofLoopType state)</argsstring>
+        <name>setLoopState</name>
+        <reimplements refid="classof_base_video_player_1a8f9599e7ef06655b028c196bdd7e9fa7">setLoopState</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a10213537a43a583f9caa5764d76ff4a4" kindref="member">ofLoopType</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a3d6130990926f6ac5fe4e2f612a12c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::setSpeed</definition>
+        <argsstring>(float speed)</argsstring>
+        <name>setSpeed</name>
+        <reimplements refid="classof_base_video_player_1ac0662c003a3e6b9a97a81d1b5ef1785d">setSpeed</reimplements>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a39eb648d756b45317b9aa32643f24f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::setFrame</definition>
+        <argsstring>(int frame)</argsstring>
+        <name>setFrame</name>
+        <reimplements refid="classof_base_video_player_1abe2aa4c206d203cfc74355acee227a74">setFrame</reimplements>
+        <param>
+          <type>int</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a0979a2f8567cfbe12d2a01070854b189" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::setPaused</definition>
+        <argsstring>(bool bPause)</argsstring>
+        <name>setPaused</name>
+        <reimplements refid="classof_base_video_player_1a21ef216c2f1f9e56e18acdda5481fc72">setPaused</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bPause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a398034768b5792afb08c1cdce52ac995" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofQuickTimePlayer::getCurrentFrame</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentFrame</name>
+        <reimplements refid="classof_base_video_player_1afefe27f110d8d8a4979539c53bfb32b6">getCurrentFrame</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a0d4baf5b72b1272aabc288c13d98c3d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::firstFrame</definition>
+        <argsstring>()</argsstring>
+        <name>firstFrame</name>
+        <reimplements refid="classof_base_video_player_1a0d6187f84d4aceb7e2cf3b24065256bb">firstFrame</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1a424437b02cdcd8e6399d885e674c6d45" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::nextFrame</definition>
+        <argsstring>()</argsstring>
+        <name>nextFrame</name>
+        <reimplements refid="classof_base_video_player_1ad41d679181a0ba579ffa74f9a111dba8">nextFrame</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1ab6383849062813589f4d57f573029651" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::previousFrame</definition>
+        <argsstring>()</argsstring>
+        <name>previousFrame</name>
+        <reimplements refid="classof_base_video_player_1aeecaa58315db3f080420d429c68ac0a2">previousFrame</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_quick_time_player_1a37b6d430533be8b916b8ce82a7ab53b4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::createImgMemAndGWorld</definition>
+        <argsstring>()</argsstring>
+        <name>createImgMemAndGWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_player_1af91d6346e15869681bdafe60550e5288" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuickTimePlayer::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="532">
+        <label>ofQuickTimePlayer</label>
+        <link refid="classof_quick_time_player"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="535">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="534">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="535" relation="public-inheritance">
+        </childnode>
+        <childnode refid="537" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="537">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="533">
+        <label>ofBaseVideoPlayer</label>
+        <link refid="classof_base_video_player"/>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="538">
+        <label>ofQuickTimePlayer</label>
+        <link refid="classof_quick_time_player"/>
+        <childnode refid="539" relation="public-inheritance">
+        </childnode>
+        <childnode refid="544" relation="usage">
+          <edgelabel>pixels</edgelabel>
+        </childnode>
+      </node>
+      <node id="541">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="542" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="540">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="541" relation="public-inheritance">
+        </childnode>
+        <childnode refid="543" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="543">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="539">
+        <label>ofBaseVideoPlayer</label>
+        <link refid="classof_base_video_player"/>
+        <childnode refid="540" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="544">
+        <label>ofPixels_&lt; unsigned char &gt;</label>
+        <link refid="classof_pixels__"/>
+      </node>
+      <node id="542">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" line="12" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimePlayer.h" bodystart="12" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classof_quick_time_player_1af8045d10cf3bbc17cb54b886d360027a" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>allocated</name></member>
+      <member refid="classof_quick_time_player_1ae1939f757afa3b8ee059df6a139d0b0a" prot="public" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>bHavePixelsChanged</name></member>
+      <member refid="classof_quick_time_player_1a108eba22bd55c74e495d0d8456d4262f" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>bIsFrameNew</name></member>
+      <member refid="classof_quick_time_player_1a81433930194f1ac575a460f26392a742" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>bLoaded</name></member>
+      <member refid="classof_quick_time_player_1ac47d1ac31356e5008114e6bf55a5cb94" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>bPaused</name></member>
+      <member refid="classof_quick_time_player_1a9e0df8387255474384f9447216f02e7c" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>bPlaying</name></member>
+      <member refid="classof_quick_time_player_1ae4e2b7f7366bf4ece7468f88ac200df9" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>bStarted</name></member>
+      <member refid="classof_quick_time_player_1a44d9ec240d6e0f21b44c14920e4e35e6" prot="public" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>clearMemory</name></member>
+      <member refid="classof_quick_time_player_1aab051d0f4bd0f357a6b2613e37a0fe7c" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>close</name></member>
+      <member refid="classof_quick_time_player_1ae8ca7ce316661fb2f7dc129d4c9f2bb7" prot="public" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>closeMovie</name></member>
+      <member refid="classof_quick_time_player_1a37b6d430533be8b916b8ce82a7ab53b4" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>createImgMemAndGWorld</name></member>
+      <member refid="classof_quick_time_player_1a5ac30f96ae2a7c633d594ab88fa47752" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>currentLoopState</name></member>
+      <member refid="classof_quick_time_player_1a0d4baf5b72b1272aabc288c13d98c3d2" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>firstFrame</name></member>
+      <member refid="classof_quick_time_player_1a398034768b5792afb08c1cdce52ac995" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getCurrentFrame</name></member>
+      <member refid="classof_quick_time_player_1afca88cfea4a8b16e7cfe491cfb48fdd3" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getDuration</name></member>
+      <member refid="classof_quick_time_player_1a897d52ee946aecd57911f9d2368b3e74" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getHeight</name></member>
+      <member refid="classof_quick_time_player_1a3177d8ac57fd3890c45fd87c21ff80f4" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getIsMovieDone</name></member>
+      <member refid="classof_base_video_player_1af9bf92d459f19767ea5458d34f879f2c" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getLoopState</name></member>
+      <member refid="classof_quick_time_player_1a3142b560121f45c47b0ab0424d9382f9" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getPixels</name></member>
+      <member refid="classof_quick_time_player_1a6c26d4a7433f40a82eeb9687b16a4f9f" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getPixelsRef</name></member>
+      <member refid="classof_quick_time_player_1acde29908f8bb0b85ecbfc31018bf9595" prot="public" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>getPixelsRef</name></member>
+      <member refid="classof_quick_time_player_1ab31fa90cd264ccf603c9426a5f417b93" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getPosition</name></member>
+      <member refid="classof_quick_time_player_1ac524686099db485d6741ed7b65f95f41" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getSpeed</name></member>
+      <member refid="classof_base_video_player_1a4a8134aab90cdd2f94c73d1e871be8b0" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getTexture</name></member>
+      <member refid="classof_quick_time_player_1a0af1b38cf887fa0b46b6c54d67c68d9a" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getTotalNumFrames</name></member>
+      <member refid="classof_quick_time_player_1ae3cac442ba35a5cceefe2de4ea4e2722" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>getWidth</name></member>
+      <member refid="classof_quick_time_player_1a128acd211315b1f85462fbea64ca8f04" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>height</name></member>
+      <member refid="classof_quick_time_player_1aa8b8f3e0283c81de094c7998ecdbd21f" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>isFrameNew</name></member>
+      <member refid="classof_quick_time_player_1a6ecafc5c1a20df96284bdc7ef13ba5fc" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>isLoaded</name></member>
+      <member refid="classof_quick_time_player_1a93a6d63567291bdf6750d2bea72ef532" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>isPaused</name></member>
+      <member refid="classof_quick_time_player_1ace4ee92acd7030c39c69796506f76ba9" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>isPlaying</name></member>
+      <member refid="classof_quick_time_player_1a1601517ab0a4c6c4feddd018e75785bc" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>loadMovie</name></member>
+      <member refid="classof_quick_time_player_1a424437b02cdcd8e6399d885e674c6d45" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>nextFrame</name></member>
+      <member refid="classof_quick_time_player_1a4809703464e4f2fda196d1e224c61b56" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>nFrames</name></member>
+      <member refid="classof_quick_time_player_1a53c9975c7213cb72e0da45a84139bc52" prot="public" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>ofQuickTimePlayer</name></member>
+      <member refid="classof_quick_time_player_1af213d46cf81a4652fb94a96ef9dcc3c1" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>pixels</name></member>
+      <member refid="classof_quick_time_player_1a03d7e2260ac10f7669709081e4432dff" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>play</name></member>
+      <member refid="classof_quick_time_player_1ab6383849062813589f4d57f573029651" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>previousFrame</name></member>
+      <member refid="classof_quick_time_player_1a39eb648d756b45317b9aa32643f24f10" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>setFrame</name></member>
+      <member refid="classof_quick_time_player_1aa593c64021bce5aa4d8f89ef81228813" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>setLoopState</name></member>
+      <member refid="classof_quick_time_player_1a0979a2f8567cfbe12d2a01070854b189" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>setPaused</name></member>
+      <member refid="classof_base_video_player_1aed1a18f1eafa7669bd537429f61361ed" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>setPixelFormat</name></member>
+      <member refid="classof_quick_time_player_1a8931a0107d9842452a056816c368da69" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>setPosition</name></member>
+      <member refid="classof_quick_time_player_1a3d6130990926f6ac5fe4e2f612a12c0a" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>setSpeed</name></member>
+      <member refid="classof_quick_time_player_1a84b2e66e6b2f29b26850932be7cb4e4c" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>setVolume</name></member>
+      <member refid="classof_quick_time_player_1a62e30f811be3cd2bdb3a992e0a1c79b8" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>speed</name></member>
+      <member refid="classof_quick_time_player_1af91d6346e15869681bdafe60550e5288" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>start</name></member>
+      <member refid="classof_quick_time_player_1a072ad3692bdd0868bf2cdf316064f3bf" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>stop</name></member>
+      <member refid="classof_quick_time_player_1a4fb991b5ef3fa66a0eea5912b5b4e8a4" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>update</name></member>
+      <member refid="classof_quick_time_player_1a4e335e1c380c9d1b2441125a36a2181d" prot="protected" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>width</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_updates_1a48cbac34caf49b4b72092888a7e63b27" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>~ofBaseUpdates</name></member>
+      <member refid="classof_base_video_1af8004a840c98637ba7572b2c34bbc249" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>~ofBaseVideo</name></member>
+      <member refid="classof_base_video_player_1a86a1a45f064c32fce624e6b104f61491" prot="public" virt="virtual"><scope>ofQuickTimePlayer</scope><name>~ofBaseVideoPlayer</name></member>
+      <member refid="classof_quick_time_player_1aac1e3c52f7c845148ff94adc88151612" prot="public" virt="non-virtual"><scope>ofQuickTimePlayer</scope><name>~ofQuickTimePlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_tessellator_8h" kind="file">
+    <compoundname>ofTessellator.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includes local="yes">ofMesh.h</includes>
+    <includes local="yes">ofTypes.h</includes>
+    <includes refid="of_polyline_8h" local="yes">ofPolyline.h</includes>
+    <includes local="yes">tesselator.h</includes>
+    <includedby refid="of_path_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h</includedby>
+    <incdepgraph>
+      <node id="234">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h</label>
+        <link refid="ofTessellator.h"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="242">
+        <label>tesselator.h</label>
+      </node>
+      <node id="236">
+        <label>ofMesh.h</label>
+      </node>
+      <node id="238">
+        <label>ofPolyline.h</label>
+        <link refid="of_polyline_8h"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="239">
+        <label>ofPoint.h</label>
+      </node>
+      <node id="240">
+        <label>deque</label>
+      </node>
+      <node id="241">
+        <label>ofRectangle.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="243">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h</label>
+        <link refid="ofTessellator.h"/>
+        <childnode refid="244" relation="include">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h</label>
+        <link refid="of_path_8h"/>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h</label>
+        <link refid="of_cairo_renderer_8h"/>
+      </node>
+      <node id="246">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h</label>
+        <link refid="of_true_type_font_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classof_tessellator" prot="public">ofTessellator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofMesh.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_polyline_8h" kindref="compound">ofPolyline.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tesselator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classof_tessellator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_tessellator" kindref="compound">ofTessellator</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_tessellator_1aeb1a9b4fea623ce67f313bbf564c6900" kindref="member">ofTessellator</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_tessellator_1ad0c67a934bb296bfc8fa4d11660e0612" kindref="member">~ofTessellator</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_tessellator_1aeb1a9b4fea623ce67f313bbf564c6900" kindref="member">ofTessellator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator" kindref="compound">ofTessellator</ref><sp/>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_tessellator" kindref="compound">ofTessellator</ref><sp/>&amp;<sp/><ref refid="classof_tessellator_1ae364f51ee7332bbcad8addb1c609f930" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator" kindref="compound">ofTessellator</ref><sp/>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator_1a6c3ffcb217b36c6ffd8aaf59decea157" kindref="member">tessellateToMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;ofPolyline&gt;&amp;<sp/>src,<sp/><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref><sp/>polyWindingMode,<sp/><ref refid="classof_mesh" kindref="compound">ofMesh</ref><sp/>&amp;<sp/>dstmesh,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIs2D=</highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator_1a6c3ffcb217b36c6ffd8aaf59decea157" kindref="member">tessellateToMesh</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_polyline" kindref="compound">ofPolyline</ref>&amp;<sp/>src,<sp/><sp/><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref><sp/>polyWindingMode,<sp/><ref refid="classof_mesh" kindref="compound">ofMesh</ref>&amp;<sp/>dstmesh,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIs2D=</highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator_1a13884de2827a33a83edb4da3d41f8d29" kindref="member">tessellateToPolylines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;ofPolyline&gt;&amp;<sp/>src,<sp/><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref><sp/>polyWindingMode,<sp/>vector&lt;ofPolyline&gt;&amp;<sp/>dstpoly,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIs2D=</highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator_1a13884de2827a33a83edb4da3d41f8d29" kindref="member">tessellateToPolylines</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_polyline" kindref="compound">ofPolyline</ref><sp/>&amp;<sp/>src,<sp/><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref><sp/>polyWindingMode,<sp/>vector&lt;ofPolyline&gt;&amp;<sp/>dstpoly,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIs2D=</highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator_1adddb3caa7faad84f316d85d2b4b85ebf" kindref="member">performTessellation</ref>(<sp/><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref><sp/>polyWindingMode,<sp/><ref refid="classof_mesh" kindref="compound">ofMesh</ref>&amp;<sp/>dstmesh,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIs2D<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator_1adddb3caa7faad84f316d85d2b4b85ebf" kindref="member">performTessellation</ref>(<ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref><sp/>polyWindingMode,<sp/>vector&lt;ofPolyline&gt;&amp;<sp/>dstpoly,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIs2D<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_tessellator_1a4bc33446120f302aa7c775fb589d16cb" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classof_tessellator_1a33e1b332f7f85212d266c76abb26a58a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TESStesselator<sp/>*<sp/><ref refid="classof_tessellator_1a33e1b332f7f85212d266c76abb26a58a" kindref="member">cacheTess</ref>;</highlight></codeline>
+<codeline lineno="32" refid="classof_tessellator_1a514d1745e235b0fc5ef7bd831670df2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TESSalloc<sp/><ref refid="classof_tessellator_1a514d1745e235b0fc5ef7bd831670df2c" kindref="member">tessAllocator</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h"/>
+  </compounddef>
+</doxygen>

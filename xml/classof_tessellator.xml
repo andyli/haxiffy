@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_tessellator" kind="class" prot="public">
+    <compoundname>ofTessellator</compoundname>
+    <includes refid="of_tessellator_8h" local="no">ofTessellator.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_tessellator_1a33e1b332f7f85212d266c76abb26a58a" prot="private" static="no" mutable="no">
+        <type>TESStesselator *</type>
+        <definition>TESStesselator* ofTessellator::cacheTess</definition>
+        <argsstring></argsstring>
+        <name>cacheTess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_tessellator_1a514d1745e235b0fc5ef7bd831670df2c" prot="private" static="no" mutable="no">
+        <type>TESSalloc</type>
+        <definition>TESSalloc ofTessellator::tessAllocator</definition>
+        <argsstring></argsstring>
+        <name>tessAllocator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="32" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_tessellator_1aeb1a9b4fea623ce67f313bbf564c6900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofTessellator::ofTessellator</definition>
+        <argsstring>()</argsstring>
+        <name>ofTessellator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1ad0c67a934bb296bfc8fa4d11660e0612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofTessellator::~ofTessellator</definition>
+        <argsstring>()</argsstring>
+        <name>~ofTessellator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1a7bfa3bf637d252bc59c61e3ade453632" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofTessellator::ofTessellator</definition>
+        <argsstring>(const ofTessellator &amp;mom)</argsstring>
+        <name>ofTessellator</name>
+        <param>
+          <type>const <ref refid="classof_tessellator" kindref="compound">ofTessellator</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1ae364f51ee7332bbcad8addb1c609f930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_tessellator" kindref="compound">ofTessellator</ref> &amp;</type>
+        <definition>ofTessellator&amp; ofTessellator::operator=</definition>
+        <argsstring>(const ofTessellator &amp;mom)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_tessellator" kindref="compound">ofTessellator</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1a6c3ffcb217b36c6ffd8aaf59decea157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTessellator::tessellateToMesh</definition>
+        <argsstring>(const vector&lt; ofPolyline &gt; &amp;src, ofPolyWindingMode polyWindingMode, ofMesh &amp;dstmesh, bool bIs2D=false)</argsstring>
+        <name>tessellateToMesh</name>
+        <param>
+          <type>const vector&lt; <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &gt; &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+          <declname>polyWindingMode</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>dstmesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bIs2D</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1a1efdc0b3f50e175fecbbc108763f611c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTessellator::tessellateToMesh</definition>
+        <argsstring>(const ofPolyline &amp;src, ofPolyWindingMode polyWindingMode, ofMesh &amp;dstmesh, bool bIs2D=false)</argsstring>
+        <name>tessellateToMesh</name>
+        <param>
+          <type>const <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+          <declname>polyWindingMode</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>dstmesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bIs2D</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1a13884de2827a33a83edb4da3d41f8d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTessellator::tessellateToPolylines</definition>
+        <argsstring>(const vector&lt; ofPolyline &gt; &amp;src, ofPolyWindingMode polyWindingMode, vector&lt; ofPolyline &gt; &amp;dstpoly, bool bIs2D=false)</argsstring>
+        <name>tessellateToPolylines</name>
+        <param>
+          <type>const vector&lt; <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &gt; &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+          <declname>polyWindingMode</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &gt; &amp;</type>
+          <declname>dstpoly</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bIs2D</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1a473e7b552f6d7db79262651111d39cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTessellator::tessellateToPolylines</definition>
+        <argsstring>(const ofPolyline &amp;src, ofPolyWindingMode polyWindingMode, vector&lt; ofPolyline &gt; &amp;dstpoly, bool bIs2D=false)</argsstring>
+        <name>tessellateToPolylines</name>
+        <param>
+          <type>const <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+          <declname>polyWindingMode</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &gt; &amp;</type>
+          <declname>dstpoly</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bIs2D</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_tessellator_1adddb3caa7faad84f316d85d2b4b85ebf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTessellator::performTessellation</definition>
+        <argsstring>(ofPolyWindingMode polyWindingMode, ofMesh &amp;dstmesh, bool bIs2D)</argsstring>
+        <name>performTessellation</name>
+        <param>
+          <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+          <declname>polyWindingMode</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>dstmesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bIs2D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1a186ff6da216992ee788a9e2af7bfcbdf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTessellator::performTessellation</definition>
+        <argsstring>(ofPolyWindingMode polyWindingMode, vector&lt; ofPolyline &gt; &amp;dstpoly, bool bIs2D)</argsstring>
+        <name>performTessellation</name>
+        <param>
+          <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+          <declname>polyWindingMode</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &gt; &amp;</type>
+          <declname>dstpoly</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bIs2D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_tessellator_1a4bc33446120f302aa7c775fb589d16cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTessellator::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" line="11" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTessellator.h" bodystart="10" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classof_tessellator_1a33e1b332f7f85212d266c76abb26a58a" prot="private" virt="non-virtual"><scope>ofTessellator</scope><name>cacheTess</name></member>
+      <member refid="classof_tessellator_1a4bc33446120f302aa7c775fb589d16cb" prot="private" virt="non-virtual"><scope>ofTessellator</scope><name>init</name></member>
+      <member refid="classof_tessellator_1aeb1a9b4fea623ce67f313bbf564c6900" prot="public" virt="non-virtual"><scope>ofTessellator</scope><name>ofTessellator</name></member>
+      <member refid="classof_tessellator_1a7bfa3bf637d252bc59c61e3ade453632" prot="public" virt="non-virtual"><scope>ofTessellator</scope><name>ofTessellator</name></member>
+      <member refid="classof_tessellator_1ae364f51ee7332bbcad8addb1c609f930" prot="public" virt="non-virtual"><scope>ofTessellator</scope><name>operator=</name></member>
+      <member refid="classof_tessellator_1adddb3caa7faad84f316d85d2b4b85ebf" prot="private" virt="non-virtual"><scope>ofTessellator</scope><name>performTessellation</name></member>
+      <member refid="classof_tessellator_1a186ff6da216992ee788a9e2af7bfcbdf" prot="private" virt="non-virtual"><scope>ofTessellator</scope><name>performTessellation</name></member>
+      <member refid="classof_tessellator_1a514d1745e235b0fc5ef7bd831670df2c" prot="private" virt="non-virtual"><scope>ofTessellator</scope><name>tessAllocator</name></member>
+      <member refid="classof_tessellator_1a6c3ffcb217b36c6ffd8aaf59decea157" prot="public" virt="non-virtual"><scope>ofTessellator</scope><name>tessellateToMesh</name></member>
+      <member refid="classof_tessellator_1a1efdc0b3f50e175fecbbc108763f611c" prot="public" virt="non-virtual"><scope>ofTessellator</scope><name>tessellateToMesh</name></member>
+      <member refid="classof_tessellator_1a13884de2827a33a83edb4da3d41f8d29" prot="public" virt="non-virtual"><scope>ofTessellator</scope><name>tessellateToPolylines</name></member>
+      <member refid="classof_tessellator_1a473e7b552f6d7db79262651111d39cb2" prot="public" virt="non-virtual"><scope>ofTessellator</scope><name>tessellateToPolylines</name></member>
+      <member refid="classof_tessellator_1ad0c67a934bb296bfc8fa4d11660e0612" prot="public" virt="non-virtual"><scope>ofTessellator</scope><name>~ofTessellator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,2500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_matrix4x4" kind="class" prot="public">
+    <compoundname>ofMatrix4x4</compoundname>
+    <includes refid="of_matrix4x4_8h" local="no">ofMatrix4x4.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_matrix4x4_1a28dd7ff5eee745c3ccd17e706fb7df54" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_vec4f" kindref="compound">ofVec4f</ref></type>
+        <definition>ofVec4f ofMatrix4x4::_mat[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>_mat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="33" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_matrix4x4_1ad75d4fc13d259fc3d23634f90c9370eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofMatrix4x4::ofMatrix4x4</definition>
+        <argsstring>()</argsstring>
+        <name>ofMatrix4x4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="37" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a98f98e4d8430ac9d4eeff00a8f032988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofMatrix4x4::ofMatrix4x4</definition>
+        <argsstring>(const ofMatrix4x4 &amp;mat)</argsstring>
+        <name>ofMatrix4x4</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>mat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="40" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a0b2b94b4e89786340656361ba83fb86a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofMatrix4x4::ofMatrix4x4</definition>
+        <argsstring>(float const *const ptr)</argsstring>
+        <name>ofMatrix4x4</name>
+        <param>
+          <type>float const *const</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="43" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a2f46e9c9f6e2bcd1900c4d9382c1b799" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofMatrix4x4::ofMatrix4x4</definition>
+        <argsstring>(const ofQuaternion &amp;quat)</argsstring>
+        <name>ofMatrix4x4</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>quat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a1eefc21473d4c0d448edc6d65349f85c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofMatrix4x4::ofMatrix4x4</definition>
+        <argsstring>(float a00, float a01, float a02, float a03, float a10, float a11, float a12, float a13, float a20, float a21, float a22, float a23, float a30, float a31, float a32, float a33)</argsstring>
+        <name>ofMatrix4x4</name>
+        <param>
+          <type>float</type>
+          <declname>a00</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a01</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a02</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a03</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a10</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a11</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a12</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a13</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a20</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a21</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a22</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a23</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a30</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a31</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a32</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a33</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1aed58a6f134883e931099d1170b9d2de6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofMatrix4x4::~ofMatrix4x4</definition>
+        <argsstring>()</argsstring>
+        <name>~ofMatrix4x4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="57" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a691c2a5a1d99340b7d470de5ff2a346e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float&amp; ofMatrix4x4::operator()</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="67" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a1ec09b25f7e28cdf5a25a656c1ff3eb1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofMatrix4x4::operator()</definition>
+        <argsstring>(int row, int col) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="73" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a82fee95169c0cc34dac1eadbf46015b8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofMatrix4x4::getRowAsVec3f</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>getRowAsVec3f</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="78" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a6182c5d366afbc0d9af8dace499a1d3e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec4f" kindref="compound">ofVec4f</ref></type>
+        <definition>ofVec4f ofMatrix4x4::getRowAsVec4f</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>getRowAsVec4f</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ac8332c51516bb43b05acaa0d196e6758" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofMatrix4x4::isValid</definition>
+        <argsstring>() const </argsstring>
+        <name>isValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="92" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a6884953c170c196b8d73e6b1cdd2f0ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofMatrix4x4::isNaN</definition>
+        <argsstring>() const </argsstring>
+        <name>isNaN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="96" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="423" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a2536ae222f0f1ae9dd7efb3ae909190a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+        <definition>ofMatrix4x4 &amp; ofMatrix4x4::operator=</definition>
+        <argsstring>(const ofMatrix4x4 &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="100" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="500" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a223d5c256c491f923e32b1a7571ba106" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::set</definition>
+        <argsstring>(const ofMatrix4x4 &amp;rhs)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="104" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="506" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a1ce34123126724df5570b1847f98d78f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::set</definition>
+        <argsstring>(float const *const ptr)</argsstring>
+        <name>set</name>
+        <param>
+          <type>float const *const</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="105" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="510" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a0fc5d8d5224381c3700ce4d50bec91e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::set</definition>
+        <argsstring>(double const *const ptr)</argsstring>
+        <name>set</name>
+        <param>
+          <type>double const *const</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="106" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="515" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ae2fc7d74f23ebdd4131e026dda1cc8d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::set</definition>
+        <argsstring>(float a00, float a01, float a02, float a03, float a10, float a11, float a12, float a13, float a20, float a21, float a22, float a23, float a30, float a31, float a32, float a33)</argsstring>
+        <name>set</name>
+        <param>
+          <type>float</type>
+          <declname>a00</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a01</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a02</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a03</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a10</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a11</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a12</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a13</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a20</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a21</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a22</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a23</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a30</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a31</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a32</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a33</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1af8c05f9cf9470646fc0915e8b163068f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float *</type>
+        <definition>float* ofMatrix4x4::getPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="115" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ab48e307be029df1290aff334ff032113" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const float *</type>
+        <definition>const float* ofMatrix4x4::getPtr</definition>
+        <argsstring>() const </argsstring>
+        <name>getPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="118" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="118" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a7eff119d9e8fe499140b04322258a549" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofMatrix4x4::isIdentity</definition>
+        <argsstring>() const </argsstring>
+        <name>isIdentity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="124" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="520" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a71ccf099ef90bf64fd554c03e3c50036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeIdentityMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>makeIdentityMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a1ca6dcc64e5945716c02c46e6181e971" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeScaleMatrix</definition>
+        <argsstring>(const ofVec3f &amp;)</argsstring>
+        <name>makeScaleMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ae5abe17dd91a03fb0d283eb10d7e3025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeScaleMatrix</definition>
+        <argsstring>(float, float, float)</argsstring>
+        <name>makeScaleMatrix</name>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a08c9901867c1a4fb113ce8cf7cad8a0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeTranslationMatrix</definition>
+        <argsstring>(const ofVec3f &amp;)</argsstring>
+        <name>makeTranslationMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a95e6e68b36a3aa244ba31b6bf0e0df42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeTranslationMatrix</definition>
+        <argsstring>(float, float, float)</argsstring>
+        <name>makeTranslationMatrix</name>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a2b624fa64ef1b27199129c9e9cf9d6d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeRotationMatrix</definition>
+        <argsstring>(const ofVec3f &amp;from, const ofVec3f &amp;to)</argsstring>
+        <name>makeRotationMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a8b44aa90ef7c0c426450d3cd9d1dcbfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeRotationMatrix</definition>
+        <argsstring>(float angle, const ofVec3f &amp;axis)</argsstring>
+        <name>makeRotationMatrix</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ad5218d606f4cd46581ddd9cb18220303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeRotationMatrix</definition>
+        <argsstring>(float angle, float x, float y, float z)</argsstring>
+        <name>makeRotationMatrix</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ada68e6c06f933151478ca270c4d1d6f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeRotationMatrix</definition>
+        <argsstring>(const ofQuaternion &amp;)</argsstring>
+        <name>makeRotationMatrix</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ac3fee605b315def772d53e56f3653dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeRotationMatrix</definition>
+        <argsstring>(float angle1, const ofVec3f &amp;axis1, float angle2, const ofVec3f &amp;axis2, float angle3, const ofVec3f &amp;axis3)</argsstring>
+        <name>makeRotationMatrix</name>
+        <param>
+          <type>float</type>
+          <declname>angle1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle3</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a443f5350825e494808bad13c31eeb88b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofMatrix4x4::makeInvertOf</definition>
+        <argsstring>(const ofMatrix4x4 &amp;rhs)</argsstring>
+        <name>makeInvertOf</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1aaadfb76b67b5839bb595066e7a2f0274" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeOrthoNormalOf</definition>
+        <argsstring>(const ofMatrix4x4 &amp;rhs)</argsstring>
+        <name>makeOrthoNormalOf</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a0533e0a00e3e36a380d0c5419939849d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeFromMultiplicationOf</definition>
+        <argsstring>(const ofMatrix4x4 &amp;, const ofMatrix4x4 &amp;)</argsstring>
+        <name>makeFromMultiplicationOf</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1acb2492d77ffa5e4fa70b378874d81fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::getInverse</definition>
+        <argsstring>()</argsstring>
+        <name>getInverse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ac4308822795d32eaa2d4c5fffd5a59b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeOrthoMatrix</definition>
+        <argsstring>(double left, double right, double bottom, double top, double zNear, double zFar)</argsstring>
+        <name>makeOrthoMatrix</name>
+        <param>
+          <type>double</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a17ee33c3195f1ad0c756c45359d64ab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeOrtho2DMatrix</definition>
+        <argsstring>(double left, double right, double bottom, double top)</argsstring>
+        <name>makeOrtho2DMatrix</name>
+        <param>
+          <type>double</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="166" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="527" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a7ba822771fcaeff664916c49a505f034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeFrustumMatrix</definition>
+        <argsstring>(double left, double right, double bottom, double top, double zNear, double zFar)</argsstring>
+        <name>makeFrustumMatrix</name>
+        <param>
+          <type>double</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a5fd80395dcd3303cd7630610d91e8308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makePerspectiveMatrix</definition>
+        <argsstring>(double fovy, double aspectRatio, double zNear, double zFar)</argsstring>
+        <name>makePerspectiveMatrix</name>
+        <param>
+          <type>double</type>
+          <declname>fovy</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aspectRatio</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a5f55089db1f07aa3a71f162e90c668aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeLookAtMatrix</definition>
+        <argsstring>(const ofVec3f &amp;eye, const ofVec3f &amp;center, const ofVec3f &amp;up)</argsstring>
+        <name>makeLookAtMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>eye</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a445763c60b8b41aad437855ecb083084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::makeLookAtViewMatrix</definition>
+        <argsstring>(const ofVec3f &amp;eye, const ofVec3f &amp;center, const ofVec3f &amp;up)</argsstring>
+        <name>makeLookAtViewMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>eye</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a9cd4cf708daabc929d99cf1b5e626bf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofMatrix4x4::getOrtho</definition>
+        <argsstring>(double &amp;left, double &amp;right, double &amp;bottom, double &amp;top, double &amp;zNear, double &amp;zFar) const </argsstring>
+        <name>getOrtho</name>
+        <param>
+          <type>double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1aa191919c9afb4ac6091bd0febf9d34e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofMatrix4x4::getFrustum</definition>
+        <argsstring>(double &amp;left, double &amp;right, double &amp;bottom, double &amp;top, double &amp;zNear, double &amp;zFar) const </argsstring>
+        <name>getFrustum</name>
+        <param>
+          <type>double &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ae2847b993f55559c4930ac354904afe2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofMatrix4x4::getPerspective</definition>
+        <argsstring>(double &amp;fovy, double &amp;aspectRatio, double &amp;zNear, double &amp;zFar) const </argsstring>
+        <name>getPerspective</name>
+        <param>
+          <type>double &amp;</type>
+          <declname>fovy</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>aspectRatio</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the frustum settings of a symmetric perspective projection matrix. Return false if matrix is not a perspective matrix, where parameter values are undefined. Note, if matrix is not a symmetric perspective matrix then the shear will be lost. Asymmetric matrices occur when stereo, power walls, caves and reality center display are used. In these configuration one should use the AsFrustum method instead. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ad801b4c6615433196a95f6ee3bdae5db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::getLookAt</definition>
+        <argsstring>(ofVec3f &amp;eye, ofVec3f &amp;center, ofVec3f &amp;up, float lookDistance=1.0f) const </argsstring>
+        <name>getLookAt</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>eye</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>up</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lookDistance</declname>
+          <defval>1.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a5256e32314e5b0a6010ea12b7a8b245e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::decompose</definition>
+        <argsstring>(ofVec3f &amp;translation, ofQuaternion &amp;rotation, ofVec3f &amp;scale, ofQuaternion &amp;so) const </argsstring>
+        <name>decompose</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>translation</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>so</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a23de2543b0d37aff68c23948f483a45a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofMatrix4x4::postMult</definition>
+        <argsstring>(const ofVec3f &amp;v) const </argsstring>
+        <name>postMult</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="310" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="653" bodyend="658"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1aaf3e0f2c6c7c7db8e2b559e4a3e9a157" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofMatrix4x4::operator*</definition>
+        <argsstring>(const ofVec3f &amp;v) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="311" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="311" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a9f04a06edcc61c53c909e4670a58f115" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec4f" kindref="compound">ofVec4f</ref></type>
+        <definition>ofVec4f ofMatrix4x4::postMult</definition>
+        <argsstring>(const ofVec4f &amp;v) const </argsstring>
+        <name>postMult</name>
+        <param>
+          <type>const <ref refid="classof_vec4f" kindref="compound">ofVec4f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="315" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="667" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a6de2cc82dd097fa391e5c064894bfa24" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec4f" kindref="compound">ofVec4f</ref></type>
+        <definition>ofVec4f ofMatrix4x4::operator*</definition>
+        <argsstring>(const ofVec4f &amp;v) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classof_vec4f" kindref="compound">ofVec4f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="316" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="316" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a65d6cb4adba911a0a119d1c0a3386c60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofMatrix4x4::preMult</definition>
+        <argsstring>(const ofVec3f &amp;v) const </argsstring>
+        <name>preMult</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="320" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="660" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1af04d14c68a768f651079784cc2037427" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec4f" kindref="compound">ofVec4f</ref></type>
+        <definition>ofVec4f ofMatrix4x4::preMult</definition>
+        <argsstring>(const ofVec4f &amp;v) const </argsstring>
+        <name>preMult</name>
+        <param>
+          <type>const <ref refid="classof_vec4f" kindref="compound">ofVec4f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="321" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="674" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ace388ef9b8c18c25e541d01711587187" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::setRotate</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>setRotate</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a9ff434ad5b8080dbc872e967bf143223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::setTranslation</definition>
+        <argsstring>(float tx, float ty, float tz)</argsstring>
+        <name>setTranslation</name>
+        <param>
+          <type>float</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ty</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a06ee8a6be5867b5931462707ee1440dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::setTranslation</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>setTranslation</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1aedb7120a5f6fbd9c27d5c05dc5f513ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::rotate</definition>
+        <argsstring>(float angle, float x, float y, float z)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="336" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="772" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a2c321f006edb3e828c4ff7534f95c5ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::rotateRad</definition>
+        <argsstring>(float angle, float x, float y, float z)</argsstring>
+        <name>rotateRad</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="337" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="776" bodyend="778"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a92d69542d412f236857a810e4b169aa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::rotate</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="338" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="768" bodyend="770"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a6349178bae335eb36dc2b4b1c5e8bd2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::translate</definition>
+        <argsstring>(float tx, float ty, float tz)</argsstring>
+        <name>translate</name>
+        <param>
+          <type>float</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ty</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="339" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="780" bodyend="782"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a1b3f68215bbb1a4139cab0b1153d6e36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::translate</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>translate</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="340" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="784" bodyend="786"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1abe356179245941dfffb1919b8bb64e4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::scale</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>scale</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="341" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="788" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a2b560b69228fb41c4a02ab19a15b5330" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::scale</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>scale</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="342" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="792" bodyend="794"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1acfbc717c88e333ceaaa3c07682e028a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::glRotate</definition>
+        <argsstring>(float angle, float x, float y, float z)</argsstring>
+        <name>glRotate</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="348" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="796" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a0bbe3d306138e9a743104c3e83bf0582" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::glRotateRad</definition>
+        <argsstring>(float angle, float x, float y, float z)</argsstring>
+        <name>glRotateRad</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="349" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="800" bodyend="802"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ae9ff49e22938a030c765a8395749d2f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::glRotate</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>glRotate</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="350" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="804" bodyend="806"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1afbd09d2e364ae4f567f4448476cc0030" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::glTranslate</definition>
+        <argsstring>(float tx, float ty, float tz)</argsstring>
+        <name>glTranslate</name>
+        <param>
+          <type>float</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ty</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="351" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="808" bodyend="810"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a18f55fddc66f1df002dfa5cd22d94a5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::glTranslate</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>glTranslate</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="352" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="812" bodyend="814"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ad41f7b1bd1ad5723d49d979d91b4fe01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::glScale</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>glScale</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="353" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="816" bodyend="818"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a48b10eae3dcba3acbc29156cb3c5cbe8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::glScale</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>glScale</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="354" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="820" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a421494de45410607d28f0da9ca413001" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>ofQuaternion ofMatrix4x4::getRotate</definition>
+        <argsstring>() const </argsstring>
+        <name>getRotate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a0249ee3888d9be0a9a25c1590b04fc80" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofMatrix4x4::getTranslation</definition>
+        <argsstring>() const </argsstring>
+        <name>getTranslation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="362" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="532" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a8d542990c386724cbd3f388dd6bd6b15" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofMatrix4x4::getScale</definition>
+        <argsstring>() const </argsstring>
+        <name>getScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="363" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="536" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a762b5ce406a4215e425bc39222215d2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::postMult</definition>
+        <argsstring>(const ofMatrix4x4 &amp;)</argsstring>
+        <name>postMult</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a0bb3fb7cbf6d5794a26fdce5c4b1fb69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::operator*=</definition>
+        <argsstring>(const ofMatrix4x4 &amp;other)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="377" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="377" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1af05ec4a6db27a4b34720eab307a97666" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::operator*</definition>
+        <argsstring>(const ofMatrix4x4 &amp;m) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="384" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="384" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a579d5d9c45dc9e83ea723b5d93dfae0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::preMult</definition>
+        <argsstring>(const ofMatrix4x4 &amp;)</argsstring>
+        <name>preMult</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a2e8723fbd3c226f6b78932eb5c404aff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::postMultTranslate</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>postMultTranslate</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="400" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="704" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ab7e0580e3f412151753abb856747e544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::postMultScale</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>postMultScale</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="402" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="753" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a44a8c832bc37f16413de45857c9859b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::postMultRotate</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>postMultRotate</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="404" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="849" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a81d31c83fb3fe5a976b4007cccd550a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::postMultTranslate</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>postMultTranslate</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="407" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="717" bodyend="736"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ad344f7572c276c9d75a470b2c5e1b3db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::postMultRotate</definition>
+        <argsstring>(float angle, float x, float y, float z)</argsstring>
+        <name>postMultRotate</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="408" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="858" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ac496346d3a317d0195080542dd9f7b93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::postMultScale</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>postMultScale</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="409" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="825" bodyend="838"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a8080766d44b7083347dce1af2a9d202e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::preMultScale</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>preMultScale</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="414" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="738" bodyend="751"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ab64d2dbc36704db92524cd7a8b4134be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::preMultTranslate</definition>
+        <argsstring>(const ofVec3f &amp;v)</argsstring>
+        <name>preMultTranslate</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="416" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="692" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ad7d14977a1e8be64c51b7fb289b05832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix4x4::preMultRotate</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>preMultRotate</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="418" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="841" bodyend="847"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classof_matrix4x4_1a7b8e55ff0129b7914cef141df5384b22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const ofMatrix4x4 &amp;M)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>M</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="87" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="447" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="friend" id="classof_matrix4x4_1a9099b5cd49312f96b803f1f9034695ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend istream &amp;</type>
+        <definition>istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;is, ofMatrix4x4 &amp;M)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>M</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="476" bodyend="497"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classof_matrix4x4_1a14607cd4c2ad5820b8c79d16721ac553" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newIdentityMatrix</definition>
+        <argsstring>(void)</argsstring>
+        <name>newIdentityMatrix</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="236" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="544" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a523850a2fbde8e8bf2f1c7e67b818608" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newScaleMatrix</definition>
+        <argsstring>(const ofVec3f &amp;sv)</argsstring>
+        <name>newScaleMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>sv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="237" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="556" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a6f5c259dfd84ad6d4a3821f573bacdf5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newScaleMatrix</definition>
+        <argsstring>(float sx, float sy, float sz)</argsstring>
+        <name>newScaleMatrix</name>
+        <param>
+          <type>float</type>
+          <declname>sx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="238" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="550" bodyend="554"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a21d86ff138b1764fd5b7d9be3788839f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newTranslationMatrix</definition>
+        <argsstring>(const ofVec3f &amp;dv)</argsstring>
+        <name>newTranslationMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>dv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="239" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="566" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a86c1b2df50ca25c63a36d7f39268c25b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newTranslationMatrix</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>newTranslationMatrix</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="240" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="560" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1aacb01604b5478f3f189f7fef2b147040" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newRotationMatrix</definition>
+        <argsstring>(const ofVec3f &amp;from, const ofVec3f &amp;to)</argsstring>
+        <name>newRotationMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="241" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="590" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1af8e391f447240ef16bde99bc2c06be83" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newRotationMatrix</definition>
+        <argsstring>(float angle, float x, float y, float z)</argsstring>
+        <name>newRotationMatrix</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="242" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="573" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1afb0a470d56dcd0baf1fcd6269e024128" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newRotationMatrix</definition>
+        <argsstring>(float angle, const ofVec3f &amp;axis)</argsstring>
+        <name>newRotationMatrix</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="243" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="578" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a8ad090ebae6d497c5c90dbbc87030cd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newRotationMatrix</definition>
+        <argsstring>(float angle1, const ofVec3f &amp;axis1, float angle2, const ofVec3f &amp;axis2, float angle3, const ofVec3f &amp;axis3)</argsstring>
+        <name>newRotationMatrix</name>
+        <param>
+          <type>float</type>
+          <declname>angle1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle3</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="246" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="583" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a91c531a26df5265645af636e6a77458a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newRotationMatrix</definition>
+        <argsstring>(const ofQuaternion &amp;quat)</argsstring>
+        <name>newRotationMatrix</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>quat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="247" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="570" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ae59b7e1c6c41c84d2cfa348f65e0b1ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::getInverseOf</definition>
+        <argsstring>(const ofMatrix4x4 &amp;matrix)</argsstring>
+        <name>getInverseOf</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="251" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="596" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a887dc656af941ee26c0371820127b066" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::getTransposedOf</definition>
+        <argsstring>(const ofMatrix4x4 &amp;matrix)</argsstring>
+        <name>getTransposedOf</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="252" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="602" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1aa3556695daa55065296b6af931bed747" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::getOrthoNormalOf</definition>
+        <argsstring>(const ofMatrix4x4 &amp;matrix)</argsstring>
+        <name>getOrthoNormalOf</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="253" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="611" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1accd9a759bedacc4aa7cccf95911ee131" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newOrthoMatrix</definition>
+        <argsstring>(double left, double right, double bottom, double top, double zNear, double zFar)</argsstring>
+        <name>newOrthoMatrix</name>
+        <param>
+          <type>double</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="261" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="617" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a7db2f13f3e9bb5413ba017224f719423" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newOrtho2DMatrix</definition>
+        <argsstring>(double left, double right, double bottom, double top)</argsstring>
+        <name>newOrtho2DMatrix</name>
+        <param>
+          <type>double</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="265" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="625" bodyend="630"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a5286c58f3ebf08fca0956f7ed707607d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newFrustumMatrix</definition>
+        <argsstring>(double left, double right, double bottom, double top, double zNear, double zFar)</argsstring>
+        <name>newFrustumMatrix</name>
+        <param>
+          <type>double</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="270" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="632" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1aa396844090e1bb55493d40069e581522" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newPerspectiveMatrix</definition>
+        <argsstring>(double fovy, double aspectRatio, double zNear, double zFar)</argsstring>
+        <name>newPerspectiveMatrix</name>
+        <param>
+          <type>double</type>
+          <declname>fovy</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>aspectRatio</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zNear</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zFar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="274" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="640" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a7af8d42fffaef77dafe5ca316554da69" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofMatrix4x4::newLookAtMatrix</definition>
+        <argsstring>(const ofVec3f &amp;eye, const ofVec3f &amp;center, const ofVec3f &amp;up)</argsstring>
+        <name>newLookAtMatrix</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>eye</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="279" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="647" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1ac79426c2367b4beea62355e35c2152e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofMatrix4x4::transform3x3</definition>
+        <argsstring>(const ofVec3f &amp;v, const ofMatrix4x4 &amp;m)</argsstring>
+        <name>transform3x3</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="368" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="680" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix4x4_1a29ea25a870e0bee6667ad0f274679fee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofMatrix4x4::transform3x3</definition>
+        <argsstring>(const ofMatrix4x4 &amp;m, const ofVec3f &amp;v)</argsstring>
+        <name>transform3x3</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="371" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="686" bodyend="690"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="483">
+        <label>ofVec4f</label>
+        <link refid="classof_vec4f"/>
+      </node>
+      <node id="482">
+        <label>ofMatrix4x4</label>
+        <link refid="classof_matrix4x4"/>
+        <childnode refid="483" relation="usage">
+          <edgelabel>_mat</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix4x4.h" bodystart="28" bodyend="417"/>
+    <listofallmembers>
+      <member refid="classof_matrix4x4_1a28dd7ff5eee745c3ccd17e706fb7df54" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>_mat</name></member>
+      <member refid="classof_matrix4x4_1a5256e32314e5b0a6010ea12b7a8b245e" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>decompose</name></member>
+      <member refid="classof_matrix4x4_1aa191919c9afb4ac6091bd0febf9d34e7" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getFrustum</name></member>
+      <member refid="classof_matrix4x4_1acb2492d77ffa5e4fa70b378874d81fe3" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getInverse</name></member>
+      <member refid="classof_matrix4x4_1ae59b7e1c6c41c84d2cfa348f65e0b1ac" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getInverseOf</name></member>
+      <member refid="classof_matrix4x4_1ad801b4c6615433196a95f6ee3bdae5db" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getLookAt</name></member>
+      <member refid="classof_matrix4x4_1a9cd4cf708daabc929d99cf1b5e626bf8" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getOrtho</name></member>
+      <member refid="classof_matrix4x4_1aa3556695daa55065296b6af931bed747" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getOrthoNormalOf</name></member>
+      <member refid="classof_matrix4x4_1ae2847b993f55559c4930ac354904afe2" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getPerspective</name></member>
+      <member refid="classof_matrix4x4_1af8c05f9cf9470646fc0915e8b163068f" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getPtr</name></member>
+      <member refid="classof_matrix4x4_1ab48e307be029df1290aff334ff032113" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getPtr</name></member>
+      <member refid="classof_matrix4x4_1a421494de45410607d28f0da9ca413001" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getRotate</name></member>
+      <member refid="classof_matrix4x4_1a82fee95169c0cc34dac1eadbf46015b8" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getRowAsVec3f</name></member>
+      <member refid="classof_matrix4x4_1a6182c5d366afbc0d9af8dace499a1d3e" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getRowAsVec4f</name></member>
+      <member refid="classof_matrix4x4_1a8d542990c386724cbd3f388dd6bd6b15" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getScale</name></member>
+      <member refid="classof_matrix4x4_1a0249ee3888d9be0a9a25c1590b04fc80" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getTranslation</name></member>
+      <member refid="classof_matrix4x4_1a887dc656af941ee26c0371820127b066" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>getTransposedOf</name></member>
+      <member refid="classof_matrix4x4_1acfbc717c88e333ceaaa3c07682e028a3" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>glRotate</name></member>
+      <member refid="classof_matrix4x4_1ae9ff49e22938a030c765a8395749d2f0" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>glRotate</name></member>
+      <member refid="classof_matrix4x4_1a0bbe3d306138e9a743104c3e83bf0582" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>glRotateRad</name></member>
+      <member refid="classof_matrix4x4_1ad41f7b1bd1ad5723d49d979d91b4fe01" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>glScale</name></member>
+      <member refid="classof_matrix4x4_1a48b10eae3dcba3acbc29156cb3c5cbe8" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>glScale</name></member>
+      <member refid="classof_matrix4x4_1afbd09d2e364ae4f567f4448476cc0030" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>glTranslate</name></member>
+      <member refid="classof_matrix4x4_1a18f55fddc66f1df002dfa5cd22d94a5f" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>glTranslate</name></member>
+      <member refid="classof_matrix4x4_1a7eff119d9e8fe499140b04322258a549" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>isIdentity</name></member>
+      <member refid="classof_matrix4x4_1a6884953c170c196b8d73e6b1cdd2f0ab" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>isNaN</name></member>
+      <member refid="classof_matrix4x4_1ac8332c51516bb43b05acaa0d196e6758" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>isValid</name></member>
+      <member refid="classof_matrix4x4_1a0533e0a00e3e36a380d0c5419939849d" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeFromMultiplicationOf</name></member>
+      <member refid="classof_matrix4x4_1a7ba822771fcaeff664916c49a505f034" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeFrustumMatrix</name></member>
+      <member refid="classof_matrix4x4_1a71ccf099ef90bf64fd554c03e3c50036" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeIdentityMatrix</name></member>
+      <member refid="classof_matrix4x4_1a443f5350825e494808bad13c31eeb88b" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeInvertOf</name></member>
+      <member refid="classof_matrix4x4_1a5f55089db1f07aa3a71f162e90c668aa" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeLookAtMatrix</name></member>
+      <member refid="classof_matrix4x4_1a445763c60b8b41aad437855ecb083084" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeLookAtViewMatrix</name></member>
+      <member refid="classof_matrix4x4_1a17ee33c3195f1ad0c756c45359d64ab6" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeOrtho2DMatrix</name></member>
+      <member refid="classof_matrix4x4_1ac4308822795d32eaa2d4c5fffd5a59b2" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeOrthoMatrix</name></member>
+      <member refid="classof_matrix4x4_1aaadfb76b67b5839bb595066e7a2f0274" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeOrthoNormalOf</name></member>
+      <member refid="classof_matrix4x4_1a5fd80395dcd3303cd7630610d91e8308" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makePerspectiveMatrix</name></member>
+      <member refid="classof_matrix4x4_1a2b624fa64ef1b27199129c9e9cf9d6d5" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1a8b44aa90ef7c0c426450d3cd9d1dcbfa" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1ad5218d606f4cd46581ddd9cb18220303" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1ada68e6c06f933151478ca270c4d1d6f1" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1ac3fee605b315def772d53e56f3653dd5" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1a1ca6dcc64e5945716c02c46e6181e971" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeScaleMatrix</name></member>
+      <member refid="classof_matrix4x4_1ae5abe17dd91a03fb0d283eb10d7e3025" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeScaleMatrix</name></member>
+      <member refid="classof_matrix4x4_1a08c9901867c1a4fb113ce8cf7cad8a0f" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeTranslationMatrix</name></member>
+      <member refid="classof_matrix4x4_1a95e6e68b36a3aa244ba31b6bf0e0df42" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>makeTranslationMatrix</name></member>
+      <member refid="classof_matrix4x4_1a5286c58f3ebf08fca0956f7ed707607d" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newFrustumMatrix</name></member>
+      <member refid="classof_matrix4x4_1a14607cd4c2ad5820b8c79d16721ac553" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newIdentityMatrix</name></member>
+      <member refid="classof_matrix4x4_1a7af8d42fffaef77dafe5ca316554da69" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newLookAtMatrix</name></member>
+      <member refid="classof_matrix4x4_1a7db2f13f3e9bb5413ba017224f719423" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newOrtho2DMatrix</name></member>
+      <member refid="classof_matrix4x4_1accd9a759bedacc4aa7cccf95911ee131" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newOrthoMatrix</name></member>
+      <member refid="classof_matrix4x4_1aa396844090e1bb55493d40069e581522" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newPerspectiveMatrix</name></member>
+      <member refid="classof_matrix4x4_1aacb01604b5478f3f189f7fef2b147040" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1af8e391f447240ef16bde99bc2c06be83" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1afb0a470d56dcd0baf1fcd6269e024128" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1a8ad090ebae6d497c5c90dbbc87030cd9" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1a91c531a26df5265645af636e6a77458a" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newRotationMatrix</name></member>
+      <member refid="classof_matrix4x4_1a523850a2fbde8e8bf2f1c7e67b818608" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newScaleMatrix</name></member>
+      <member refid="classof_matrix4x4_1a6f5c259dfd84ad6d4a3821f573bacdf5" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newScaleMatrix</name></member>
+      <member refid="classof_matrix4x4_1a21d86ff138b1764fd5b7d9be3788839f" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newTranslationMatrix</name></member>
+      <member refid="classof_matrix4x4_1a86c1b2df50ca25c63a36d7f39268c25b" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>newTranslationMatrix</name></member>
+      <member refid="classof_matrix4x4_1ad75d4fc13d259fc3d23634f90c9370eb" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>ofMatrix4x4</name></member>
+      <member refid="classof_matrix4x4_1a98f98e4d8430ac9d4eeff00a8f032988" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>ofMatrix4x4</name></member>
+      <member refid="classof_matrix4x4_1a0b2b94b4e89786340656361ba83fb86a" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>ofMatrix4x4</name></member>
+      <member refid="classof_matrix4x4_1a2f46e9c9f6e2bcd1900c4d9382c1b799" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>ofMatrix4x4</name></member>
+      <member refid="classof_matrix4x4_1a1eefc21473d4c0d448edc6d65349f85c" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>ofMatrix4x4</name></member>
+      <member refid="classof_matrix4x4_1a691c2a5a1d99340b7d470de5ff2a346e" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator()</name></member>
+      <member refid="classof_matrix4x4_1a1ec09b25f7e28cdf5a25a656c1ff3eb1" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator()</name></member>
+      <member refid="classof_matrix4x4_1aaf3e0f2c6c7c7db8e2b559e4a3e9a157" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator*</name></member>
+      <member refid="classof_matrix4x4_1a6de2cc82dd097fa391e5c064894bfa24" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator*</name></member>
+      <member refid="classof_matrix4x4_1af05ec4a6db27a4b34720eab307a97666" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator*</name></member>
+      <member refid="classof_matrix4x4_1a0bb3fb7cbf6d5794a26fdce5c4b1fb69" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator*=</name></member>
+      <member refid="classof_matrix4x4_1a7b8e55ff0129b7914cef141df5384b22" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classof_matrix4x4_1a2536ae222f0f1ae9dd7efb3ae909190a" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator=</name></member>
+      <member refid="classof_matrix4x4_1a9099b5cd49312f96b803f1f9034695ac" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classof_matrix4x4_1a23de2543b0d37aff68c23948f483a45a" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMult</name></member>
+      <member refid="classof_matrix4x4_1a9f04a06edcc61c53c909e4670a58f115" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMult</name></member>
+      <member refid="classof_matrix4x4_1a762b5ce406a4215e425bc39222215d2e" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMult</name></member>
+      <member refid="classof_matrix4x4_1a44a8c832bc37f16413de45857c9859b3" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMultRotate</name></member>
+      <member refid="classof_matrix4x4_1ad344f7572c276c9d75a470b2c5e1b3db" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMultRotate</name></member>
+      <member refid="classof_matrix4x4_1ab7e0580e3f412151753abb856747e544" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMultScale</name></member>
+      <member refid="classof_matrix4x4_1ac496346d3a317d0195080542dd9f7b93" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMultScale</name></member>
+      <member refid="classof_matrix4x4_1a2e8723fbd3c226f6b78932eb5c404aff" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMultTranslate</name></member>
+      <member refid="classof_matrix4x4_1a81d31c83fb3fe5a976b4007cccd550a3" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>postMultTranslate</name></member>
+      <member refid="classof_matrix4x4_1a65d6cb4adba911a0a119d1c0a3386c60" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>preMult</name></member>
+      <member refid="classof_matrix4x4_1af04d14c68a768f651079784cc2037427" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>preMult</name></member>
+      <member refid="classof_matrix4x4_1a579d5d9c45dc9e83ea723b5d93dfae0b" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>preMult</name></member>
+      <member refid="classof_matrix4x4_1ad7d14977a1e8be64c51b7fb289b05832" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>preMultRotate</name></member>
+      <member refid="classof_matrix4x4_1a8080766d44b7083347dce1af2a9d202e" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>preMultScale</name></member>
+      <member refid="classof_matrix4x4_1ab64d2dbc36704db92524cd7a8b4134be" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>preMultTranslate</name></member>
+      <member refid="classof_matrix4x4_1aedb7120a5f6fbd9c27d5c05dc5f513ac" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>rotate</name></member>
+      <member refid="classof_matrix4x4_1a92d69542d412f236857a810e4b169aa3" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>rotate</name></member>
+      <member refid="classof_matrix4x4_1a2c321f006edb3e828c4ff7534f95c5ea" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>rotateRad</name></member>
+      <member refid="classof_matrix4x4_1abe356179245941dfffb1919b8bb64e4e" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>scale</name></member>
+      <member refid="classof_matrix4x4_1a2b560b69228fb41c4a02ab19a15b5330" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>scale</name></member>
+      <member refid="classof_matrix4x4_1a223d5c256c491f923e32b1a7571ba106" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>set</name></member>
+      <member refid="classof_matrix4x4_1a1ce34123126724df5570b1847f98d78f" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>set</name></member>
+      <member refid="classof_matrix4x4_1a0fc5d8d5224381c3700ce4d50bec91e6" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>set</name></member>
+      <member refid="classof_matrix4x4_1ae2fc7d74f23ebdd4131e026dda1cc8d2" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>set</name></member>
+      <member refid="classof_matrix4x4_1ace388ef9b8c18c25e541d01711587187" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>setRotate</name></member>
+      <member refid="classof_matrix4x4_1a9ff434ad5b8080dbc872e967bf143223" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>setTranslation</name></member>
+      <member refid="classof_matrix4x4_1a06ee8a6be5867b5931462707ee1440dc" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>setTranslation</name></member>
+      <member refid="classof_matrix4x4_1ac79426c2367b4beea62355e35c2152e2" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>transform3x3</name></member>
+      <member refid="classof_matrix4x4_1a29ea25a870e0bee6667ad0f274679fee" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>transform3x3</name></member>
+      <member refid="classof_matrix4x4_1a6349178bae335eb36dc2b4b1c5e8bd2c" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>translate</name></member>
+      <member refid="classof_matrix4x4_1a1b3f68215bbb1a4139cab0b1153d6e36" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>translate</name></member>
+      <member refid="classof_matrix4x4_1aed58a6f134883e931099d1170b9d2de6" prot="public" virt="non-virtual"><scope>ofMatrix4x4</scope><name>~ofMatrix4x4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

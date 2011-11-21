@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_file_utils_8h" kind="file">
+    <compoundname>ofFileUtils.h</compoundname>
+    <includes refid="of_constants_8h" local="yes">ofConstants.h</includes>
+    <includes local="yes">Poco/File.h</includes>
+    <includedby refid="of_log_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h</includedby>
+    <includedby refid="of_u_r_l_file_loader_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h</includedby>
+    <incdepgraph>
+      <node id="489">
+        <label>iomanip</label>
+      </node>
+      <node id="477">
+        <label>GL/glx.h</label>
+      </node>
+      <node id="473">
+        <label>ofConstants.h</label>
+        <link refid="of_constants_8h"/>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+        <childnode refid="482" relation="include">
+        </childnode>
+        <childnode refid="483" relation="include">
+        </childnode>
+        <childnode refid="484" relation="include">
+        </childnode>
+        <childnode refid="485" relation="include">
+        </childnode>
+        <childnode refid="486" relation="include">
+        </childnode>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="489" relation="include">
+        </childnode>
+        <childnode refid="490" relation="include">
+        </childnode>
+      </node>
+      <node id="482">
+        <label>cmath</label>
+      </node>
+      <node id="484">
+        <label>string</label>
+      </node>
+      <node id="481">
+        <label>cstdarg</label>
+      </node>
+      <node id="475">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="491">
+        <label>Poco/File.h</label>
+      </node>
+      <node id="478">
+        <label>tesselator.h</label>
+      </node>
+      <node id="490">
+        <label>fstream</label>
+      </node>
+      <node id="480">
+        <label>cstdio</label>
+      </node>
+      <node id="483">
+        <label>ctime</label>
+      </node>
+      <node id="474">
+        <label>unistd.h</label>
+      </node>
+      <node id="486">
+        <label>vector</label>
+      </node>
+      <node id="488">
+        <label>sstream</label>
+      </node>
+      <node id="479">
+        <label>cstdlib</label>
+      </node>
+      <node id="485">
+        <label>iostream</label>
+      </node>
+      <node id="472">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h</label>
+        <link refid="ofFileUtils.h"/>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="476">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="487">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="494">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofUtils.h</label>
+        <link refid="of_utils_8h"/>
+      </node>
+      <node id="493">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h</label>
+        <link refid="of_log_8h"/>
+        <childnode refid="494" relation="include">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h</label>
+        <link refid="of_u_r_l_file_loader_8h"/>
+      </node>
+      <node id="492">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h</label>
+        <link refid="ofFileUtils.h"/>
+        <childnode refid="493" relation="include">
+        </childnode>
+        <childnode refid="495" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classof_buffer" prot="public">ofBuffer</innerclass>
+    <innerclass refid="classof_file_path" prot="public">ofFilePath</innerclass>
+    <innerclass refid="classof_file" prot="public">ofFile</innerclass>
+    <innerclass refid="classof_directory" prot="public">ofDirectory</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_file_utils_8h_1a3ddd3d8a5cd8ad6e1ed44bd77c1e1510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_buffer" kindref="compound">ofBuffer</ref></type>
+        <definition>ofBuffer ofBufferFromFile</definition>
+        <argsstring>(const string &amp;path, bool binary=false)</argsstring>
+        <name>ofBufferFromFile</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>binary</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="of_file_utils_8h_1a506ec656bd6bf121215ff48925d7d5a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofBufferToFile</definition>
+        <argsstring>(const string &amp;path, ofBuffer &amp;buffer, bool binary=false)</argsstring>
+        <name>ofBufferToFile</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>binary</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_constants_8h" kindref="compound">ofConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Poco/File.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ofBuffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classof_buffer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_buffer" kindref="compound">ofBuffer</ref>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_buffer_1a38fa5ffd31f6100353ac59a3a9353f70" kindref="member">ofBuffer</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_buffer_1a38fa5ffd31f6100353ac59a3a9353f70" kindref="member">ofBuffer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classof_buffer_1ac776677efca95d126f9b633a0d1b5ca2" kindref="member">buffer</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1aec5c8692ba9fd31d57aa5c9d76aeba08" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_buffer_1a38fa5ffd31f6100353ac59a3a9353f70" kindref="member">ofBuffer</ref>(istream<sp/>&amp;<sp/>stream);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_buffer_1a38fa5ffd31f6100353ac59a3a9353f70" kindref="member">ofBuffer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer_);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_buffer_1a12268dac2878919ecae61b04d6a3458e" kindref="member">~ofBuffer</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>_buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_size);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(istream<sp/>&amp;<sp/>stream);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1a0cdd668fb1780e8512d4a3c1b2931d8b" kindref="member">writeTo</ref>(ostream<sp/>&amp;<sp/>stream)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1a6a14d4d2d028d9a3146a898d9a594b76" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1a5c07c6479de366fbf6745d91fc9f0b92" kindref="member">allocate</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>_size);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classof_buffer_1a22e07ca3892b4ce73d16b9cb89995ff0" kindref="member">getBinaryBuffer</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classof_buffer_1a22e07ca3892b4ce73d16b9cb89995ff0" kindref="member">getBinaryBuffer</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1a8f29fce1c8241d49032f8d69be0bf654" kindref="member">getText</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_buffer_1aed1256dccbb0f9fc90e66a29a27aec75" kindref="member">operator string</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;<sp/><sp/></highlight><highlight class="comment">//<sp/>cast<sp/>to<sp/>string,<sp/>to<sp/>use<sp/>a<sp/>buffer<sp/>as<sp/>a<sp/>string</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1aec5c8692ba9fd31d57aa5c9d76aeba08" kindref="member">size</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1a9ef3d523459b1a12a69e3414d80f99f2" kindref="member">getNextLine</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1a6d7fb51231e1672ca05c6d2e03ff9e6c" kindref="member">getFirstLine</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1a3ef12886512bf48d287c9dc87e9603c4" kindref="member">isLastLine</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_buffer_1ab7142e37735f084a5dd0b5cd049526f9" kindref="member">resetLineReader</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>ostream<sp/>&amp;<sp/><ref refid="classof_buffer_1ac2361b6e648b909436795e2d76f39bef" kindref="member">operator&lt;&lt;</ref>(ostream<sp/>&amp;<sp/>ostr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buf);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>istream<sp/>&amp;<sp/><ref refid="classof_buffer_1a5768a499dc84fb7d542c1885dccd6b1e" kindref="member">operator&gt;&gt;</ref>(istream<sp/>&amp;<sp/>istr,<sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buf);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;char&gt;<sp/><sp/><sp/><sp/><ref refid="classof_buffer_1ac776677efca95d126f9b633a0d1b5ca2" kindref="member">buffer</ref>;</highlight></codeline>
+<codeline lineno="46" refid="classof_buffer_1ac776677efca95d126f9b633a0d1b5ca2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_buffer_1a38f1a83de4fc984b0e0e5558cd2e747d" kindref="member">nextLinePos</ref>;</highlight></codeline>
+<codeline lineno="47" refid="classof_buffer_1a38f1a83de4fc984b0e0e5558cd2e747d" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//--------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/><ref refid="of_file_utils_8h_1a3ddd3d8a5cd8ad6e1ed44bd77c1e1510" kindref="member">ofBufferFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>binary=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//--------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_file_utils_8h_1a506ec656bd6bf121215ff48925d7d5a2" kindref="member">ofBufferToFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>path,<sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>binary=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//--------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classof_file_path" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_file_path" kindref="compound">ofFilePath</ref>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1aaa04b369b64e632f6f7316a594f7199a" kindref="member">getFileExt</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filename);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1af203e29ee1ec4b3c6734a94380399962" kindref="member">removeExt</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filename);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1a32a4d211103cf9c6c59793830849271d" kindref="member">addLeadingSlash</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1afeb6464a31fc9bdeefaa7f87258ac381" kindref="member">addTrailingSlash</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1aaabbe4a5685479a7058dec93ef71cc55" kindref="member">removeTrailingSlash</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1a7b35487efe01b8ea93042ab5dde04240" kindref="member">getPathForDirectory</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1a8ef70cb81f55ee6fe34acee6d113a138" kindref="member">getAbsolutePath</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1ac40b099b09ddcc64b637b980a95319f6" kindref="member">isAbsolute</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1a9a215c4564756278dfbdcc92685729cb" kindref="member">getFileName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filePath,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1a9ec919e98c1bea983e3fb31610e0215f" kindref="member">getBaseName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filePath);<sp/></highlight><highlight class="comment">//<sp/>filename<sp/>without<sp/>extension</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1ac4eb90520df05444efa796fa1fba1910" kindref="member">getEnclosingDirectory</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filePath,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_path_1af3fe497ff6123b25f5f3bdab7b7bac75" kindref="member">getCurrentWorkingDirectory</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="classof_file" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_file" kindref="compound">ofFile</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>fstream{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82" refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref>{</highlight></codeline>
+<codeline lineno="83" refid="classof_file_1afc27b4186457038ca30b5471b497f2a0abb55cc602958c614b6f71d8cccba0409" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0abb55cc602958c614b6f71d8cccba0409" kindref="member">Reference</ref>,</highlight></codeline>
+<codeline lineno="84" refid="classof_file_1afc27b4186457038ca30b5471b497f2a0acd40290526a21f290283fbac48132c95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0acd40290526a21f290283fbac48132c95" kindref="member">ReadOnly</ref>,</highlight></codeline>
+<codeline lineno="85" refid="classof_file_1afc27b4186457038ca30b5471b497f2a0aff8f040e5a5c98cb4b54586e5e87a9e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0aff8f040e5a5c98cb4b54586e5e87a9e5" kindref="member">WriteOnly</ref>,</highlight></codeline>
+<codeline lineno="86" refid="classof_file_1afc27b4186457038ca30b5471b497f2a0a76eb0c59eb14c3b2842cab7f0f2ff081" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0a76eb0c59eb14c3b2842cab7f0f2ff081" kindref="member">ReadWrite</ref>,</highlight></codeline>
+<codeline lineno="87" refid="classof_file_1afc27b4186457038ca30b5471b497f2a0a3babb4eb099702aed27cc05ecbab91fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0a3babb4eb099702aed27cc05ecbab91fa" kindref="member">Append</ref></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1a62a49ff9ccba5ffbb21277dca7fd0a13" kindref="member">ofFile</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1a62a49ff9ccba5ffbb21277dca7fd0a13" kindref="member">ofFile</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filePath,<sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref><sp/><ref refid="classof_file_1a83fadc02dcd648db20aa2cb026a8c88e" kindref="member">mode</ref>=<ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0acd40290526a21f290283fbac48132c95" kindref="member">ReadOnly</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>binary=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1a62a49ff9ccba5ffbb21277dca7fd0a13" kindref="member">ofFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/><ref refid="classof_file_1a6d5785562ff676dc3d73e5d3e2527a6e" kindref="member">operator= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1a35ec4268eb647e175dae6e25599b212f" kindref="member">~ofFile</ref>();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1aa4caa47cb239adb19d4a62999468d98e" kindref="member">open</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ac34ab6a2eb4b26244cae36408ae29f5d" kindref="member">path</ref>,<sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref><sp/><ref refid="classof_file_1a83fadc02dcd648db20aa2cb026a8c88e" kindref="member">mode</ref>=<ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0acd40290526a21f290283fbac48132c95" kindref="member">ReadOnly</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>binary=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1aeabacce0bed7bba4e9d403a375b365ac" kindref="member">changeMode</ref>(<ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref><sp/><ref refid="classof_file_1a83fadc02dcd648db20aa2cb026a8c88e" kindref="member">mode</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>binary=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>reopens<sp/>a<sp/>file<sp/>to<sp/>the<sp/>same<sp/>path<sp/>with<sp/>a<sp/>different<sp/>mode;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_1af7d1492a4840af4c5a1e2efae6c43b9f" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1aa0fe27d0d49ed64a77aea5df5604c07f" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a89edeada38040a64d81e0a1ecfb63649" kindref="member">exists</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ac34ab6a2eb4b26244cae36408ae29f5d" kindref="member">path</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a504a13b30ae208d4acf72039629bd3ab" kindref="member">getExtension</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a9d023ed4397b4b516c7a5ae92233057f" kindref="member">getFileName</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a9fdcdd4323dbafa6d6b39fa56d948d13" kindref="member">getBaseName</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>filename<sp/>without<sp/>extension</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a1e2dffe5af0ed290ec069d75ad0abd8c" kindref="member">getEnclosingDirectory</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a9610b1be8e7fa935a5017e575c6cbced" kindref="member">getAbsolutePath</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a8dc5ef3d0b7fd7886dc6c62410ab8eb9" kindref="member">canRead</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1aec11adac4eaf74cf0ba1bc186f7fcc27" kindref="member">canWrite</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a5a1aadf7a845ebf3419d9ff320796d80" kindref="member">canExecute</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ae8bc4eabab1f99c9138404dd04caf3b5" kindref="member">isFile</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a2a98cb815ca0566192812b4344c1ff5d" kindref="member">isLink</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a7cdcc9df50be658ea950a15e665fd004" kindref="member">isDirectory</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a72bf5e488720909773bea5f086cfa4a8" kindref="member">isDevice</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a9104cfd558d4b0c04ce8377a21db8e0d" kindref="member">isHidden</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ad32d5143ed9f7095329a50ec5d750e7b" kindref="member">setWriteable</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>writeable);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a8c5bfcd06a4155e7ea716b7fd58d6bf0" kindref="member">setReadOnly</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>readable);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a8b838bfe80e9b08a2326a9428a323dd5" kindref="member">setExecutable</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>executable);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//these<sp/>all<sp/>work<sp/>for<sp/>files<sp/>and<sp/>directories</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a8bd21dbb6272467f8bf0bae607f51cc9" kindref="member">copyTo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ac34ab6a2eb4b26244cae36408ae29f5d" kindref="member">path</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a78d7f3030034b09ba37d624aacd04bde" kindref="member">moveTo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ac34ab6a2eb4b26244cae36408ae29f5d" kindref="member">path</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a58e464d3243f88dc93b29043bad28ae4" kindref="member">renameTo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ac34ab6a2eb4b26244cae36408ae29f5d" kindref="member">path</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//be<sp/>careful!<sp/>this<sp/>deletes<sp/>a<sp/>file<sp/>or<sp/>folder<sp/>:)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>recursive=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="classof_file_1ac43ee53e818d89472b842b5a01d05bbc" kindref="member">getSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>you<sp/>want<sp/>access<sp/>to<sp/>a<sp/>few<sp/>other<sp/>things</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Poco::File<sp/>&amp;<sp/><ref refid="classof_file_1a9834156d6f99bb0f5531b705c834b787" kindref="member">getPocoFile</ref>();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//this<sp/>allows<sp/>to<sp/>compare<sp/>files<sp/>by<sp/>their<sp/>paths,<sp/>also<sp/>provides<sp/>sorting<sp/>and<sp/>use<sp/>as<sp/>key<sp/>in<sp/>stl<sp/>containers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a4e92e06c38febba5bec7283e9bcf1216" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1aa27d1f6ac56f1560a49fbfb9e402ba80" kindref="member">operator!=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a7286772fb88b2a0510d92d905c93f085" kindref="member">operator&lt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a873775a8d455be8f7f91b4e73c89e69e" kindref="member">operator&lt;=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a8f4bca14bbf82a2776845bc8e50a1cb9" kindref="member">operator&gt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a85a68df822547812728cf9c5e7971b86" kindref="member">operator&gt;=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>stream<sp/>operations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>since<sp/>this<sp/>class<sp/>inherits<sp/>from<sp/>fstream<sp/>it<sp/>can<sp/>be<sp/>used<sp/>as<sp/>a<sp/>r/w<sp/>stream:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>http://www.cplusplus.com/reference/iostream/fstream/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//helper<sp/>functions<sp/>to<sp/>read/write<sp/>a<sp/>whole<sp/>file<sp/>to/from<sp/>an<sp/>ofBuffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/><ref refid="classof_file_1a8376d6fa18ad17657aa8456d4e4a1a01" kindref="member">readToBuffer</ref>();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a9564d6ef00b79b2c431b132619c3964a" kindref="member">writeFromBuffer</ref>(<ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>can<sp/>be<sp/>used<sp/>to<sp/>read<sp/>the<sp/>whole<sp/>stream<sp/>into<sp/>an<sp/>output<sp/>stream.<sp/>ie:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>it&apos;s<sp/>equivalent<sp/>to<sp/>rdbuf()<sp/>just<sp/>here<sp/>to<sp/>make<sp/>it<sp/>easier<sp/>to<sp/>use</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>cout<sp/>&lt;&lt;<sp/>file.getFileBuffer()<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>write_file<sp/>&lt;&lt;<sp/>file.getFileBuffer();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>filebuf<sp/>*<sp/><ref refid="classof_file_1a909e77a988bf20afe38c112f3aca7914" kindref="member">getFileBuffer</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//static<sp/>helpers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ae33f5db76aadc8b9ddd1702833243d0e" kindref="member">copyFromTo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>pathSrc,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>pathDst,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//be<sp/>careful<sp/>with<sp/>slashes<sp/>here<sp/>-<sp/>appending<sp/>a<sp/>slash<sp/>when<sp/>moving<sp/>a<sp/>folder<sp/>will<sp/>causes<sp/>mad<sp/>headaches<sp/>in<sp/>osx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ab1a18937f2c403779b21ea0dc6d19e70" kindref="member">moveFromTo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>pathSrc,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>pathDst,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ac6572c1f12a649c90a70ba36a9e08d99" kindref="member">doesFileExist</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fPath,<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1a39790919712930cd3778b70af0a0b45d" kindref="member">removeFile</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ac34ab6a2eb4b26244cae36408ae29f5d" kindref="member">path</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ab21c3eef78a54aab9393b91a999ba5be" kindref="member">isWriteMode</ref>();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_1ac697d4972d7d1734126612994698f5e7" kindref="member">openStream</ref>(<ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref><sp/>_mode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>binary);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_1acdd0af77f3d64ad8e8ee047d5e03fb13" kindref="member">copyFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="182" refid="classof_file_1a76356cfbd3885c90a2b24eccd25e114e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Poco::File<sp/><ref refid="classof_file_1a76356cfbd3885c90a2b24eccd25e114e" kindref="member">myFile</ref>;</highlight></codeline>
+<codeline lineno="183" refid="classof_file_1a83fadc02dcd648db20aa2cb026a8c88e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">Mode</ref><sp/><ref refid="classof_file_1a83fadc02dcd648db20aa2cb026a8c88e" kindref="member">mode</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="classof_directory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_directory" kindref="compound">ofDirectory</ref>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_directory_1a6ee431852c1f91b0b3cc4b52993a919a" kindref="member">ofDirectory</ref>();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_directory_1a6ee431852c1f91b0b3cc4b52993a919a" kindref="member">ofDirectory</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1ab8262cf0b850c3e988521155c081e8ec" kindref="member">path</ref>);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1ad28de9ed742100e299a621dfc49cfe69" kindref="member">open</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a9af7171c87bce2a80bffadf6bfee006d" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1acf13db2d7afa7b924a4937d18c777f16" kindref="member">create</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>recursive<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1af682c819e8261556f065236a37c7b7e8" kindref="member">exists</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1ab8262cf0b850c3e988521155c081e8ec" kindref="member">path</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a49b9b8f7502b321466037e288149e2f5" kindref="member">canRead</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a175908a8aedb9d667b6e6f89e73beec4" kindref="member">canWrite</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1aba76ca883269bb8dc1417af8057efb15" kindref="member">canExecute</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a1198324724c3441d837b8de92f874623" kindref="member">isDirectory</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1ae5cf30e1635424b0f8ae3910dfc79f64" kindref="member">isHidden</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a888fe9f0de590d5fa7e5e8e19cdc3c1d" kindref="member">setWriteable</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>writeable);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a1c88fedc8048ce36736ac76fbd733fdf" kindref="member">setReadOnly</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>readable);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a6aeaef9506aa8fa101099ce9983403e3" kindref="member">setExecutable</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>executable);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1aa3cab514a63a76cb0c698dd7db3adcdf" kindref="member">setShowHidden</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1afe811ab27c1ba2febf0c7d33e994e2f9" kindref="member">showHidden</ref>);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a93ad5d3e53b614e0f4b6540428925855" kindref="member">copyTo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a5e50e3526f0be07be60f478f804d2a42" kindref="member">moveTo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a608c7b6290b5bc8dfc5beba1cddb5503" kindref="member">renameTo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>overwrite<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//be<sp/>careful!<sp/>this<sp/>deletes<sp/>a<sp/>file<sp/>or<sp/>folder<sp/>:)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>recursive);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>dirList<sp/>operations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a9084fb19ee81529892707a5689263bc0" kindref="member">allowExt</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>extension);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a9885501c235cfe855662a413ba1f0886" kindref="member">listDir</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a9885501c235cfe855662a413ba1f0886" kindref="member">listDir</ref>();</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1adbb4d42ee13348c8eb3622c6df805c8f" kindref="member">getName</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position);<sp/></highlight><highlight class="comment">//<sp/>e.g.,<sp/>&quot;image.png&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a026fb80addec0a2d1eeecb2aebb4780e" kindref="member">getPath</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/><ref refid="classof_directory_1a5560125fe387ca7b12f14e7be813a22b" kindref="member">getFile</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0" kindref="member">ofFile::Mode</ref><sp/>mode=<ref refid="classof_file_1afc27b4186457038ca30b5471b497f2a0abb55cc602958c614b6f71d8cccba0409" kindref="member">ofFile::Reference</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>binary=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;ofFile&gt;<sp/><ref refid="classof_directory_1ada65766e82c6fdf32691474fea0316db" kindref="member">getFiles</ref>();</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/><ref refid="classof_directory_1a7476c09b775096e862f0eb9013bf939e" kindref="member">operator[]</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a0012ca47639c4129d951e5145a5ad5ba" kindref="member">getShowHidden</ref>();</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a5f3cd0db7a454115fb7223630168fd66" kindref="member">reset</ref>();<sp/></highlight><highlight class="comment">//equivalent<sp/>to<sp/>close,<sp/>just<sp/>here<sp/>for<sp/>bw<sp/>compatibility<sp/>with<sp/>ofxDirList</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1aabc46e208c593d310f423de8be5b6ee5" kindref="member">sort</ref>();</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1af20ddc5b7da6266c408d78c0cd636555" kindref="member">size</ref>();</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a791eb3d185cf3f9578cef92a39afc913" kindref="member">numFiles</ref>();<sp/></highlight><highlight class="comment">//<sp/>numFiles<sp/>is<sp/>deprecated,<sp/>use<sp/>size()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>you<sp/>want<sp/>access<sp/>to<sp/>a<sp/>few<sp/>other<sp/>things</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Poco::File<sp/>&amp;<sp/><ref refid="classof_directory_1ae8d290f40e276d0ac14d8841d394c47b" kindref="member">getPocoFile</ref>();</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//this<sp/>allows<sp/>to<sp/>compare<sp/>dirs<sp/>by<sp/>their<sp/>paths,<sp/>also<sp/>provides<sp/>sorting<sp/>and<sp/>use<sp/>as<sp/>key<sp/>in<sp/>stl<sp/>containers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1af3babd21f107ee5dd194bc3b3ce2105d" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_directory" kindref="compound">ofDirectory</ref><sp/>&amp;<sp/>dir);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1aa0098f0ac9e0262b57bb6dcca9738245" kindref="member">operator!=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_directory" kindref="compound">ofDirectory</ref><sp/>&amp;<sp/>dir);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a1c583924ea0befd2ba5aa2b243f2c0d7" kindref="member">operator&lt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_directory" kindref="compound">ofDirectory</ref><sp/>&amp;<sp/>dir);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a5cdbad28e37861262d2329fe8b93d8dd" kindref="member">operator&lt;=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_directory" kindref="compound">ofDirectory</ref><sp/>&amp;<sp/>dir);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1aad86ef4ad00eea46055d215b3d878e5b" kindref="member">operator&gt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_directory" kindref="compound">ofDirectory</ref><sp/>&amp;<sp/>dir);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a18eeccccc9112d2c2bcf884efd4cb0c6" kindref="member">operator&gt;=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_directory" kindref="compound">ofDirectory</ref><sp/>&amp;<sp/>dir);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//static<sp/>helpers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//-------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1aaf516ae3723c9bc07414fd4a84c04f14" kindref="member">createDirectory</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>dirPath,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>recursive<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a88b749009f3a5742d7ecd7943fb6c2eb" kindref="member">isDirectoryEmpty</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>dirPath,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1ac18a85c280c316e95c72c95594bfd40f" kindref="member">doesDirectoryExist</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>dirPath,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1ad69f4d46709488a12cb0c2b355e08b1c" kindref="member">removeDirectory</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>deleteIfNotEmpty,<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRelativeToData<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="265" refid="classof_directory_1a2c353bc9c94d1c6efba71579754773bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Poco::File<sp/><ref refid="classof_directory_1a2c353bc9c94d1c6efba71579754773bf" kindref="member">myDir</ref>;</highlight></codeline>
+<codeline lineno="266" refid="classof_directory_1a9338a0b394dd0b8358f9ab0c9d42b2c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1a9338a0b394dd0b8358f9ab0c9d42b2c1" kindref="member">originalDirectory</ref>;</highlight></codeline>
+<codeline lineno="267" refid="classof_directory_1afc2357b59848fa9dda84f28653d93250" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector<sp/>&lt;string&gt;<sp/><ref refid="classof_directory_1afc2357b59848fa9dda84f28653d93250" kindref="member">extensions</ref>;</highlight></codeline>
+<codeline lineno="268" refid="classof_directory_1a66009af9edb3ab82ecf1e54227f23930" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector<sp/>&lt;ofFile&gt;<sp/><ref refid="classof_directory_1a66009af9edb3ab82ecf1e54227f23930" kindref="member">files</ref>;</highlight></codeline>
+<codeline lineno="269" refid="classof_directory_1afe811ab27c1ba2febf0c7d33e994e2f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_directory_1afe811ab27c1ba2febf0c7d33e994e2f9" kindref="member">showHidden</ref>;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1011 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_polyline" kind="class" prot="public">
+    <compoundname>ofPolyline</compoundname>
+    <includes refid="of_polyline_8h" local="no">ofPolyline.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_polyline_1a10119b9d61389f8da8522dccb3211e9b" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt;</type>
+        <definition>vector&lt;ofPoint&gt; ofPolyline::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="104" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_polyline_1a5da058518d427cecc12d23740c37d94c" prot="private" static="no" mutable="no">
+        <type>deque&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt;</type>
+        <definition>deque&lt;ofPoint&gt; ofPolyline::curveVertices</definition>
+        <argsstring></argsstring>
+        <name>curveVertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="106" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_polyline_1a11fe80c3a0bb18758aaba76318724bf2" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt;</type>
+        <definition>vector&lt;ofPoint&gt; ofPolyline::circlePoints</definition>
+        <argsstring></argsstring>
+        <name>circlePoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="107" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_polyline_1a570e9eebc4eadcbb7f292f23edc84fb5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPolyline::bClosed</definition>
+        <argsstring></argsstring>
+        <name>bClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="109" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_polyline_1af658606e2cf401987b6d9562c114cab7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPolyline::bHasChanged</definition>
+        <argsstring></argsstring>
+        <name>bHasChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="110" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_polyline_1ab8b6c33d5cb672d393aa107434d908c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofPolyline::ofPolyline</definition>
+        <argsstring>()</argsstring>
+        <name>ofPolyline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a5867bbb1004e1957dc3804f328e59c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofPolyline::ofPolyline</definition>
+        <argsstring>(const vector&lt; ofPoint &gt; &amp;verts)</argsstring>
+        <name>ofPolyline</name>
+        <param>
+          <type>const vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>verts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a8087ebabf60380f8736282d0e98118bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para>remove all the points </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a39230dd712cb2e9647ed0679eef06124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::addVertex</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>addVertex</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>add a vertex </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a1616ebeee425ab5f8e03853d2a83c4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::addVertex</definition>
+        <argsstring>(float x, float y, float z=0)</argsstring>
+        <name>addVertex</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a4d8c037817568d2ec9bb924e25258adf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::addVertexes</definition>
+        <argsstring>(const vector&lt; ofPoint &gt; &amp;verts)</argsstring>
+        <name>addVertexes</name>
+        <param>
+          <type>const vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>verts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1aed6fc88e590bc5aa2a7e8760d2bba8ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::addVertexes</definition>
+        <argsstring>(const ofPoint *verts, int numverts)</argsstring>
+        <name>addVertexes</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> *</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numverts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a4c7d5b95780ebf1aefb079f55bcf8d7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::lineTo</definition>
+        <argsstring>(const ofPoint &amp;to)</argsstring>
+        <name>lineTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="25" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1afb12c5445d0f02e5dc7fbdeb9b91925e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::lineTo</definition>
+        <argsstring>(float x, float y, float z=0)</argsstring>
+        <name>lineTo</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="26" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1ad651321496a4cdc7011d44eaacf5159c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::arc</definition>
+        <argsstring>(const ofPoint &amp;center, float radiusX, float radiusY, float angleBegin, float angleEnd, int curveResolution=20)</argsstring>
+        <name>arc</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleBegin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleEnd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>20</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a4676b5961f01a5c7faab2da4aae0581c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::arc</definition>
+        <argsstring>(float x, float y, float radiusX, float radiusY, float angleBegin, float angleEnd, int curveResolution=20)</argsstring>
+        <name>arc</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleBegin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleEnd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>20</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="35" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1adf4f4f25105a894d696e0e2b9acf7ff6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::arc</definition>
+        <argsstring>(float x, float y, float z, float radiusX, float radiusY, float angleBegin, float angleEnd, int curveResolution=20)</argsstring>
+        <name>arc</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleBegin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleEnd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>20</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="38" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a8f749f4980bf8f1d5e6485c60c427881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::curveTo</definition>
+        <argsstring>(const ofPoint &amp;to, int curveResolution=16)</argsstring>
+        <name>curveTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1acfb0eb1be03677ef522bab2af60929c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::curveTo</definition>
+        <argsstring>(float x, float y, float z=0, int curveResolution=16)</argsstring>
+        <name>curveTo</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="44" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1adcb0cecaf02bd617b2dd0e1dad9f1d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::bezierTo</definition>
+        <argsstring>(const ofPoint &amp;cp1, const ofPoint &amp;cp2, const ofPoint &amp;to, int curveResolution=16)</argsstring>
+        <name>bezierTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>cp1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>cp2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+<para>cubic bezier </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a6ae7caff9acd3e4e019a0bb9745ef0cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::bezierTo</definition>
+        <argsstring>(float cx1, float cy1, float cx2, float cy2, float x, float y, int curveResolution=16)</argsstring>
+        <name>bezierTo</name>
+        <param>
+          <type>float</type>
+          <declname>cx1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="50" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a357b5cf46f75c823159c9dc6679088f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::bezierTo</definition>
+        <argsstring>(float cx1, float cy1, float cz1, float cx2, float cy2, float cz2, float x, float y, float z, int curveResolution=16)</argsstring>
+        <name>bezierTo</name>
+        <param>
+          <type>float</type>
+          <declname>cx1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cz1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cz2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="53" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a0a85cd8239ccdc4ccc7cb9c040aeda5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::quadBezierTo</definition>
+        <argsstring>(float cx1, float cy1, float cz1, float cx2, float cy2, float cz2, float x, float y, float z, int curveResolution=16)</argsstring>
+        <name>quadBezierTo</name>
+        <param>
+          <type>float</type>
+          <declname>cx1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cz1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cz2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+<para>quadratic bezier (lower resolution than cubic) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1ab47724b26a9dfbd6081b52f6574896d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::quadBezierTo</definition>
+        <argsstring>(const ofPoint &amp;p1, const ofPoint &amp;p2, const ofPoint &amp;p3, int curveResolution=16)</argsstring>
+        <name>quadBezierTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="59" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1ae41accef12a150b3697adf712face9d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::quadBezierTo</definition>
+        <argsstring>(float cx1, float cy1, float cx2, float cy2, float x, float y, int curveResolution=16)</argsstring>
+        <name>quadBezierTo</name>
+        <param>
+          <type>float</type>
+          <declname>cx1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+          <defval>16</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="62" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a9dd4d7bd3893646a2113d34031065449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_polyline" kindref="compound">ofPolyline</ref></type>
+        <definition>ofPolyline ofPolyline::getSmoothed</definition>
+        <argsstring>(int smoothingSize, float smoothingShape=0)</argsstring>
+        <name>getSmoothed</name>
+        <param>
+          <type>int</type>
+          <declname>smoothingSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>smoothingShape</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a90c7d2040aff73aa29b68754f54ddfdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_polyline" kindref="compound">ofPolyline</ref></type>
+        <definition>ofPolyline ofPolyline::getResampledBySpacing</definition>
+        <argsstring>(float spacing)</argsstring>
+        <name>getResampledBySpacing</name>
+        <param>
+          <type>float</type>
+          <declname>spacing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a6eeaa3a902be5a10ca2267e29f668621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_polyline" kindref="compound">ofPolyline</ref></type>
+        <definition>ofPolyline ofPolyline::getResampledByCount</definition>
+        <argsstring>(int count)</argsstring>
+        <name>getResampledByCount</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1acc41df4f84f253128e9de7e38e1069e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+        <definition>ofRectangle ofPolyline::getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a9da6811ca1a47f4f303dfe7c4522e8cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofPolyline::getClosestPoint</definition>
+        <argsstring>(const ofPoint &amp;target, unsigned int *nearestIndex=NULL)</argsstring>
+        <name>getClosestPoint</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>unsigned int *</type>
+          <declname>nearestIndex</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1aadbd40bd1205fbe5106ed42e79243ee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::simplify</definition>
+        <argsstring>(float tolerance=0.3)</argsstring>
+        <name>simplify</name>
+        <param>
+          <type>float</type>
+          <declname>tolerance</declname>
+          <defval>0.3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1ad88dd26a8298d54abb9dd3b1f55d00f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t ofPolyline::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>points vector access </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a76c5e9265dde3f857d70a10374b5eafb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+        <definition>const ofPoint&amp; ofPolyline::operator[]</definition>
+        <argsstring>(int index) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a44f95e2bff37ecb43e6696b622fdec30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+        <definition>ofPoint&amp; ofPolyline::operator[]</definition>
+        <argsstring>(int index)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a49e172bae1f49fce0b763fe05b33c53e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::resize</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a2b7d22e0d3c5dfed22ebefcd7e79c35f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::setClosed</definition>
+        <argsstring>(bool tf)</argsstring>
+        <name>setClosed</name>
+        <param>
+          <type>bool</type>
+          <declname>tf</declname>
+        </param>
+        <briefdescription>
+<para>closed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a166b386bb2b1bd7225e05ff67528cd2a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPolyline::isClosed</definition>
+        <argsstring>() const </argsstring>
+        <name>isClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a1de14888c9c361bbe772789a69dd5e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1abd08a523635b4a9203fb08a1447e9e38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPolyline::hasChanged</definition>
+        <argsstring>()</argsstring>
+        <name>hasChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1a55bb64aef8a4937fefc69abe5e7cff50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+        <definition>vector&lt;ofPoint&gt;&amp; ofPolyline::getVertices</definition>
+        <argsstring>()</argsstring>
+        <name>getVertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1adbf01c8cdc85d3f1d88b2bc985498159" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofPolyline::getPerimeter</definition>
+        <argsstring>() const </argsstring>
+        <name>getPerimeter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_polyline_1af6ea639f218d4ccf8ff616d68ec2bfa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_polyline_1a4358871c7cc6fe091fb96fc4dafc07ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPolyline::setCircleResolution</definition>
+        <argsstring>(int res)</argsstring>
+        <name>setCircleResolution</name>
+        <param>
+          <type>int</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" line="10" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPolyline.h" bodystart="10" bodyend="111"/>
+    <listofallmembers>
+      <member refid="classof_polyline_1a39230dd712cb2e9647ed0679eef06124" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>addVertex</name></member>
+      <member refid="classof_polyline_1a1616ebeee425ab5f8e03853d2a83c4c4" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>addVertex</name></member>
+      <member refid="classof_polyline_1a4d8c037817568d2ec9bb924e25258adf" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>addVertexes</name></member>
+      <member refid="classof_polyline_1aed6fc88e590bc5aa2a7e8760d2bba8ff" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>addVertexes</name></member>
+      <member refid="classof_polyline_1ad651321496a4cdc7011d44eaacf5159c" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>arc</name></member>
+      <member refid="classof_polyline_1a4676b5961f01a5c7faab2da4aae0581c" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>arc</name></member>
+      <member refid="classof_polyline_1adf4f4f25105a894d696e0e2b9acf7ff6" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>arc</name></member>
+      <member refid="classof_polyline_1a570e9eebc4eadcbb7f292f23edc84fb5" prot="private" virt="non-virtual"><scope>ofPolyline</scope><name>bClosed</name></member>
+      <member refid="classof_polyline_1adcb0cecaf02bd617b2dd0e1dad9f1d37" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>bezierTo</name></member>
+      <member refid="classof_polyline_1a6ae7caff9acd3e4e019a0bb9745ef0cd" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>bezierTo</name></member>
+      <member refid="classof_polyline_1a357b5cf46f75c823159c9dc6679088f3" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>bezierTo</name></member>
+      <member refid="classof_polyline_1af658606e2cf401987b6d9562c114cab7" prot="private" virt="non-virtual"><scope>ofPolyline</scope><name>bHasChanged</name></member>
+      <member refid="classof_polyline_1a11fe80c3a0bb18758aaba76318724bf2" prot="private" virt="non-virtual"><scope>ofPolyline</scope><name>circlePoints</name></member>
+      <member refid="classof_polyline_1a8087ebabf60380f8736282d0e98118bc" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>clear</name></member>
+      <member refid="classof_polyline_1a1de14888c9c361bbe772789a69dd5e45" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>close</name></member>
+      <member refid="classof_polyline_1a8f749f4980bf8f1d5e6485c60c427881" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>curveTo</name></member>
+      <member refid="classof_polyline_1acfb0eb1be03677ef522bab2af60929c0" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>curveTo</name></member>
+      <member refid="classof_polyline_1a5da058518d427cecc12d23740c37d94c" prot="private" virt="non-virtual"><scope>ofPolyline</scope><name>curveVertices</name></member>
+      <member refid="classof_polyline_1af6ea639f218d4ccf8ff616d68ec2bfa6" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>draw</name></member>
+      <member refid="classof_polyline_1acc41df4f84f253128e9de7e38e1069e2" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>getBoundingBox</name></member>
+      <member refid="classof_polyline_1a9da6811ca1a47f4f303dfe7c4522e8cb" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>getClosestPoint</name></member>
+      <member refid="classof_polyline_1adbf01c8cdc85d3f1d88b2bc985498159" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>getPerimeter</name></member>
+      <member refid="classof_polyline_1a6eeaa3a902be5a10ca2267e29f668621" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>getResampledByCount</name></member>
+      <member refid="classof_polyline_1a90c7d2040aff73aa29b68754f54ddfdb" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>getResampledBySpacing</name></member>
+      <member refid="classof_polyline_1a9dd4d7bd3893646a2113d34031065449" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>getSmoothed</name></member>
+      <member refid="classof_polyline_1a55bb64aef8a4937fefc69abe5e7cff50" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>getVertices</name></member>
+      <member refid="classof_polyline_1abd08a523635b4a9203fb08a1447e9e38" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>hasChanged</name></member>
+      <member refid="classof_polyline_1a166b386bb2b1bd7225e05ff67528cd2a" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>isClosed</name></member>
+      <member refid="classof_polyline_1a4c7d5b95780ebf1aefb079f55bcf8d7a" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>lineTo</name></member>
+      <member refid="classof_polyline_1afb12c5445d0f02e5dc7fbdeb9b91925e" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>lineTo</name></member>
+      <member refid="classof_polyline_1ab8b6c33d5cb672d393aa107434d908c2" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>ofPolyline</name></member>
+      <member refid="classof_polyline_1a5867bbb1004e1957dc3804f328e59c25" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>ofPolyline</name></member>
+      <member refid="classof_polyline_1a76c5e9265dde3f857d70a10374b5eafb" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>operator[]</name></member>
+      <member refid="classof_polyline_1a44f95e2bff37ecb43e6696b622fdec30" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>operator[]</name></member>
+      <member refid="classof_polyline_1a10119b9d61389f8da8522dccb3211e9b" prot="private" virt="non-virtual"><scope>ofPolyline</scope><name>points</name></member>
+      <member refid="classof_polyline_1a0a85cd8239ccdc4ccc7cb9c040aeda5e" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>quadBezierTo</name></member>
+      <member refid="classof_polyline_1ab47724b26a9dfbd6081b52f6574896d6" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>quadBezierTo</name></member>
+      <member refid="classof_polyline_1ae41accef12a150b3697adf712face9d2" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>quadBezierTo</name></member>
+      <member refid="classof_polyline_1a49e172bae1f49fce0b763fe05b33c53e" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>resize</name></member>
+      <member refid="classof_polyline_1a4358871c7cc6fe091fb96fc4dafc07ac" prot="private" virt="non-virtual"><scope>ofPolyline</scope><name>setCircleResolution</name></member>
+      <member refid="classof_polyline_1a2b7d22e0d3c5dfed22ebefcd7e79c35f" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>setClosed</name></member>
+      <member refid="classof_polyline_1aadbd40bd1205fbe5106ed42e79243ee7" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>simplify</name></member>
+      <member refid="classof_polyline_1ad88dd26a8298d54abb9dd3b1f55d00f8" prot="public" virt="non-virtual"><scope>ofPolyline</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

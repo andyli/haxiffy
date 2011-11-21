@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_system_utils_8h" kind="file">
+    <compoundname>ofSystemUtils.h</compoundname>
+    <innerclass refid="classof_file_dialog_result" prot="public">ofFileDialogResult</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_system_utils_8h_1af5a9f8b8d9fffde3fadbb5fd000598d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSystemAlertDialog</definition>
+        <argsstring>(string errorMessage)</argsstring>
+        <name>ofSystemAlertDialog</name>
+        <param>
+          <type>string</type>
+          <declname>errorMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="of_system_utils_8h_1a07ceed8bb02398eb4d63bd5d9369ff06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_file_dialog_result" kindref="compound">ofFileDialogResult</ref></type>
+        <definition>ofFileDialogResult ofSystemLoadDialog</definition>
+        <argsstring>(string windowTitle=&quot;&quot;, bool bFolderSelection=false)</argsstring>
+        <name>ofSystemLoadDialog</name>
+        <param>
+          <type>string</type>
+          <declname>windowTitle</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bFolderSelection</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="of_system_utils_8h_1a6c0dcbbef4e61259712dbc5775506e19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_file_dialog_result" kindref="compound">ofFileDialogResult</ref></type>
+        <definition>ofFileDialogResult ofSystemSaveDialog</definition>
+        <argsstring>(string defaultName, string messageName)</argsstring>
+        <name>ofSystemSaveDialog</name>
+        <param>
+          <type>string</type>
+          <declname>defaultName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>messageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h" line="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classof_file_dialog_result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_file_dialog_result" kindref="compound">ofFileDialogResult</ref>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_dialog_result_1a1dc2551f2b1f749291f25f750dc9831c" kindref="member">ofFileDialogResult</ref>();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO:<sp/>only<sp/>1<sp/>file<sp/>for<sp/>now</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_dialog_result_1a80fd7a5c48d882cc6c93c0aa4675b5a2" kindref="member">getName</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_dialog_result_1ad410507288163f82834434ac7ede39a5" kindref="member">getPath</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12" refid="classof_file_dialog_result_1a10333951dbf932e377a866e290bea374" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_dialog_result_1a10333951dbf932e377a866e290bea374" kindref="member">filePath</ref>;</highlight></codeline>
+<codeline lineno="13" refid="classof_file_dialog_result_1ae23f66d2b7acca659640bed99850b462" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_file_dialog_result_1ae23f66d2b7acca659640bed99850b462" kindref="member">fileName</ref>;</highlight></codeline>
+<codeline lineno="14" refid="classof_file_dialog_result_1a63f36565e8613c7fd654c310ae127204" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_file_dialog_result_1a63f36565e8613c7fd654c310ae127204" kindref="member">bSuccess</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_system_utils_8h_1af5a9f8b8d9fffde3fadbb5fd000598d1" kindref="member">ofSystemAlertDialog</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>errorMessage);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="classof_file_dialog_result" kindref="compound">ofFileDialogResult</ref><sp/><ref refid="of_system_utils_8h_1a07ceed8bb02398eb4d63bd5d9369ff06" kindref="member">ofSystemLoadDialog</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>windowTitle=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bFolderSelection<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="classof_file_dialog_result" kindref="compound">ofFileDialogResult</ref><sp/><ref refid="of_system_utils_8h_1a6c0dcbbef4e61259712dbc5775506e19" kindref="member">ofSystemSaveDialog</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>defaultName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>messageName);</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofSystemUtils.h"/>
+  </compounddef>
+</doxygen>

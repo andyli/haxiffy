@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_6a73469fbe4010b4948e385e9a3ee6e5" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/</compoundname>
+    <innerfile refid="of_base_sound_player_8h">ofBaseSoundPlayer.h</innerfile>
+    <innerfile refid="of_base_sound_stream_8h">ofBaseSoundStream.h</innerfile>
+    <innerfile refid="of_fmod_sound_player_8h">ofFmodSoundPlayer.h</innerfile>
+    <innerfile refid="of_open_a_l_sound_player_8h">ofOpenALSoundPlayer.h</innerfile>
+    <innerfile refid="of_p_a_sound_stream_8h">ofPASoundStream.h</innerfile>
+    <innerfile refid="of_rt_audio_sound_stream_8h">ofRtAudioSoundStream.h</innerfile>
+    <innerfile refid="of_sound_player_8h">ofSoundPlayer.h</innerfile>
+    <innerfile refid="of_sound_stream_8h">ofSoundStream.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/"/>
+  </compounddef>
+</doxygen>

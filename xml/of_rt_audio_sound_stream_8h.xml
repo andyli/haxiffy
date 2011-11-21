@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_rt_audio_sound_stream_8h" kind="file">
+    <compoundname>ofRtAudioSoundStream.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includes refid="of_base_sound_stream_8h" local="yes">ofBaseSoundStream.h</includes>
+    <includes local="yes">ofTypes.h</includes>
+    <incdepgraph>
+      <node id="396">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="398">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="395">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h</label>
+        <link refid="ofRtAudioSoundStream.h"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>ofBaseSoundStream.h</label>
+        <link refid="of_base_sound_stream_8h"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classof_rt_audio_sound_stream" prot="public">ofRtAudioSoundStream</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="of_rt_audio_sound_stream_8h_1ae36b2728755795523f2ccd92f4b77e1e" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int RtAudioStreamStatus</definition>
+        <argsstring></argsstring>
+        <name>RtAudioStreamStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="9" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_base_sound_stream_8h" kindref="compound">ofBaseSoundStream.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="of_rt_audio_sound_stream_8h_1ae36b2728755795523f2ccd92f4b77e1e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RtAudio;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="of_rt_audio_sound_stream_8h_1ae36b2728755795523f2ccd92f4b77e1e" kindref="member">RtAudioStreamStatus</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classof_rt_audio_sound_stream" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_rt_audio_sound_stream" kindref="compound">ofRtAudioSoundStream</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_stream" kindref="compound">ofBaseSoundStream</ref>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_rt_audio_sound_stream_1ad754f07225da3ed88ed675da8847dc2b" kindref="member">ofRtAudioSoundStream</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_rt_audio_sound_stream_1ab2816c9e717edcb772f03fe632a854e1" kindref="member">~ofRtAudioSoundStream</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a377ca55a46d54a373e225916d0ed43e8" kindref="member">listDevices</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1afae61f93d8610764dfd47a9c87ad7902" kindref="member">setDeviceID</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a3cc561011ea2644980203b037682b47f" kindref="member">deviceID</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a9768fb4f9d900bee1d59c34f6c79646f" kindref="member">setInput</ref>(<ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref><sp/>*<sp/>soundInput);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1ae20966d5b01246956ddc15d713a9326e" kindref="member">setOutput</ref>(<ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref><sp/>*<sp/>soundOutput);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a8fc0cd6c7aedc28eee7ebe84eb6be6e8" kindref="member">setup</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>outChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a81d2cc2cadb649930bd577dc4e1272c5" kindref="member">sampleRate</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBuffers);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a8fc0cd6c7aedc28eee7ebe84eb6be6e8" kindref="member">setup</ref>(<ref refid="classof_base_app" kindref="compound">ofBaseApp</ref><sp/>*<sp/>app,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>outChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sampleRate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBuffers);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a334e298a3791c3c6a0aa18b04a5fcfbb" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1ab0c60e540935220384ce676f73cbf765" kindref="member">stop</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a454268c55f545e2b4b0680c27bc50522" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a6b1399641eb902fd6d665eb4105802ff" kindref="member">getTickCount</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a3728964558ff782a60b3d4803ee97474" kindref="member">getNumInputChannels</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a3c4fad72682be9a13f1911d0dfed1470" kindref="member">getNumOutputChannels</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35" refid="classof_rt_audio_sound_stream_1ae90376058832613df43570ced2b9cc40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_rt_audio_sound_stream_1ae90376058832613df43570ced2b9cc40" kindref="member">tickCount</ref>;</highlight></codeline>
+<codeline lineno="36" refid="classof_rt_audio_sound_stream_1afcb6b8abe1a9a23ac98e7d8be58452ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr" kindref="compound">ofPtr&lt;RtAudio&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_rt_audio_sound_stream_1afcb6b8abe1a9a23ac98e7d8be58452ce" kindref="member">audio</ref>;</highlight></codeline>
+<codeline lineno="37" refid="classof_rt_audio_sound_stream_1a81d2cc2cadb649930bd577dc4e1272c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_rt_audio_sound_stream_1a81d2cc2cadb649930bd577dc4e1272c5" kindref="member">sampleRate</ref>;</highlight></codeline>
+<codeline lineno="38" refid="classof_rt_audio_sound_stream_1a3cc561011ea2644980203b037682b47f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_rt_audio_sound_stream_1a3cc561011ea2644980203b037682b47f" kindref="member">deviceID</ref>;</highlight></codeline>
+<codeline lineno="39" refid="classof_rt_audio_sound_stream_1aa164ed606440540a6f6a9510de7957e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_rt_audio_sound_stream_1aa164ed606440540a6f6a9510de7957e5" kindref="member">nInputChannels</ref>;</highlight></codeline>
+<codeline lineno="40" refid="classof_rt_audio_sound_stream_1a03e28beff5631f31ea65137b89b4356b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_rt_audio_sound_stream_1a03e28beff5631f31ea65137b89b4356b" kindref="member">nOutputChannels</ref>;</highlight></codeline>
+<codeline lineno="41" refid="classof_rt_audio_sound_stream_1a49bbd755c4bafad4d3081c3fd535c277" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref><sp/>*<sp/><sp/><ref refid="classof_rt_audio_sound_stream_1a49bbd755c4bafad4d3081c3fd535c277" kindref="member">soundInputPtr</ref>;</highlight></codeline>
+<codeline lineno="42" refid="classof_rt_audio_sound_stream_1a1dbfb4e46a0d0052c41bae8f17773f28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref><sp/>*<sp/><ref refid="classof_rt_audio_sound_stream_1a1dbfb4e46a0d0052c41bae8f17773f28" kindref="member">soundOutputPtr</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_rt_audio_sound_stream_1a1ed485cced932fa6e0f6b350ef752da5" kindref="member">rtAudioCallback</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*outputBuffer,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*inputBuffer,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>streamTime,<sp/><ref refid="of_rt_audio_sound_stream_8h_1ae36b2728755795523f2ccd92f4b77e1e" kindref="member">RtAudioStreamStatus</ref><sp/>status,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h"/>
+  </compounddef>
+</doxygen>

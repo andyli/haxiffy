@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_vector_math_8h" kind="file">
+    <compoundname>ofVectorMath.h</compoundname>
+    <includes refid="of_vec2f_8h" local="yes">ofVec2f.h</includes>
+    <includes refid="of_vec3f_8h" local="yes">ofVec3f.h</includes>
+    <includes refid="of_vec4f_8h" local="yes">ofVec4f.h</includes>
+    <includes refid="of_matrix3x3_8h" local="yes">ofMatrix3x3.h</includes>
+    <includes refid="of_matrix4x4_8h" local="yes">ofMatrix4x4.h</includes>
+    <includes refid="of_quaternion_8h" local="yes">ofQuaternion.h</includes>
+    <incdepgraph>
+      <node id="317">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="323">
+        <label>ofMatrix4x4.h</label>
+        <link refid="of_matrix4x4_8h"/>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>cmath</label>
+      </node>
+      <node id="324">
+        <label>ofQuaternion.h</label>
+        <link refid="of_quaternion_8h"/>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>ofVec2f.h</label>
+        <link refid="of_vec2f_8h"/>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+      <node id="318">
+        <label>ofVec3f.h</label>
+        <link refid="of_vec3f_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>ofVec4f.h</label>
+        <link refid="of_vec4f_8h"/>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVectorMath.h</label>
+        <link refid="ofVectorMath.h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>iostream</label>
+      </node>
+      <node id="322">
+        <label>ofMatrix3x3.h</label>
+        <link refid="of_matrix3x3_8h"/>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_vec2f_8h" kindref="compound">ofVec2f.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_vec3f_8h" kindref="compound">ofVec3f.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_vec4f_8h" kindref="compound">ofVec4f.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_matrix3x3_8h" kindref="compound">ofMatrix3x3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_matrix4x4_8h" kindref="compound">ofMatrix4x4.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_quaternion_8h" kindref="compound">ofQuaternion.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVectorMath.h"/>
+  </compounddef>
+</doxygen>

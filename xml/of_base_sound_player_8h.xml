@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_base_sound_player_8h" kind="file">
+    <compoundname>ofBaseSoundPlayer.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includedby refid="of_sound_player_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundPlayer.h</includedby>
+    <incdepgraph>
+      <node id="374">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h</label>
+        <link refid="ofBaseSoundPlayer.h"/>
+        <childnode refid="375" relation="include">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>ofConstants.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="376">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h</label>
+        <link refid="ofBaseSoundPlayer.h"/>
+        <childnode refid="377" relation="include">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundPlayer.h</label>
+        <link refid="of_sound_player_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classof_base_sound_player" prot="public">ofBaseSoundPlayer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ofBaseSoundPlayer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classof_base_sound_player" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_base_sound_player" kindref="compound">ofBaseSoundPlayer</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15" refid="classof_base_sound_player_1ad705fe243610e1b203fe38b13b264cb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_base_sound_player_1ad705fe243610e1b203fe38b13b264cb6" kindref="member">ofBaseSoundPlayer</ref>(){};</highlight></codeline>
+<codeline lineno="16" refid="classof_base_sound_player_1a8defee0b9e692647917e4cc78e2b27d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1a8defee0b9e692647917e4cc78e2b27d1" kindref="member">~ofBaseSoundPlayer</ref>(){};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1ac261744b9815d7f31ca5580d8230e91c" kindref="member">loadSound</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>stream<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1a9d4f87a9c835c9521d63677a40cc2378" kindref="member">unloadSound</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1a75724561c5bfd5b36099ae13b4a448ed" kindref="member">play</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1a815bdc74ee89a4953eeb55803d220ad5" kindref="member">stop</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1a8dd48f4e7cad15d4df5c2ab572a243af" kindref="member">setVolume</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>vol)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1a84e70f38b1ae07380fb2d902f3e21e61" kindref="member">setPan</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>vol)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1a1b44d5401ee7c0d20fb9d1b9b4d507f9" kindref="member">setSpeed</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>spd)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1ab3a7af6b4cbb14ecaf12f836d05d7c8b" kindref="member">setPaused</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bP)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1af99466881ec3c5b0fb9d374d353ff7b1" kindref="member">setLoop</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bLp)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1a576345622ea19d09d5c4e5e3cf6cb653" kindref="member">setMultiPlay</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bMp)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1ae302cd3a5f42cef51ea72f950f6a2b10" kindref="member">setPosition</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pct)<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>0<sp/>=<sp/>start,<sp/>1<sp/>=<sp/>end;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1aa397af6f05c4451866bd343692c1aa33" kindref="member">getPosition</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1aa3445838a28c7622edecb778f7400bd6" kindref="member">getIsPlaying</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1ac81d07b18bde46e618ca026e088b1e19" kindref="member">getSpeed</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_base_sound_player_1ab17c0b5c5684ce988eb1f52259477aae" kindref="member">getPan</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h"/>
+  </compounddef>
+</doxygen>

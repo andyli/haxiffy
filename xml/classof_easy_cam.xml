@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_easy_cam" kind="class" prot="public">
+    <compoundname>ofEasyCam</compoundname>
+    <basecompoundref refid="classof_camera" prot="public" virt="non-virtual">ofCamera</basecompoundref>
+    <includes refid="of_easy_cam_8h" local="no">ofEasyCam.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_easy_cam_1a70bc15c733fb25d7b937f84edc94dd14" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_node" kindref="compound">ofNode</ref></type>
+        <definition>ofNode ofEasyCam::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="44" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1aabc5379aa25258ecf08c0d9205c99bd2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofEasyCam::drag</definition>
+        <argsstring></argsstring>
+        <name>drag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1a3a8a3e5663d3f7769daa5334f144377b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofEasyCam::zoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>zoomSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="47" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1a462417ceebfb669e97bce5dbca0c041d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofEasyCam::bMouseInputEnabled</definition>
+        <argsstring></argsstring>
+        <name>bMouseInputEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="48" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1afd62786b98e799a847d0b8b4713b415a" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofEasyCam::mousePosViewPrev</definition>
+        <argsstring></argsstring>
+        <name>mousePosViewPrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="50" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1aaab8260ff7d10c6be3dc4e16cde069b0" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofEasyCam::mousePosScreenPrev</definition>
+        <argsstring></argsstring>
+        <name>mousePosScreenPrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="51" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1a0461c8c6317541d2d1d2856cb4bb8f44" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofEasyCam::lastFrame</definition>
+        <argsstring></argsstring>
+        <name>lastFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="52" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1ae13130e61eefe051011877b56867ec43" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long ofEasyCam::lastTap</definition>
+        <argsstring></argsstring>
+        <name>lastTap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="54" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1a82b0414674d9ee7ef4cb3ac30b10a01d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofEasyCam::mousePressedPrev[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>mousePressedPrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="55" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1aa2c64a7e4c6c3c78872a18fdb7458e2e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofEasyCam::bDistanceSet</definition>
+        <argsstring></argsstring>
+        <name>bDistanceSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="57" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1a0e4029cb59599ddbc0c7169b2f1273b1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofEasyCam::lastDistance</definition>
+        <argsstring></argsstring>
+        <name>lastDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="58" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1a53ee3bf5e226175ce91366aaca9240ea" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofEasyCam::distanceScaleVelocity</definition>
+        <argsstring></argsstring>
+        <name>distanceScaleVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="59" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1a7c0ae464e0c4ee3c5378199ad8091a48" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>ofQuaternion ofEasyCam::rotation</definition>
+        <argsstring></argsstring>
+        <name>rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="61" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_easy_cam_1ae48c2d0474d83dd562f0afad07b9876a" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofEasyCam::translation</definition>
+        <argsstring></argsstring>
+        <name>translation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="62" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_easy_cam_1ae432309081375a91cacf80c5d9093c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofEasyCam::ofEasyCam</definition>
+        <argsstring>()</argsstring>
+        <name>ofEasyCam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a00f32e3774a5d9f4733ee43dd6b9b8f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofEasyCam::~ofEasyCam</definition>
+        <argsstring>()</argsstring>
+        <name>~ofEasyCam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a69e29e71e34e9173f82543cc35ee1b3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofEasyCam::begin</definition>
+        <argsstring>(ofRectangle viewport=ofGetCurrentViewport())</argsstring>
+        <name>begin</name>
+        <reimplements refid="classof_camera_1a42a2921f26c9f63103d417d5abf74f0e">begin</reimplements>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a8833ae781975911013b5f6aa3bec32cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a16d54adecaba3892262551e5ea8dce25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::setTarget</definition>
+        <argsstring>(const ofVec3f &amp;target)</argsstring>
+        <name>setTarget</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a322c85a648810e06612b486fc8508155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::setTarget</definition>
+        <argsstring>(ofNode &amp;target)</argsstring>
+        <name>setTarget</name>
+        <param>
+          <type><ref refid="classof_node" kindref="compound">ofNode</ref> &amp;</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1afade82c98e2a489333cf1ec6b70f3c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_node" kindref="compound">ofNode</ref> &amp;</type>
+        <definition>ofNode&amp; ofEasyCam::getTarget</definition>
+        <argsstring>()</argsstring>
+        <name>getTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a4e3ba707cdc44c46bd442641d1b0c25a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::setDistance</definition>
+        <argsstring>(float distance)</argsstring>
+        <name>setDistance</name>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a27eac21ea675b765c599cc3947455efd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofEasyCam::getDistance</definition>
+        <argsstring>() const </argsstring>
+        <name>getDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a3c25cc3a6ca19efd4e06667bcc2586b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::setDrag</definition>
+        <argsstring>(float drag)</argsstring>
+        <name>setDrag</name>
+        <param>
+          <type>float</type>
+          <declname>drag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a160c0400017413385c89bb9084073bff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofEasyCam::getDrag</definition>
+        <argsstring>() const </argsstring>
+        <name>getDrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1adb35a02a3c31cc833cd4d30830e9f006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::mouseDragged</definition>
+        <argsstring>(ofMouseEventArgs &amp;mouse)</argsstring>
+        <name>mouseDragged</name>
+        <param>
+          <type>ofMouseEventArgs &amp;</type>
+          <declname>mouse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a9a0e60352d69fc7a03dc5a9b814e6c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::mouseMoved</definition>
+        <argsstring>(ofMouseEventArgs &amp;mouse)</argsstring>
+        <name>mouseMoved</name>
+        <param>
+          <type>ofMouseEventArgs &amp;</type>
+          <declname>mouse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1adab10e1df89a77f056663af17bbf5ed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::mousePressed</definition>
+        <argsstring>(ofMouseEventArgs &amp;mouse)</argsstring>
+        <name>mousePressed</name>
+        <param>
+          <type>ofMouseEventArgs &amp;</type>
+          <declname>mouse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a4ad97ad37c1d0b737dd1fc0ab7bf9590" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::mouseReleased</definition>
+        <argsstring>(ofMouseEventArgs &amp;mouse)</argsstring>
+        <name>mouseReleased</name>
+        <param>
+          <type>ofMouseEventArgs &amp;</type>
+          <declname>mouse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1ac267e28e06a92003f6422e0ba707bfae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::enableMouseInput</definition>
+        <argsstring>()</argsstring>
+        <name>enableMouseInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a206a55a70de3bc16bd53cc3b6e9d07f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::disableMouseInput</definition>
+        <argsstring>()</argsstring>
+        <name>disableMouseInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_easy_cam_1a47affec73161672979f9ae3e826702d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofEasyCam::getMouseInputEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>getMouseInputEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_easy_cam_1a8fb9d87f50424b1c37452bb2c8a1add1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEasyCam::setDistance</definition>
+        <argsstring>(float distance, bool save)</argsstring>
+        <name>setDistance</name>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>save</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="253">
+        <label>ofNode</label>
+        <link refid="classof_node"/>
+      </node>
+      <node id="251">
+        <label>ofEasyCam</label>
+        <link refid="classof_easy_cam"/>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="252">
+        <label>ofCamera</label>
+        <link refid="classof_camera"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="258">
+        <label>ofVec4f</label>
+        <link refid="classof_vec4f"/>
+      </node>
+      <node id="260">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="256">
+        <label>ofNode</label>
+        <link refid="classof_node"/>
+        <childnode refid="257" relation="usage">
+          <edgelabel>orientation</edgelabel>
+        </childnode>
+        <childnode refid="256" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+        <childnode refid="259" relation="usage">
+          <edgelabel>localTransformMatrix</edgelabel>
+        </childnode>
+        <childnode refid="260" relation="usage">
+          <edgelabel>scale</edgelabel>
+          <edgelabel>position</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+      </node>
+      <node id="257">
+        <label>ofQuaternion</label>
+        <link refid="classof_quaternion"/>
+        <childnode refid="258" relation="usage">
+          <edgelabel>_v</edgelabel>
+        </childnode>
+      </node>
+      <node id="254">
+        <label>ofEasyCam</label>
+        <link refid="classof_easy_cam"/>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+        <childnode refid="257" relation="usage">
+          <edgelabel>rotation</edgelabel>
+        </childnode>
+        <childnode refid="256" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="260" relation="usage">
+          <edgelabel>mousePosViewPrev</edgelabel>
+          <edgelabel>translation</edgelabel>
+          <edgelabel>mousePosScreenPrev</edgelabel>
+        </childnode>
+      </node>
+      <node id="255">
+        <label>ofCamera</label>
+        <link refid="classof_camera"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+        <childnode refid="259" relation="usage">
+          <edgelabel>matModelView</edgelabel>
+          <edgelabel>matProjection</edgelabel>
+        </childnode>
+      </node>
+      <node id="259">
+        <label>ofMatrix4x4</label>
+        <link refid="classof_matrix4x4"/>
+        <childnode refid="258" relation="usage">
+          <edgelabel>_mat</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" line="6" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h" bodystart="6" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classof_easy_cam_1aa2c64a7e4c6c3c78872a18fdb7458e2e" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>bDistanceSet</name></member>
+      <member refid="classof_easy_cam_1a69e29e71e34e9173f82543cc35ee1b3e" prot="public" virt="virtual"><scope>ofEasyCam</scope><name>begin</name></member>
+      <member refid="classof_easy_cam_1a462417ceebfb669e97bce5dbca0c041d" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>bMouseInputEnabled</name></member>
+      <member refid="classof_node_1ad030cd8c55b9df3dbf2786347f62ad3b" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>boom</name></member>
+      <member refid="classof_camera_1a9c64ce18d4ea06c77f23f6899bdb27c9" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>cacheMatrices</name></member>
+      <member refid="classof_camera_1af3801bb3a2e303bc005b258670056f1f" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>cameraToWorld</name></member>
+      <member refid="classof_node_1abab3151dc3a440a630f5782eda3e3111" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>clearParent</name></member>
+      <member refid="classof_node_1a7619a7cabd3690c782ad10cc13093074" prot="protected" virt="non-virtual"><scope>ofEasyCam</scope><name>createMatrix</name></member>
+      <member refid="classof_node_1a82804cbe87f3bce8a5d2d2b89dce5e71" prot="public" virt="virtual"><scope>ofEasyCam</scope><name>customDraw</name></member>
+      <member refid="classof_easy_cam_1a206a55a70de3bc16bd53cc3b6e9d07f0" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>disableMouseInput</name></member>
+      <member refid="classof_camera_1a8b9f8d32444f72544b3a05e6646fcdfc" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>disableOrtho</name></member>
+      <member refid="classof_easy_cam_1a53ee3bf5e226175ce91366aaca9240ea" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>distanceScaleVelocity</name></member>
+      <member refid="classof_node_1a8ab940d4c166064c8b2e3b4ab237917c" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>dolly</name></member>
+      <member refid="classof_easy_cam_1aabc5379aa25258ecf08c0d9205c99bd2" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>drag</name></member>
+      <member refid="classof_node_1a13c85ec24bc0244ee7e32be7a63f2561" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>draw</name></member>
+      <member refid="classof_easy_cam_1ac267e28e06a92003f6422e0ba707bfae" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>enableMouseInput</name></member>
+      <member refid="classof_camera_1a3188281a0708f7ed030b0742ff2d3f6d" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>enableOrtho</name></member>
+      <member refid="classof_camera_1ab30f48c273646eac677a34be969710b3" prot="public" virt="virtual"><scope>ofEasyCam</scope><name>end</name></member>
+      <member refid="classof_easy_cam_1a27eac21ea675b765c599cc3947455efd" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getDistance</name></member>
+      <member refid="classof_easy_cam_1a160c0400017413385c89bb9084073bff" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getDrag</name></member>
+      <member refid="classof_node_1a427fce44ef9e64b50c223a42d057a700" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getGlobalOrientation</name></member>
+      <member refid="classof_node_1a4ad665eca93ee00d506d0c663d6dcddd" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getGlobalPosition</name></member>
+      <member refid="classof_node_1a78a98aca9e6d389ae4918ad9783f3bf7" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getGlobalTransformMatrix</name></member>
+      <member refid="classof_node_1a91b332c93dd0da7c289ffcc95ccc5a46" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getHeading</name></member>
+      <member refid="classof_camera_1a229cb35e80d84ce864e07d569116890e" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getImagePlaneDistance</name></member>
+      <member refid="classof_node_1a29a4cda17e24a56f5aa1933dea05af86" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getLocalTransformMatrix</name></member>
+      <member refid="classof_node_1a884d1b02034ac8822415bbb43ac4dd5f" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getLookAtDir</name></member>
+      <member refid="classof_camera_1ab1f75c923a80c3161ef3d3a0057e9524" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getModelViewMatrix</name></member>
+      <member refid="classof_camera_1a5f888bd16155c9a9088302a2a74907a1" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getModelViewProjectionMatrix</name></member>
+      <member refid="classof_easy_cam_1a47affec73161672979f9ae3e826702d6" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getMouseInputEnabled</name></member>
+      <member refid="classof_node_1a105586cd87594a6ab0841e39f474e70e" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getOrientationEuler</name></member>
+      <member refid="classof_node_1ae8ca41c6f9eac9a64d7c19a6811f66b5" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getOrientationQuat</name></member>
+      <member refid="classof_camera_1a64ecd6f32c55d31f8570e22a1597c29a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getOrtho</name></member>
+      <member refid="classof_node_1a96575a8e5ecdb143438f33c0583ccbd0" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getParent</name></member>
+      <member refid="classof_node_1a4f52fa48348f59307623c7a7bb4ef59f" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getPitch</name></member>
+      <member refid="classof_node_1a89350f61b536e5f64dc13682a6aee97d" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getPosition</name></member>
+      <member refid="classof_camera_1a8d34598a9542ee39aad5f1fda7d86d18" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getProjectionMatrix</name></member>
+      <member refid="classof_node_1a0336b1426c2bc493bc15a7093fb35b5a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getRoll</name></member>
+      <member refid="classof_node_1a7dd2e9bbcc2c8ce02317892b40793a0f" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getScale</name></member>
+      <member refid="classof_node_1aaa10e7761bcbfc1c504c6312c52f833a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getSideDir</name></member>
+      <member refid="classof_easy_cam_1afade82c98e2a489333cf1ec6b70f3c63" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getTarget</name></member>
+      <member refid="classof_node_1ae24a97f7de20c48a5f75d82fb12577cf" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getUpDir</name></member>
+      <member refid="classof_node_1a819b96492b11250d5682e7853c5b753c" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getX</name></member>
+      <member refid="classof_node_1a75af589eae2b502216acad4668edf43b" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getXAxis</name></member>
+      <member refid="classof_node_1a1177cd7d07224c3690a4364684f1719f" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getY</name></member>
+      <member refid="classof_node_1a6bf67ed85db5017a37aba4e3262e914a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getYAxis</name></member>
+      <member refid="classof_node_1aad7aed0da357927a7bfa1c5669fd9e64" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getZ</name></member>
+      <member refid="classof_node_1aecfc7c45671b9bb4757821e3a10dccb1" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>getZAxis</name></member>
+      <member refid="classof_easy_cam_1a0e4029cb59599ddbc0c7169b2f1273b1" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>lastDistance</name></member>
+      <member refid="classof_easy_cam_1a0461c8c6317541d2d1d2856cb4bb8f44" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>lastFrame</name></member>
+      <member refid="classof_easy_cam_1ae13130e61eefe051011877b56867ec43" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>lastTap</name></member>
+      <member refid="classof_node_1a039b31630ea3fc3718da43e23ecd7ef3" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>lookAt</name></member>
+      <member refid="classof_node_1ae0314a8226b1d1acbe4ac0ca6c48ae37" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>lookAt</name></member>
+      <member refid="classof_easy_cam_1adb35a02a3c31cc833cd4d30830e9f006" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>mouseDragged</name></member>
+      <member refid="classof_easy_cam_1a9a0e60352d69fc7a03dc5a9b814e6c9d" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>mouseMoved</name></member>
+      <member refid="classof_easy_cam_1aaab8260ff7d10c6be3dc4e16cde069b0" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>mousePosScreenPrev</name></member>
+      <member refid="classof_easy_cam_1afd62786b98e799a847d0b8b4713b415a" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>mousePosViewPrev</name></member>
+      <member refid="classof_easy_cam_1adab10e1df89a77f056663af17bbf5ed3" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>mousePressed</name></member>
+      <member refid="classof_easy_cam_1a82b0414674d9ee7ef4cb3ac30b10a01d" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>mousePressedPrev</name></member>
+      <member refid="classof_easy_cam_1a4ad97ad37c1d0b737dd1fc0ab7bf9590" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>mouseReleased</name></member>
+      <member refid="classof_node_1a89949bfa32613379f65466be7514032a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>move</name></member>
+      <member refid="classof_node_1a2c9fe659a2f8a45336d5ec385e7442ac" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>move</name></member>
+      <member refid="classof_camera_1abd30fe5920612bd673a7a7af7991fc4a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>ofCamera</name></member>
+      <member refid="classof_easy_cam_1ae432309081375a91cacf80c5d9093c14" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>ofEasyCam</name></member>
+      <member refid="classof_node_1aa2b223ca1f8560ef193eb7bde666d758" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>ofNode</name></member>
+      <member refid="classof_node_1a423c1683913adf900cf8602b55361275" prot="protected" virt="virtual"><scope>ofEasyCam</scope><name>onOrientationChanged</name></member>
+      <member refid="classof_node_1aa31b92a732d3258f15c730ec8106273c" prot="protected" virt="virtual"><scope>ofEasyCam</scope><name>onPositionChanged</name></member>
+      <member refid="classof_node_1a8e851ac0a96a9348d85e365e1e7c71be" prot="protected" virt="virtual"><scope>ofEasyCam</scope><name>onScaleChanged</name></member>
+      <member refid="classof_node_1a2a0989e1ed10fcbfea932ea305f064c1" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>orbit</name></member>
+      <member refid="classof_node_1a8d0f25fffcba51783c5c9d53d87c4f82" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>orbit</name></member>
+      <member refid="classof_node_1ad8f671a39235404984fb84da35dd93ae" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>pan</name></member>
+      <member refid="classof_node_1a9fa60edff25434ada1671e837335fbdf" prot="protected" virt="non-virtual"><scope>ofEasyCam</scope><name>parent</name></member>
+      <member refid="classof_easy_cam_1a8833ae781975911013b5f6aa3bec32cd" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>reset</name></member>
+      <member refid="classof_node_1ace344f081aa534670949ae9e03374626" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>resetTransform</name></member>
+      <member refid="classof_node_1a9d09e55a671dae12c64b18215f2cd08c" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>restoreTransformGL</name></member>
+      <member refid="classof_node_1a6eabc08d0e5ec0f8e7b6d2931531e400" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>roll</name></member>
+      <member refid="classof_node_1a1334bc48d4dbbc8d769ce42ee82fdf96" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>rotate</name></member>
+      <member refid="classof_node_1ae5d336038ea9a78223218183bbc446f0" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>rotate</name></member>
+      <member refid="classof_node_1a567e36b8f19965cb37b093283f7fcf09" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>rotate</name></member>
+      <member refid="classof_node_1a084b6a9cc56ae474be007ba4595c471d" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>rotateAround</name></member>
+      <member refid="classof_node_1a99683f424fc89553cfbdab53d52a1e7f" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>rotateAround</name></member>
+      <member refid="classof_easy_cam_1a7c0ae464e0c4ee3c5378199ad8091a48" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>rotation</name></member>
+      <member refid="classof_camera_1a85a37e9c24c372b6824f4ada7612470e" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>screenToWorld</name></member>
+      <member refid="classof_easy_cam_1a4e3ba707cdc44c46bd442641d1b0c25a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setDistance</name></member>
+      <member refid="classof_easy_cam_1a8fb9d87f50424b1c37452bb2c8a1add1" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>setDistance</name></member>
+      <member refid="classof_easy_cam_1a3c25cc3a6ca19efd4e06667bcc2586b0" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setDrag</name></member>
+      <member refid="classof_camera_1aef6f9ea9a776c0113900a75e54d05bb9" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setFarClip</name></member>
+      <member refid="classof_camera_1ac79f42fa863eb5ce703625800dee236c" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setFov</name></member>
+      <member refid="classof_node_1ac888a4aabc97bdfa86114079dcdf4832" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setGlobalOrientation</name></member>
+      <member refid="classof_node_1a72d4e80f9e3cc5356860669be45076e7" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setGlobalPosition</name></member>
+      <member refid="classof_node_1a639c866edf3aac3192713dfcdbb2e992" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setGlobalPosition</name></member>
+      <member refid="classof_camera_1a4ed2f176b5dbdb65e1e452b847497086" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setNearClip</name></member>
+      <member refid="classof_node_1a732a883de750dcd157ba03a7a9432f57" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setOrientation</name></member>
+      <member refid="classof_node_1a7e7460d86348bc31837271fe30e74b89" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setOrientation</name></member>
+      <member refid="classof_node_1a17c41e855157cc8b896db24f8ba50201" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setParent</name></member>
+      <member refid="classof_node_1a6f5733da97701638ec9e089016d0381a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setPosition</name></member>
+      <member refid="classof_node_1ae55d7884cc7193538fddd8071f533379" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setPosition</name></member>
+      <member refid="classof_node_1a29db49b22f24505ca352ad90a0d9ffd6" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setScale</name></member>
+      <member refid="classof_node_1a1edc7d654f34143e14a88423dce97c1d" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setScale</name></member>
+      <member refid="classof_node_1a0dc74f803d307c24e08b2e163295287b" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setScale</name></member>
+      <member refid="classof_easy_cam_1a16d54adecaba3892262551e5ea8dce25" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setTarget</name></member>
+      <member refid="classof_easy_cam_1a322c85a648810e06612b486fc8508155" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setTarget</name></member>
+      <member refid="classof_node_1aee04a17c179cb45f7e03f8518be8d0ad" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>setTransformMatrix</name></member>
+      <member refid="classof_easy_cam_1a70bc15c733fb25d7b937f84edc94dd14" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>target</name></member>
+      <member refid="classof_node_1a674ca0b1cb71f609fadf8dba79106a72" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>tilt</name></member>
+      <member refid="classof_node_1af5fc70fbfb7826ebca9ae9eaa7653db8" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>transformGL</name></member>
+      <member refid="classof_easy_cam_1ae48c2d0474d83dd562f0afad07b9876a" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>translation</name></member>
+      <member refid="classof_node_1a61fcc8f30420847847f62873a47cca8a" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>truck</name></member>
+      <member refid="classof_camera_1a124675ae7ad72e82c402ce7da7978a31" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>worldToCamera</name></member>
+      <member refid="classof_camera_1ab322e7d760b8ab3508af2362478d4dd6" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>worldToScreen</name></member>
+      <member refid="classof_easy_cam_1a3a8a3e5663d3f7769daa5334f144377b" prot="private" virt="non-virtual"><scope>ofEasyCam</scope><name>zoomSpeed</name></member>
+      <member refid="classof_easy_cam_1a00f32e3774a5d9f4733ee43dd6b9b8f7" prot="public" virt="non-virtual"><scope>ofEasyCam</scope><name>~ofEasyCam</name></member>
+      <member refid="classof_node_1ad0f916a28a08c95064e89bdc5131b923" prot="public" virt="virtual"><scope>ofEasyCam</scope><name>~ofNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

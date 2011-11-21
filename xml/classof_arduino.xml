@@ -1,0 +1,1494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_arduino" kind="class" prot="public">
+    <compoundname>ofArduino</compoundname>
+    <includes refid="of_arduino_8h" local="no">ofArduino.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_arduino_1a4f767ce1bf2cff3ceda67a5fff6d9e84" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; const int &gt;</type>
+        <definition>ofEvent&lt;const int&gt; ofArduino::EDigitalPinChanged</definition>
+        <argsstring></argsstring>
+        <name>EDigitalPinChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="292" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1afd8108a6ce53094cf87b7eb954e9cd64" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; const int &gt;</type>
+        <definition>ofEvent&lt;const int&gt; ofArduino::EAnalogPinChanged</definition>
+        <argsstring></argsstring>
+        <name>EAnalogPinChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="295" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a95e0ac5844f8c55b89dcd0ed6ed57467" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; const vector&lt; unsigned char &gt; &gt;</type>
+        <definition>ofEvent&lt;const vector&lt;unsigned char&gt; &gt; ofArduino::ESysExReceived</definition>
+        <argsstring></argsstring>
+        <name>ESysExReceived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="298" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a606b62604b4a3df98d8f2cfb8b89fe50" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; const int &gt;</type>
+        <definition>ofEvent&lt;const int&gt; ofArduino::EProtocolVersionReceived</definition>
+        <argsstring></argsstring>
+        <name>EProtocolVersionReceived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="301" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a3bb33d77bad1d29e9b2ec29199aa5b26" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; const int &gt;</type>
+        <definition>ofEvent&lt;const int&gt; ofArduino::EFirmwareVersionReceived</definition>
+        <argsstring></argsstring>
+        <name>EFirmwareVersionReceived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="304" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a362c423aa519dcfca35b6dae26c3a997" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; const int &gt;</type>
+        <definition>ofEvent&lt;const int&gt; ofArduino::EInitialized</definition>
+        <argsstring></argsstring>
+        <name>EInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="307" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a2b95d5bf39e800f5c57ef9cb32c21e98" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; const string &gt;</type>
+        <definition>ofEvent&lt;const string&gt; ofArduino::EStringReceived</definition>
+        <argsstring></argsstring>
+        <name>EStringReceived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="311" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_arduino_1aff9d0d6b6bd92143a205b1e770c805f5" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofArduino::_initialized</definition>
+        <argsstring></argsstring>
+        <name>_initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="336" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1ab492a5558cca3f440e9592bcbdde4609" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_serial" kindref="compound">ofSerial</ref></type>
+        <definition>ofSerial ofArduino::_port</definition>
+        <argsstring></argsstring>
+        <name>_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="353" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a1998e90ce22b81c0a51a4199d34714a3" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_portStatus</definition>
+        <argsstring></argsstring>
+        <name>_portStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="354" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a0e24e6fc40ed254125dd3730b6bf0398" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_analogHistoryLength</definition>
+        <argsstring></argsstring>
+        <name>_analogHistoryLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="357" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a30d75302eee4b8c20ca9ef342b59fd64" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_digitalHistoryLength</definition>
+        <argsstring></argsstring>
+        <name>_digitalHistoryLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="358" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a313f9b3f0f7263d08939020a7b4506bc" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_stringHistoryLength</definition>
+        <argsstring></argsstring>
+        <name>_stringHistoryLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="359" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1aed86ebecbd1ead7434900f9e5c97f5f2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_sysExHistoryLength</definition>
+        <argsstring></argsstring>
+        <name>_sysExHistoryLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="360" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a4b3906ceec41536ef9dfa29926f4c31b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_waitForData</definition>
+        <argsstring></argsstring>
+        <name>_waitForData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="363" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a67ca5defa15c42c44b8bb435430bc76d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_executeMultiByteCommand</definition>
+        <argsstring></argsstring>
+        <name>_executeMultiByteCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="364" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a1c273197e5668853062054e04c7c3a58" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_multiByteChannel</definition>
+        <argsstring></argsstring>
+        <name>_multiByteChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="365" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a93d5f4b065ec33d311421ae4dfb97a84" prot="protected" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char ofArduino::_storedInputData[FIRMATA_MAX_DATA_BYTES]</definition>
+        <argsstring>[FIRMATA_MAX_DATA_BYTES]</argsstring>
+        <name>_storedInputData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="368" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1aa5045c5647ba55fe2e5aa7fe86d4b123" prot="protected" static="no" mutable="no">
+        <type>vector&lt; unsigned char &gt;</type>
+        <definition>vector&lt;unsigned char&gt; ofArduino::_sysExData</definition>
+        <argsstring></argsstring>
+        <name>_sysExData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="369" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a2e2485449cbf774fe8c1496364b7f5c9" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_majorProtocolVersion</definition>
+        <argsstring></argsstring>
+        <name>_majorProtocolVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="370" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a47da6901d68a4767436d0acaf3bcbba8" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_minorProtocolVersion</definition>
+        <argsstring></argsstring>
+        <name>_minorProtocolVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="371" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1ad1555a6578ba9fa5618d9fc8aea3ffc8" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_majorFirmwareVersion</definition>
+        <argsstring></argsstring>
+        <name>_majorFirmwareVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="372" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a63529636712471e312fd8be056b62435" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_minorFirmwareVersion</definition>
+        <argsstring></argsstring>
+        <name>_minorFirmwareVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="373" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a37b173a380744fae16fa9609b0d943d2" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofArduino::_firmwareName</definition>
+        <argsstring></argsstring>
+        <name>_firmwareName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="374" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1af82008238cd1da0b9e9fdda5183c4b88" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_firmwareVersionSum</definition>
+        <argsstring></argsstring>
+        <name>_firmwareVersionSum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="377" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1adcd511519bf539e1239871f93e7a6766" prot="protected" static="no" mutable="no">
+        <type>list&lt; vector&lt; unsigned char &gt; &gt;</type>
+        <definition>list&lt;vector&lt;unsigned char&gt; &gt; ofArduino::_sysExHistory</definition>
+        <argsstring></argsstring>
+        <name>_sysExHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="379" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1abbbaa5177bc0d9db2f5f06b50153b30a" prot="protected" static="no" mutable="no">
+        <type>list&lt; string &gt;</type>
+        <definition>list&lt;string&gt; ofArduino::_stringHistory</definition>
+        <argsstring></argsstring>
+        <name>_stringHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="382" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a2708f7ba1026d5ae57f1b7a9d4379a89" prot="protected" static="no" mutable="no">
+        <type>list&lt; int &gt;</type>
+        <definition>list&lt;int&gt; ofArduino::_analogHistory[ARD_TOTAL_ANALOG_PINS]</definition>
+        <argsstring>[ARD_TOTAL_ANALOG_PINS]</argsstring>
+        <name>_analogHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="385" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a4e7ebcce0f5ab825d6d320ffc180ffb7" prot="protected" static="no" mutable="no">
+        <type>list&lt; int &gt;</type>
+        <definition>list&lt;int&gt; ofArduino::_digitalHistory[ARD_TOTAL_DIGITAL_PINS]</definition>
+        <argsstring>[ARD_TOTAL_DIGITAL_PINS]</argsstring>
+        <name>_digitalHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="388" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a94a674555852d21edeb12353636af263" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_digitalPinMode[ARD_TOTAL_DIGITAL_PINS]</definition>
+        <argsstring>[ARD_TOTAL_DIGITAL_PINS]</argsstring>
+        <name>_digitalPinMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="391" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a4f5ff1ff907e90848aba58c24437b023" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_digitalPinValue[ARD_TOTAL_DIGITAL_PINS]</definition>
+        <argsstring>[ARD_TOTAL_DIGITAL_PINS]</argsstring>
+        <name>_digitalPinValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="394" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a171b9a3db49021e6b4b83962cb0d1dc6" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_digitalPortValue[ARD_TOTAL_PORTS]</definition>
+        <argsstring>[ARD_TOTAL_PORTS]</argsstring>
+        <name>_digitalPortValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="397" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a10ff271e3a6e3561e8e073e06b7a5b40" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_digitalPortReporting[ARD_TOTAL_PORTS]</definition>
+        <argsstring>[ARD_TOTAL_PORTS]</argsstring>
+        <name>_digitalPortReporting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="400" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a5143efda2cea67a5441831b9b8ebbb38" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_digitalPinReporting[ARD_TOTAL_DIGITAL_PINS]</definition>
+        <argsstring>[ARD_TOTAL_DIGITAL_PINS]</argsstring>
+        <name>_digitalPinReporting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="403" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1ae5e8385829d3e33933a1e0cccf1b08b5" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_analogPinReporting[ARD_TOTAL_ANALOG_PINS]</definition>
+        <argsstring>[ARD_TOTAL_ANALOG_PINS]</argsstring>
+        <name>_analogPinReporting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="406" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="406" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a8025b1355d8c6bff2b0bd2ee44984b1c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofArduino::bUseDelay</definition>
+        <argsstring></argsstring>
+        <name>bUseDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="409" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a442a7428dce79e1f647544ad0297d64e" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofArduino::connected</definition>
+        <argsstring></argsstring>
+        <name>connected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="411" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1accfc89864a09cdce75bd28241a2d7833" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofArduino::connectTime</definition>
+        <argsstring></argsstring>
+        <name>connectTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="413" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_arduino_1a9e714f11a9cee3103dae053a3fec759f" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofArduino::_servoValue[ARD_TOTAL_DIGITAL_PINS]</definition>
+        <argsstring>[ARD_TOTAL_DIGITAL_PINS]</argsstring>
+        <name>_servoValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="415" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_arduino_1a0439de433dec757c82f6d689f519119f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofArduino::ofArduino</definition>
+        <argsstring>()</argsstring>
+        <name>ofArduino</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1acd4bd5b935f2322a40fb1a8ed0e65bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofArduino::~ofArduino</definition>
+        <argsstring>()</argsstring>
+        <name>~ofArduino</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a847c3befb0268b9152335c5f008cc685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofArduino::connect</definition>
+        <argsstring>(string device, int baud=57600)</argsstring>
+        <name>connect</name>
+        <param>
+          <type>string</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>baud</declname>
+          <defval>57600</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a69587fcfe215f0b99e53f2b4535bd578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::disconnect</definition>
+        <argsstring>()</argsstring>
+        <name>disconnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a0d8acf1858862241fd1be6b40bb1a835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofArduino::isArduinoReady</definition>
+        <argsstring>()</argsstring>
+        <name>isArduinoReady</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a4f259eac3be2aaa8eaa28d6eee0848cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::setUseDelay</definition>
+        <argsstring>(bool bDelay)</argsstring>
+        <name>setUseDelay</name>
+        <param>
+          <type>bool</type>
+          <declname>bDelay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a818fcb4aafc5884bbeadafc94f47a5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a2764e2b62399eb3e1a99f124a96b403b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofArduino::isInitialized</definition>
+        <argsstring>()</argsstring>
+        <name>isInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a0a2e930b6b3653f9772561288c5a84bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::setDigitalHistoryLength</definition>
+        <argsstring>(int length)</argsstring>
+        <name>setDigitalHistoryLength</name>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a165af1ccbd738b1a6e84d01bd27b19dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::setAnalogHistoryLength</definition>
+        <argsstring>(int length)</argsstring>
+        <name>setAnalogHistoryLength</name>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a2e6b6d209ca04915304a6102695b73f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::setStringHistoryLength</definition>
+        <argsstring>(int length)</argsstring>
+        <name>setStringHistoryLength</name>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a5313b03fc25d777b5ebd04523dc8558d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::setSysExHistoryLength</definition>
+        <argsstring>(int nSysEx)</argsstring>
+        <name>setSysExHistoryLength</name>
+        <param>
+          <type>int</type>
+          <declname>nSysEx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a4d10b5f6b578cf737062f55b6c7911cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendDigitalPinMode</definition>
+        <argsstring>(int pin, int mode)</argsstring>
+        <name>sendDigitalPinMode</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1ac5d795b2dd1f6ace4393a88472ffafdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendAnalogPinReporting</definition>
+        <argsstring>(int pin, int mode)</argsstring>
+        <name>sendAnalogPinReporting</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a0855c0591c824af227dee9fc5e32517a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendDigital</definition>
+        <argsstring>(int pin, int value, bool force=false)</argsstring>
+        <name>sendDigital</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1ae820e709e31b371655636037990bd2c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendPwm</definition>
+        <argsstring>(int pin, int value, bool force=false)</argsstring>
+        <name>sendPwm</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1aa131079fc8413009a2eb8783937f9e22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendSysEx</definition>
+        <argsstring>(int command, vector&lt; unsigned char &gt; data)</argsstring>
+        <name>sendSysEx</name>
+        <param>
+          <type>int</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>vector&lt; unsigned char &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a6703d959b50bda780a725bdc576dcec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendString</definition>
+        <argsstring>(string str)</argsstring>
+        <name>sendString</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a6daeb96480a3071d334f2f93be8d696a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendProtocolVersionRequest</definition>
+        <argsstring>()</argsstring>
+        <name>sendProtocolVersionRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a7dac7e912ca7e05c7d4bf153424986a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendFirmwareVersionRequest</definition>
+        <argsstring>()</argsstring>
+        <name>sendFirmwareVersionRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a4745cb42905ca2f4e9245cd3eb6fb81f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendReset</definition>
+        <argsstring>()</argsstring>
+        <name>sendReset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a16e7c4061e5e067f15a67d7ad78b006c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendSysExBegin</definition>
+        <argsstring>()</argsstring>
+        <name>sendSysExBegin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a615ea9dec9cf5bd6c75056a302b1883f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendSysExEnd</definition>
+        <argsstring>()</argsstring>
+        <name>sendSysExEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1aa8eebc9eb6383ab15ca792ed19b96174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendByte</definition>
+        <argsstring>(unsigned char byte)</argsstring>
+        <name>sendByte</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>byte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a0e2013fba373850646559671d6279766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendValueAsTwo7bitBytes</definition>
+        <argsstring>(int value)</argsstring>
+        <name>sendValueAsTwo7bitBytes</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1ab82dbac608973e717d87db3c9d1ad9af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getPwm</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>getPwm</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1add36302d65535b7d08a44b63305c1d31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getDigital</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>getDigital</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1abffaf4629be953e258c1a7e9c0116ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getAnalog</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>getAnalog</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a0dad185b23d871205494f3b5d0a005f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; unsigned char &gt;</type>
+        <definition>vector&lt;unsigned char&gt; ofArduino::getSysEx</definition>
+        <argsstring>()</argsstring>
+        <name>getSysEx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a9d5c874ecf1c077c87ba2de4c446f6c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofArduino::getString</definition>
+        <argsstring>()</argsstring>
+        <name>getString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a599ae1089e6c1a4ffb1e951540a8bd4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getMajorProtocolVersion</definition>
+        <argsstring>()</argsstring>
+        <name>getMajorProtocolVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1ae0739117f1d18534bc6ef11cc951c1ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getMinorProtocolVersion</definition>
+        <argsstring>()</argsstring>
+        <name>getMinorProtocolVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a92800365e79645b7cb13bf99d3acf826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getMajorFirmwareVersion</definition>
+        <argsstring>()</argsstring>
+        <name>getMajorFirmwareVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a2f6f2e0526dcf5b60093240f41467c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getMinorFirmwareVersion</definition>
+        <argsstring>()</argsstring>
+        <name>getMinorFirmwareVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1ae16e8b4bab784beb4b6197ae439ad042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofArduino::getFirmwareName</definition>
+        <argsstring>()</argsstring>
+        <name>getFirmwareName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a8a3b0f2c0bb7c6856ca492f4bb12b5b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>list&lt; int &gt; *</type>
+        <definition>list&lt;int&gt;* ofArduino::getDigitalHistory</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>getDigitalHistory</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a9c7cf2c6034d09c3932752428e7d5dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>list&lt; int &gt; *</type>
+        <definition>list&lt;int&gt;* ofArduino::getAnalogHistory</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>getAnalogHistory</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1ae04ac4bcf6dbcd06b8a278eb05458dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>list&lt; vector&lt; unsigned char &gt; &gt; *</type>
+        <definition>list&lt;vector&lt;unsigned char&gt; &gt;* ofArduino::getSysExHistory</definition>
+        <argsstring>()</argsstring>
+        <name>getSysExHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a3cf953060b63b7b7c61b6ab378b45ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>list&lt; string &gt; *</type>
+        <definition>list&lt;string&gt;* ofArduino::getStringHistory</definition>
+        <argsstring>()</argsstring>
+        <name>getStringHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a667fee1fa0f9af09119ae3f64754e41f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getDigitalPinMode</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>getDigitalPinMode</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1ac7c64a83fbc798e9f2e49db63923c8fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getAnalogPinReporting</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>getAnalogPinReporting</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a9274015efc67484e92cdf28cdb6753fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getValueFromTwo7bitBytes</definition>
+        <argsstring>(unsigned char lsb, unsigned char msb)</argsstring>
+        <name>getValueFromTwo7bitBytes</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>lsb</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>msb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a8a6da1cf5f44f4f98277ab1c8a752d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendServo</definition>
+        <argsstring>(int pin, int value, bool force=false)</argsstring>
+        <name>sendServo</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a1851a41d19a6540309624709d48a0396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendServoAttach</definition>
+        <argsstring>(int pin, int minPulse=544, int maxPulse=2400, int angle=180)</argsstring>
+        <name>sendServoAttach</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minPulse</declname>
+          <defval>544</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxPulse</declname>
+          <defval>2400</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>angle</declname>
+          <defval>180</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1abdd6327e98038047166c6f2548a8d256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendServoDetach</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>sendServoDetach</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1acce1efc957c62247f8a58c65031a0321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofArduino::getServo</definition>
+        <argsstring>(int pin)</argsstring>
+        <name>getServo</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="332"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_arduino_1af1d2d98921b11f6011bb22d736333e84" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendDigitalPinReporting</definition>
+        <argsstring>(int pin, int mode)</argsstring>
+        <name>sendDigitalPinReporting</name>
+        <param>
+          <type>int</type>
+          <declname>pin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1aae8a3f3df4a54d96014fa3d2c60ed7ec" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::sendDigitalPortReporting</definition>
+        <argsstring>(int port, int mode)</argsstring>
+        <name>sendDigitalPortReporting</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1acab5135a1f470d57238e0ee09d903717" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::processData</definition>
+        <argsstring>(unsigned char inputData)</argsstring>
+        <name>processData</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>inputData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1a62c95ad4e61039134a0f71835ca48be5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofArduino::processDigitalPort</definition>
+        <argsstring>(int port, unsigned char value)</argsstring>
+        <name>processDigitalPort</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_arduino_1afded039d0d7e8314793f963ab053be86" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofArduino::processSysExData</definition>
+        <argsstring>(vector&lt; unsigned char &gt; data)</argsstring>
+        <name>processSysExData</name>
+        <param>
+          <type>vector&lt; unsigned char &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="351"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class extend ofStandardFirmata and provides additional functionality like servo support through SysEx messages. use the OFstdFirmata for servo support... </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="44">
+        <label>ofSerial</label>
+        <link refid="classof_serial"/>
+      </node>
+      <node id="43">
+        <label>ofArduino</label>
+        <link refid="classof_arduino"/>
+        <childnode refid="44" relation="usage">
+          <edgelabel>_port</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" line="146" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofArduino.h" bodystart="146" bodyend="418"/>
+    <listofallmembers>
+      <member refid="classof_arduino_1a2708f7ba1026d5ae57f1b7a9d4379a89" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_analogHistory</name></member>
+      <member refid="classof_arduino_1a0e24e6fc40ed254125dd3730b6bf0398" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_analogHistoryLength</name></member>
+      <member refid="classof_arduino_1ae5e8385829d3e33933a1e0cccf1b08b5" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_analogPinReporting</name></member>
+      <member refid="classof_arduino_1a4e7ebcce0f5ab825d6d320ffc180ffb7" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_digitalHistory</name></member>
+      <member refid="classof_arduino_1a30d75302eee4b8c20ca9ef342b59fd64" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_digitalHistoryLength</name></member>
+      <member refid="classof_arduino_1a94a674555852d21edeb12353636af263" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_digitalPinMode</name></member>
+      <member refid="classof_arduino_1a5143efda2cea67a5441831b9b8ebbb38" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_digitalPinReporting</name></member>
+      <member refid="classof_arduino_1a4f5ff1ff907e90848aba58c24437b023" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_digitalPinValue</name></member>
+      <member refid="classof_arduino_1a10ff271e3a6e3561e8e073e06b7a5b40" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_digitalPortReporting</name></member>
+      <member refid="classof_arduino_1a171b9a3db49021e6b4b83962cb0d1dc6" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_digitalPortValue</name></member>
+      <member refid="classof_arduino_1a67ca5defa15c42c44b8bb435430bc76d" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_executeMultiByteCommand</name></member>
+      <member refid="classof_arduino_1a37b173a380744fae16fa9609b0d943d2" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_firmwareName</name></member>
+      <member refid="classof_arduino_1af82008238cd1da0b9e9fdda5183c4b88" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_firmwareVersionSum</name></member>
+      <member refid="classof_arduino_1aff9d0d6b6bd92143a205b1e770c805f5" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_initialized</name></member>
+      <member refid="classof_arduino_1ad1555a6578ba9fa5618d9fc8aea3ffc8" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_majorFirmwareVersion</name></member>
+      <member refid="classof_arduino_1a2e2485449cbf774fe8c1496364b7f5c9" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_majorProtocolVersion</name></member>
+      <member refid="classof_arduino_1a63529636712471e312fd8be056b62435" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_minorFirmwareVersion</name></member>
+      <member refid="classof_arduino_1a47da6901d68a4767436d0acaf3bcbba8" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_minorProtocolVersion</name></member>
+      <member refid="classof_arduino_1a1c273197e5668853062054e04c7c3a58" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_multiByteChannel</name></member>
+      <member refid="classof_arduino_1ab492a5558cca3f440e9592bcbdde4609" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_port</name></member>
+      <member refid="classof_arduino_1a1998e90ce22b81c0a51a4199d34714a3" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_portStatus</name></member>
+      <member refid="classof_arduino_1a9e714f11a9cee3103dae053a3fec759f" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_servoValue</name></member>
+      <member refid="classof_arduino_1a93d5f4b065ec33d311421ae4dfb97a84" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_storedInputData</name></member>
+      <member refid="classof_arduino_1abbbaa5177bc0d9db2f5f06b50153b30a" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_stringHistory</name></member>
+      <member refid="classof_arduino_1a313f9b3f0f7263d08939020a7b4506bc" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_stringHistoryLength</name></member>
+      <member refid="classof_arduino_1aa5045c5647ba55fe2e5aa7fe86d4b123" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_sysExData</name></member>
+      <member refid="classof_arduino_1adcd511519bf539e1239871f93e7a6766" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_sysExHistory</name></member>
+      <member refid="classof_arduino_1aed86ebecbd1ead7434900f9e5c97f5f2" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_sysExHistoryLength</name></member>
+      <member refid="classof_arduino_1a4b3906ceec41536ef9dfa29926f4c31b" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>_waitForData</name></member>
+      <member refid="classof_arduino_1a8025b1355d8c6bff2b0bd2ee44984b1c" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>bUseDelay</name></member>
+      <member refid="classof_arduino_1a847c3befb0268b9152335c5f008cc685" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>connect</name></member>
+      <member refid="classof_arduino_1a442a7428dce79e1f647544ad0297d64e" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>connected</name></member>
+      <member refid="classof_arduino_1accfc89864a09cdce75bd28241a2d7833" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>connectTime</name></member>
+      <member refid="classof_arduino_1a69587fcfe215f0b99e53f2b4535bd578" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>disconnect</name></member>
+      <member refid="classof_arduino_1afd8108a6ce53094cf87b7eb954e9cd64" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>EAnalogPinChanged</name></member>
+      <member refid="classof_arduino_1a4f767ce1bf2cff3ceda67a5fff6d9e84" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>EDigitalPinChanged</name></member>
+      <member refid="classof_arduino_1a3bb33d77bad1d29e9b2ec29199aa5b26" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>EFirmwareVersionReceived</name></member>
+      <member refid="classof_arduino_1a362c423aa519dcfca35b6dae26c3a997" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>EInitialized</name></member>
+      <member refid="classof_arduino_1a606b62604b4a3df98d8f2cfb8b89fe50" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>EProtocolVersionReceived</name></member>
+      <member refid="classof_arduino_1a2b95d5bf39e800f5c57ef9cb32c21e98" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>EStringReceived</name></member>
+      <member refid="classof_arduino_1a95e0ac5844f8c55b89dcd0ed6ed57467" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>ESysExReceived</name></member>
+      <member refid="classof_arduino_1abffaf4629be953e258c1a7e9c0116ead" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getAnalog</name></member>
+      <member refid="classof_arduino_1a9c7cf2c6034d09c3932752428e7d5dd3" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getAnalogHistory</name></member>
+      <member refid="classof_arduino_1ac7c64a83fbc798e9f2e49db63923c8fc" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getAnalogPinReporting</name></member>
+      <member refid="classof_arduino_1add36302d65535b7d08a44b63305c1d31" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getDigital</name></member>
+      <member refid="classof_arduino_1a8a3b0f2c0bb7c6856ca492f4bb12b5b0" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getDigitalHistory</name></member>
+      <member refid="classof_arduino_1a667fee1fa0f9af09119ae3f64754e41f" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getDigitalPinMode</name></member>
+      <member refid="classof_arduino_1ae16e8b4bab784beb4b6197ae439ad042" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getFirmwareName</name></member>
+      <member refid="classof_arduino_1a92800365e79645b7cb13bf99d3acf826" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getMajorFirmwareVersion</name></member>
+      <member refid="classof_arduino_1a599ae1089e6c1a4ffb1e951540a8bd4b" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getMajorProtocolVersion</name></member>
+      <member refid="classof_arduino_1a2f6f2e0526dcf5b60093240f41467c84" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getMinorFirmwareVersion</name></member>
+      <member refid="classof_arduino_1ae0739117f1d18534bc6ef11cc951c1ce" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getMinorProtocolVersion</name></member>
+      <member refid="classof_arduino_1ab82dbac608973e717d87db3c9d1ad9af" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getPwm</name></member>
+      <member refid="classof_arduino_1acce1efc957c62247f8a58c65031a0321" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getServo</name></member>
+      <member refid="classof_arduino_1a9d5c874ecf1c077c87ba2de4c446f6c2" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getString</name></member>
+      <member refid="classof_arduino_1a3cf953060b63b7b7c61b6ab378b45ce8" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getStringHistory</name></member>
+      <member refid="classof_arduino_1a0dad185b23d871205494f3b5d0a005f8" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getSysEx</name></member>
+      <member refid="classof_arduino_1ae04ac4bcf6dbcd06b8a278eb05458dd3" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getSysExHistory</name></member>
+      <member refid="classof_arduino_1a9274015efc67484e92cdf28cdb6753fc" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>getValueFromTwo7bitBytes</name></member>
+      <member refid="classof_arduino_1a0d8acf1858862241fd1be6b40bb1a835" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>isArduinoReady</name></member>
+      <member refid="classof_arduino_1a2764e2b62399eb3e1a99f124a96b403b" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>isInitialized</name></member>
+      <member refid="classof_arduino_1a0439de433dec757c82f6d689f519119f" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>ofArduino</name></member>
+      <member refid="classof_arduino_1acab5135a1f470d57238e0ee09d903717" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>processData</name></member>
+      <member refid="classof_arduino_1a62c95ad4e61039134a0f71835ca48be5" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>processDigitalPort</name></member>
+      <member refid="classof_arduino_1afded039d0d7e8314793f963ab053be86" prot="protected" virt="virtual"><scope>ofArduino</scope><name>processSysExData</name></member>
+      <member refid="classof_arduino_1ac5d795b2dd1f6ace4393a88472ffafdc" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendAnalogPinReporting</name></member>
+      <member refid="classof_arduino_1aa8eebc9eb6383ab15ca792ed19b96174" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendByte</name></member>
+      <member refid="classof_arduino_1a0855c0591c824af227dee9fc5e32517a" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendDigital</name></member>
+      <member refid="classof_arduino_1a4d10b5f6b578cf737062f55b6c7911cd" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendDigitalPinMode</name></member>
+      <member refid="classof_arduino_1af1d2d98921b11f6011bb22d736333e84" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>sendDigitalPinReporting</name></member>
+      <member refid="classof_arduino_1aae8a3f3df4a54d96014fa3d2c60ed7ec" prot="protected" virt="non-virtual"><scope>ofArduino</scope><name>sendDigitalPortReporting</name></member>
+      <member refid="classof_arduino_1a7dac7e912ca7e05c7d4bf153424986a9" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendFirmwareVersionRequest</name></member>
+      <member refid="classof_arduino_1a6daeb96480a3071d334f2f93be8d696a" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendProtocolVersionRequest</name></member>
+      <member refid="classof_arduino_1ae820e709e31b371655636037990bd2c1" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendPwm</name></member>
+      <member refid="classof_arduino_1a4745cb42905ca2f4e9245cd3eb6fb81f" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendReset</name></member>
+      <member refid="classof_arduino_1a8a6da1cf5f44f4f98277ab1c8a752d3c" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendServo</name></member>
+      <member refid="classof_arduino_1a1851a41d19a6540309624709d48a0396" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendServoAttach</name></member>
+      <member refid="classof_arduino_1abdd6327e98038047166c6f2548a8d256" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendServoDetach</name></member>
+      <member refid="classof_arduino_1a6703d959b50bda780a725bdc576dcec7" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendString</name></member>
+      <member refid="classof_arduino_1aa131079fc8413009a2eb8783937f9e22" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendSysEx</name></member>
+      <member refid="classof_arduino_1a16e7c4061e5e067f15a67d7ad78b006c" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendSysExBegin</name></member>
+      <member refid="classof_arduino_1a615ea9dec9cf5bd6c75056a302b1883f" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendSysExEnd</name></member>
+      <member refid="classof_arduino_1a0e2013fba373850646559671d6279766" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>sendValueAsTwo7bitBytes</name></member>
+      <member refid="classof_arduino_1a165af1ccbd738b1a6e84d01bd27b19dd" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>setAnalogHistoryLength</name></member>
+      <member refid="classof_arduino_1a0a2e930b6b3653f9772561288c5a84bd" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>setDigitalHistoryLength</name></member>
+      <member refid="classof_arduino_1a2e6b6d209ca04915304a6102695b73f2" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>setStringHistoryLength</name></member>
+      <member refid="classof_arduino_1a5313b03fc25d777b5ebd04523dc8558d" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>setSysExHistoryLength</name></member>
+      <member refid="classof_arduino_1a4f259eac3be2aaa8eaa28d6eee0848cf" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>setUseDelay</name></member>
+      <member refid="classof_arduino_1a818fcb4aafc5884bbeadafc94f47a5ed" prot="public" virt="non-virtual"><scope>ofArduino</scope><name>update</name></member>
+      <member refid="classof_arduino_1acd4bd5b935f2322a40fb1a8ed0e65bc2" prot="public" virt="virtual"><scope>ofArduino</scope><name>~ofArduino</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

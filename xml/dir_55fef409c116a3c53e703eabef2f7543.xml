@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_55fef409c116a3c53e703eabef2f7543" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/</compoundname>
+    <innerfile refid="of_base_types_8h">ofBaseTypes.h</innerfile>
+    <innerfile refid="of_color_8h">ofColor.h</innerfile>
+    <innerfile refid="of_point_8h">ofPoint.h</innerfile>
+    <innerfile refid="of_rectangle_8h">ofRectangle.h</innerfile>
+    <innerfile refid="of_types_8h">ofTypes.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/"/>
+  </compounddef>
+</doxygen>

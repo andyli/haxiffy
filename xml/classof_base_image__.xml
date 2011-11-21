@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_base_image__" kind="class" prot="public">
+    <compoundname>ofBaseImage_</compoundname>
+    <basecompoundref refid="classof_abstract_image" prot="public" virt="non-virtual">ofAbstractImage</basecompoundref>
+    <basecompoundref refid="classof_base_has_pixels__" prot="public" virt="non-virtual">ofBaseHasPixels_&lt; T &gt;</basecompoundref>
+    <includes refid="of_base_types_8h" local="no">ofBaseTypes.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_base_image___1acefe8669dd302f268bc8220d7d29fe28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofBaseImage_&lt; T &gt;::~ofBaseImage_</definition>
+        <argsstring>()</argsstring>
+        <name>~ofBaseImage_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="118" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="92">
+        <label>ofAbstractImage</label>
+        <link refid="classof_abstract_image"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="95">
+        <label>ofBaseHasPixels_&lt; T &gt;</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>ofBaseImage_&lt; T &gt;</label>
+        <link refid="classof_base_image__"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+      <node id="96">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="98">
+        <label>ofAbstractImage</label>
+        <link refid="classof_abstract_image"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="101">
+        <label>ofBaseHasPixels_&lt; T &gt;</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>ofBaseImage_&lt; T &gt;</label>
+        <link refid="classof_base_image__"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+      <node id="102">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="116" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="116" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classof_base_draws_1aa672814ee548835e571561863855262e" prot="public" virt="pure-virtual"><scope>ofBaseImage_</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a34e129056ed6238b2cc0b8b13cfab676" prot="public" virt="pure-virtual"><scope>ofBaseImage_</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a768768895b8cb95515094c958f9ec0f0" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a0ae112e1709647d6dd84d0787876cb8a" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1ac192eb9129a4548f64ed05c504c84b45" prot="public" virt="pure-virtual"><scope>ofBaseImage_</scope><name>getHeight</name></member>
+      <member refid="classof_base_has_pixels___1a680c5d134ff80d892abbe681fa5ce2e0" prot="public" virt="pure-virtual"><scope>ofBaseImage_</scope><name>getPixels</name></member>
+      <member refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45" prot="public" virt="pure-virtual"><scope>ofBaseImage_</scope><name>getPixelsRef</name></member>
+      <member refid="classof_base_has_texture_1ae0f27d5ca6d5a92ee3d9b3d6088745f6" prot="public" virt="pure-virtual"><scope>ofBaseImage_</scope><name>getTextureReference</name></member>
+      <member refid="classof_base_draws_1ab85c73ed90a60ab75453f1e9ca831a84" prot="public" virt="pure-virtual"><scope>ofBaseImage_</scope><name>getWidth</name></member>
+      <member refid="classof_base_draws_1a8e60af373caa636320b505ca07f274ae" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>resetAnchor</name></member>
+      <member refid="classof_base_draws_1a3cf9dd7a898b3503ac0509574eaaeff3" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>setAnchorPercent</name></member>
+      <member refid="classof_base_draws_1aefa6eaad3d976a6c1717105ea4443e56" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>setAnchorPoint</name></member>
+      <member refid="classof_base_has_texture_1a3d2529a36a39ad5277f3050459cc3c80" prot="public" virt="pure-virtual"><scope>ofBaseImage_</scope><name>setUseTexture</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_abstract_image_1a9b41e30e8e214c463a20363797c902dc" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>~ofAbstractImage</name></member>
+      <member refid="classof_base_draws_1af97993d6809a3a3bce934ce2d1fc3fc4" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>~ofBaseDraws</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_has_texture_1a45f59246be49ccf62aa090d928cd9096" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>~ofBaseHasTexture</name></member>
+      <member refid="classof_base_image___1acefe8669dd302f268bc8220d7d29fe28" prot="public" virt="virtual"><scope>ofBaseImage_</scope><name>~ofBaseImage_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

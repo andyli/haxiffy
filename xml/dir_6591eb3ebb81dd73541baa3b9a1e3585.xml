@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_6591eb3ebb81dd73541baa3b9a1e3585" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/</compoundname>
+    <innerdir refid="dir_7c5dbf9333622c59430b3b62689124ea">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/</innerdir>
+    <innerdir refid="dir_bdef36e03c5d9e92fe6d8f9dcdd4984a">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/</innerdir>
+    <innerdir refid="dir_a8a0756d91d8430dc152c90386491997">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/</innerdir>
+    <innerdir refid="dir_423fe50aa13effd0871c10080c5371e1">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/events/</innerdir>
+    <innerdir refid="dir_e775fa31d65da3fba05feb2e5c19181f">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/</innerdir>
+    <innerdir refid="dir_6fb9b679da80a64ec4633b53c22cb10f">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/</innerdir>
+    <innerdir refid="dir_dfa77f28f6c3ff69434793f593bfe808">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/</innerdir>
+    <innerdir refid="dir_6a73469fbe4010b4948e385e9a3ee6e5">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/</innerdir>
+    <innerdir refid="dir_55fef409c116a3c53e703eabef2f7543">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/</innerdir>
+    <innerdir refid="dir_588abb8166cc990ecb871db6d61335d3">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/</innerdir>
+    <innerdir refid="dir_f81b7c4839eb8c76ab209f4a7b200ff1">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/</innerdir>
+    <innerfile refid="of_main_8h">ofMain.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/"/>
+  </compounddef>
+</doxygen>

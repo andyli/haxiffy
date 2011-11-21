@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_7c5dbf9333622c59430b3b62689124ea" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/</compoundname>
+    <innerfile refid="of3d_utils_8h">of3dUtils.h</innerfile>
+    <innerfile refid="of_camera_8h">ofCamera.h</innerfile>
+    <innerfile refid="of_easy_cam_8h">ofEasyCam.h</innerfile>
+    <innerfile refid="of_mesh_8h">ofMesh.h</innerfile>
+    <innerfile refid="of_node_8h">ofNode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/"/>
+  </compounddef>
+</doxygen>

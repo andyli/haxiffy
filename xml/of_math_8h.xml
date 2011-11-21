@@ -1,0 +1,1049 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_math_8h" kind="file">
+    <compoundname>ofMath.h</compoundname>
+    <includes local="yes">ofPoint.h</includes>
+    <includes local="yes">ofConstants.h</includes>
+    <incdepgraph>
+      <node id="265">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="263">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h</label>
+        <link refid="ofMath.h"/>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+      </node>
+      <node id="264">
+        <label>ofPoint.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_math_8h_1a0e50654e98b730299945741b53853421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofNextPow2</definition>
+        <argsstring>(int a)</argsstring>
+        <name>ofNextPow2</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a0df526ceae8b4f80f169d6d3918540e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSeedRandom</definition>
+        <argsstring>()</argsstring>
+        <name>ofSeedRandom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a54f5c56b8cfc33bbc059aeb147d4bbef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSeedRandom</definition>
+        <argsstring>(int val)</argsstring>
+        <name>ofSeedRandom</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1ae93bfe2a2080f0e2a03df835e72c7521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofRandom</definition>
+        <argsstring>(float max)</argsstring>
+        <name>ofRandom</name>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a4f89011a70f981bab979cc82b9713f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofRandom</definition>
+        <argsstring>(float val0, float val1)</argsstring>
+        <name>ofRandom</name>
+        <param>
+          <type>float</type>
+          <declname>val0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1aea7a1685224b49b4949899d4b283af51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofRandomf</definition>
+        <argsstring>()</argsstring>
+        <name>ofRandomf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1ab701838d1aa2e4ad8f04bad401c21a0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofRandomuf</definition>
+        <argsstring>()</argsstring>
+        <name>ofRandomuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1aeda138c0500e2d10b0763e4c1ac1cc53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNormalize</definition>
+        <argsstring>(float value, float min, float max)</argsstring>
+        <name>ofNormalize</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1aed7db854914e53ba53ded1f9a4ff47da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofMap</definition>
+        <argsstring>(float value, float inputMin, float inputMax, float outputMin, float outputMax, bool clamp=false)</argsstring>
+        <name>ofMap</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inputMin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inputMax</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>outputMin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>outputMax</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>clamp</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a4b2fc21e53bfb8521923300b0d30afdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofClamp</definition>
+        <argsstring>(float value, float min, float max)</argsstring>
+        <name>ofClamp</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a851eb0ea11c2bfe151665de8e3c66561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofLerp</definition>
+        <argsstring>(float start, float stop, float amt)</argsstring>
+        <name>ofLerp</name>
+        <param>
+          <type>float</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stop</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1aa866e5d80a66299e18b89bf9f879b3f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofDist</definition>
+        <argsstring>(float x1, float y1, float x2, float y2)</argsstring>
+        <name>ofDist</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1acca6b68f9a67cbc302866c6b60f55899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofDistSquared</definition>
+        <argsstring>(float x1, float y1, float x2, float y2)</argsstring>
+        <name>ofDistSquared</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a7f39494418fc89efee2378ec2ac989f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofSign</definition>
+        <argsstring>(float n)</argsstring>
+        <name>ofSign</name>
+        <param>
+          <type>float</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1aa078cdd83eb6d3dd355897e7f15a2f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofInRange</definition>
+        <argsstring>(float t, float min, float max)</argsstring>
+        <name>ofInRange</name>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a7d02e72641780bca037f6c63f7b6e508" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofRadToDeg</definition>
+        <argsstring>(float radians)</argsstring>
+        <name>ofRadToDeg</name>
+        <param>
+          <type>float</type>
+          <declname>radians</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a70a120b33471d10ce0e755ee43c32b25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofDegToRad</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>ofDegToRad</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a3b9d058406f6fc2c2dc378057e789a60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofLerpDegrees</definition>
+        <argsstring>(float currentAngle, float targetAngle, float pct)</argsstring>
+        <name>ofLerpDegrees</name>
+        <param>
+          <type>float</type>
+          <declname>currentAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1ae1f8c65595c036c675cc390c2d90d166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofLerpRadians</definition>
+        <argsstring>(float currentAngle, float targetAngle, float pct)</argsstring>
+        <name>ofLerpRadians</name>
+        <param>
+          <type>float</type>
+          <declname>currentAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a9187e3d0572b394eb8f341ec88b575f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofAngleDifferenceDegrees</definition>
+        <argsstring>(float currentAngle, float targetAngle)</argsstring>
+        <name>ofAngleDifferenceDegrees</name>
+        <param>
+          <type>float</type>
+          <declname>currentAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a10ed9288cb91336033e7c3eeb159f604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofAngleDifferenceRadians</definition>
+        <argsstring>(float currentAngle, float targetAngle)</argsstring>
+        <name>ofAngleDifferenceRadians</name>
+        <param>
+          <type>float</type>
+          <declname>currentAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a535e06f6ceacbab6bf7eb1a171b0a71d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofAngleSumRadians</definition>
+        <argsstring>(float currentAngle, float targetAngle)</argsstring>
+        <name>ofAngleSumRadians</name>
+        <param>
+          <type>float</type>
+          <declname>currentAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a34be4c1bb0fedb406eb7dcfd7cf743bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofWrapRadians</definition>
+        <argsstring>(float angle, float from=-PI, float to=+PI)</argsstring>
+        <name>ofWrapRadians</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+          <defval>-PI</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+          <defval>+PI</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a33e3f2421ab89bc4ee00a0f67d09aa0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofWrapDegrees</definition>
+        <argsstring>(float angle, float from=-180, float to=+180)</argsstring>
+        <name>ofWrapDegrees</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+          <defval>-180</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+          <defval>+180</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a9a9226ad2046591bf4aa5d2707ebba2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofRandomWidth</definition>
+        <argsstring>()</argsstring>
+        <name>ofRandomWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1ac0e9ce331e6b98373845f16e778548df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofRandomHeight</definition>
+        <argsstring>()</argsstring>
+        <name>ofRandomHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a94cb5392d5d0a5ed7908c5fd31ae97d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNoise</definition>
+        <argsstring>(float x)</argsstring>
+        <name>ofNoise</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a21b4f1d491303ad4a36d892a2ab4f4be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNoise</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>ofNoise</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a9e780ac96e9ca3fc409b2e17b85c9e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNoise</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>ofNoise</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1ac27bf743a5ae09ec44fbf95969f031ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNoise</definition>
+        <argsstring>(float x, float y, float z, float w)</argsstring>
+        <name>ofNoise</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a16196baebc57f663f27f9aff40c518e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofSignedNoise</definition>
+        <argsstring>(float x)</argsstring>
+        <name>ofSignedNoise</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a7850c901fdde189ca52645017fa55c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofSignedNoise</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>ofSignedNoise</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a95e125e2fb6e73c3fcda31baebef2c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofSignedNoise</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>ofSignedNoise</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a29682c90a71c5931f30e855b35014b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofSignedNoise</definition>
+        <argsstring>(float x, float y, float z, float w)</argsstring>
+        <name>ofSignedNoise</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1ade445c844b18f82fdf311268eec5400c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofInsidePoly</definition>
+        <argsstring>(float x, float y, const vector&lt; ofPoint &gt; &amp;poly)</argsstring>
+        <name>ofInsidePoly</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>poly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1aafee3b18d9dccdfa85aa1b925a346029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofInsidePoly</definition>
+        <argsstring>(const ofPoint &amp;p, const vector&lt; ofPoint &gt; &amp;poly)</argsstring>
+        <name>ofInsidePoly</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>poly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1a6dc7132fb85eb90d7cf3194ad6c054cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLineSegmentIntersection</definition>
+        <argsstring>(ofPoint line1Start, ofPoint line1End, ofPoint line2Start, ofPoint line2End, ofPoint &amp;intersection)</argsstring>
+        <name>ofLineSegmentIntersection</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>line1Start</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>line1End</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>line2Start</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>line2End</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>intersection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1ae41684be82f712ce9afe52366c57f9a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofBezierPoint</definition>
+        <argsstring>(ofPoint a, ofPoint b, ofPoint c, ofPoint d, float t)</argsstring>
+        <name>ofBezierPoint</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1abb059119ae6349bbbde274ac2b1b5e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofCurvePoint</definition>
+        <argsstring>(ofPoint a, ofPoint b, ofPoint c, ofPoint d, float t)</argsstring>
+        <name>ofCurvePoint</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1af7ef7086c0cb61b4883a15873dd2b87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofBezierTangent</definition>
+        <argsstring>(ofPoint a, ofPoint b, ofPoint c, ofPoint d, float t)</argsstring>
+        <name>ofBezierTangent</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="of_math_8h_1ae12c7ac240f0bd70fb212c16a9022f0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofCurveTangent</definition>
+        <argsstring>(ofPoint a, ofPoint b, ofPoint c, ofPoint d, float t)</argsstring>
+        <name>ofCurveTangent</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h" line="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>notes:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>fast<sp/>things<sp/>look<sp/>here:<sp/>http://musicdsp.org/archive.php?classid=5#115</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>random<sp/>()<sp/>calls<sp/>are<sp/>based<sp/>on<sp/>misconceptions<sp/>described<sp/>here:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>http://www.azillionmonkeys.com/qed/random.html</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(Bad<sp/>advice<sp/>from<sp/>C.L.C.<sp/>FAQ)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>we<sp/>should<sp/>correct<sp/>this<sp/>--<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofPoint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a0e50654e98b730299945741b53853421" kindref="member">ofNextPow2</ref><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a<sp/>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a0df526ceae8b4f80f169d6d3918540e5" kindref="member">ofSeedRandom</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a0df526ceae8b4f80f169d6d3918540e5" kindref="member">ofSeedRandom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="of_math_8h_1ae93bfe2a2080f0e2a03df835e72c7521" kindref="member">ofRandom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max);<sp/></highlight><highlight class="comment">//<sp/>random<sp/>(0<sp/>-<sp/>max)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1ae93bfe2a2080f0e2a03df835e72c7521" kindref="member">ofRandom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val1);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>random<sp/>(x<sp/>-<sp/>y)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1aea7a1685224b49b4949899d4b283af51" kindref="member">ofRandomf</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>random<sp/>(-1<sp/>-<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1ab701838d1aa2e4ad8f04bad401c21a0a" kindref="member">ofRandomuf</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>random<sp/>(0<sp/>-<sp/>1)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1aeda138c0500e2d10b0763e4c1ac1cc53" kindref="member">ofNormalize</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1aed7db854914e53ba53ded1f9a4ff47da" kindref="member">ofMap</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inputMin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inputMax,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>outputMin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>outputMax,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>clamp<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a4b2fc21e53bfb8521923300b0d30afdb" kindref="member">ofClamp</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a851eb0ea11c2bfe151665de8e3c66561" kindref="member">ofLerp</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>stop,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>amt);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1aa866e5d80a66299e18b89bf9f879b3f5" kindref="member">ofDist</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1acca6b68f9a67cbc302866c6b60f55899" kindref="member">ofDistSquared</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a7f39494418fc89efee2378ec2ac989f8" kindref="member">ofSign</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1aa078cdd83eb6d3dd355897e7f15a2f33" kindref="member">ofInRange</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>max);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a7d02e72641780bca037f6c63f7b6e508" kindref="member">ofRadToDeg</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radians);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a70a120b33471d10ce0e755ee43c32b25" kindref="member">ofDegToRad</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>degrees);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a3b9d058406f6fc2c2dc378057e789a60" kindref="member">ofLerpDegrees</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>currentAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pct);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1ae1f8c65595c036c675cc390c2d90d166" kindref="member">ofLerpRadians</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>currentAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pct);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a9187e3d0572b394eb8f341ec88b575f4" kindref="member">ofAngleDifferenceDegrees</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>currentAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetAngle);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a10ed9288cb91336033e7c3eeb159f604" kindref="member">ofAngleDifferenceRadians</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>currentAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetAngle);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a535e06f6ceacbab6bf7eb1a171b0a71d" kindref="member">ofAngleSumRadians</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>currentAngle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetAngle);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a34be4c1bb0fedb406eb7dcfd7cf743bc" kindref="member">ofWrapRadians</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>from<sp/>=<sp/>-<ref refid="of_constants_8h_1a598a3330b3c21701223ee0ca14316eca" kindref="member">PI</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>to=+<ref refid="of_constants_8h_1a598a3330b3c21701223ee0ca14316eca" kindref="member">PI</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a33e3f2421ab89bc4ee00a0f67d09aa0a" kindref="member">ofWrapDegrees</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angle,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>from<sp/>=<sp/>-180,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>to=+180);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a9a9226ad2046591bf4aa5d2707ebba2f" kindref="member">ofRandomWidth</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1ac0e9ce331e6b98373845f16e778548df" kindref="member">ofRandomHeight</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//returns<sp/>noise<sp/>in<sp/>0.0<sp/>to<sp/>1.0<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a94cb5392d5d0a5ed7908c5fd31ae97d2" kindref="member">ofNoise</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a94cb5392d5d0a5ed7908c5fd31ae97d2" kindref="member">ofNoise</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a94cb5392d5d0a5ed7908c5fd31ae97d2" kindref="member">ofNoise</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a94cb5392d5d0a5ed7908c5fd31ae97d2" kindref="member">ofNoise</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//returns<sp/>noise<sp/>in<sp/>-1.0<sp/>to<sp/>1.0<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a16196baebc57f663f27f9aff40c518e3" kindref="member">ofSignedNoise</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a16196baebc57f663f27f9aff40c518e3" kindref="member">ofSignedNoise</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a16196baebc57f663f27f9aff40c518e3" kindref="member">ofSignedNoise</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a16196baebc57f663f27f9aff40c518e3" kindref="member">ofSignedNoise</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1ade445c844b18f82fdf311268eec5400c" kindref="member">ofInsidePoly</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;ofPoint&gt;<sp/>&amp;<sp/>poly);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1ade445c844b18f82fdf311268eec5400c" kindref="member">ofInsidePoly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;ofPoint&gt;<sp/>&amp;<sp/>poly);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1a6dc7132fb85eb90d7cf3194ad6c054cc" kindref="member">ofLineSegmentIntersection</ref>(<ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>line1Start,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>line1End,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>line2Start,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>line2End,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>intersection);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1ae41684be82f712ce9afe52366c57f9a0" kindref="member">ofBezierPoint</ref>(<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>a,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>b,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>c,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>d,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1abb059119ae6349bbbde274ac2b1b5e26" kindref="member">ofCurvePoint</ref>(<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>a,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>b,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>c,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>d,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1af7ef7086c0cb61b4883a15873dd2b87e" kindref="member">ofBezierTangent</ref>(<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>a,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>b,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>c,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>d,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_math_8h_1ae12c7ac240f0bd70fb212c16a9022f0d" kindref="member">ofCurveTangent</ref>(<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>a,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>b,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>c,<sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>d,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>t);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMath.h"/>
+  </compounddef>
+</doxygen>

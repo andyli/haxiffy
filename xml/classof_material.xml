@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_material" kind="class" prot="public">
+    <compoundname>ofMaterial</compoundname>
+    <includes refid="of_material_8h" local="no">ofMaterial.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_material_1a59dcc720be37c3d6b4dc99c8aa83704c" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::diffuse</definition>
+        <argsstring></argsstring>
+        <name>diffuse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="41" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1a46ac28a730baf3c7400bf18662099839" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::ambient</definition>
+        <argsstring></argsstring>
+        <name>ambient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="42" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1ae7050d3a670198e06b306ab88c3e4a59" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::specular</definition>
+        <argsstring></argsstring>
+        <name>specular</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="43" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1a2ae441cb97dd3826e0380f1449190681" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::emissive</definition>
+        <argsstring></argsstring>
+        <name>emissive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="44" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1a5e917a3c993909f0526f1d74fad9d762" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMaterial::shininess</definition>
+        <argsstring></argsstring>
+        <name>shininess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="45" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1aa77de9865b113826f828cf19e45fcd06" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::prev_diffuse</definition>
+        <argsstring></argsstring>
+        <name>prev_diffuse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="48" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1a5522bcdfa853725965876b287bf33e00" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::prev_ambient</definition>
+        <argsstring></argsstring>
+        <name>prev_ambient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="49" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1ab7b72914aeb2db78625e58900987ed48" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::prev_specular</definition>
+        <argsstring></argsstring>
+        <name>prev_specular</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="50" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1a63a96ac981420c9e056f880fc3ce5bb3" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::prev_emissive</definition>
+        <argsstring></argsstring>
+        <name>prev_emissive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="51" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_material_1a63738312168080e1b4006ad60dbbed3d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMaterial::prev_shininess</definition>
+        <argsstring></argsstring>
+        <name>prev_shininess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="52" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_material_1a836158031f0b3e24f06833f513197b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofMaterial::ofMaterial</definition>
+        <argsstring>()</argsstring>
+        <name>ofMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1acc3e3f6f1bd89c1d18fa2993795694bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMaterial::setColors</definition>
+        <argsstring>(ofFloatColor oDiffuse, ofFloatColor oAmbient, ofFloatColor oSpecular, ofFloatColor emissive)</argsstring>
+        <name>setColors</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+          <declname>oDiffuse</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+          <declname>oAmbient</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+          <declname>oSpecular</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+          <declname>emissive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a1916597b2a4107544e83803abdc96364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMaterial::setDiffuseColor</definition>
+        <argsstring>(ofFloatColor oDiffuse)</argsstring>
+        <name>setDiffuseColor</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+          <declname>oDiffuse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1ae7a2900d52b294eb7da2501201d6eb57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMaterial::setAmbientColor</definition>
+        <argsstring>(ofFloatColor oAmbient)</argsstring>
+        <name>setAmbientColor</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+          <declname>oAmbient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a29881de4785f72e8725d342a9e00db57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMaterial::setSpecularColor</definition>
+        <argsstring>(ofFloatColor oSpecular)</argsstring>
+        <name>setSpecularColor</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+          <declname>oSpecular</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a7c23e5215e6a6a473ce85b97e72d32d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMaterial::setEmissiveColor</definition>
+        <argsstring>(ofFloatColor oEmmisive)</argsstring>
+        <name>setEmissiveColor</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+          <declname>oEmmisive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1ad3208cb58a891c4524da923574668f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMaterial::setShininess</definition>
+        <argsstring>(float nShininess)</argsstring>
+        <name>setShininess</name>
+        <param>
+          <type>float</type>
+          <declname>nShininess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1aa4e8add9fb77a75a6fd079ee42aa1a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::getDiffuseColor</definition>
+        <argsstring>()</argsstring>
+        <name>getDiffuseColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a04bb61813039acb6e9d0d9fa71f34bb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::getAmbientColor</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a60c6885bb1daf29da3c07973d5d065d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::getSpecularColor</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a250ba78d554ca163023dcad20295d433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofMaterial::getEmissiveColor</definition>
+        <argsstring>()</argsstring>
+        <name>getEmissiveColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a7e5b3feec51113f102c1cdf61e69c4c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofMaterial::getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a934174089efec2dd1c84c12115c55a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofMaterial::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_material_1a65aa10e7bd5053f60e4013ba67c8a32d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofMaterial::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Material concept: &quot;Anything graphical applied to the polygons&quot;</para><para><simplesect kind="author"><para>Diederick Huijbers &lt;diederick[at]apollomedia[dot]nl&gt;</para></simplesect>
+<ref refid="" kindref="compound">material file spec: <ulink url="http://people.sc.fsu.edu/~jburkardt/data/mtl/mtl.html">http://people.sc.fsu.edu/~jburkardt/data/mtl/mtl.html</ulink>  Ogre3D <ulink url="http://www.ogre3d.org/docs/manual/manual_11.html#SEC14">http://www.ogre3d.org/docs/manual/manual_11.html#SEC14</ulink>  assim material <ulink url="http://assimp.sourceforge.net/lib_html/ai_material_8h.html#7dd415ff703a2cc53d1c22ddbbd7dde0">http://assimp.sourceforge.net/lib_html/ai_material_8h.html#7dd415ff703a2cc53d1c22ddbbd7dde0</ulink> </ref></para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="477">
+        <label>ofMaterial</label>
+        <link refid="classof_material"/>
+        <childnode refid="478" relation="usage">
+          <edgelabel>prev_diffuse</edgelabel>
+          <edgelabel>prev_emissive</edgelabel>
+          <edgelabel>prev_ambient</edgelabel>
+          <edgelabel>ambient</edgelabel>
+          <edgelabel>diffuse</edgelabel>
+          <edgelabel>prev_specular</edgelabel>
+          <edgelabel>emissive</edgelabel>
+          <edgelabel>specular</edgelabel>
+        </childnode>
+      </node>
+      <node id="478">
+        <label>ofColor_&lt; float &gt;</label>
+        <link refid="classof_color__"/>
+        <childnode refid="478" relation="usage">
+          <edgelabel>cyan</edgelabel>
+          <edgelabel>gray</edgelabel>
+          <edgelabel>white</edgelabel>
+          <edgelabel>yellow</edgelabel>
+          <edgelabel>magenta</edgelabel>
+          <edgelabel>black</edgelabel>
+          <edgelabel>blue</edgelabel>
+          <edgelabel>red</edgelabel>
+          <edgelabel>green</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" line="18" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofMaterial.h" bodystart="18" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classof_material_1a46ac28a730baf3c7400bf18662099839" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>ambient</name></member>
+      <member refid="classof_material_1a934174089efec2dd1c84c12115c55a39" prot="public" virt="virtual"><scope>ofMaterial</scope><name>begin</name></member>
+      <member refid="classof_material_1a59dcc720be37c3d6b4dc99c8aa83704c" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>diffuse</name></member>
+      <member refid="classof_material_1a2ae441cb97dd3826e0380f1449190681" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>emissive</name></member>
+      <member refid="classof_material_1a65aa10e7bd5053f60e4013ba67c8a32d" prot="public" virt="virtual"><scope>ofMaterial</scope><name>end</name></member>
+      <member refid="classof_material_1a04bb61813039acb6e9d0d9fa71f34bb2" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>getAmbientColor</name></member>
+      <member refid="classof_material_1aa4e8add9fb77a75a6fd079ee42aa1a70" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>getDiffuseColor</name></member>
+      <member refid="classof_material_1a250ba78d554ca163023dcad20295d433" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>getEmissiveColor</name></member>
+      <member refid="classof_material_1a7e5b3feec51113f102c1cdf61e69c4c9" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>getShininess</name></member>
+      <member refid="classof_material_1a60c6885bb1daf29da3c07973d5d065d2" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>getSpecularColor</name></member>
+      <member refid="classof_material_1a836158031f0b3e24f06833f513197b64" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>ofMaterial</name></member>
+      <member refid="classof_material_1a5522bcdfa853725965876b287bf33e00" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>prev_ambient</name></member>
+      <member refid="classof_material_1aa77de9865b113826f828cf19e45fcd06" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>prev_diffuse</name></member>
+      <member refid="classof_material_1a63a96ac981420c9e056f880fc3ce5bb3" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>prev_emissive</name></member>
+      <member refid="classof_material_1a63738312168080e1b4006ad60dbbed3d" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>prev_shininess</name></member>
+      <member refid="classof_material_1ab7b72914aeb2db78625e58900987ed48" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>prev_specular</name></member>
+      <member refid="classof_material_1ae7a2900d52b294eb7da2501201d6eb57" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>setAmbientColor</name></member>
+      <member refid="classof_material_1acc3e3f6f1bd89c1d18fa2993795694bb" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>setColors</name></member>
+      <member refid="classof_material_1a1916597b2a4107544e83803abdc96364" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>setDiffuseColor</name></member>
+      <member refid="classof_material_1a7c23e5215e6a6a473ce85b97e72d32d9" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>setEmissiveColor</name></member>
+      <member refid="classof_material_1ad3208cb58a891c4524da923574668f0e" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>setShininess</name></member>
+      <member refid="classof_material_1a29881de4785f72e8725d342a9e00db57" prot="public" virt="non-virtual"><scope>ofMaterial</scope><name>setSpecularColor</name></member>
+      <member refid="classof_material_1a5e917a3c993909f0526f1d74fad9d762" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>shininess</name></member>
+      <member refid="classof_material_1ae7050d3a670198e06b306ab88c3e4a59" prot="private" virt="non-virtual"><scope>ofMaterial</scope><name>specular</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

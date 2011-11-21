@@ -1,0 +1,625 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_camera" kind="class" prot="public">
+    <compoundname>ofCamera</compoundname>
+    <basecompoundref refid="classof_node" prot="public" virt="non-virtual">ofNode</basecompoundref>
+    <derivedcompoundref refid="classof_easy_cam" prot="public" virt="non-virtual">ofEasyCam</derivedcompoundref>
+    <includes refid="of_camera_8h" local="no">ofCamera.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_camera_1a741a221b952bd29fc717eda23565ee22" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofCamera::isOrtho</definition>
+        <argsstring></argsstring>
+        <name>isOrtho</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="63" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_camera_1a34bc96c4a0fce3ec78b33db6be83b4fb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofCamera::fov</definition>
+        <argsstring></argsstring>
+        <name>fov</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_camera_1ad11580161e4664656d26013f6638769c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofCamera::nearClip</definition>
+        <argsstring></argsstring>
+        <name>nearClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="65" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_camera_1a1af538e481519a184d4320cedd456fb9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofCamera::farClip</definition>
+        <argsstring></argsstring>
+        <name>farClip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="66" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_camera_1a960e80a1ae5ac42560a4b01c63b62e49" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofCamera::isActive</definition>
+        <argsstring></argsstring>
+        <name>isActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="67" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_camera_1adcee755769ecb290184efbda110d8450" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofCamera::hasStoredMatrices</definition>
+        <argsstring></argsstring>
+        <name>hasStoredMatrices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="69" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_camera_1a3f0ffac762a90bc39e57f5f3c1338755" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofCamera::matProjection</definition>
+        <argsstring></argsstring>
+        <name>matProjection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="70" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_camera_1afce4670f2b30b66f79f3dcd4fbbdeb09" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofCamera::matModelView</definition>
+        <argsstring></argsstring>
+        <name>matModelView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="71" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_camera_1ae5d2be13e2742b539209d540c39dcbfc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofCamera::bCacheMatrices</definition>
+        <argsstring></argsstring>
+        <name>bCacheMatrices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="73" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_camera_1abd30fe5920612bd673a7a7af7991fc4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofCamera::ofCamera</definition>
+        <argsstring>()</argsstring>
+        <name>ofCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1ac79f42fa863eb5ce703625800dee236c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCamera::setFov</definition>
+        <argsstring>(float f)</argsstring>
+        <name>setFov</name>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a4ed2f176b5dbdb65e1e452b847497086" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCamera::setNearClip</definition>
+        <argsstring>(float f)</argsstring>
+        <name>setNearClip</name>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1aef6f9ea9a776c0113900a75e54d05bb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCamera::setFarClip</definition>
+        <argsstring>(float f)</argsstring>
+        <name>setFarClip</name>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a3188281a0708f7ed030b0742ff2d3f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCamera::enableOrtho</definition>
+        <argsstring>()</argsstring>
+        <name>enableOrtho</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a8b9f8d32444f72544b3a05e6646fcdfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCamera::disableOrtho</definition>
+        <argsstring>()</argsstring>
+        <name>disableOrtho</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a64ecd6f32c55d31f8570e22a1597c29a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofCamera::getOrtho</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrtho</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a229cb35e80d84ce864e07d569116890e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofCamera::getImagePlaneDistance</definition>
+        <argsstring>(ofRectangle viewport=ofGetCurrentViewport()) const </argsstring>
+        <name>getImagePlaneDistance</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a42a2921f26c9f63103d417d5abf74f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofCamera::begin</definition>
+        <argsstring>(ofRectangle viewport=ofGetCurrentViewport())</argsstring>
+        <name>begin</name>
+        <reimplementedby refid="classof_easy_cam_1a69e29e71e34e9173f82543cc35ee1b3e">begin</reimplementedby>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1ab30f48c273646eac677a34be969710b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofCamera::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a9c64ce18d4ea06c77f23f6899bdb27c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCamera::cacheMatrices</definition>
+        <argsstring>(bool cache=true)</argsstring>
+        <name>cacheMatrices</name>
+        <param>
+          <type>bool</type>
+          <declname>cache</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a8d34598a9542ee39aad5f1fda7d86d18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofCamera::getProjectionMatrix</definition>
+        <argsstring>(ofRectangle viewport=ofGetCurrentViewport())</argsstring>
+        <name>getProjectionMatrix</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1ab1f75c923a80c3161ef3d3a0057e9524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofCamera::getModelViewMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>getModelViewMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a5f888bd16155c9a9088302a2a74907a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofCamera::getModelViewProjectionMatrix</definition>
+        <argsstring>(ofRectangle viewport=ofGetCurrentViewport())</argsstring>
+        <name>getModelViewProjectionMatrix</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1ab322e7d760b8ab3508af2362478d4dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofCamera::worldToScreen</definition>
+        <argsstring>(ofVec3f WorldXYZ, ofRectangle viewport=ofGetCurrentViewport())</argsstring>
+        <name>worldToScreen</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+          <declname>WorldXYZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a85a37e9c24c372b6824f4ada7612470e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofCamera::screenToWorld</definition>
+        <argsstring>(ofVec3f ScreenXYZ, ofRectangle viewport=ofGetCurrentViewport())</argsstring>
+        <name>screenToWorld</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+          <declname>ScreenXYZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1a124675ae7ad72e82c402ce7da7978a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofCamera::worldToCamera</definition>
+        <argsstring>(ofVec3f WorldXYZ, ofRectangle viewport=ofGetCurrentViewport())</argsstring>
+        <name>worldToCamera</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+          <declname>WorldXYZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_camera_1af3801bb3a2e303bc005b258670056f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofCamera::cameraToWorld</definition>
+        <argsstring>(ofVec3f CameraXYZ, ofRectangle viewport=ofGetCurrentViewport())</argsstring>
+        <name>cameraToWorld</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+          <declname>CameraXYZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval>ofGetCurrentViewport()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_camera_1a14be7a543e64f332e9f3106fce2b369f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCamera::calcClipPlanes</definition>
+        <argsstring>(ofRectangle viewport)</argsstring>
+        <name>calcClipPlanes</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="218">
+        <label>ofNode</label>
+        <link refid="classof_node"/>
+      </node>
+      <node id="219">
+        <label>ofEasyCam</label>
+        <link refid="classof_easy_cam"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>ofCamera</label>
+        <link refid="classof_camera"/>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="223">
+        <label>ofVec4f</label>
+        <link refid="classof_vec4f"/>
+      </node>
+      <node id="225">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="221">
+        <label>ofNode</label>
+        <link refid="classof_node"/>
+        <childnode refid="222" relation="usage">
+          <edgelabel>orientation</edgelabel>
+        </childnode>
+        <childnode refid="221" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+        <childnode refid="224" relation="usage">
+          <edgelabel>localTransformMatrix</edgelabel>
+        </childnode>
+        <childnode refid="225" relation="usage">
+          <edgelabel>scale</edgelabel>
+          <edgelabel>position</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+      </node>
+      <node id="222">
+        <label>ofQuaternion</label>
+        <link refid="classof_quaternion"/>
+        <childnode refid="223" relation="usage">
+          <edgelabel>_v</edgelabel>
+        </childnode>
+      </node>
+      <node id="220">
+        <label>ofCamera</label>
+        <link refid="classof_camera"/>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+        <childnode refid="224" relation="usage">
+          <edgelabel>matModelView</edgelabel>
+          <edgelabel>matProjection</edgelabel>
+        </childnode>
+      </node>
+      <node id="224">
+        <label>ofMatrix4x4</label>
+        <link refid="classof_matrix4x4"/>
+        <childnode refid="223" relation="usage">
+          <edgelabel>_mat</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="28" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classof_camera_1ae5d2be13e2742b539209d540c39dcbfc" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>bCacheMatrices</name></member>
+      <member refid="classof_camera_1a42a2921f26c9f63103d417d5abf74f0e" prot="public" virt="virtual"><scope>ofCamera</scope><name>begin</name></member>
+      <member refid="classof_node_1ad030cd8c55b9df3dbf2786347f62ad3b" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>boom</name></member>
+      <member refid="classof_camera_1a9c64ce18d4ea06c77f23f6899bdb27c9" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>cacheMatrices</name></member>
+      <member refid="classof_camera_1a14be7a543e64f332e9f3106fce2b369f" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>calcClipPlanes</name></member>
+      <member refid="classof_camera_1af3801bb3a2e303bc005b258670056f1f" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>cameraToWorld</name></member>
+      <member refid="classof_node_1abab3151dc3a440a630f5782eda3e3111" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>clearParent</name></member>
+      <member refid="classof_node_1a7619a7cabd3690c782ad10cc13093074" prot="protected" virt="non-virtual"><scope>ofCamera</scope><name>createMatrix</name></member>
+      <member refid="classof_node_1a82804cbe87f3bce8a5d2d2b89dce5e71" prot="public" virt="virtual"><scope>ofCamera</scope><name>customDraw</name></member>
+      <member refid="classof_camera_1a8b9f8d32444f72544b3a05e6646fcdfc" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>disableOrtho</name></member>
+      <member refid="classof_node_1a8ab940d4c166064c8b2e3b4ab237917c" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>dolly</name></member>
+      <member refid="classof_node_1a13c85ec24bc0244ee7e32be7a63f2561" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>draw</name></member>
+      <member refid="classof_camera_1a3188281a0708f7ed030b0742ff2d3f6d" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>enableOrtho</name></member>
+      <member refid="classof_camera_1ab30f48c273646eac677a34be969710b3" prot="public" virt="virtual"><scope>ofCamera</scope><name>end</name></member>
+      <member refid="classof_camera_1a1af538e481519a184d4320cedd456fb9" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>farClip</name></member>
+      <member refid="classof_camera_1a34bc96c4a0fce3ec78b33db6be83b4fb" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>fov</name></member>
+      <member refid="classof_node_1a427fce44ef9e64b50c223a42d057a700" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getGlobalOrientation</name></member>
+      <member refid="classof_node_1a4ad665eca93ee00d506d0c663d6dcddd" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getGlobalPosition</name></member>
+      <member refid="classof_node_1a78a98aca9e6d389ae4918ad9783f3bf7" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getGlobalTransformMatrix</name></member>
+      <member refid="classof_node_1a91b332c93dd0da7c289ffcc95ccc5a46" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getHeading</name></member>
+      <member refid="classof_camera_1a229cb35e80d84ce864e07d569116890e" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getImagePlaneDistance</name></member>
+      <member refid="classof_node_1a29a4cda17e24a56f5aa1933dea05af86" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getLocalTransformMatrix</name></member>
+      <member refid="classof_node_1a884d1b02034ac8822415bbb43ac4dd5f" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getLookAtDir</name></member>
+      <member refid="classof_camera_1ab1f75c923a80c3161ef3d3a0057e9524" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getModelViewMatrix</name></member>
+      <member refid="classof_camera_1a5f888bd16155c9a9088302a2a74907a1" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getModelViewProjectionMatrix</name></member>
+      <member refid="classof_node_1a105586cd87594a6ab0841e39f474e70e" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getOrientationEuler</name></member>
+      <member refid="classof_node_1ae8ca41c6f9eac9a64d7c19a6811f66b5" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getOrientationQuat</name></member>
+      <member refid="classof_camera_1a64ecd6f32c55d31f8570e22a1597c29a" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getOrtho</name></member>
+      <member refid="classof_node_1a96575a8e5ecdb143438f33c0583ccbd0" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getParent</name></member>
+      <member refid="classof_node_1a4f52fa48348f59307623c7a7bb4ef59f" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getPitch</name></member>
+      <member refid="classof_node_1a89350f61b536e5f64dc13682a6aee97d" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getPosition</name></member>
+      <member refid="classof_camera_1a8d34598a9542ee39aad5f1fda7d86d18" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getProjectionMatrix</name></member>
+      <member refid="classof_node_1a0336b1426c2bc493bc15a7093fb35b5a" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getRoll</name></member>
+      <member refid="classof_node_1a7dd2e9bbcc2c8ce02317892b40793a0f" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getScale</name></member>
+      <member refid="classof_node_1aaa10e7761bcbfc1c504c6312c52f833a" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getSideDir</name></member>
+      <member refid="classof_node_1ae24a97f7de20c48a5f75d82fb12577cf" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getUpDir</name></member>
+      <member refid="classof_node_1a819b96492b11250d5682e7853c5b753c" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getX</name></member>
+      <member refid="classof_node_1a75af589eae2b502216acad4668edf43b" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getXAxis</name></member>
+      <member refid="classof_node_1a1177cd7d07224c3690a4364684f1719f" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getY</name></member>
+      <member refid="classof_node_1a6bf67ed85db5017a37aba4e3262e914a" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getYAxis</name></member>
+      <member refid="classof_node_1aad7aed0da357927a7bfa1c5669fd9e64" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getZ</name></member>
+      <member refid="classof_node_1aecfc7c45671b9bb4757821e3a10dccb1" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>getZAxis</name></member>
+      <member refid="classof_camera_1adcee755769ecb290184efbda110d8450" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>hasStoredMatrices</name></member>
+      <member refid="classof_camera_1a960e80a1ae5ac42560a4b01c63b62e49" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>isActive</name></member>
+      <member refid="classof_camera_1a741a221b952bd29fc717eda23565ee22" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>isOrtho</name></member>
+      <member refid="classof_node_1a039b31630ea3fc3718da43e23ecd7ef3" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>lookAt</name></member>
+      <member refid="classof_node_1ae0314a8226b1d1acbe4ac0ca6c48ae37" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>lookAt</name></member>
+      <member refid="classof_camera_1afce4670f2b30b66f79f3dcd4fbbdeb09" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>matModelView</name></member>
+      <member refid="classof_camera_1a3f0ffac762a90bc39e57f5f3c1338755" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>matProjection</name></member>
+      <member refid="classof_node_1a89949bfa32613379f65466be7514032a" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>move</name></member>
+      <member refid="classof_node_1a2c9fe659a2f8a45336d5ec385e7442ac" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>move</name></member>
+      <member refid="classof_camera_1ad11580161e4664656d26013f6638769c" prot="private" virt="non-virtual"><scope>ofCamera</scope><name>nearClip</name></member>
+      <member refid="classof_camera_1abd30fe5920612bd673a7a7af7991fc4a" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>ofCamera</name></member>
+      <member refid="classof_node_1aa2b223ca1f8560ef193eb7bde666d758" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>ofNode</name></member>
+      <member refid="classof_node_1a423c1683913adf900cf8602b55361275" prot="protected" virt="virtual"><scope>ofCamera</scope><name>onOrientationChanged</name></member>
+      <member refid="classof_node_1aa31b92a732d3258f15c730ec8106273c" prot="protected" virt="virtual"><scope>ofCamera</scope><name>onPositionChanged</name></member>
+      <member refid="classof_node_1a8e851ac0a96a9348d85e365e1e7c71be" prot="protected" virt="virtual"><scope>ofCamera</scope><name>onScaleChanged</name></member>
+      <member refid="classof_node_1a2a0989e1ed10fcbfea932ea305f064c1" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>orbit</name></member>
+      <member refid="classof_node_1a8d0f25fffcba51783c5c9d53d87c4f82" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>orbit</name></member>
+      <member refid="classof_node_1ad8f671a39235404984fb84da35dd93ae" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>pan</name></member>
+      <member refid="classof_node_1a9fa60edff25434ada1671e837335fbdf" prot="protected" virt="non-virtual"><scope>ofCamera</scope><name>parent</name></member>
+      <member refid="classof_node_1ace344f081aa534670949ae9e03374626" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>resetTransform</name></member>
+      <member refid="classof_node_1a9d09e55a671dae12c64b18215f2cd08c" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>restoreTransformGL</name></member>
+      <member refid="classof_node_1a6eabc08d0e5ec0f8e7b6d2931531e400" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>roll</name></member>
+      <member refid="classof_node_1a1334bc48d4dbbc8d769ce42ee82fdf96" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>rotate</name></member>
+      <member refid="classof_node_1ae5d336038ea9a78223218183bbc446f0" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>rotate</name></member>
+      <member refid="classof_node_1a567e36b8f19965cb37b093283f7fcf09" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>rotate</name></member>
+      <member refid="classof_node_1a084b6a9cc56ae474be007ba4595c471d" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>rotateAround</name></member>
+      <member refid="classof_node_1a99683f424fc89553cfbdab53d52a1e7f" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>rotateAround</name></member>
+      <member refid="classof_camera_1a85a37e9c24c372b6824f4ada7612470e" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>screenToWorld</name></member>
+      <member refid="classof_camera_1aef6f9ea9a776c0113900a75e54d05bb9" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setFarClip</name></member>
+      <member refid="classof_camera_1ac79f42fa863eb5ce703625800dee236c" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setFov</name></member>
+      <member refid="classof_node_1ac888a4aabc97bdfa86114079dcdf4832" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setGlobalOrientation</name></member>
+      <member refid="classof_node_1a72d4e80f9e3cc5356860669be45076e7" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setGlobalPosition</name></member>
+      <member refid="classof_node_1a639c866edf3aac3192713dfcdbb2e992" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setGlobalPosition</name></member>
+      <member refid="classof_camera_1a4ed2f176b5dbdb65e1e452b847497086" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setNearClip</name></member>
+      <member refid="classof_node_1a732a883de750dcd157ba03a7a9432f57" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setOrientation</name></member>
+      <member refid="classof_node_1a7e7460d86348bc31837271fe30e74b89" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setOrientation</name></member>
+      <member refid="classof_node_1a17c41e855157cc8b896db24f8ba50201" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setParent</name></member>
+      <member refid="classof_node_1a6f5733da97701638ec9e089016d0381a" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setPosition</name></member>
+      <member refid="classof_node_1ae55d7884cc7193538fddd8071f533379" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setPosition</name></member>
+      <member refid="classof_node_1a29db49b22f24505ca352ad90a0d9ffd6" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setScale</name></member>
+      <member refid="classof_node_1a1edc7d654f34143e14a88423dce97c1d" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setScale</name></member>
+      <member refid="classof_node_1a0dc74f803d307c24e08b2e163295287b" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setScale</name></member>
+      <member refid="classof_node_1aee04a17c179cb45f7e03f8518be8d0ad" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>setTransformMatrix</name></member>
+      <member refid="classof_node_1a674ca0b1cb71f609fadf8dba79106a72" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>tilt</name></member>
+      <member refid="classof_node_1af5fc70fbfb7826ebca9ae9eaa7653db8" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>transformGL</name></member>
+      <member refid="classof_node_1a61fcc8f30420847847f62873a47cca8a" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>truck</name></member>
+      <member refid="classof_camera_1a124675ae7ad72e82c402ce7da7978a31" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>worldToCamera</name></member>
+      <member refid="classof_camera_1ab322e7d760b8ab3508af2362478d4dd6" prot="public" virt="non-virtual"><scope>ofCamera</scope><name>worldToScreen</name></member>
+      <member refid="classof_node_1ad0f916a28a08c95064e89bdc5131b923" prot="public" virt="virtual"><scope>ofCamera</scope><name>~ofNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_serial" kind="class" prot="public">
+    <compoundname>ofSerial</compoundname>
+    <includes refid="of_serial_8h" local="no">ofSerial.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_serial_1a109d2200b30e5add4db295c0879530fc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofSerial::bVerbose</definition>
+        <argsstring></argsstring>
+        <name>bVerbose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="55" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_serial_1a90744b65810b6783313f8feaf2a41b7f" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofSerial::deviceType</definition>
+        <argsstring></argsstring>
+        <name>deviceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="63" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_serial_1ac2919b36fd0eeedb7569c5462d820436" prot="protected" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_serial_device_info" kindref="compound">ofSerialDeviceInfo</ref> &gt;</type>
+        <definition>vector&lt;ofSerialDeviceInfo&gt; ofSerial::devices</definition>
+        <argsstring></argsstring>
+        <name>devices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_serial_1a59900244cb77fc5f0d41b2d58730a600" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofSerial::bHaveEnumeratedDevices</definition>
+        <argsstring></argsstring>
+        <name>bHaveEnumeratedDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="66" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_serial_1a1c33d51a87fb4aaaabb8551ca1f37e99" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofSerial::bInited</definition>
+        <argsstring></argsstring>
+        <name>bInited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="68" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_serial_1ad12e815bc9db088ce073e2ba629d8d85" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofSerial::fd</definition>
+        <argsstring></argsstring>
+        <name>fd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="81" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_serial_1a5595ce6d3541a1b2bc52d2977e5afd04" prot="protected" static="no" mutable="no">
+        <type>struct termios</type>
+        <definition>struct termios ofSerial::oldoptions</definition>
+        <argsstring></argsstring>
+        <name>oldoptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="82" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_serial_1ae6a6a1d5912cce9d4d7256b0ce4ba624" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofSerial::ofSerial</definition>
+        <argsstring>()</argsstring>
+        <name>ofSerial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1a85bd634adc0d12c4536355c554102eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofSerial::~ofSerial</definition>
+        <argsstring>()</argsstring>
+        <name>~ofSerial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1aba21737b03fbafd2bdf79e35e28477ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSerial::listDevices</definition>
+        <argsstring>()</argsstring>
+        <name>listDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1a2d611327c85655cf94b957bd62fc707f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSerial::enumerateDevices</definition>
+        <argsstring>()</argsstring>
+        <name>enumerateDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1aeacd7f3e24a3dd12f73e998f01c6fa78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="classof_serial_device_info" kindref="compound">ofSerialDeviceInfo</ref> &gt;</type>
+        <definition>vector&lt;ofSerialDeviceInfo&gt; ofSerial::getDeviceList</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1afa99cb132edd66f81456bcc273050d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSerial::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1a78e4db149824ed686a0135ca95f4c5e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofSerial::setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1a37ca92dbb34b23d8600db8bdb6a7e24a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofSerial::setup</definition>
+        <argsstring>(string portName, int baudrate)</argsstring>
+        <name>setup</name>
+        <param>
+          <type>string</type>
+          <declname>portName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>baudrate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1a62dd07d5be97bb9ae2a1eb11a7a4d513" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofSerial::setup</definition>
+        <argsstring>(int deviceNumber, int baudrate)</argsstring>
+        <name>setup</name>
+        <param>
+          <type>int</type>
+          <declname>deviceNumber</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>baudrate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1ad81fa0fda972ef28778e9e016f2ad24a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofSerial::readBytes</definition>
+        <argsstring>(unsigned char *buffer, int length)</argsstring>
+        <name>readBytes</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1aba92e180e606f798070f4c04bb9e7a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofSerial::writeBytes</definition>
+        <argsstring>(unsigned char *buffer, int length)</argsstring>
+        <name>writeBytes</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1aacce7088833acbe9b0825b2cab14eea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofSerial::writeByte</definition>
+        <argsstring>(unsigned char singleByte)</argsstring>
+        <name>writeByte</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>singleByte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1aa368e0f97f7c0c4f6542d94091740e5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofSerial::readByte</definition>
+        <argsstring>()</argsstring>
+        <name>readByte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1ab42518349fd4cfc963c8412c55419ea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSerial::flush</definition>
+        <argsstring>(bool flushIn=true, bool flushOut=true)</argsstring>
+        <name>flush</name>
+        <param>
+          <type>bool</type>
+          <declname>flushIn</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flushOut</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1ab0b70837b7a0ffc7f71d4ae381857c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofSerial::available</definition>
+        <argsstring>()</argsstring>
+        <name>available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1a082ecb9268694059d511274c3730f196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSerial::drain</definition>
+        <argsstring>()</argsstring>
+        <name>drain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_serial_1a9a94768c24eb2d51615c8461cb4a614e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSerial::setVerbose</definition>
+        <argsstring>(bool bLoudmouth)</argsstring>
+        <name>setVerbose</name>
+        <param>
+          <type>bool</type>
+          <declname>bLoudmouth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="56" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_serial_1a1ae9d9cef457da76cb16eff973d0b3fa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSerial::buildDeviceList</definition>
+        <argsstring>()</argsstring>
+        <name>buildDeviceList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" line="27" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/communication/ofSerial.h" bodystart="27" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classof_serial_1ab0b70837b7a0ffc7f71d4ae381857c41" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>available</name></member>
+      <member refid="classof_serial_1a59900244cb77fc5f0d41b2d58730a600" prot="protected" virt="non-virtual"><scope>ofSerial</scope><name>bHaveEnumeratedDevices</name></member>
+      <member refid="classof_serial_1a1c33d51a87fb4aaaabb8551ca1f37e99" prot="protected" virt="non-virtual"><scope>ofSerial</scope><name>bInited</name></member>
+      <member refid="classof_serial_1a1ae9d9cef457da76cb16eff973d0b3fa" prot="protected" virt="non-virtual"><scope>ofSerial</scope><name>buildDeviceList</name></member>
+      <member refid="classof_serial_1a109d2200b30e5add4db295c0879530fc" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>bVerbose</name></member>
+      <member refid="classof_serial_1afa99cb132edd66f81456bcc273050d8e" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>close</name></member>
+      <member refid="classof_serial_1ac2919b36fd0eeedb7569c5462d820436" prot="protected" virt="non-virtual"><scope>ofSerial</scope><name>devices</name></member>
+      <member refid="classof_serial_1a90744b65810b6783313f8feaf2a41b7f" prot="protected" virt="non-virtual"><scope>ofSerial</scope><name>deviceType</name></member>
+      <member refid="classof_serial_1a082ecb9268694059d511274c3730f196" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>drain</name></member>
+      <member refid="classof_serial_1a2d611327c85655cf94b957bd62fc707f" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>enumerateDevices</name></member>
+      <member refid="classof_serial_1ad12e815bc9db088ce073e2ba629d8d85" prot="protected" virt="non-virtual"><scope>ofSerial</scope><name>fd</name></member>
+      <member refid="classof_serial_1ab42518349fd4cfc963c8412c55419ea8" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>flush</name></member>
+      <member refid="classof_serial_1aeacd7f3e24a3dd12f73e998f01c6fa78" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>getDeviceList</name></member>
+      <member refid="classof_serial_1aba21737b03fbafd2bdf79e35e28477ec" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>listDevices</name></member>
+      <member refid="classof_serial_1ae6a6a1d5912cce9d4d7256b0ce4ba624" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>ofSerial</name></member>
+      <member refid="classof_serial_1a5595ce6d3541a1b2bc52d2977e5afd04" prot="protected" virt="non-virtual"><scope>ofSerial</scope><name>oldoptions</name></member>
+      <member refid="classof_serial_1aa368e0f97f7c0c4f6542d94091740e5f" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>readByte</name></member>
+      <member refid="classof_serial_1ad81fa0fda972ef28778e9e016f2ad24a" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>readBytes</name></member>
+      <member refid="classof_serial_1a78e4db149824ed686a0135ca95f4c5e6" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>setup</name></member>
+      <member refid="classof_serial_1a37ca92dbb34b23d8600db8bdb6a7e24a" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>setup</name></member>
+      <member refid="classof_serial_1a62dd07d5be97bb9ae2a1eb11a7a4d513" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>setup</name></member>
+      <member refid="classof_serial_1a9a94768c24eb2d51615c8461cb4a614e" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>setVerbose</name></member>
+      <member refid="classof_serial_1aacce7088833acbe9b0825b2cab14eea4" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>writeByte</name></member>
+      <member refid="classof_serial_1aba92e180e606f798070f4c04bb9e7a8b" prot="public" virt="non-virtual"><scope>ofSerial</scope><name>writeBytes</name></member>
+      <member refid="classof_serial_1a85bd634adc0d12c4536355c554102eba" prot="public" virt="virtual"><scope>ofSerial</scope><name>~ofSerial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

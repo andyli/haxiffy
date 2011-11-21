@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_sound_stream_8h" kind="file">
+    <compoundname>ofSoundStream.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includes local="yes">ofBaseTypes.h</includes>
+    <includes local="yes">ofBaseApp.h</includes>
+    <includes local="yes">ofTypes.h</includes>
+    <includes refid="of_base_sound_stream_8h" local="yes">ofBaseSoundStream.h</includes>
+    <incdepgraph>
+      <node id="407">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="409">
+        <label>ofBaseApp.h</label>
+      </node>
+      <node id="406">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h</label>
+        <link refid="ofSoundStream.h"/>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="408">
+        <label>ofBaseTypes.h</label>
+      </node>
+      <node id="411">
+        <label>ofBaseSoundStream.h</label>
+        <link refid="of_base_sound_stream_8h"/>
+        <childnode refid="407" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classof_sound_stream" prot="public">ofSoundStream</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_sound_stream_8h_1a0c047cfad99e651f9338b2c01e9f35af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSoundStreamSetup</definition>
+        <argsstring>(int nOutputChannels, int nInputChannels, ofBaseApp *appPtr=NULL)</argsstring>
+        <name>ofSoundStreamSetup</name>
+        <param>
+          <type>int</type>
+          <declname>nOutputChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nInputChannels</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> *</type>
+          <declname>appPtr</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="of_sound_stream_8h_1a0c56700090e9220c980d65388cd32945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSoundStreamSetup</definition>
+        <argsstring>(int nOutputChannels, int nInputChannels, int sampleRate, int bufferSize, int nBuffers)</argsstring>
+        <name>ofSoundStreamSetup</name>
+        <param>
+          <type>int</type>
+          <declname>nOutputChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nInputChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sampleRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBuffers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="of_sound_stream_8h_1a9cc30053279fe0af218834ef4f5216b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSoundStreamSetup</definition>
+        <argsstring>(int nOutputChannels, int nInputChannels, ofBaseApp *appPtr, int sampleRate, int bufferSize, int nBuffers)</argsstring>
+        <name>ofSoundStreamSetup</name>
+        <param>
+          <type>int</type>
+          <declname>nOutputChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nInputChannels</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> *</type>
+          <declname>appPtr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sampleRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBuffers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="of_sound_stream_8h_1a05edcafc2e2e3c07edaf1dd27a470126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSoundStreamStop</definition>
+        <argsstring>()</argsstring>
+        <name>ofSoundStreamStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="of_sound_stream_8h_1ad4409c1a9f960b81d21c2488e6bb2658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSoundStreamStart</definition>
+        <argsstring>()</argsstring>
+        <name>ofSoundStreamStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="of_sound_stream_8h_1a9681a1a9df2e76b3bc178e509aebeb2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSoundStreamClose</definition>
+        <argsstring>()</argsstring>
+        <name>ofSoundStreamClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="of_sound_stream_8h_1a57a71c540e5af2821bdffe33377565b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSoundStreamListDevices</definition>
+        <argsstring>()</argsstring>
+        <name>ofSoundStreamListDevices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h" line="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofBaseTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofBaseApp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_base_sound_stream_8h" kindref="compound">ofBaseSoundStream.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>OF_SOUNDSTREAM_RTAUDIO</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#include<sp/>&quot;<ref refid="of_rt_audio_sound_stream_8h" kindref="compound">ofRtAudioSoundStream.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>OF_SOUND_STREAM_TYPE<sp/>ofRtAudioSoundStream</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#elif<sp/>defined(OF_SOUNDSTREAM_PORTAUDIO)</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#include<sp/>&quot;<ref refid="of_p_a_sound_stream_8h" kindref="compound">ofPASoundStream.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>OF_SOUND_STREAM_TYPE<sp/>ofPASoundStream</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#elif<sp/>defined(OF_SOUNDSTREAM_ANDROID)</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#include<sp/>&quot;ofxAndroidSoundStream.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>OF_SOUND_STREAM_TYPE<sp/>ofxAndroidSoundStream</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>iphone<sp/>soundstream</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_sound_stream_8h_1a0c047cfad99e651f9338b2c01e9f35af" kindref="member">ofSoundStreamSetup</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nOutputChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nInputChannels,<sp/><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref><sp/>*<sp/>appPtr<sp/>=<sp/>NULL);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_sound_stream_8h_1a0c047cfad99e651f9338b2c01e9f35af" kindref="member">ofSoundStreamSetup</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nOutputChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nInputChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sampleRate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBuffers);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_sound_stream_8h_1a0c047cfad99e651f9338b2c01e9f35af" kindref="member">ofSoundStreamSetup</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nOutputChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nInputChannels,<sp/><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref><sp/>*<sp/>appPtr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sampleRate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBuffers);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_sound_stream_8h_1a05edcafc2e2e3c07edaf1dd27a470126" kindref="member">ofSoundStreamStop</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_sound_stream_8h_1ad4409c1a9f960b81d21c2488e6bb2658" kindref="member">ofSoundStreamStart</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_sound_stream_8h_1a9681a1a9df2e76b3bc178e509aebeb2f" kindref="member">ofSoundStreamClose</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_sound_stream_8h_1a57a71c540e5af2821bdffe33377565b3" kindref="member">ofSoundStreamListDevices</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classof_sound_stream" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_sound_stream" kindref="compound">ofSoundStream</ref>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_sound_stream_1a47d4cd0827208597bf116bc6fd954c00" kindref="member">ofSoundStream</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1ade40e7f39e918994c45c82121e341643" kindref="member">setSoundStream</ref>(<ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseSoundStream&gt;</ref><sp/>soundStreamPtr);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseSoundStream&gt;</ref><sp/><ref refid="classof_sound_stream_1a41ea0efcdd3b21a025f9eaf7f06d4f12" kindref="member">getSoundStream</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1a7ab3c672a357f1b30c8e3b7db6b14fc7" kindref="member">listDevices</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1ab09bcde2d99186c5a5889da94fec5132" kindref="member">setDeviceID</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deviceID);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1a6e608c0034437ca0152a1fce35c11af5" kindref="member">setup</ref>(<ref refid="classof_base_app" kindref="compound">ofBaseApp</ref><sp/>*<sp/>app,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>outChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sampleRate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBuffers);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1ab7d7d424d44688489a79e53e3faf1131" kindref="member">setInput</ref>(<ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref><sp/>*<sp/>soundInput);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1abc67980c13dd58bd16c3362c1d87c28e" kindref="member">setOutput</ref>(<ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref><sp/>*<sp/>soundOutput);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1a6e608c0034437ca0152a1fce35c11af5" kindref="member">setup</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>outChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inChannels,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sampleRate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bufferSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBuffers);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1a841b585c0c00e5c1475462cee9c86455" kindref="member">start</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1a7204c4627954ec04e6fd86d3f1b05400" kindref="member">stop</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1a4e7be9ede60368dcbe1566b6a7c7937b" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classof_sound_stream_1a7987c9afe679fa80a41a622338e181d5" kindref="member">getTickCount</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54" refid="classof_sound_stream_1a9360c4f62ffaafa2f0eede977b57ad05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseSoundStream&gt;</ref><sp/><ref refid="classof_sound_stream_1a9360c4f62ffaafa2f0eede977b57ad05" kindref="member">soundStream</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofSoundStream.h"/>
+  </compounddef>
+</doxygen>

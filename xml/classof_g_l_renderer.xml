@@ -1,0 +1,1880 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_g_l_renderer" kind="class" prot="public">
+    <compoundname>ofGLRenderer</compoundname>
+    <basecompoundref refid="classof_base_renderer" prot="public" virt="non-virtual">ofBaseRenderer</basecompoundref>
+    <includes refid="of_g_l_renderer_8h" local="no">ofGLRenderer.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_g_l_renderer_1aa94df3dccd31533952bd54873e193e5b" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+        <definition>ofHandednessType ofGLRenderer::coordHandedness</definition>
+        <argsstring></argsstring>
+        <name>coordHandedness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="118" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1a07b9376060c3b1c991f0fda6523d0da8" prot="private" static="no" mutable="no">
+        <type>stack&lt; <ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> &gt;</type>
+        <definition>stack&lt;ofRectangle&gt; ofGLRenderer::viewportHistory</definition>
+        <argsstring></argsstring>
+        <name>viewportHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="119" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1adda9031bf0f649579e1075226e3caea8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGLRenderer::bBackgroundAuto</definition>
+        <argsstring></argsstring>
+        <name>bBackgroundAuto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="120" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1adc7d3391e3555f84b03e76d272bb2492" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofGLRenderer::bgColor</definition>
+        <argsstring></argsstring>
+        <name>bgColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="121" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1a5e18e69fc7f169123b9bee30fbde8251" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt;</type>
+        <definition>vector&lt;ofPoint&gt; ofGLRenderer::linePoints</definition>
+        <argsstring></argsstring>
+        <name>linePoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="123" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1a3a100973f4f427f1040e98c44a320cfe" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt;</type>
+        <definition>vector&lt;ofPoint&gt; ofGLRenderer::rectPoints</definition>
+        <argsstring></argsstring>
+        <name>rectPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="124" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1aecb5ea1f5d081793e6fa25276c54d0ff" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt;</type>
+        <definition>vector&lt;ofPoint&gt; ofGLRenderer::triPoints</definition>
+        <argsstring></argsstring>
+        <name>triPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="125" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1a0472eff4322cb95605f820f5905ea787" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt;</type>
+        <definition>vector&lt;ofPoint&gt; ofGLRenderer::circlePoints</definition>
+        <argsstring></argsstring>
+        <name>circlePoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="126" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1a03612e9a5fd626ff819bc89734a46fc2" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_polyline" kindref="compound">ofPolyline</ref></type>
+        <definition>ofPolyline ofGLRenderer::circlePolyline</definition>
+        <argsstring></argsstring>
+        <name>circlePolyline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="127" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1a68368920e3369cb52bfa33cb4b74d1d2" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+        <definition>ofFillFlag ofGLRenderer::bFilled</definition>
+        <argsstring></argsstring>
+        <name>bFilled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="129" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1a6e84790b222c45e796ba6be7797a806e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGLRenderer::bSmoothHinted</definition>
+        <argsstring></argsstring>
+        <name>bSmoothHinted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="130" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1ad4a22f443fa86279711c57558cd9b13b" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+        <definition>ofRectMode ofGLRenderer::rectMode</definition>
+        <argsstring></argsstring>
+        <name>rectMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="131" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_g_l_renderer_1a81286a1399867e11be7190af82969ee9" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_fbo" kindref="compound">ofFbo</ref> *</type>
+        <definition>ofFbo* ofGLRenderer::currentFbo</definition>
+        <argsstring></argsstring>
+        <name>currentFbo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="133" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_g_l_renderer_1ae86a2c8a19a32135bc8755c08e216635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofGLRenderer::ofGLRenderer</definition>
+        <argsstring>(bool useShapeColor=true)</argsstring>
+        <name>ofGLRenderer</name>
+        <param>
+          <type>bool</type>
+          <declname>useShapeColor</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a520344a2ff88ed2bb300d7f23001a009" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofGLRenderer::~ofGLRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>~ofGLRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="13" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1af72653efa2cac57a844a14b40bdb9953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string ofGLRenderer::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classof_base_renderer_1ab04ab2e86135ab95b598f2d9c4929e7c">getType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="15" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a0db952bab2734147be923a8d7a6ca686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setCurrentFBO</definition>
+        <argsstring>(ofFbo *fbo)</argsstring>
+        <name>setCurrentFBO</name>
+        <param>
+          <type><ref refid="classof_fbo" kindref="compound">ofFbo</ref> *</type>
+          <declname>fbo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ac705138071cc37cb5faeb84cee284c9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_renderer_1af6c14407372ca754bb0112bb0874dc57">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a52febb41276200e7cc2838d422ac9723" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::draw</definition>
+        <argsstring>(ofMesh &amp;vertexData)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1abeae3ce1e1502182cbeadb5414b2ecc4">draw</reimplements>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a70631aeaf6942ab6f77e9032ae968bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::draw</definition>
+        <argsstring>(ofMesh &amp;vertexData, ofPolyRenderMode renderType)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a5e8c241c15e444b3929cd5f9ebdb2ef3">draw</reimplements>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <param>
+          <type><ref refid="of_g_l_utils_8h_1a6beb1fbbaba728909c78cda1eadfe28e" kindref="member">ofPolyRenderMode</ref></type>
+          <declname>renderType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1aeab57aee5cec6c0fc78328b23863ed72" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::draw</definition>
+        <argsstring>(ofPolyline &amp;poly)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1afffdfdf65fd5f954a2a4e264e6bc40a8">draw</reimplements>
+        <param>
+          <type><ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &amp;</type>
+          <declname>poly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a7394f6dabb7e5e580e5a285c4ca0981a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::draw</definition>
+        <argsstring>(ofPath &amp;path)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1ab5a8c1dfe33aa369a84860087dd286ec">draw</reimplements>
+        <param>
+          <type><ref refid="classof_path" kindref="compound">ofPath</ref> &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ad5ac4d18c1f2b484a6ab090efcd79898" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::draw</definition>
+        <argsstring>(vector&lt; ofPoint &gt; &amp;vertexData, ofPrimitiveMode drawMode)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a7884c6bf187a0449ce3aa8052c6056bc">draw</reimplements>
+        <param>
+          <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <param>
+          <type><ref refid="of_g_l_utils_8h_1a0f71f0b23a18629a446952d5540e16e0" kindref="member">ofPrimitiveMode</ref></type>
+          <declname>drawMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ae755aa817497737429b6529d84e72b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::draw</definition>
+        <argsstring>(ofImage &amp;image, float x, float y, float z, float w, float h)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a118fa7be01237fd13d01a7db526e67e0">draw</reimplements>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a3b5f78eec7d621fb82333ac4f71dc11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::draw</definition>
+        <argsstring>(ofFloatImage &amp;image, float x, float y, float z, float w, float h)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a118fa7be01237fd13d01a7db526e67e0">draw</reimplements>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofFloatImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a70672040ca0425070749debbed743231" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::draw</definition>
+        <argsstring>(ofShortImage &amp;image, float x, float y, float z, float w, float h)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a118fa7be01237fd13d01a7db526e67e0">draw</reimplements>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofShortImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a34735b5f64b528d0f3103a5e37103b45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofGLRenderer::rendersPathPrimitives</definition>
+        <argsstring>()</argsstring>
+        <name>rendersPathPrimitives</name>
+        <reimplements refid="classof_base_renderer_1abdaece01a43329ef7769615cd958b7e2">rendersPathPrimitives</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="30" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a3535890cc1da307bc78f8f9fe60d3294" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::pushView</definition>
+        <argsstring>()</argsstring>
+        <name>pushView</name>
+        <reimplements refid="classof_base_renderer_1a83e111dfc4a5743f3bdc263e92b99682">pushView</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a5f69c59637e3a9a3677a7985ac878a44" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::popView</definition>
+        <argsstring>()</argsstring>
+        <name>popView</name>
+        <reimplements refid="classof_base_renderer_1a99baa88fbb41b5cb57ae7d6a670738c1">popView</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a57e0572c4ce586b77b1157b9f6ff0f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::viewport</definition>
+        <argsstring>(ofRectangle viewport)</argsstring>
+        <name>viewport</name>
+        <reimplements refid="classof_base_renderer_1affffe2c452504484f1e465f16893ab60">viewport</reimplements>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a159bb20585175eddb16c70aa262f392f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::viewport</definition>
+        <argsstring>(float x=0, float y=0, float width=0, float height=0, bool invertY=true)</argsstring>
+        <name>viewport</name>
+        <reimplements refid="classof_base_renderer_1a300bd8d884c882a8ae3539367b0b7d9f">viewport</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invertY</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1acab0c2098ecfa732191427c79a82dc6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setupScreenPerspective</definition>
+        <argsstring>(float width=0, float height=0, ofOrientation orientation=OF_ORIENTATION_UNKNOWN, bool vFlip=true, float fov=60, float nearDist=0, float farDist=0)</argsstring>
+        <name>setupScreenPerspective</name>
+        <reimplements refid="classof_base_renderer_1aefb98b7ef168dbff450f6054bf00d406">setupScreenPerspective</reimplements>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+          <defval>OF_ORIENTATION_UNKNOWN</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vFlip</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fov</declname>
+          <defval>60</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearDist</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDist</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a9ecded5227f06ddb41067436e7f27aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setupScreenOrtho</definition>
+        <argsstring>(float width=0, float height=0, ofOrientation orientation=OF_ORIENTATION_UNKNOWN, bool vFlip=true, float nearDist=-1, float farDist=1)</argsstring>
+        <name>setupScreenOrtho</name>
+        <reimplements refid="classof_base_renderer_1a78aaffdae40b4a568b011171fc8556a6">setupScreenOrtho</reimplements>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+          <defval>OF_ORIENTATION_UNKNOWN</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vFlip</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearDist</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDist</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a6ff4e1eabd8bb996b5fad20b2a981c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+        <definition>ofRectangle ofGLRenderer::getCurrentViewport</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentViewport</name>
+        <reimplements refid="classof_base_renderer_1a6c143444f0f3db1982a19abbc4777ddd">getCurrentViewport</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a9337400ddb5654e03f8ad1a699a48a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofGLRenderer::getViewportWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getViewportWidth</name>
+        <reimplements refid="classof_base_renderer_1abef959b1493b9f2ccaaf00a8a75d6218">getViewportWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1af34194f145634e2c2cfd345a74601141" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofGLRenderer::getViewportHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getViewportHeight</name>
+        <reimplements refid="classof_base_renderer_1a026faf25094809f38e9d0eab2f7e09b6">getViewportHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a499821d78e1e602de2f3ed3e31cecb8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setCoordHandedness</definition>
+        <argsstring>(ofHandednessType handedness)</argsstring>
+        <name>setCoordHandedness</name>
+        <reimplements refid="classof_base_renderer_1ab4501fbf80f10f4e6ab0d59a890e4117">setCoordHandedness</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+          <declname>handedness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a64f0ffe7d2b90f1501046f5e3a4a23a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+        <definition>ofHandednessType ofGLRenderer::getCoordHandedness</definition>
+        <argsstring>()</argsstring>
+        <name>getCoordHandedness</name>
+        <reimplements refid="classof_base_renderer_1ad5f5cd75cc18f229a9fdae1e352b71db">getCoordHandedness</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1aa2afddce8fd2a7870521dd47c74af7a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::pushMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>pushMatrix</name>
+        <reimplements refid="classof_base_renderer_1ab8023e1f20a975cbc5480afb30d78fec">pushMatrix</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a64d1caafe69099c73802652d39588e91" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::popMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>popMatrix</name>
+        <reimplements refid="classof_base_renderer_1a33dfe4df5c05128e0a965b1e445ceb9a">popMatrix</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ac90b43ad1bb96f962af54f1488e0e819" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::translate</definition>
+        <argsstring>(float x, float y, float z=0)</argsstring>
+        <name>translate</name>
+        <reimplements refid="classof_base_renderer_1a82bc2ad661caabd15f9ee7888a6e3f61">translate</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a2e254123fc865dd0a8f5133f185b2cbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::translate</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>translate</name>
+        <reimplements refid="classof_base_renderer_1abc3f59783eb1af3d88e94e026652d0f3">translate</reimplements>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a771ba672fc6434ea280a520d133f632c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::scale</definition>
+        <argsstring>(float xAmnt, float yAmnt, float zAmnt=1)</argsstring>
+        <name>scale</name>
+        <reimplements refid="classof_base_renderer_1aa90785f6afb56f9918523630319394f8">scale</reimplements>
+        <param>
+          <type>float</type>
+          <declname>xAmnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yAmnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>zAmnt</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1aa19c82279ab5c15c8c1c8dd79e18cf4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::rotate</definition>
+        <argsstring>(float degrees, float vecX, float vecY, float vecZ)</argsstring>
+        <name>rotate</name>
+        <reimplements refid="classof_base_renderer_1a76ea3a2691d80054696f41aa7069231d">rotate</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ad97908ef76005fca1fdca3149e3811ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::rotateX</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateX</name>
+        <reimplements refid="classof_base_renderer_1ac52830fd0ab1f62f9f094f9501156fee">rotateX</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1abc15d35c7c3dcdcd8292905dc4c68555" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::rotateY</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateY</name>
+        <reimplements refid="classof_base_renderer_1aeb7dd85ce856ff9510f6bc0159ba834f">rotateY</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1adaddc8874c08b0e488c4fcbac4f828af" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::rotateZ</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateZ</name>
+        <reimplements refid="classof_base_renderer_1acbbd19ddcddf7118d8e5d501054a706e">rotateZ</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a81627f064a499681e8321b5ee8294a6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::rotate</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotate</name>
+        <reimplements refid="classof_base_renderer_1a54e1bb2754e2764301ac3a7de13852d1">rotate</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a788951d57f6e4698b5e28d1684b771df" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setupGraphicDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>setupGraphicDefaults</name>
+        <reimplements refid="classof_base_renderer_1a50d914b89a78f918e419771a1ce4a72e">setupGraphicDefaults</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1adf20fa42653709d3c6ae3aa53ae67974" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>setupScreen</name>
+        <reimplements refid="classof_base_renderer_1a951bece465546fee7e5006bd76338bfa">setupScreen</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1aacc0eab2f3d4e7e6f2ac425b209ef596" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setFillMode</definition>
+        <argsstring>(ofFillFlag fill)</argsstring>
+        <name>setFillMode</name>
+        <reimplements refid="classof_base_renderer_1a15a68864b7da753c0415490942caa76b">setFillMode</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+          <declname>fill</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ae4233d9a6b431f1a50118bc84ec414d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+        <definition>ofFillFlag ofGLRenderer::getFillMode</definition>
+        <argsstring>()</argsstring>
+        <name>getFillMode</name>
+        <reimplements refid="classof_base_renderer_1aa840440af71eb0663f2943d48df00360">getFillMode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a14db8e625b98e472a945bd6e9f7e19dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setCircleResolution</definition>
+        <argsstring>(int res)</argsstring>
+        <name>setCircleResolution</name>
+        <reimplements refid="classof_base_renderer_1a0f3753a0264093b42a0a5b59359f5142">setCircleResolution</reimplements>
+        <param>
+          <type>int</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ad5915cd57862078d500efaf5c7b994ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setRectMode</definition>
+        <argsstring>(ofRectMode mode)</argsstring>
+        <name>setRectMode</name>
+        <reimplements refid="classof_base_renderer_1a86513eb142468db2878d815068a7de2a">setRectMode</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a8e63b294df9f4a84f636b85c00469d3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+        <definition>ofRectMode ofGLRenderer::getRectMode</definition>
+        <argsstring>()</argsstring>
+        <name>getRectMode</name>
+        <reimplements refid="classof_base_renderer_1a08d589a5bdf58fe755604a3500b5d171">getRectMode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a2d6b8de48998dc05fc023a3ca41ef135" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <reimplements refid="classof_base_renderer_1a46a712e72a2f812fdc7c6658ee29498d">setLineWidth</reimplements>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1af6f3b671e6583114c5589551915c3f94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setLineSmoothing</definition>
+        <argsstring>(bool smooth)</argsstring>
+        <name>setLineSmoothing</name>
+        <reimplements refid="classof_base_renderer_1acbe8f9dee80dce144e225a60bbb1db77">setLineSmoothing</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>smooth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ac3c8e88601fd476d18f6165f8c7d318d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setBlendMode</definition>
+        <argsstring>(ofBlendMode blendMode)</argsstring>
+        <name>setBlendMode</name>
+        <reimplements refid="classof_base_renderer_1a0bb776a37e221e48da6f75cffc6a3e8c">setBlendMode</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a5f194ae56b1bc61651eac7184ed1ad2e" kindref="member">ofBlendMode</ref></type>
+          <declname>blendMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a8b1c399f9c11276a73c588aaf9f1a1de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::enablePointSprites</definition>
+        <argsstring>()</argsstring>
+        <name>enablePointSprites</name>
+        <reimplements refid="classof_base_renderer_1aba08589f0c9394a6a2fa89aa1b746a21">enablePointSprites</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ab8d4e88def4a5b3300aab3ba1c597bc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::disablePointSprites</definition>
+        <argsstring>()</argsstring>
+        <name>disablePointSprites</name>
+        <reimplements refid="classof_base_renderer_1a78fd8d5b4864b1277fa8208c09d5d242">disablePointSprites</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a3c1195df49743118619b099a77a74a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setColor</definition>
+        <argsstring>(int r, int g, int b)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1aafcf166497ea6350488fe5ac22343c64">setColor</reimplements>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a0ea5b1baf697b63cd38d9fe0e5ea88e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setColor</definition>
+        <argsstring>(int r, int g, int b, int a)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1aca859e4f28406b9b03b57accf389e8fe">setColor</reimplements>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a43aca9fa8ea97a1db2ed51c7b2b6b0d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setColor</definition>
+        <argsstring>(const ofColor &amp;color)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1ad45d77dabb749bb04893dbf8b3a3d5d3">setColor</reimplements>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a7d256ba490f4afc6214ca203b2750473" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setColor</definition>
+        <argsstring>(const ofColor &amp;color, int _a)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1a144f56ef69c3a28a40a8c30a06c469cb">setColor</reimplements>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a12b306db178d8ddca5c3976dbbd7956e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setColor</definition>
+        <argsstring>(int gray)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1ac22b7825c00c182594db54c0a936c274">setColor</reimplements>
+        <param>
+          <type>int</type>
+          <declname>gray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1accb8795036878d6c3b32283b31746967" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setHexColor</definition>
+        <argsstring>(int hexColor)</argsstring>
+        <name>setHexColor</name>
+        <reimplements refid="classof_base_renderer_1a411219c793abfeca94161ad87ddaf8b6">setHexColor</reimplements>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ad93bea380ca109a60fa694786c3d53ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref> &amp;</type>
+        <definition>ofFloatColor&amp; ofGLRenderer::getBgColor</definition>
+        <argsstring>()</argsstring>
+        <name>getBgColor</name>
+        <reimplements refid="classof_base_renderer_1a91919a80d1e097a2d2dd2cb9ffde155c">getBgColor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a7948f0d1aa7c192b4cee992001536cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofGLRenderer::bClearBg</definition>
+        <argsstring>()</argsstring>
+        <name>bClearBg</name>
+        <reimplements refid="classof_base_renderer_1a0c1c62df5a7009190f48450b34a7be77">bClearBg</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1af6e5ccbc3e326071a7cbc6ddc3396e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::background</definition>
+        <argsstring>(const ofColor &amp;c)</argsstring>
+        <name>background</name>
+        <reimplements refid="classof_base_renderer_1af31f3e9845f0e035ccbb9dd7be266760">background</reimplements>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a85246318e21a701975ffb7653821c175" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::background</definition>
+        <argsstring>(float brightness)</argsstring>
+        <name>background</name>
+        <reimplements refid="classof_base_renderer_1a1b4b07382a01d12f6a96d8d7c0ee2e36">background</reimplements>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a0ca4eb5d33451a27bc3ecfbee06ba8d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::background</definition>
+        <argsstring>(int hexColor, float _a=255.0f)</argsstring>
+        <name>background</name>
+        <reimplements refid="classof_base_renderer_1aa55a1c7d2b1f3512c08ceb6d2c5ffb28">background</reimplements>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+          <defval>255.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ad83bc3d1980ee121f9936b0ef20207b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::background</definition>
+        <argsstring>(int r, int g, int b, int a=255)</argsstring>
+        <name>background</name>
+        <reimplements refid="classof_base_renderer_1a7c5bf8bb1e77ae1417da8b6e3c176437">background</reimplements>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+          <defval>255</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a0e52b69e3652bf1d72e1736b52cc9886" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::setBackgroundAuto</definition>
+        <argsstring>(bool bManual)</argsstring>
+        <name>setBackgroundAuto</name>
+        <reimplements refid="classof_base_renderer_1a35571f83c83743277a5f3c602cb12745">setBackgroundAuto</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bManual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ab0a453bcb7d5c7b981a0c01104735633" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::clear</definition>
+        <argsstring>(float r, float g, float b, float a=0)</argsstring>
+        <name>clear</name>
+        <reimplements refid="classof_base_renderer_1a60e947dd7b5dcabe05fd9f73a070630d">clear</reimplements>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a6b2b684fb5450c3ac1e196927dac6be9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::clear</definition>
+        <argsstring>(float brightness, float a=0)</argsstring>
+        <name>clear</name>
+        <reimplements refid="classof_base_renderer_1a74c432629b0ca9f3f2aabe4cd580b301">clear</reimplements>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a9c39e468eb9116eeb69ea41676fbe68e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::clearAlpha</definition>
+        <argsstring>()</argsstring>
+        <name>clearAlpha</name>
+        <reimplements refid="classof_base_renderer_1a36a81fdf10aeeef3f8e1279e34fd3d3e">clearAlpha</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1ad99745cf58b3d20fd4aa6a875f5b631c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::drawLine</definition>
+        <argsstring>(float x1, float y1, float z1, float x2, float y2, float z2)</argsstring>
+        <name>drawLine</name>
+        <reimplements refid="classof_base_renderer_1a88e533aef9bd60b8bbda790f9a9d67bf">drawLine</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a4641d1dad06be90318f95bd134bd8070" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::drawRectangle</definition>
+        <argsstring>(float x, float y, float z, float w, float h)</argsstring>
+        <name>drawRectangle</name>
+        <reimplements refid="classof_base_renderer_1a69581b0027e9c27b76acf1b947ace1a9">drawRectangle</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1aa6d9513ab328063dc0a13975ff0bf196" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::drawTriangle</definition>
+        <argsstring>(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3)</argsstring>
+        <name>drawTriangle</name>
+        <reimplements refid="classof_base_renderer_1aaf947850edf68e5a92da374d4347492d">drawTriangle</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a8995251bacac0eca21a1586794f99dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::drawCircle</definition>
+        <argsstring>(float x, float y, float z, float radius)</argsstring>
+        <name>drawCircle</name>
+        <reimplements refid="classof_base_renderer_1a9858e271b9a3e53c79a3e7b4b495ca93">drawCircle</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a38808615f4653987ca0cb206c727d800" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::drawEllipse</definition>
+        <argsstring>(float x, float y, float z, float width, float height)</argsstring>
+        <name>drawEllipse</name>
+        <reimplements refid="classof_base_renderer_1a71a1a82945587067107f6dbae14e95a6">drawEllipse</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1a6f724c04b47a855d528e489d68054678" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::drawString</definition>
+        <argsstring>(string text, float x, float y, float z, ofDrawBitmapMode mode)</argsstring>
+        <name>drawString</name>
+        <reimplements refid="classof_base_renderer_1a29897c32df48511a61d32a1bf8ae614a">drawString</reimplements>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a14966be842b99f71080a7444cebbc0b7" kindref="member">ofDrawBitmapMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_g_l_renderer_1a08b6b9f5336becc94b2e289543165973" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::startSmoothing</definition>
+        <argsstring>()</argsstring>
+        <name>startSmoothing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_g_l_renderer_1aade9ae1b5f0a2a671a9832913fe475e7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGLRenderer::endSmoothing</definition>
+        <argsstring>()</argsstring>
+        <name>endSmoothing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="280">
+        <label>ofBaseRenderer</label>
+        <link refid="classof_base_renderer"/>
+      </node>
+      <node id="279">
+        <label>ofGLRenderer</label>
+        <link refid="classof_g_l_renderer"/>
+        <childnode refid="280" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="283">
+        <label>ofFbo</label>
+        <link refid="classof_fbo"/>
+        <childnode refid="284" relation="public-inheritance">
+        </childnode>
+        <childnode refid="285" relation="public-inheritance">
+        </childnode>
+        <childnode refid="286" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="288">
+        <label>ofColor_&lt; float &gt;</label>
+        <link refid="classof_color__"/>
+        <childnode refid="288" relation="usage">
+          <edgelabel>cyan</edgelabel>
+          <edgelabel>gray</edgelabel>
+          <edgelabel>white</edgelabel>
+          <edgelabel>yellow</edgelabel>
+          <edgelabel>magenta</edgelabel>
+          <edgelabel>black</edgelabel>
+          <edgelabel>blue</edgelabel>
+          <edgelabel>red</edgelabel>
+          <edgelabel>green</edgelabel>
+        </childnode>
+      </node>
+      <node id="286">
+        <label>ofFbo::Settings</label>
+        <link refid="structof_fbo_1_1_settings"/>
+      </node>
+      <node id="282">
+        <label>ofBaseRenderer</label>
+        <link refid="classof_base_renderer"/>
+      </node>
+      <node id="287">
+        <label>ofPolyline</label>
+        <link refid="classof_polyline"/>
+      </node>
+      <node id="284">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="285">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+      <node id="281">
+        <label>ofGLRenderer</label>
+        <link refid="classof_g_l_renderer"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+        <childnode refid="283" relation="usage">
+          <edgelabel>currentFbo</edgelabel>
+        </childnode>
+        <childnode refid="287" relation="usage">
+          <edgelabel>circlePolyline</edgelabel>
+        </childnode>
+        <childnode refid="288" relation="usage">
+          <edgelabel>bgColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" line="10" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofGLRenderer.h" bodystart="10" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classof_g_l_renderer_1af6e5ccbc3e326071a7cbc6ddc3396e5e" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>background</name></member>
+      <member refid="classof_g_l_renderer_1a85246318e21a701975ffb7653821c175" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>background</name></member>
+      <member refid="classof_g_l_renderer_1a0ca4eb5d33451a27bc3ecfbee06ba8d4" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>background</name></member>
+      <member refid="classof_g_l_renderer_1ad83bc3d1980ee121f9936b0ef20207b1" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>background</name></member>
+      <member refid="classof_g_l_renderer_1adda9031bf0f649579e1075226e3caea8" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>bBackgroundAuto</name></member>
+      <member refid="classof_g_l_renderer_1a7948f0d1aa7c192b4cee992001536cb8" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>bClearBg</name></member>
+      <member refid="classof_g_l_renderer_1a68368920e3369cb52bfa33cb4b74d1d2" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>bFilled</name></member>
+      <member refid="classof_g_l_renderer_1adc7d3391e3555f84b03e76d272bb2492" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>bgColor</name></member>
+      <member refid="classof_g_l_renderer_1a6e84790b222c45e796ba6be7797a806e" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>bSmoothHinted</name></member>
+      <member refid="classof_g_l_renderer_1a0472eff4322cb95605f820f5905ea787" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>circlePoints</name></member>
+      <member refid="classof_g_l_renderer_1a03612e9a5fd626ff819bc89734a46fc2" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>circlePolyline</name></member>
+      <member refid="classof_g_l_renderer_1ab0a453bcb7d5c7b981a0c01104735633" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>clear</name></member>
+      <member refid="classof_g_l_renderer_1a6b2b684fb5450c3ac1e196927dac6be9" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>clear</name></member>
+      <member refid="classof_g_l_renderer_1a9c39e468eb9116eeb69ea41676fbe68e" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>clearAlpha</name></member>
+      <member refid="classof_g_l_renderer_1aa94df3dccd31533952bd54873e193e5b" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>coordHandedness</name></member>
+      <member refid="classof_g_l_renderer_1a81286a1399867e11be7190af82969ee9" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>currentFbo</name></member>
+      <member refid="classof_g_l_renderer_1ab8d4e88def4a5b3300aab3ba1c597bc4" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>disablePointSprites</name></member>
+      <member refid="classof_g_l_renderer_1a52febb41276200e7cc2838d422ac9723" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>draw</name></member>
+      <member refid="classof_g_l_renderer_1a70631aeaf6942ab6f77e9032ae968bb6" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>draw</name></member>
+      <member refid="classof_g_l_renderer_1aeab57aee5cec6c0fc78328b23863ed72" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>draw</name></member>
+      <member refid="classof_g_l_renderer_1a7394f6dabb7e5e580e5a285c4ca0981a" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>draw</name></member>
+      <member refid="classof_g_l_renderer_1ad5ac4d18c1f2b484a6ab090efcd79898" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>draw</name></member>
+      <member refid="classof_g_l_renderer_1ae755aa817497737429b6529d84e72b7b" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>draw</name></member>
+      <member refid="classof_g_l_renderer_1a3b5f78eec7d621fb82333ac4f71dc11d" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>draw</name></member>
+      <member refid="classof_g_l_renderer_1a70672040ca0425070749debbed743231" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>draw</name></member>
+      <member refid="classof_g_l_renderer_1a8995251bacac0eca21a1586794f99dfc" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>drawCircle</name></member>
+      <member refid="classof_g_l_renderer_1a38808615f4653987ca0cb206c727d800" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>drawEllipse</name></member>
+      <member refid="classof_g_l_renderer_1ad99745cf58b3d20fd4aa6a875f5b631c" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>drawLine</name></member>
+      <member refid="classof_g_l_renderer_1a4641d1dad06be90318f95bd134bd8070" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>drawRectangle</name></member>
+      <member refid="classof_g_l_renderer_1a6f724c04b47a855d528e489d68054678" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>drawString</name></member>
+      <member refid="classof_g_l_renderer_1aa6d9513ab328063dc0a13975ff0bf196" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>drawTriangle</name></member>
+      <member refid="classof_g_l_renderer_1a8b1c399f9c11276a73c588aaf9f1a1de" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>enablePointSprites</name></member>
+      <member refid="classof_g_l_renderer_1aade9ae1b5f0a2a671a9832913fe475e7" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>endSmoothing</name></member>
+      <member refid="classof_g_l_renderer_1ad93bea380ca109a60fa694786c3d53ea" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>getBgColor</name></member>
+      <member refid="classof_g_l_renderer_1a64f0ffe7d2b90f1501046f5e3a4a23a6" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>getCoordHandedness</name></member>
+      <member refid="classof_g_l_renderer_1a6ff4e1eabd8bb996b5fad20b2a981c2b" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>getCurrentViewport</name></member>
+      <member refid="classof_g_l_renderer_1ae4233d9a6b431f1a50118bc84ec414d7" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>getFillMode</name></member>
+      <member refid="classof_g_l_renderer_1a8e63b294df9f4a84f636b85c00469d3d" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>getRectMode</name></member>
+      <member refid="classof_g_l_renderer_1af72653efa2cac57a844a14b40bdb9953" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>getType</name></member>
+      <member refid="classof_g_l_renderer_1af34194f145634e2c2cfd345a74601141" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>getViewportHeight</name></member>
+      <member refid="classof_g_l_renderer_1a9337400ddb5654e03f8ad1a699a48a31" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>getViewportWidth</name></member>
+      <member refid="classof_g_l_renderer_1a5e18e69fc7f169123b9bee30fbde8251" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>linePoints</name></member>
+      <member refid="classof_g_l_renderer_1ae86a2c8a19a32135bc8755c08e216635" prot="public" virt="non-virtual"><scope>ofGLRenderer</scope><name>ofGLRenderer</name></member>
+      <member refid="classof_g_l_renderer_1a64d1caafe69099c73802652d39588e91" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>popMatrix</name></member>
+      <member refid="classof_g_l_renderer_1a5f69c59637e3a9a3677a7985ac878a44" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>popView</name></member>
+      <member refid="classof_g_l_renderer_1aa2afddce8fd2a7870521dd47c74af7a0" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>pushMatrix</name></member>
+      <member refid="classof_g_l_renderer_1a3535890cc1da307bc78f8f9fe60d3294" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>pushView</name></member>
+      <member refid="classof_g_l_renderer_1ad4a22f443fa86279711c57558cd9b13b" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>rectMode</name></member>
+      <member refid="classof_g_l_renderer_1a3a100973f4f427f1040e98c44a320cfe" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>rectPoints</name></member>
+      <member refid="classof_g_l_renderer_1a34735b5f64b528d0f3103a5e37103b45" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>rendersPathPrimitives</name></member>
+      <member refid="classof_g_l_renderer_1aa19c82279ab5c15c8c1c8dd79e18cf4f" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>rotate</name></member>
+      <member refid="classof_g_l_renderer_1a81627f064a499681e8321b5ee8294a6f" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>rotate</name></member>
+      <member refid="classof_g_l_renderer_1ad97908ef76005fca1fdca3149e3811ad" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>rotateX</name></member>
+      <member refid="classof_g_l_renderer_1abc15d35c7c3dcdcd8292905dc4c68555" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>rotateY</name></member>
+      <member refid="classof_g_l_renderer_1adaddc8874c08b0e488c4fcbac4f828af" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>rotateZ</name></member>
+      <member refid="classof_g_l_renderer_1a771ba672fc6434ea280a520d133f632c" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>scale</name></member>
+      <member refid="classof_g_l_renderer_1a0e52b69e3652bf1d72e1736b52cc9886" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setBackgroundAuto</name></member>
+      <member refid="classof_g_l_renderer_1ac3c8e88601fd476d18f6165f8c7d318d" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setBlendMode</name></member>
+      <member refid="classof_g_l_renderer_1a14db8e625b98e472a945bd6e9f7e19dc" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setCircleResolution</name></member>
+      <member refid="classof_g_l_renderer_1a3c1195df49743118619b099a77a74a11" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setColor</name></member>
+      <member refid="classof_g_l_renderer_1a0ea5b1baf697b63cd38d9fe0e5ea88e8" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setColor</name></member>
+      <member refid="classof_g_l_renderer_1a43aca9fa8ea97a1db2ed51c7b2b6b0d6" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setColor</name></member>
+      <member refid="classof_g_l_renderer_1a7d256ba490f4afc6214ca203b2750473" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setColor</name></member>
+      <member refid="classof_g_l_renderer_1a12b306db178d8ddca5c3976dbbd7956e" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setColor</name></member>
+      <member refid="classof_g_l_renderer_1a499821d78e1e602de2f3ed3e31cecb8c" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setCoordHandedness</name></member>
+      <member refid="classof_g_l_renderer_1a0db952bab2734147be923a8d7a6ca686" prot="public" virt="non-virtual"><scope>ofGLRenderer</scope><name>setCurrentFBO</name></member>
+      <member refid="classof_g_l_renderer_1aacc0eab2f3d4e7e6f2ac425b209ef596" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setFillMode</name></member>
+      <member refid="classof_g_l_renderer_1accb8795036878d6c3b32283b31746967" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setHexColor</name></member>
+      <member refid="classof_g_l_renderer_1af6f3b671e6583114c5589551915c3f94" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setLineSmoothing</name></member>
+      <member refid="classof_g_l_renderer_1a2d6b8de48998dc05fc023a3ca41ef135" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setLineWidth</name></member>
+      <member refid="classof_g_l_renderer_1ad5915cd57862078d500efaf5c7b994ed" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setRectMode</name></member>
+      <member refid="classof_g_l_renderer_1a788951d57f6e4698b5e28d1684b771df" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setupGraphicDefaults</name></member>
+      <member refid="classof_g_l_renderer_1adf20fa42653709d3c6ae3aa53ae67974" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setupScreen</name></member>
+      <member refid="classof_g_l_renderer_1a9ecded5227f06ddb41067436e7f27aa2" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setupScreenOrtho</name></member>
+      <member refid="classof_g_l_renderer_1acab0c2098ecfa732191427c79a82dc6a" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>setupScreenPerspective</name></member>
+      <member refid="classof_g_l_renderer_1a08b6b9f5336becc94b2e289543165973" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>startSmoothing</name></member>
+      <member refid="classof_g_l_renderer_1ac90b43ad1bb96f962af54f1488e0e819" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>translate</name></member>
+      <member refid="classof_g_l_renderer_1a2e254123fc865dd0a8f5133f185b2cbc" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>translate</name></member>
+      <member refid="classof_g_l_renderer_1aecb5ea1f5d081793e6fa25276c54d0ff" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>triPoints</name></member>
+      <member refid="classof_g_l_renderer_1ac705138071cc37cb5faeb84cee284c9b" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>update</name></member>
+      <member refid="classof_g_l_renderer_1a57e0572c4ce586b77b1157b9f6ff0f96" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>viewport</name></member>
+      <member refid="classof_g_l_renderer_1a159bb20585175eddb16c70aa262f392f" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>viewport</name></member>
+      <member refid="classof_g_l_renderer_1a07b9376060c3b1c991f0fda6523d0da8" prot="private" virt="non-virtual"><scope>ofGLRenderer</scope><name>viewportHistory</name></member>
+      <member refid="classof_base_renderer_1a162ef56f1fa1ee5e245c47c24c76a54e" prot="public" virt="virtual"><scope>ofGLRenderer</scope><name>~ofBaseRenderer</name></member>
+      <member refid="classof_g_l_renderer_1a520344a2ff88ed2bb300d7f23001a009" prot="public" virt="non-virtual"><scope>ofGLRenderer</scope><name>~ofGLRenderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

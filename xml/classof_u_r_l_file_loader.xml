@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_u_r_l_file_loader" kind="class" prot="public">
+    <compoundname>ofURLFileLoader</compoundname>
+    <basecompoundref refid="classof_thread" prot="public" virt="non-virtual">ofThread</basecompoundref>
+    <includes refid="of_u_r_l_file_loader_8h" local="no">ofURLFileLoader.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_u_r_l_file_loader_1a8acadd4bc0a653597c6b3e32ab401cc6" prot="private" static="no" mutable="no">
+        <type>deque&lt; <ref refid="classof_http_request" kindref="compound">ofHttpRequest</ref> &gt;</type>
+        <definition>deque&lt;ofHttpRequest&gt; ofURLFileLoader::requests</definition>
+        <argsstring></argsstring>
+        <name>requests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="103" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_u_r_l_file_loader_1af25b95898e0618568d38f414fb462f02" prot="private" static="no" mutable="no">
+        <type>queue&lt; <ref refid="classof_http_response" kindref="compound">ofHttpResponse</ref> &gt;</type>
+        <definition>queue&lt;ofHttpResponse&gt; ofURLFileLoader::responses</definition>
+        <argsstring></argsstring>
+        <name>responses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="104" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_u_r_l_file_loader_1aef4045fde53d8cca219587f7f3528c6a" prot="private" static="no" mutable="no">
+        <type>Poco::Condition</type>
+        <definition>Poco::Condition ofURLFileLoader::condition</definition>
+        <argsstring></argsstring>
+        <name>condition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="106" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1ae443e07f5a78c6183656d69b22257c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofURLFileLoader::ofURLFileLoader</definition>
+        <argsstring>()</argsstring>
+        <name>ofURLFileLoader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1a393b123f73281dd774c0ee80cc4de1e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_http_response" kindref="compound">ofHttpResponse</ref></type>
+        <definition>ofHttpResponse ofURLFileLoader::get</definition>
+        <argsstring>(string url)</argsstring>
+        <name>get</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1a3b556e949c69983e57b76c4a310ea498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofURLFileLoader::getAsync</definition>
+        <argsstring>(string url, string name=&quot;&quot;)</argsstring>
+        <name>getAsync</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1a84a75a50d1b40d18d4b183e3fcd580f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_http_response" kindref="compound">ofHttpResponse</ref></type>
+        <definition>ofHttpResponse ofURLFileLoader::saveTo</definition>
+        <argsstring>(string url, string path)</argsstring>
+        <name>saveTo</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1a7c41ab8cea633b16fc27570e898a843c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofURLFileLoader::saveAsync</definition>
+        <argsstring>(string url, string path)</argsstring>
+        <name>saveAsync</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1ad7b956750adfc8d3be3f2b54dedda1b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofURLFileLoader::remove</definition>
+        <argsstring>(int id)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1a2552a824a5a84d0fd0dffb9db9b36b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofURLFileLoader::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1ab2f0c21ed1cb176e86761370297d573f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofURLFileLoader::threadedFunction</definition>
+        <argsstring>()</argsstring>
+        <name>threadedFunction</name>
+        <reimplements refid="classof_thread_1a9600ede5eed40e1b2ecd88bba1ed394a">threadedFunction</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1a450eb5217fce065a9e8dc765bab1dd1d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofURLFileLoader::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1a3397a3985ff8c7bb57b6fd83cc722dba" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofURLFileLoader::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1a89aba392823ab3a6ddae0bbf8f2161cf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofURLFileLoader::update</definition>
+        <argsstring>(ofEventArgs &amp;args)</argsstring>
+        <name>update</name>
+        <param>
+          <type>ofEventArgs &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="96"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_u_r_l_file_loader_1ae3db443d32b3161b605f1a6a94c0771b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_http_response" kindref="compound">ofHttpResponse</ref></type>
+        <definition>ofHttpResponse ofURLFileLoader::handleRequest</definition>
+        <argsstring>(ofHttpRequest request)</argsstring>
+        <name>handleRequest</name>
+        <param>
+          <type><ref refid="classof_http_request" kindref="compound">ofHttpRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="601">
+        <label>ofThread</label>
+        <link refid="classof_thread"/>
+      </node>
+      <node id="600">
+        <label>ofURLFileLoader</label>
+        <link refid="classof_u_r_l_file_loader"/>
+        <childnode refid="601" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="603">
+        <label>ofThread</label>
+        <link refid="classof_thread"/>
+      </node>
+      <node id="602">
+        <label>ofURLFileLoader</label>
+        <link refid="classof_u_r_l_file_loader"/>
+        <childnode refid="603" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="78" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="78" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classof_thread_1a67cc9e89594ffa191166531ac9e7b6ce" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>blocking</name></member>
+      <member refid="classof_u_r_l_file_loader_1a2552a824a5a84d0fd0dffb9db9b36b0e" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>clear</name></member>
+      <member refid="classof_u_r_l_file_loader_1aef4045fde53d8cca219587f7f3528c6a" prot="private" virt="non-virtual"><scope>ofURLFileLoader</scope><name>condition</name></member>
+      <member refid="classof_u_r_l_file_loader_1a393b123f73281dd774c0ee80cc4de1e1" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>get</name></member>
+      <member refid="classof_u_r_l_file_loader_1a3b556e949c69983e57b76c4a310ea498" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>getAsync</name></member>
+      <member refid="classof_u_r_l_file_loader_1ae3db443d32b3161b605f1a6a94c0771b" prot="private" virt="non-virtual"><scope>ofURLFileLoader</scope><name>handleRequest</name></member>
+      <member refid="classof_thread_1afadfd0e1cf3aadfb20c616dbb159025a" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>isThreadRunning</name></member>
+      <member refid="classof_thread_1a8b682673b3d11225785b74f68fc3ce96" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>lock</name></member>
+      <member refid="classof_thread_1a12ff152ef6ad45f82cff7dcd5b4b9742" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>mutex</name></member>
+      <member refid="classof_thread_1ac014ed3ed729c6870bf4721df96f5cfc" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>myThread</name></member>
+      <member refid="classof_thread_1a6e9afd83f8dd763f7230d13286611a9c" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>ofThread</name></member>
+      <member refid="classof_u_r_l_file_loader_1ae443e07f5a78c6183656d69b22257c25" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>ofURLFileLoader</name></member>
+      <member refid="classof_u_r_l_file_loader_1ad7b956750adfc8d3be3f2b54dedda1b1" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>remove</name></member>
+      <member refid="classof_u_r_l_file_loader_1a8acadd4bc0a653597c6b3e32ab401cc6" prot="private" virt="non-virtual"><scope>ofURLFileLoader</scope><name>requests</name></member>
+      <member refid="classof_u_r_l_file_loader_1af25b95898e0618568d38f414fb462f02" prot="private" virt="non-virtual"><scope>ofURLFileLoader</scope><name>responses</name></member>
+      <member refid="classof_u_r_l_file_loader_1a7c41ab8cea633b16fc27570e898a843c" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>saveAsync</name></member>
+      <member refid="classof_u_r_l_file_loader_1a84a75a50d1b40d18d4b183e3fcd580f7" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>saveTo</name></member>
+      <member refid="classof_u_r_l_file_loader_1a450eb5217fce065a9e8dc765bab1dd1d" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>start</name></member>
+      <member refid="classof_thread_1a06d7c7eeb869db8571c20799c29a0b24" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>startThread</name></member>
+      <member refid="classof_u_r_l_file_loader_1a3397a3985ff8c7bb57b6fd83cc722dba" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>stop</name></member>
+      <member refid="classof_thread_1aa3d12bc071665418de14ffb5b5aad325" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>stopThread</name></member>
+      <member refid="classof_thread_1a8bd4ec6027466e89101a02b4a248158b" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>thread</name></member>
+      <member refid="classof_u_r_l_file_loader_1ab2f0c21ed1cb176e86761370297d573f" prot="protected" virt="virtual"><scope>ofURLFileLoader</scope><name>threadedFunction</name></member>
+      <member refid="classof_thread_1adbcdde30d1304bd2b61de8c30237a417" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>threadRunning</name></member>
+      <member refid="classof_thread_1a4969d3e3b3c281251132a305c7fae015" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>unlock</name></member>
+      <member refid="classof_u_r_l_file_loader_1a89aba392823ab3a6ddae0bbf8f2161cf" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>update</name></member>
+      <member refid="classof_thread_1ac4ad0b7c3602106ea883d6a8be791817" prot="protected" virt="non-virtual"><scope>ofURLFileLoader</scope><name>verbose</name></member>
+      <member refid="classof_thread_1ac7a358dcd8571203eeef98e31c0fc358" prot="public" virt="non-virtual"><scope>ofURLFileLoader</scope><name>waitForThread</name></member>
+      <member refid="classof_thread_1a5df523a15016b1581d3d9fdcaf033f11" prot="public" virt="virtual"><scope>ofURLFileLoader</scope><name>~ofThread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

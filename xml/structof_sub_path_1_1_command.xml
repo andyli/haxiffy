@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="structof_sub_path_1_1_command" kind="struct" prot="public">
+    <compoundname>ofSubPath::Command</compoundname>
+    <includes refid="of_path_8h" local="no">ofPath.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557" prot="public" static="no">
+        <name>Type</name>
+        <enumvalue id="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557ae1c84a8bf7004dad12c5afb7cdad37b4" prot="public">
+          <name>lineTo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557a3342ee6706343ff60a3eb21e35039156" prot="public">
+          <name>curveTo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557adbc6bfc855ee2512b8bf5518a0bee93e" prot="public">
+          <name>bezierTo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557a5ad5c0aa4118d577211e78b694033135" prot="public">
+          <name>quadBezierTo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557a1ffeb09fa07a9b49ddac5d1ff283cbb9" prot="public">
+          <name>arc</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="154" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="154" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structof_sub_path_1_1_command_1a7004018e32dc85bb2aaca2486c14c99e" prot="public" static="no" mutable="no">
+        <type><ref refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557" kindref="member">Type</ref></type>
+        <definition>Type ofSubPath::Command::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="171" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_sub_path_1_1_command_1ac63ab6dcd8816da709c7d457e1800358" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofSubPath::Command::to</definition>
+        <argsstring></argsstring>
+        <name>to</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="172" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_sub_path_1_1_command_1a75eb3d6ae9b1272abdb357bddde1fa00" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofSubPath::Command::cp1</definition>
+        <argsstring></argsstring>
+        <name>cp1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="173" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_sub_path_1_1_command_1a44d1efaf7807a74ff42dfb7a73e9eaf4" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofSubPath::Command::cp2</definition>
+        <argsstring></argsstring>
+        <name>cp2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="173" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_sub_path_1_1_command_1a71f680309503e33ce6155d2be41ef70e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofSubPath::Command::radiusX</definition>
+        <argsstring></argsstring>
+        <name>radiusX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="174" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_sub_path_1_1_command_1a1639fca98c470d0c4ac480f06a2fb367" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofSubPath::Command::radiusY</definition>
+        <argsstring></argsstring>
+        <name>radiusY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="174" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_sub_path_1_1_command_1a8a4c870606039afc0bfdc8993788d359" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofSubPath::Command::angleBegin</definition>
+        <argsstring></argsstring>
+        <name>angleBegin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="174" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_sub_path_1_1_command_1ad2f9e94ab933873580374c75190ccd20" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofSubPath::Command::angleEnd</definition>
+        <argsstring></argsstring>
+        <name>angleEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="174" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structof_sub_path_1_1_command_1ac9c7ec42e586edeed4cd5aff2b4f375f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofSubPath::Command::Command</definition>
+        <argsstring>(Type type, const ofPoint &amp;p)</argsstring>
+        <name>Command</name>
+        <param>
+          <type><ref refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557" kindref="member">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>for lineTo and curveTo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="163"/>
+      </memberdef>
+      <memberdef kind="function" id="structof_sub_path_1_1_command_1ac38281f61603a37956e1bcf7810806f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofSubPath::Command::Command</definition>
+        <argsstring>(Type type, const ofPoint &amp;p, const ofPoint &amp;cp1, const ofPoint &amp;cp2)</argsstring>
+        <name>Command</name>
+        <param>
+          <type><ref refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557" kindref="member">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>cp1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>cp2</declname>
+        </param>
+        <briefdescription>
+<para>for bezierTo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="166"/>
+      </memberdef>
+      <memberdef kind="function" id="structof_sub_path_1_1_command_1a5f67935922c413aadb21a6418da5a430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofSubPath::Command::Command</definition>
+        <argsstring>(Type type, const ofPoint &amp;centre, float radiusX, float radiusY, float angleBegin, float angleEnd)</argsstring>
+        <name>Command</name>
+        <param>
+          <type><ref refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557" kindref="member">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>centre</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleBegin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleEnd</declname>
+        </param>
+        <briefdescription>
+<para>for arc </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="169"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="3">
+        <label>ofSubPath::Command</label>
+        <link refid="structof_sub_path_1_1_command"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>cp1</edgelabel>
+          <edgelabel>cp2</edgelabel>
+          <edgelabel>to</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="153" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="153" bodyend="175"/>
+    <listofallmembers>
+      <member refid="structof_sub_path_1_1_command_1a8a4c870606039afc0bfdc8993788d359" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>angleBegin</name></member>
+      <member refid="structof_sub_path_1_1_command_1ad2f9e94ab933873580374c75190ccd20" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>angleEnd</name></member>
+      <member refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557a1ffeb09fa07a9b49ddac5d1ff283cbb9" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>arc</name></member>
+      <member refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557adbc6bfc855ee2512b8bf5518a0bee93e" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>bezierTo</name></member>
+      <member refid="structof_sub_path_1_1_command_1ac9c7ec42e586edeed4cd5aff2b4f375f" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>Command</name></member>
+      <member refid="structof_sub_path_1_1_command_1ac38281f61603a37956e1bcf7810806f5" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>Command</name></member>
+      <member refid="structof_sub_path_1_1_command_1a5f67935922c413aadb21a6418da5a430" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>Command</name></member>
+      <member refid="structof_sub_path_1_1_command_1a75eb3d6ae9b1272abdb357bddde1fa00" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>cp1</name></member>
+      <member refid="structof_sub_path_1_1_command_1a44d1efaf7807a74ff42dfb7a73e9eaf4" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>cp2</name></member>
+      <member refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557a3342ee6706343ff60a3eb21e35039156" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>curveTo</name></member>
+      <member refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557ae1c84a8bf7004dad12c5afb7cdad37b4" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>lineTo</name></member>
+      <member refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557a5ad5c0aa4118d577211e78b694033135" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>quadBezierTo</name></member>
+      <member refid="structof_sub_path_1_1_command_1a71f680309503e33ce6155d2be41ef70e" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>radiusX</name></member>
+      <member refid="structof_sub_path_1_1_command_1a1639fca98c470d0c4ac480f06a2fb367" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>radiusY</name></member>
+      <member refid="structof_sub_path_1_1_command_1ac63ab6dcd8816da709c7d457e1800358" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>to</name></member>
+      <member refid="structof_sub_path_1_1_command_1a7004018e32dc85bb2aaca2486c14c99e" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>type</name></member>
+      <member refid="structof_sub_path_1_1_command_1adb590e1f3aca1797cf1d23fa33e50557" prot="public" virt="non-virtual"><scope>ofSubPath::Command</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

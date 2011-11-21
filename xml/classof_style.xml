@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_style" kind="class" prot="public">
+    <compoundname>ofStyle</compoundname>
+    <includes refid="of_types_8h" local="no">ofTypes.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_style_1a71c0e855729b8db2f0aec16a939051dd" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofColor</ref></type>
+        <definition>ofColor ofStyle::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="82" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1a1d062d4e7b15eaa061c133595ef3cc54" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofColor</ref></type>
+        <definition>ofColor ofStyle::bgColor</definition>
+        <argsstring></argsstring>
+        <name>bgColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1ae49fd93f032dbfddea280745482c93bd" prot="public" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+        <definition>ofPolyWindingMode ofStyle::polyMode</definition>
+        <argsstring></argsstring>
+        <name>polyMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="84" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1ab9a5fe8d4375c9ccc9eb4a69c8476eb5" prot="public" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+        <definition>ofRectMode ofStyle::rectMode</definition>
+        <argsstring></argsstring>
+        <name>rectMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="85" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1ac97172bc5d117d91fa7fef18b91b58af" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofStyle::bFill</definition>
+        <argsstring></argsstring>
+        <name>bFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="86" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1a3ce923c648343d755c14b1e9992d4ad9" prot="public" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1a14966be842b99f71080a7444cebbc0b7" kindref="member">ofDrawBitmapMode</ref></type>
+        <definition>ofDrawBitmapMode ofStyle::drawBitmapMode</definition>
+        <argsstring></argsstring>
+        <name>drawBitmapMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="87" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1aa899b9218eabf5feff0729fba2956e46" prot="public" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1a5f194ae56b1bc61651eac7184ed1ad2e" kindref="member">ofBlendMode</ref></type>
+        <definition>ofBlendMode ofStyle::blendingMode</definition>
+        <argsstring></argsstring>
+        <name>blendingMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="89" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1ad2dbc3547e6bd9fdeb2557edda376ebd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofStyle::smoothing</definition>
+        <argsstring></argsstring>
+        <name>smoothing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="91" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1a3cf3da499b39eea0fd403627f5b7cb1d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofStyle::circleResolution</definition>
+        <argsstring></argsstring>
+        <name>circleResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="92" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1a5500872010ed65dd1f7c7e8779f5ea19" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofStyle::sphereResolution</definition>
+        <argsstring></argsstring>
+        <name>sphereResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="93" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1a68fd3b1c7873c5121975acebc4b7e002" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofStyle::curveResolution</definition>
+        <argsstring></argsstring>
+        <name>curveResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="94" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_style_1ad49415259a79caf71e3317949ad7c26b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofStyle::lineWidth</definition>
+        <argsstring></argsstring>
+        <name>lineWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_style_1a7d1443b11025e5321d810a618491e79a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofStyle::ofStyle</definition>
+        <argsstring>()</argsstring>
+        <name>ofStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="66" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_style_1a8996b948ae6c54f588c9be80bb04da0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofStyle::~ofStyle</definition>
+        <argsstring>()</argsstring>
+        <name>~ofStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="80" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="577">
+        <label>ofColor_&lt; unsigned char &gt;</label>
+        <link refid="classof_color__"/>
+        <childnode refid="577" relation="usage">
+          <edgelabel>cyan</edgelabel>
+          <edgelabel>gray</edgelabel>
+          <edgelabel>white</edgelabel>
+          <edgelabel>yellow</edgelabel>
+          <edgelabel>magenta</edgelabel>
+          <edgelabel>black</edgelabel>
+          <edgelabel>blue</edgelabel>
+          <edgelabel>red</edgelabel>
+          <edgelabel>green</edgelabel>
+        </childnode>
+      </node>
+      <node id="576">
+        <label>ofStyle</label>
+        <link refid="classof_style"/>
+        <childnode refid="577" relation="usage">
+          <edgelabel>bgColor</edgelabel>
+          <edgelabel>color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="64" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classof_style_1ac97172bc5d117d91fa7fef18b91b58af" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>bFill</name></member>
+      <member refid="classof_style_1a1d062d4e7b15eaa061c133595ef3cc54" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>bgColor</name></member>
+      <member refid="classof_style_1aa899b9218eabf5feff0729fba2956e46" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>blendingMode</name></member>
+      <member refid="classof_style_1a3cf3da499b39eea0fd403627f5b7cb1d" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>circleResolution</name></member>
+      <member refid="classof_style_1a71c0e855729b8db2f0aec16a939051dd" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>color</name></member>
+      <member refid="classof_style_1a68fd3b1c7873c5121975acebc4b7e002" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>curveResolution</name></member>
+      <member refid="classof_style_1a3ce923c648343d755c14b1e9992d4ad9" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>drawBitmapMode</name></member>
+      <member refid="classof_style_1ad49415259a79caf71e3317949ad7c26b" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>lineWidth</name></member>
+      <member refid="classof_style_1a7d1443b11025e5321d810a618491e79a" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>ofStyle</name></member>
+      <member refid="classof_style_1ae49fd93f032dbfddea280745482c93bd" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>polyMode</name></member>
+      <member refid="classof_style_1ab9a5fe8d4375c9ccc9eb4a69c8476eb5" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>rectMode</name></member>
+      <member refid="classof_style_1ad2dbc3547e6bd9fdeb2557edda376ebd" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>smoothing</name></member>
+      <member refid="classof_style_1a5500872010ed65dd1f7c7e8779f5ea19" prot="public" virt="non-virtual"><scope>ofStyle</scope><name>sphereResolution</name></member>
+      <member refid="classof_style_1a8996b948ae6c54f588c9be80bb04da0f" prot="public" virt="virtual"><scope>ofStyle</scope><name>~ofStyle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

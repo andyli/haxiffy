@@ -1,0 +1,2043 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_cairo_renderer" kind="class" prot="public">
+    <compoundname>ofCairoRenderer</compoundname>
+    <basecompoundref refid="classof_base_renderer" prot="public" virt="non-virtual">ofBaseRenderer</basecompoundref>
+    <includes refid="of_cairo_renderer_8h" local="no">ofCairoRenderer.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classof_cairo_renderer_1aa4f542abccc80b9288466943a947ac55" prot="public" static="no">
+        <name>Type</name>
+        <enumvalue id="classof_cairo_renderer_1aa4f542abccc80b9288466943a947ac55a57b815b8dd08e819b826cade2455413b" prot="public">
+          <name>PDF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classof_cairo_renderer_1aa4f542abccc80b9288466943a947ac55a1126079de0933bf6636da2cbe8eeb123" prot="public">
+          <name>SVG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_cairo_renderer_1a6a11b09fc0ad5d3a9b232604e43ae20a" prot="private" static="no" mutable="no">
+        <type>deque&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt;</type>
+        <definition>deque&lt;ofPoint&gt; ofCairoRenderer::curvePoints</definition>
+        <argsstring></argsstring>
+        <name>curvePoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="129" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a8283330e434bf71c2ffe04d9723f825b" prot="private" static="no" mutable="no">
+        <type>cairo_t *</type>
+        <definition>cairo_t* ofCairoRenderer::cr</definition>
+        <argsstring></argsstring>
+        <name>cr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="130" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a7c98626809e4e9180d6a66c58797dcc9" prot="private" static="no" mutable="no">
+        <type>cairo_surface_t *</type>
+        <definition>cairo_surface_t* ofCairoRenderer::surface</definition>
+        <argsstring></argsstring>
+        <name>surface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="131" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1aced67a4122831d70fb6c98995f36bc1f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofCairoRenderer::bBackgroundAuto</definition>
+        <argsstring></argsstring>
+        <name>bBackgroundAuto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="132" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a3e74528570bf30e19b31176893d191b5" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofCairoRenderer::bgColor</definition>
+        <argsstring></argsstring>
+        <name>bgColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="133" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a331fd19a8a762f4d6795d1073bf6e8c4" prot="private" static="no" mutable="no">
+        <type>stack&lt; cairo_matrix_t &gt;</type>
+        <definition>stack&lt;cairo_matrix_t&gt; ofCairoRenderer::matrixStack</definition>
+        <argsstring></argsstring>
+        <name>matrixStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="135" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a86d25c51606ba06c37267bc9aeba90f7" prot="private" static="no" mutable="no">
+        <type>cairo_matrix_t</type>
+        <definition>cairo_matrix_t ofCairoRenderer::tmpMatrix</definition>
+        <argsstring></argsstring>
+        <name>tmpMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="136" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a7fe738f52828634d494388bbc302d702" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_cairo_renderer_1aa4f542abccc80b9288466943a947ac55" kindref="member">Type</ref></type>
+        <definition>Type ofCairoRenderer::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="138" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1af5d77897076bfe807f883b02df5e0814" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofCairoRenderer::page</definition>
+        <argsstring></argsstring>
+        <name>page</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="139" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a0e0c54b785f946017e217fc6346b45d6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofCairoRenderer::multiPage</definition>
+        <argsstring></argsstring>
+        <name>multiPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="140" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1af5dd58c699151ccdce25bbe5426c97dc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofCairoRenderer::b3D</definition>
+        <argsstring></argsstring>
+        <name>b3D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="143" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a59935f6f0c6170a2d2884a2db2f712a4" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofCairoRenderer::projection</definition>
+        <argsstring></argsstring>
+        <name>projection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="144" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a738075ed243a73ec7523b4b6f2629a27" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofCairoRenderer::modelView</definition>
+        <argsstring></argsstring>
+        <name>modelView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="145" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a173555d548576809b57aa9a54e9e8a97" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+        <definition>ofRectangle ofCairoRenderer::viewportRect</definition>
+        <argsstring></argsstring>
+        <name>viewportRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="146" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a9e518d01492b38848deb47754e164c43" prot="private" static="no" mutable="no">
+        <type>stack&lt; <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &gt;</type>
+        <definition>stack&lt;ofMatrix4x4&gt; ofCairoRenderer::projectionStack</definition>
+        <argsstring></argsstring>
+        <name>projectionStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="148" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a385cc6c72c89f85ae7ca84597a218429" prot="private" static="no" mutable="no">
+        <type>stack&lt; <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &gt;</type>
+        <definition>stack&lt;ofMatrix4x4&gt; ofCairoRenderer::modelViewStack</definition>
+        <argsstring></argsstring>
+        <name>modelViewStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="149" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1ac61bf305b8235db9c5cb6e8c029c02fd" prot="private" static="no" mutable="no">
+        <type>stack&lt; <ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> &gt;</type>
+        <definition>stack&lt;ofRectangle&gt; ofCairoRenderer::viewportStack</definition>
+        <argsstring></argsstring>
+        <name>viewportStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="150" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a6c32578533e3f4531e349cd4be060b48" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+        <definition>ofFillFlag ofCairoRenderer::bFilled</definition>
+        <argsstring></argsstring>
+        <name>bFilled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="153" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a6f4c9a60dd9bacce9e5b255a7a373ff8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofCairoRenderer::bSmoothHinted</definition>
+        <argsstring></argsstring>
+        <name>bSmoothHinted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="154" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_cairo_renderer_1a12a2200b1844a576d547aa6846d2ec17" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+        <definition>ofRectMode ofCairoRenderer::rectMode</definition>
+        <argsstring></argsstring>
+        <name>rectMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="155" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_cairo_renderer_1ad079c5691b32f860b4c2fb8875c9ebe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofCairoRenderer::ofCairoRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>ofCairoRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a3e6a6b041771a84b52dee3bf7599854e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofCairoRenderer::~ofCairoRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>~ofCairoRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a800e09830220c5ba4819fe4ad0ce0cf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>string ofCairoRenderer::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <reimplements refid="classof_base_renderer_1ab04ab2e86135ab95b598f2d9c4929e7c">getType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="20" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1abfe14f8355ed3b7d754ad2b178e53d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setup</definition>
+        <argsstring>(string filename, Type type=ofCairoRenderer::PDF, bool multiPage=true, bool b3D=false, ofRectangle viewport=ofRectangle(0, 0, 0, 0))</argsstring>
+        <name>setup</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_cairo_renderer_1aa4f542abccc80b9288466943a947ac55" kindref="member">Type</ref></type>
+          <declname>type</declname>
+          <defval>ofCairoRenderer::PDF</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>multiPage</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b3D</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref>(0, 0, 0, 0)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a8280b52ecf27721b8d33ac8652b4bb65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a57f44289cb55fb1c6601b456f1c06f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_renderer_1af6c14407372ca754bb0112bb0874dc57">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a7b07626fdbc8410889ee9884ce471fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(ofPath &amp;shape)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1ab5a8c1dfe33aa369a84860087dd286ec">draw</reimplements>
+        <param>
+          <type><ref refid="classof_path" kindref="compound">ofPath</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a1cad4fc7ea663f4bb42c8d4f0322ee49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(ofSubPath &amp;path)</argsstring>
+        <name>draw</name>
+        <param>
+          <type><ref refid="classof_sub_path" kindref="compound">ofSubPath</ref> &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a19cdf25f21b91f6073cc257ea6bd1c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(ofPolyline &amp;poly)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1afffdfdf65fd5f954a2a4e264e6bc40a8">draw</reimplements>
+        <param>
+          <type><ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &amp;</type>
+          <declname>poly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a17932fb697292eaef830a10704299d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(ofMesh &amp;vertexData)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1abeae3ce1e1502182cbeadb5414b2ecc4">draw</reimplements>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1afb0d7d9dfbdace68ed2e5e7d9cd75476" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(ofMesh &amp;vertexData, ofPolyRenderMode mode)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a5e8c241c15e444b3929cd5f9ebdb2ef3">draw</reimplements>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <param>
+          <type><ref refid="of_g_l_utils_8h_1a6beb1fbbaba728909c78cda1eadfe28e" kindref="member">ofPolyRenderMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a77a40bd7d26d58d68a65928070580140" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(vector&lt; ofPoint &gt; &amp;vertexData, ofPrimitiveMode drawMode)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a7884c6bf187a0449ce3aa8052c6056bc">draw</reimplements>
+        <param>
+          <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <param>
+          <type><ref refid="of_g_l_utils_8h_1a0f71f0b23a18629a446952d5540e16e0" kindref="member">ofPrimitiveMode</ref></type>
+          <declname>drawMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a948eb5082329b9035b9807faab3809d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(ofImage &amp;img, float x, float y, float z, float w, float h)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a118fa7be01237fd13d01a7db526e67e0">draw</reimplements>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofImage</ref> &amp;</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a87b181e7b0f61d75c2c725c3b112488f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(ofFloatImage &amp;image, float x, float y, float z, float w, float h)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a118fa7be01237fd13d01a7db526e67e0">draw</reimplements>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofFloatImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a5d9433f37711c3d0ed94c70ca13033eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::draw</definition>
+        <argsstring>(ofShortImage &amp;image, float x, float y, float z, float w, float h)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_renderer_1a118fa7be01237fd13d01a7db526e67e0">draw</reimplements>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofShortImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a933632be24a7f9ee8175c3660a263c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofCairoRenderer::rendersPathPrimitives</definition>
+        <argsstring>()</argsstring>
+        <name>rendersPathPrimitives</name>
+        <reimplements refid="classof_base_renderer_1abdaece01a43329ef7769615cd958b7e2">rendersPathPrimitives</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="41" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1acf52b56ca3516c61f81ccc08cfadced1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::pushView</definition>
+        <argsstring>()</argsstring>
+        <name>pushView</name>
+        <reimplements refid="classof_base_renderer_1a83e111dfc4a5743f3bdc263e92b99682">pushView</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a95e3b1bf17c56b334ae9b265d0caf971" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::popView</definition>
+        <argsstring>()</argsstring>
+        <name>popView</name>
+        <reimplements refid="classof_base_renderer_1a99baa88fbb41b5cb57ae7d6a670738c1">popView</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1aeb4bdbd4882a0846cdd95d4a17c981a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::viewport</definition>
+        <argsstring>(ofRectangle viewport)</argsstring>
+        <name>viewport</name>
+        <reimplements refid="classof_base_renderer_1affffe2c452504484f1e465f16893ab60">viewport</reimplements>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1acae2134144ce0e7e328ffba50d867189" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::viewport</definition>
+        <argsstring>(float x=0, float y=0, float width=0, float height=0, bool invertY=true)</argsstring>
+        <name>viewport</name>
+        <reimplements refid="classof_base_renderer_1a300bd8d884c882a8ae3539367b0b7d9f">viewport</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invertY</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a2d2544d8f0ecef5d3728f45a8d4229d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setupScreenPerspective</definition>
+        <argsstring>(float width=0, float height=0, ofOrientation orientation=OF_ORIENTATION_UNKNOWN, bool vFlip=true, float fov=60, float nearDist=0, float farDist=0)</argsstring>
+        <name>setupScreenPerspective</name>
+        <reimplements refid="classof_base_renderer_1aefb98b7ef168dbff450f6054bf00d406">setupScreenPerspective</reimplements>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+          <defval>OF_ORIENTATION_UNKNOWN</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vFlip</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fov</declname>
+          <defval>60</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearDist</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDist</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a20f0da734ea37ef4d25a1a4dd67181e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setupScreenOrtho</definition>
+        <argsstring>(float width=0, float height=0, ofOrientation orientation=OF_ORIENTATION_UNKNOWN, bool vFlip=true, float nearDist=-1, float farDist=1)</argsstring>
+        <name>setupScreenOrtho</name>
+        <reimplements refid="classof_base_renderer_1a78aaffdae40b4a568b011171fc8556a6">setupScreenOrtho</reimplements>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+          <defval>OF_ORIENTATION_UNKNOWN</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vFlip</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearDist</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDist</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a34b2cf0594a8e0eb0a0e646ac2042ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+        <definition>ofRectangle ofCairoRenderer::getCurrentViewport</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentViewport</name>
+        <reimplements refid="classof_base_renderer_1a6c143444f0f3db1982a19abbc4777ddd">getCurrentViewport</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a888924ffc3a037f67eb67dd3d4641329" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofCairoRenderer::getViewportWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getViewportWidth</name>
+        <reimplements refid="classof_base_renderer_1abef959b1493b9f2ccaaf00a8a75d6218">getViewportWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ac1f2e3922892ab6c6dd4482f1a259ff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ofCairoRenderer::getViewportHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getViewportHeight</name>
+        <reimplements refid="classof_base_renderer_1a026faf25094809f38e9d0eab2f7e09b6">getViewportHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a97610b9999e6e5831d88ff65926eeb33" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setCoordHandedness</definition>
+        <argsstring>(ofHandednessType handedness)</argsstring>
+        <name>setCoordHandedness</name>
+        <reimplements refid="classof_base_renderer_1ab4501fbf80f10f4e6ab0d59a890e4117">setCoordHandedness</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+          <declname>handedness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ad4dfd1712d8a302c4191fcd0c5ede706" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+        <definition>ofHandednessType ofCairoRenderer::getCoordHandedness</definition>
+        <argsstring>()</argsstring>
+        <name>getCoordHandedness</name>
+        <reimplements refid="classof_base_renderer_1ad5f5cd75cc18f229a9fdae1e352b71db">getCoordHandedness</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a0b4c7064a42559a09763c60489c9ee37" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setRectMode</definition>
+        <argsstring>(ofRectMode mode)</argsstring>
+        <name>setRectMode</name>
+        <reimplements refid="classof_base_renderer_1a86513eb142468db2878d815068a7de2a">setRectMode</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ad53c213918dd9a3011788ac36ed21f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+        <definition>ofRectMode ofCairoRenderer::getRectMode</definition>
+        <argsstring>()</argsstring>
+        <name>getRectMode</name>
+        <reimplements refid="classof_base_renderer_1a08d589a5bdf58fe755604a3500b5d171">getRectMode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a535bf1e13b51d0a5d4de152a94382c15" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setFillMode</definition>
+        <argsstring>(ofFillFlag fill)</argsstring>
+        <name>setFillMode</name>
+        <reimplements refid="classof_base_renderer_1a15a68864b7da753c0415490942caa76b">setFillMode</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+          <declname>fill</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a2e3ec897cb1c67bce8e99900c50cc8af" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+        <definition>ofFillFlag ofCairoRenderer::getFillMode</definition>
+        <argsstring>()</argsstring>
+        <name>getFillMode</name>
+        <reimplements refid="classof_base_renderer_1aa840440af71eb0663f2943d48df00360">getFillMode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1aa23662a69a84b60b645b0b732eb69796" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <reimplements refid="classof_base_renderer_1a46a712e72a2f812fdc7c6658ee29498d">setLineWidth</reimplements>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ad17ae254ba8de9f79708149a78fc26eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setBlendMode</definition>
+        <argsstring>(ofBlendMode blendMode)</argsstring>
+        <name>setBlendMode</name>
+        <reimplements refid="classof_base_renderer_1a0bb776a37e221e48da6f75cffc6a3e8c">setBlendMode</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1a5f194ae56b1bc61651eac7184ed1ad2e" kindref="member">ofBlendMode</ref></type>
+          <declname>blendMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a1901f46679555e72239d24807a269081" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setLineSmoothing</definition>
+        <argsstring>(bool smooth)</argsstring>
+        <name>setLineSmoothing</name>
+        <reimplements refid="classof_base_renderer_1acbe8f9dee80dce144e225a60bbb1db77">setLineSmoothing</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>smooth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ae80318ec09fad18566517d1034fa7bec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::pushMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>pushMatrix</name>
+        <reimplements refid="classof_base_renderer_1ab8023e1f20a975cbc5480afb30d78fec">pushMatrix</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a14b22e5b97713bd80adc129923a33fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::popMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>popMatrix</name>
+        <reimplements refid="classof_base_renderer_1a33dfe4df5c05128e0a965b1e445ceb9a">popMatrix</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ac7767ad5bc65fe42932d8043ffccd699" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::translate</definition>
+        <argsstring>(float x, float y, float z=0)</argsstring>
+        <name>translate</name>
+        <reimplements refid="classof_base_renderer_1a82bc2ad661caabd15f9ee7888a6e3f61">translate</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1acc56715da18f40bc224dc3caca21b6b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::translate</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>translate</name>
+        <reimplements refid="classof_base_renderer_1abc3f59783eb1af3d88e94e026652d0f3">translate</reimplements>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a02195750c37c906936670424102c2cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::scale</definition>
+        <argsstring>(float xAmnt, float yAmnt, float zAmnt=1)</argsstring>
+        <name>scale</name>
+        <reimplements refid="classof_base_renderer_1aa90785f6afb56f9918523630319394f8">scale</reimplements>
+        <param>
+          <type>float</type>
+          <declname>xAmnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yAmnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>zAmnt</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a8822b11dafbe4649824e1abaa2d90377" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::rotate</definition>
+        <argsstring>(float degrees, float vecX, float vecY, float vecZ)</argsstring>
+        <name>rotate</name>
+        <reimplements refid="classof_base_renderer_1a76ea3a2691d80054696f41aa7069231d">rotate</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a95e2617b09a278951a9da61b84dd73f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::rotateX</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateX</name>
+        <reimplements refid="classof_base_renderer_1ac52830fd0ab1f62f9f094f9501156fee">rotateX</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a8708e85a264993c6a1c17a603f5c3622" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::rotateY</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateY</name>
+        <reimplements refid="classof_base_renderer_1aeb7dd85ce856ff9510f6bc0159ba834f">rotateY</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ae49c0dd54cc8eeededda39ce57df3958" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::rotateZ</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateZ</name>
+        <reimplements refid="classof_base_renderer_1acbbd19ddcddf7118d8e5d501054a706e">rotateZ</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a851fe7d8806fdbc44e4c1a44cc4c1ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::rotate</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotate</name>
+        <reimplements refid="classof_base_renderer_1a54e1bb2754e2764301ac3a7de13852d1">rotate</reimplements>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a067de4b242130b80d9e07617eda7dd37" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setupGraphicDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>setupGraphicDefaults</name>
+        <reimplements refid="classof_base_renderer_1a50d914b89a78f918e419771a1ce4a72e">setupGraphicDefaults</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1aff0476945a318bc4580e639b60017338" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>setupScreen</name>
+        <reimplements refid="classof_base_renderer_1a951bece465546fee7e5006bd76338bfa">setupScreen</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1aae49df33ec0e2e50b192d02bc9254329" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setColor</definition>
+        <argsstring>(int r, int g, int b)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1aafcf166497ea6350488fe5ac22343c64">setColor</reimplements>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ae73b748777bf75fb64ed1d5f6f5db023" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setColor</definition>
+        <argsstring>(int r, int g, int b, int a)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1aca859e4f28406b9b03b57accf389e8fe">setColor</reimplements>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a1cf81f64f592e2277b88bfeb5cbd6aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setColor</definition>
+        <argsstring>(const ofColor &amp;color)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1ad45d77dabb749bb04893dbf8b3a3d5d3">setColor</reimplements>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a0912699ae36ae6108f65e0c271a13b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setColor</definition>
+        <argsstring>(const ofColor &amp;color, int _a)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1a144f56ef69c3a28a40a8c30a06c469cb">setColor</reimplements>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1aaf5079ce467b4741ee9beea895e09109" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setColor</definition>
+        <argsstring>(int gray)</argsstring>
+        <name>setColor</name>
+        <reimplements refid="classof_base_renderer_1ac22b7825c00c182594db54c0a936c274">setColor</reimplements>
+        <param>
+          <type>int</type>
+          <declname>gray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a12eb0672c7053617129837077700fbe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setHexColor</definition>
+        <argsstring>(int hexColor)</argsstring>
+        <name>setHexColor</name>
+        <reimplements refid="classof_base_renderer_1a411219c793abfeca94161ad87ddaf8b6">setHexColor</reimplements>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a330c7be0c5952c535240e2f2220f1643" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref> &amp;</type>
+        <definition>ofFloatColor&amp; ofCairoRenderer::getBgColor</definition>
+        <argsstring>()</argsstring>
+        <name>getBgColor</name>
+        <reimplements refid="classof_base_renderer_1a91919a80d1e097a2d2dd2cb9ffde155c">getBgColor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1adbd43a9920495d686c9381e44c723c68" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofCairoRenderer::bClearBg</definition>
+        <argsstring>()</argsstring>
+        <name>bClearBg</name>
+        <reimplements refid="classof_base_renderer_1a0c1c62df5a7009190f48450b34a7be77">bClearBg</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1afe6b29f670e797e1cab85562ae365372" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::background</definition>
+        <argsstring>(const ofColor &amp;c)</argsstring>
+        <name>background</name>
+        <reimplements refid="classof_base_renderer_1af31f3e9845f0e035ccbb9dd7be266760">background</reimplements>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a55ee27e3f9b943c50d011ff5a038e995" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::background</definition>
+        <argsstring>(float brightness)</argsstring>
+        <name>background</name>
+        <reimplements refid="classof_base_renderer_1a1b4b07382a01d12f6a96d8d7c0ee2e36">background</reimplements>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a8fa6a2ca6fdefd7008eb85cffef2447a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::background</definition>
+        <argsstring>(int hexColor, float _a=255.0f)</argsstring>
+        <name>background</name>
+        <reimplements refid="classof_base_renderer_1aa55a1c7d2b1f3512c08ceb6d2c5ffb28">background</reimplements>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+          <defval>255.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a1e21b211773d1dd77d668835f964e811" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::background</definition>
+        <argsstring>(int r, int g, int b, int a=255)</argsstring>
+        <name>background</name>
+        <reimplements refid="classof_base_renderer_1a7c5bf8bb1e77ae1417da8b6e3c176437">background</reimplements>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+          <defval>255</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a3c095b39a1fa8f7af272331c88a559c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setBackgroundAuto</definition>
+        <argsstring>(bool bManual)</argsstring>
+        <name>setBackgroundAuto</name>
+        <reimplements refid="classof_base_renderer_1a35571f83c83743277a5f3c602cb12745">setBackgroundAuto</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bManual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a08f08fcdb8864fde81872d1f3b2308c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::clear</definition>
+        <argsstring>(float r, float g, float b, float a=0)</argsstring>
+        <name>clear</name>
+        <reimplements refid="classof_base_renderer_1a60e947dd7b5dcabe05fd9f73a070630d">clear</reimplements>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a475f7c41e13ffe154ed353c4b2e836e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::clear</definition>
+        <argsstring>(float brightness, float a=0)</argsstring>
+        <name>clear</name>
+        <reimplements refid="classof_base_renderer_1a74c432629b0ca9f3f2aabe4cd580b301">clear</reimplements>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1ad3a309e756af77fa962928018e1caeee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::clearAlpha</definition>
+        <argsstring>()</argsstring>
+        <name>clearAlpha</name>
+        <reimplements refid="classof_base_renderer_1a36a81fdf10aeeef3f8e1279e34fd3d3e">clearAlpha</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1af8f5534e273d3e480e983e49cb25416b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::drawLine</definition>
+        <argsstring>(float x1, float y1, float z1, float x2, float y2, float z2)</argsstring>
+        <name>drawLine</name>
+        <reimplements refid="classof_base_renderer_1a88e533aef9bd60b8bbda790f9a9d67bf">drawLine</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a87ca38cd07aad94f36d3bc0aa9bab757" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::drawRectangle</definition>
+        <argsstring>(float x, float y, float z, float w, float h)</argsstring>
+        <name>drawRectangle</name>
+        <reimplements refid="classof_base_renderer_1a69581b0027e9c27b76acf1b947ace1a9">drawRectangle</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a7437fda0cc3291a4734c30d5215cb304" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::drawTriangle</definition>
+        <argsstring>(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3)</argsstring>
+        <name>drawTriangle</name>
+        <reimplements refid="classof_base_renderer_1aaf947850edf68e5a92da374d4347492d">drawTriangle</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a92e52d81d4aee42ee2444a82bf85d748" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::drawCircle</definition>
+        <argsstring>(float x, float y, float z, float radius)</argsstring>
+        <name>drawCircle</name>
+        <reimplements refid="classof_base_renderer_1a9858e271b9a3e53c79a3e7b4b495ca93">drawCircle</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a8641b0baf1a323a1371a025ecc844eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::drawEllipse</definition>
+        <argsstring>(float x, float y, float z, float width, float height)</argsstring>
+        <name>drawEllipse</name>
+        <reimplements refid="classof_base_renderer_1a71a1a82945587067107f6dbae14e95a6">drawEllipse</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a686cd4854a5e1fb94a16386728d6c695" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::drawString</definition>
+        <argsstring>(string text, float x, float y, float z, ofDrawBitmapMode mode)</argsstring>
+        <name>drawString</name>
+        <reimplements refid="classof_base_renderer_1a29897c32df48511a61d32a1bf8ae614a">drawString</reimplements>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a14966be842b99f71080a7444cebbc0b7" kindref="member">ofDrawBitmapMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a74b1a44d818e6194d54ff5455c9200f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cairo_t *</type>
+        <definition>cairo_t* ofCairoRenderer::getCairoContext</definition>
+        <argsstring>()</argsstring>
+        <name>getCairoContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a2d784115f5556be0698cf638ff304e15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cairo_surface_t *</type>
+        <definition>cairo_surface_t* ofCairoRenderer::getCairoSurface</definition>
+        <argsstring>()</argsstring>
+        <name>getCairoSurface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="121"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_cairo_renderer_1a8608a7dbabc80b064201bb2abed19a3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cairo_matrix_t *</type>
+        <definition>cairo_matrix_t* ofCairoRenderer::getCairoMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>getCairoMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1abf3138ad8fdaa4a4d022d27baa8bf06e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCairoRenderer::setCairoMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>setCairoMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_cairo_renderer_1a482f19dff9b14fdba4626c5d5789987b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofCairoRenderer::transform</definition>
+        <argsstring>(ofVec3f vec)</argsstring>
+        <name>transform</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="209">
+        <label>ofCairoRenderer</label>
+        <link refid="classof_cairo_renderer"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>ofBaseRenderer</label>
+        <link refid="classof_base_renderer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="211">
+        <label>ofCairoRenderer</label>
+        <link refid="classof_cairo_renderer"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+        <childnode refid="213" relation="usage">
+          <edgelabel>viewportRect</edgelabel>
+        </childnode>
+        <childnode refid="214" relation="usage">
+          <edgelabel>projection</edgelabel>
+          <edgelabel>modelView</edgelabel>
+        </childnode>
+        <childnode refid="216" relation="usage">
+          <edgelabel>bgColor</edgelabel>
+        </childnode>
+      </node>
+      <node id="215">
+        <label>ofVec4f</label>
+        <link refid="classof_vec4f"/>
+      </node>
+      <node id="216">
+        <label>ofColor_&lt; float &gt;</label>
+        <link refid="classof_color__"/>
+        <childnode refid="216" relation="usage">
+          <edgelabel>cyan</edgelabel>
+          <edgelabel>gray</edgelabel>
+          <edgelabel>white</edgelabel>
+          <edgelabel>yellow</edgelabel>
+          <edgelabel>magenta</edgelabel>
+          <edgelabel>black</edgelabel>
+          <edgelabel>blue</edgelabel>
+          <edgelabel>red</edgelabel>
+          <edgelabel>green</edgelabel>
+        </childnode>
+      </node>
+      <node id="212">
+        <label>ofBaseRenderer</label>
+        <link refid="classof_base_renderer"/>
+      </node>
+      <node id="214">
+        <label>ofMatrix4x4</label>
+        <link refid="classof_matrix4x4"/>
+        <childnode refid="215" relation="usage">
+          <edgelabel>_mat</edgelabel>
+        </childnode>
+      </node>
+      <node id="213">
+        <label>ofRectangle</label>
+        <link refid="classof_rectangle"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" line="14" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofCairoRenderer.h" bodystart="14" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classof_cairo_renderer_1af5dd58c699151ccdce25bbe5426c97dc" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>b3D</name></member>
+      <member refid="classof_cairo_renderer_1afe6b29f670e797e1cab85562ae365372" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>background</name></member>
+      <member refid="classof_cairo_renderer_1a55ee27e3f9b943c50d011ff5a038e995" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>background</name></member>
+      <member refid="classof_cairo_renderer_1a8fa6a2ca6fdefd7008eb85cffef2447a" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>background</name></member>
+      <member refid="classof_cairo_renderer_1a1e21b211773d1dd77d668835f964e811" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>background</name></member>
+      <member refid="classof_cairo_renderer_1aced67a4122831d70fb6c98995f36bc1f" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>bBackgroundAuto</name></member>
+      <member refid="classof_cairo_renderer_1adbd43a9920495d686c9381e44c723c68" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>bClearBg</name></member>
+      <member refid="classof_cairo_renderer_1a6c32578533e3f4531e349cd4be060b48" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>bFilled</name></member>
+      <member refid="classof_cairo_renderer_1a3e74528570bf30e19b31176893d191b5" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>bgColor</name></member>
+      <member refid="classof_cairo_renderer_1a6f4c9a60dd9bacce9e5b255a7a373ff8" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>bSmoothHinted</name></member>
+      <member refid="classof_cairo_renderer_1a08f08fcdb8864fde81872d1f3b2308c9" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>clear</name></member>
+      <member refid="classof_cairo_renderer_1a475f7c41e13ffe154ed353c4b2e836e9" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>clear</name></member>
+      <member refid="classof_cairo_renderer_1ad3a309e756af77fa962928018e1caeee" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>clearAlpha</name></member>
+      <member refid="classof_cairo_renderer_1a8280b52ecf27721b8d33ac8652b4bb65" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>close</name></member>
+      <member refid="classof_cairo_renderer_1a8283330e434bf71c2ffe04d9723f825b" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>cr</name></member>
+      <member refid="classof_cairo_renderer_1a6a11b09fc0ad5d3a9b232604e43ae20a" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>curvePoints</name></member>
+      <member refid="classof_base_renderer_1a78fd8d5b4864b1277fa8208c09d5d242" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>disablePointSprites</name></member>
+      <member refid="classof_cairo_renderer_1a7b07626fdbc8410889ee9884ce471fa0" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1a1cad4fc7ea663f4bb42c8d4f0322ee49" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1a19cdf25f21b91f6073cc257ea6bd1c84" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1a17932fb697292eaef830a10704299d8f" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1afb0d7d9dfbdace68ed2e5e7d9cd75476" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1a77a40bd7d26d58d68a65928070580140" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1a948eb5082329b9035b9807faab3809d9" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1a87b181e7b0f61d75c2c725c3b112488f" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1a5d9433f37711c3d0ed94c70ca13033eb" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>draw</name></member>
+      <member refid="classof_cairo_renderer_1a92e52d81d4aee42ee2444a82bf85d748" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>drawCircle</name></member>
+      <member refid="classof_cairo_renderer_1a8641b0baf1a323a1371a025ecc844eb5" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>drawEllipse</name></member>
+      <member refid="classof_cairo_renderer_1af8f5534e273d3e480e983e49cb25416b" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>drawLine</name></member>
+      <member refid="classof_cairo_renderer_1a87ca38cd07aad94f36d3bc0aa9bab757" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>drawRectangle</name></member>
+      <member refid="classof_cairo_renderer_1a686cd4854a5e1fb94a16386728d6c695" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>drawString</name></member>
+      <member refid="classof_cairo_renderer_1a7437fda0cc3291a4734c30d5215cb304" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>drawTriangle</name></member>
+      <member refid="classof_base_renderer_1aba08589f0c9394a6a2fa89aa1b746a21" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>enablePointSprites</name></member>
+      <member refid="classof_cairo_renderer_1a330c7be0c5952c535240e2f2220f1643" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>getBgColor</name></member>
+      <member refid="classof_cairo_renderer_1a74b1a44d818e6194d54ff5455c9200f0" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>getCairoContext</name></member>
+      <member refid="classof_cairo_renderer_1a8608a7dbabc80b064201bb2abed19a3b" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>getCairoMatrix</name></member>
+      <member refid="classof_cairo_renderer_1a2d784115f5556be0698cf638ff304e15" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>getCairoSurface</name></member>
+      <member refid="classof_cairo_renderer_1ad4dfd1712d8a302c4191fcd0c5ede706" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>getCoordHandedness</name></member>
+      <member refid="classof_cairo_renderer_1a34b2cf0594a8e0eb0a0e646ac2042ec7" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>getCurrentViewport</name></member>
+      <member refid="classof_cairo_renderer_1a2e3ec897cb1c67bce8e99900c50cc8af" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>getFillMode</name></member>
+      <member refid="classof_cairo_renderer_1ad53c213918dd9a3011788ac36ed21f28" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>getRectMode</name></member>
+      <member refid="classof_cairo_renderer_1a800e09830220c5ba4819fe4ad0ce0cf0" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>getType</name></member>
+      <member refid="classof_cairo_renderer_1ac1f2e3922892ab6c6dd4482f1a259ff4" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>getViewportHeight</name></member>
+      <member refid="classof_cairo_renderer_1a888924ffc3a037f67eb67dd3d4641329" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>getViewportWidth</name></member>
+      <member refid="classof_cairo_renderer_1a331fd19a8a762f4d6795d1073bf6e8c4" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>matrixStack</name></member>
+      <member refid="classof_cairo_renderer_1a738075ed243a73ec7523b4b6f2629a27" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>modelView</name></member>
+      <member refid="classof_cairo_renderer_1a385cc6c72c89f85ae7ca84597a218429" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>modelViewStack</name></member>
+      <member refid="classof_cairo_renderer_1a0e0c54b785f946017e217fc6346b45d6" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>multiPage</name></member>
+      <member refid="classof_cairo_renderer_1ad079c5691b32f860b4c2fb8875c9ebe2" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>ofCairoRenderer</name></member>
+      <member refid="classof_cairo_renderer_1af5d77897076bfe807f883b02df5e0814" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>page</name></member>
+      <member refid="classof_cairo_renderer_1aa4f542abccc80b9288466943a947ac55a57b815b8dd08e819b826cade2455413b" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>PDF</name></member>
+      <member refid="classof_cairo_renderer_1a14b22e5b97713bd80adc129923a33fbe" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>popMatrix</name></member>
+      <member refid="classof_cairo_renderer_1a95e3b1bf17c56b334ae9b265d0caf971" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>popView</name></member>
+      <member refid="classof_cairo_renderer_1a59935f6f0c6170a2d2884a2db2f712a4" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>projection</name></member>
+      <member refid="classof_cairo_renderer_1a9e518d01492b38848deb47754e164c43" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>projectionStack</name></member>
+      <member refid="classof_cairo_renderer_1ae80318ec09fad18566517d1034fa7bec" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>pushMatrix</name></member>
+      <member refid="classof_cairo_renderer_1acf52b56ca3516c61f81ccc08cfadced1" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>pushView</name></member>
+      <member refid="classof_cairo_renderer_1a12a2200b1844a576d547aa6846d2ec17" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>rectMode</name></member>
+      <member refid="classof_cairo_renderer_1a933632be24a7f9ee8175c3660a263c24" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>rendersPathPrimitives</name></member>
+      <member refid="classof_cairo_renderer_1a8822b11dafbe4649824e1abaa2d90377" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>rotate</name></member>
+      <member refid="classof_cairo_renderer_1a851fe7d8806fdbc44e4c1a44cc4c1ddf" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>rotate</name></member>
+      <member refid="classof_cairo_renderer_1a95e2617b09a278951a9da61b84dd73f4" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>rotateX</name></member>
+      <member refid="classof_cairo_renderer_1a8708e85a264993c6a1c17a603f5c3622" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>rotateY</name></member>
+      <member refid="classof_cairo_renderer_1ae49c0dd54cc8eeededda39ce57df3958" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>rotateZ</name></member>
+      <member refid="classof_cairo_renderer_1a02195750c37c906936670424102c2cf4" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>scale</name></member>
+      <member refid="classof_cairo_renderer_1a3c095b39a1fa8f7af272331c88a559c0" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setBackgroundAuto</name></member>
+      <member refid="classof_cairo_renderer_1ad17ae254ba8de9f79708149a78fc26eb" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setBlendMode</name></member>
+      <member refid="classof_cairo_renderer_1abf3138ad8fdaa4a4d022d27baa8bf06e" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>setCairoMatrix</name></member>
+      <member refid="classof_base_renderer_1a0f3753a0264093b42a0a5b59359f5142" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setCircleResolution</name></member>
+      <member refid="classof_cairo_renderer_1aae49df33ec0e2e50b192d02bc9254329" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setColor</name></member>
+      <member refid="classof_cairo_renderer_1ae73b748777bf75fb64ed1d5f6f5db023" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setColor</name></member>
+      <member refid="classof_cairo_renderer_1a1cf81f64f592e2277b88bfeb5cbd6aa7" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setColor</name></member>
+      <member refid="classof_cairo_renderer_1a0912699ae36ae6108f65e0c271a13b31" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setColor</name></member>
+      <member refid="classof_cairo_renderer_1aaf5079ce467b4741ee9beea895e09109" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setColor</name></member>
+      <member refid="classof_cairo_renderer_1a97610b9999e6e5831d88ff65926eeb33" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setCoordHandedness</name></member>
+      <member refid="classof_cairo_renderer_1a535bf1e13b51d0a5d4de152a94382c15" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setFillMode</name></member>
+      <member refid="classof_cairo_renderer_1a12eb0672c7053617129837077700fbe4" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setHexColor</name></member>
+      <member refid="classof_cairo_renderer_1a1901f46679555e72239d24807a269081" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setLineSmoothing</name></member>
+      <member refid="classof_cairo_renderer_1aa23662a69a84b60b645b0b732eb69796" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setLineWidth</name></member>
+      <member refid="classof_cairo_renderer_1a0b4c7064a42559a09763c60489c9ee37" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setRectMode</name></member>
+      <member refid="classof_cairo_renderer_1abfe14f8355ed3b7d754ad2b178e53d88" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>setup</name></member>
+      <member refid="classof_cairo_renderer_1a067de4b242130b80d9e07617eda7dd37" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setupGraphicDefaults</name></member>
+      <member refid="classof_cairo_renderer_1aff0476945a318bc4580e639b60017338" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setupScreen</name></member>
+      <member refid="classof_cairo_renderer_1a20f0da734ea37ef4d25a1a4dd67181e1" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setupScreenOrtho</name></member>
+      <member refid="classof_cairo_renderer_1a2d2544d8f0ecef5d3728f45a8d4229d9" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>setupScreenPerspective</name></member>
+      <member refid="classof_cairo_renderer_1a7c98626809e4e9180d6a66c58797dcc9" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>surface</name></member>
+      <member refid="classof_cairo_renderer_1aa4f542abccc80b9288466943a947ac55a1126079de0933bf6636da2cbe8eeb123" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>SVG</name></member>
+      <member refid="classof_cairo_renderer_1a86d25c51606ba06c37267bc9aeba90f7" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>tmpMatrix</name></member>
+      <member refid="classof_cairo_renderer_1a482f19dff9b14fdba4626c5d5789987b" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>transform</name></member>
+      <member refid="classof_cairo_renderer_1ac7767ad5bc65fe42932d8043ffccd699" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>translate</name></member>
+      <member refid="classof_cairo_renderer_1acc56715da18f40bc224dc3caca21b6b1" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>translate</name></member>
+      <member refid="classof_cairo_renderer_1a7fe738f52828634d494388bbc302d702" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>type</name></member>
+      <member refid="classof_cairo_renderer_1aa4f542abccc80b9288466943a947ac55" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>Type</name></member>
+      <member refid="classof_cairo_renderer_1a57f44289cb55fb1c6601b456f1c06f06" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>update</name></member>
+      <member refid="classof_cairo_renderer_1aeb4bdbd4882a0846cdd95d4a17c981a3" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>viewport</name></member>
+      <member refid="classof_cairo_renderer_1acae2134144ce0e7e328ffba50d867189" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>viewport</name></member>
+      <member refid="classof_cairo_renderer_1a173555d548576809b57aa9a54e9e8a97" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>viewportRect</name></member>
+      <member refid="classof_cairo_renderer_1ac61bf305b8235db9c5cb6e8c029c02fd" prot="private" virt="non-virtual"><scope>ofCairoRenderer</scope><name>viewportStack</name></member>
+      <member refid="classof_base_renderer_1a162ef56f1fa1ee5e245c47c24c76a54e" prot="public" virt="virtual"><scope>ofCairoRenderer</scope><name>~ofBaseRenderer</name></member>
+      <member refid="classof_cairo_renderer_1a3e6a6b041771a84b52dee3bf7599854e" prot="public" virt="non-virtual"><scope>ofCairoRenderer</scope><name>~ofCairoRenderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

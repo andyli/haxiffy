@@ -1,0 +1,1323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_shader" kind="class" prot="public">
+    <compoundname>ofShader</compoundname>
+    <includes refid="of_shader_8h" local="no">ofShader.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_shader_1a269e391f2c3171275721bdee426d4d0c" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofShader::program</definition>
+        <argsstring></argsstring>
+        <name>program</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="102" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_shader_1a16c163d8260562fe8e40073e8ab77c11" prot="private" static="no" mutable="no">
+        <type>map&lt; GLenum, GLuint &gt;</type>
+        <definition>map&lt;GLenum, GLuint&gt; ofShader::shaders</definition>
+        <argsstring></argsstring>
+        <name>shaders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="103" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_shader_1ad800e3b1de1279040aabf0dd8cd2de16" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofShader::bLoaded</definition>
+        <argsstring></argsstring>
+        <name>bLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="116" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_shader_1a73584392e61ecc25d966ae14a13f23ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofShader::ofShader</definition>
+        <argsstring>()</argsstring>
+        <name>ofShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1aee5d2be9eab7b3385685be54e5010c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofShader::~ofShader</definition>
+        <argsstring>()</argsstring>
+        <name>~ofShader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1abba5155402a941f1b8b638afae439ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofShader::load</definition>
+        <argsstring>(string shaderName)</argsstring>
+        <name>load</name>
+        <param>
+          <type>string</type>
+          <declname>shaderName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a703bcdfcee143c325a2187e061bc2044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofShader::load</definition>
+        <argsstring>(string vertName, string fragName, string geomName=&quot;&quot;)</argsstring>
+        <name>load</name>
+        <param>
+          <type>string</type>
+          <declname>vertName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fragName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>geomName</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a2e3bda5d5244a4ec2370046eaab6f7f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setGeometryInputType</definition>
+        <argsstring>(GLenum type)</argsstring>
+        <name>setGeometryInputType</name>
+        <param>
+          <type>GLenum</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1ae0f6ba661570808249ca3f2b277360d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setGeometryOutputType</definition>
+        <argsstring>(GLenum type)</argsstring>
+        <name>setGeometryOutputType</name>
+        <param>
+          <type>GLenum</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a089717c95700eeb56425aa05bc2a60af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setGeometryOutputCount</definition>
+        <argsstring>(int count)</argsstring>
+        <name>setGeometryOutputCount</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1aabeb035a6f923127a058da522bd842c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofShader::getGeometryMaxOutputCount</definition>
+        <argsstring>()</argsstring>
+        <name>getGeometryMaxOutputCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a197c00e9547fc5962c7318c13fa5ba0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::unload</definition>
+        <argsstring>()</argsstring>
+        <name>unload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a54bff8ba8e22f85d9be9fbb47430a73d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a3892fee400619365da5d5724a957a001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a7c5e410acb05fc81527a2b2d2b8c236e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniformTexture</definition>
+        <argsstring>(const char *name, ofBaseHasTexture &amp;img, int textureLocation)</argsstring>
+        <name>setUniformTexture</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_base_has_texture" kindref="compound">ofBaseHasTexture</ref> &amp;</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>textureLocation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a88692a914fe689606f5f52785357fd31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniformTexture</definition>
+        <argsstring>(const char *name, ofTexture &amp;img, int textureLocation)</argsstring>
+        <name>setUniformTexture</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_texture" kindref="compound">ofTexture</ref> &amp;</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>textureLocation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a1ff9f9ad9165480c4e2818defc1a5dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform1i</definition>
+        <argsstring>(const char *name, int v1)</argsstring>
+        <name>setUniform1i</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a652abc6adb3d2a4d38b9fcb74ed4ab1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform2i</definition>
+        <argsstring>(const char *name, int v1, int v2)</argsstring>
+        <name>setUniform2i</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1ae74401136d950fff044d4ca141c744da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform3i</definition>
+        <argsstring>(const char *name, int v1, int v2, int v3)</argsstring>
+        <name>setUniform3i</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a16c3aecbb2c4a854e06e6fa68a6d3c61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform4i</definition>
+        <argsstring>(const char *name, int v1, int v2, int v3, int v4)</argsstring>
+        <name>setUniform4i</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v3</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a973146a9199d850fb376a293fcb8b6e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform1f</definition>
+        <argsstring>(const char *name, float v1)</argsstring>
+        <name>setUniform1f</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a0c20c1667720b7e3112504f2fdfb67e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform2f</definition>
+        <argsstring>(const char *name, float v1, float v2)</argsstring>
+        <name>setUniform2f</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a0d6d3fa495a7ef5d1147c9ab00814161" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform3f</definition>
+        <argsstring>(const char *name, float v1, float v2, float v3)</argsstring>
+        <name>setUniform3f</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a8e1dac261ead2e60da74a3368dd00b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform4f</definition>
+        <argsstring>(const char *name, float v1, float v2, float v3, float v4)</argsstring>
+        <name>setUniform4f</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a833fa69a860a01ce3693e9452196e171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform1iv</definition>
+        <argsstring>(const char *name, int *v, int count=1)</argsstring>
+        <name>setUniform1iv</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a484bfb8ef015af278c9c185a90857c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform2iv</definition>
+        <argsstring>(const char *name, int *v, int count=1)</argsstring>
+        <name>setUniform2iv</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a3eb9a2258d7362bc41bc421722a6ea6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform3iv</definition>
+        <argsstring>(const char *name, int *v, int count=1)</argsstring>
+        <name>setUniform3iv</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1ae91c769da59df3010e34ea98e655b23d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform4iv</definition>
+        <argsstring>(const char *name, int *v, int count=1)</argsstring>
+        <name>setUniform4iv</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a117f44fa7997e1a66cc4eed28b4b4c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform1fv</definition>
+        <argsstring>(const char *name, float *v, int count=1)</argsstring>
+        <name>setUniform1fv</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1abe6e5ad7de98d2ee682230564d7cd636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform2fv</definition>
+        <argsstring>(const char *name, float *v, int count=1)</argsstring>
+        <name>setUniform2fv</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1ac32ca0b1b149970f7ffc96dc0deb6704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform3fv</definition>
+        <argsstring>(const char *name, float *v, int count=1)</argsstring>
+        <name>setUniform3fv</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a7005b4074d17d5ac424c6adf7d1d24f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setUniform4fv</definition>
+        <argsstring>(const char *name, float *v, int count=1)</argsstring>
+        <name>setUniform4fv</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a6a7c1181de27ec4d8340162ca1f31d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLint</type>
+        <definition>GLint ofShader::getAttributeLocation</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>getAttributeLocation</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a55bf8d9beaf7994ba9c47b95e699c1ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute1s</definition>
+        <argsstring>(GLint location, short v1)</argsstring>
+        <name>setAttribute1s</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1af401014dd74a493445b73f69564722bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute2s</definition>
+        <argsstring>(GLint location, short v1, short v2)</argsstring>
+        <name>setAttribute2s</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a4510988e4203c4c323b791edc07b27ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute3s</definition>
+        <argsstring>(GLint location, short v1, short v2, short v3)</argsstring>
+        <name>setAttribute3s</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1af17f9c18017c6a795dc17e54238eaebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute4s</definition>
+        <argsstring>(GLint location, short v1, short v2, short v3, short v4)</argsstring>
+        <name>setAttribute4s</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v3</declname>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>v4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a673bd83d76efd08a60ed74bf1bbc010b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute1f</definition>
+        <argsstring>(GLint location, float v1)</argsstring>
+        <name>setAttribute1f</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1aab9c2bdc41a8570d9d5a7b547d0be7cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute2f</definition>
+        <argsstring>(GLint location, float v1, float v2)</argsstring>
+        <name>setAttribute2f</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a6ca96527727465f87edabebce5d876be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute3f</definition>
+        <argsstring>(GLint location, float v1, float v2, float v3)</argsstring>
+        <name>setAttribute3f</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a19686eb9a0dcde302abf8ad6cc7b1cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute4f</definition>
+        <argsstring>(GLint location, float v1, float v2, float v3, float v4)</argsstring>
+        <name>setAttribute4f</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a61e0fae95154515a0dd93ace00ec620b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute1d</definition>
+        <argsstring>(GLint location, double v1)</argsstring>
+        <name>setAttribute1d</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1ac63fbe28e0ea4d896b3cdbde2ab696d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute2d</definition>
+        <argsstring>(GLint location, double v1, double v2)</argsstring>
+        <name>setAttribute2d</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a1505e9dcc966de5d1af30cb303cc37d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute3d</definition>
+        <argsstring>(GLint location, double v1, double v2, double v3)</argsstring>
+        <name>setAttribute3d</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1ab5c3a280e90330004c5d1cbc516618b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::setAttribute4d</definition>
+        <argsstring>(GLint location, double v1, double v2, double v3, double v4)</argsstring>
+        <name>setAttribute4d</name>
+        <param>
+          <type>GLint</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1ab968eeb48a0026e6f50b92a90c7792d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::printActiveUniforms</definition>
+        <argsstring>()</argsstring>
+        <name>printActiveUniforms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a7408b9e71d74dff3feb5f2248350cab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::printActiveAttributes</definition>
+        <argsstring>()</argsstring>
+        <name>printActiveAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a77e6e4f302b5277676d013d221f9017b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofShader::setupShaderFromSource</definition>
+        <argsstring>(GLenum type, string source)</argsstring>
+        <name>setupShaderFromSource</name>
+        <param>
+          <type>GLenum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1adef2885e7dc9e3875ed62b886a3f9695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofShader::setupShaderFromFile</definition>
+        <argsstring>(GLenum type, string filename)</argsstring>
+        <name>setupShaderFromFile</name>
+        <param>
+          <type>GLenum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a0ea39cb41a521e637a641354299ccfb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofShader::linkProgram</definition>
+        <argsstring>()</argsstring>
+        <name>linkProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1ad57e8fba23e2794c6cd1912e3ed313bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint &amp;</type>
+        <definition>GLuint&amp; ofShader::getProgram</definition>
+        <argsstring>()</argsstring>
+        <name>getProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1af3922cf1a2e2c495020223ecdc4d02e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint &amp;</type>
+        <definition>GLuint&amp; ofShader::getShader</definition>
+        <argsstring>(GLenum type)</argsstring>
+        <name>getShader</name>
+        <param>
+          <type>GLenum</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="99"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_shader_1a6cdd75dd38206b63df97aa068452b2e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLint</type>
+        <definition>GLint ofShader::getUniformLocation</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>getUniformLocation</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a031928b6d4c9e373fb80f6e390196b6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::checkProgramInfoLog</definition>
+        <argsstring>(GLuint program)</argsstring>
+        <name>checkProgramInfoLog</name>
+        <param>
+          <type>GLuint</type>
+          <declname>program</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a2f6de36c014124b1cb3fcb5c079c9b78" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofShader::checkShaderLinkStatus</definition>
+        <argsstring>(GLuint shader, GLenum type)</argsstring>
+        <name>checkShaderLinkStatus</name>
+        <param>
+          <type>GLuint</type>
+          <declname>shader</declname>
+        </param>
+        <param>
+          <type>GLenum</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1a074d8fc530a50be1a10624f7f7334d6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::checkShaderInfoLog</definition>
+        <argsstring>(GLuint shader, GLenum type)</argsstring>
+        <name>checkShaderInfoLog</name>
+        <param>
+          <type>GLuint</type>
+          <declname>shader</declname>
+        </param>
+        <param>
+          <type>GLenum</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_shader_1aeb1be37886264bf8a7c0fe543b56e0f9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShader::checkAndCreateProgram</definition>
+        <argsstring>()</argsstring>
+        <name>checkAndCreateProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classof_shader_1a9fbcc6230135a692f90c05fe4913cf7d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofShader::nameForType</definition>
+        <argsstring>(GLenum type)</argsstring>
+        <name>nameForType</name>
+        <param>
+          <type>GLenum</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" line="17" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofShader.h" bodystart="17" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classof_shader_1a54bff8ba8e22f85d9be9fbb47430a73d" prot="public" virt="non-virtual"><scope>ofShader</scope><name>begin</name></member>
+      <member refid="classof_shader_1ad800e3b1de1279040aabf0dd8cd2de16" prot="private" virt="non-virtual"><scope>ofShader</scope><name>bLoaded</name></member>
+      <member refid="classof_shader_1aeb1be37886264bf8a7c0fe543b56e0f9" prot="private" virt="non-virtual"><scope>ofShader</scope><name>checkAndCreateProgram</name></member>
+      <member refid="classof_shader_1a031928b6d4c9e373fb80f6e390196b6d" prot="private" virt="non-virtual"><scope>ofShader</scope><name>checkProgramInfoLog</name></member>
+      <member refid="classof_shader_1a074d8fc530a50be1a10624f7f7334d6d" prot="private" virt="non-virtual"><scope>ofShader</scope><name>checkShaderInfoLog</name></member>
+      <member refid="classof_shader_1a2f6de36c014124b1cb3fcb5c079c9b78" prot="private" virt="non-virtual"><scope>ofShader</scope><name>checkShaderLinkStatus</name></member>
+      <member refid="classof_shader_1a3892fee400619365da5d5724a957a001" prot="public" virt="non-virtual"><scope>ofShader</scope><name>end</name></member>
+      <member refid="classof_shader_1a6a7c1181de27ec4d8340162ca1f31d73" prot="public" virt="non-virtual"><scope>ofShader</scope><name>getAttributeLocation</name></member>
+      <member refid="classof_shader_1aabeb035a6f923127a058da522bd842c6" prot="public" virt="non-virtual"><scope>ofShader</scope><name>getGeometryMaxOutputCount</name></member>
+      <member refid="classof_shader_1ad57e8fba23e2794c6cd1912e3ed313bf" prot="public" virt="non-virtual"><scope>ofShader</scope><name>getProgram</name></member>
+      <member refid="classof_shader_1af3922cf1a2e2c495020223ecdc4d02e1" prot="public" virt="non-virtual"><scope>ofShader</scope><name>getShader</name></member>
+      <member refid="classof_shader_1a6cdd75dd38206b63df97aa068452b2e2" prot="private" virt="non-virtual"><scope>ofShader</scope><name>getUniformLocation</name></member>
+      <member refid="classof_shader_1a0ea39cb41a521e637a641354299ccfb6" prot="public" virt="non-virtual"><scope>ofShader</scope><name>linkProgram</name></member>
+      <member refid="classof_shader_1abba5155402a941f1b8b638afae439ffe" prot="public" virt="non-virtual"><scope>ofShader</scope><name>load</name></member>
+      <member refid="classof_shader_1a703bcdfcee143c325a2187e061bc2044" prot="public" virt="non-virtual"><scope>ofShader</scope><name>load</name></member>
+      <member refid="classof_shader_1a9fbcc6230135a692f90c05fe4913cf7d" prot="private" virt="non-virtual"><scope>ofShader</scope><name>nameForType</name></member>
+      <member refid="classof_shader_1a73584392e61ecc25d966ae14a13f23ec" prot="public" virt="non-virtual"><scope>ofShader</scope><name>ofShader</name></member>
+      <member refid="classof_shader_1a7408b9e71d74dff3feb5f2248350cab8" prot="public" virt="non-virtual"><scope>ofShader</scope><name>printActiveAttributes</name></member>
+      <member refid="classof_shader_1ab968eeb48a0026e6f50b92a90c7792d2" prot="public" virt="non-virtual"><scope>ofShader</scope><name>printActiveUniforms</name></member>
+      <member refid="classof_shader_1a269e391f2c3171275721bdee426d4d0c" prot="private" virt="non-virtual"><scope>ofShader</scope><name>program</name></member>
+      <member refid="classof_shader_1a61e0fae95154515a0dd93ace00ec620b" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute1d</name></member>
+      <member refid="classof_shader_1a673bd83d76efd08a60ed74bf1bbc010b" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute1f</name></member>
+      <member refid="classof_shader_1a55bf8d9beaf7994ba9c47b95e699c1ab" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute1s</name></member>
+      <member refid="classof_shader_1ac63fbe28e0ea4d896b3cdbde2ab696d3" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute2d</name></member>
+      <member refid="classof_shader_1aab9c2bdc41a8570d9d5a7b547d0be7cf" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute2f</name></member>
+      <member refid="classof_shader_1af401014dd74a493445b73f69564722bf" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute2s</name></member>
+      <member refid="classof_shader_1a1505e9dcc966de5d1af30cb303cc37d6" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute3d</name></member>
+      <member refid="classof_shader_1a6ca96527727465f87edabebce5d876be" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute3f</name></member>
+      <member refid="classof_shader_1a4510988e4203c4c323b791edc07b27ed" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute3s</name></member>
+      <member refid="classof_shader_1ab5c3a280e90330004c5d1cbc516618b7" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute4d</name></member>
+      <member refid="classof_shader_1a19686eb9a0dcde302abf8ad6cc7b1cfe" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute4f</name></member>
+      <member refid="classof_shader_1af17f9c18017c6a795dc17e54238eaebb" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setAttribute4s</name></member>
+      <member refid="classof_shader_1a2e3bda5d5244a4ec2370046eaab6f7f6" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setGeometryInputType</name></member>
+      <member refid="classof_shader_1a089717c95700eeb56425aa05bc2a60af" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setGeometryOutputCount</name></member>
+      <member refid="classof_shader_1ae0f6ba661570808249ca3f2b277360d2" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setGeometryOutputType</name></member>
+      <member refid="classof_shader_1a973146a9199d850fb376a293fcb8b6e5" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform1f</name></member>
+      <member refid="classof_shader_1a117f44fa7997e1a66cc4eed28b4b4c75" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform1fv</name></member>
+      <member refid="classof_shader_1a1ff9f9ad9165480c4e2818defc1a5dc1" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform1i</name></member>
+      <member refid="classof_shader_1a833fa69a860a01ce3693e9452196e171" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform1iv</name></member>
+      <member refid="classof_shader_1a0c20c1667720b7e3112504f2fdfb67e4" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform2f</name></member>
+      <member refid="classof_shader_1abe6e5ad7de98d2ee682230564d7cd636" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform2fv</name></member>
+      <member refid="classof_shader_1a652abc6adb3d2a4d38b9fcb74ed4ab1c" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform2i</name></member>
+      <member refid="classof_shader_1a484bfb8ef015af278c9c185a90857c76" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform2iv</name></member>
+      <member refid="classof_shader_1a0d6d3fa495a7ef5d1147c9ab00814161" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform3f</name></member>
+      <member refid="classof_shader_1ac32ca0b1b149970f7ffc96dc0deb6704" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform3fv</name></member>
+      <member refid="classof_shader_1ae74401136d950fff044d4ca141c744da" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform3i</name></member>
+      <member refid="classof_shader_1a3eb9a2258d7362bc41bc421722a6ea6d" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform3iv</name></member>
+      <member refid="classof_shader_1a8e1dac261ead2e60da74a3368dd00b29" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform4f</name></member>
+      <member refid="classof_shader_1a7005b4074d17d5ac424c6adf7d1d24f9" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform4fv</name></member>
+      <member refid="classof_shader_1a16c3aecbb2c4a854e06e6fa68a6d3c61" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform4i</name></member>
+      <member refid="classof_shader_1ae91c769da59df3010e34ea98e655b23d" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniform4iv</name></member>
+      <member refid="classof_shader_1a7c5e410acb05fc81527a2b2d2b8c236e" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniformTexture</name></member>
+      <member refid="classof_shader_1a88692a914fe689606f5f52785357fd31" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setUniformTexture</name></member>
+      <member refid="classof_shader_1adef2885e7dc9e3875ed62b886a3f9695" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setupShaderFromFile</name></member>
+      <member refid="classof_shader_1a77e6e4f302b5277676d013d221f9017b" prot="public" virt="non-virtual"><scope>ofShader</scope><name>setupShaderFromSource</name></member>
+      <member refid="classof_shader_1a16c163d8260562fe8e40073e8ab77c11" prot="private" virt="non-virtual"><scope>ofShader</scope><name>shaders</name></member>
+      <member refid="classof_shader_1a197c00e9547fc5962c7318c13fa5ba0d" prot="public" virt="non-virtual"><scope>ofShader</scope><name>unload</name></member>
+      <member refid="classof_shader_1aee5d2be9eab7b3385685be54e5010c96" prot="public" virt="non-virtual"><scope>ofShader</scope><name>~ofShader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

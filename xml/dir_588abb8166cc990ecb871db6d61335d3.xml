@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_588abb8166cc990ecb871db6d61335d3" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/</compoundname>
+    <innerfile refid="of_constants_8h">ofConstants.h</innerfile>
+    <innerfile refid="of_file_utils_8h">ofFileUtils.h</innerfile>
+    <innerfile refid="of_log_8h">ofLog.h</innerfile>
+    <innerfile refid="of_noise_8h">ofNoise.h</innerfile>
+    <innerfile refid="of_system_utils_8h">ofSystemUtils.h</innerfile>
+    <innerfile refid="of_thread_8h">ofThread.h</innerfile>
+    <innerfile refid="of_u_r_l_file_loader_8h">ofURLFileLoader.h</innerfile>
+    <innerfile refid="of_utils_8h">ofUtils.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/"/>
+  </compounddef>
+</doxygen>

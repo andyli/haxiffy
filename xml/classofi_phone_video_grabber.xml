@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classofi_phone_video_grabber" kind="class" prot="public">
+    <compoundname>ofiPhoneVideoGrabber</compoundname>
+    <basecompoundref refid="classof_base_video_grabber" prot="public" virt="non-virtual">ofBaseVideoGrabber</basecompoundref>
+    <includes refid="ofi_phone_video_grabber_8h" local="no">ofiPhoneVideoGrabber.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classofi_phone_video_grabber_1a829da1ee3f57da954ade812c2ae430eb" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; AVFoundationVideoGrabber &gt;</type>
+        <definition>ofPtr&lt;AVFoundationVideoGrabber&gt; ofiPhoneVideoGrabber::grabber</definition>
+        <argsstring></argsstring>
+        <name>grabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="45" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classofi_phone_video_grabber_1af136ca145a67e993d08bf1c71c6f1938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofiPhoneVideoGrabber::ofiPhoneVideoGrabber</definition>
+        <argsstring>()</argsstring>
+        <name>ofiPhoneVideoGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1adc914814d4a6d78b227af16e88bc129b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoGrabber::listDevices</definition>
+        <argsstring>()</argsstring>
+        <name>listDevices</name>
+        <reimplements refid="classof_base_video_grabber_1a0ee487203961b1d6b635598a181a9835">listDevices</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1aeffe6aca99fee72be04240aa3e752381" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoGrabber::getDeviceList</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="18" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1ac6d50adc772820891d4b3209e81407ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoGrabber::initGrabber</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>initGrabber</name>
+        <reimplements refid="classof_base_video_grabber_1a7dc4e14ca5c1bf64f6c9ef49fff421e3">initGrabber</reimplements>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1aabbecd00628353b122464d4bcf678704" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoGrabber::isFrameNew</definition>
+        <argsstring>()</argsstring>
+        <name>isFrameNew</name>
+        <reimplements refid="classof_base_video_grabber_1a49571efac6ac055c07b5147e15a98643">isFrameNew</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1a1b1f85f11fa046594da0a60d9e78f3bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char* ofiPhoneVideoGrabber::getPixels</definition>
+        <argsstring>()</argsstring>
+        <name>getPixels</name>
+        <reimplements refid="classof_base_video_grabber_1a7a9d9dc85963036f16d937cee730f654">getPixels</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1ac49d813d6494d8d5a6ca8bafe6d60901" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref></type>
+        <definition>ofPixelsRef ofiPhoneVideoGrabber::getPixelsRef</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelsRef</name>
+        <reimplements refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45">getPixelsRef</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1a0a3e3f6d46c72c83b0b0136c6efd5df9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoGrabber::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_video_grabber_1a8c7237c2cf5d2aac261d37a0fc22a2a3">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1adcf47ad85d21006b79e4472b47b805a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofiPhoneVideoGrabber::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplements refid="classof_base_video_grabber_1adc370b3e10351d456a70c3097e5a25bd">getHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1a82b3ba175d8f63b1f4e16b7cdb4a6651" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofiPhoneVideoGrabber::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplements refid="classof_base_video_grabber_1a92e4e75c73b92c7eb3da31cdfbf9927e">getWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1a43d60991aa0825944656ba28565e625a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoGrabber::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_video_grabber_1afa0adff5581f2aeb2f2973a5686097de">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1a3972fb794c4c2682a641495056f9cb19" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoGrabber::setDeviceID</definition>
+        <argsstring>(int _deviceID)</argsstring>
+        <name>setDeviceID</name>
+        <reimplements refid="classof_base_video_grabber_1aa38de069285824287a24a7a5680f6ab4">setDeviceID</reimplements>
+        <param>
+          <type>int</type>
+          <declname>_deviceID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1a1efdcb90053f3910a134f20cbe271cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoGrabber::setDesiredFrameRate</definition>
+        <argsstring>(int framerate)</argsstring>
+        <name>setDesiredFrameRate</name>
+        <reimplements refid="classof_base_video_grabber_1acfd1ec20c5ad349c4c611e1f55dfb3b5">setDesiredFrameRate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>framerate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1a6d14ceb1c6538e8bc9f2ba837a415cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoGrabber::setPixelFormat</definition>
+        <argsstring>(ofPixelFormat internalPixelFormat)</argsstring>
+        <name>setPixelFormat</name>
+        <reimplements refid="classof_base_video_grabber_1ac3bea58983a64528ba6ba7473d17eafe">setPixelFormat</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+          <declname>internalPixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_grabber_1a6a2f40d53a22f443a541a4beb257c9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+        <definition>ofPixelFormat ofiPhoneVideoGrabber::getPixelFormat</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelFormat</name>
+        <reimplements refid="classof_base_video_grabber_1a366ed68409e1851f4871cb873ef076b5">getPixelFormat</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="401">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="402" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>ofiPhoneVideoGrabber</label>
+        <link refid="classofi_phone_video_grabber"/>
+        <childnode refid="399" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="401" relation="public-inheritance">
+        </childnode>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="399">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="407">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="408" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>ofPtr&lt; AVFoundationVideoGrabber &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>ofiPhoneVideoGrabber</label>
+        <link refid="classofi_phone_video_grabber"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>grabber</edgelabel>
+        </childnode>
+      </node>
+      <node id="411">
+        <label>std::tr1::shared_ptr&lt; AVFoundationVideoGrabber &gt;</label>
+        <link refid="classstd_1_1tr1_1_1shared__ptr"/>
+      </node>
+      <node id="406">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="407" relation="public-inheritance">
+        </childnode>
+        <childnode refid="409" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="405">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="408">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" line="9" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classofi_phone_video_grabber_1a0a3e3f6d46c72c83b0b0136c6efd5df9" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>close</name></member>
+      <member refid="classofi_phone_video_grabber_1aeffe6aca99fee72be04240aa3e752381" prot="public" virt="non-virtual"><scope>ofiPhoneVideoGrabber</scope><name>getDeviceList</name></member>
+      <member refid="classofi_phone_video_grabber_1adcf47ad85d21006b79e4472b47b805a4" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>getHeight</name></member>
+      <member refid="classofi_phone_video_grabber_1a6a2f40d53a22f443a541a4beb257c9fa" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>getPixelFormat</name></member>
+      <member refid="classofi_phone_video_grabber_1a1b1f85f11fa046594da0a60d9e78f3bc" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>getPixels</name></member>
+      <member refid="classofi_phone_video_grabber_1ac49d813d6494d8d5a6ca8bafe6d60901" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>getPixelsRef</name></member>
+      <member refid="classofi_phone_video_grabber_1a82b3ba175d8f63b1f4e16b7cdb4a6651" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>getWidth</name></member>
+      <member refid="classofi_phone_video_grabber_1a829da1ee3f57da954ade812c2ae430eb" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoGrabber</scope><name>grabber</name></member>
+      <member refid="classofi_phone_video_grabber_1ac6d50adc772820891d4b3209e81407ce" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>initGrabber</name></member>
+      <member refid="classofi_phone_video_grabber_1aabbecd00628353b122464d4bcf678704" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>isFrameNew</name></member>
+      <member refid="classofi_phone_video_grabber_1adc914814d4a6d78b227af16e88bc129b" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>listDevices</name></member>
+      <member refid="classofi_phone_video_grabber_1af136ca145a67e993d08bf1c71c6f1938" prot="public" virt="non-virtual"><scope>ofiPhoneVideoGrabber</scope><name>ofiPhoneVideoGrabber</name></member>
+      <member refid="classofi_phone_video_grabber_1a1efdcb90053f3910a134f20cbe271cd3" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>setDesiredFrameRate</name></member>
+      <member refid="classofi_phone_video_grabber_1a3972fb794c4c2682a641495056f9cb19" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>setDeviceID</name></member>
+      <member refid="classofi_phone_video_grabber_1a6d14ceb1c6538e8bc9f2ba837a415cba" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>setPixelFormat</name></member>
+      <member refid="classof_base_video_grabber_1a16805cae9b0c71b209b2dba9d99ce5f7" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>setVerbose</name></member>
+      <member refid="classofi_phone_video_grabber_1a43d60991aa0825944656ba28565e625a" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>update</name></member>
+      <member refid="classof_base_video_grabber_1ab3601be3ab4dc5fed812916e2c3cdc1b" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>videoSettings</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_updates_1a48cbac34caf49b4b72092888a7e63b27" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>~ofBaseUpdates</name></member>
+      <member refid="classof_base_video_1af8004a840c98637ba7572b2c34bbc249" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>~ofBaseVideo</name></member>
+      <member refid="classof_base_video_grabber_1a75e74f70959698d0800e960ccc525be7" prot="public" virt="virtual"><scope>ofiPhoneVideoGrabber</scope><name>~ofBaseVideoGrabber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

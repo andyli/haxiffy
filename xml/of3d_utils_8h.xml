@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of3d_utils_8h" kind="file">
+    <compoundname>of3dUtils.h</compoundname>
+    <includedby refid="of_node_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h</includedby>
+    <invincdepgraph>
+      <node id="4">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h</label>
+        <link refid="of_easy_cam_8h"/>
+      </node>
+      <node id="3">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h</label>
+        <link refid="of_camera_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/of3dUtils.h</label>
+        <link refid="of3dUtils.h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h</label>
+        <link refid="of_node_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of3d_utils_8h_1a30cb936226988baf93141d8a14eabd31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDrawAxis</definition>
+        <argsstring>(float size)</argsstring>
+        <name>ofDrawAxis</name>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/of3dUtils.h" line="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of3d_utils_8h_1a30cb936226988baf93141d8a14eabd31" kindref="member">ofDrawAxis</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/of3dUtils.h"/>
+  </compounddef>
+</doxygen>

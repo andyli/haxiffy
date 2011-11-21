@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_abstract_image" kind="class" prot="public">
+    <compoundname>ofAbstractImage</compoundname>
+    <basecompoundref refid="classof_base_draws" prot="public" virt="non-virtual">ofBaseDraws</basecompoundref>
+    <basecompoundref refid="classof_base_has_texture" prot="public" virt="non-virtual">ofBaseHasTexture</basecompoundref>
+    <derivedcompoundref refid="classof_base_image__" prot="public" virt="non-virtual">ofBaseImage_&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_base_image__" prot="public" virt="non-virtual">ofBaseImage_&lt; PixelType &gt;</derivedcompoundref>
+    <includes refid="of_base_types_8h" local="no">ofBaseTypes.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_abstract_image_1a9b41e30e8e214c463a20363797c902dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofAbstractImage::~ofAbstractImage</definition>
+        <argsstring>()</argsstring>
+        <name>~ofAbstractImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="109" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>ofBaseImage_&lt; PixelType &gt;</label>
+        <link refid="classof_base_image__"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>ofImage_&lt; PixelType &gt;</label>
+        <link refid="classof_image__"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>ofAbstractImage</label>
+        <link refid="classof_abstract_image"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="29">
+        <label>ofBaseImage_&lt; T &gt;</label>
+        <link refid="classof_base_image__"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>ofAbstractImage</label>
+        <link refid="classof_abstract_image"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="34">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="107" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="107" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classof_base_draws_1aa672814ee548835e571561863855262e" prot="public" virt="pure-virtual"><scope>ofAbstractImage</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a34e129056ed6238b2cc0b8b13cfab676" prot="public" virt="pure-virtual"><scope>ofAbstractImage</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a768768895b8cb95515094c958f9ec0f0" prot="public" virt="virtual"><scope>ofAbstractImage</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a0ae112e1709647d6dd84d0787876cb8a" prot="public" virt="virtual"><scope>ofAbstractImage</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1ac192eb9129a4548f64ed05c504c84b45" prot="public" virt="pure-virtual"><scope>ofAbstractImage</scope><name>getHeight</name></member>
+      <member refid="classof_base_has_texture_1ae0f27d5ca6d5a92ee3d9b3d6088745f6" prot="public" virt="pure-virtual"><scope>ofAbstractImage</scope><name>getTextureReference</name></member>
+      <member refid="classof_base_draws_1ab85c73ed90a60ab75453f1e9ca831a84" prot="public" virt="pure-virtual"><scope>ofAbstractImage</scope><name>getWidth</name></member>
+      <member refid="classof_base_draws_1a8e60af373caa636320b505ca07f274ae" prot="public" virt="virtual"><scope>ofAbstractImage</scope><name>resetAnchor</name></member>
+      <member refid="classof_base_draws_1a3cf9dd7a898b3503ac0509574eaaeff3" prot="public" virt="virtual"><scope>ofAbstractImage</scope><name>setAnchorPercent</name></member>
+      <member refid="classof_base_draws_1aefa6eaad3d976a6c1717105ea4443e56" prot="public" virt="virtual"><scope>ofAbstractImage</scope><name>setAnchorPoint</name></member>
+      <member refid="classof_base_has_texture_1a3d2529a36a39ad5277f3050459cc3c80" prot="public" virt="pure-virtual"><scope>ofAbstractImage</scope><name>setUseTexture</name></member>
+      <member refid="classof_abstract_image_1a9b41e30e8e214c463a20363797c902dc" prot="public" virt="virtual"><scope>ofAbstractImage</scope><name>~ofAbstractImage</name></member>
+      <member refid="classof_base_draws_1af97993d6809a3a3bce934ce2d1fc3fc4" prot="public" virt="virtual"><scope>ofAbstractImage</scope><name>~ofBaseDraws</name></member>
+      <member refid="classof_base_has_texture_1a45f59246be49ccf62aa090d928cd9096" prot="public" virt="virtual"><scope>ofAbstractImage</scope><name>~ofBaseHasTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,188 @@
+<xml>
+	<include name="${HXCPP}/build-tool/BuildCommon.xml"/>
+	
+	<set name="OF_DIR" value="/Users/andy/Documents/of_preRelease_v007_osx" />
+	
+	<set name="OF_PLATFORM" value="vs2010" if="windows" />
+	<set name="OF_PLATFORM" value="osx" if="macos" />
+	<set name="OF_PLATFORM" value="linux${M64}" if="linux" />
+	
+	<set name="TARGET_MODE" value="Debug" if="debug" />
+	<set name="TARGET_MODE" value="Release" unless="debug" />
+	
+	<files id="oF_Files">
+		<file name="ndll_api.cpp"/>
+		
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/3d"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/app"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/communication"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/events"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/gl"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/graphics"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/math"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/sound"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/types"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/utils"/>
+		<compilerflag value = "-I${OF_DIR}/libs/openFrameworks/video"/>
+		
+		<compilerflag value = "-I${OF_DIR}/libs/cairo/include/cairo"/>
+		<compilerflag value = "-I${OF_DIR}/libs/fmodex/include"/>
+		<compilerflag value = "-I${OF_DIR}/libs/FreeImage/include"/>
+		<compilerflag value = "-I${OF_DIR}/libs/freetype/include"/>
+		<compilerflag value = "-I${OF_DIR}/libs/freetype/include/freetype2"/>
+		<compilerflag value = "-I${OF_DIR}/libs/glew/include"/>
+		<compilerflag value = "-I${OF_DIR}/libs/poco/include"/>
+		<compilerflag value = "-I${OF_DIR}/libs/rtaudio/include"/>
+		<compilerflag value = "-I${OF_DIR}/libs/tess2/include"/>
+		
+		<compilerflag value = "-I/usr/include" if="macos"/>
+		<compilerflag value = "-I/usr/include/GL" if="macos"/>
+		
+		
+		<compilerflag value = "-DHAXE" />
+		
+		<compilerflag value = "-D__WIN32__" if="windows"/>
+		<compilerflag value = "-DWIN32" if="windows"/>
+		<compilerflag value = "-DNDEBUG" if="windows"/>
+		<compilerflag value = "-D_CONSOLE" if="windows"/>
+		<compilerflag value = "-DPOCO_STATIC" if="windows"/>
+
+
+		<compilerflag value = "-D__MACOSX_CORE__" if="macos"/>
+		<compilerflag value = "-w" if="macos"/>
+		<compilerflag value = "-Wfatal-errors" if="macos"/>
+		<compilerflag value = "-W" if="macos"/>
+		<compilerflag value = "-fexceptions" if="macos"/>
+		
+		<compilerflag value = "-march=native" if="linux"/>
+		<compilerflag value = "-mtune=native" if="linux"/>
+		<compilerflag value = "-finline-functions" if="linux"/>
+		<compilerflag value = "-funroll-all-loops" if="linux"/>
+		<compilerflag value = "-O3" if="linux"/>
+		<compilerflag value = "-Wall" if="linux"/>
+		<compilerflag value = "-fexceptions" if="linux"/>
+		<compilerflag value = "-pthread" if="linux"/>
+		<compilerflag value = "-I/usr/include/gstreamer-0.10" if="linux"/>
+		<compilerflag value = "-I/usr/include/glib-2.0" if="linux"/>
+		<compilerflag value = "-I/usr/lib/glib-2.0/include" if="linux"/>
+		<compilerflag value = "-I/usr/include/libxml2" if="linux"/>
+	</files>
+	
+	<target id="hxOpenFrameworks.ndll" tool="linker" toolid="dll" output="hxOpenFrameworks">
+		<files id="oF_Files"/>
+		<ext value=".ndll"/>
+		<outdir name="../ndll/${BINDIR}"/>
+		
+		<lib name="${LIB_LINK}"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/glut/lib/${OF_PLATFORM}" if="windows"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/FreeImage/lib/${OF_PLATFORM}" if="windows"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/freetype/lib/${OF_PLATFORM}" if="windows"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/quicktime/lib/${OF_PLATFORM}" if="windows"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/fmodex/lib/${OF_PLATFORM}" if="windows"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/videoInput/lib/${OF_PLATFORM}" if="windows"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/glee/lib/${OF_PLATFORM}" if="windows"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/glu/lib/${OF_PLATFORM}" if="windows"/>
+		<lib name="-LIBPATH:${OF_DIR}/libs/Poco/lib/${OF_PLATFORM}" if="windows"/>
+		
+		<lib name = '-NODEFAULTLIB:atlthunk.lib' if="windows"/>
+		<lib name = '-NODEFAULTLIB:libc.lib' if="windows"/>
+		<lib name = '-NODEFAULTLIB:MSVCRT.LIB' if="windows"/>
+		<lib name = '-NODEFAULTLIB:MSVCPRT.LIB' if="windows"/>
+		
+		<lib name = 'OpenGL32.lib' if="windows" />
+		<lib name = 'GLu32.lib' if="windows" />
+		<lib name = 'kernel32.lib' if="windows" />
+		<lib name = 'setupapi.lib' if="windows" />
+		<lib name = 'glut32.lib' if="windows" />
+		<lib name = 'videoInput.lib' if="windows" />
+		<lib name = 'libfreetype.lib' if="windows" />
+		<lib name = 'FreeImage.lib' if="windows" />
+		<lib name = 'qtmlClient.lib' if="windows" />
+		<lib name = 'dsound.lib' if="windows" />
+		<lib name = 'user32.lib' if="windows" />
+		<lib name = 'gdi32.lib' if="windows" />
+		<lib name = 'winspool.lib' if="windows" />
+		<lib name = 'comdlg32.lib' if="windows" />
+		<lib name = 'advapi32.lib' if="windows" />
+		<lib name = 'shell32.lib' if="windows" />
+		<lib name = 'ole32.lib' if="windows" />
+		<lib name = 'oleaut32.lib' if="windows" />
+		<lib name = 'uuid.lib' if="windows" />
+		<lib name = 'GLee.lib' if="windows" />
+		<lib name = 'fmodex_vc.lib' if="windows" />
+		<lib name = 'glu32.lib' if="windows" />
+		<lib name = 'PocoFoundationmt.lib' if="windows" />
+		<lib name = 'PocoNetmt.lib' if="windows" />
+		<lib name = 'PocoUtilmt.lib' if="windows" />
+		<lib name = 'PocoXMLmt.lib' if="windows" />
+		<lib name = 'odbc32.lib' if="windows" />
+		<lib name = 'odbccp32.lib' if="windows" />
+
+		<lib name = "-I${OF_DIR}/libs/cairo/lib/osx/cairo-script-interpreter.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/cairo/lib/osx/cairo.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/cairo/lib/osx/pixman-1.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/fmodex/lib/osx/libfmodex.dylib" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/FreeImage/lib/osx/freeimage.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/freetype/lib/osx/freetype.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/glew/lib/osx/glew.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/poco/lib/osx/PocoFoundation.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/poco/lib/osx/PocoNet.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/poco/lib/osx/PocoUtil.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/poco/lib/osx/PocoXML.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/rtAudio/lib/osx/rtAudio.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/tess2/lib/osx/tess2.a" if="macos" />
+		<lib name = "-I${OF_DIR}/libs/openFrameworksCompiled/lib/osx/openFrameworks.a" if="macos" />
+
+		
+		<lib name="-pthread" if="macos"/>
+		<vflag name="-framework" value="AGL" if="macos"/>
+		<vflag name="-framework" value="ApplicationServices" if="macos"/>
+		<vflag name="-framework" value="AudioToolbox" if="macos"/>
+		<vflag name="-framework" value="Carbon" if="macos"/>
+		<vflag name="-framework" value="CoreAudio" if="macos"/>
+		<vflag name="-framework" value="CoreFoundation" if="macos"/>
+		<vflag name="-framework" value="CoreServices" if="macos"/>
+		<vflag name="-framework" value="OpenGL" if="macos"/>
+		<vflag name="-framework" value="QuickTime" if="macos"/>
+		<vflag name="-framework" value="AppKit" if="macos"/>
+		<vflag name="-framework" value="Cocoa" if="macos"/>
+		<vflag name="-framework" value="IOKit" if="macos"/>
+		<vflag name="-framework" value="GLUT" if="macos"/>
+		
+		
+		<lib name = '${OF_DIR}/libs/openFrameworksCompiled/lib/${OF_PLATFORM}/libopenFrameworks.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/fmodex/lib/${OF_PLATFORM}/libfmodex.so' if="linux" />
+		<lib name = '${OF_DIR}/libs/FreeImage/lib/${OF_PLATFORM}/libfreeimage.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/freetype/lib/${OF_PLATFORM}/libfreetype.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/glee/lib/${OF_PLATFORM}/libGLee.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/gstappsink/lib/${OF_PLATFORM}/liboFappsink.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/poco/lib/${OF_PLATFORM}/libPocoFoundation.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/poco/lib/${OF_PLATFORM}/libPocoNet.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/poco/lib/${OF_PLATFORM}/libPocoUtil.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/poco/lib/${OF_PLATFORM}/libPocoXML.a' if="linux" />
+		<lib name = '${OF_DIR}/libs/rtAudio/lib/${OF_PLATFORM}/libRtAudio.a' if="linux" />
+		<!--<lib name="-s" if="linux"/>-->
+		<lib name="-pthread" if="linux"/>
+		<lib name="-lgstvideo-0.10" if="linux"/>
+		<lib name="-lgstbase-0.10" if="linux"/>
+		<lib name="-lgstreamer-0.10" if="linux"/>
+		<lib name="-lgobject-2.0" if="linux"/>
+		<lib name="-lgmodule-2.0" if="linux"/>
+		<lib name="-lxml2" if="linux"/>
+		<lib name="-lgthread-2.0" if="linux"/>
+		<lib name="-lrt" if="linux"/>
+		<lib name="-lglib-2.0" if="linux"/>
+		<lib name="-ludev" if="linux"/>
+		<lib name="-lglut" if="linux"/>
+		<lib name="-lGL" if="linux"/>
+		<lib name="-lGLU" if="linux"/>
+		<lib name="-lasound" if="linux"/>
+		<lib name="-Wl,-rpath=." if="linux"/>
+	</target>
+
+	<target id="default">
+		<target id="hxOpenFrameworks.ndll"/>
+	</target>
+</xml>

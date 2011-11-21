@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_types_8h" kind="file">
+    <compoundname>ofTypes.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includes refid="of_color_8h" local="yes">ofColor.h</includes>
+    <includes local="no">tr1/memory</includes>
+    <includes local="yes">Poco/Mutex.h</includes>
+    <incdepgraph>
+      <node id="443">
+        <label>limits</label>
+      </node>
+      <node id="441">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="442">
+        <label>ofColor.h</label>
+        <link refid="of_color_8h"/>
+        <childnode refid="443" relation="include">
+        </childnode>
+        <childnode refid="444" relation="include">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>ofMath.h</label>
+      </node>
+      <node id="440">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h</label>
+        <link refid="ofTypes.h"/>
+        <childnode refid="441" relation="include">
+        </childnode>
+        <childnode refid="442" relation="include">
+        </childnode>
+        <childnode refid="445" relation="include">
+        </childnode>
+        <childnode refid="446" relation="include">
+        </childnode>
+      </node>
+      <node id="446">
+        <label>Poco/Mutex.h</label>
+      </node>
+      <node id="445">
+        <label>tr1/memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classof_serial_device_info" prot="public">ofSerialDeviceInfo</innerclass>
+    <innerclass refid="classof_style" prot="public">ofStyle</innerclass>
+    <innerclass refid="classof_ptr" prot="public">ofPtr</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="of_types_8h_1a14d0290b2d9067f9b5c30fa5e4e56927" prot="public" static="no">
+        <type>Poco::FastMutex</type>
+        <definition>typedef Poco::FastMutex ofMutex</definition>
+        <argsstring></argsstring>
+        <name>ofMutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="58" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_color_8h" kindref="compound">ofColor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(_MSC_VER)</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;tr1/memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ofDeviceInfo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_serial" kindref="compound">ofSerial</ref>;</highlight></codeline>
+<codeline lineno="16" refid="classof_serial_device_info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_serial_device_info" kindref="compound">ofSerialDeviceInfo</ref>{</highlight></codeline>
+<codeline lineno="17" refid="classof_serial_device_info_1a738b5a6b2bbb311ba6946feda233b755" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_serial" kindref="compound">ofSerial</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classof_serial_device_info_1a8450a8c81f18cadec7be90a87f81ccfa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_serial_device_info_1a8450a8c81f18cadec7be90a87f81ccfa" kindref="member">ofSerialDeviceInfo</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>devicePathIn,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>deviceNameIn,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deviceIDIn){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_serial_device_info_1a1deaf8b2c01372d41c2df925160bd7e7" kindref="member">devicePath</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>devicePathIn;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_serial_device_info_1a0f79add7e2658721d4dda9b9417a27e8" kindref="member">deviceName</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>deviceNameIn;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_serial_device_info_1a66fce352d89f67409c40e4a767cfb7f7" kindref="member">deviceID</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>deviceIDIn;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classof_serial_device_info_1a65097c45e9bb5d470ddf9747125e283d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_serial_device_info_1a65097c45e9bb5d470ddf9747125e283d" kindref="member">ofSerialDeviceInfo</ref>(){</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_serial_device_info_1a0f79add7e2658721d4dda9b9417a27e8" kindref="member">deviceName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;device<sp/>undefined&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_serial_device_info_1a66fce352d89f67409c40e4a767cfb7f7" kindref="member">deviceID</ref><sp/><sp/><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classof_serial_device_info_1a9456ff5a5b06dac481c287c65e6557e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1a9456ff5a5b06dac481c287c65e6557e4" kindref="member">getDevicePath</ref>(){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1a1deaf8b2c01372d41c2df925160bd7e7" kindref="member">devicePath</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classof_serial_device_info_1ace475223571db70566eb7cb50e2b5928" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1ace475223571db70566eb7cb50e2b5928" kindref="member">getDeviceName</ref>(){</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1a0f79add7e2658721d4dda9b9417a27e8" kindref="member">deviceName</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classof_serial_device_info_1a00b99cf903d54bfd118d149fddb24328" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1a00b99cf903d54bfd118d149fddb24328" kindref="member">getDeviceID</ref>(){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1a66fce352d89f67409c40e4a767cfb7f7" kindref="member">deviceID</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45" refid="classof_serial_device_info_1a1deaf8b2c01372d41c2df925160bd7e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1a1deaf8b2c01372d41c2df925160bd7e7" kindref="member">devicePath</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//eg:<sp/>/dev/tty.cu/usbdevice-a440</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classof_serial_device_info_1a0f79add7e2658721d4dda9b9417a27e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1a0f79add7e2658721d4dda9b9417a27e8" kindref="member">deviceName</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//eg:<sp/>usbdevice-a440<sp/>/<sp/>COM4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classof_serial_device_info_1a66fce352d89f67409c40e4a767cfb7f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_serial_device_info_1a66fce352d89f67409c40e4a767cfb7f7" kindref="member">deviceID</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//eg:<sp/>0,1,2,3<sp/>etc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO:<sp/>other<sp/>stuff<sp/>for<sp/>serial<sp/>?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ofMutex</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Poco/Mutex.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="of_types_8h_1a14d0290b2d9067f9b5c30fa5e4e56927" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>Poco::FastMutex<sp/><ref refid="of_types_8h_1a14d0290b2d9067f9b5c30fa5e4e56927" kindref="member">ofMutex</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ofStyle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classof_style" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_style" kindref="compound">ofStyle</ref>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66" refid="classof_style_1a7d1443b11025e5321d810a618491e79a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1a7d1443b11025e5321d810a618491e79a" kindref="member">ofStyle</ref>(){</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1ac97172bc5d117d91fa7fef18b91b58af" kindref="member">bFill</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1aa899b9218eabf5feff0729fba2956e46" kindref="member">blendingMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="of_constants_8h_1a5f194ae56b1bc61651eac7184ed1ad2ea19edd494e576b2018d8d363dd4e8d959" kindref="member">OF_BLENDMODE_DISABLED</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1ad2dbc3547e6bd9fdeb2557edda376ebd" kindref="member">smoothing</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1a3cf3da499b39eea0fd403627f5b7cb1d" kindref="member">circleResolution</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1a5500872010ed65dd1f7c7e8779f5ea19" kindref="member">sphereResolution</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1a68fd3b1c7873c5121975acebc4b7e002" kindref="member">curveResolution</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1ad49415259a79caf71e3317949ad7c26b" kindref="member">lineWidth</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1ae49fd93f032dbfddea280745482c93bd" kindref="member">polyMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375a2fb04a107dac5247f54db46dc1f57e3b" kindref="member">OF_POLY_WINDING_ODD</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1ab9a5fe8d4375c9ccc9eb4a69c8476eb5" kindref="member">rectMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fcead2714fbe3553052e78cf7fc4e807cbe5" kindref="member">OF_RECTMODE_CORNER</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1a3ce923c648343d755c14b1e9992d4ad9" kindref="member">drawBitmapMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="of_constants_8h_1a14966be842b99f71080a7444cebbc0b7a5664c141563bd23558d03f139d5cac23" kindref="member">OF_BITMAPMODE_SIMPLE</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_style_1a1d062d4e7b15eaa061c133595ef3cc54" kindref="member">bgColor</ref>.<ref refid="classof_color___1a277975274650bef54614ae751f2fcf91" kindref="member">set</ref>(200,200,200);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="classof_style_1a8996b948ae6c54f588c9be80bb04da0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classof_style_1a8996b948ae6c54f588c9be80bb04da0f" kindref="member">~ofStyle</ref>(){}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classof_style_1a71c0e855729b8db2f0aec16a939051dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_color__" kindref="compound">ofColor</ref><sp/><ref refid="classof_style_1a71c0e855729b8db2f0aec16a939051dd" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="83" refid="classof_style_1a1d062d4e7b15eaa061c133595ef3cc54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_color__" kindref="compound">ofColor</ref><sp/><ref refid="classof_style_1a1d062d4e7b15eaa061c133595ef3cc54" kindref="member">bgColor</ref>;</highlight></codeline>
+<codeline lineno="84" refid="classof_style_1ae49fd93f032dbfddea280745482c93bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref><sp/><ref refid="classof_style_1ae49fd93f032dbfddea280745482c93bd" kindref="member">polyMode</ref>;</highlight></codeline>
+<codeline lineno="85" refid="classof_style_1ab9a5fe8d4375c9ccc9eb4a69c8476eb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref><sp/><ref refid="classof_style_1ab9a5fe8d4375c9ccc9eb4a69c8476eb5" kindref="member">rectMode</ref>;</highlight></codeline>
+<codeline lineno="86" refid="classof_style_1ac97172bc5d117d91fa7fef18b91b58af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_style_1ac97172bc5d117d91fa7fef18b91b58af" kindref="member">bFill</ref>;</highlight></codeline>
+<codeline lineno="87" refid="classof_style_1a3ce923c648343d755c14b1e9992d4ad9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_constants_8h_1a14966be842b99f71080a7444cebbc0b7" kindref="member">ofDrawBitmapMode</ref><sp/><ref refid="classof_style_1a3ce923c648343d755c14b1e9992d4ad9" kindref="member">drawBitmapMode</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classof_style_1aa899b9218eabf5feff0729fba2956e46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_constants_8h_1a5f194ae56b1bc61651eac7184ed1ad2e" kindref="member">ofBlendMode</ref><sp/><ref refid="classof_style_1aa899b9218eabf5feff0729fba2956e46" kindref="member">blendingMode</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="classof_style_1ad2dbc3547e6bd9fdeb2557edda376ebd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_style_1ad2dbc3547e6bd9fdeb2557edda376ebd" kindref="member">smoothing</ref>;</highlight></codeline>
+<codeline lineno="92" refid="classof_style_1a3cf3da499b39eea0fd403627f5b7cb1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_style_1a3cf3da499b39eea0fd403627f5b7cb1d" kindref="member">circleResolution</ref>;</highlight></codeline>
+<codeline lineno="93" refid="classof_style_1a5500872010ed65dd1f7c7e8779f5ea19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_style_1a5500872010ed65dd1f7c7e8779f5ea19" kindref="member">sphereResolution</ref>;</highlight></codeline>
+<codeline lineno="94" refid="classof_style_1a68fd3b1c7873c5121975acebc4b7e002" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_style_1a68fd3b1c7873c5121975acebc4b7e002" kindref="member">curveResolution</ref>;</highlight></codeline>
+<codeline lineno="95" refid="classof_style_1ad49415259a79caf71e3317949ad7c26b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_style_1ad49415259a79caf71e3317949ad7c26b" kindref="member">lineWidth</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ofPtr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="102" refid="classof_ptr" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_ptr" kindref="compound">ofPtr</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::tr1::<ref refid="classstd_1_1tr1_1_1shared__ptr" kindref="compound">shared_ptr</ref>&lt;T&gt;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" kindref="member">ofPtr</ref>()</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::<ref refid="classstd_1_1tr1_1_1shared__ptr" kindref="compound">shared_ptr</ref>&lt;T&gt;()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Tp1&gt;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="classof_ptr_1a578204e56ec8de90932976ef6ed93539" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" kindref="member">ofPtr</ref>(Tp1*<sp/>__p)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::<ref refid="classstd_1_1tr1_1_1shared__ptr" kindref="compound">shared_ptr</ref>&lt;T&gt;(__p)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Tp1,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>_Deleter&gt;</highlight></codeline>
+<codeline lineno="116" refid="classof_ptr_1a7c0853acc5542d826625d2ae2edc9f98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" kindref="member">ofPtr</ref>(Tp1*<sp/>__p,<sp/>_Deleter<sp/>__d)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::<ref refid="classstd_1_1tr1_1_1shared__ptr" kindref="compound">shared_ptr</ref>&lt;T&gt;(__p,<sp/>__d)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Tp1,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>_Deleter,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>_Alloc&gt;</highlight></codeline>
+<codeline lineno="120" refid="classof_ptr_1ac2f20b425ac323fb0f4b329f3ccc87c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" kindref="member">ofPtr</ref>(Tp1*<sp/>__p,<sp/>_Deleter<sp/>__d,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>_Alloc&amp;<sp/>__a)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::<ref refid="classstd_1_1tr1_1_1shared__ptr" kindref="compound">shared_ptr</ref>&lt;T&gt;(__p,<sp/>__d,<sp/>__a)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Aliasing<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Tp1&gt;</highlight></codeline>
+<codeline lineno="125" refid="classof_ptr_1a9925a994ffcf5f12a372a01b9a871cf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" kindref="member">ofPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_ptr" kindref="compound">ofPtr&lt;Tp1&gt;</ref>&amp;<sp/>__r,<sp/>T*<sp/>__p)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::<ref refid="classstd_1_1tr1_1_1shared__ptr" kindref="compound">shared_ptr</ref>&lt;T&gt;(__r,<sp/>__p)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Tp1&gt;</highlight></codeline>
+<codeline lineno="129" refid="classof_ptr_1a245e3072432b1d3bcd43bf5b28a84f62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" kindref="member">ofPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_ptr" kindref="compound">ofPtr&lt;Tp1&gt;</ref>&amp;<sp/>__r)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::<ref refid="classstd_1_1tr1_1_1shared__ptr" kindref="compound">shared_ptr</ref>&lt;T&gt;(__r)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*ofPtr(ofPtr&amp;&amp;<sp/>__r)</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::shared_ptr&lt;T&gt;(std::move(__r))<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"></highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>template&lt;typename<sp/>Tp1&gt;</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofPtr(ofPtr&lt;Tp1&gt;&amp;&amp;<sp/>__r)</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::shared_ptr&lt;T&gt;(std::move(__r))<sp/>{<sp/>}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Tp1&gt;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="classof_ptr_1a3835bb766697085a05f7cafbcf2b08ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" kindref="member">ofPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::tr1::weak_ptr&lt;Tp1&gt;&amp;<sp/>__r)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::<ref refid="classstd_1_1tr1_1_1shared__ptr" kindref="compound">shared_ptr</ref>&lt;T&gt;(__r)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*template&lt;typename<sp/>Tp1,<sp/>typename<sp/>Del&gt;</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>explicit</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofPtr(const<sp/>std::tr1::unique_ptr&lt;Tp1,<sp/>Del&gt;&amp;)<sp/>=<sp/>delete;</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"></highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>template&lt;typename<sp/>Tp1,<sp/>typename<sp/>Del&gt;</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>explicit</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ofPtr(std::tr1::unique_ptr&lt;Tp1,<sp/>Del&gt;&amp;&amp;<sp/>__r)</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>std::tr1::shared_ptr&lt;T&gt;(std::move(__r))<sp/>{<sp/>}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h"/>
+  </compounddef>
+</doxygen>

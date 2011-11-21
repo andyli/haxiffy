@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="structof_gst_cam_data" kind="struct" prot="public">
+    <compoundname>ofGstCamData</compoundname>
+    <includes refid="of_gst_video_grabber_8h" local="no">ofGstVideoGrabber.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structof_gst_cam_data_1a5fcd5442429dea68357028ea56f96ceb" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structof_gst_device" kindref="compound">ofGstDevice</ref> &gt;</type>
+        <definition>vector&lt;ofGstDevice&gt; ofGstCamData::webcam_devices</definition>
+        <argsstring></argsstring>
+        <name>webcam_devices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="27" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_gst_cam_data_1a46b8480a2c81c80d5760dca7794ac3bc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstCamData::bInited</definition>
+        <argsstring></argsstring>
+        <name>bInited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="26" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="26" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structof_gst_cam_data_1a46b8480a2c81c80d5760dca7794ac3bc" prot="public" virt="non-virtual"><scope>ofGstCamData</scope><name>bInited</name></member>
+      <member refid="structof_gst_cam_data_1a5fcd5442429dea68357028ea56f96ceb" prot="public" virt="non-virtual"><scope>ofGstCamData</scope><name>webcam_devices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

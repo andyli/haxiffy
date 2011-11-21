@@ -1,0 +1,1326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_color__" kind="class" prot="public">
+    <compoundname>ofColor_</compoundname>
+    <includes refid="of_color_8h" local="no">ofColor.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>PixelType</declname>
+        <defname>PixelType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classof_color___1a000bef7cbe45258b6ea21840d16ed0b8" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::gray</definition>
+        <argsstring></argsstring>
+        <name>gray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="27" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1a2e42104110b17ae874ce0eec2a361335" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::white</definition>
+        <argsstring></argsstring>
+        <name>white</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1ab88ac12f9173e47698407ab27e165800" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::red</definition>
+        <argsstring></argsstring>
+        <name>red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="29" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1a9459ce91c639d9ebc0646898bd4063b7" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::green</definition>
+        <argsstring></argsstring>
+        <name>green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="30" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1a9408948af92f64a96f9e22382702ae17" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::blue</definition>
+        <argsstring></argsstring>
+        <name>blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1aae43d42e6de162abf4d69d05a496bf40" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::cyan</definition>
+        <argsstring></argsstring>
+        <name>cyan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="32" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1afd398e649cf7ab6c0affd9404edcf177" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::magenta</definition>
+        <argsstring></argsstring>
+        <name>magenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="33" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1ae2cf1ee2818018af155de56995215fca" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::yellow</definition>
+        <argsstring></argsstring>
+        <name>yellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="34" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1a870d2c9218b0465fcd207b18cd657624" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>const ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::black</definition>
+        <argsstring></argsstring>
+        <name>black</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="35" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_color___1a6f49bc7e4aec1f65d9598599ade9b692" prot="public" static="no" mutable="no">
+        <type>PixelType</type>
+        <definition>PixelType ofColor_&lt; PixelType &gt;::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1a699d911542ce1f27122fb5c375ab3530" prot="public" static="no" mutable="no">
+        <type>PixelType</type>
+        <definition>PixelType ofColor_&lt; PixelType &gt;::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1af302cc728daa97b0b5a858271c273000" prot="public" static="no" mutable="no">
+        <type>PixelType</type>
+        <definition>PixelType ofColor_&lt; PixelType &gt;::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1a840394f5ccf4d3f4012ec09d320fa7c7" prot="public" static="no" mutable="no">
+        <type>PixelType</type>
+        <definition>PixelType ofColor_&lt; PixelType &gt;::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1a36bbabc2239993534dee47bc7b9f524c" prot="public" static="no" mutable="no">
+        <type>PixelType</type>
+        <definition>PixelType ofColor_&lt; PixelType &gt;::v[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="97" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_color___1ac32822b87ddcf4aad7e17bfa2ff043bf" prot="public" static="no" mutable="no">
+        <type>union ofColor_::@0</type>
+        <definition>union ofColor_::@0 ofColor_&lt; PixelType &gt;::@1</definition>
+        <argsstring></argsstring>
+        <name>@1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="98"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_color___1a08a59b4376aa75de38276ba3b069c3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofColor_&lt; PixelType &gt;::ofColor_</definition>
+        <argsstring>()</argsstring>
+        <name>ofColor_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1ace571761ada0c4acb9d9c969b3add480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofColor_&lt; PixelType &gt;::~ofColor_</definition>
+        <argsstring>()</argsstring>
+        <name>~ofColor_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a426462ccaabcf04fcdb767735cca116a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofColor_&lt; PixelType &gt;::ofColor_</definition>
+        <argsstring>(float _r, float _g, float _b, float _a=255.0f)</argsstring>
+        <name>ofColor_</name>
+        <param>
+          <type>float</type>
+          <declname>_r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+          <defval>255.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a9b935ccb46b95228951d85bfa1a435a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofColor_&lt; PixelType &gt;::ofColor_</definition>
+        <argsstring>(const ofColor_&lt; PixelType &gt; &amp;color)</argsstring>
+        <name>ofColor_</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1aa346a0af9046ae1beb3b23d615147911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofColor_&lt; PixelType &gt;::ofColor_</definition>
+        <argsstring>(const ofColor_&lt; PixelType &gt; &amp;color, float _a)</argsstring>
+        <name>ofColor_</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a28ca6053f6784311832b4f1798b2e465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofColor_&lt; PixelType &gt;::ofColor_</definition>
+        <argsstring>(float gray, float _a=255.0f)</argsstring>
+        <name>ofColor_</name>
+        <param>
+          <type>float</type>
+          <declname>gray</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+          <defval>255.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a0e1b3567a1ab9e233ec31cad3c81d02d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SrcType</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ofColor_&lt; PixelType &gt;::ofColor_</definition>
+        <argsstring>(const ofColor_&lt; SrcType &gt; &amp;color)</argsstring>
+        <name>ofColor_</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; SrcType &gt; &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a277975274650bef54614ae751f2fcf91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::set</definition>
+        <argsstring>(float _r, float _g, float _b, float _a=255.0f)</argsstring>
+        <name>set</name>
+        <param>
+          <type>float</type>
+          <declname>_r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+          <defval>255.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1abc68d0bcd11b48cd25c6df47c526d987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::set</definition>
+        <argsstring>(float _gray, float _a=255.0f)</argsstring>
+        <name>set</name>
+        <param>
+          <type>float</type>
+          <declname>_gray</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+          <defval>255.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a5f9c6bff972404da858df9874b219f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::set</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color)</argsstring>
+        <name>set</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a76cb06c497fdd6c078b0252605ff56eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::setHex</definition>
+        <argsstring>(int hexColor, float alpha=255.0f)</argsstring>
+        <name>setHex</name>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+          <defval>255.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a7a721db7497d984c3ee81002bcd7237b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofColor_&lt; PixelType &gt;::getHex</definition>
+        <argsstring>() const </argsstring>
+        <name>getHex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a7062c6a8544a6f0272cc01c3123d87cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::clamp</definition>
+        <argsstring>()</argsstring>
+        <name>clamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a2c9c338414f9051f2c291dfad946e0e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::invert</definition>
+        <argsstring>()</argsstring>
+        <name>invert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a517393bb536e1329c11cf395215eca92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::normalize</definition>
+        <argsstring>()</argsstring>
+        <name>normalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a5e3bfbb338fd95c557c007c86d3add8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::lerp</definition>
+        <argsstring>(const ofColor_&lt; PixelType &gt; &amp;target, float amount)</argsstring>
+        <name>lerp</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a0eee059b8f425796534aa5ab3a2b858d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::getClamped</definition>
+        <argsstring>() const </argsstring>
+        <name>getClamped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a9e82497c68959a680dcd8b670b28ee35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::getInverted</definition>
+        <argsstring>() const </argsstring>
+        <name>getInverted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a3ddf95802c3d6bc51b548306b4ba4b27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::getNormalized</definition>
+        <argsstring>() const </argsstring>
+        <name>getNormalized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1ac2b2d0b0d3db13ec8ec80753268c7318" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::getLerped</definition>
+        <argsstring>(const ofColor_&lt; PixelType &gt; &amp;target, float amount) const </argsstring>
+        <name>getLerped</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a59959aa62173b96f31d0833327e2772f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofColor_&lt; PixelType &gt;::getHue</definition>
+        <argsstring>() const </argsstring>
+        <name>getHue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a0569370be88bfa5fddbd6529b5230de3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofColor_&lt; PixelType &gt;::getSaturation</definition>
+        <argsstring>() const </argsstring>
+        <name>getSaturation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a7b73e7b52d0e967277c034d9e539d7b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofColor_&lt; PixelType &gt;::getBrightness</definition>
+        <argsstring>() const </argsstring>
+        <name>getBrightness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1ada21fed669a9f098466643e044ca2ada" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofColor_&lt; PixelType &gt;::getLightness</definition>
+        <argsstring>() const </argsstring>
+        <name>getLightness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a6c340043e0fa64d77a2688709f7c0787" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::getHsb</definition>
+        <argsstring>(float &amp;hue, float &amp;saturation, float &amp;brightness) const </argsstring>
+        <name>getHsb</name>
+        <param>
+          <type>float &amp;</type>
+          <declname>hue</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>saturation</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>brightness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a2b20f282fa99ff0fb540bcf8718863eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::setHue</definition>
+        <argsstring>(float hue)</argsstring>
+        <name>setHue</name>
+        <param>
+          <type>float</type>
+          <declname>hue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1aa3301f40e7f4dc0bd1563f32cba9def7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::setSaturation</definition>
+        <argsstring>(float saturation)</argsstring>
+        <name>setSaturation</name>
+        <param>
+          <type>float</type>
+          <declname>saturation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1ae316135040740fb2f37f6cd8d23454bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::setBrightness</definition>
+        <argsstring>(float brightness)</argsstring>
+        <name>setBrightness</name>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a039bf82ba6d780dd2f6b21512cd857cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::setHsb</definition>
+        <argsstring>(float hue, float saturation, float brightness, float alpha)</argsstring>
+        <name>setHsb</name>
+        <param>
+          <type>float</type>
+          <declname>hue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>saturation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a7913575820818c9e44a3b7e5f8d48edd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::setHsb</definition>
+        <argsstring>(float hue, float saturation, float brightness)</argsstring>
+        <name>setHsb</name>
+        <param>
+          <type>float</type>
+          <declname>hue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>saturation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a26309753a61297343c38d567bd938330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator=</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1abf5850bb14e3bda9dfce23e4c034b7f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SrcType</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt; PixelType &gt; &amp; ofColor_&lt; PixelType &gt;::operator=</definition>
+        <argsstring>(ofColor_&lt; SrcType &gt; const &amp;color)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; SrcType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="69" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1aa678dbbee6d3837d564c24119ed88975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator=</definition>
+        <argsstring>(float const &amp;val)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1afce42ff7645e7cd486c0e730c0c39b12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofColor_&lt; PixelType &gt;::operator==</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a8908d4c719fabd53cda10f07bfad8293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofColor_&lt; PixelType &gt;::operator!=</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1acdf6f2b34c36ee90a11e6f6bf1519b9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::operator+</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color) const </argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a7423091f0a2f1b94c283aa62b91b5e7a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::operator+</definition>
+        <argsstring>(float const &amp;val) const </argsstring>
+        <name>operator+</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1ac8bcfa9001e9c7881c86c8d5a6760651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator+=</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1ab36f5c3e25366f38b88edae5b111f813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator+=</definition>
+        <argsstring>(float const &amp;val)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a5727c7f37f86845c73b2d169ea25df48" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::operator-</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a3b5f5db172b83d2fb5a98d12f9e5e39b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::operator-</definition>
+        <argsstring>(float const &amp;val) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a2380b161cd5e57d2d995ec7989db1ee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator-=</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a9f8abfc2a5f554ebf6d82b29f96597c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator-=</definition>
+        <argsstring>(float const &amp;val)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a34eafefe0f5cb09f1041c99136ac9c07" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::operator*</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1aaa38f9848efdaf2a38bf667a640a5bb9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::operator*</definition>
+        <argsstring>(float const &amp;val) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a7b0c8ba904af894d5eec961b5d76244d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator*=</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a1282cfaecf40a50e9d7cd72a324b30bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator*=</definition>
+        <argsstring>(float const &amp;val)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1aa95d88c189f66e0f0dbf7b0d4e2e8693" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::operator/</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color) const </argsstring>
+        <name>operator/</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a3076dae55e3555de68a738463a0b4143" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::operator/</definition>
+        <argsstring>(float const &amp;val) const </argsstring>
+        <name>operator/</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1ae151c6d6fdee006d812922ffdb52027c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator/=</definition>
+        <argsstring>(ofColor_&lt; PixelType &gt; const &amp;color)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; const &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1acc2d1168d18d44342abb86ae5f4537dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofColor_&lt;PixelType&gt;&amp; ofColor_&lt; PixelType &gt;::operator/=</definition>
+        <argsstring>(float const &amp;val)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>float const &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1a24f30fc63eb64aa3e64bebb3c482fc2c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const PixelType &amp;</type>
+        <definition>const PixelType&amp; ofColor_&lt; PixelType &gt;::operator[]</definition>
+        <argsstring>(int n) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1accd8caadf32fcc32bf507063fa6ef211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PixelType &amp;</type>
+        <definition>PixelType&amp; ofColor_&lt; PixelType &gt;::operator[]</definition>
+        <argsstring>(int n)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classof_color___1a8497205b85e2ccd8ee08b7f54cf92139" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>static ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::fromHsb</definition>
+        <argsstring>(float hue, float saturation, float brightness, float alpha=255.f)</argsstring>
+        <name>fromHsb</name>
+        <param>
+          <type>float</type>
+          <declname>hue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>saturation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+          <defval>255.f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_color___1af3aedd83babec4f9a4ace8193c24bbbd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>static ofColor_&lt;PixelType&gt; ofColor_&lt; PixelType &gt;::fromHex</definition>
+        <argsstring>(int hexColor, float alpha=255.f)</argsstring>
+        <name>fromHex</name>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+          <defval>255.f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_color___1a292032849a11afbd98fa78fa06245ea3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SrcType</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ofColor_&lt; PixelType &gt;::copyFrom</definition>
+        <argsstring>(const ofColor_&lt; SrcType &gt; &amp;mom)</argsstring>
+        <name>copyFrom</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; SrcType &gt; &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="103" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="126" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="228">
+        <label>PixelType</label>
+      </node>
+      <node id="227">
+        <label>ofColor_&lt; PixelType &gt;</label>
+        <link refid="classof_color__"/>
+        <childnode refid="228" relation="usage">
+          <edgelabel>g</edgelabel>
+          <edgelabel>a</edgelabel>
+          <edgelabel>r</edgelabel>
+          <edgelabel>b</edgelabel>
+          <edgelabel>v</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" line="10" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofColor.h" bodystart="10" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classof_color___1a840394f5ccf4d3f4012ec09d320fa7c7" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>a</name></member>
+      <member refid="classof_color___1af302cc728daa97b0b5a858271c273000" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>b</name></member>
+      <member refid="classof_color___1a870d2c9218b0465fcd207b18cd657624" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>black</name></member>
+      <member refid="classof_color___1a9408948af92f64a96f9e22382702ae17" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>blue</name></member>
+      <member refid="classof_color___1a7062c6a8544a6f0272cc01c3123d87cc" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>clamp</name></member>
+      <member refid="classof_color___1a292032849a11afbd98fa78fa06245ea3" prot="private" virt="non-virtual"><scope>ofColor_</scope><name>copyFrom</name></member>
+      <member refid="classof_color___1aae43d42e6de162abf4d69d05a496bf40" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>cyan</name></member>
+      <member refid="classof_color___1af3aedd83babec4f9a4ace8193c24bbbd" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>fromHex</name></member>
+      <member refid="classof_color___1a8497205b85e2ccd8ee08b7f54cf92139" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>fromHsb</name></member>
+      <member refid="classof_color___1a699d911542ce1f27122fb5c375ab3530" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>g</name></member>
+      <member refid="classof_color___1a7b73e7b52d0e967277c034d9e539d7b7" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getBrightness</name></member>
+      <member refid="classof_color___1a0eee059b8f425796534aa5ab3a2b858d" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getClamped</name></member>
+      <member refid="classof_color___1a7a721db7497d984c3ee81002bcd7237b" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getHex</name></member>
+      <member refid="classof_color___1a6c340043e0fa64d77a2688709f7c0787" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getHsb</name></member>
+      <member refid="classof_color___1a59959aa62173b96f31d0833327e2772f" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getHue</name></member>
+      <member refid="classof_color___1a9e82497c68959a680dcd8b670b28ee35" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getInverted</name></member>
+      <member refid="classof_color___1ac2b2d0b0d3db13ec8ec80753268c7318" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getLerped</name></member>
+      <member refid="classof_color___1ada21fed669a9f098466643e044ca2ada" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getLightness</name></member>
+      <member refid="classof_color___1a3ddf95802c3d6bc51b548306b4ba4b27" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getNormalized</name></member>
+      <member refid="classof_color___1a0569370be88bfa5fddbd6529b5230de3" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>getSaturation</name></member>
+      <member refid="classof_color___1a000bef7cbe45258b6ea21840d16ed0b8" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>gray</name></member>
+      <member refid="classof_color___1a9459ce91c639d9ebc0646898bd4063b7" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>green</name></member>
+      <member refid="classof_color___1a2c9c338414f9051f2c291dfad946e0e7" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>invert</name></member>
+      <member refid="classof_color___1a5e3bfbb338fd95c557c007c86d3add8d" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>lerp</name></member>
+      <member refid="classof_color___1afd398e649cf7ab6c0affd9404edcf177" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>magenta</name></member>
+      <member refid="classof_color___1a517393bb536e1329c11cf395215eca92" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>normalize</name></member>
+      <member refid="classof_color___1a08a59b4376aa75de38276ba3b069c3b1" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>ofColor_</name></member>
+      <member refid="classof_color___1a426462ccaabcf04fcdb767735cca116a" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>ofColor_</name></member>
+      <member refid="classof_color___1a9b935ccb46b95228951d85bfa1a435a8" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>ofColor_</name></member>
+      <member refid="classof_color___1aa346a0af9046ae1beb3b23d615147911" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>ofColor_</name></member>
+      <member refid="classof_color___1a28ca6053f6784311832b4f1798b2e465" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>ofColor_</name></member>
+      <member refid="classof_color___1a0e1b3567a1ab9e233ec31cad3c81d02d" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>ofColor_</name></member>
+      <member refid="classof_color___1a8908d4c719fabd53cda10f07bfad8293" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator!=</name></member>
+      <member refid="classof_color___1a34eafefe0f5cb09f1041c99136ac9c07" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator*</name></member>
+      <member refid="classof_color___1aaa38f9848efdaf2a38bf667a640a5bb9" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator*</name></member>
+      <member refid="classof_color___1a7b0c8ba904af894d5eec961b5d76244d" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator*=</name></member>
+      <member refid="classof_color___1a1282cfaecf40a50e9d7cd72a324b30bd" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator*=</name></member>
+      <member refid="classof_color___1acdf6f2b34c36ee90a11e6f6bf1519b9f" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator+</name></member>
+      <member refid="classof_color___1a7423091f0a2f1b94c283aa62b91b5e7a" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator+</name></member>
+      <member refid="classof_color___1ac8bcfa9001e9c7881c86c8d5a6760651" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator+=</name></member>
+      <member refid="classof_color___1ab36f5c3e25366f38b88edae5b111f813" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator+=</name></member>
+      <member refid="classof_color___1a5727c7f37f86845c73b2d169ea25df48" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator-</name></member>
+      <member refid="classof_color___1a3b5f5db172b83d2fb5a98d12f9e5e39b" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator-</name></member>
+      <member refid="classof_color___1a2380b161cd5e57d2d995ec7989db1ee0" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator-=</name></member>
+      <member refid="classof_color___1a9f8abfc2a5f554ebf6d82b29f96597c7" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator-=</name></member>
+      <member refid="classof_color___1aa95d88c189f66e0f0dbf7b0d4e2e8693" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator/</name></member>
+      <member refid="classof_color___1a3076dae55e3555de68a738463a0b4143" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator/</name></member>
+      <member refid="classof_color___1ae151c6d6fdee006d812922ffdb52027c" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator/=</name></member>
+      <member refid="classof_color___1acc2d1168d18d44342abb86ae5f4537dc" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator/=</name></member>
+      <member refid="classof_color___1a26309753a61297343c38d567bd938330" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator=</name></member>
+      <member refid="classof_color___1abf5850bb14e3bda9dfce23e4c034b7f4" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator=</name></member>
+      <member refid="classof_color___1aa678dbbee6d3837d564c24119ed88975" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator=</name></member>
+      <member refid="classof_color___1afce42ff7645e7cd486c0e730c0c39b12" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator==</name></member>
+      <member refid="classof_color___1a24f30fc63eb64aa3e64bebb3c482fc2c" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator[]</name></member>
+      <member refid="classof_color___1accd8caadf32fcc32bf507063fa6ef211" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>operator[]</name></member>
+      <member refid="classof_color___1a6f49bc7e4aec1f65d9598599ade9b692" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>r</name></member>
+      <member refid="classof_color___1ab88ac12f9173e47698407ab27e165800" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>red</name></member>
+      <member refid="classof_color___1a277975274650bef54614ae751f2fcf91" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>set</name></member>
+      <member refid="classof_color___1abc68d0bcd11b48cd25c6df47c526d987" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>set</name></member>
+      <member refid="classof_color___1a5f9c6bff972404da858df9874b219f34" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>set</name></member>
+      <member refid="classof_color___1ae316135040740fb2f37f6cd8d23454bb" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>setBrightness</name></member>
+      <member refid="classof_color___1a76cb06c497fdd6c078b0252605ff56eb" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>setHex</name></member>
+      <member refid="classof_color___1a039bf82ba6d780dd2f6b21512cd857cf" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>setHsb</name></member>
+      <member refid="classof_color___1a7913575820818c9e44a3b7e5f8d48edd" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>setHsb</name></member>
+      <member refid="classof_color___1a2b20f282fa99ff0fb540bcf8718863eb" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>setHue</name></member>
+      <member refid="classof_color___1aa3301f40e7f4dc0bd1563f32cba9def7" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>setSaturation</name></member>
+      <member refid="classof_color___1a36bbabc2239993534dee47bc7b9f524c" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>v</name></member>
+      <member refid="classof_color___1a2e42104110b17ae874ce0eec2a361335" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>white</name></member>
+      <member refid="classof_color___1ae2cf1ee2818018af155de56995215fca" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>yellow</name></member>
+      <member refid="classof_color___1ace571761ada0c4acb9d9c969b3add480" prot="public" virt="non-virtual"><scope>ofColor_</scope><name>~ofColor_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1096 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_pixels__" kind="class" prot="public">
+    <compoundname>ofPixels_</compoundname>
+    <includes refid="of_pixels_8h" local="no">ofPixels.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>PixelType</declname>
+        <defname>PixelType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classof_pixels___1ae17bf43a25e9b7ebddae0de4b7ba66e3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ofPixelUtils</definition>
+        <argsstring></argsstring>
+        <name>ofPixelUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="19" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_pixels___1ac3ae8bfaeff59d78068d46742dc13461" prot="private" static="no" mutable="no">
+        <type>PixelType *</type>
+        <definition>PixelType* ofPixels_&lt; PixelType &gt;::pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="99" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_pixels___1a7bffb867c1c1bb4456a9ac96c6261687" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="100" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_pixels___1a15e6dd57a54bb1d5c6f6e350298fe298" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="101" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_pixels___1a0cc710f6c3433a98873041fb59d57d10" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::channels</definition>
+        <argsstring></argsstring>
+        <name>channels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="103" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_pixels___1a75350426333b19eee724427cbf7d9e87" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPixels_&lt; PixelType &gt;::bAllocated</definition>
+        <argsstring></argsstring>
+        <name>bAllocated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="106" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_pixels___1aa2cebd51af1b45fe439fb82194e8fdfc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPixels_&lt; PixelType &gt;::pixelsOwner</definition>
+        <argsstring></argsstring>
+        <name>pixelsOwner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="107" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_pixels___1af108a001c5dab31e348d39d21cd90798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofPixels_&lt; PixelType &gt;::ofPixels_</definition>
+        <argsstring>()</argsstring>
+        <name>ofPixels_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a0899582d8818f6ed30ee31453c15d1e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofPixels_&lt; PixelType &gt;::~ofPixels_</definition>
+        <argsstring>()</argsstring>
+        <name>~ofPixels_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a12593d65b8154e1d107fd05f162e0829" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofPixels_&lt; PixelType &gt;::ofPixels_</definition>
+        <argsstring>(const ofPixels_&lt; PixelType &gt; &amp;mom)</argsstring>
+        <name>ofPixels_</name>
+        <param>
+          <type>const <ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1aaacd6f3a9a1f63308c37c1a38a21c122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofPixels_&lt;PixelType&gt;&amp; ofPixels_&lt; PixelType &gt;::operator=</definition>
+        <argsstring>(const ofPixels_&lt; PixelType &gt; &amp;mom)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a299da5e949cb5f5cacba1376de27a8fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SrcType</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ofPixels_&lt; PixelType &gt;::ofPixels_</definition>
+        <argsstring>(const ofPixels_&lt; SrcType &gt; &amp;mom)</argsstring>
+        <name>ofPixels_</name>
+        <param>
+          <type>const <ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; SrcType &gt; &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="29" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="129" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1aba9539893583399ebe511318597c0a4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SrcType</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt; &amp;</type>
+        <definition>ofPixels_&lt; PixelType &gt; &amp; ofPixels_&lt; PixelType &gt;::operator=</definition>
+        <argsstring>(const ofPixels_&lt; SrcType &gt; &amp;mom)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; SrcType &gt; &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="32" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a02b8aa5dd03f4403e37186c8eadaa872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::allocate</definition>
+        <argsstring>(int w, int h, int channels)</argsstring>
+        <name>allocate</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1abea72226691ab5c20d9d99b5ee7b4bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::allocate</definition>
+        <argsstring>(int w, int h, ofPixelFormat type)</argsstring>
+        <name>allocate</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a81f729119cfe249e0da8f27aa46cb09f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::allocate</definition>
+        <argsstring>(int w, int h, ofImageType type)</argsstring>
+        <name>allocate</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a9760b6b0bec0314fdc85f44793bbe951" kindref="member">ofImageType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1aa14e0f35caf352220a96bfb5cdea1327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::set</definition>
+        <argsstring>(PixelType val)</argsstring>
+        <name>set</name>
+        <param>
+          <type>PixelType</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a9c0be56dd1be5cbd91b64d09e8390b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::set</definition>
+        <argsstring>(int channel, PixelType val)</argsstring>
+        <name>set</name>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>PixelType</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a1f0f57c453de1515dfb3d9608baaf998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::setFromPixels</definition>
+        <argsstring>(const PixelType *newPixels, int w, int h, int channels)</argsstring>
+        <name>setFromPixels</name>
+        <param>
+          <type>const PixelType *</type>
+          <declname>newPixels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a4d8cf46e49c4c6c8a4157fa7399e8378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::setFromPixels</definition>
+        <argsstring>(const PixelType *newPixels, int w, int h, ofImageType type)</argsstring>
+        <name>setFromPixels</name>
+        <param>
+          <type>const PixelType *</type>
+          <declname>newPixels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a9760b6b0bec0314fdc85f44793bbe951" kindref="member">ofImageType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1afbb8498d2b71f9925fcede6863e739be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::setFromExternalPixels</definition>
+        <argsstring>(PixelType *newPixels, int w, int h, int channels)</argsstring>
+        <name>setFromExternalPixels</name>
+        <param>
+          <type>PixelType *</type>
+          <declname>newPixels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1af0a1573a60d77d4d9bd48d387f5c6486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::setFromAlignedPixels</definition>
+        <argsstring>(const PixelType *newPixels, int width, int height, int channels, int stride)</argsstring>
+        <name>setFromAlignedPixels</name>
+        <param>
+          <type>const PixelType *</type>
+          <declname>newPixels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stride</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1afd50b91ada0eaa98218fab6626dccb40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::crop</definition>
+        <argsstring>(int x, int y, int width, int height)</argsstring>
+        <name>crop</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1af34c9eed1505f85d4fbdd2348f34e12c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::cropTo</definition>
+        <argsstring>(ofPixels_&lt; PixelType &gt; &amp;toPix, int x, int y, int _width, int _height)</argsstring>
+        <name>cropTo</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>toPix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a3c1bae7e9a6df9f4b221842a347ab1e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::rotate90</definition>
+        <argsstring>(int nClockwiseRotations)</argsstring>
+        <name>rotate90</name>
+        <param>
+          <type>int</type>
+          <declname>nClockwiseRotations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a3e65f083698f7f4cee1d528bcea4c073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::mirror</definition>
+        <argsstring>(bool vertically, bool horizontal)</argsstring>
+        <name>mirror</name>
+        <param>
+          <type>bool</type>
+          <declname>vertically</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>horizontal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1acc59c5ccd146c119de24192ee8d9864d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPixels_&lt; PixelType &gt;::resize</definition>
+        <argsstring>(int dstWidth, int dstHeight, ofInterpolationMethod interpMethod=OF_INTERPOLATE_NEAREST_NEIGHBOR)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>int</type>
+          <declname>dstWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstHeight</declname>
+        </param>
+        <param>
+          <type><ref refid="of_pixels_8h_1a50ccb4005c338a4abfadca9101d45019" kindref="member">ofInterpolationMethod</ref></type>
+          <declname>interpMethod</declname>
+          <defval>OF_INTERPOLATE_NEAREST_NEIGHBOR</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a4ede495923b45be203974b82f17efd80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPixels_&lt; PixelType &gt;::resizeTo</definition>
+        <argsstring>(ofPixels_&lt; PixelType &gt; &amp;dst, ofInterpolationMethod interpMethod=OF_INTERPOLATE_NEAREST_NEIGHBOR)</argsstring>
+        <name>resizeTo</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type><ref refid="of_pixels_8h_1a50ccb4005c338a4abfadca9101d45019" kindref="member">ofInterpolationMethod</ref></type>
+          <declname>interpMethod</declname>
+          <defval>OF_INTERPOLATE_NEAREST_NEIGHBOR</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a9653b0e2aaf754523268f7167f64cb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPixels_&lt; PixelType &gt;::pasteInto</definition>
+        <argsstring>(ofPixels_&lt; PixelType &gt; &amp;dst, int x, int y)</argsstring>
+        <name>pasteInto</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1ab0228cce4f8c6da57775a842fe36fb83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::swapRgb</definition>
+        <argsstring>()</argsstring>
+        <name>swapRgb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a4a9f443ed29eed90fb2ad44515328dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a66d7de02f3da72d865efe1c5a4db245e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PixelType *</type>
+        <definition>PixelType* ofPixels_&lt; PixelType &gt;::getPixels</definition>
+        <argsstring>()</argsstring>
+        <name>getPixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a1d1fe0f7cd522b92f85e1e9926a0c2ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const PixelType *</type>
+        <definition>const PixelType* ofPixels_&lt; PixelType &gt;::getPixels</definition>
+        <argsstring>() const </argsstring>
+        <name>getPixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a4c9bd76b744cb393e3ee8fc425ccd0d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::getPixelIndex</definition>
+        <argsstring>(int x, int y) const </argsstring>
+        <name>getPixelIndex</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a50a2657426b2378ea83d4906cdddf5c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+        <definition>ofColor_&lt;PixelType&gt; ofPixels_&lt; PixelType &gt;::getColor</definition>
+        <argsstring>(int x, int y) const </argsstring>
+        <name>getColor</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a1475bf924dbd75563e660d89a8cd8089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::setColor</definition>
+        <argsstring>(int x, int y, ofColor_&lt; PixelType &gt; color)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_color__" kindref="compound">ofColor_</ref>&lt; PixelType &gt;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1aa3d17170408ec6b3a4e785a7863a6bbc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const PixelType &amp;</type>
+        <definition>const PixelType&amp; ofPixels_&lt; PixelType &gt;::operator[]</definition>
+        <argsstring>(int pos) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a0668779d6029f2b690804fa15cd663ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PixelType &amp;</type>
+        <definition>PixelType&amp; ofPixels_&lt; PixelType &gt;::operator[]</definition>
+        <argsstring>(int pos)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a55124dbd4cf544b651074a8afba69840" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPixels_&lt; PixelType &gt;::isAllocated</definition>
+        <argsstring>() const </argsstring>
+        <name>isAllocated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a4bd70bd65600e800cbe7e4368c7343ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::getWidth</definition>
+        <argsstring>() const </argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a3c01aa308c3888e3cd3d479861922f74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::getHeight</definition>
+        <argsstring>() const </argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a66f09e90ae12d0aec01ec243d5fdb33a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::getBytesPerPixel</definition>
+        <argsstring>() const </argsstring>
+        <name>getBytesPerPixel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a3ca4f9d3e99c837403e1fa0502cd9349" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::getBitsPerPixel</definition>
+        <argsstring>() const </argsstring>
+        <name>getBitsPerPixel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1ac91a10893be297b566c32e979ff88f3c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::getBytesPerChannel</definition>
+        <argsstring>() const </argsstring>
+        <name>getBytesPerChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1affd985c1637d8a601db45bcdb6bb9646" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::getBitsPerChannel</definition>
+        <argsstring>() const </argsstring>
+        <name>getBitsPerChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a72d8f39a66fd3d37db5aeab113676439" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::getNumChannels</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a4d1442db0d4d67225be59cc55feb5d9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt;</type>
+        <definition>ofPixels_&lt;PixelType&gt; ofPixels_&lt; PixelType &gt;::getChannel</definition>
+        <argsstring>(int channel) const </argsstring>
+        <name>getChannel</name>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1adeb3c08b1e8e85e27c95c4efb893fccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::setChannel</definition>
+        <argsstring>(int channel, const ofPixels_&lt; PixelType &gt; channelPixels)</argsstring>
+        <name>setChannel</name>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt;</type>
+          <declname>channelPixels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a958efb35639925f9ce95b01f379970e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="of_constants_8h_1a9760b6b0bec0314fdc85f44793bbe951" kindref="member">ofImageType</ref></type>
+        <definition>ofImageType ofPixels_&lt; PixelType &gt;::getImageType</definition>
+        <argsstring>() const </argsstring>
+        <name>getImageType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a11f1c38cc853ffedd6b5a3ac1ccdde60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPixels_&lt; PixelType &gt;::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_pixels___1a3610ecfddc76b4300e5c796eea1797ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofPixels_&lt; PixelType &gt;::bicubicInterpolate</definition>
+        <argsstring>(const float *patch, float x, float y, float x2, float y2, float x3, float y3)</argsstring>
+        <name>bicubicInterpolate</name>
+        <param>
+          <type>const float *</type>
+          <declname>patch</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1a9e9f36d6f11d49dd456a91cd6bfa5f9d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::copyFrom</definition>
+        <argsstring>(const ofPixels_&lt; PixelType &gt; &amp;mom)</argsstring>
+        <name>copyFrom</name>
+        <param>
+          <type>const <ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; PixelType &gt; &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_pixels___1ad24fd7decea0fac11db2bc3aa5ff2aee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SrcType</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ofPixels_&lt; PixelType &gt;::copyFrom</definition>
+        <argsstring>(const ofPixels_&lt; SrcType &gt; &amp;mom)</argsstring>
+        <name>copyFrom</name>
+        <param>
+          <type>const <ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; SrcType &gt; &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="97" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="146" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="509">
+        <label>PixelType</label>
+      </node>
+      <node id="508">
+        <label>ofPixels_&lt; PixelType &gt;</label>
+        <link refid="classof_pixels__"/>
+        <childnode refid="509" relation="usage">
+          <edgelabel>pixels</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" line="17" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPixels.h" bodystart="17" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classof_pixels___1a02b8aa5dd03f4403e37186c8eadaa872" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>allocate</name></member>
+      <member refid="classof_pixels___1abea72226691ab5c20d9d99b5ee7b4bf4" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>allocate</name></member>
+      <member refid="classof_pixels___1a81f729119cfe249e0da8f27aa46cb09f" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>allocate</name></member>
+      <member refid="classof_pixels___1a75350426333b19eee724427cbf7d9e87" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>bAllocated</name></member>
+      <member refid="classof_pixels___1a3610ecfddc76b4300e5c796eea1797ea" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>bicubicInterpolate</name></member>
+      <member refid="classof_pixels___1a0cc710f6c3433a98873041fb59d57d10" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>channels</name></member>
+      <member refid="classof_pixels___1a4a9f443ed29eed90fb2ad44515328dbe" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>clear</name></member>
+      <member refid="classof_pixels___1a9e9f36d6f11d49dd456a91cd6bfa5f9d" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>copyFrom</name></member>
+      <member refid="classof_pixels___1ad24fd7decea0fac11db2bc3aa5ff2aee" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>copyFrom</name></member>
+      <member refid="classof_pixels___1afd50b91ada0eaa98218fab6626dccb40" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>crop</name></member>
+      <member refid="classof_pixels___1af34c9eed1505f85d4fbdd2348f34e12c" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>cropTo</name></member>
+      <member refid="classof_pixels___1affd985c1637d8a601db45bcdb6bb9646" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getBitsPerChannel</name></member>
+      <member refid="classof_pixels___1a3ca4f9d3e99c837403e1fa0502cd9349" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getBitsPerPixel</name></member>
+      <member refid="classof_pixels___1ac91a10893be297b566c32e979ff88f3c" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getBytesPerChannel</name></member>
+      <member refid="classof_pixels___1a66f09e90ae12d0aec01ec243d5fdb33a" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getBytesPerPixel</name></member>
+      <member refid="classof_pixels___1a4d1442db0d4d67225be59cc55feb5d9f" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getChannel</name></member>
+      <member refid="classof_pixels___1a50a2657426b2378ea83d4906cdddf5c4" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getColor</name></member>
+      <member refid="classof_pixels___1a3c01aa308c3888e3cd3d479861922f74" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getHeight</name></member>
+      <member refid="classof_pixels___1a958efb35639925f9ce95b01f379970e8" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getImageType</name></member>
+      <member refid="classof_pixels___1a72d8f39a66fd3d37db5aeab113676439" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getNumChannels</name></member>
+      <member refid="classof_pixels___1a4c9bd76b744cb393e3ee8fc425ccd0d1" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getPixelIndex</name></member>
+      <member refid="classof_pixels___1a66d7de02f3da72d865efe1c5a4db245e" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getPixels</name></member>
+      <member refid="classof_pixels___1a1d1fe0f7cd522b92f85e1e9926a0c2ad" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getPixels</name></member>
+      <member refid="classof_pixels___1a4bd70bd65600e800cbe7e4368c7343ed" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>getWidth</name></member>
+      <member refid="classof_pixels___1a15e6dd57a54bb1d5c6f6e350298fe298" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>height</name></member>
+      <member refid="classof_pixels___1a55124dbd4cf544b651074a8afba69840" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>isAllocated</name></member>
+      <member refid="classof_pixels___1a3e65f083698f7f4cee1d528bcea4c073" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>mirror</name></member>
+      <member refid="classof_pixels___1af108a001c5dab31e348d39d21cd90798" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>ofPixels_</name></member>
+      <member refid="classof_pixels___1a12593d65b8154e1d107fd05f162e0829" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>ofPixels_</name></member>
+      <member refid="classof_pixels___1a299da5e949cb5f5cacba1376de27a8fe" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>ofPixels_</name></member>
+      <member refid="classof_pixels___1ae17bf43a25e9b7ebddae0de4b7ba66e3" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>ofPixelUtils</name></member>
+      <member refid="classof_pixels___1aaacd6f3a9a1f63308c37c1a38a21c122" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>operator=</name></member>
+      <member refid="classof_pixels___1aba9539893583399ebe511318597c0a4c" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>operator=</name></member>
+      <member refid="classof_pixels___1aa3d17170408ec6b3a4e785a7863a6bbc" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>operator[]</name></member>
+      <member refid="classof_pixels___1a0668779d6029f2b690804fa15cd663ba" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>operator[]</name></member>
+      <member refid="classof_pixels___1a9653b0e2aaf754523268f7167f64cb06" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>pasteInto</name></member>
+      <member refid="classof_pixels___1ac3ae8bfaeff59d78068d46742dc13461" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>pixels</name></member>
+      <member refid="classof_pixels___1aa2cebd51af1b45fe439fb82194e8fdfc" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>pixelsOwner</name></member>
+      <member refid="classof_pixels___1acc59c5ccd146c119de24192ee8d9864d" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>resize</name></member>
+      <member refid="classof_pixels___1a4ede495923b45be203974b82f17efd80" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>resizeTo</name></member>
+      <member refid="classof_pixels___1a3c1bae7e9a6df9f4b221842a347ab1e6" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>rotate90</name></member>
+      <member refid="classof_pixels___1aa14e0f35caf352220a96bfb5cdea1327" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>set</name></member>
+      <member refid="classof_pixels___1a9c0be56dd1be5cbd91b64d09e8390b3a" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>set</name></member>
+      <member refid="classof_pixels___1adeb3c08b1e8e85e27c95c4efb893fccf" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>setChannel</name></member>
+      <member refid="classof_pixels___1a1475bf924dbd75563e660d89a8cd8089" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>setColor</name></member>
+      <member refid="classof_pixels___1af0a1573a60d77d4d9bd48d387f5c6486" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>setFromAlignedPixels</name></member>
+      <member refid="classof_pixels___1afbb8498d2b71f9925fcede6863e739be" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>setFromExternalPixels</name></member>
+      <member refid="classof_pixels___1a1f0f57c453de1515dfb3d9608baaf998" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>setFromPixels</name></member>
+      <member refid="classof_pixels___1a4d8cf46e49c4c6c8a4157fa7399e8378" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>setFromPixels</name></member>
+      <member refid="classof_pixels___1a11f1c38cc853ffedd6b5a3ac1ccdde60" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>size</name></member>
+      <member refid="classof_pixels___1ab0228cce4f8c6da57775a842fe36fb83" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>swapRgb</name></member>
+      <member refid="classof_pixels___1a7bffb867c1c1bb4456a9ac96c6261687" prot="private" virt="non-virtual"><scope>ofPixels_</scope><name>width</name></member>
+      <member refid="classof_pixels___1a0899582d8818f6ed30ee31453c15d1e5" prot="public" virt="non-virtual"><scope>ofPixels_</scope><name>~ofPixels_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

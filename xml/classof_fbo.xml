@@ -1,0 +1,937 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_fbo" kind="class" prot="public">
+    <compoundname>ofFbo</compoundname>
+    <basecompoundref refid="classof_base_draws" prot="public" virt="non-virtual">ofBaseDraws</basecompoundref>
+    <basecompoundref refid="classof_base_has_texture" prot="public" virt="non-virtual">ofBaseHasTexture</basecompoundref>
+    <includes refid="of_fbo_8h" local="no">ofFbo.h</includes>
+    <innerclass refid="structof_fbo_1_1_settings" prot="public">ofFbo::Settings</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_fbo_1ad03a46d63310df7a4bd9ceb940a90688" prot="private" static="no" mutable="no">
+        <type><ref refid="structof_fbo_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings ofFbo::settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="80" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1a06be98b68250b5b153cb718082f4e422" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::isBound</definition>
+        <argsstring></argsstring>
+        <name>isBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="81" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1aa866d0482d5a0a480b137f15cec7880e" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofFbo::fbo</definition>
+        <argsstring></argsstring>
+        <name>fbo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1a1b2a29299d0997e62efcbe20e6e6cfe1" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofFbo::fboTextures</definition>
+        <argsstring></argsstring>
+        <name>fboTextures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="84" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1a4ce327b5fd4518e21b88e99644de58d8" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofFbo::depthBuffer</definition>
+        <argsstring></argsstring>
+        <name>depthBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="85" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1a0af5b101b12357bff06f97f0a727955e" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint ofFbo::stencilBuffer</definition>
+        <argsstring></argsstring>
+        <name>stencilBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="86" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1a747377883024ac8b0be1452c3cb7c859" prot="private" static="no" mutable="no">
+        <type>GLint</type>
+        <definition>GLint ofFbo::savedFramebuffer</definition>
+        <argsstring></argsstring>
+        <name>savedFramebuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1ad631a8c76601806412a04f9aa4998e2e" prot="private" static="no" mutable="no">
+        <type>vector&lt; GLuint &gt;</type>
+        <definition>vector&lt;GLuint&gt; ofFbo::colorBuffers</definition>
+        <argsstring></argsstring>
+        <name>colorBuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="90" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1a4e2692a041d01798242dda1a645af53c" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_texture" kindref="compound">ofTexture</ref> &gt;</type>
+        <definition>vector&lt;ofTexture&gt; ofFbo::textures</definition>
+        <argsstring></argsstring>
+        <name>textures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="91" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1ad4d866329ea313b9720d349b5cf300b5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofFbo::dirty</definition>
+        <argsstring></argsstring>
+        <name>dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="97" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1ac37326d3074021080e6967d68c8e50a2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::defaultTextureIndex</definition>
+        <argsstring></argsstring>
+        <name>defaultTextureIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="99" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classof_fbo_1ad7d682efb1761b27ab8de7a99385c6e2" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::_maxColorAttachments</definition>
+        <argsstring></argsstring>
+        <name>_maxColorAttachments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="93" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1a9c27091110d6e6f3cf23febc97e56a3b" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::_maxDrawBuffers</definition>
+        <argsstring></argsstring>
+        <name>_maxDrawBuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="94" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_fbo_1a790cc30d8c96c9d06e4a6e4a3735411e" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::_maxSamples</definition>
+        <argsstring></argsstring>
+        <name>_maxSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_fbo_1a0ebdaf2661312825f4af08429fb30f50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofFbo::ofFbo</definition>
+        <argsstring>()</argsstring>
+        <name>ofFbo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a1e45ab64a0adc92565bf9fb4a8f9e724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofFbo::ofFbo</definition>
+        <argsstring>(const ofFbo &amp;mom)</argsstring>
+        <name>ofFbo</name>
+        <param>
+          <type>const <ref refid="classof_fbo" kindref="compound">ofFbo</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a7781a5c504010fcc3d2fc7ab06179772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_fbo" kindref="compound">ofFbo</ref> &amp;</type>
+        <definition>ofFbo&amp; ofFbo::operator=</definition>
+        <argsstring>(const ofFbo &amp;fbo)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_fbo" kindref="compound">ofFbo</ref> &amp;</type>
+          <declname>fbo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1ae2d5e4f530f5cdc3729f8848afa7e096" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofFbo::~ofFbo</definition>
+        <argsstring>()</argsstring>
+        <name>~ofFbo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a256abd3a477d164e64409250eba488a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::allocate</definition>
+        <argsstring>(int width, int height, int internalformat=GL_RGBA, int numSamples=0)</argsstring>
+        <name>allocate</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>internalformat</declname>
+          <defval>GL_RGBA</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numSamples</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1ac2a0263afa943c8cbbebc58bb5dabd39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::allocate</definition>
+        <argsstring>(Settings settings=Settings())</argsstring>
+        <name>allocate</name>
+        <param>
+          <type><ref refid="structof_fbo_1_1_settings" kindref="compound">Settings</ref></type>
+          <declname>settings</declname>
+          <defval><ref refid="structof_fbo_1_1_settings" kindref="compound">Settings</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a083acab9d604f1ec41393e9778f7fe6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofFbo::draw</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_draws_1aa672814ee548835e571561863855262e">draw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1afbfa27be404bd8dc90c4b50efa639c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofFbo::draw</definition>
+        <argsstring>(float x, float y, float width, float height)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classof_base_draws_1a34e129056ed6238b2cc0b8b13cfab676">draw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a8750a2af0540fac6b7b36cfa795a5570" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofFbo::setAnchorPercent</definition>
+        <argsstring>(float xPct, float yPct)</argsstring>
+        <name>setAnchorPercent</name>
+        <reimplements refid="classof_base_draws_1a3cf9dd7a898b3503ac0509574eaaeff3">setAnchorPercent</reimplements>
+        <param>
+          <type>float</type>
+          <declname>xPct</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yPct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a8d72faa9d813033b4fad5e5bdf0edc4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofFbo::setAnchorPoint</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>setAnchorPoint</name>
+        <reimplements refid="classof_base_draws_1aefa6eaad3d976a6c1717105ea4443e56">setAnchorPoint</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1adc4416303195844582849bd0c879c142" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofFbo::resetAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>resetAnchor</name>
+        <reimplements refid="classof_base_draws_1a8e60af373caa636320b505ca07f274ae">resetAnchor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a9ec66b7b9df201ead55799b66ec5c2ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::setDefaultTextureIndex</definition>
+        <argsstring>(int defaultTexture)</argsstring>
+        <name>setDefaultTextureIndex</name>
+        <param>
+          <type>int</type>
+          <declname>defaultTexture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1af27140e3df40b7c1ebb1458e7210f5c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofFbo::getDefaultTextureIndex</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultTextureIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1afe0b3f71c6fcc2f05eee10331a1f42b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_texture" kindref="compound">ofTexture</ref> &amp;</type>
+        <definition>ofTexture&amp; ofFbo::getTextureReference</definition>
+        <argsstring>()</argsstring>
+        <name>getTextureReference</name>
+        <reimplements refid="classof_base_has_texture_1ae0f27d5ca6d5a92ee3d9b3d6088745f6">getTextureReference</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a17816d4020f1de3e6b00b145bedeffce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_texture" kindref="compound">ofTexture</ref> &amp;</type>
+        <definition>ofTexture&amp; ofFbo::getTextureReference</definition>
+        <argsstring>(int attachmentPoint)</argsstring>
+        <name>getTextureReference</name>
+        <param>
+          <type>int</type>
+          <declname>attachmentPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1ae20f7a35e53ff60eb8f6e8bf83aa1f67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ofFbo::setUseTexture</definition>
+        <argsstring>(bool bUseTex)</argsstring>
+        <name>setUseTexture</name>
+        <reimplements refid="classof_base_has_texture_1a3d2529a36a39ad5277f3050459cc3c80">setUseTexture</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bUseTex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="33" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a6ba9ff0242fda16e42ba0ae0ad5df493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a366c4376d444b5742bbbbe0f4ca2eff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1ac16fac735802e72c2f6c930f4468c8c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::readToPixels</definition>
+        <argsstring>(ofPixels &amp;pixels, int attachmentPoint=0)</argsstring>
+        <name>readToPixels</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref> &amp;</type>
+          <declname>pixels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>attachmentPoint</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a35d4844cf7000d91a8c2b4c1f45acb45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::readToPixels</definition>
+        <argsstring>(ofShortPixels &amp;pixels, int attachmentPoint=0)</argsstring>
+        <name>readToPixels</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofShortPixels</ref> &amp;</type>
+          <declname>pixels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>attachmentPoint</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1abe6e9050915897c84d4e14b8560f2094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::readToPixels</definition>
+        <argsstring>(ofFloatPixels &amp;pixels, int attachmentPoint=0)</argsstring>
+        <name>readToPixels</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofFloatPixels</ref> &amp;</type>
+          <declname>pixels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>attachmentPoint</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1acc0fd73ba942a85500931ee2f62d398e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofFbo::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplements refid="classof_base_draws_1ab85c73ed90a60ab75453f1e9ca831a84">getWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a8b7ed597edaf8d76f5a7c1d49ef8d0b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofFbo::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplements refid="classof_base_draws_1ac192eb9129a4548f64ed05c504c84b45">getHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a7a482e2c18baeb990f99dbe3718dc0c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::bind</definition>
+        <argsstring>()</argsstring>
+        <name>bind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1ad3185a7f5f21cfde078f0c6a7fc265bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::unbind</definition>
+        <argsstring>()</argsstring>
+        <name>unbind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a33f8fd4b446be38333be97a69431646e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofFbo::getNumTextures</definition>
+        <argsstring>()</argsstring>
+        <name>getNumTextures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1ac28935d6593c4c330d06004a4f64343a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofFbo::getFbo</definition>
+        <argsstring>()</argsstring>
+        <name>getFbo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1ac6545752c14e97d876995b793396fd2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofFbo::getDepthBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>getDepthBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="59" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a66661609bbd4ee177b70dc56767ac46f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofFbo::getStencilBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>getStencilBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="60" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classof_fbo_1a3eba0d66c72cbaba5171069522845331" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ofFbo::checkGLSupport</definition>
+        <argsstring>()</argsstring>
+        <name>checkGLSupport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a89f95ce3942bb53f8e3392c4bd1c1835" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ofFbo::maxColorAttachments</definition>
+        <argsstring>()</argsstring>
+        <name>maxColorAttachments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a52203006e040b0a243501969e186fb00" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ofFbo::maxDrawBuffers</definition>
+        <argsstring>()</argsstring>
+        <name>maxDrawBuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1af52bbd5d09bc577e34cb79dbf7a358de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ofFbo::maxSamples</definition>
+        <argsstring>()</argsstring>
+        <name>maxSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_fbo_1aa4c597f681dc12473d09d9a8bdc09e70" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::destroy</definition>
+        <argsstring>()</argsstring>
+        <name>destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a86c24d0cb7851189f49afaad2a7e0c0b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofFbo::checkStatus</definition>
+        <argsstring>()</argsstring>
+        <name>checkStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a4962b4f8a67c5aa1b6b7d1ad529ec563" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::createAndAttachTexture</definition>
+        <argsstring>(GLenum attachmentPoint)</argsstring>
+        <name>createAndAttachTexture</name>
+        <param>
+          <type>GLenum</type>
+          <declname>attachmentPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a7afe04b8d372d1988e1f89194c21361a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GLuint</type>
+        <definition>GLuint ofFbo::createAndAttachRenderbuffer</definition>
+        <argsstring>(GLenum internalFormat, GLenum attachmentPoint)</argsstring>
+        <name>createAndAttachRenderbuffer</name>
+        <param>
+          <type>GLenum</type>
+          <declname>internalFormat</declname>
+        </param>
+        <param>
+          <type>GLenum</type>
+          <declname>attachmentPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_fbo_1a01f3b8cec8454c0785c4875794e89a3e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFbo::updateTexture</definition>
+        <argsstring>(int attachmentPoint)</argsstring>
+        <name>updateTexture</name>
+        <param>
+          <type>int</type>
+          <declname>attachmentPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="261">
+        <label>ofFbo</label>
+        <link refid="classof_fbo"/>
+        <childnode refid="262" relation="public-inheritance">
+        </childnode>
+        <childnode refid="263" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="263">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="264">
+        <label>ofFbo</label>
+        <link refid="classof_fbo"/>
+        <childnode refid="265" relation="public-inheritance">
+        </childnode>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+        <childnode refid="267" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="267">
+        <label>ofFbo::Settings</label>
+        <link refid="structof_fbo_1_1_settings"/>
+      </node>
+      <node id="265">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="266">
+        <label>ofBaseHasTexture</label>
+        <link refid="classof_base_has_texture"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="7" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="7" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classof_fbo_1ad7d682efb1761b27ab8de7a99385c6e2" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>_maxColorAttachments</name></member>
+      <member refid="classof_fbo_1a9c27091110d6e6f3cf23febc97e56a3b" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>_maxDrawBuffers</name></member>
+      <member refid="classof_fbo_1a790cc30d8c96c9d06e4a6e4a3735411e" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>_maxSamples</name></member>
+      <member refid="classof_fbo_1a256abd3a477d164e64409250eba488a5" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>allocate</name></member>
+      <member refid="classof_fbo_1ac2a0263afa943c8cbbebc58bb5dabd39" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>allocate</name></member>
+      <member refid="classof_fbo_1a6ba9ff0242fda16e42ba0ae0ad5df493" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>begin</name></member>
+      <member refid="classof_fbo_1a7a482e2c18baeb990f99dbe3718dc0c3" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>bind</name></member>
+      <member refid="classof_fbo_1a3eba0d66c72cbaba5171069522845331" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>checkGLSupport</name></member>
+      <member refid="classof_fbo_1a86c24d0cb7851189f49afaad2a7e0c0b" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>checkStatus</name></member>
+      <member refid="classof_fbo_1ad631a8c76601806412a04f9aa4998e2e" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>colorBuffers</name></member>
+      <member refid="classof_fbo_1a7afe04b8d372d1988e1f89194c21361a" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>createAndAttachRenderbuffer</name></member>
+      <member refid="classof_fbo_1a4962b4f8a67c5aa1b6b7d1ad529ec563" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>createAndAttachTexture</name></member>
+      <member refid="classof_fbo_1ac37326d3074021080e6967d68c8e50a2" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>defaultTextureIndex</name></member>
+      <member refid="classof_fbo_1a4ce327b5fd4518e21b88e99644de58d8" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>depthBuffer</name></member>
+      <member refid="classof_fbo_1aa4c597f681dc12473d09d9a8bdc09e70" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>destroy</name></member>
+      <member refid="classof_fbo_1ad4d866329ea313b9720d349b5cf300b5" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>dirty</name></member>
+      <member refid="classof_fbo_1a083acab9d604f1ec41393e9778f7fe6d" prot="public" virt="virtual"><scope>ofFbo</scope><name>draw</name></member>
+      <member refid="classof_fbo_1afbfa27be404bd8dc90c4b50efa639c39" prot="public" virt="virtual"><scope>ofFbo</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a768768895b8cb95515094c958f9ec0f0" prot="public" virt="virtual" ambiguityscope="ofBaseDraws::"><scope>ofFbo</scope><name>draw</name></member>
+      <member refid="classof_base_draws_1a0ae112e1709647d6dd84d0787876cb8a" prot="public" virt="virtual" ambiguityscope="ofBaseDraws::"><scope>ofFbo</scope><name>draw</name></member>
+      <member refid="classof_fbo_1a366c4376d444b5742bbbbe0f4ca2eff5" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>end</name></member>
+      <member refid="classof_fbo_1aa866d0482d5a0a480b137f15cec7880e" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>fbo</name></member>
+      <member refid="classof_fbo_1a1b2a29299d0997e62efcbe20e6e6cfe1" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>fboTextures</name></member>
+      <member refid="classof_fbo_1af27140e3df40b7c1ebb1458e7210f5c3" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>getDefaultTextureIndex</name></member>
+      <member refid="classof_fbo_1ac6545752c14e97d876995b793396fd2c" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>getDepthBuffer</name></member>
+      <member refid="classof_fbo_1ac28935d6593c4c330d06004a4f64343a" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>getFbo</name></member>
+      <member refid="classof_fbo_1a8b7ed597edaf8d76f5a7c1d49ef8d0b1" prot="public" virt="virtual"><scope>ofFbo</scope><name>getHeight</name></member>
+      <member refid="classof_fbo_1a33f8fd4b446be38333be97a69431646e" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>getNumTextures</name></member>
+      <member refid="classof_fbo_1a66661609bbd4ee177b70dc56767ac46f" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>getStencilBuffer</name></member>
+      <member refid="classof_fbo_1afe0b3f71c6fcc2f05eee10331a1f42b9" prot="public" virt="virtual"><scope>ofFbo</scope><name>getTextureReference</name></member>
+      <member refid="classof_fbo_1a17816d4020f1de3e6b00b145bedeffce" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>getTextureReference</name></member>
+      <member refid="classof_fbo_1acc0fd73ba942a85500931ee2f62d398e" prot="public" virt="virtual"><scope>ofFbo</scope><name>getWidth</name></member>
+      <member refid="classof_fbo_1a06be98b68250b5b153cb718082f4e422" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>isBound</name></member>
+      <member refid="classof_fbo_1a89f95ce3942bb53f8e3392c4bd1c1835" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>maxColorAttachments</name></member>
+      <member refid="classof_fbo_1a52203006e040b0a243501969e186fb00" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>maxDrawBuffers</name></member>
+      <member refid="classof_fbo_1af52bbd5d09bc577e34cb79dbf7a358de" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>maxSamples</name></member>
+      <member refid="classof_fbo_1a0ebdaf2661312825f4af08429fb30f50" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>ofFbo</name></member>
+      <member refid="classof_fbo_1a1e45ab64a0adc92565bf9fb4a8f9e724" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>ofFbo</name></member>
+      <member refid="classof_fbo_1a7781a5c504010fcc3d2fc7ab06179772" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>operator=</name></member>
+      <member refid="classof_fbo_1ac16fac735802e72c2f6c930f4468c8c3" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>readToPixels</name></member>
+      <member refid="classof_fbo_1a35d4844cf7000d91a8c2b4c1f45acb45" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>readToPixels</name></member>
+      <member refid="classof_fbo_1abe6e9050915897c84d4e14b8560f2094" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>readToPixels</name></member>
+      <member refid="classof_fbo_1adc4416303195844582849bd0c879c142" prot="public" virt="virtual"><scope>ofFbo</scope><name>resetAnchor</name></member>
+      <member refid="classof_fbo_1a747377883024ac8b0be1452c3cb7c859" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>savedFramebuffer</name></member>
+      <member refid="classof_fbo_1a8750a2af0540fac6b7b36cfa795a5570" prot="public" virt="virtual"><scope>ofFbo</scope><name>setAnchorPercent</name></member>
+      <member refid="classof_fbo_1a8d72faa9d813033b4fad5e5bdf0edc4a" prot="public" virt="virtual"><scope>ofFbo</scope><name>setAnchorPoint</name></member>
+      <member refid="classof_fbo_1a9ec66b7b9df201ead55799b66ec5c2ca" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>setDefaultTextureIndex</name></member>
+      <member refid="classof_fbo_1ad03a46d63310df7a4bd9ceb940a90688" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>settings</name></member>
+      <member refid="classof_fbo_1ae20f7a35e53ff60eb8f6e8bf83aa1f67" prot="public" virt="virtual"><scope>ofFbo</scope><name>setUseTexture</name></member>
+      <member refid="classof_fbo_1a0af5b101b12357bff06f97f0a727955e" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>stencilBuffer</name></member>
+      <member refid="classof_fbo_1a4e2692a041d01798242dda1a645af53c" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>textures</name></member>
+      <member refid="classof_fbo_1ad3185a7f5f21cfde078f0c6a7fc265bf" prot="public" virt="non-virtual"><scope>ofFbo</scope><name>unbind</name></member>
+      <member refid="classof_fbo_1a01f3b8cec8454c0785c4875794e89a3e" prot="private" virt="non-virtual"><scope>ofFbo</scope><name>updateTexture</name></member>
+      <member refid="classof_base_draws_1af97993d6809a3a3bce934ce2d1fc3fc4" prot="public" virt="virtual"><scope>ofFbo</scope><name>~ofBaseDraws</name></member>
+      <member refid="classof_base_has_texture_1a45f59246be49ccf62aa090d928cd9096" prot="public" virt="virtual"><scope>ofFbo</scope><name>~ofBaseHasTexture</name></member>
+      <member refid="classof_fbo_1ae2d5e4f530f5cdc3729f8848afa7e096" prot="public" virt="virtual"><scope>ofFbo</scope><name>~ofFbo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

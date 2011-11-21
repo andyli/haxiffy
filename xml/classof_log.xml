@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_log" kind="class" prot="public">
+    <compoundname>ofLog</compoundname>
+    <derivedcompoundref refid="classof_log_error" prot="public" virt="non-virtual">ofLogError</derivedcompoundref>
+    <derivedcompoundref refid="classof_log_fatal_error" prot="public" virt="non-virtual">ofLogFatalError</derivedcompoundref>
+    <derivedcompoundref refid="classof_log_notice" prot="public" virt="non-virtual">ofLogNotice</derivedcompoundref>
+    <derivedcompoundref refid="classof_log_verbose" prot="public" virt="non-virtual">ofLogVerbose</derivedcompoundref>
+    <derivedcompoundref refid="classof_log_warning" prot="public" virt="non-virtual">ofLogWarning</derivedcompoundref>
+    <includes refid="of_log_8h" local="no">ofLog.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_log_1ae6e5efb037f89eec86c478c7501b7f11" prot="protected" static="no" mutable="no">
+        <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+        <definition>ofLogLevel ofLog::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+<para>log level </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="86" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_log_1adfeb1385b39fad45477eb0bc1f70fdb4" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofLog::bPrinted</definition>
+        <argsstring></argsstring>
+        <name>bPrinted</name>
+        <briefdescription>
+<para>has the msg been printed in the constructor? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="87" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofLog::module</definition>
+        <argsstring></argsstring>
+        <name>module</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_log_1ab3d3e5b757165ab10f455d678917c9da" prot="private" static="no" mutable="no">
+        <type>std::ostringstream</type>
+        <definition>std::ostringstream ofLog::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+<para>temp buffer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="96" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classof_log_1addce8088c4d55fb91360f3b91e4801ef" prot="private" static="yes" mutable="no">
+        <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_logger_channel" kindref="compound">ofBaseLoggerChannel</ref> &gt;</type>
+        <definition>ofPtr&lt;ofBaseLoggerChannel&gt; ofLog::channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="101" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_log_1a11a926adbe4ef4bfbee393345f5df1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofLog::ofLog</definition>
+        <argsstring>()</argsstring>
+        <name>ofLog</name>
+        <briefdescription>
+<para>use the default log level </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_log_1a3a439e9fcf3792ef557342efade73bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofLog::ofLog</definition>
+        <argsstring>(ofLogLevel logLevel)</argsstring>
+        <name>ofLog</name>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>logLevel</declname>
+        </param>
+        <briefdescription>
+<para>set the log level </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_log_1abe0d0cbf4f049f3f9841bf9f31b7ceb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofLog::ofLog</definition>
+        <argsstring>(ofLogLevel logLevel, const string &amp;message)</argsstring>
+        <name>ofLog</name>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>logLevel</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>the legacy <ref refid="classof_log" kindref="compound">ofLog</ref> interfaces </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_log_1a0504f3f900ba5be220363662a639b170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofLog::ofLog</definition>
+        <argsstring>(ofLogLevel logLevel, const char *format,...)</argsstring>
+        <name>ofLog</name>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>logLevel</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_log_1a50698995eea3deb35f9ea539f51d398b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofLog::~ofLog</definition>
+        <argsstring>()</argsstring>
+        <name>~ofLog</name>
+        <briefdescription>
+<para>does the actual printing when the ostream is done </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_log_1a66ccaaa768250066ca2078d63ccb14d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classof_log" kindref="compound">ofLog</ref> &amp;</type>
+        <definition>ofLog&amp; ofLog::operator&lt;&lt;</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>catch the &lt;&lt; ostream with a template class to read any type of data </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="72" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_log_1a10502cf2a6a2ad636e5f1c4058bd037f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_log" kindref="compound">ofLog</ref> &amp;</type>
+        <definition>ofLog&amp; ofLog::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;(*func)(std::ostream &amp;))</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;(*)(std::ostream &amp;)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+<para>catch the &lt;&lt; ostream function pointers such as std::endl and std::hex </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="78" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="78" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classof_log_1ad20297d62c7d8b547553bea3b6d18029" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofLog::setChannel</definition>
+        <argsstring>(ofPtr&lt; ofBaseLoggerChannel &gt; channel)</argsstring>
+        <name>setChannel</name>
+        <param>
+          <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_logger_channel" kindref="compound">ofBaseLoggerChannel</ref> &gt;</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="83"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_log_1a1d4ece9af238988b484420a2422c69e9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLog::_log</definition>
+        <argsstring>(ofLogLevel level, const string &amp;module, const string &amp;message)</argsstring>
+        <name>_log</name>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>print a log line </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_log_1a3288e9556cd90f363a1575ef3ec2ed0d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLog::checkLog</definition>
+        <argsstring>(ofLogLevel level, const string &amp;module)</argsstring>
+        <name>checkLog</name>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>module</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_log_1ad0aa8f5065d3bd49e4e104aacea40955" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofLog::ofLog</definition>
+        <argsstring>(ofLog const &amp;)</argsstring>
+        <name>ofLog</name>
+        <param>
+          <type><ref refid="classof_log" kindref="compound">ofLog</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="98" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_log_1a456b2aefb5d50535a423c506a44e1d14" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_log" kindref="compound">ofLog</ref> &amp;</type>
+        <definition>ofLog&amp; ofLog::operator=</definition>
+        <argsstring>(ofLog &amp;from)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classof_log" kindref="compound">ofLog</ref> &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="99" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a streaming log interface </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classof_log" kindref="compound">ofLog</ref> accepts variables via the ostream operator &lt;&lt; and builds a string and logs it when the stream is finished (via the destructor). A newline is printed automatically and all the stream controls (endl, flush, hex, etc) work normally. The log level is explicitly OF_LOG_NOTICE unless set, see the derived wrapper classes:</para><para>Usage: <ref refid="classof_log_1a11a926adbe4ef4bfbee393345f5df1cc" kindref="member">ofLog()</ref> &lt;&lt; &quot;a string&quot; &lt;&lt; 100 &lt;&lt; 20.234f;</para><para>It also accepts the legacy <ref refid="classof_log" kindref="compound">ofLog</ref> interface: ofLog(ofLogLevel level, string message):</para><para>Usage: <ref refid="classof_log" kindref="compound">ofLog</ref>(OF_LOG_ERROR, &quot;another string&quot;);</para><para>class idea from: <ulink url="http://www.gamedev.net/community/forums/topic.asp?topic_id=525405&amp;whichpage=1&amp;#3406418">http://www.gamedev.net/community/forums/topic.asp?topic_id=525405&amp;whichpage=1&amp;#3406418</ulink> how to catch std::endl (which is actually a func pointer): <ulink url="http://yvan.seth.id.au/Entries/Technology/Code/std__endl.html">http://yvan.seth.id.au/Entries/Technology/Code/std__endl.html</ulink></para><para><simplesect kind="author"><para>Dan Wilcox &lt;<ulink url="mailto:danomatika@gmail.com">danomatika@gmail.com</ulink>&gt; danomatika.com </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="439">
+        <label>ofLogFatalError</label>
+        <link refid="classof_log_fatal_error"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>ofLogError</label>
+        <link refid="classof_log_error"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="441">
+        <label>ofLogVerbose</label>
+        <link refid="classof_log_verbose"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="442">
+        <label>ofLogWarning</label>
+        <link refid="classof_log_warning"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="437">
+        <label>ofLog</label>
+        <link refid="classof_log"/>
+      </node>
+      <node id="440">
+        <label>ofLogNotice</label>
+        <link refid="classof_log_notice"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="444">
+        <label>ofPtr&lt; ofBaseLoggerChannel &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="443">
+        <label>ofLog</label>
+        <link refid="classof_log"/>
+        <childnode refid="444" relation="usage">
+          <edgelabel>channel</edgelabel>
+        </childnode>
+      </node>
+      <node id="445">
+        <label>std::tr1::shared_ptr&lt; ofBaseLoggerChannel &gt;</label>
+        <link refid="classstd_1_1tr1_1_1shared__ptr"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="54" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="54" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classof_log_1a1d4ece9af238988b484420a2422c69e9" prot="protected" virt="non-virtual"><scope>ofLog</scope><name>_log</name></member>
+      <member refid="classof_log_1adfeb1385b39fad45477eb0bc1f70fdb4" prot="protected" virt="non-virtual"><scope>ofLog</scope><name>bPrinted</name></member>
+      <member refid="classof_log_1addce8088c4d55fb91360f3b91e4801ef" prot="private" virt="non-virtual"><scope>ofLog</scope><name>channel</name></member>
+      <member refid="classof_log_1a3288e9556cd90f363a1575ef3ec2ed0d" prot="protected" virt="non-virtual"><scope>ofLog</scope><name>checkLog</name></member>
+      <member refid="classof_log_1ae6e5efb037f89eec86c478c7501b7f11" prot="protected" virt="non-virtual"><scope>ofLog</scope><name>level</name></member>
+      <member refid="classof_log_1ab3d3e5b757165ab10f455d678917c9da" prot="private" virt="non-virtual"><scope>ofLog</scope><name>message</name></member>
+      <member refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" prot="protected" virt="non-virtual"><scope>ofLog</scope><name>module</name></member>
+      <member refid="classof_log_1a11a926adbe4ef4bfbee393345f5df1cc" prot="public" virt="non-virtual"><scope>ofLog</scope><name>ofLog</name></member>
+      <member refid="classof_log_1a3a439e9fcf3792ef557342efade73bf4" prot="public" virt="non-virtual"><scope>ofLog</scope><name>ofLog</name></member>
+      <member refid="classof_log_1abe0d0cbf4f049f3f9841bf9f31b7ceb3" prot="public" virt="non-virtual"><scope>ofLog</scope><name>ofLog</name></member>
+      <member refid="classof_log_1a0504f3f900ba5be220363662a639b170" prot="public" virt="non-virtual"><scope>ofLog</scope><name>ofLog</name></member>
+      <member refid="classof_log_1ad0aa8f5065d3bd49e4e104aacea40955" prot="private" virt="non-virtual"><scope>ofLog</scope><name>ofLog</name></member>
+      <member refid="classof_log_1a66ccaaa768250066ca2078d63ccb14d0" prot="public" virt="non-virtual"><scope>ofLog</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classof_log_1a10502cf2a6a2ad636e5f1c4058bd037f" prot="public" virt="non-virtual"><scope>ofLog</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classof_log_1a456b2aefb5d50535a423c506a44e1d14" prot="private" virt="non-virtual"><scope>ofLog</scope><name>operator=</name></member>
+      <member refid="classof_log_1ad20297d62c7d8b547553bea3b6d18029" prot="public" virt="non-virtual"><scope>ofLog</scope><name>setChannel</name></member>
+      <member refid="classof_log_1a50698995eea3deb35f9ea539f51d398b" prot="public" virt="virtual"><scope>ofLog</scope><name>~ofLog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

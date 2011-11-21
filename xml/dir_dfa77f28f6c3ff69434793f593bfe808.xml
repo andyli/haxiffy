@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_dfa77f28f6c3ff69434793f593bfe808" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/</compoundname>
+    <innerfile refid="of_math_8h">ofMath.h</innerfile>
+    <innerfile refid="of_matrix3x3_8h">ofMatrix3x3.h</innerfile>
+    <innerfile refid="of_matrix4x4_8h">ofMatrix4x4.h</innerfile>
+    <innerfile refid="of_quaternion_8h">ofQuaternion.h</innerfile>
+    <innerfile refid="of_vec2f_8h">ofVec2f.h</innerfile>
+    <innerfile refid="of_vec3f_8h">ofVec3f.h</innerfile>
+    <innerfile refid="of_vec4f_8h">ofVec4f.h</innerfile>
+    <innerfile refid="of_vector_math_8h">ofVectorMath.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/"/>
+  </compounddef>
+</doxygen>

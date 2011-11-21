@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_gst_video_utils" kind="class" prot="public">
+    <compoundname>ofGstVideoUtils</compoundname>
+    <basecompoundref refid="classof_base_video" prot="public" virt="non-virtual">ofBaseVideo</basecompoundref>
+    <basecompoundref refid="classof_gst_utils" prot="public" virt="non-virtual">ofGstUtils</basecompoundref>
+    <includes refid="of_gst_utils_8h" local="no">ofGstUtils.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_gst_video_utils_1ab6a536f48890fd4019697ddc0c17cfae" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; <ref refid="classof_pixels__" kindref="compound">ofPixels</ref> &gt;</type>
+        <definition>ofEvent&lt;ofPixels&gt; ofGstVideoUtils::prerollEvent</definition>
+        <argsstring></argsstring>
+        <name>prerollEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="122" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_utils_1a9e5a3482bb86ba3540545d1deb30123d" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; <ref refid="classof_pixels__" kindref="compound">ofPixels</ref> &gt;</type>
+        <definition>ofEvent&lt;ofPixels&gt; ofGstVideoUtils::bufferEvent</definition>
+        <argsstring></argsstring>
+        <name>bufferEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="123" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_utils_1a5d9fe5f720c9ff9612913fa0ae895d9f" prot="public" static="no" mutable="no">
+        <type>ofEvent&lt; ofEventArgs &gt;</type>
+        <definition>ofEvent&lt;ofEventArgs&gt; ofGstVideoUtils::eosEvent</definition>
+        <argsstring></argsstring>
+        <name>eosEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="124" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_gst_video_utils_1ab6c7937a9fabff6689978f2cc8d67c86" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref></type>
+        <definition>ofPixels ofGstVideoUtils::pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="132" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_utils_1a8f93b987d0aa31454626b1da0f4d1480" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref></type>
+        <definition>ofPixels ofGstVideoUtils::backPixels</definition>
+        <argsstring></argsstring>
+        <name>backPixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="133" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_gst_video_utils_1a8b044859a92f7c850c9f637420180a4e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstVideoUtils::bIsFrameNew</definition>
+        <argsstring></argsstring>
+        <name>bIsFrameNew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="135" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_utils_1af74de9a931cccfa11e6f2b8a448c1b86" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstVideoUtils::bHavePixelsChanged</definition>
+        <argsstring></argsstring>
+        <name>bHavePixelsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="136" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_utils_1a410a8c50f0a8b3e0ee636386e481fe74" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstVideoUtils::bBackPixelsChanged</definition>
+        <argsstring></argsstring>
+        <name>bBackPixelsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="137" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_utils_1a1eb5c0640244e474fe514584effd2bfd" prot="private" static="no" mutable="no">
+        <type><ref refid="of_types_8h_1a14d0290b2d9067f9b5c30fa5e4e56927" kindref="member">ofMutex</ref></type>
+        <definition>ofMutex ofGstVideoUtils::mutex</definition>
+        <argsstring></argsstring>
+        <name>mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="138" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_gst_video_utils_1a3d2eaed59c04b70a82612a2492f71b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofGstVideoUtils::ofGstVideoUtils</definition>
+        <argsstring>()</argsstring>
+        <name>ofGstVideoUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a54f76a9fb77a3ea5d7f97806ba26e65a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofGstVideoUtils::~ofGstVideoUtils</definition>
+        <argsstring>()</argsstring>
+        <name>~ofGstVideoUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1aafba2554c03c06cc9278980c11398b88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstVideoUtils::setPipeline</definition>
+        <argsstring>(string pipeline, int bpp=24, bool isStream=false, int w=-1, int h=-1)</argsstring>
+        <name>setPipeline</name>
+        <param>
+          <type>string</type>
+          <declname>pipeline</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bpp</declname>
+          <defval>24</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isStream</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a51fc30c00bfb261a7a2835c2ea6e1cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstVideoUtils::allocate</definition>
+        <argsstring>(int w, int h, int bpp)</argsstring>
+        <name>allocate</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bpp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1af192b063cad4fbea88f290e3b501eb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofGstVideoUtils::isFrameNew</definition>
+        <argsstring>()</argsstring>
+        <name>isFrameNew</name>
+        <reimplements refid="classof_base_video_1a614f817009e02303e075f7552c78cfb0">isFrameNew</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a053d7db4e48274bc9be3f144b4dc6b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char* ofGstVideoUtils::getPixels</definition>
+        <argsstring>()</argsstring>
+        <name>getPixels</name>
+        <reimplements refid="classof_base_has_pixels___1a680c5d134ff80d892abbe681fa5ce2e0">getPixels</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a144c83ce876eca7fac1262f408c8be6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref></type>
+        <definition>ofPixelsRef ofGstVideoUtils::getPixelsRef</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelsRef</name>
+        <reimplements refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45">getPixelsRef</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a54a95801b95b9acb3ae33669506f0ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoUtils::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_updates_1aafe52b53362bf3401d666970557d5250">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1ae19ad8a0c492b4750538ab147ae875a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofGstVideoUtils::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a2dbacae8afcfbe29dc7972c3ac8d8320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofGstVideoUtils::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a9c455d0326dd313597b31111d321c357" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoUtils::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_video_1af21eaad083952a7daf955042551a773e">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="118"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_gst_video_utils_1a9a2618c1779a9db8bfb96d450da0ea4e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>GstFlowReturn</type>
+        <definition>GstFlowReturn ofGstVideoUtils::preroll_cb</definition>
+        <argsstring>(GstBuffer *buffer)</argsstring>
+        <name>preroll_cb</name>
+        <reimplements refid="classof_gst_utils_1af7ecbe2a5ee974cc7720aa980d9a11cd">preroll_cb</reimplements>
+        <param>
+          <type>GstBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a8423b2a3242af9b5ba22524c3ce3a3de" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>GstFlowReturn</type>
+        <definition>GstFlowReturn ofGstVideoUtils::buffer_cb</definition>
+        <argsstring>(GstBuffer *buffer)</argsstring>
+        <name>buffer_cb</name>
+        <reimplements refid="classof_gst_utils_1a7e5937a1f519499d5fc0e3d7f411d94d">buffer_cb</reimplements>
+        <param>
+          <type>GstBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_utils_1a8dc4163e3a59600873fd238c08627a8b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoUtils::eos_cb</definition>
+        <argsstring>()</argsstring>
+        <name>eos_cb</name>
+        <reimplements refid="classof_gst_utils_1add74fae9f4dfd32fbd01133ceda38534">eos_cb</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="363">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="364" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="362">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="363" relation="public-inheritance">
+        </childnode>
+        <childnode refid="365" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="365">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="366">
+        <label>ofGstUtils</label>
+        <link refid="classof_gst_utils"/>
+      </node>
+      <node id="361">
+        <label>ofGstVideoUtils</label>
+        <link refid="classof_gst_video_utils"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="364">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="369">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="370" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="373">
+        <label>ofGstAppSink</label>
+        <link refid="classof_gst_app_sink"/>
+      </node>
+      <node id="368">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="369" relation="public-inheritance">
+        </childnode>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="371">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="372">
+        <label>ofGstUtils</label>
+        <link refid="classof_gst_utils"/>
+        <childnode refid="373" relation="usage">
+          <edgelabel>appsink</edgelabel>
+        </childnode>
+      </node>
+      <node id="374">
+        <label>ofPixels_&lt; unsigned char &gt;</label>
+        <link refid="classof_pixels__"/>
+      </node>
+      <node id="367">
+        <label>ofGstVideoUtils</label>
+        <link refid="classof_gst_video_utils"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+        <childnode refid="372" relation="public-inheritance">
+        </childnode>
+        <childnode refid="374" relation="usage">
+          <edgelabel>backPixels</edgelabel>
+          <edgelabel>pixels</edgelabel>
+        </childnode>
+      </node>
+      <node id="370">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="100" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="100" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classof_gst_video_utils_1a51fc30c00bfb261a7a2835c2ea6e1cd4" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>allocate</name></member>
+      <member refid="classof_gst_video_utils_1a8f93b987d0aa31454626b1da0f4d1480" prot="protected" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>backPixels</name></member>
+      <member refid="classof_gst_video_utils_1a410a8c50f0a8b3e0ee636386e481fe74" prot="private" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>bBackPixelsChanged</name></member>
+      <member refid="classof_gst_video_utils_1af74de9a931cccfa11e6f2b8a448c1b86" prot="private" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>bHavePixelsChanged</name></member>
+      <member refid="classof_gst_video_utils_1a8b044859a92f7c850c9f637420180a4e" prot="private" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>bIsFrameNew</name></member>
+      <member refid="classof_gst_video_utils_1a8423b2a3242af9b5ba22524c3ce3a3de" prot="protected" virt="virtual"><scope>ofGstVideoUtils</scope><name>buffer_cb</name></member>
+      <member refid="classof_gst_video_utils_1a9e5a3482bb86ba3540545d1deb30123d" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>bufferEvent</name></member>
+      <member refid="classof_gst_video_utils_1a9c455d0326dd313597b31111d321c357" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>close</name></member>
+      <member refid="classof_gst_video_utils_1a8dc4163e3a59600873fd238c08627a8b" prot="protected" virt="virtual"><scope>ofGstVideoUtils</scope><name>eos_cb</name></member>
+      <member refid="classof_gst_video_utils_1a5d9fe5f720c9ff9612913fa0ae895d9f" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>eosEvent</name></member>
+      <member refid="classof_gst_utils_1a97660d4b80b24ab8f12a0ee295dad6e9" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getDuration</name></member>
+      <member refid="classof_gst_utils_1a99d3a1edadd3e8e28e7c58ab4fe31ac8" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getDurationNanos</name></member>
+      <member refid="classof_gst_video_utils_1ae19ad8a0c492b4750538ab147ae875a9" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getHeight</name></member>
+      <member refid="classof_gst_utils_1afb331370b918cdf2673feaee574f40a5" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getIsMovieDone</name></member>
+      <member refid="classof_gst_utils_1a3dce69dc116bd794264c61bf856305ef" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getLoopState</name></member>
+      <member refid="classof_gst_utils_1a3e2cefbb93d44874cc9af6d1e25f77a4" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getPipeline</name></member>
+      <member refid="classof_gst_video_utils_1a053d7db4e48274bc9be3f144b4dc6b2b" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>getPixels</name></member>
+      <member refid="classof_gst_video_utils_1a144c83ce876eca7fac1262f408c8be6f" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>getPixelsRef</name></member>
+      <member refid="classof_gst_utils_1a0f56586ff19e8cc7c256793eb75c94af" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getPosition</name></member>
+      <member refid="classof_gst_utils_1a5e1401603594a520213e5524783b64ea" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getSink</name></member>
+      <member refid="classof_gst_utils_1a60751245ec54e52314ba9abfc4b2adc4" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getSpeed</name></member>
+      <member refid="classof_gst_video_utils_1a2dbacae8afcfbe29dc7972c3ac8d8320" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>getWidth</name></member>
+      <member refid="classof_gst_utils_1aa5bb497d704c18223dc996030b0c613f" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>isFrameByFrame</name></member>
+      <member refid="classof_gst_video_utils_1af192b063cad4fbea88f290e3b501eb06" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>isFrameNew</name></member>
+      <member refid="classof_gst_utils_1a5bd506e4281b50710f1463170ab504b3" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>isLoaded</name></member>
+      <member refid="classof_gst_utils_1ab50b3f5aab7d51875cd173407cd1f237" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>isPaused</name></member>
+      <member refid="classof_gst_utils_1ab7e9a7cbddd5ea76394900ad3bf3b381" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>isPlaying</name></member>
+      <member refid="classof_gst_video_utils_1a1eb5c0640244e474fe514584effd2bfd" prot="private" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>mutex</name></member>
+      <member refid="classof_gst_utils_1a3ebd832cebad7cda978b546fa68c20cf" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>ofGstUtils</name></member>
+      <member refid="classof_gst_video_utils_1a3d2eaed59c04b70a82612a2492f71b46" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>ofGstVideoUtils</name></member>
+      <member refid="classof_gst_video_utils_1ab6c7937a9fabff6689978f2cc8d67c86" prot="protected" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>pixels</name></member>
+      <member refid="classof_gst_utils_1a7eb877ffd5e8cbb098c7f89ef47ef6cc" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>play</name></member>
+      <member refid="classof_gst_video_utils_1a9a2618c1779a9db8bfb96d450da0ea4e" prot="protected" virt="virtual"><scope>ofGstVideoUtils</scope><name>preroll_cb</name></member>
+      <member refid="classof_gst_video_utils_1ab6a536f48890fd4019697ddc0c17cfae" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>prerollEvent</name></member>
+      <member refid="classof_gst_utils_1a276790e1db3e5427b4a217b4fd748474" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setFrameByFrame</name></member>
+      <member refid="classof_gst_utils_1a07e3a3a5daa241016f6ee0a3af2155bd" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setLoopState</name></member>
+      <member refid="classof_gst_utils_1afbcc138c11944853635325e693c47666" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setPaused</name></member>
+      <member refid="classof_gst_video_utils_1aafba2554c03c06cc9278980c11398b88" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setPipeline</name></member>
+      <member refid="classof_gst_utils_1a816c80e57bb82d7f909a1bc77d861767" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setPipelineWithSink</name></member>
+      <member refid="classof_gst_utils_1ad1da12372074e6ee1915ec54f2a47fa8" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setPipelineWithSink</name></member>
+      <member refid="classof_gst_utils_1ae97d801679bd1149c272d2bc4256a27e" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setPosition</name></member>
+      <member refid="classof_gst_utils_1ab3d18babb241883af12d3b1c1e4de5a8" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setSinkListener</name></member>
+      <member refid="classof_gst_utils_1a2729352bcf45dbba333f4b2305579873" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setSpeed</name></member>
+      <member refid="classof_gst_utils_1a3548908a1ed502f679e4a73af0a56abd" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>setVolume</name></member>
+      <member refid="classof_gst_utils_1ae6cb3561b7c5c89f1a15fceab060ac2e" prot="public" virt="non-virtual"><scope>ofGstVideoUtils</scope><name>stop</name></member>
+      <member refid="classof_gst_video_utils_1a54a95801b95b9acb3ae33669506f0ead" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>update</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_updates_1a48cbac34caf49b4b72092888a7e63b27" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>~ofBaseUpdates</name></member>
+      <member refid="classof_base_video_1af8004a840c98637ba7572b2c34bbc249" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>~ofBaseVideo</name></member>
+      <member refid="classof_gst_utils_1a2c9cb31a093afa396a481ea3ef5752e1" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>~ofGstUtils</name></member>
+      <member refid="classof_gst_video_utils_1a54f76a9fb77a3ea5d7f97806ba26e65a" prot="public" virt="virtual"><scope>ofGstVideoUtils</scope><name>~ofGstVideoUtils</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

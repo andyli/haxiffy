@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_app_runner_8h" kind="file">
+    <compoundname>ofAppRunner.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includes local="yes">ofPoint.h</includes>
+    <includes local="yes">ofRectangle.h</includes>
+    <includes local="yes">ofTypes.h</includes>
+    <incdepgraph>
+      <node id="52">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="55">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="53">
+        <label>ofPoint.h</label>
+      </node>
+      <node id="51">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h</label>
+        <link refid="ofAppRunner.h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>ofRectangle.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_app_runner_8h_1af9d3c7c6b70ac1d8a63781e9204f9672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetupOpenGL</definition>
+        <argsstring>(ofPtr&lt; ofAppBaseWindow &gt; windowPtr, int w, int h, int screenMode)</argsstring>
+        <name>ofSetupOpenGL</name>
+        <param>
+          <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_app_base_window" kindref="compound">ofAppBaseWindow</ref> &gt;</type>
+          <declname>windowPtr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>screenMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="11"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a511d8fda301e560a5ab40a4d5eee3de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetupOpenGL</definition>
+        <argsstring>(ofAppBaseWindow *windowPtr, int w, int h, int screenMode)</argsstring>
+        <name>ofSetupOpenGL</name>
+        <param>
+          <type><ref refid="classof_app_base_window" kindref="compound">ofAppBaseWindow</ref> *</type>
+          <declname>windowPtr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>screenMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="12"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a61769ac0b23361b70da289893d61a5e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetupOpenGL</definition>
+        <argsstring>(int w, int h, int screenMode)</argsstring>
+        <name>ofSetupOpenGL</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>screenMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1af532809a23cc7d2f46ad6af75e299278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRunApp</definition>
+        <argsstring>(ofPtr&lt; ofBaseApp &gt; OFSA)</argsstring>
+        <name>ofRunApp</name>
+        <param>
+          <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> &gt;</type>
+          <declname>OFSA</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a3fad30250bc08b7dbe5e412f58f0efa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRunApp</definition>
+        <argsstring>(ofBaseApp *OFSA=NULL)</argsstring>
+        <name>ofRunApp</name>
+        <param>
+          <type><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> *</type>
+          <declname>OFSA</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a52ce629d4d97b252f9d1391aa2e172aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> *</type>
+        <definition>ofBaseApp* ofGetAppPtr</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetAppPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a7165451596d189b061eae4787bb4ec84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetAppPtr</definition>
+        <argsstring>(ofPtr&lt; ofBaseApp &gt; appPtr)</argsstring>
+        <name>ofSetAppPtr</name>
+        <param>
+          <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> &gt;</type>
+          <declname>appPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a00d1bac8279ecc317fa6e5f1956b65b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofExit</definition>
+        <argsstring>(int status=0)</argsstring>
+        <name>ofExit</name>
+        <param>
+          <type>int</type>
+          <declname>status</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a01080ea3b88e20894224b28caa46fd25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofGetFrameRate</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetFrameRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a3fe28889b15534a5a1c827a4ecb2ef26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetFrameNum</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetFrameNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a05ccd47836ca8951e53e9f636d64105d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetFrameRate</definition>
+        <argsstring>(int targetRate)</argsstring>
+        <name>ofSetFrameRate</name>
+        <param>
+          <type>int</type>
+          <declname>targetRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a58fb7f5c12bf9d507f09da1a41041312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSleepMillis</definition>
+        <argsstring>(int millis)</argsstring>
+        <name>ofSleepMillis</name>
+        <param>
+          <type>int</type>
+          <declname>millis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1ac97a55114e95bc13a43afd95a5da043a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ofGetLastFrameTime</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetLastFrameTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1acec0e8bc26f96ca7bc9ee48fb0a6e80c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetOrientation</definition>
+        <argsstring>(ofOrientation orientation)</argsstring>
+        <name>ofSetOrientation</name>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a75e931c0927886f0587578cdd331533f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+        <definition>ofOrientation ofGetOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetOrientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a95c68fd842d7b1e2c743f94bd1cbd264" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofHideCursor</definition>
+        <argsstring>()</argsstring>
+        <name>ofHideCursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1afbfcb3ab84f840d3c668ad33cd0cc019" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofShowCursor</definition>
+        <argsstring>()</argsstring>
+        <name>ofShowCursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a1df3a8886f89826773dce84e18dbf25a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetWindowPositionX</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetWindowPositionX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1aaa444f2765437c2a4833f98c0b1c34da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetWindowPositionY</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetWindowPositionY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a163b4776528f102a348650bb615a3692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetScreenWidth</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetScreenWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1aba79c95c536e11059fd008f8ccd39950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetScreenHeight</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetScreenHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a82bef7ba5216a68d7a0199da82fa7792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetWindowMode</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetWindowMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a28bb1c518b5c68ee2eae655bd4e56445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetWidth</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a415b5eadf885ebd1f4799cc40e5db137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetHeight</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a7b498c6899a40b52f12c91975f70bed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetWindowWidth</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetWindowWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a169a6700cb8bde5ce13748303ab8e45b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetWindowHeight</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetWindowHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1ae66fd37449276c038cff82b787f298c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofDoesHWOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>ofDoesHWOrientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a6670ea1fce2f8010a1370202f46a678e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofGetWindowSize</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetWindowSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1ae36085b0acc3c1873549154d57a590cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+        <definition>ofRectangle ofGetWindowRect</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetWindowRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a88bc1b7781188142c9aeb0828f685b7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetWindowPosition</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>ofSetWindowPosition</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a72e76aeeb21937a7ff129711d103e680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetWindowShape</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>ofSetWindowShape</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1aceb06b5dbf68c6e94878401190e485b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetWindowTitle</definition>
+        <argsstring>(string title)</argsstring>
+        <name>ofSetWindowTitle</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a4c6392e97c5f599bfc5d89b14f0377fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEnableSetupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>ofEnableSetupScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1ab93fb2ed181d0648b53acb99533a4aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDisableSetupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>ofDisableSetupScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1a8b3b777aa5bf1283b109761a5b55938c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetFullscreen</definition>
+        <argsstring>(bool fullscreen)</argsstring>
+        <name>ofSetFullscreen</name>
+        <param>
+          <type>bool</type>
+          <declname>fullscreen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1afee3042f322f35b3bcd1d82031037283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofToggleFullscreen</definition>
+        <argsstring>()</argsstring>
+        <name>ofToggleFullscreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="of_app_runner_8h_1afb7dd1ecdd02fa8aceb9d8158e0a4d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetVerticalSync</definition>
+        <argsstring>(bool bSync)</argsstring>
+        <name>ofSetVerticalSync</name>
+        <param>
+          <type>bool</type>
+          <declname>bSync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h" line="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofPoint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofRectangle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_app_base_window" kindref="compound">ofAppBaseWindow</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1af9d3c7c6b70ac1d8a63781e9204f9672" kindref="member">ofSetupOpenGL</ref>(<ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofAppBaseWindow&gt;</ref><sp/>windowPtr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>screenMode);<sp/><sp/></highlight><highlight class="comment">//<sp/>sets<sp/>up<sp/>the<sp/>opengl<sp/>context!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1af9d3c7c6b70ac1d8a63781e9204f9672" kindref="member">ofSetupOpenGL</ref>(<ref refid="classof_app_base_window" kindref="compound">ofAppBaseWindow</ref><sp/>*<sp/>windowPtr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>screenMode);<sp/></highlight><highlight class="comment">//<sp/>this<sp/>is<sp/>deprecated,<sp/>use<sp/>an<sp/>ofPtr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1af9d3c7c6b70ac1d8a63781e9204f9672" kindref="member">ofSetupOpenGL</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>screenMode);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sets<sp/>up<sp/>the<sp/>opengl<sp/>context!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1af532809a23cc7d2f46ad6af75e299278" kindref="member">ofRunApp</ref>(<ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseApp&gt;</ref><sp/>OFSA);<sp/></highlight><highlight class="comment">//<sp/>this<sp/>is<sp/>for<sp/>deprecated,<sp/>use<sp/>an<sp/>ofPtr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1af532809a23cc7d2f46ad6af75e299278" kindref="member">ofRunApp</ref>(<ref refid="classof_base_app" kindref="compound">ofBaseApp</ref><sp/>*<sp/>OFSA<sp/>=<sp/>NULL);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref><sp/>*<sp/><ref refid="of_app_runner_8h_1a52ce629d4d97b252f9d1391aa2e172aa" kindref="member">ofGetAppPtr</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_app_runner_8h_1a7165451596d189b061eae4787bb4ec84" kindref="member">ofSetAppPtr</ref>(<ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseApp&gt;</ref><sp/>appPtr);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a00d1bac8279ecc317fa6e5f1956b65b6" kindref="member">ofExit</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>status=0);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//--------------------------<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a01080ea3b88e20894224b28caa46fd25" kindref="member">ofGetFrameRate</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a3fe28889b15534a5a1c827a4ecb2ef26" kindref="member">ofGetFrameNum</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a05ccd47836ca8951e53e9f636d64105d" kindref="member">ofSetFrameRate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>targetRate);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a58fb7f5c12bf9d507f09da1a41041312" kindref="member">ofSleepMillis</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>millis);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1ac97a55114e95bc13a43afd95a5da043a" kindref="member">ofGetLastFrameTime</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1acec0e8bc26f96ca7bc9ee48fb0a6e80c" kindref="member">ofSetOrientation</ref>(<ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref><sp/>orientation);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a75e931c0927886f0587578cdd331533f" kindref="member">ofGetOrientation</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//--------------------------<sp/>cursor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a95c68fd842d7b1e2c743f94bd1cbd264" kindref="member">ofHideCursor</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1afbfcb3ab84f840d3c668ad33cd0cc019" kindref="member">ofShowCursor</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//--------------------------<sp/>window<sp/>/<sp/>screen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a1df3a8886f89826773dce84e18dbf25a" kindref="member">ofGetWindowPositionX</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1aaa444f2765437c2a4833f98c0b1c34da" kindref="member">ofGetWindowPositionY</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a163b4776528f102a348650bb615a3692" kindref="member">ofGetScreenWidth</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1aba79c95c536e11059fd008f8ccd39950" kindref="member">ofGetScreenHeight</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a82bef7ba5216a68d7a0199da82fa7792" kindref="member">ofGetWindowMode</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a28bb1c518b5c68ee2eae655bd4e56445" kindref="member">ofGetWidth</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ofGetWidth<sp/>is<sp/>correct<sp/>for<sp/>orientation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a415b5eadf885ebd1f4799cc40e5db137" kindref="member">ofGetHeight</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a7b498c6899a40b52f12c91975f70bed5" kindref="member">ofGetWindowWidth</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ofGetWindowWidth<sp/>is<sp/>correct<sp/>for<sp/>actual<sp/>window<sp/>coordinates<sp/>-<sp/>so<sp/>doesn&apos;t<sp/>change<sp/>with<sp/>orientation.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a169a6700cb8bde5ce13748303ab8e45b" kindref="member">ofGetWindowHeight</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1ae66fd37449276c038cff82b787f298c0" kindref="member">ofDoesHWOrientation</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a6670ea1fce2f8010a1370202f46a678e" kindref="member">ofGetWindowSize</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1ae36085b0acc3c1873549154d57a590cf" kindref="member">ofGetWindowRect</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a88bc1b7781188142c9aeb0828f685b7e" kindref="member">ofSetWindowPosition</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a72e76aeeb21937a7ff129711d103e680" kindref="member">ofSetWindowShape</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1aceb06b5dbf68c6e94878401190e485b2" kindref="member">ofSetWindowTitle</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>title);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a4c6392e97c5f599bfc5d89b14f0377fb" kindref="member">ofEnableSetupScreen</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1ab93fb2ed181d0648b53acb99533a4aa0" kindref="member">ofDisableSetupScreen</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1a8b3b777aa5bf1283b109761a5b55938c" kindref="member">ofSetFullscreen</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fullscreen);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1afee3042f322f35b3bcd1d82031037283" kindref="member">ofToggleFullscreen</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//--------------------------<sp/>sync</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_app_runner_8h_1afb7dd1ecdd02fa8aceb9d8158e0a4d46" kindref="member">ofSetVerticalSync</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bSync);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/ofAppRunner.h"/>
+  </compounddef>
+</doxygen>

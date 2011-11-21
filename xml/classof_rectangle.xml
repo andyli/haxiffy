@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_rectangle" kind="class" prot="public">
+    <compoundname>ofRectangle</compoundname>
+    <includes refid="of_rectangle_8h" local="no">ofRectangle.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_rectangle_1a1946a116ea66e21a6939cb569438d316" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofRectangle::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="44" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rectangle_1a4447eca416e27cad42f5137b86813dad" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofRectangle::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="45" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rectangle_1a8aff8758d86d6fc920131a1932d193e2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofRectangle::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rectangle_1abed860bfcf89865186c704ddc1fec3a9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofRectangle::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="47" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_rectangle_1a9118ecf471c26e8e4c08a4cf8fc2b844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofRectangle::ofRectangle</definition>
+        <argsstring>()</argsstring>
+        <name>ofRectangle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a68f79e69d4d2065dc59a14138e84bfd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofRectangle::~ofRectangle</definition>
+        <argsstring>()</argsstring>
+        <name>~ofRectangle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a0e722c71b853bac8f6f51748dfc74b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofRectangle::ofRectangle</definition>
+        <argsstring>(float _x, float _y, float _w, float _h)</argsstring>
+        <name>ofRectangle</name>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a522cea8bfcc3a9bbce505cb4980656d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofRectangle::ofRectangle</definition>
+        <argsstring>(ofRectangle const &amp;r)</argsstring>
+        <name>ofRectangle</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1aeef3b67e8669557baba22ec3b842fba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRectangle::set</definition>
+        <argsstring>(float px, float py, float w, float h)</argsstring>
+        <name>set</name>
+        <param>
+          <type>float</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>py</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a83eab45c9dd229f53b12f9fe2efc8dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRectangle::set</definition>
+        <argsstring>(ofPoint pos, float w, float h)</argsstring>
+        <name>set</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a9cce585de37372b28d8fdea4cc71c500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRectangle::set</definition>
+        <argsstring>(ofRectangle const &amp;rect)</argsstring>
+        <name>set</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> const &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1af5eb82f5928781686315acf626c10545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRectangle::setFromCenter</definition>
+        <argsstring>(float px, float py, float w, float h)</argsstring>
+        <name>setFromCenter</name>
+        <param>
+          <type>float</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>py</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a730a4c06acaa4f1daaee8546d860eaac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRectangle::setFromCenter</definition>
+        <argsstring>(ofPoint pos, float w, float h)</argsstring>
+        <name>setFromCenter</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a185b511713e03ed02268f0d90a99a6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofRectangle::getCenter</definition>
+        <argsstring>()</argsstring>
+        <name>getCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a7ad5a990cc728c9f3b2e323b3fb53a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofRectangle::inside</definition>
+        <argsstring>(ofPoint p)</argsstring>
+        <name>inside</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a0862da867a91230fc0839215d32ac4f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofRectangle::inside</definition>
+        <argsstring>(float px, float py)</argsstring>
+        <name>inside</name>
+        <param>
+          <type>float</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>py</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1aea0b1848af1005aa5d5f6bb68988758d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> &amp;</type>
+        <definition>ofRectangle&amp; ofRectangle::operator=</definition>
+        <argsstring>(const ofRectangle &amp;rect)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a99834c6e39517cf9c5ec47b81e633ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofRectangle::operator==</definition>
+        <argsstring>(ofRectangle const &amp;r)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1a4657391301d31ec0efbac5f88e631c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofRectangle::operator!=</definition>
+        <argsstring>(ofRectangle const &amp;r)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> const &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rectangle_1ab6c8732b0bbb240fe219cd144173cd5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> &amp;</type>
+        <definition>ofRectangle&amp; ofRectangle::operator+</definition>
+        <argsstring>(const ofPoint &amp;point)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" line="20" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h" bodystart="20" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classof_rectangle_1a185b511713e03ed02268f0d90a99a6f7" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>getCenter</name></member>
+      <member refid="classof_rectangle_1abed860bfcf89865186c704ddc1fec3a9" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>height</name></member>
+      <member refid="classof_rectangle_1a7ad5a990cc728c9f3b2e323b3fb53a1a" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>inside</name></member>
+      <member refid="classof_rectangle_1a0862da867a91230fc0839215d32ac4f2" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>inside</name></member>
+      <member refid="classof_rectangle_1a9118ecf471c26e8e4c08a4cf8fc2b844" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>ofRectangle</name></member>
+      <member refid="classof_rectangle_1a0e722c71b853bac8f6f51748dfc74b6e" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>ofRectangle</name></member>
+      <member refid="classof_rectangle_1a522cea8bfcc3a9bbce505cb4980656d0" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>ofRectangle</name></member>
+      <member refid="classof_rectangle_1a4657391301d31ec0efbac5f88e631c9f" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>operator!=</name></member>
+      <member refid="classof_rectangle_1ab6c8732b0bbb240fe219cd144173cd5e" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>operator+</name></member>
+      <member refid="classof_rectangle_1aea0b1848af1005aa5d5f6bb68988758d" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>operator=</name></member>
+      <member refid="classof_rectangle_1a99834c6e39517cf9c5ec47b81e633ebd" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>operator==</name></member>
+      <member refid="classof_rectangle_1aeef3b67e8669557baba22ec3b842fba8" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>set</name></member>
+      <member refid="classof_rectangle_1a83eab45c9dd229f53b12f9fe2efc8dba" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>set</name></member>
+      <member refid="classof_rectangle_1a9cce585de37372b28d8fdea4cc71c500" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>set</name></member>
+      <member refid="classof_rectangle_1af5eb82f5928781686315acf626c10545" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>setFromCenter</name></member>
+      <member refid="classof_rectangle_1a730a4c06acaa4f1daaee8546d860eaac" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>setFromCenter</name></member>
+      <member refid="classof_rectangle_1a8aff8758d86d6fc920131a1932d193e2" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>width</name></member>
+      <member refid="classof_rectangle_1a1946a116ea66e21a6939cb569438d316" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>x</name></member>
+      <member refid="classof_rectangle_1a4447eca416e27cad42f5137b86813dad" prot="public" virt="non-virtual"><scope>ofRectangle</scope><name>y</name></member>
+      <member refid="classof_rectangle_1a68f79e69d4d2065dc59a14138e84bfd6" prot="public" virt="virtual"><scope>ofRectangle</scope><name>~ofRectangle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_drag_info" kind="class" prot="public">
+    <compoundname>ofDragInfo</compoundname>
+    <includes refid="of_events_8h" local="no">ofEvents.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_drag_info_1a7ea7c4854d0aef3ef9f2488fe82420d9" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; ofDragInfo::files</definition>
+        <argsstring></argsstring>
+        <name>files</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/events/ofEvents.h" line="23" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/events/ofEvents.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_drag_info_1a6d8c921c2a1a4f2a58a8740997722a53" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref></type>
+        <definition>ofPoint ofDragInfo::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/events/ofEvents.h" line="24" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/events/ofEvents.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="250">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="249">
+        <label>ofDragInfo</label>
+        <link refid="classof_drag_info"/>
+        <childnode refid="250" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/events/ofEvents.h" line="21" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/events/ofEvents.h" bodystart="21" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classof_drag_info_1a7ea7c4854d0aef3ef9f2488fe82420d9" prot="public" virt="non-virtual"><scope>ofDragInfo</scope><name>files</name></member>
+      <member refid="classof_drag_info_1a6d8c921c2a1a4f2a58a8740997722a53" prot="public" virt="non-virtual"><scope>ofDragInfo</scope><name>position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

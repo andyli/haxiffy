@@ -1,0 +1,1443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_vec2f" kind="class" prot="public">
+    <compoundname>ofVec2f</compoundname>
+    <includes refid="of_vec2f_8h" local="no">ofVec2f.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_vec2f_1a81763bfaf27b7db5f734055212ca6ec5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofVec2f::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="9" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_vec2f_1a4be985445b601e54d3ca5917c3d7ac8d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofVec2f::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="9" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_vec2f_1a21259ed1e1e0da15c39c0c66154fec78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofVec2f::ofVec2f</definition>
+        <argsstring>(float _x=0.f, float _y=0.f)</argsstring>
+        <name>ofVec2f</name>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+          <defval>0.f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+          <defval>0.f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="11" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a4c8c7fbf61695667d467dc0b3d4efa2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofVec2f::ofVec2f</definition>
+        <argsstring>(const ofVec3f &amp;vec)</argsstring>
+        <name>ofVec2f</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1affb869eb2d65f4a0b72c88f4b98e880d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofVec2f::ofVec2f</definition>
+        <argsstring>(const ofVec4f &amp;vec)</argsstring>
+        <name>ofVec2f</name>
+        <param>
+          <type>const <ref refid="classof_vec4f" kindref="compound">ofVec4f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a136ca01a1e0ab4c7eeed7c9940ca0f00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float *</type>
+        <definition>float* ofVec2f::getPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="15" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a0074b63378a3aff9cbae9442068baedd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const float *</type>
+        <definition>const float* ofVec2f::getPtr</definition>
+        <argsstring>() const </argsstring>
+        <name>getPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="18" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a0dfa358c9bc465ddc5dcf6f92e351bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float&amp; ofVec2f::operator[]</definition>
+        <argsstring>(int n)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1adb621a099381a546c8821a11e13e1bd6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::operator[]</definition>
+        <argsstring>(int n) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="26" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1ad1956fe02d3ac265e747d2b03b76de1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVec2f::set</definition>
+        <argsstring>(float _x, float _y)</argsstring>
+        <name>set</name>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="33" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="235" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a59196ea7a257b4973bdc812c246b3937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVec2f::set</definition>
+        <argsstring>(const ofVec2f &amp;vec)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="34" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="240" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a6f9a39674f9f0ec5e5a30090eb4a55bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVec2f::operator==</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="38" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="249" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1ad536effee9421766fd8881cf50aef3f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVec2f::operator!=</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="39" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="253" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1af2b9825d0c527ae826db9ef465d297f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVec2f::match</definition>
+        <argsstring>(const ofVec2f &amp;vec, float tollerance=0.0001) const </argsstring>
+        <name>match</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tollerance</declname>
+          <defval>0.0001</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="40" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="257" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a0c1853cbd802cf842591afb1b73d8dfa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVec2f::align</definition>
+        <argsstring>(const ofVec2f &amp;vec, float tollerance=0.0001) const </argsstring>
+        <name>align</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tollerance</declname>
+          <defval>0.0001</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if vectors look in the same direction. Tollerance is specified in degree. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="45" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="266" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a9c0c7790754955a144aac74794288f97" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofVec2f::alignRad</definition>
+        <argsstring>(const ofVec2f &amp;vec, float tollerance=0.0001) const </argsstring>
+        <name>alignRad</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tollerance</declname>
+          <defval>0.0001</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="270" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a9e3db42e0ba1027a40852d22c9f55497" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator+</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="51" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="279" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a1a0c9d66e8e97371aaaa0fa6cd58d008" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::operator+=</definition>
+        <argsstring>(const ofVec2f &amp;vec)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="52" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="283" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1afce65102de5b382b62191f63289f356e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator-</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="53" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="289" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a03c4210e1902bc43be9ce96794a939f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::operator-=</definition>
+        <argsstring>(const ofVec2f &amp;vec)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="54" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="293" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1ab3fc2ebbd6a48a5be7bb8b50ef81d2a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator*</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="55" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="299" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a251a8f90ae2e75298315023d411be0b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::operator*=</definition>
+        <argsstring>(const ofVec2f &amp;vec)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="56" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="303" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a5a897beb0a2b3762f380af317c32a11c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator/</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="57" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="309" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aab3e21f32c19043b9f39acd9d70100a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::operator/=</definition>
+        <argsstring>(const ofVec2f &amp;vec)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="58" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="313" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1adbdc4a57ecd9a3e4ea8fa4e4059eda69" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator+</definition>
+        <argsstring>(const float f) const </argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="339" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1af4e4ac29984ad83575462172afef2819" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::operator+=</definition>
+        <argsstring>(const float f)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="65" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="343" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a38443579661966fec31a6df708b9f69d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator-</definition>
+        <argsstring>(const float f) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="66" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="349" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1ab4106805fbfcdd225345160f6a4f0320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::operator-=</definition>
+        <argsstring>(const float f)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="67" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="353" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a6c4fcca742de2ea2cdb4a1e8d8d10b1d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator-</definition>
+        <argsstring>() const </argsstring>
+        <name>operator-</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="68" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="359" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a0d3fbf067ad20cbea4c2ce82acee040b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator*</definition>
+        <argsstring>(const float f) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="69" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="363" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a6fb31483c478cfd455529510538899bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::operator*=</definition>
+        <argsstring>(const float f)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="70" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="367" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a41372483e1bbc7ee4c709e08966f8b79" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::operator/</definition>
+        <argsstring>(const float f) const </argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="71" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="373" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aa5a5439a484a4832b0b1182d04aacba1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::operator/=</definition>
+        <argsstring>(const float f)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="72" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="379" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a8f6769c1cfbb4018a18065d4249d7c19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getScaled</definition>
+        <argsstring>(const float length) const </argsstring>
+        <name>getScaled</name>
+        <param>
+          <type>const float</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="79" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="391" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aa5e76d5003783ee934dbe971991e2e60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::scale</definition>
+        <argsstring>(const float length)</argsstring>
+        <name>scale</name>
+        <param>
+          <type>const float</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="80" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="403" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aee2e05a46e550dcd3c1c15f2d0cc02a7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getRotated</definition>
+        <argsstring>(float angle) const </argsstring>
+        <name>getRotated</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="85" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="421" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aab0574bd9a07def5c008aa642dae3415" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getRotatedRad</definition>
+        <argsstring>(float angle) const </argsstring>
+        <name>getRotatedRad</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="86" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="427" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a3e1840cb1f02984824c3b0cb1ee57cf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::rotate</definition>
+        <argsstring>(float angle)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="87" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="433" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a1aa96117ea3a121fc9cb6136a895e4b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::rotateRad</definition>
+        <argsstring>(float angle)</argsstring>
+        <name>rotateRad</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="441" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aecea9827d62898012ae8c684e8ec43cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getRotated</definition>
+        <argsstring>(float angle, const ofVec2f &amp;pivot) const </argsstring>
+        <name>getRotated</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pivot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="93" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="460" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a916fea4c82415c03cf0e0afbdcb80df7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::rotate</definition>
+        <argsstring>(float angle, const ofVec2f &amp;pivot)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pivot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="94" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="466" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a9af064d5d3206e60ed0e6e5f8a26dcd0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getRotatedRad</definition>
+        <argsstring>(float angle, const ofVec2f &amp;pivot) const </argsstring>
+        <name>getRotatedRad</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pivot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="474" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1ab4a02caec83e1a71528c23293232b34d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::rotateRad</definition>
+        <argsstring>(float angle, const ofVec2f &amp;pivot)</argsstring>
+        <name>rotateRad</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pivot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="96" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="480" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a41b7ca914e11ae9a985992e9c8a9d5ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getMapped</definition>
+        <argsstring>(const ofVec2f &amp;origin, const ofVec2f &amp;vx, const ofVec2f &amp;vy) const </argsstring>
+        <name>getMapped</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="103" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="501" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1adce22721bfe6e17458e5d596e6d08824" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::map</definition>
+        <argsstring>(const ofVec2f &amp;origin, const ofVec2f &amp;vx, const ofVec2f &amp;vy)</argsstring>
+        <name>map</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="105" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="509" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a7b0364dd393bb208c73157e0deee72c7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::distance</definition>
+        <argsstring>(const ofVec2f &amp;pnt) const </argsstring>
+        <name>distance</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="110" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="522" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a3ebd0b6fee431042976ec39811d02893" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::squareDistance</definition>
+        <argsstring>(const ofVec2f &amp;pnt) const </argsstring>
+        <name>squareDistance</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="111" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="533" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a9c2a407610a1276b76a2762872aa14ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getInterpolated</definition>
+        <argsstring>(const ofVec2f &amp;pnt, float p) const </argsstring>
+        <name>getInterpolated</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>p==0.0 results in this point, p==0.5 results in the midpoint, and p==1.0 results in pnt being returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="121" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="554" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aa8ba27d8799d3b5de924c9f6a19495f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::interpolate</definition>
+        <argsstring>(const ofVec2f &amp;pnt, float p)</argsstring>
+        <name>interpolate</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="122" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="558" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a40500665496c359beec61087d4e73809" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getMiddle</definition>
+        <argsstring>(const ofVec2f &amp;pnt) const </argsstring>
+        <name>getMiddle</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="123" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="569" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aa9c116e2d6a96c074d4730f6348eb16c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::middle</definition>
+        <argsstring>(const ofVec2f &amp;pnt)</argsstring>
+        <name>middle</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="124" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="573" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a2b5e48a117ad1bc7afc753ecb0665f42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::average</definition>
+        <argsstring>(const ofVec2f *points, int num)</argsstring>
+        <name>average</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="125" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="585" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a0dce03f931c60e149d08d831dcf708bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getNormalized</definition>
+        <argsstring>() const </argsstring>
+        <name>getNormalized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="130" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="606" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1adaa0832bfedd859adb9df1616a4384c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::normalize</definition>
+        <argsstring>()</argsstring>
+        <name>normalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="131" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="615" bodyend="622"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1ab62aabb47050ab6d806c9a9a3633b546" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getLimited</definition>
+        <argsstring>(float max) const </argsstring>
+        <name>getLimited</name>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="136" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="633" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1ad0e9aab27a0da6f889b17793d4dd1bed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::limit</definition>
+        <argsstring>(float max)</argsstring>
+        <name>limit</name>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="137" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="645" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a6b2cabfe71daf7c6ad8e2df2fd9f549f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::getPerpendicular</definition>
+        <argsstring>() const </argsstring>
+        <name>getPerpendicular</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="142" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="664" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a4423ff8cccea37e954b6b8c11b9ef7ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::perpendicular</definition>
+        <argsstring>()</argsstring>
+        <name>perpendicular</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="143" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="672" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a04bd477dc0a1e2951b3de90a21bbfff7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::length</definition>
+        <argsstring>() const </argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="148" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="686" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a640c7e9c96a7c4d227cd3607ad31150a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::squareLength</definition>
+        <argsstring>() const </argsstring>
+        <name>squareLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="149" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="694" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1acb166e3a03ec85d5ceb5bd299ce86ee0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::angle</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>angle</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Angle (deg) between two vectors. This is a signed relative angle between -180 and 180. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="156" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="704" bodyend="706"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a6b32d05b206620ee5295061ee8206d6b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::angleRad</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>angleRad</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Angle (deg) between two vectors. This is a signed relative angle between -180 and 180. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="157" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="712" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a0fd71d357ed6e594fd1a40ee92770a95" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::dot</definition>
+        <argsstring>(const ofVec2f &amp;vec) const </argsstring>
+        <name>dot</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dot Product. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="163" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="720" bodyend="722"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a97240f6d5a01e831d843277b36b98bc8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::rescaled</definition>
+        <argsstring>(const float length) const </argsstring>
+        <name>rescaled</name>
+        <param>
+          <type>const float</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="171" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="387" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aa02edc366ac39d9bc74e4527c51891ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+        <definition>ofVec2f &amp; ofVec2f::rescale</definition>
+        <argsstring>(const float length)</argsstring>
+        <name>rescale</name>
+        <param>
+          <type>const float</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="174" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="399" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a0341654ad81521acfae8797064854e97" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::rotated</definition>
+        <argsstring>(float angle) const </argsstring>
+        <name>rotated</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="177" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="417" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a5bc256605f4abb393adbfa2714bb43f6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::normalized</definition>
+        <argsstring>() const </argsstring>
+        <name>normalized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="180" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="602" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a2400be938d504f158b88b2c91ee5c276" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::limited</definition>
+        <argsstring>(float max) const </argsstring>
+        <name>limited</name>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="183" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="629" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1add80e3945025a5eff5490bba74a7cb5a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::perpendiculared</definition>
+        <argsstring>() const </argsstring>
+        <name>perpendiculared</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="186" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="660" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aea7962354cc720744f5f07a069f4d954" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::lengthSquared</definition>
+        <argsstring>() const </argsstring>
+        <name>lengthSquared</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="189" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="690" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1afc19291b1263ac21904ddc95591b4d0f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::interpolated</definition>
+        <argsstring>(const ofVec2f &amp;pnt, float p) const </argsstring>
+        <name>interpolated</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>p==0.0 results in this point, p==0.5 results in the midpoint, and p==1.0 results in pnt being returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="192" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="550" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1aa815265e7e981bec0bd7ad62fe58a7e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::middled</definition>
+        <argsstring>(const ofVec2f &amp;pnt) const </argsstring>
+        <name>middled</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="195" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="565" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1ae3b7e6838057a96d9c0fa4da1da5fcad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::mapped</definition>
+        <argsstring>(const ofVec2f &amp;origin, const ofVec2f &amp;vx, const ofVec2f &amp;vy) const </argsstring>
+        <name>mapped</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="198" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="495" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a1d18a2c2edb7ad4229672a2ca89e14bc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofVec2f::distanceSquared</definition>
+        <argsstring>(const ofVec2f &amp;pnt) const </argsstring>
+        <name>distanceSquared</name>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="201" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="529" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_vec2f_1a6144aa1b43585b770ad7533da3c7f62d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec2f" kindref="compound">ofVec2f</ref></type>
+        <definition>ofVec2f ofVec2f::rotated</definition>
+        <argsstring>(float angle, const ofVec2f &amp;pivot) const </argsstring>
+        <name>rotated</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>pivot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="204" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="456" bodyend="458"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classof_vec2f_1a8d8d86b805b7897418a316313db81aba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const ofVec2f &amp;vec)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="74" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="319" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="friend" id="classof_vec2f_1a709840a8a109a25af48973f8514cff3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend istream &amp;</type>
+        <definition>istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;is, const ofVec2f &amp;vec)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec2f" kindref="compound">ofVec2f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" line="7" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofVec2f.h" bodystart="7" bodyend="205"/>
+    <listofallmembers>
+      <member refid="classof_vec2f_1a0c1853cbd802cf842591afb1b73d8dfa" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>align</name></member>
+      <member refid="classof_vec2f_1a9c0c7790754955a144aac74794288f97" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>alignRad</name></member>
+      <member refid="classof_vec2f_1acb166e3a03ec85d5ceb5bd299ce86ee0" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>angle</name></member>
+      <member refid="classof_vec2f_1a6b32d05b206620ee5295061ee8206d6b" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>angleRad</name></member>
+      <member refid="classof_vec2f_1a2b5e48a117ad1bc7afc753ecb0665f42" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>average</name></member>
+      <member refid="classof_vec2f_1a7b0364dd393bb208c73157e0deee72c7" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>distance</name></member>
+      <member refid="classof_vec2f_1a1d18a2c2edb7ad4229672a2ca89e14bc" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>distanceSquared</name></member>
+      <member refid="classof_vec2f_1a0fd71d357ed6e594fd1a40ee92770a95" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>dot</name></member>
+      <member refid="classof_vec2f_1a9c2a407610a1276b76a2762872aa14ac" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getInterpolated</name></member>
+      <member refid="classof_vec2f_1ab62aabb47050ab6d806c9a9a3633b546" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getLimited</name></member>
+      <member refid="classof_vec2f_1a41b7ca914e11ae9a985992e9c8a9d5ab" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getMapped</name></member>
+      <member refid="classof_vec2f_1a40500665496c359beec61087d4e73809" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getMiddle</name></member>
+      <member refid="classof_vec2f_1a0dce03f931c60e149d08d831dcf708bd" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getNormalized</name></member>
+      <member refid="classof_vec2f_1a6b2cabfe71daf7c6ad8e2df2fd9f549f" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getPerpendicular</name></member>
+      <member refid="classof_vec2f_1a136ca01a1e0ab4c7eeed7c9940ca0f00" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getPtr</name></member>
+      <member refid="classof_vec2f_1a0074b63378a3aff9cbae9442068baedd" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getPtr</name></member>
+      <member refid="classof_vec2f_1aee2e05a46e550dcd3c1c15f2d0cc02a7" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getRotated</name></member>
+      <member refid="classof_vec2f_1aecea9827d62898012ae8c684e8ec43cd" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getRotated</name></member>
+      <member refid="classof_vec2f_1aab0574bd9a07def5c008aa642dae3415" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getRotatedRad</name></member>
+      <member refid="classof_vec2f_1a9af064d5d3206e60ed0e6e5f8a26dcd0" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getRotatedRad</name></member>
+      <member refid="classof_vec2f_1a8f6769c1cfbb4018a18065d4249d7c19" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>getScaled</name></member>
+      <member refid="classof_vec2f_1aa8ba27d8799d3b5de924c9f6a19495f1" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>interpolate</name></member>
+      <member refid="classof_vec2f_1afc19291b1263ac21904ddc95591b4d0f" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>interpolated</name></member>
+      <member refid="classof_vec2f_1a04bd477dc0a1e2951b3de90a21bbfff7" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>length</name></member>
+      <member refid="classof_vec2f_1aea7962354cc720744f5f07a069f4d954" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>lengthSquared</name></member>
+      <member refid="classof_vec2f_1ad0e9aab27a0da6f889b17793d4dd1bed" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>limit</name></member>
+      <member refid="classof_vec2f_1a2400be938d504f158b88b2c91ee5c276" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>limited</name></member>
+      <member refid="classof_vec2f_1adce22721bfe6e17458e5d596e6d08824" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>map</name></member>
+      <member refid="classof_vec2f_1ae3b7e6838057a96d9c0fa4da1da5fcad" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>mapped</name></member>
+      <member refid="classof_vec2f_1af2b9825d0c527ae826db9ef465d297f5" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>match</name></member>
+      <member refid="classof_vec2f_1aa9c116e2d6a96c074d4730f6348eb16c" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>middle</name></member>
+      <member refid="classof_vec2f_1aa815265e7e981bec0bd7ad62fe58a7e6" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>middled</name></member>
+      <member refid="classof_vec2f_1adaa0832bfedd859adb9df1616a4384c8" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>normalize</name></member>
+      <member refid="classof_vec2f_1a5bc256605f4abb393adbfa2714bb43f6" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>normalized</name></member>
+      <member refid="classof_vec2f_1a21259ed1e1e0da15c39c0c66154fec78" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>ofVec2f</name></member>
+      <member refid="classof_vec2f_1a4c8c7fbf61695667d467dc0b3d4efa2d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>ofVec2f</name></member>
+      <member refid="classof_vec2f_1affb869eb2d65f4a0b72c88f4b98e880d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>ofVec2f</name></member>
+      <member refid="classof_vec2f_1ad536effee9421766fd8881cf50aef3f4" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator!=</name></member>
+      <member refid="classof_vec2f_1ab3fc2ebbd6a48a5be7bb8b50ef81d2a9" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator*</name></member>
+      <member refid="classof_vec2f_1a0d3fbf067ad20cbea4c2ce82acee040b" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator*</name></member>
+      <member refid="classof_vec2f_1a251a8f90ae2e75298315023d411be0b5" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator*=</name></member>
+      <member refid="classof_vec2f_1a6fb31483c478cfd455529510538899bf" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator*=</name></member>
+      <member refid="classof_vec2f_1a9e3db42e0ba1027a40852d22c9f55497" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator+</name></member>
+      <member refid="classof_vec2f_1adbdc4a57ecd9a3e4ea8fa4e4059eda69" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator+</name></member>
+      <member refid="classof_vec2f_1a1a0c9d66e8e97371aaaa0fa6cd58d008" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator+=</name></member>
+      <member refid="classof_vec2f_1af4e4ac29984ad83575462172afef2819" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator+=</name></member>
+      <member refid="classof_vec2f_1afce65102de5b382b62191f63289f356e" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator-</name></member>
+      <member refid="classof_vec2f_1a38443579661966fec31a6df708b9f69d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator-</name></member>
+      <member refid="classof_vec2f_1a6c4fcca742de2ea2cdb4a1e8d8d10b1d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator-</name></member>
+      <member refid="classof_vec2f_1a03c4210e1902bc43be9ce96794a939f8" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator-=</name></member>
+      <member refid="classof_vec2f_1ab4106805fbfcdd225345160f6a4f0320" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator-=</name></member>
+      <member refid="classof_vec2f_1a5a897beb0a2b3762f380af317c32a11c" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator/</name></member>
+      <member refid="classof_vec2f_1a41372483e1bbc7ee4c709e08966f8b79" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator/</name></member>
+      <member refid="classof_vec2f_1aab3e21f32c19043b9f39acd9d70100a2" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator/=</name></member>
+      <member refid="classof_vec2f_1aa5a5439a484a4832b0b1182d04aacba1" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator/=</name></member>
+      <member refid="classof_vec2f_1a8d8d86b805b7897418a316313db81aba" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classof_vec2f_1a6f9a39674f9f0ec5e5a30090eb4a55bd" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator==</name></member>
+      <member refid="classof_vec2f_1a709840a8a109a25af48973f8514cff3d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classof_vec2f_1a0dfa358c9bc465ddc5dcf6f92e351bd7" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator[]</name></member>
+      <member refid="classof_vec2f_1adb621a099381a546c8821a11e13e1bd6" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>operator[]</name></member>
+      <member refid="classof_vec2f_1a4423ff8cccea37e954b6b8c11b9ef7ae" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>perpendicular</name></member>
+      <member refid="classof_vec2f_1add80e3945025a5eff5490bba74a7cb5a" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>perpendiculared</name></member>
+      <member refid="classof_vec2f_1aa02edc366ac39d9bc74e4527c51891ef" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>rescale</name></member>
+      <member refid="classof_vec2f_1a97240f6d5a01e831d843277b36b98bc8" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>rescaled</name></member>
+      <member refid="classof_vec2f_1a3e1840cb1f02984824c3b0cb1ee57cf3" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>rotate</name></member>
+      <member refid="classof_vec2f_1a916fea4c82415c03cf0e0afbdcb80df7" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>rotate</name></member>
+      <member refid="classof_vec2f_1a0341654ad81521acfae8797064854e97" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>rotated</name></member>
+      <member refid="classof_vec2f_1a6144aa1b43585b770ad7533da3c7f62d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>rotated</name></member>
+      <member refid="classof_vec2f_1a1aa96117ea3a121fc9cb6136a895e4b9" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>rotateRad</name></member>
+      <member refid="classof_vec2f_1ab4a02caec83e1a71528c23293232b34d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>rotateRad</name></member>
+      <member refid="classof_vec2f_1aa5e76d5003783ee934dbe971991e2e60" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>scale</name></member>
+      <member refid="classof_vec2f_1ad1956fe02d3ac265e747d2b03b76de1d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>set</name></member>
+      <member refid="classof_vec2f_1a59196ea7a257b4973bdc812c246b3937" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>set</name></member>
+      <member refid="classof_vec2f_1a3ebd0b6fee431042976ec39811d02893" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>squareDistance</name></member>
+      <member refid="classof_vec2f_1a640c7e9c96a7c4d227cd3607ad31150a" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>squareLength</name></member>
+      <member refid="classof_vec2f_1a81763bfaf27b7db5f734055212ca6ec5" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>x</name></member>
+      <member refid="classof_vec2f_1a4be985445b601e54d3ca5917c3d7ac8d" prot="public" virt="non-virtual"><scope>ofVec2f</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

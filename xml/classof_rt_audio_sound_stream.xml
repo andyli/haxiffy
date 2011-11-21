@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_rt_audio_sound_stream" kind="class" prot="public">
+    <compoundname>ofRtAudioSoundStream</compoundname>
+    <basecompoundref refid="classof_base_sound_stream" prot="public" virt="non-virtual">ofBaseSoundStream</basecompoundref>
+    <includes refid="of_rt_audio_sound_stream_8h" local="no">ofRtAudioSoundStream.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_rt_audio_sound_stream_1ae90376058832613df43570ced2b9cc40" prot="private" static="no" mutable="no">
+        <type>long unsigned long</type>
+        <definition>long unsigned long ofRtAudioSoundStream::tickCount</definition>
+        <argsstring></argsstring>
+        <name>tickCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="35" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rt_audio_sound_stream_1afcb6b8abe1a9a23ac98e7d8be58452ce" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; RtAudio &gt;</type>
+        <definition>ofPtr&lt;RtAudio&gt; ofRtAudioSoundStream::audio</definition>
+        <argsstring></argsstring>
+        <name>audio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="36" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rt_audio_sound_stream_1a81d2cc2cadb649930bd577dc4e1272c5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofRtAudioSoundStream::sampleRate</definition>
+        <argsstring></argsstring>
+        <name>sampleRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="37" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rt_audio_sound_stream_1a3cc561011ea2644980203b037682b47f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofRtAudioSoundStream::deviceID</definition>
+        <argsstring></argsstring>
+        <name>deviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="38" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rt_audio_sound_stream_1aa164ed606440540a6f6a9510de7957e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofRtAudioSoundStream::nInputChannels</definition>
+        <argsstring></argsstring>
+        <name>nInputChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="39" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rt_audio_sound_stream_1a03e28beff5631f31ea65137b89b4356b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofRtAudioSoundStream::nOutputChannels</definition>
+        <argsstring></argsstring>
+        <name>nOutputChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="40" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rt_audio_sound_stream_1a49bbd755c4bafad4d3081c3fd535c277" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref> *</type>
+        <definition>ofBaseSoundInput* ofRtAudioSoundStream::soundInputPtr</definition>
+        <argsstring></argsstring>
+        <name>soundInputPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="41" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_rt_audio_sound_stream_1a1dbfb4e46a0d0052c41bae8f17773f28" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref> *</type>
+        <definition>ofBaseSoundOutput* ofRtAudioSoundStream::soundOutputPtr</definition>
+        <argsstring></argsstring>
+        <name>soundOutputPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="42" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1ad754f07225da3ed88ed675da8847dc2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofRtAudioSoundStream::ofRtAudioSoundStream</definition>
+        <argsstring>()</argsstring>
+        <name>ofRtAudioSoundStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1ab2816c9e717edcb772f03fe632a854e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofRtAudioSoundStream::~ofRtAudioSoundStream</definition>
+        <argsstring>()</argsstring>
+        <name>~ofRtAudioSoundStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a377ca55a46d54a373e225916d0ed43e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofRtAudioSoundStream::listDevices</definition>
+        <argsstring>()</argsstring>
+        <name>listDevices</name>
+        <reimplements refid="classof_base_sound_stream_1aec4462be763b5b784a91aa569733d94e">listDevices</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1afae61f93d8610764dfd47a9c87ad7902" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofRtAudioSoundStream::setDeviceID</definition>
+        <argsstring>(int deviceID)</argsstring>
+        <name>setDeviceID</name>
+        <reimplements refid="classof_base_sound_stream_1a309be9bbda641649d801093359a3b2c5">setDeviceID</reimplements>
+        <param>
+          <type>int</type>
+          <declname>deviceID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a9768fb4f9d900bee1d59c34f6c79646f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofRtAudioSoundStream::setInput</definition>
+        <argsstring>(ofBaseSoundInput *soundInput)</argsstring>
+        <name>setInput</name>
+        <reimplements refid="classof_base_sound_stream_1a1fa47c366b7790ee7419513b3efcd0e5">setInput</reimplements>
+        <param>
+          <type><ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref> *</type>
+          <declname>soundInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1ae20966d5b01246956ddc15d713a9326e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofRtAudioSoundStream::setOutput</definition>
+        <argsstring>(ofBaseSoundOutput *soundOutput)</argsstring>
+        <name>setOutput</name>
+        <reimplements refid="classof_base_sound_stream_1a7ab9e9a649a08921bfbde67cd6a752f7">setOutput</reimplements>
+        <param>
+          <type><ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref> *</type>
+          <declname>soundOutput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a8fc0cd6c7aedc28eee7ebe84eb6be6e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofRtAudioSoundStream::setup</definition>
+        <argsstring>(int outChannels, int inChannels, int sampleRate, int bufferSize, int nBuffers)</argsstring>
+        <name>setup</name>
+        <reimplements refid="classof_base_sound_stream_1a603054248acf232b3a36c944cbe5fdb4">setup</reimplements>
+        <param>
+          <type>int</type>
+          <declname>outChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sampleRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBuffers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1ae65014cea7bfca2213a6bbe8f82d9ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofRtAudioSoundStream::setup</definition>
+        <argsstring>(ofBaseApp *app, int outChannels, int inChannels, int sampleRate, int bufferSize, int nBuffers)</argsstring>
+        <name>setup</name>
+        <reimplements refid="classof_base_sound_stream_1aad3e1f8d7f77e24699cbfe28f2c1f8ef">setup</reimplements>
+        <param>
+          <type><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> *</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>outChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sampleRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBuffers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a334e298a3791c3c6a0aa18b04a5fcfbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofRtAudioSoundStream::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <reimplements refid="classof_base_sound_stream_1a68cb0a39471073a6bc9ca14abeb60c61">start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1ab0c60e540935220384ce676f73cbf765" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofRtAudioSoundStream::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classof_base_sound_stream_1a500ed10a32ae3b6efa223cfba115086e">stop</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a454268c55f545e2b4b0680c27bc50522" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofRtAudioSoundStream::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_sound_stream_1a972327e868ca15ecc79476919fbd25bf">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a6b1399641eb902fd6d665eb4105802ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long unsigned long</type>
+        <definition>long unsigned long ofRtAudioSoundStream::getTickCount</definition>
+        <argsstring>()</argsstring>
+        <name>getTickCount</name>
+        <reimplements refid="classof_base_sound_stream_1a8f0693f0fb84d3a83763b32e3ee8496c">getTickCount</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a3728964558ff782a60b3d4803ee97474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofRtAudioSoundStream::getNumInputChannels</definition>
+        <argsstring>()</argsstring>
+        <name>getNumInputChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a3c4fad72682be9a13f1911d0dfed1470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofRtAudioSoundStream::getNumOutputChannels</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOutputChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classof_rt_audio_sound_stream_1a1ed485cced932fa6e0f6b350ef752da5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ofRtAudioSoundStream::rtAudioCallback</definition>
+        <argsstring>(void *outputBuffer, void *inputBuffer, unsigned int bufferSize, double streamTime, RtAudioStreamStatus status, void *data)</argsstring>
+        <name>rtAudioCallback</name>
+        <param>
+          <type>void *</type>
+          <declname>outputBuffer</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>inputBuffer</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>streamTime</declname>
+        </param>
+        <param>
+          <type><ref refid="of_rt_audio_sound_stream_8h_1ae36b2728755795523f2ccd92f4b77e1e" kindref="member">RtAudioStreamStatus</ref></type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="551">
+        <label>ofRtAudioSoundStream</label>
+        <link refid="classof_rt_audio_sound_stream"/>
+        <childnode refid="552" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="552">
+        <label>ofBaseSoundStream</label>
+        <link refid="classof_base_sound_stream"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="553">
+        <label>ofRtAudioSoundStream</label>
+        <link refid="classof_rt_audio_sound_stream"/>
+        <childnode refid="554" relation="public-inheritance">
+        </childnode>
+        <childnode refid="555" relation="usage">
+          <edgelabel>soundOutputPtr</edgelabel>
+        </childnode>
+        <childnode refid="556" relation="usage">
+          <edgelabel>soundInputPtr</edgelabel>
+        </childnode>
+        <childnode refid="557" relation="usage">
+          <edgelabel>audio</edgelabel>
+        </childnode>
+      </node>
+      <node id="556">
+        <label>ofBaseSoundInput</label>
+        <link refid="classof_base_sound_input"/>
+      </node>
+      <node id="558">
+        <label>std::tr1::shared_ptr&lt; RtAudio &gt;</label>
+        <link refid="classstd_1_1tr1_1_1shared__ptr"/>
+      </node>
+      <node id="554">
+        <label>ofBaseSoundStream</label>
+        <link refid="classof_base_sound_stream"/>
+      </node>
+      <node id="557">
+        <label>ofPtr&lt; RtAudio &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="558" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="555">
+        <label>ofBaseSoundOutput</label>
+        <link refid="classof_base_sound_output"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" line="11" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofRtAudioSoundStream.h" bodystart="11" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classof_rt_audio_sound_stream_1afcb6b8abe1a9a23ac98e7d8be58452ce" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>audio</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a454268c55f545e2b4b0680c27bc50522" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>close</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a3cc561011ea2644980203b037682b47f" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>deviceID</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a3728964558ff782a60b3d4803ee97474" prot="public" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>getNumInputChannels</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a3c4fad72682be9a13f1911d0dfed1470" prot="public" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>getNumOutputChannels</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a6b1399641eb902fd6d665eb4105802ff" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>getTickCount</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a377ca55a46d54a373e225916d0ed43e8" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>listDevices</name></member>
+      <member refid="classof_rt_audio_sound_stream_1aa164ed606440540a6f6a9510de7957e5" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>nInputChannels</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a03e28beff5631f31ea65137b89b4356b" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>nOutputChannels</name></member>
+      <member refid="classof_rt_audio_sound_stream_1ad754f07225da3ed88ed675da8847dc2b" prot="public" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>ofRtAudioSoundStream</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a1ed485cced932fa6e0f6b350ef752da5" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>rtAudioCallback</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a81d2cc2cadb649930bd577dc4e1272c5" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>sampleRate</name></member>
+      <member refid="classof_rt_audio_sound_stream_1afae61f93d8610764dfd47a9c87ad7902" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>setDeviceID</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a9768fb4f9d900bee1d59c34f6c79646f" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>setInput</name></member>
+      <member refid="classof_rt_audio_sound_stream_1ae20966d5b01246956ddc15d713a9326e" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>setOutput</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a8fc0cd6c7aedc28eee7ebe84eb6be6e8" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>setup</name></member>
+      <member refid="classof_rt_audio_sound_stream_1ae65014cea7bfca2213a6bbe8f82d9ecd" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>setup</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a49bbd755c4bafad4d3081c3fd535c277" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>soundInputPtr</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a1dbfb4e46a0d0052c41bae8f17773f28" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>soundOutputPtr</name></member>
+      <member refid="classof_rt_audio_sound_stream_1a334e298a3791c3c6a0aa18b04a5fcfbb" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>start</name></member>
+      <member refid="classof_rt_audio_sound_stream_1ab0c60e540935220384ce676f73cbf765" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>stop</name></member>
+      <member refid="classof_rt_audio_sound_stream_1ae90376058832613df43570ced2b9cc40" prot="private" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>tickCount</name></member>
+      <member refid="classof_base_sound_stream_1a238e638c8990dce27b1b2f2774f0aa68" prot="public" virt="virtual"><scope>ofRtAudioSoundStream</scope><name>~ofBaseSoundStream</name></member>
+      <member refid="classof_rt_audio_sound_stream_1ab2816c9e717edcb772f03fe632a854e1" prot="public" virt="non-virtual"><scope>ofRtAudioSoundStream</scope><name>~ofRtAudioSoundStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

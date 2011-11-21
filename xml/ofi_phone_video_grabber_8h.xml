@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="ofi_phone_video_grabber_8h" kind="file">
+    <compoundname>ofiPhoneVideoGrabber.h</compoundname>
+    <includes refid="of_video_grabber_8h" local="yes">ofVideoGrabber.h</includes>
+    <incdepgraph>
+      <node id="640">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="638">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h</label>
+        <link refid="ofiPhoneVideoGrabber.h"/>
+        <childnode refid="639" relation="include">
+        </childnode>
+      </node>
+      <node id="639">
+        <label>ofVideoGrabber.h</label>
+        <link refid="of_video_grabber_8h"/>
+        <childnode refid="640" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+        <childnode refid="642" relation="include">
+        </childnode>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="644" relation="include">
+        </childnode>
+      </node>
+      <node id="641">
+        <label>ofTexture.h</label>
+      </node>
+      <node id="644">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="643">
+        <label>ofPixels.h</label>
+      </node>
+      <node id="642">
+        <label>ofBaseTypes.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classofi_phone_video_grabber" prot="public">ofiPhoneVideoGrabber</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_OF_IPHONE_VIDEO_GRABBER</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_OF_IPHONE_VIDEO_GRABBER</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AVFoundationVideoGrabber;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_video_grabber_8h" kindref="compound">ofVideoGrabber.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classofi_phone_video_grabber" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classofi_phone_video_grabber" kindref="compound">ofiPhoneVideoGrabber</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_base_video_grabber" kindref="compound">ofBaseVideoGrabber</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classofi_phone_video_grabber_1af136ca145a67e993d08bf1c71c6f1938" kindref="member">ofiPhoneVideoGrabber</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//needs<sp/>implementing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1adc914814d4a6d78b227af16e88bc129b" kindref="member">listDevices</ref>();<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1aeffe6aca99fee72be04240aa3e752381" kindref="member">getDeviceList</ref>(){};</highlight></codeline>
+<codeline lineno="18" refid="classofi_phone_video_grabber_1aeffe6aca99fee72be04240aa3e752381" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1ac6d50adc772820891d4b3209e81407ce" kindref="member">initGrabber</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1aabbecd00628353b122464d4bcf678704" kindref="member">isFrameNew</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classofi_phone_video_grabber_1a1b1f85f11fa046594da0a60d9e78f3bc" kindref="member">getPixels</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classofi_phone_video_grabber_1ac49d813d6494d8d5a6ca8bafe6d60901" kindref="member">getPixelsRef</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1a0a3e3f6d46c72c83b0b0136c6efd5df9" kindref="member">close</ref>();<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1adcf47ad85d21006b79e4472b47b805a4" kindref="member">getHeight</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1a82b3ba175d8f63b1f4e16b7cdb4a6651" kindref="member">getWidth</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1a43d60991aa0825944656ba28565e625a" kindref="member">update</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1a3972fb794c4c2682a641495056f9cb19" kindref="member">setDeviceID</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_deviceID);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1a1efdcb90053f3910a134f20cbe271cd3" kindref="member">setDesiredFrameRate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>framerate);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_grabber_1a6d14ceb1c6538e8bc9f2ba837a415cba" kindref="member">setPixelFormat</ref>(<ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref><sp/>internalPixelFormat);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref><sp/><ref refid="classofi_phone_video_grabber_1a6a2f40d53a22f443a541a4beb257c9fa" kindref="member">getPixelFormat</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//should<sp/>implement!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*void<sp/>setVerbose(bool<sp/>bTalkToMe);</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>videoSettings();*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_ptr" kindref="compound">ofPtr&lt;AVFoundationVideoGrabber&gt;</ref><sp/><ref refid="classofi_phone_video_grabber_1a829da1ee3f57da954ade812c2ae430eb" kindref="member">grabber</ref>;</highlight></codeline>
+<codeline lineno="45" refid="classofi_phone_video_grabber_1a829da1ee3f57da954ade812c2ae430eb" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoGrabber.h"/>
+  </compounddef>
+</doxygen>

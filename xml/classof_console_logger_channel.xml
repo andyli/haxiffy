@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_console_logger_channel" kind="class" prot="public">
+    <compoundname>ofConsoleLoggerChannel</compoundname>
+    <basecompoundref refid="classof_base_logger_channel" prot="public" virt="non-virtual">ofBaseLoggerChannel</basecompoundref>
+    <includes refid="of_log_8h" local="no">ofLog.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_console_logger_channel_1a4eadfde9d9789bff8eee8bb8949aed97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofConsoleLoggerChannel::~ofConsoleLoggerChannel</definition>
+        <argsstring>()</argsstring>
+        <name>~ofConsoleLoggerChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="149" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_console_logger_channel_1aa07ecce14277c0eaeae57c2078619394" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofConsoleLoggerChannel::log</definition>
+        <argsstring>(ofLogLevel level, const string &amp;module, const string &amp;message)</argsstring>
+        <name>log</name>
+        <reimplements refid="classof_base_logger_channel_1a41859e4af28dd6263df054666a5fe58f">log</reimplements>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_console_logger_channel_1a1566895d3ae76fe6280a14da10948bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofConsoleLoggerChannel::log</definition>
+        <argsstring>(ofLogLevel logLevel, const string &amp;module, const char *format,...)</argsstring>
+        <name>log</name>
+        <reimplements refid="classof_base_logger_channel_1a71b1b3361092015cdfb3b3b485b008d9">log</reimplements>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>logLevel</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_console_logger_channel_1a6862457a576aa2c0be4b6e17a933d078" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofConsoleLoggerChannel::log</definition>
+        <argsstring>(ofLogLevel logLevel, const string &amp;module, const char *format, va_list args)</argsstring>
+        <name>log</name>
+        <reimplements refid="classof_base_logger_channel_1ac3bcaaf2a15f4bfd417f8f8b4e72a8c3">log</reimplements>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>logLevel</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="230">
+        <label>ofBaseLoggerChannel</label>
+        <link refid="classof_base_logger_channel"/>
+      </node>
+      <node id="229">
+        <label>ofConsoleLoggerChannel</label>
+        <link refid="classof_console_logger_channel"/>
+        <childnode refid="230" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="232">
+        <label>ofBaseLoggerChannel</label>
+        <link refid="classof_base_logger_channel"/>
+      </node>
+      <node id="231">
+        <label>ofConsoleLoggerChannel</label>
+        <link refid="classof_console_logger_channel"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="147" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="147" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classof_console_logger_channel_1aa07ecce14277c0eaeae57c2078619394" prot="public" virt="virtual"><scope>ofConsoleLoggerChannel</scope><name>log</name></member>
+      <member refid="classof_console_logger_channel_1a1566895d3ae76fe6280a14da10948bf7" prot="public" virt="virtual"><scope>ofConsoleLoggerChannel</scope><name>log</name></member>
+      <member refid="classof_console_logger_channel_1a6862457a576aa2c0be4b6e17a933d078" prot="public" virt="virtual"><scope>ofConsoleLoggerChannel</scope><name>log</name></member>
+      <member refid="classof_base_logger_channel_1ad25596521f5df6c781fd2668c829c50e" prot="public" virt="virtual"><scope>ofConsoleLoggerChannel</scope><name>~ofBaseLoggerChannel</name></member>
+      <member refid="classof_console_logger_channel_1a4eadfde9d9789bff8eee8bb8949aed97" prot="public" virt="virtual"><scope>ofConsoleLoggerChannel</scope><name>~ofConsoleLoggerChannel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

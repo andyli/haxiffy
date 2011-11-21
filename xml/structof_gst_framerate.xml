@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="structof_gst_framerate" kind="struct" prot="public">
+    <compoundname>ofGstFramerate</compoundname>
+    <includes refid="of_gst_video_grabber_8h" local="no">ofGstVideoGrabber.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structof_gst_framerate_1a3a01084ed84af512a6386ed3eaa888a4" prot="public" static="no" mutable="no">
+        <type>Users andy Documents of_preRelease_v007_osx libs openFrameworks video <ref refid="classof_gst_video_grabber" kindref="compound">ofGstVideoGrabber</ref> h int</type>
+        <definition>Users andy Documents of_preRelease_v007_osx libs openFrameworks video ofGstVideoGrabber h int ofGstFramerate::numerator</definition>
+        <argsstring></argsstring>
+        <name>numerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="7" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_gst_framerate_1ac6a3f4271b7cdfe95d8d410b177bfa16" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofGstFramerate::denominator</definition>
+        <argsstring></argsstring>
+        <name>denominator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="8" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="298">
+        <label>ofGstVideoGrabber</label>
+        <link refid="classof_gst_video_grabber"/>
+        <childnode refid="299" relation="public-inheritance">
+        </childnode>
+        <childnode refid="304" relation="usage">
+          <edgelabel>videoUtils</edgelabel>
+        </childnode>
+        <childnode refid="308" relation="usage">
+          <edgelabel>camData</edgelabel>
+        </childnode>
+      </node>
+      <node id="301">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="297">
+        <label>ofGstFramerate</label>
+        <link refid="structof_gst_framerate"/>
+        <childnode refid="298" relation="usage">
+          <edgelabel>numerator</edgelabel>
+        </childnode>
+      </node>
+      <node id="306">
+        <label>ofGstAppSink</label>
+        <link refid="classof_gst_app_sink"/>
+      </node>
+      <node id="300">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="299">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>ofGstUtils</label>
+        <link refid="classof_gst_utils"/>
+        <childnode refid="306" relation="usage">
+          <edgelabel>appsink</edgelabel>
+        </childnode>
+      </node>
+      <node id="308">
+        <label>ofGstCamData</label>
+        <link refid="structof_gst_cam_data"/>
+      </node>
+      <node id="307">
+        <label>ofPixels_&lt; unsigned char &gt;</label>
+        <link refid="classof_pixels__"/>
+      </node>
+      <node id="304">
+        <label>ofGstVideoUtils</label>
+        <link refid="classof_gst_video_utils"/>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+        <childnode refid="307" relation="usage">
+          <edgelabel>backPixels</edgelabel>
+          <edgelabel>pixels</edgelabel>
+        </childnode>
+      </node>
+      <node id="302">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="5" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="structof_gst_framerate_1ac6a3f4271b7cdfe95d8d410b177bfa16" prot="public" virt="non-virtual"><scope>ofGstFramerate</scope><name>denominator</name></member>
+      <member refid="structof_gst_framerate_1a3a01084ed84af512a6386ed3eaa888a4" prot="public" virt="non-virtual"><scope>ofGstFramerate</scope><name>numerator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_base_sound_player" kind="class" prot="public">
+    <compoundname>ofBaseSoundPlayer</compoundname>
+    <derivedcompoundref refid="classof_sound_player" prot="public" virt="non-virtual">ofSoundPlayer</derivedcompoundref>
+    <includes refid="of_base_sound_player_8h" local="no">ofBaseSoundPlayer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_base_sound_player_1ad705fe243610e1b203fe38b13b264cb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofBaseSoundPlayer::ofBaseSoundPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>ofBaseSoundPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="15" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1a8defee0b9e692647917e4cc78e2b27d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofBaseSoundPlayer::~ofBaseSoundPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>~ofBaseSoundPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="16" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1ac261744b9815d7f31ca5580d8230e91c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::loadSound</definition>
+        <argsstring>(string fileName, bool stream=false)=0</argsstring>
+        <name>loadSound</name>
+        <reimplementedby refid="classof_sound_player_1a719bdd9e5ec88ac764d2fe62be42f138">loadSound</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stream</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1a9d4f87a9c835c9521d63677a40cc2378" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::unloadSound</definition>
+        <argsstring>()=0</argsstring>
+        <name>unloadSound</name>
+        <reimplementedby refid="classof_sound_player_1af34f51c6db954cca3ccf9f0a7f7bdca3">unloadSound</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1a75724561c5bfd5b36099ae13b4a448ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::play</definition>
+        <argsstring>()=0</argsstring>
+        <name>play</name>
+        <reimplementedby refid="classof_sound_player_1a0b33f32cd5330619a7c4d9a812a201bf">play</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1a815bdc74ee89a4953eeb55803d220ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::stop</definition>
+        <argsstring>()=0</argsstring>
+        <name>stop</name>
+        <reimplementedby refid="classof_sound_player_1a47cc0ae78fbb5a8b62f9c9d92279932f">stop</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1a8dd48f4e7cad15d4df5c2ab572a243af" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::setVolume</definition>
+        <argsstring>(float vol)=0</argsstring>
+        <name>setVolume</name>
+        <reimplementedby refid="classof_sound_player_1acaa80eb92af43c4889a1f2968849dd80">setVolume</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>vol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1a84e70f38b1ae07380fb2d902f3e21e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::setPan</definition>
+        <argsstring>(float vol)=0</argsstring>
+        <name>setPan</name>
+        <reimplementedby refid="classof_sound_player_1afe9153ef6ccff90698f2c0f32aecf264">setPan</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>vol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1a1b44d5401ee7c0d20fb9d1b9b4d507f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::setSpeed</definition>
+        <argsstring>(float spd)=0</argsstring>
+        <name>setSpeed</name>
+        <reimplementedby refid="classof_sound_player_1ad0d545c135fae29a5ae3f53e6b8c5a36">setSpeed</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>spd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1ab3a7af6b4cbb14ecaf12f836d05d7c8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::setPaused</definition>
+        <argsstring>(bool bP)=0</argsstring>
+        <name>setPaused</name>
+        <reimplementedby refid="classof_sound_player_1ad78dcd06f67c3ade7e0f81cf7ec48f7a">setPaused</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>bP</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1af99466881ec3c5b0fb9d374d353ff7b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::setLoop</definition>
+        <argsstring>(bool bLp)=0</argsstring>
+        <name>setLoop</name>
+        <reimplementedby refid="classof_sound_player_1a83b6cdb9c183a25f1f0f3834b0ea75da">setLoop</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>bLp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1a576345622ea19d09d5c4e5e3cf6cb653" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::setMultiPlay</definition>
+        <argsstring>(bool bMp)=0</argsstring>
+        <name>setMultiPlay</name>
+        <reimplementedby refid="classof_sound_player_1a05aa20552192e95abc716e426fe2c26e">setMultiPlay</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>bMp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1ae302cd3a5f42cef51ea72f950f6a2b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseSoundPlayer::setPosition</definition>
+        <argsstring>(float pct)=0</argsstring>
+        <name>setPosition</name>
+        <reimplementedby refid="classof_sound_player_1ac9179fcb91159811bee454488b19ba9f">setPosition</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>pct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1aa397af6f05c4451866bd343692c1aa33" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float ofBaseSoundPlayer::getPosition</definition>
+        <argsstring>()=0</argsstring>
+        <name>getPosition</name>
+        <reimplementedby refid="classof_sound_player_1ab323f725c722b7c858e5fb2cd26d054e">getPosition</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1aa3445838a28c7622edecb778f7400bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ofBaseSoundPlayer::getIsPlaying</definition>
+        <argsstring>()=0</argsstring>
+        <name>getIsPlaying</name>
+        <reimplementedby refid="classof_sound_player_1a5b6d6347a3a94823f64df7c34da29fcb">getIsPlaying</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1ac81d07b18bde46e618ca026e088b1e19" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float ofBaseSoundPlayer::getSpeed</definition>
+        <argsstring>()=0</argsstring>
+        <name>getSpeed</name>
+        <reimplementedby refid="classof_sound_player_1a7ce70d482070ef585016d4a47b016a04">getSpeed</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_sound_player_1ab17c0b5c5684ce988eb1f52259477aae" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float ofBaseSoundPlayer::getPan</definition>
+        <argsstring>()=0</argsstring>
+        <name>getPan</name>
+        <reimplementedby refid="classof_sound_player_1a45fae5c6233c598671bbce9ecac9e017">getPan</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="119">
+        <label>ofSoundPlayer</label>
+        <link refid="classof_sound_player"/>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>ofBaseSoundPlayer</label>
+        <link refid="classof_base_sound_player"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" line="11" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofBaseSoundPlayer.h" bodystart="11" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classof_base_sound_player_1aa3445838a28c7622edecb778f7400bd6" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>getIsPlaying</name></member>
+      <member refid="classof_base_sound_player_1ab17c0b5c5684ce988eb1f52259477aae" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>getPan</name></member>
+      <member refid="classof_base_sound_player_1aa397af6f05c4451866bd343692c1aa33" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>getPosition</name></member>
+      <member refid="classof_base_sound_player_1ac81d07b18bde46e618ca026e088b1e19" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>getSpeed</name></member>
+      <member refid="classof_base_sound_player_1ac261744b9815d7f31ca5580d8230e91c" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>loadSound</name></member>
+      <member refid="classof_base_sound_player_1ad705fe243610e1b203fe38b13b264cb6" prot="public" virt="non-virtual"><scope>ofBaseSoundPlayer</scope><name>ofBaseSoundPlayer</name></member>
+      <member refid="classof_base_sound_player_1a75724561c5bfd5b36099ae13b4a448ed" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>play</name></member>
+      <member refid="classof_base_sound_player_1af99466881ec3c5b0fb9d374d353ff7b1" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>setLoop</name></member>
+      <member refid="classof_base_sound_player_1a576345622ea19d09d5c4e5e3cf6cb653" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>setMultiPlay</name></member>
+      <member refid="classof_base_sound_player_1a84e70f38b1ae07380fb2d902f3e21e61" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>setPan</name></member>
+      <member refid="classof_base_sound_player_1ab3a7af6b4cbb14ecaf12f836d05d7c8b" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>setPaused</name></member>
+      <member refid="classof_base_sound_player_1ae302cd3a5f42cef51ea72f950f6a2b10" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>setPosition</name></member>
+      <member refid="classof_base_sound_player_1a1b44d5401ee7c0d20fb9d1b9b4d507f9" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>setSpeed</name></member>
+      <member refid="classof_base_sound_player_1a8dd48f4e7cad15d4df5c2ab572a243af" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>setVolume</name></member>
+      <member refid="classof_base_sound_player_1a815bdc74ee89a4953eeb55803d220ad5" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>stop</name></member>
+      <member refid="classof_base_sound_player_1a9d4f87a9c835c9521d63677a40cc2378" prot="public" virt="pure-virtual"><scope>ofBaseSoundPlayer</scope><name>unloadSound</name></member>
+      <member refid="classof_base_sound_player_1a8defee0b9e692647917e4cc78e2b27d1" prot="public" virt="virtual"><scope>ofBaseSoundPlayer</scope><name>~ofBaseSoundPlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

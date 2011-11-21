@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_http_response" kind="class" prot="public">
+    <compoundname>ofHttpResponse</compoundname>
+    <includes refid="of_u_r_l_file_loader_8h" local="no">ofURLFileLoader.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_http_response_1a877df00ab4051238516ea795abe20329" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_http_request" kindref="compound">ofHttpRequest</ref></type>
+        <definition>ofHttpRequest ofHttpResponse::request</definition>
+        <argsstring></argsstring>
+        <name>request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="52" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_http_response_1ad5b882db67a15dde8b6c2852ec94e04c" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_buffer" kindref="compound">ofBuffer</ref></type>
+        <definition>ofBuffer ofHttpResponse::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="53" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_http_response_1a407f967e09f8f1eab832eea3f030f5ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofHttpResponse::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="54" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_http_response_1abedec08ad787d6b034616eff12a3de0b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofHttpResponse::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="55" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_http_response_1acdabad0c6f691b944640da366bf4fa44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofHttpResponse::ofHttpResponse</definition>
+        <argsstring>()</argsstring>
+        <name>ofHttpResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="35" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_http_response_1a8285acc5a460a39bdfbe61f84bde0cda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofHttpResponse::ofHttpResponse</definition>
+        <argsstring>(ofHttpRequest request, const ofBuffer &amp;data, int status, string error)</argsstring>
+        <name>ofHttpResponse</name>
+        <param>
+          <type><ref refid="classof_http_request" kindref="compound">ofHttpRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="41" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_http_response_1a1b5d7763eb028d4d6bae22a54becd99f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofHttpResponse::ofHttpResponse</definition>
+        <argsstring>(ofHttpRequest request, int status, string error)</argsstring>
+        <name>ofHttpResponse</name>
+        <param>
+          <type><ref refid="classof_http_request" kindref="compound">ofHttpRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_http_response_1a3f422a14dceafa38c9efb89c7453959b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofHttpResponse::operator ofBuffer &amp;</definition>
+        <argsstring>()</argsstring>
+        <name>operator ofBuffer &amp;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="48" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="48" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="379">
+        <label>ofHttpRequest</label>
+        <link refid="classof_http_request"/>
+      </node>
+      <node id="378">
+        <label>ofHttpResponse</label>
+        <link refid="classof_http_response"/>
+        <childnode refid="379" relation="usage">
+          <edgelabel>request</edgelabel>
+        </childnode>
+        <childnode refid="380" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="380">
+        <label>ofBuffer</label>
+        <link refid="classof_buffer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="33" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="33" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classof_http_response_1ad5b882db67a15dde8b6c2852ec94e04c" prot="public" virt="non-virtual"><scope>ofHttpResponse</scope><name>data</name></member>
+      <member refid="classof_http_response_1abedec08ad787d6b034616eff12a3de0b" prot="public" virt="non-virtual"><scope>ofHttpResponse</scope><name>error</name></member>
+      <member refid="classof_http_response_1acdabad0c6f691b944640da366bf4fa44" prot="public" virt="non-virtual"><scope>ofHttpResponse</scope><name>ofHttpResponse</name></member>
+      <member refid="classof_http_response_1a8285acc5a460a39bdfbe61f84bde0cda" prot="public" virt="non-virtual"><scope>ofHttpResponse</scope><name>ofHttpResponse</name></member>
+      <member refid="classof_http_response_1a1b5d7763eb028d4d6bae22a54becd99f" prot="public" virt="non-virtual"><scope>ofHttpResponse</scope><name>ofHttpResponse</name></member>
+      <member refid="classof_http_response_1a3f422a14dceafa38c9efb89c7453959b" prot="public" virt="non-virtual"><scope>ofHttpResponse</scope><name>operator ofBuffer &amp;</name></member>
+      <member refid="classof_http_response_1a877df00ab4051238516ea795abe20329" prot="public" virt="non-virtual"><scope>ofHttpResponse</scope><name>request</name></member>
+      <member refid="classof_http_response_1a407f967e09f8f1eab832eea3f030f5ce" prot="public" virt="non-virtual"><scope>ofHttpResponse</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

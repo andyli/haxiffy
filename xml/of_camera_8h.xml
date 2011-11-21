@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_camera_8h" kind="file">
+    <compoundname>ofCamera.h</compoundname>
+    <includes local="yes">ofRectangle.h</includes>
+    <includes local="yes">ofAppRunner.h</includes>
+    <includes refid="of_node_8h" local="yes">ofNode.h</includes>
+    <includedby refid="of_easy_cam_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>ofVectorMath.h</label>
+      </node>
+      <node id="7">
+        <label>ofAppRunner.h</label>
+      </node>
+      <node id="5">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h</label>
+        <link refid="ofCamera.h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ofGraphics.h</label>
+      </node>
+      <node id="10">
+        <label>of3dUtils.h</label>
+        <link refid="of3d_utils_8h"/>
+      </node>
+      <node id="8">
+        <label>ofNode.h</label>
+        <link refid="of_node_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ofRectangle.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="13">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h</label>
+        <link refid="of_easy_cam_8h"/>
+      </node>
+      <node id="12">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h</label>
+        <link refid="ofCamera.h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classof_camera" prot="public">ofCamera</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="of_camera_8h_1abc9f3f28ebedf30859798bb84c1d84e9" prot="public" static="no">
+        <name>OF_CAMERA_MATRIX_CACHE_WARNING</name>
+        <initializer><ref refid="classof_log" kindref="compound">ofLog</ref>(OF_LOG_WARNING, &quot;ofCamera::getXXXXMatrix : If you want to call this function a lot, then make sure ofCamera::cacheMatrices = true, then we&apos;ll cache the data from the draw loop&quot;);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" line="24" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/>ofCamera.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>openFrameworksLib</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>by<sp/>Memo<sp/>Akten<sp/>on<sp/>10/01/2011.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>2011<sp/>MSA<sp/>Visuals<sp/>Ltd.<sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>add<sp/>off-axis<sp/>projection<sp/>options<sp/>(eventually<sp/>tile<sp/>render<sp/>support)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>fix<sp/>ortho<sp/>projection</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>add<sp/>toWorld,<sp/>toScreen<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>add<sp/>get/set<sp/>projection<sp/>matrix</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>support<sp/>for<sp/>left<sp/>handed<sp/>or<sp/>right<sp/>handed?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofRectangle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofAppRunner.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_node_8h" kindref="compound">ofNode.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="of_camera_8h_1abc9f3f28ebedf30859798bb84c1d84e9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OF_CAMERA_MATRIX_CACHE_WARNING<sp/>ofLog(OF_LOG_WARNING,<sp/>&quot;ofCamera::getXXXXMatrix<sp/>:<sp/>If<sp/>you<sp/>want<sp/>to<sp/>call<sp/>this<sp/>function<sp/>a<sp/>lot,<sp/>then<sp/>make<sp/>sure<sp/>ofCamera::cacheMatrices<sp/>=<sp/>true,<sp/>then<sp/>we&apos;ll<sp/>cache<sp/>the<sp/>data<sp/>from<sp/>the<sp/>draw<sp/>loop&quot;);</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Use<sp/>the<sp/>public<sp/>API<sp/>of<sp/>ofNode<sp/>for<sp/>all<sp/>transformations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//class<sp/>ofCamera<sp/>:<sp/>public<sp/>ofNodeWithTarget<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classof_camera" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_camera" kindref="compound">ofCamera</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_node" kindref="compound">ofNode</ref><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_camera_1abd30fe5920612bd673a7a7af7991fc4a" kindref="member">ofCamera</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>projection<sp/>properties:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1ac79f42fa863eb5ce703625800dee236c" kindref="member">setFov</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a4ed2f176b5dbdb65e1e452b847497086" kindref="member">setNearClip</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1aef6f9ea9a776c0113900a75e54d05bb9" kindref="member">setFarClip</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a3188281a0708f7ed030b0742ff2d3f6d" kindref="member">enableOrtho</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a8b9f8d32444f72544b3a05e6646fcdfc" kindref="member">disableOrtho</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a64ecd6f32c55d31f8570e22a1597c29a" kindref="member">getOrtho</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a229cb35e80d84ce864e07d569116890e" kindref="member">getImagePlaneDistance</ref>(<ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>())<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>matrices</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a42a2921f26c9f63103d417d5abf74f0e" kindref="member">begin</ref>(<ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1ab30f48c273646eac677a34be969710b3" kindref="member">end</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>hardcore<sp/>peeps,<sp/>access<sp/>to<sp/>the<sp/>projection<sp/>matrix</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a9c64ce18d4ea06c77f23f6899bdb27c9" kindref="member">cacheMatrices</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cache=</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref><sp/><ref refid="classof_camera_1a8d34598a9542ee39aad5f1fda7d86d18" kindref="member">getProjectionMatrix</ref>(<ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>());<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref><sp/><ref refid="classof_camera_1ab1f75c923a80c3161ef3d3a0057e9524" kindref="member">getModelViewMatrix</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref><sp/><ref refid="classof_camera_1a5f888bd16155c9a9088302a2a74907a1" kindref="member">getModelViewProjectionMatrix</ref>(<ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>());</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>convert<sp/>between<sp/>spaces</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/><ref refid="classof_camera_1ab322e7d760b8ab3508af2362478d4dd6" kindref="member">worldToScreen</ref>(<ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/>WorldXYZ,<sp/><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>());<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/><ref refid="classof_camera_1a85a37e9c24c372b6824f4ada7612470e" kindref="member">screenToWorld</ref>(<ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/>ScreenXYZ,<sp/><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>());</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/><ref refid="classof_camera_1a124675ae7ad72e82c402ce7da7978a31" kindref="member">worldToCamera</ref>(<ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/>WorldXYZ,<sp/><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/><ref refid="classof_camera_1af3801bb3a2e303bc005b258670056f1f" kindref="member">cameraToWorld</ref>(<ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/>CameraXYZ,<sp/><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>());</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a14be7a543e64f332e9f3106fce2b369f" kindref="member">calcClipPlanes</ref>(<ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63" refid="classof_camera_1a741a221b952bd29fc717eda23565ee22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a741a221b952bd29fc717eda23565ee22" kindref="member">isOrtho</ref>;</highlight></codeline>
+<codeline lineno="64" refid="classof_camera_1a34bc96c4a0fce3ec78b33db6be83b4fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a34bc96c4a0fce3ec78b33db6be83b4fb" kindref="member">fov</ref>;</highlight></codeline>
+<codeline lineno="65" refid="classof_camera_1ad11580161e4664656d26013f6638769c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1ad11580161e4664656d26013f6638769c" kindref="member">nearClip</ref>;</highlight></codeline>
+<codeline lineno="66" refid="classof_camera_1a1af538e481519a184d4320cedd456fb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a1af538e481519a184d4320cedd456fb9" kindref="member">farClip</ref>;</highlight></codeline>
+<codeline lineno="67" refid="classof_camera_1a960e80a1ae5ac42560a4b01c63b62e49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1a960e80a1ae5ac42560a4b01c63b62e49" kindref="member">isActive</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69" refid="classof_camera_1adcee755769ecb290184efbda110d8450" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1adcee755769ecb290184efbda110d8450" kindref="member">hasStoredMatrices</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classof_camera_1a3f0ffac762a90bc39e57f5f3c1338755" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref><sp/><ref refid="classof_camera_1a3f0ffac762a90bc39e57f5f3c1338755" kindref="member">matProjection</ref>;</highlight></codeline>
+<codeline lineno="71" refid="classof_camera_1afce4670f2b30b66f79f3dcd4fbbdeb09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref><sp/><ref refid="classof_camera_1afce4670f2b30b66f79f3dcd4fbbdeb09" kindref="member">matModelView</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classof_camera_1ae5d2be13e2742b539209d540c39dcbfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_camera_1ae5d2be13e2742b539209d540c39dcbfc" kindref="member">bCacheMatrices</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofCamera.h"/>
+  </compounddef>
+</doxygen>

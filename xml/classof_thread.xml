@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_thread" kind="class" prot="public">
+    <compoundname>ofThread</compoundname>
+    <derivedcompoundref refid="classof_u_r_l_file_loader" prot="public" virt="non-virtual">ofURLFileLoader</derivedcompoundref>
+    <includes refid="of_thread_8h" local="no">ofThread.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_thread_1ac014ed3ed729c6870bf4721df96f5cfc" prot="protected" static="no" mutable="no">
+        <type>pthread_t</type>
+        <definition>pthread_t ofThread::myThread</definition>
+        <argsstring></argsstring>
+        <name>myThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="58" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_thread_1a12ff152ef6ad45f82cff7dcd5b4b9742" prot="protected" static="no" mutable="no">
+        <type><ref refid="of_types_8h_1a14d0290b2d9067f9b5c30fa5e4e56927" kindref="member">ofMutex</ref></type>
+        <definition>ofMutex ofThread::mutex</definition>
+        <argsstring></argsstring>
+        <name>mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="60" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_thread_1adbcdde30d1304bd2b61de8c30237a417" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofThread::threadRunning</definition>
+        <argsstring></argsstring>
+        <name>threadRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="62" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_thread_1a67cc9e89594ffa191166531ac9e7b6ce" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofThread::blocking</definition>
+        <argsstring></argsstring>
+        <name>blocking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="63" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_thread_1ac4ad0b7c3602106ea883d6a8be791817" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofThread::verbose</definition>
+        <argsstring></argsstring>
+        <name>verbose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_thread_1a6e9afd83f8dd763f7230d13286611a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofThread::ofThread</definition>
+        <argsstring>()</argsstring>
+        <name>ofThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_thread_1a5df523a15016b1581d3d9fdcaf033f11" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofThread::~ofThread</definition>
+        <argsstring>()</argsstring>
+        <name>~ofThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_thread_1afadfd0e1cf3aadfb20c616dbb159025a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofThread::isThreadRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isThreadRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_thread_1a06d7c7eeb869db8571c20799c29a0b24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofThread::startThread</definition>
+        <argsstring>(bool _blocking=true, bool _verbose=true)</argsstring>
+        <name>startThread</name>
+        <param>
+          <type>bool</type>
+          <declname>_blocking</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_verbose</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_thread_1a8b682673b3d11225785b74f68fc3ce96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofThread::lock</definition>
+        <argsstring>()</argsstring>
+        <name>lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_thread_1a4969d3e3b3c281251132a305c7fae015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofThread::unlock</definition>
+        <argsstring>()</argsstring>
+        <name>unlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_thread_1aa3d12bc071665418de14ffb5b5aad325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofThread::stopThread</definition>
+        <argsstring>(bool close=true)</argsstring>
+        <name>stopThread</name>
+        <param>
+          <type>bool</type>
+          <declname>close</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_thread_1ac7a358dcd8571203eeef98e31c0fc358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofThread::waitForThread</definition>
+        <argsstring>(bool stop=true)</argsstring>
+        <name>waitForThread</name>
+        <param>
+          <type>bool</type>
+          <declname>stop</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_thread_1a9600ede5eed40e1b2ecd88bba1ed394a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofThread::threadedFunction</definition>
+        <argsstring>()</argsstring>
+        <name>threadedFunction</name>
+        <reimplementedby refid="classof_u_r_l_file_loader_1ab2f0c21ed1cb176e86761370297d573f">threadedFunction</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="30" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" bodystart="30" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="classof_thread_1a8bd4ec6027466e89101a02b4a248158b" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void* ofThread::thread</definition>
+        <argsstring>(void *objPtr)</argsstring>
+        <name>thread</name>
+        <param>
+          <type>void *</type>
+          <declname>objPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="45" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" bodystart="45" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="590">
+        <label>ofThread</label>
+        <link refid="classof_thread"/>
+      </node>
+      <node id="591">
+        <label>ofURLFileLoader</label>
+        <link refid="classof_u_r_l_file_loader"/>
+        <childnode refid="590" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" line="12" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofThread.h" bodystart="12" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classof_thread_1a67cc9e89594ffa191166531ac9e7b6ce" prot="protected" virt="non-virtual"><scope>ofThread</scope><name>blocking</name></member>
+      <member refid="classof_thread_1afadfd0e1cf3aadfb20c616dbb159025a" prot="public" virt="non-virtual"><scope>ofThread</scope><name>isThreadRunning</name></member>
+      <member refid="classof_thread_1a8b682673b3d11225785b74f68fc3ce96" prot="public" virt="non-virtual"><scope>ofThread</scope><name>lock</name></member>
+      <member refid="classof_thread_1a12ff152ef6ad45f82cff7dcd5b4b9742" prot="protected" virt="non-virtual"><scope>ofThread</scope><name>mutex</name></member>
+      <member refid="classof_thread_1ac014ed3ed729c6870bf4721df96f5cfc" prot="protected" virt="non-virtual"><scope>ofThread</scope><name>myThread</name></member>
+      <member refid="classof_thread_1a6e9afd83f8dd763f7230d13286611a9c" prot="public" virt="non-virtual"><scope>ofThread</scope><name>ofThread</name></member>
+      <member refid="classof_thread_1a06d7c7eeb869db8571c20799c29a0b24" prot="public" virt="non-virtual"><scope>ofThread</scope><name>startThread</name></member>
+      <member refid="classof_thread_1aa3d12bc071665418de14ffb5b5aad325" prot="public" virt="non-virtual"><scope>ofThread</scope><name>stopThread</name></member>
+      <member refid="classof_thread_1a8bd4ec6027466e89101a02b4a248158b" prot="protected" virt="non-virtual"><scope>ofThread</scope><name>thread</name></member>
+      <member refid="classof_thread_1a9600ede5eed40e1b2ecd88bba1ed394a" prot="protected" virt="virtual"><scope>ofThread</scope><name>threadedFunction</name></member>
+      <member refid="classof_thread_1adbcdde30d1304bd2b61de8c30237a417" prot="protected" virt="non-virtual"><scope>ofThread</scope><name>threadRunning</name></member>
+      <member refid="classof_thread_1a4969d3e3b3c281251132a305c7fae015" prot="public" virt="non-virtual"><scope>ofThread</scope><name>unlock</name></member>
+      <member refid="classof_thread_1ac4ad0b7c3602106ea883d6a8be791817" prot="protected" virt="non-virtual"><scope>ofThread</scope><name>verbose</name></member>
+      <member refid="classof_thread_1ac7a358dcd8571203eeef98e31c0fc358" prot="public" virt="non-virtual"><scope>ofThread</scope><name>waitForThread</name></member>
+      <member refid="classof_thread_1a5df523a15016b1581d3d9fdcaf033f11" prot="public" virt="virtual"><scope>ofThread</scope><name>~ofThread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

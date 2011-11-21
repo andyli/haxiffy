@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_base_has_pixels__" kind="class" prot="public">
+    <compoundname>ofBaseHasPixels_</compoundname>
+    <basecompoundref refid="classof_abstract_has_pixels" prot="public" virt="non-virtual">ofAbstractHasPixels</basecompoundref>
+    <derivedcompoundref refid="classof_base_image__" prot="public" virt="non-virtual">ofBaseImage_&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_base_video" prot="public" virt="non-virtual">ofBaseVideo</derivedcompoundref>
+    <includes refid="of_base_types_8h" local="no">ofBaseTypes.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofBaseHasPixels_&lt; T &gt;::~ofBaseHasPixels_</definition>
+        <argsstring>()</argsstring>
+        <name>~ofBaseHasPixels_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="96" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_has_pixels___1a680c5d134ff80d892abbe681fa5ce2e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>T *</type>
+        <definition>virtual T* ofBaseHasPixels_&lt; T &gt;::getPixels</definition>
+        <argsstring>()=0</argsstring>
+        <name>getPixels</name>
+        <reimplementedby refid="classof_video_player_1a9aa7b3505ae92dceea77c9913eefac65">getPixels</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1a1845c068d08da798861c639c2dfc6b27">getPixels</reimplementedby>
+        <reimplementedby refid="classof_quick_time_player_1a3142b560121f45c47b0ab0424d9382f9">getPixels</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a0dd62853a77aeb042bf29ff0b8277ae9">getPixels</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_player_1ac8635bf26011a71d648dd087c6b1b2c3">getPixels</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1a1b1f85f11fa046594da0a60d9e78f3bc">getPixels</reimplementedby>
+        <reimplementedby refid="classof_gst_video_player_1a599f405c7630772168fe5be899f1db32">getPixels</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a28ddc9db5e4a9b968971b63710455766">getPixels</reimplementedby>
+        <reimplementedby refid="classof_gst_video_utils_1a053d7db4e48274bc9be3f144b4dc6b2b">getPixels</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1acc815e60b8edd19f443a5e2ac0caa893">getPixels</reimplementedby>
+        <reimplementedby refid="classof_base_video_player_1a219fabc2debd7c542e10a56738fe1f5a">getPixels</reimplementedby>
+        <reimplementedby refid="classof_base_video_grabber_1a7a9d9dc85963036f16d937cee730f654">getPixels</reimplementedby>
+        <reimplementedby refid="classof_image___1ad02ede9f488a5992377b42118d9ca6b8">getPixels</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixels_</ref>&lt; T &gt; &amp;</type>
+        <definition>virtual ofPixels_&lt;T&gt;&amp; ofBaseHasPixels_&lt; T &gt;::getPixelsRef</definition>
+        <argsstring>()=0</argsstring>
+        <name>getPixelsRef</name>
+        <reimplementedby refid="classof_video_player_1a7702772cc77fd61d2d4e2c2b338b5291">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classof_video_grabber_1abf832b3ad4b29aa5f787b66de2a4897a">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classof_quick_time_player_1a6c26d4a7433f40a82eeb9687b16a4f9f">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classof_quick_time_grabber_1a9dda4485108619ae84cd5425cd5c0ab0">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_player_1afd4e7a5c227e631f0f7ea7e3be0c3db9">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classofi_phone_video_grabber_1ac49d813d6494d8d5a6ca8bafe6d60901">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classof_gst_video_player_1a03dd7044e94436eb95db728ff5ab5314">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classof_gst_video_grabber_1a82629d46c4013b68ff18203d62a1f85f">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classof_gst_video_utils_1a144c83ce876eca7fac1262f408c8be6f">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classof_direct_show_grabber_1aee0f557356afd74a692e6453277f9d0c">getPixelsRef</reimplementedby>
+        <reimplementedby refid="classof_image___1a86b2327993bd5364ac7e09aec90042a3">getPixelsRef</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="77">
+        <label>ofQuickTimePlayer</label>
+        <link refid="classof_quick_time_player"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>ofGstVideoGrabber</label>
+        <link refid="classof_gst_video_grabber"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>ofGstVideoPlayer</label>
+        <link refid="classof_gst_video_player"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>ofBaseVideo&lt; unsigned char &gt;</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>ofQuickTimeGrabber</label>
+        <link refid="classof_quick_time_grabber"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>ofiPhoneVideoGrabber</label>
+        <link refid="classofi_phone_video_grabber"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>ofVideoPlayer</label>
+        <link refid="classof_video_player"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>ofBaseVideoPlayer</label>
+        <link refid="classof_base_video_player"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>ofiPhoneVideoPlayer</label>
+        <link refid="classofi_phone_video_player"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>ofBaseVideoDraws</label>
+        <link refid="classof_base_video_draws"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>ofBaseHasPixels_&lt; T &gt;</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>ofBaseImage_&lt; T &gt;</label>
+        <link refid="classof_base_image__"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>ofVideoGrabber</label>
+        <link refid="classof_video_grabber"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>ofDirectShowGrabber</label>
+        <link refid="classof_direct_show_grabber"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>ofGstVideoUtils</label>
+        <link refid="classof_gst_video_utils"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="79">
+        <label>ofBaseHasPixels_&lt; T &gt;</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="94" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="94" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classof_base_has_pixels___1a680c5d134ff80d892abbe681fa5ce2e0" prot="public" virt="pure-virtual"><scope>ofBaseHasPixels_</scope><name>getPixels</name></member>
+      <member refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45" prot="public" virt="pure-virtual"><scope>ofBaseHasPixels_</scope><name>getPixelsRef</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofBaseHasPixels_</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofBaseHasPixels_</scope><name>~ofBaseHasPixels_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

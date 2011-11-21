@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_file_path" kind="class" prot="public">
+    <compoundname>ofFilePath</compoundname>
+    <includes refid="of_file_utils_8h" local="no">ofFileUtils.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classof_file_path_1aaa04b369b64e632f6f7316a594f7199a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::getFileExt</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>getFileExt</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1af203e29ee1ec4b3c6734a94380399962" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::removeExt</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>removeExt</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1a32a4d211103cf9c6c59793830849271d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::addLeadingSlash</definition>
+        <argsstring>(string path)</argsstring>
+        <name>addLeadingSlash</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1afeb6464a31fc9bdeefaa7f87258ac381" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::addTrailingSlash</definition>
+        <argsstring>(string path)</argsstring>
+        <name>addTrailingSlash</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1aaabbe4a5685479a7058dec93ef71cc55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::removeTrailingSlash</definition>
+        <argsstring>(string path)</argsstring>
+        <name>removeTrailingSlash</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1a7b35487efe01b8ea93042ab5dde04240" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::getPathForDirectory</definition>
+        <argsstring>(string path)</argsstring>
+        <name>getPathForDirectory</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1a8ef70cb81f55ee6fe34acee6d113a138" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::getAbsolutePath</definition>
+        <argsstring>(string path, bool bRelativeToData=true)</argsstring>
+        <name>getAbsolutePath</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1ac40b099b09ddcc64b637b980a95319f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ofFilePath::isAbsolute</definition>
+        <argsstring>(string path)</argsstring>
+        <name>isAbsolute</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1a9a215c4564756278dfbdcc92685729cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::getFileName</definition>
+        <argsstring>(string filePath, bool bRelativeToData=true)</argsstring>
+        <name>getFileName</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1a9ec919e98c1bea983e3fb31610e0215f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::getBaseName</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>getBaseName</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1ac4eb90520df05444efa796fa1fba1910" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::getEnclosingDirectory</definition>
+        <argsstring>(string filePath, bool bRelativeToData=true)</argsstring>
+        <name>getEnclosingDirectory</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bRelativeToData</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_file_path_1af3fe497ff6123b25f5f3bdab7b7bac75" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ofFilePath::getCurrentWorkingDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentWorkingDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="57" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" bodystart="57" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classof_file_path_1a32a4d211103cf9c6c59793830849271d" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>addLeadingSlash</name></member>
+      <member refid="classof_file_path_1afeb6464a31fc9bdeefaa7f87258ac381" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>addTrailingSlash</name></member>
+      <member refid="classof_file_path_1a8ef70cb81f55ee6fe34acee6d113a138" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>getAbsolutePath</name></member>
+      <member refid="classof_file_path_1a9ec919e98c1bea983e3fb31610e0215f" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>getBaseName</name></member>
+      <member refid="classof_file_path_1af3fe497ff6123b25f5f3bdab7b7bac75" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>getCurrentWorkingDirectory</name></member>
+      <member refid="classof_file_path_1ac4eb90520df05444efa796fa1fba1910" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>getEnclosingDirectory</name></member>
+      <member refid="classof_file_path_1aaa04b369b64e632f6f7316a594f7199a" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>getFileExt</name></member>
+      <member refid="classof_file_path_1a9a215c4564756278dfbdcc92685729cb" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>getFileName</name></member>
+      <member refid="classof_file_path_1a7b35487efe01b8ea93042ab5dde04240" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>getPathForDirectory</name></member>
+      <member refid="classof_file_path_1ac40b099b09ddcc64b637b980a95319f6" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>isAbsolute</name></member>
+      <member refid="classof_file_path_1af203e29ee1ec4b3c6734a94380399962" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>removeExt</name></member>
+      <member refid="classof_file_path_1aaabbe4a5685479a7058dec93ef71cc55" prot="public" virt="non-virtual"><scope>ofFilePath</scope><name>removeTrailingSlash</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

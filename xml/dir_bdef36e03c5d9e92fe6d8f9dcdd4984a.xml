@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_bdef36e03c5d9e92fe6d8f9dcdd4984a" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/</compoundname>
+    <innerfile refid="of_app_base_window_8h">ofAppBaseWindow.h</innerfile>
+    <innerfile refid="of_app_glut_window_8h">ofAppGlutWindow.h</innerfile>
+    <innerfile refid="of_app_runner_8h">ofAppRunner.h</innerfile>
+    <innerfile refid="of_base_app_8h">ofBaseApp.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/app/"/>
+  </compounddef>
+</doxygen>

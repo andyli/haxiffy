@@ -1,0 +1,860 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_image_8h" kind="file">
+    <compoundname>ofImage.h</compoundname>
+    <includes local="yes">ofFileUtils.h</includes>
+    <includes local="yes">ofTexture.h</includes>
+    <includes refid="of_pixels_8h" local="yes">ofPixels.h</includes>
+    <includes local="yes">ofBaseTypes.h</includes>
+    <includes local="yes">ofConstants.h</includes>
+    <incdepgraph>
+      <node id="192">
+        <label>ofUtils.h</label>
+      </node>
+      <node id="195">
+        <label>limits</label>
+      </node>
+      <node id="187">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h</label>
+        <link refid="ofImage.h"/>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="188">
+        <label>ofFileUtils.h</label>
+      </node>
+      <node id="190">
+        <label>ofPixels.h</label>
+        <link refid="of_pixels_8h"/>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>ofTexture.h</label>
+      </node>
+      <node id="193">
+        <label>ofColor.h</label>
+      </node>
+      <node id="194">
+        <label>ofMath.h</label>
+      </node>
+      <node id="196">
+        <label>ofBaseTypes.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classof_image__" prot="public">ofImage_</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" prot="public" static="no">
+        <name>ofImageQualityType</name>
+        <enumvalue id="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" prot="public">
+          <name>OF_IMAGE_QUALITY_BEST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a1ef289e3e36691a8818dcc67a1289e9a" prot="public">
+          <name>OF_IMAGE_QUALITY_HIGH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a6834278056230782f8c1e76b75c95321" prot="public">
+          <name>OF_IMAGE_QUALITY_MEDIUM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18aced6448b72c4bfaae6d761a039dbc3fd" prot="public">
+          <name>OF_IMAGE_QUALITY_LOW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18af591a4b0d1d832d32fc08d3c1e5b973e" prot="public">
+          <name>OF_IMAGE_QUALITY_WORST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="10" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="enum" id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999a" prot="public" static="no">
+        <name>ofImageFormat</name>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa147d0a3c097332c6c54f6efa5fe0dd36" prot="public">
+          <name>OF_IMAGE_FORMAT_BMP</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa860c9f7dc6274dffb5f28184a18315bf" prot="public">
+          <name>OF_IMAGE_FORMAT_ICO</name>
+          <initializer> 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa072ea2fcefbf8f04e59f4d1e804dcbd5" prot="public">
+          <name>OF_IMAGE_FORMAT_JPEG</name>
+          <initializer> 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa46b5993f4f83e9a63eb1bc26f3c53192" prot="public">
+          <name>OF_IMAGE_FORMAT_JNG</name>
+          <initializer> 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4b73750af6c8e482d51979e23938b464" prot="public">
+          <name>OF_IMAGE_FORMAT_KOALA</name>
+          <initializer> 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa31102391ab7c9b4607f65ca397386cb4" prot="public">
+          <name>OF_IMAGE_FORMAT_LBM</name>
+          <initializer> 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa0e8d05a8eb2f3c86ae51806ce2808a1b" prot="public">
+          <name>OF_IMAGE_FORMAT_IFF</name>
+          <initializer> OF_IMAGE_FORMAT_LBM</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4ee69a15c6becdd0c54ab88e0efa8d5b" prot="public">
+          <name>OF_IMAGE_FORMAT_MNG</name>
+          <initializer> 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab5c6bafc0085f8312a7f440929a1d6e5" prot="public">
+          <name>OF_IMAGE_FORMAT_PBM</name>
+          <initializer> 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa2ab8fc6febbac2876355a439fd4ae299" prot="public">
+          <name>OF_IMAGE_FORMAT_PBMRAW</name>
+          <initializer> 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa2c28dc4c80d3a57186d654011bb7f531" prot="public">
+          <name>OF_IMAGE_FORMAT_PCD</name>
+          <initializer> 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4dbdcbeec2251f3949d254d41ed79aa0" prot="public">
+          <name>OF_IMAGE_FORMAT_PCX</name>
+          <initializer> 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa8d310de62ece98694cb124249c1ca281" prot="public">
+          <name>OF_IMAGE_FORMAT_PGM</name>
+          <initializer> 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa05576f0fa72c4dcb09df7a2ffe47d7f7" prot="public">
+          <name>OF_IMAGE_FORMAT_PGMRAW</name>
+          <initializer> 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaed9ff603f45c15dfdb674346568a36a5" prot="public">
+          <name>OF_IMAGE_FORMAT_PNG</name>
+          <initializer> 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaf61e46dc3539079cd29cfc5dba74c992" prot="public">
+          <name>OF_IMAGE_FORMAT_PPM</name>
+          <initializer> 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaa48730da17752deed5cec32dd88cf158" prot="public">
+          <name>OF_IMAGE_FORMAT_PPMRAW</name>
+          <initializer> 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa6784d9312e4d7f9b23b3a74589c82e69" prot="public">
+          <name>OF_IMAGE_FORMAT_RAS</name>
+          <initializer> 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa61c6cf302e36fbf4306a135a823c1a27" prot="public">
+          <name>OF_IMAGE_FORMAT_TARGA</name>
+          <initializer> 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aacfac65e5b6ca940bc541fe15a906925d" prot="public">
+          <name>OF_IMAGE_FORMAT_TIFF</name>
+          <initializer> 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aad7ce0d73b9d637f7879154d67ffb97b5" prot="public">
+          <name>OF_IMAGE_FORMAT_WBMP</name>
+          <initializer> 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaf20dc4dc328902d38ec4208ec084075d" prot="public">
+          <name>OF_IMAGE_FORMAT_PSD</name>
+          <initializer> 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa01d9f8ee47171e48cdcee9d0370d245b" prot="public">
+          <name>OF_IMAGE_FORMAT_CUT</name>
+          <initializer> 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa0577615cf8ead2958b071404a00f5b98" prot="public">
+          <name>OF_IMAGE_FORMAT_XBM</name>
+          <initializer> 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa7e2a5c77e19ad9b52f17e37d80d7188d" prot="public">
+          <name>OF_IMAGE_FORMAT_XPM</name>
+          <initializer> 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa926531a22e0bfacf980a3bde843aafa5" prot="public">
+          <name>OF_IMAGE_FORMAT_DDS</name>
+          <initializer> 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa03f003ab114d978fde3db7510ccbb82c" prot="public">
+          <name>OF_IMAGE_FORMAT_GIF</name>
+          <initializer> 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa14b14c1cff17ebb719eb34ca0b777549" prot="public">
+          <name>OF_IMAGE_FORMAT_HDR</name>
+          <initializer> 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa482bebe33510357c36c7b28cfe8c9040" prot="public">
+          <name>OF_IMAGE_FORMAT_FAXG3</name>
+          <initializer> 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab7df32b11298fea8b7e2fd1e2433ee94" prot="public">
+          <name>OF_IMAGE_FORMAT_SGI</name>
+          <initializer> 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa843f43b51e23c6fb6222d4dbf14e2a99" prot="public">
+          <name>OF_IMAGE_FORMAT_EXR</name>
+          <initializer> 29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab03124ceff7237c6d4266decfd641619" prot="public">
+          <name>OF_IMAGE_FORMAT_J2K</name>
+          <initializer> 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa33565d81c66ce1ef45a79c4eabe1f7f9" prot="public">
+          <name>OF_IMAGE_FORMAT_JP2</name>
+          <initializer> 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa29a67cc7c5c170e112bec2402bd8b99b" prot="public">
+          <name>OF_IMAGE_FORMAT_PFM</name>
+          <initializer> 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa61bfd7dabb23b8eeeec2e1e5b3dac17b" prot="public">
+          <name>OF_IMAGE_FORMAT_PICT</name>
+          <initializer> 33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aacfc1ac53b2e392209fb5e37b2fa6208f" prot="public">
+          <name>OF_IMAGE_FORMAT_RAW</name>
+          <initializer> 34</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="18" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" bodystart="18" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="of_image_8h_1afefad955db3b51212caad74105ca7871" prot="public" static="no">
+        <type><ref refid="classof_image__" kindref="compound">ofImage_</ref>&lt; unsigned char &gt;</type>
+        <definition>typedef ofImage_&lt;unsigned char&gt; ofImage</definition>
+        <argsstring></argsstring>
+        <name>ofImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="206" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="of_image_8h_1a5c3f1af668e7fb77902f6fb84c9bab5b" prot="public" static="no">
+        <type><ref refid="classof_image__" kindref="compound">ofImage_</ref>&lt; float &gt;</type>
+        <definition>typedef ofImage_&lt;float&gt; ofFloatImage</definition>
+        <argsstring></argsstring>
+        <name>ofFloatImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="207" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="of_image_8h_1af9ba34edb661acdf2b5c05d9813dacc2" prot="public" static="no">
+        <type><ref refid="classof_image__" kindref="compound">ofImage_</ref>&lt; unsigned short &gt;</type>
+        <definition>typedef ofImage_&lt;unsigned short&gt; ofShortImage</definition>
+        <argsstring></argsstring>
+        <name>ofShortImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="208" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLoadImage</definition>
+        <argsstring>(ofPixels &amp;pix, string path)</argsstring>
+        <name>ofLoadImage</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref> &amp;</type>
+          <declname>pix</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="of_image_8h_1a41da6401f9e4b95eaa8ea7d10eda150a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLoadImage</definition>
+        <argsstring>(ofPixels &amp;pix, const ofBuffer &amp;buffer)</argsstring>
+        <name>ofLoadImage</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref> &amp;</type>
+          <declname>pix</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="of_image_8h_1a59635ff18c96ddbbfaea39716e63f9e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLoadImage</definition>
+        <argsstring>(ofTexture &amp;tex, string path)</argsstring>
+        <name>ofLoadImage</name>
+        <param>
+          <type><ref refid="classof_texture" kindref="compound">ofTexture</ref> &amp;</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="of_image_8h_1ad8f3a2aec987aad86a85e847e1ae2617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLoadImage</definition>
+        <argsstring>(ofTexture &amp;tex, const ofBuffer &amp;buffer)</argsstring>
+        <name>ofLoadImage</name>
+        <param>
+          <type><ref refid="classof_texture" kindref="compound">ofTexture</ref> &amp;</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="of_image_8h_1a082ed7689229b78e139bc33772a6a23e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSaveImage</definition>
+        <argsstring>(ofPixels &amp;pix, string path, ofImageQualityType qualityLevel=OF_IMAGE_QUALITY_BEST)</argsstring>
+        <name>ofSaveImage</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref> &amp;</type>
+          <declname>pix</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref></type>
+          <declname>qualityLevel</declname>
+          <defval>OF_IMAGE_QUALITY_BEST</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="of_image_8h_1ae3d2d5a8538d3778a94b7fd8460c5b25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSaveImage</definition>
+        <argsstring>(ofPixels &amp;pix, ofBuffer &amp;buffer, ofImageFormat format=OF_IMAGE_FORMAT_PNG, ofImageQualityType qualityLevel=OF_IMAGE_QUALITY_BEST)</argsstring>
+        <name>ofSaveImage</name>
+        <param>
+          <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref> &amp;</type>
+          <declname>pix</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999a" kindref="member">ofImageFormat</ref></type>
+          <declname>format</declname>
+          <defval>OF_IMAGE_FORMAT_PNG</defval>
+        </param>
+        <param>
+          <type><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref></type>
+          <declname>qualityLevel</declname>
+          <defval>OF_IMAGE_QUALITY_BEST</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="of_image_8h_1a1976545686819727475b2aa4774eb6b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCloseFreeImage</definition>
+        <argsstring>()</argsstring>
+        <name>ofCloseFreeImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h" line="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofFileUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTexture.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_pixels_8h" kindref="compound">ofPixels.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofBaseTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>,</highlight></codeline>
+<codeline lineno="12" refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a1ef289e3e36691a8818dcc67a1289e9a" kindref="member">OF_IMAGE_QUALITY_HIGH</ref>,</highlight></codeline>
+<codeline lineno="13" refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a1ef289e3e36691a8818dcc67a1289e9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a6834278056230782f8c1e76b75c95321" kindref="member">OF_IMAGE_QUALITY_MEDIUM</ref>,</highlight></codeline>
+<codeline lineno="14" refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a6834278056230782f8c1e76b75c95321" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18aced6448b72c4bfaae6d761a039dbc3fd" kindref="member">OF_IMAGE_QUALITY_LOW</ref>,</highlight></codeline>
+<codeline lineno="15" refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18aced6448b72c4bfaae6d761a039dbc3fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18af591a4b0d1d832d32fc08d3c1e5b973e" kindref="member">OF_IMAGE_QUALITY_WORST</ref></highlight></codeline>
+<codeline lineno="16" refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18af591a4b0d1d832d32fc08d3c1e5b973e" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999a" kindref="member">ofImageFormat</ref><sp/>{</highlight></codeline>
+<codeline lineno="19" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa147d0a3c097332c6c54f6efa5fe0dd36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa147d0a3c097332c6c54f6efa5fe0dd36" kindref="member">OF_IMAGE_FORMAT_BMP</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="20" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa860c9f7dc6274dffb5f28184a18315bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa860c9f7dc6274dffb5f28184a18315bf" kindref="member">OF_IMAGE_FORMAT_ICO</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="21" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa072ea2fcefbf8f04e59f4d1e804dcbd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa072ea2fcefbf8f04e59f4d1e804dcbd5" kindref="member">OF_IMAGE_FORMAT_JPEG</ref><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="22" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa46b5993f4f83e9a63eb1bc26f3c53192" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa46b5993f4f83e9a63eb1bc26f3c53192" kindref="member">OF_IMAGE_FORMAT_JNG</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="23" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4b73750af6c8e482d51979e23938b464" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4b73750af6c8e482d51979e23938b464" kindref="member">OF_IMAGE_FORMAT_KOALA</ref><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="24" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa31102391ab7c9b4607f65ca397386cb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa31102391ab7c9b4607f65ca397386cb4" kindref="member">OF_IMAGE_FORMAT_LBM</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="25" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa0e8d05a8eb2f3c86ae51806ce2808a1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa0e8d05a8eb2f3c86ae51806ce2808a1b" kindref="member">OF_IMAGE_FORMAT_IFF</ref><sp/>=<sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa31102391ab7c9b4607f65ca397386cb4" kindref="member">OF_IMAGE_FORMAT_LBM</ref>,</highlight></codeline>
+<codeline lineno="26" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4ee69a15c6becdd0c54ab88e0efa8d5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4ee69a15c6becdd0c54ab88e0efa8d5b" kindref="member">OF_IMAGE_FORMAT_MNG</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="27" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab5c6bafc0085f8312a7f440929a1d6e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab5c6bafc0085f8312a7f440929a1d6e5" kindref="member">OF_IMAGE_FORMAT_PBM</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="28" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa2ab8fc6febbac2876355a439fd4ae299" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa2ab8fc6febbac2876355a439fd4ae299" kindref="member">OF_IMAGE_FORMAT_PBMRAW</ref><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="29" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa2c28dc4c80d3a57186d654011bb7f531" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa2c28dc4c80d3a57186d654011bb7f531" kindref="member">OF_IMAGE_FORMAT_PCD</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="30" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4dbdcbeec2251f3949d254d41ed79aa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa4dbdcbeec2251f3949d254d41ed79aa0" kindref="member">OF_IMAGE_FORMAT_PCX</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="31" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa8d310de62ece98694cb124249c1ca281" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa8d310de62ece98694cb124249c1ca281" kindref="member">OF_IMAGE_FORMAT_PGM</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="32" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa05576f0fa72c4dcb09df7a2ffe47d7f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa05576f0fa72c4dcb09df7a2ffe47d7f7" kindref="member">OF_IMAGE_FORMAT_PGMRAW</ref><sp/><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="33" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaed9ff603f45c15dfdb674346568a36a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaed9ff603f45c15dfdb674346568a36a5" kindref="member">OF_IMAGE_FORMAT_PNG</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="34" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaf61e46dc3539079cd29cfc5dba74c992" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaf61e46dc3539079cd29cfc5dba74c992" kindref="member">OF_IMAGE_FORMAT_PPM</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>14,</highlight></codeline>
+<codeline lineno="35" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaa48730da17752deed5cec32dd88cf158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaa48730da17752deed5cec32dd88cf158" kindref="member">OF_IMAGE_FORMAT_PPMRAW</ref><sp/><sp/>=<sp/>15,</highlight></codeline>
+<codeline lineno="36" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa6784d9312e4d7f9b23b3a74589c82e69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa6784d9312e4d7f9b23b3a74589c82e69" kindref="member">OF_IMAGE_FORMAT_RAS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="37" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa61c6cf302e36fbf4306a135a823c1a27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa61c6cf302e36fbf4306a135a823c1a27" kindref="member">OF_IMAGE_FORMAT_TARGA</ref><sp/><sp/><sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="38" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aacfac65e5b6ca940bc541fe15a906925d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aacfac65e5b6ca940bc541fe15a906925d" kindref="member">OF_IMAGE_FORMAT_TIFF</ref><sp/><sp/><sp/><sp/>=<sp/>18,</highlight></codeline>
+<codeline lineno="39" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aad7ce0d73b9d637f7879154d67ffb97b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aad7ce0d73b9d637f7879154d67ffb97b5" kindref="member">OF_IMAGE_FORMAT_WBMP</ref><sp/><sp/><sp/><sp/>=<sp/>19,</highlight></codeline>
+<codeline lineno="40" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaf20dc4dc328902d38ec4208ec084075d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaf20dc4dc328902d38ec4208ec084075d" kindref="member">OF_IMAGE_FORMAT_PSD</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>20,</highlight></codeline>
+<codeline lineno="41" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa01d9f8ee47171e48cdcee9d0370d245b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa01d9f8ee47171e48cdcee9d0370d245b" kindref="member">OF_IMAGE_FORMAT_CUT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>21,</highlight></codeline>
+<codeline lineno="42" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa0577615cf8ead2958b071404a00f5b98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa0577615cf8ead2958b071404a00f5b98" kindref="member">OF_IMAGE_FORMAT_XBM</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>22,</highlight></codeline>
+<codeline lineno="43" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa7e2a5c77e19ad9b52f17e37d80d7188d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa7e2a5c77e19ad9b52f17e37d80d7188d" kindref="member">OF_IMAGE_FORMAT_XPM</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>23,</highlight></codeline>
+<codeline lineno="44" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa926531a22e0bfacf980a3bde843aafa5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa926531a22e0bfacf980a3bde843aafa5" kindref="member">OF_IMAGE_FORMAT_DDS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>24,</highlight></codeline>
+<codeline lineno="45" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa03f003ab114d978fde3db7510ccbb82c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa03f003ab114d978fde3db7510ccbb82c" kindref="member">OF_IMAGE_FORMAT_GIF</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>25,</highlight></codeline>
+<codeline lineno="46" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa14b14c1cff17ebb719eb34ca0b777549" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa14b14c1cff17ebb719eb34ca0b777549" kindref="member">OF_IMAGE_FORMAT_HDR</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>26,</highlight></codeline>
+<codeline lineno="47" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa482bebe33510357c36c7b28cfe8c9040" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa482bebe33510357c36c7b28cfe8c9040" kindref="member">OF_IMAGE_FORMAT_FAXG3</ref><sp/><sp/><sp/>=<sp/>27,</highlight></codeline>
+<codeline lineno="48" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab7df32b11298fea8b7e2fd1e2433ee94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab7df32b11298fea8b7e2fd1e2433ee94" kindref="member">OF_IMAGE_FORMAT_SGI</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>28,</highlight></codeline>
+<codeline lineno="49" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa843f43b51e23c6fb6222d4dbf14e2a99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa843f43b51e23c6fb6222d4dbf14e2a99" kindref="member">OF_IMAGE_FORMAT_EXR</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>29,</highlight></codeline>
+<codeline lineno="50" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab03124ceff7237c6d4266decfd641619" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aab03124ceff7237c6d4266decfd641619" kindref="member">OF_IMAGE_FORMAT_J2K</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>30,</highlight></codeline>
+<codeline lineno="51" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa33565d81c66ce1ef45a79c4eabe1f7f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa33565d81c66ce1ef45a79c4eabe1f7f9" kindref="member">OF_IMAGE_FORMAT_JP2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>31,</highlight></codeline>
+<codeline lineno="52" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa29a67cc7c5c170e112bec2402bd8b99b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa29a67cc7c5c170e112bec2402bd8b99b" kindref="member">OF_IMAGE_FORMAT_PFM</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>32,</highlight></codeline>
+<codeline lineno="53" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa61bfd7dabb23b8eeeec2e1e5b3dac17b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aa61bfd7dabb23b8eeeec2e1e5b3dac17b" kindref="member">OF_IMAGE_FORMAT_PICT</ref><sp/><sp/><sp/><sp/>=<sp/>33,</highlight></codeline>
+<codeline lineno="54" refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aacfc1ac53b2e392209fb5e37b2fa6208f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aacfc1ac53b2e392209fb5e37b2fa6208f" kindref="member">OF_IMAGE_FORMAT_RAW</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>34</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FreeImage<sp/>based<sp/>stuff:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" kindref="member">ofLoadImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" kindref="member">ofLoadImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" kindref="member">ofLoadImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofFloatPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" kindref="member">ofLoadImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofFloatPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" kindref="member">ofLoadImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofShortPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" kindref="member">ofLoadImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofShortPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" kindref="member">ofLoadImage</ref>(<ref refid="classof_texture" kindref="compound">ofTexture</ref><sp/>&amp;<sp/>tex,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a12ddf90853e8b58c6b7bf0bdbbc42b94" kindref="member">ofLoadImage</ref>(<ref refid="classof_texture" kindref="compound">ofTexture</ref><sp/>&amp;<sp/>tex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a082ed7689229b78e139bc33772a6a23e" kindref="member">ofSaveImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>qualityLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a082ed7689229b78e139bc33772a6a23e" kindref="member">ofSaveImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofPixels</ref><sp/>&amp;<sp/>pix,<sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer,<sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999a" kindref="member">ofImageFormat</ref><sp/>format<sp/>=<sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaed9ff603f45c15dfdb674346568a36a5" kindref="member">OF_IMAGE_FORMAT_PNG</ref>,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>qualityLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a082ed7689229b78e139bc33772a6a23e" kindref="member">ofSaveImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofFloatPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>qualityLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a082ed7689229b78e139bc33772a6a23e" kindref="member">ofSaveImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofFloatPixels</ref><sp/>&amp;<sp/>pix,<sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer,<sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999a" kindref="member">ofImageFormat</ref><sp/>format<sp/>=<sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaed9ff603f45c15dfdb674346568a36a5" kindref="member">OF_IMAGE_FORMAT_PNG</ref>,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>qualityLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a082ed7689229b78e139bc33772a6a23e" kindref="member">ofSaveImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofShortPixels</ref><sp/>&amp;<sp/>pix,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>qualityLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a082ed7689229b78e139bc33772a6a23e" kindref="member">ofSaveImage</ref>(<ref refid="classof_pixels__" kindref="compound">ofShortPixels</ref><sp/>&amp;<sp/>pix,<sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer,<sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999a" kindref="member">ofImageFormat</ref><sp/>format<sp/>=<sp/><ref refid="of_image_8h_1a63b9f0eb14b559fb452a6a1618df999aaed9ff603f45c15dfdb674346568a36a5" kindref="member">OF_IMAGE_FORMAT_PNG</ref>,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>qualityLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/>when<sp/>we<sp/>exit,<sp/>we<sp/>shut<sp/>down<sp/>ofImage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_image_8h_1a1976545686819727475b2aa4774eb6b2" kindref="member">ofCloseFreeImage</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PixelType&gt;</highlight></codeline>
+<codeline lineno="85" refid="classof_image__" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_image__" kindref="compound">ofImage_</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_base_image__" kindref="compound">ofBaseImage_</ref>&lt;PixelType&gt;{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a251b6453435475cb53d4aea13aae236f" kindref="member">ofImage_</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classof_image___1a6de406b3e7478d28667a3d8855894c93" kindref="member">~ofImage_</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a251b6453435475cb53d4aea13aae236f" kindref="member">ofImage_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_pixels__" kindref="compound">ofPixels_&lt;PixelType&gt;</ref><sp/>&amp;<sp/>pix);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a251b6453435475cb53d4aea13aae236f" kindref="member">ofImage_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a251b6453435475cb53d4aea13aae236f" kindref="member">ofImage_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>filename);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>allocation<sp/>/<sp/>deallocation<sp/>routines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a86968a4303907dbaeb008851076eeb8a" kindref="member">allocate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,<sp/><ref refid="of_constants_8h_1a9760b6b0bec0314fdc85f44793bbe951" kindref="member">ofImageType</ref><sp/><ref refid="classof_image___1aaa7a448bc54c19e95f7417a5fb1c4da3" kindref="member">type</ref>);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a5c39cc789111896657effabe6a3b5ee9" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>copy<sp/>overwriting<sp/>(for<sp/>=<sp/>or<sp/>std::vector)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a251b6453435475cb53d4aea13aae236f" kindref="member">ofImage_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;PixelType&gt;</ref>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;PixelType&gt;</ref>&amp;<sp/><ref refid="classof_image___1a53060d1a793751e9b84afa7b9740f82d" kindref="member">operator= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;PixelType&gt;</ref>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>SrcType&gt;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a251b6453435475cb53d4aea13aae236f" kindref="member">ofImage_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;SrcType&gt;</ref>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>SrcType&gt;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;PixelType&gt;</ref>&amp;<sp/><ref refid="classof_image___1a53060d1a793751e9b84afa7b9740f82d" kindref="member">operator= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;SrcType&gt;</ref>&amp;<sp/>mom);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>copying:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>SrcType&gt;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a59eb7d4fed7c69e4323c44ff44f07820" kindref="member">clone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;SrcType&gt;</ref><sp/>&amp;mom);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>enable<sp/>or<sp/>disable<sp/>using<sp/>the<sp/>texture<sp/>of<sp/>this<sp/>image</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aaa44423f95ea0539c98feb848c00433f" kindref="member">setUseTexture</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bUse);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1ac6e264a41eead0b9d978b0f55e85de02" kindref="member">isUsingTexture</ref>();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>getting<sp/>a<sp/>reference<sp/>to<sp/>the<sp/>texture</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_texture" kindref="compound">ofTexture</ref><sp/>&amp;<sp/><ref refid="classof_image___1a29661fad1b76619a6f912fe38dc7d936" kindref="member">getTextureReference</ref>();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>quick<sp/>texture<sp/>binding<sp/>shortcut</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_image___1a54e590d2a26a10165106af94146d6ef8" kindref="member">bind</ref>();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_image___1a2cb305f1cf4c9b824baba87447bd905d" kindref="member">unbind</ref>();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>file<sp/>loading<sp/>/<sp/>saving</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aca661aecbda7615879dbfb57609400df" kindref="member">loadImage</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aca661aecbda7615879dbfb57609400df" kindref="member">loadImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aca661aecbda7615879dbfb57609400df" kindref="member">loadImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1afad1f41b2f1e7178a439b29ea07bb7ba" kindref="member">saveImage</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>fileName,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>compressionLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1afad1f41b2f1e7178a439b29ea07bb7ba" kindref="member">saveImage</ref>(<ref refid="classof_buffer" kindref="compound">ofBuffer</ref><sp/>&amp;<sp/>buffer,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>compressionLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1afad1f41b2f1e7178a439b29ea07bb7ba" kindref="member">saveImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/>&amp;<sp/>file,<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18" kindref="member">ofImageQualityType</ref><sp/>compressionLevel<sp/>=<sp/><ref refid="of_image_8h_1a97c478958e8cbaf64d7c0f8178ff4a18a2012a80927f4964fd7abc3616a5e1813" kindref="member">OF_IMAGE_QUALITY_BEST</ref>);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sosolimited:<sp/>texture<sp/>compression<sp/>and<sp/>mipmaps</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1ad152464e4b657d848011376cd13966a3" kindref="member">setCompression</ref>(<ref refid="of_texture_8h_1a218c238fdc83c3d9ac235f31dfd3c895" kindref="member">ofTexCompression</ref><sp/>compression);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>getting<sp/>the<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PixelType<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1ad02ede9f488a5992377b42118d9ca6b8" kindref="member">getPixels</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>up<sp/>to<sp/>you<sp/>to<sp/>get<sp/>this<sp/>right</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_pixels__" kindref="compound">ofPixels_&lt;PixelType&gt;</ref><sp/>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a86b2327993bd5364ac7e09aec90042a3" kindref="member">getPixelsRef</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aa97e3525b2bb863329a6e6441b1195b7" kindref="member">operator ofPixels_&lt;PixelType&gt;&amp;</ref>();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_color__" kindref="compound">ofColor_&lt;PixelType&gt;</ref><sp/><ref refid="classof_image___1a543b7c26890c774be2197803ea32fab6" kindref="member">getColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>alter<sp/>the<sp/>image</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1abf6bb7be85569cfce36cdfe557032e04" kindref="member">setColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/><ref refid="classof_color__" kindref="compound">ofColor_&lt;PixelType&gt;</ref><sp/>color);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a6cfcd829bd778c5636cfca83cc53023b" kindref="member">setFromPixels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PixelType<sp/>*<sp/><ref refid="classof_image___1a3424a431902ee97f6b152aca1867e30e" kindref="member">pixels</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,<sp/><ref refid="of_constants_8h_1a9760b6b0bec0314fdc85f44793bbe951" kindref="member">ofImageType</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bOrderIsRGB<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a6cfcd829bd778c5636cfca83cc53023b" kindref="member">setFromPixels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_pixels__" kindref="compound">ofPixels_&lt;PixelType&gt;</ref><sp/>&amp;<sp/>pixels);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1ad080044ed2ecd701d6c557ef51ef4b8a" kindref="member">setImageType</ref>(<ref refid="of_constants_8h_1a9760b6b0bec0314fdc85f44793bbe951" kindref="member">ofImageType</ref><sp/>type);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1ab59c4c34a2dbbeb3fd9b92b74b5da927" kindref="member">resize</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newHeight);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1ae66d60c231399bc3dfab9be22a24124e" kindref="member">grabScreen</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>grab<sp/>pixels<sp/>from<sp/>opengl,<sp/>using<sp/>glreadpixels</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>does<sp/>an<sp/>inplace<sp/>crop.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NOTE:<sp/>this<sp/>reallocates<sp/>memory.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a036adacebfa1ec3740bd1cdacaea7173" kindref="member">crop</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h);<sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>does<sp/>a<sp/>crop<sp/>from<sp/>another<sp/>image.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NOTE:<sp/>this<sp/>will<sp/>reallocate<sp/>memory<sp/>if<sp/>the<sp/>image<sp/>types<sp/>are<sp/>different,<sp/>or<sp/>if<sp/>the<sp/>w<sp/>&amp;<sp/>h<sp/>do<sp/>not</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>equal<sp/>this<sp/>images<sp/>w<sp/>&amp;<sp/>h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aad690ec8d0187544d4f52738b4782190" kindref="member">cropFrom</ref>(<ref refid="classof_image__" kindref="compound">ofImage_&lt;PixelType&gt;</ref><sp/>&amp;<sp/>otherImage,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>perform<sp/>rotation<sp/>of<sp/>90<sp/>degress<sp/>clockwise<sp/>rotation<sp/>amont<sp/>times.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a0bd4aa6e16a115a17a74be01b785fa9a" kindref="member">rotate90</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rotation);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a6e03e205961fa8f2ecf8b3575695e7ad" kindref="member">mirror</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>vertical,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>horizontal);<sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>you&apos;ve<sp/>altered<sp/>the<sp/>pixels<sp/>(e.g.,<sp/>from<sp/>getPixels())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>call<sp/>update()<sp/>to<sp/>see<sp/>a<sp/>change<sp/>(move<sp/>the<sp/>pixels<sp/>to<sp/>the<sp/>texture)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_image___1ae05e8a23c92e28bc4aa8f79621d27dda" kindref="member">update</ref>();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>anchor<sp/>is<sp/>the<sp/>point<sp/>the<sp/>image<sp/>is<sp/>drawn<sp/>around.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>can<sp/>be<sp/>useful<sp/>if<sp/>you<sp/>want<sp/>to<sp/>rotate<sp/>an<sp/>image<sp/>around<sp/>a<sp/>particular<sp/>point.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a9339282eaa5f99419cdc25e739680f65" kindref="member">setAnchorPercent</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>xPct,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>yPct);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>anchor<sp/>as<sp/>a<sp/>percentage<sp/>of<sp/>the<sp/>image<sp/>width/height<sp/>(<sp/>0.0-1.0<sp/>range<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1afb1368077f520e88abae9b4d60870247" kindref="member">setAnchorPoint</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>anchor<sp/>point<sp/>in<sp/>pixels</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a40741723f2ef1f969e7fbba3fa20c29c" kindref="member">resetAnchor</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>resets<sp/>the<sp/>anchor<sp/>to<sp/>(0,<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>draw:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aef9ce48512fa0372759dd46438270273" kindref="member">draw</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>&amp;<sp/>r);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aef9ce48512fa0372759dd46438270273" kindref="member">draw</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aef9ce48512fa0372759dd46438270273" kindref="member">draw</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aef9ce48512fa0372759dd46438270273" kindref="member">draw</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aef9ce48512fa0372759dd46438270273" kindref="member">draw</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aef9ce48512fa0372759dd46438270273" kindref="member">draw</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aef9ce48512fa0372759dd46438270273" kindref="member">draw</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1af39591f8ff0e19177725ccfd379063f9" kindref="member">getHeight</ref>();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a298b4bbeb121ad7285e82f6df9e64068" kindref="member">getWidth</ref>();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="186" refid="classof_image___1afdbeb1292cb8fcd0dc012a11ba111653" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1afdbeb1292cb8fcd0dc012a11ba111653" kindref="member">bAllocated</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pixels.<ref refid="classof_pixels___1a55124dbd4cf544b651074a8afba69840" kindref="member">isAllocated</ref>();};<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>legacy<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="classof_image___1a8954304ef0cf7a6cf64d0b9bf81b5f76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a8954304ef0cf7a6cf64d0b9bf81b5f76" kindref="member">isAllocated</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pixels.<ref refid="classof_pixels___1a55124dbd4cf544b651074a8afba69840" kindref="member">isAllocated</ref>();};</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a39101e7401e3708dba08bba4c95b46de" kindref="member">reloadTexture</ref>();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="classof_image___1a3231ef055c1a443e932b0b5b5089b682" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a3231ef055c1a443e932b0b5b5089b682" kindref="member">width</ref>,<sp/><ref refid="classof_image___1a0dff5be490aff1649fe8ae6f3d7e923b" kindref="member">height</ref>,<sp/><ref refid="classof_image___1aaafb30a796642aafc91119b39a446068" kindref="member">bpp</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>w,h,<sp/>bits<sp/>per<sp/>pixel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="classof_image___1aaa7a448bc54c19e95f7417a5fb1c4da3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1aaa7a448bc54c19e95f7417a5fb1c4da3" kindref="member">type</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>OF_IMAGE_GRAYSCALE,<sp/>OF_IMAGE_COLOR,<sp/>OF_IMAGE_COLOR_ALPHA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;PixelType&gt;</ref><sp/>&amp;<sp/><ref refid="classof_image___1a53060d1a793751e9b84afa7b9740f82d" kindref="member">operator=</ref>(<ref refid="classof_pixels__" kindref="compound">ofPixels_&lt;PixelType&gt;</ref><sp/>&amp;<sp/>pixels);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1af658fb70ab45c55af03e884c14f93c1d" kindref="member">changeTypeOfPixels</ref>(<ref refid="classof_pixels__" kindref="compound">ofPixels_&lt;PixelType&gt;</ref><sp/>&amp;pix,<sp/><ref refid="of_constants_8h_1a9760b6b0bec0314fdc85f44793bbe951" kindref="member">ofImageType</ref><sp/>type);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1ad70c45ca878848e888f1d2f83a985eb1" kindref="member">resizePixels</ref>(<ref refid="classof_pixels__" kindref="compound">ofPixels_&lt;PixelType&gt;</ref><sp/>&amp;pix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newHeight);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="classof_image___1a3424a431902ee97f6b152aca1867e30e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_pixels__" kindref="compound">ofPixels_&lt;PixelType&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a3424a431902ee97f6b152aca1867e30e" kindref="member">pixels</ref>;</highlight></codeline>
+<codeline lineno="201" refid="classof_image___1a2f16aa93579fdc985d54eedaf9accc17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1a2f16aa93579fdc985d54eedaf9accc17" kindref="member">bUseTexture</ref>;</highlight></codeline>
+<codeline lineno="202" refid="classof_image___1ab63929fb957b57afecaa4a0137e7944b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_texture" kindref="compound">ofTexture</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image___1ab63929fb957b57afecaa4a0137e7944b" kindref="member">tex</ref>;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="of_image_8h_1afefad955db3b51212caad74105ca7871" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;unsigned char&gt;</ref><sp/><ref refid="of_image_8h_1afefad955db3b51212caad74105ca7871" kindref="member">ofImage</ref>;</highlight></codeline>
+<codeline lineno="207" refid="of_image_8h_1a5c3f1af668e7fb77902f6fb84c9bab5b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;float&gt;</ref><sp/><ref refid="of_image_8h_1a5c3f1af668e7fb77902f6fb84c9bab5b" kindref="member">ofFloatImage</ref>;</highlight></codeline>
+<codeline lineno="208" refid="of_image_8h_1af9ba34edb661acdf2b5c05d9813dacc2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;unsigned short&gt;</ref><sp/><ref refid="of_image_8h_1af9ba34edb661acdf2b5c05d9813dacc2" kindref="member">ofShortImage</ref>;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PixelType&gt;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>SrcType&gt;</highlight></codeline>
+<codeline lineno="216" refid="classof_image___1ab95fa924decd9bc024e2d251bd40a9d7" refkind="member"><highlight class="normal"><ref refid="classof_image__" kindref="compound">ofImage_&lt;PixelType&gt;</ref>&amp;<sp/><ref refid="classof_image___1a53060d1a793751e9b84afa7b9740f82d" kindref="member">ofImage_&lt;PixelType&gt;::operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;SrcType&gt;</ref>&amp;<sp/>mom)<sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clone(mom);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PixelType&gt;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>SrcType&gt;</highlight></codeline>
+<codeline lineno="225" refid="classof_image___1adbf7906e3c51be900ab2b1cb1ce3d144" refkind="member"><highlight class="normal"><ref refid="classof_image___1a251b6453435475cb53d4aea13aae236f" kindref="member">ofImage_&lt;PixelType&gt;::ofImage_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;SrcType&gt;</ref>&amp;<sp/>mom)<sp/>{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clear();</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clone(mom);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PixelType&gt;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>SrcType&gt;</highlight></codeline>
+<codeline lineno="234" refid="classof_image___1a59eb7d4fed7c69e4323c44ff44f07820" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_image___1a59eb7d4fed7c69e4323c44ff44f07820" kindref="member">ofImage_&lt;PixelType&gt;::clone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;SrcType&gt;</ref><sp/>&amp;mom){</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_image__" kindref="compound">ofImage_&lt;SrcType&gt;</ref><sp/>&amp;<sp/>nonConst<sp/>=<sp/></highlight><highlight class="keyword">const_cast&lt;</highlight><highlight class="normal"><ref refid="classof_image__" kindref="compound">ofImage_&lt;SrcType&gt;</ref><sp/>&amp;<sp/></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(mom);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pixels<sp/>=<sp/>nonConst.<ref refid="classof_image___1a86b2327993bd5364ac7e09aec90042a3" kindref="member">getPixelsRef</ref>();</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tex.clear();</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bUseTexture<sp/>=<sp/>nonConst.<ref refid="classof_image___1ac6e264a41eead0b9d978b0f55e85de02" kindref="member">isUsingTexture</ref>();</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bUseTexture<sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tex.allocate(pixels.<ref refid="classof_image___1a298b4bbeb121ad7285e82f6df9e64068" kindref="member">getWidth</ref>(),<sp/>pixels.<ref refid="classof_image___1af39591f8ff0e19177725ccfd379063f9" kindref="member">getHeight</ref>(),<sp/><ref refid="of_texture_8h_1ab340063d598250e3bf7abc2db7795f3d" kindref="member">ofGetGlInternalFormat</ref>(pixels));</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofImage.h"/>
+  </compounddef>
+</doxygen>

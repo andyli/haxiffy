@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="ofi_phone_video_player_8h" kind="file">
+    <compoundname>ofiPhoneVideoPlayer.h</compoundname>
+    <includes local="yes">ofPixels.h</includes>
+    <includes local="yes">ofBaseTypes.h</includes>
+    <includes local="yes">ofTexture.h</includes>
+    <includes refid="of_video_player_8h" local="yes">ofVideoPlayer.h</includes>
+    <includedby refid="ofi_phone_video_player_8mm" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm</includedby>
+    <incdepgraph>
+      <node id="652">
+        <label>ofVideoPlayer.h</label>
+        <link refid="of_video_player_8h"/>
+        <childnode refid="653" relation="include">
+        </childnode>
+        <childnode refid="651" relation="include">
+        </childnode>
+        <childnode refid="650" relation="include">
+        </childnode>
+        <childnode refid="654" relation="include">
+        </childnode>
+      </node>
+      <node id="653">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="651">
+        <label>ofTexture.h</label>
+      </node>
+      <node id="654">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="649">
+        <label>ofPixels.h</label>
+      </node>
+      <node id="650">
+        <label>ofBaseTypes.h</label>
+      </node>
+      <node id="648">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h</label>
+        <link refid="ofiPhoneVideoPlayer.h"/>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="650" relation="include">
+        </childnode>
+        <childnode refid="651" relation="include">
+        </childnode>
+        <childnode refid="652" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="656">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm</label>
+        <link refid="ofi_phone_video_player_8mm"/>
+      </node>
+      <node id="655">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h</label>
+        <link refid="ofiPhoneVideoPlayer.h"/>
+        <childnode refid="656" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classofi_phone_video_player" prot="public">ofiPhoneVideoPlayer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_OF_IPHONE_VIDEO_PLAYER</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_OF_IPHONE_VIDEO_PLAYER</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofPixels.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofBaseTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTexture.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_video_player_8h" kindref="compound">ofVideoPlayer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classofi_phone_video_player" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classofi_phone_video_player" kindref="compound">ofiPhoneVideoPlayer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_base_video_player" kindref="compound">ofBaseVideoPlayer</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classofi_phone_video_player_1acf73fce6a48bfe2ef98aeb95df4c61a3" kindref="member">ofiPhoneVideoPlayer</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classofi_phone_video_player_1a5e0dbe82eacc1f54f526126daa13f69d" kindref="member">~ofiPhoneVideoPlayer</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a33cdcbf0f72d7f8ed82fa31c77f59347" kindref="member">loadMovie</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a44baeca582013711a1fe95b15e7629eb" kindref="member">setPixelFormat</ref>(<ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref><sp/>PixelFormat);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1abf34017cd529f4116b5c8da10ca5fc4e" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a21bf2e7719d9fd65c0294ce85f47dcd9" kindref="member">play</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a85f7c8cfe1e08ea89c964c275f06bdc9" kindref="member">stop</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a87b415ab8b8b7c653a6928a6f24048f8" kindref="member">isFrameNew</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classofi_phone_video_player_1ac8635bf26011a71d648dd087c6b1b2c3" kindref="member">getPixels</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classofi_phone_video_player_1afd4e7a5c227e631f0f7ea7e3be0c3db9" kindref="member">getPixelsRef</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_texture" kindref="compound">ofTexture</ref><sp/>*<sp/><ref refid="classofi_phone_video_player_1a3638b8049f4273af9797bffe1c0086e6" kindref="member">getTexture</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a4d45b8058d3a95cff2db86fe3dc91d2d" kindref="member">getWidth</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a67c98e28f2709887abb729b0a41cc568" kindref="member">getHeight</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a667284bcb2f74379f103660aae14b93c" kindref="member">isPaused</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a5f8ad4104b65527746adea3555911ffb" kindref="member">isLoaded</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a603aa35c0e0782aa6e5c1e0add734328" kindref="member">isPlaying</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a8fb8746d69cbd3616f1f4c20ada6f547" kindref="member">update</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a23c7975ccb6d7a8c2841ff897e9d3954" kindref="member">getPosition</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1aa41eacf7e5fd7cd5d70fd55105a7376d" kindref="member">getDuration</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1ae6cbf821b8a6cd1f68ff864e09dac215" kindref="member">getIsMovieDone</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a65300113e48c60ff92c2a21b68b00181" kindref="member">setPaused</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bPause);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a8988f223a69742e3411ab1c7c52e6e76" kindref="member">setVolume</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>volume);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*should<sp/>implement!<sp/>(but<sp/>cannot<sp/>on<sp/>iphone)</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float<sp/>getSpeed();</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>setPosition(float<sp/>pct);</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>setLoopState(int<sp/>state);</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>setSpeed(float<sp/>speed);</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>setFrame(int<sp/>frame);<sp/><sp/>//<sp/>frame<sp/>0<sp/>=<sp/>first<sp/>frame...</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>getCurrentFrame();</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>getTotalNumFrames();</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>getLoopState();</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>firstFrame();</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>nextFrame();</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>previousFrame();*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a728fde41838568fb58457b86e30e680f" kindref="member">initWithPath</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>path);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a6992fd71618845df1d3ece76689e39d7" kindref="member">updateCurrentFrameRef</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/><ref refid="classofi_phone_video_player_1a1384f1a0aead1fa153529a237dcdd6c3" kindref="member">videoPlayer</ref>;<sp/></highlight><highlight class="comment">//<sp/>super<sp/>hack<sp/>to<sp/>forward<sp/>declare<sp/>an<sp/>objective<sp/>c<sp/>class<sp/>inside<sp/>a<sp/>header<sp/>file<sp/>that<sp/>can<sp/>only<sp/>handle<sp/>c<sp/>classes.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="classofi_phone_video_player_1a1384f1a0aead1fa153529a237dcdd6c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1adf0802b5bcb5c8c693ba2148e40b4f59" kindref="member">videoPath</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68" refid="classofi_phone_video_player_1adf0802b5bcb5c8c693ba2148e40b4f59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a4e46fe3e529da1f072e18c355e58727c" kindref="member">videoWasStopped</ref>;</highlight></codeline>
+<codeline lineno="69" refid="classofi_phone_video_player_1a4e46fe3e529da1f072e18c355e58727c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a6bc99b8e6e9cd4dbe5c1c736acb28745" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classofi_phone_video_player_1a6bc99b8e6e9cd4dbe5c1c736acb28745" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a4c10c693bc3155f451682c5999d35d4e" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="71" refid="classofi_phone_video_player_1a4c10c693bc3155f451682c5999d35d4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a9b3d1dc7660dcdba69aeffb67980bfa2" kindref="member">playbackSpeed</ref>;</highlight></codeline>
+<codeline lineno="72" refid="classofi_phone_video_player_1a9b3d1dc7660dcdba69aeffb67980bfa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1acab1bdfa6246681aec5c8b5fe70126a9" kindref="member">vol</ref>;</highlight></codeline>
+<codeline lineno="74" refid="classofi_phone_video_player_1acab1bdfa6246681aec5c8b5fe70126a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GLubyte<sp/>*<sp/><ref refid="classofi_phone_video_player_1a9e4033fb2beeee1e6a8e7df6c7d84ef6" kindref="member">pixels</ref>;</highlight></codeline>
+<codeline lineno="76" refid="classofi_phone_video_player_1a9e4033fb2beeee1e6a8e7df6c7d84ef6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_texture" kindref="compound">ofTexture</ref><sp/><ref refid="classofi_phone_video_player_1a2318ee1ef08df1c6b7d71bbb4ca6c63a" kindref="member">videoTexture</ref>;</highlight></codeline>
+<codeline lineno="77" refid="classofi_phone_video_player_1a2318ee1ef08df1c6b7d71bbb4ca6c63a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classofi_phone_video_player_1a75d1e28833af2a83cfeb795249a9b8fd" kindref="member">lastUpdateTime</ref>;</highlight></codeline>
+<codeline lineno="79" refid="classofi_phone_video_player_1a75d1e28833af2a83cfeb795249a9b8fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GLint<sp/><ref refid="classofi_phone_video_player_1a927ab977d9427181d89cae906405b545" kindref="member">internalGLFormat</ref>;</highlight></codeline>
+<codeline lineno="80" refid="classofi_phone_video_player_1a927ab977d9427181d89cae906405b545" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GLubyte<sp/>*<ref refid="classofi_phone_video_player_1a0ff91c953da6cf77ca6c3adee76575f0" kindref="member">pixelsTmp</ref>;</highlight></codeline>
+<codeline lineno="81" refid="classofi_phone_video_player_1a0ff91c953da6cf77ca6c3adee76575f0" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h"/>
+  </compounddef>
+</doxygen>

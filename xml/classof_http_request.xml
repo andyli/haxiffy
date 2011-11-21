@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_http_request" kind="class" prot="public">
+    <compoundname>ofHttpRequest</compoundname>
+    <includes refid="of_u_r_l_file_loader_8h" local="no">ofURLFileLoader.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_http_request_1ae6833ffe48daba8a1032def40617ec62" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofHttpRequest::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="24" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_http_request_1a62b3bdcdad84b0d0ecce10889459f3c2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofHttpRequest::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="25" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_http_request_1a89852c913e7b38b19d3e7a3503a63bb3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofHttpRequest::saveTo</definition>
+        <argsstring></argsstring>
+        <name>saveTo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="26" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_http_request_1a2cdbe8be13523e0355169397a75e2ae0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofHttpRequest::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="30" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classof_http_request_1a06795cf16b78ee64eeba9816d3206b0a" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ofHttpRequest::nextID</definition>
+        <argsstring></argsstring>
+        <name>nextID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_http_request_1aacdad9b0a7504acb8deb7fa8fbd2ef04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofHttpRequest::ofHttpRequest</definition>
+        <argsstring>()</argsstring>
+        <name>ofHttpRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="16" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_http_request_1a97c305bd38d1cb68fe2865890b4886eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofHttpRequest::ofHttpRequest</definition>
+        <argsstring>(string url, string name, bool saveTo=false)</argsstring>
+        <name>ofHttpRequest</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveTo</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_http_request_1a9645b2126484c9b107b86a4adaf624a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofHttpRequest::getID</definition>
+        <argsstring>()</argsstring>
+        <name>getID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" line="13" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofURLFileLoader.h" bodystart="13" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classof_http_request_1a9645b2126484c9b107b86a4adaf624a0" prot="public" virt="non-virtual"><scope>ofHttpRequest</scope><name>getID</name></member>
+      <member refid="classof_http_request_1a2cdbe8be13523e0355169397a75e2ae0" prot="private" virt="non-virtual"><scope>ofHttpRequest</scope><name>id</name></member>
+      <member refid="classof_http_request_1a62b3bdcdad84b0d0ecce10889459f3c2" prot="public" virt="non-virtual"><scope>ofHttpRequest</scope><name>name</name></member>
+      <member refid="classof_http_request_1a06795cf16b78ee64eeba9816d3206b0a" prot="private" virt="non-virtual"><scope>ofHttpRequest</scope><name>nextID</name></member>
+      <member refid="classof_http_request_1aacdad9b0a7504acb8deb7fa8fbd2ef04" prot="public" virt="non-virtual"><scope>ofHttpRequest</scope><name>ofHttpRequest</name></member>
+      <member refid="classof_http_request_1a97c305bd38d1cb68fe2865890b4886eb" prot="public" virt="non-virtual"><scope>ofHttpRequest</scope><name>ofHttpRequest</name></member>
+      <member refid="classof_http_request_1a89852c913e7b38b19d3e7a3503a63bb3" prot="public" virt="non-virtual"><scope>ofHttpRequest</scope><name>saveTo</name></member>
+      <member refid="classof_http_request_1ae6833ffe48daba8a1032def40617ec62" prot="public" virt="non-virtual"><scope>ofHttpRequest</scope><name>url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_bitmap_font_8h" kind="file">
+    <compoundname>ofBitmapFont.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <incdepgraph>
+      <node id="155">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="154">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofBitmapFont.h</label>
+        <link refid="ofBitmapFont.h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_bitmap_font_8h_1a8aed50a1a71aa2f298c8adbc5a7967e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDrawBitmapCharacterStart</definition>
+        <argsstring>(int stringLength)</argsstring>
+        <name>ofDrawBitmapCharacterStart</name>
+        <param>
+          <type>int</type>
+          <declname>stringLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofBitmapFont.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="of_bitmap_font_8h_1a9486c61bc518dbffb0fd0256d46d88a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDrawBitmapCharacter</definition>
+        <argsstring>(int character, int x, int y)</argsstring>
+        <name>ofDrawBitmapCharacter</name>
+        <param>
+          <type>int</type>
+          <declname>character</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofBitmapFont.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="of_bitmap_font_8h_1a8714b17241d96a407484a2e4eab162b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDrawBitmapCharacterEnd</definition>
+        <argsstring>()</argsstring>
+        <name>ofDrawBitmapCharacterEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofBitmapFont.h" line="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>note,<sp/>the<sp/>data<sp/>in<sp/>this<sp/>code<sp/>is<sp/>taken<sp/>from<sp/>freeglut,<sp/>and<sp/>included<sp/>in<sp/>OF<sp/>for<sp/>compatability<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>with<sp/>non<sp/>glut<sp/>windowing<sp/>toolkits.<sp/><sp/>see<sp/>.cpp<sp/>for<sp/>license<sp/>info</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>also,<sp/>note<sp/>that<sp/>while<sp/>this<sp/>is<sp/>used<sp/>internally<sp/>in<sp/>ofGraphics,<sp/>it&apos;s<sp/>not<sp/>really<sp/>useful<sp/>for<sp/>end<sp/>user<sp/>usage.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_bitmap_font_8h_1a8aed50a1a71aa2f298c8adbc5a7967e7" kindref="member">ofDrawBitmapCharacterStart</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>stringLength);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_bitmap_font_8h_1a9486c61bc518dbffb0fd0256d46d88a0" kindref="member">ofDrawBitmapCharacter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>character,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y<sp/>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_bitmap_font_8h_1a8714b17241d96a407484a2e4eab162b7" kindref="member">ofDrawBitmapCharacterEnd</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofBitmapFont.h"/>
+  </compounddef>
+</doxygen>

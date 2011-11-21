@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_light" kind="class" prot="public">
+    <compoundname>ofLight</compoundname>
+    <basecompoundref refid="classof_node" prot="public" virt="non-virtual">ofNode</basecompoundref>
+    <includes refid="of_light_8h" local="no">ofLight.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_light_1a522ccf92d25ad6a258e7bbbcacd27014" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofLight::ambientColor</definition>
+        <argsstring></argsstring>
+        <name>ambientColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="84" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_light_1a702ecd1537281eb6fd213f23c3d8dfea" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofLight::diffuseColor</definition>
+        <argsstring></argsstring>
+        <name>diffuseColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="85" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_light_1a91107d31b212a1a6c46aa04e8a657bf8" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofLight::specularColor</definition>
+        <argsstring></argsstring>
+        <name>specularColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="86" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_light_1a9bc6662651cdb5a2f149e586424e83d3" prot="private" static="no" mutable="no">
+        <type><ref refid="of_light_8h_1ab2fe38244260c25f3a34001c7211c358" kindref="member">ofLightType</ref></type>
+        <definition>ofLightType ofLight::lightType</definition>
+        <argsstring></argsstring>
+        <name>lightType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_light_1a57b88b9d9896e8e85914296a68d28acf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofLight::glIndex</definition>
+        <argsstring></argsstring>
+        <name>glIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="90" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_light_1ac97b4fe054feb89c971e3062b25386f6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofLight::isEnabled</definition>
+        <argsstring></argsstring>
+        <name>isEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="91" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_light_1a2fae327ac03b7675bf1058586cde7929" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofLight::isDirectional</definition>
+        <argsstring></argsstring>
+        <name>isDirectional</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="92" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_light_1a45c259e81c8a32c2837b3a058e8853ba" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofLight::isSpotlight</definition>
+        <argsstring></argsstring>
+        <name>isSpotlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="93" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_light_1a71100c53734281ec7cdc32c41b7dd22b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofLight::ofLight</definition>
+        <argsstring>()</argsstring>
+        <name>ofLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1aef7aae8f8c5af36f5baeb4e2fb7036ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofLight::ofLight</definition>
+        <argsstring>(const ofLight &amp;mom)</argsstring>
+        <name>ofLight</name>
+        <param>
+          <type>const <ref refid="classof_light" kindref="compound">ofLight</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1afcadcfcf3a2a6d8d6518aa3e15939823" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_light" kindref="compound">ofLight</ref> &amp;</type>
+        <definition>ofLight&amp; ofLight::operator=</definition>
+        <argsstring>(const ofLight &amp;mom)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_light" kindref="compound">ofLight</ref> &amp;</type>
+          <declname>mom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a7fa9b063245cf61b1fccc744b7fba76f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofLight::~ofLight</definition>
+        <argsstring>()</argsstring>
+        <name>~ofLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1ae2da1bc5d156983c082792ecafcfa5c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::destroy</definition>
+        <argsstring>()</argsstring>
+        <name>destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a3ce96b56093cd2b576008ce006cf097d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::enable</definition>
+        <argsstring>()</argsstring>
+        <name>enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a69b8a36976fea8607ad61b1e20ff0107" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::disable</definition>
+        <argsstring>()</argsstring>
+        <name>disable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a8317552c2f214d7db73d52f8d3418bf4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLight::getIsEnabled</definition>
+        <argsstring>() const </argsstring>
+        <name>getIsEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1aabb98f8753f139bf9940051bbc064b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setDirectional</definition>
+        <argsstring>()</argsstring>
+        <name>setDirectional</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a29b80e6a41e9cb221472c478490a4330" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLight::getIsDirectional</definition>
+        <argsstring>() const </argsstring>
+        <name>getIsDirectional</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a7ead6aa82d0b1b628f40f80355d6ba86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setSpotlight</definition>
+        <argsstring>(float spotCutOff=45.f, float exponent=0.f)</argsstring>
+        <name>setSpotlight</name>
+        <param>
+          <type>float</type>
+          <declname>spotCutOff</declname>
+          <defval>45.f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>exponent</declname>
+          <defval>0.f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a6ed913ca4846378603471a28fe45637e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLight::getIsSpotlight</definition>
+        <argsstring>()</argsstring>
+        <name>getIsSpotlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1aaf86030613141aadbd29234ef065c9fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setSpotlightCutOff</definition>
+        <argsstring>(float spotCutOff)</argsstring>
+        <name>setSpotlightCutOff</name>
+        <param>
+          <type>float</type>
+          <declname>spotCutOff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a814903cbdc08ce9add3e5aab8bd56618" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setSpotConcentration</definition>
+        <argsstring>(float exponent)</argsstring>
+        <name>setSpotConcentration</name>
+        <param>
+          <type>float</type>
+          <declname>exponent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1adeb5f3dbab01e06fd36b68e49598c44f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setPointLight</definition>
+        <argsstring>()</argsstring>
+        <name>setPointLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a20807bcd074edd06103ec04be94b1260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofLight::getIsPointLight</definition>
+        <argsstring>()</argsstring>
+        <name>getIsPointLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a978e8183cd3d1fab8bffd8da1449ccfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setAttenuation</definition>
+        <argsstring>(float constant=2.f, float linear=1.f, float quadratic=0.5f)</argsstring>
+        <name>setAttenuation</name>
+        <param>
+          <type>float</type>
+          <declname>constant</declname>
+          <defval>2.f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>linear</declname>
+          <defval>1.f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>quadratic</declname>
+          <defval>0.5f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a8e9440f7b8f523f1cd8a55a27207aa2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofLight::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1af448d2ef228d53f362f806bc16b39053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setAmbientColor</definition>
+        <argsstring>(const ofFloatColor &amp;c)</argsstring>
+        <name>setAmbientColor</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofFloatColor</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a6faa370a3ef0aa74d97d23cfe45f705a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setDiffuseColor</definition>
+        <argsstring>(const ofFloatColor &amp;c)</argsstring>
+        <name>setDiffuseColor</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofFloatColor</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a72558d4182f7877b81ce90ad1e7d60d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLight::setSpecularColor</definition>
+        <argsstring>(const ofFloatColor &amp;c)</argsstring>
+        <name>setSpecularColor</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofFloatColor</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a91ce4a5f3da8f34ce691159a855174f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofLight::getAmbientColor</definition>
+        <argsstring>() const </argsstring>
+        <name>getAmbientColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a9fc0323ed0cb365e42e13f34e64f7f39" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofLight::getDiffuseColor</definition>
+        <argsstring>() const </argsstring>
+        <name>getDiffuseColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1abca524247cc0043ce6a31bdc4008f294" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref></type>
+        <definition>ofFloatColor ofLight::getSpecularColor</definition>
+        <argsstring>() const </argsstring>
+        <name>getSpecularColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a133630928839dea07f309d94fc832482" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofLight::getLightID</definition>
+        <argsstring>() const </argsstring>
+        <name>getLightID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a12be889562efa4d3a7f1866a433fe325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ofLight::customDraw</definition>
+        <argsstring>()</argsstring>
+        <name>customDraw</name>
+        <reimplements refid="classof_node_1a82804cbe87f3bce8a5d2d2b89dce5e71">customDraw</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="72" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="72" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_light_1a3c9b1cc94062da760ac6c0a98c559e15" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofLight::onPositionChanged</definition>
+        <argsstring>()</argsstring>
+        <name>onPositionChanged</name>
+        <reimplements refid="classof_node_1aa31b92a732d3258f15c730ec8106273c">onPositionChanged</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_light_1a7e98265cd062457b35363232e7603119" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofLight::onOrientationChanged</definition>
+        <argsstring>()</argsstring>
+        <name>onOrientationChanged</name>
+        <reimplements refid="classof_node_1a423c1683913adf900cf8602b55361275">onOrientationChanged</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="429">
+        <label>ofNode</label>
+        <link refid="classof_node"/>
+      </node>
+      <node id="428">
+        <label>ofLight</label>
+        <link refid="classof_light"/>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="433">
+        <label>ofVec4f</label>
+        <link refid="classof_vec4f"/>
+      </node>
+      <node id="435">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="436">
+        <label>ofColor_&lt; float &gt;</label>
+        <link refid="classof_color__"/>
+        <childnode refid="436" relation="usage">
+          <edgelabel>cyan</edgelabel>
+          <edgelabel>gray</edgelabel>
+          <edgelabel>white</edgelabel>
+          <edgelabel>yellow</edgelabel>
+          <edgelabel>magenta</edgelabel>
+          <edgelabel>black</edgelabel>
+          <edgelabel>blue</edgelabel>
+          <edgelabel>red</edgelabel>
+          <edgelabel>green</edgelabel>
+        </childnode>
+      </node>
+      <node id="431">
+        <label>ofNode</label>
+        <link refid="classof_node"/>
+        <childnode refid="432" relation="usage">
+          <edgelabel>orientation</edgelabel>
+        </childnode>
+        <childnode refid="431" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+        <childnode refid="434" relation="usage">
+          <edgelabel>localTransformMatrix</edgelabel>
+        </childnode>
+        <childnode refid="435" relation="usage">
+          <edgelabel>scale</edgelabel>
+          <edgelabel>position</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+      </node>
+      <node id="432">
+        <label>ofQuaternion</label>
+        <link refid="classof_quaternion"/>
+        <childnode refid="433" relation="usage">
+          <edgelabel>_v</edgelabel>
+        </childnode>
+      </node>
+      <node id="430">
+        <label>ofLight</label>
+        <link refid="classof_light"/>
+        <childnode refid="431" relation="public-inheritance">
+        </childnode>
+        <childnode refid="436" relation="usage">
+          <edgelabel>diffuseColor</edgelabel>
+          <edgelabel>specularColor</edgelabel>
+          <edgelabel>ambientColor</edgelabel>
+        </childnode>
+      </node>
+      <node id="434">
+        <label>ofMatrix4x4</label>
+        <link refid="classof_matrix4x4"/>
+        <childnode refid="433" relation="usage">
+          <edgelabel>_mat</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" line="36" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofLight.h" bodystart="36" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classof_light_1a522ccf92d25ad6a258e7bbbcacd27014" prot="private" virt="non-virtual"><scope>ofLight</scope><name>ambientColor</name></member>
+      <member refid="classof_node_1ad030cd8c55b9df3dbf2786347f62ad3b" prot="public" virt="non-virtual"><scope>ofLight</scope><name>boom</name></member>
+      <member refid="classof_node_1abab3151dc3a440a630f5782eda3e3111" prot="public" virt="non-virtual"><scope>ofLight</scope><name>clearParent</name></member>
+      <member refid="classof_node_1a7619a7cabd3690c782ad10cc13093074" prot="protected" virt="non-virtual"><scope>ofLight</scope><name>createMatrix</name></member>
+      <member refid="classof_light_1a12be889562efa4d3a7f1866a433fe325" prot="public" virt="virtual"><scope>ofLight</scope><name>customDraw</name></member>
+      <member refid="classof_light_1ae2da1bc5d156983c082792ecafcfa5c0" prot="public" virt="non-virtual"><scope>ofLight</scope><name>destroy</name></member>
+      <member refid="classof_light_1a702ecd1537281eb6fd213f23c3d8dfea" prot="private" virt="non-virtual"><scope>ofLight</scope><name>diffuseColor</name></member>
+      <member refid="classof_light_1a69b8a36976fea8607ad61b1e20ff0107" prot="public" virt="non-virtual"><scope>ofLight</scope><name>disable</name></member>
+      <member refid="classof_node_1a8ab940d4c166064c8b2e3b4ab237917c" prot="public" virt="non-virtual"><scope>ofLight</scope><name>dolly</name></member>
+      <member refid="classof_node_1a13c85ec24bc0244ee7e32be7a63f2561" prot="public" virt="non-virtual"><scope>ofLight</scope><name>draw</name></member>
+      <member refid="classof_light_1a3ce96b56093cd2b576008ce006cf097d" prot="public" virt="non-virtual"><scope>ofLight</scope><name>enable</name></member>
+      <member refid="classof_light_1a91ce4a5f3da8f34ce691159a855174f3" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getAmbientColor</name></member>
+      <member refid="classof_light_1a9fc0323ed0cb365e42e13f34e64f7f39" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getDiffuseColor</name></member>
+      <member refid="classof_node_1a427fce44ef9e64b50c223a42d057a700" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getGlobalOrientation</name></member>
+      <member refid="classof_node_1a4ad665eca93ee00d506d0c663d6dcddd" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getGlobalPosition</name></member>
+      <member refid="classof_node_1a78a98aca9e6d389ae4918ad9783f3bf7" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getGlobalTransformMatrix</name></member>
+      <member refid="classof_node_1a91b332c93dd0da7c289ffcc95ccc5a46" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getHeading</name></member>
+      <member refid="classof_light_1a29b80e6a41e9cb221472c478490a4330" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getIsDirectional</name></member>
+      <member refid="classof_light_1a8317552c2f214d7db73d52f8d3418bf4" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getIsEnabled</name></member>
+      <member refid="classof_light_1a20807bcd074edd06103ec04be94b1260" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getIsPointLight</name></member>
+      <member refid="classof_light_1a6ed913ca4846378603471a28fe45637e" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getIsSpotlight</name></member>
+      <member refid="classof_light_1a133630928839dea07f309d94fc832482" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getLightID</name></member>
+      <member refid="classof_node_1a29a4cda17e24a56f5aa1933dea05af86" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getLocalTransformMatrix</name></member>
+      <member refid="classof_node_1a884d1b02034ac8822415bbb43ac4dd5f" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getLookAtDir</name></member>
+      <member refid="classof_node_1a105586cd87594a6ab0841e39f474e70e" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getOrientationEuler</name></member>
+      <member refid="classof_node_1ae8ca41c6f9eac9a64d7c19a6811f66b5" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getOrientationQuat</name></member>
+      <member refid="classof_node_1a96575a8e5ecdb143438f33c0583ccbd0" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getParent</name></member>
+      <member refid="classof_node_1a4f52fa48348f59307623c7a7bb4ef59f" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getPitch</name></member>
+      <member refid="classof_node_1a89350f61b536e5f64dc13682a6aee97d" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getPosition</name></member>
+      <member refid="classof_node_1a0336b1426c2bc493bc15a7093fb35b5a" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getRoll</name></member>
+      <member refid="classof_node_1a7dd2e9bbcc2c8ce02317892b40793a0f" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getScale</name></member>
+      <member refid="classof_node_1aaa10e7761bcbfc1c504c6312c52f833a" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getSideDir</name></member>
+      <member refid="classof_light_1abca524247cc0043ce6a31bdc4008f294" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getSpecularColor</name></member>
+      <member refid="classof_light_1a8e9440f7b8f523f1cd8a55a27207aa2a" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getType</name></member>
+      <member refid="classof_node_1ae24a97f7de20c48a5f75d82fb12577cf" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getUpDir</name></member>
+      <member refid="classof_node_1a819b96492b11250d5682e7853c5b753c" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getX</name></member>
+      <member refid="classof_node_1a75af589eae2b502216acad4668edf43b" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getXAxis</name></member>
+      <member refid="classof_node_1a1177cd7d07224c3690a4364684f1719f" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getY</name></member>
+      <member refid="classof_node_1a6bf67ed85db5017a37aba4e3262e914a" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getYAxis</name></member>
+      <member refid="classof_node_1aad7aed0da357927a7bfa1c5669fd9e64" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getZ</name></member>
+      <member refid="classof_node_1aecfc7c45671b9bb4757821e3a10dccb1" prot="public" virt="non-virtual"><scope>ofLight</scope><name>getZAxis</name></member>
+      <member refid="classof_light_1a57b88b9d9896e8e85914296a68d28acf" prot="private" virt="non-virtual"><scope>ofLight</scope><name>glIndex</name></member>
+      <member refid="classof_light_1a2fae327ac03b7675bf1058586cde7929" prot="private" virt="non-virtual"><scope>ofLight</scope><name>isDirectional</name></member>
+      <member refid="classof_light_1ac97b4fe054feb89c971e3062b25386f6" prot="private" virt="non-virtual"><scope>ofLight</scope><name>isEnabled</name></member>
+      <member refid="classof_light_1a45c259e81c8a32c2837b3a058e8853ba" prot="private" virt="non-virtual"><scope>ofLight</scope><name>isSpotlight</name></member>
+      <member refid="classof_light_1a9bc6662651cdb5a2f149e586424e83d3" prot="private" virt="non-virtual"><scope>ofLight</scope><name>lightType</name></member>
+      <member refid="classof_node_1a039b31630ea3fc3718da43e23ecd7ef3" prot="public" virt="non-virtual"><scope>ofLight</scope><name>lookAt</name></member>
+      <member refid="classof_node_1ae0314a8226b1d1acbe4ac0ca6c48ae37" prot="public" virt="non-virtual"><scope>ofLight</scope><name>lookAt</name></member>
+      <member refid="classof_node_1a89949bfa32613379f65466be7514032a" prot="public" virt="non-virtual"><scope>ofLight</scope><name>move</name></member>
+      <member refid="classof_node_1a2c9fe659a2f8a45336d5ec385e7442ac" prot="public" virt="non-virtual"><scope>ofLight</scope><name>move</name></member>
+      <member refid="classof_light_1a71100c53734281ec7cdc32c41b7dd22b" prot="public" virt="non-virtual"><scope>ofLight</scope><name>ofLight</name></member>
+      <member refid="classof_light_1aef7aae8f8c5af36f5baeb4e2fb7036ce" prot="public" virt="non-virtual"><scope>ofLight</scope><name>ofLight</name></member>
+      <member refid="classof_node_1aa2b223ca1f8560ef193eb7bde666d758" prot="public" virt="non-virtual"><scope>ofLight</scope><name>ofNode</name></member>
+      <member refid="classof_light_1a7e98265cd062457b35363232e7603119" prot="private" virt="virtual"><scope>ofLight</scope><name>onOrientationChanged</name></member>
+      <member refid="classof_light_1a3c9b1cc94062da760ac6c0a98c559e15" prot="private" virt="virtual"><scope>ofLight</scope><name>onPositionChanged</name></member>
+      <member refid="classof_node_1a8e851ac0a96a9348d85e365e1e7c71be" prot="protected" virt="virtual"><scope>ofLight</scope><name>onScaleChanged</name></member>
+      <member refid="classof_light_1afcadcfcf3a2a6d8d6518aa3e15939823" prot="public" virt="non-virtual"><scope>ofLight</scope><name>operator=</name></member>
+      <member refid="classof_node_1a2a0989e1ed10fcbfea932ea305f064c1" prot="public" virt="non-virtual"><scope>ofLight</scope><name>orbit</name></member>
+      <member refid="classof_node_1a8d0f25fffcba51783c5c9d53d87c4f82" prot="public" virt="non-virtual"><scope>ofLight</scope><name>orbit</name></member>
+      <member refid="classof_node_1ad8f671a39235404984fb84da35dd93ae" prot="public" virt="non-virtual"><scope>ofLight</scope><name>pan</name></member>
+      <member refid="classof_node_1a9fa60edff25434ada1671e837335fbdf" prot="protected" virt="non-virtual"><scope>ofLight</scope><name>parent</name></member>
+      <member refid="classof_node_1ace344f081aa534670949ae9e03374626" prot="public" virt="non-virtual"><scope>ofLight</scope><name>resetTransform</name></member>
+      <member refid="classof_node_1a9d09e55a671dae12c64b18215f2cd08c" prot="public" virt="non-virtual"><scope>ofLight</scope><name>restoreTransformGL</name></member>
+      <member refid="classof_node_1a6eabc08d0e5ec0f8e7b6d2931531e400" prot="public" virt="non-virtual"><scope>ofLight</scope><name>roll</name></member>
+      <member refid="classof_node_1a1334bc48d4dbbc8d769ce42ee82fdf96" prot="public" virt="non-virtual"><scope>ofLight</scope><name>rotate</name></member>
+      <member refid="classof_node_1ae5d336038ea9a78223218183bbc446f0" prot="public" virt="non-virtual"><scope>ofLight</scope><name>rotate</name></member>
+      <member refid="classof_node_1a567e36b8f19965cb37b093283f7fcf09" prot="public" virt="non-virtual"><scope>ofLight</scope><name>rotate</name></member>
+      <member refid="classof_node_1a084b6a9cc56ae474be007ba4595c471d" prot="public" virt="non-virtual"><scope>ofLight</scope><name>rotateAround</name></member>
+      <member refid="classof_node_1a99683f424fc89553cfbdab53d52a1e7f" prot="public" virt="non-virtual"><scope>ofLight</scope><name>rotateAround</name></member>
+      <member refid="classof_light_1af448d2ef228d53f362f806bc16b39053" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setAmbientColor</name></member>
+      <member refid="classof_light_1a978e8183cd3d1fab8bffd8da1449ccfd" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setAttenuation</name></member>
+      <member refid="classof_light_1a6faa370a3ef0aa74d97d23cfe45f705a" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setDiffuseColor</name></member>
+      <member refid="classof_light_1aabb98f8753f139bf9940051bbc064b06" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setDirectional</name></member>
+      <member refid="classof_node_1ac888a4aabc97bdfa86114079dcdf4832" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setGlobalOrientation</name></member>
+      <member refid="classof_node_1a72d4e80f9e3cc5356860669be45076e7" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setGlobalPosition</name></member>
+      <member refid="classof_node_1a639c866edf3aac3192713dfcdbb2e992" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setGlobalPosition</name></member>
+      <member refid="classof_node_1a732a883de750dcd157ba03a7a9432f57" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setOrientation</name></member>
+      <member refid="classof_node_1a7e7460d86348bc31837271fe30e74b89" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setOrientation</name></member>
+      <member refid="classof_node_1a17c41e855157cc8b896db24f8ba50201" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setParent</name></member>
+      <member refid="classof_light_1adeb5f3dbab01e06fd36b68e49598c44f" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setPointLight</name></member>
+      <member refid="classof_node_1a6f5733da97701638ec9e089016d0381a" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setPosition</name></member>
+      <member refid="classof_node_1ae55d7884cc7193538fddd8071f533379" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setPosition</name></member>
+      <member refid="classof_node_1a29db49b22f24505ca352ad90a0d9ffd6" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setScale</name></member>
+      <member refid="classof_node_1a1edc7d654f34143e14a88423dce97c1d" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setScale</name></member>
+      <member refid="classof_node_1a0dc74f803d307c24e08b2e163295287b" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setScale</name></member>
+      <member refid="classof_light_1a72558d4182f7877b81ce90ad1e7d60d0" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setSpecularColor</name></member>
+      <member refid="classof_light_1a814903cbdc08ce9add3e5aab8bd56618" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setSpotConcentration</name></member>
+      <member refid="classof_light_1a7ead6aa82d0b1b628f40f80355d6ba86" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setSpotlight</name></member>
+      <member refid="classof_light_1aaf86030613141aadbd29234ef065c9fe" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setSpotlightCutOff</name></member>
+      <member refid="classof_node_1aee04a17c179cb45f7e03f8518be8d0ad" prot="public" virt="non-virtual"><scope>ofLight</scope><name>setTransformMatrix</name></member>
+      <member refid="classof_light_1a91107d31b212a1a6c46aa04e8a657bf8" prot="private" virt="non-virtual"><scope>ofLight</scope><name>specularColor</name></member>
+      <member refid="classof_node_1a674ca0b1cb71f609fadf8dba79106a72" prot="public" virt="non-virtual"><scope>ofLight</scope><name>tilt</name></member>
+      <member refid="classof_node_1af5fc70fbfb7826ebca9ae9eaa7653db8" prot="public" virt="non-virtual"><scope>ofLight</scope><name>transformGL</name></member>
+      <member refid="classof_node_1a61fcc8f30420847847f62873a47cca8a" prot="public" virt="non-virtual"><scope>ofLight</scope><name>truck</name></member>
+      <member refid="classof_light_1a7fa9b063245cf61b1fccc744b7fba76f" prot="public" virt="virtual"><scope>ofLight</scope><name>~ofLight</name></member>
+      <member refid="classof_node_1ad0f916a28a08c95064e89bdc5131b923" prot="public" virt="virtual"><scope>ofLight</scope><name>~ofNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

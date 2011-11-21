@@ -1,0 +1,1726 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_base_renderer" kind="class" prot="public">
+    <compoundname>ofBaseRenderer</compoundname>
+    <derivedcompoundref refid="classof_cairo_renderer" prot="public" virt="non-virtual">ofCairoRenderer</derivedcompoundref>
+    <derivedcompoundref refid="classof_g_l_renderer" prot="public" virt="non-virtual">ofGLRenderer</derivedcompoundref>
+    <derivedcompoundref refid="classof_renderer_collection" prot="public" virt="non-virtual">ofRendererCollection</derivedcompoundref>
+    <includes refid="of_base_types_8h" local="no">ofBaseTypes.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_base_renderer_1a162ef56f1fa1ee5e245c47c24c76a54e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofBaseRenderer::~ofBaseRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>~ofBaseRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="272" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="272" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ab04ab2e86135ab95b598f2d9c4929e7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>string</type>
+        <definition>virtual string ofBaseRenderer::getType</definition>
+        <argsstring>()=0</argsstring>
+        <name>getType</name>
+        <reimplementedby refid="classof_renderer_collection_1a967ed7b5f8985510418b73a51d184879">getType</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a800e09830220c5ba4819fe4ad0ce0cf0">getType</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1af72653efa2cac57a844a14b40bdb9953">getType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1af6c14407372ca754bb0112bb0874dc57" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::update</definition>
+        <argsstring>()=0</argsstring>
+        <name>update</name>
+        <reimplementedby refid="classof_renderer_collection_1a4ba4dcfc37cf724bcc1b8e2362b366fc">update</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a57f44289cb55fb1c6601b456f1c06f06">update</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ac705138071cc37cb5faeb84cee284c9b">update</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1afffdfdf65fd5f954a2a4e264e6bc40a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::draw</definition>
+        <argsstring>(ofPolyline &amp;poly)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_renderer_collection_1a461d69215d57fcb31c693f111226e512">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a19cdf25f21b91f6073cc257ea6bd1c84">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1aeab57aee5cec6c0fc78328b23863ed72">draw</reimplementedby>
+        <param>
+          <type><ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &amp;</type>
+          <declname>poly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ab5a8c1dfe33aa369a84860087dd286ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::draw</definition>
+        <argsstring>(ofPath &amp;shape)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_renderer_collection_1a6e33aa059ef70b0184e9eb860ab629f5">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a7b07626fdbc8410889ee9884ce471fa0">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a7394f6dabb7e5e580e5a285c4ca0981a">draw</reimplementedby>
+        <param>
+          <type><ref refid="classof_path" kindref="compound">ofPath</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1abeae3ce1e1502182cbeadb5414b2ecc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::draw</definition>
+        <argsstring>(ofMesh &amp;vertexData)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_renderer_collection_1a40a86f398a69a84ab265961bba9d87b1">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a17932fb697292eaef830a10704299d8f">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a52febb41276200e7cc2838d422ac9723">draw</reimplementedby>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a5e8c241c15e444b3929cd5f9ebdb2ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::draw</definition>
+        <argsstring>(ofMesh &amp;vertexData, ofPolyRenderMode renderType)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_renderer_collection_1a8260ac5521e1613ac0bfb8078686a428">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1afb0d7d9dfbdace68ed2e5e7d9cd75476">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a70631aeaf6942ab6f77e9032ae968bb6">draw</reimplementedby>
+        <param>
+          <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <param>
+          <type><ref refid="of_g_l_utils_8h_1a6beb1fbbaba728909c78cda1eadfe28e" kindref="member">ofPolyRenderMode</ref></type>
+          <declname>renderType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a7884c6bf187a0449ce3aa8052c6056bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::draw</definition>
+        <argsstring>(vector&lt; ofPoint &gt; &amp;vertexData, ofPrimitiveMode drawMode)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_renderer_collection_1af588a83a91489cc870c8163e12985282">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a77a40bd7d26d58d68a65928070580140">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ad5ac4d18c1f2b484a6ab090efcd79898">draw</reimplementedby>
+        <param>
+          <type>vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>vertexData</declname>
+        </param>
+        <param>
+          <type><ref refid="of_g_l_utils_8h_1a0f71f0b23a18629a446952d5540e16e0" kindref="member">ofPrimitiveMode</ref></type>
+          <declname>drawMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a118fa7be01237fd13d01a7db526e67e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::draw</definition>
+        <argsstring>(ofImage &amp;image, float x, float y, float z, float w, float h)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_renderer_collection_1aa0f34e23e850fa4d772baa4344e535e3">draw</reimplementedby>
+        <reimplementedby refid="classof_renderer_collection_1a1953f6ad3414a27fc133824812671682">draw</reimplementedby>
+        <reimplementedby refid="classof_renderer_collection_1a3e0f39dd446e9cad5189d311fb2f5c5b">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a5d9433f37711c3d0ed94c70ca13033eb">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a87b181e7b0f61d75c2c725c3b112488f">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a948eb5082329b9035b9807faab3809d9">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a70672040ca0425070749debbed743231">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a3b5f78eec7d621fb82333ac4f71dc11d">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ae755aa817497737429b6529d84e72b7b">draw</reimplementedby>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="283"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ab4c38d47ee2af391352147684a79a691" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::draw</definition>
+        <argsstring>(ofFloatImage &amp;image, float x, float y, float z, float w, float h)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_renderer_collection_1aa0f34e23e850fa4d772baa4344e535e3">draw</reimplementedby>
+        <reimplementedby refid="classof_renderer_collection_1a1953f6ad3414a27fc133824812671682">draw</reimplementedby>
+        <reimplementedby refid="classof_renderer_collection_1a3e0f39dd446e9cad5189d311fb2f5c5b">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a5d9433f37711c3d0ed94c70ca13033eb">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a87b181e7b0f61d75c2c725c3b112488f">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a948eb5082329b9035b9807faab3809d9">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a70672040ca0425070749debbed743231">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a3b5f78eec7d621fb82333ac4f71dc11d">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ae755aa817497737429b6529d84e72b7b">draw</reimplementedby>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofFloatImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ae29929dc33a2f803c8258bc7e48d7f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::draw</definition>
+        <argsstring>(ofShortImage &amp;image, float x, float y, float z, float w, float h)=0</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classof_renderer_collection_1aa0f34e23e850fa4d772baa4344e535e3">draw</reimplementedby>
+        <reimplementedby refid="classof_renderer_collection_1a1953f6ad3414a27fc133824812671682">draw</reimplementedby>
+        <reimplementedby refid="classof_renderer_collection_1a3e0f39dd446e9cad5189d311fb2f5c5b">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a5d9433f37711c3d0ed94c70ca13033eb">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a87b181e7b0f61d75c2c725c3b112488f">draw</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a948eb5082329b9035b9807faab3809d9">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a70672040ca0425070749debbed743231">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a3b5f78eec7d621fb82333ac4f71dc11d">draw</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ae755aa817497737429b6529d84e72b7b">draw</reimplementedby>
+        <param>
+          <type><ref refid="classof_image__" kindref="compound">ofShortImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a83e111dfc4a5743f3bdc263e92b99682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::pushView</definition>
+        <argsstring>()</argsstring>
+        <name>pushView</name>
+        <reimplementedby refid="classof_renderer_collection_1abad3fe83c7977d5723b1674b3b26fa03">pushView</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1acf52b56ca3516c61f81ccc08cfadced1">pushView</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a3535890cc1da307bc78f8f9fe60d3294">pushView</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="289" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="289" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a99baa88fbb41b5cb57ae7d6a670738c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::popView</definition>
+        <argsstring>()</argsstring>
+        <name>popView</name>
+        <reimplementedby refid="classof_renderer_collection_1ac1eb3d18b17c8483f0c9022d3f0c46b8">popView</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a95e3b1bf17c56b334ae9b265d0caf971">popView</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a5f69c59637e3a9a3677a7985ac878a44">popView</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="290" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="290" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1affffe2c452504484f1e465f16893ab60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::viewport</definition>
+        <argsstring>(ofRectangle viewport)</argsstring>
+        <name>viewport</name>
+        <reimplementedby refid="classof_renderer_collection_1aa5cf782b4da20f9e72665dc50d41370f">viewport</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1aeb4bdbd4882a0846cdd95d4a17c981a3">viewport</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a57e0572c4ce586b77b1157b9f6ff0f96">viewport</reimplementedby>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="295" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="295" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a300bd8d884c882a8ae3539367b0b7d9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::viewport</definition>
+        <argsstring>(float x=0, float y=0, float width=0, float height=0, bool invertY=true)</argsstring>
+        <name>viewport</name>
+        <reimplementedby refid="classof_renderer_collection_1ae0fdf138f4cfa91948cea6774ec52e9a">viewport</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1acae2134144ce0e7e328ffba50d867189">viewport</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a159bb20585175eddb16c70aa262f392f">viewport</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invertY</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="296" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aefb98b7ef168dbff450f6054bf00d406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setupScreenPerspective</definition>
+        <argsstring>(float width=0, float height=0, ofOrientation orientation=OF_ORIENTATION_UNKNOWN, bool vFlip=true, float fov=60, float nearDist=0, float farDist=0)</argsstring>
+        <name>setupScreenPerspective</name>
+        <reimplementedby refid="classof_renderer_collection_1a51e9b3a6f217b2a28e89720c324b8a3d">setupScreenPerspective</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a2d2544d8f0ecef5d3728f45a8d4229d9">setupScreenPerspective</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1acab0c2098ecfa732191427c79a82dc6a">setupScreenPerspective</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+          <defval>OF_ORIENTATION_UNKNOWN</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vFlip</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fov</declname>
+          <defval>60</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearDist</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDist</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="297" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="297" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a78aaffdae40b4a568b011171fc8556a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setupScreenOrtho</definition>
+        <argsstring>(float width=0, float height=0, ofOrientation orientation=OF_ORIENTATION_UNKNOWN, bool vFlip=true, float nearDist=-1, float farDist=1)</argsstring>
+        <name>setupScreenOrtho</name>
+        <reimplementedby refid="classof_renderer_collection_1a2542ea52e2ccc5e95f345c6a27459b86">setupScreenOrtho</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a20f0da734ea37ef4d25a1a4dd67181e1">setupScreenOrtho</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a9ecded5227f06ddb41067436e7f27aa2">setupScreenOrtho</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+          <defval>OF_ORIENTATION_UNKNOWN</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vFlip</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearDist</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDist</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="298" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="298" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a6c143444f0f3db1982a19abbc4777ddd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+        <definition>virtual ofRectangle ofBaseRenderer::getCurrentViewport</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentViewport</name>
+        <reimplementedby refid="classof_renderer_collection_1aa1dfb552dd9741caf98b8cbf7282923d">getCurrentViewport</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a34b2cf0594a8e0eb0a0e646ac2042ec7">getCurrentViewport</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a6ff4e1eabd8bb996b5fad20b2a981c2b">getCurrentViewport</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="299" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="299" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1abef959b1493b9f2ccaaf00a8a75d6218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int ofBaseRenderer::getViewportWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getViewportWidth</name>
+        <reimplementedby refid="classof_renderer_collection_1afdcacbf9bdad63c006c1e57717599246">getViewportWidth</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a888924ffc3a037f67eb67dd3d4641329">getViewportWidth</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a9337400ddb5654e03f8ad1a699a48a31">getViewportWidth</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="300" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a026faf25094809f38e9d0eab2f7e09b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int ofBaseRenderer::getViewportHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getViewportHeight</name>
+        <reimplementedby refid="classof_renderer_collection_1af0a664370365173bf092709e64ffeecc">getViewportHeight</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ac1f2e3922892ab6c6dd4482f1a259ff4">getViewportHeight</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1af34194f145634e2c2cfd345a74601141">getViewportHeight</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="301" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="301" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ab4501fbf80f10f4e6ab0d59a890e4117" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setCoordHandedness</definition>
+        <argsstring>(ofHandednessType handedness)</argsstring>
+        <name>setCoordHandedness</name>
+        <reimplementedby refid="classof_renderer_collection_1a273509bd5f629a0a568c1332a2f4f82b">setCoordHandedness</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a97610b9999e6e5831d88ff65926eeb33">setCoordHandedness</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a499821d78e1e602de2f3ed3e31cecb8c">setCoordHandedness</reimplementedby>
+        <param>
+          <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+          <declname>handedness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="303" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="303" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ad5f5cd75cc18f229a9fdae1e352b71db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+        <definition>virtual ofHandednessType ofBaseRenderer::getCoordHandedness</definition>
+        <argsstring>()</argsstring>
+        <name>getCoordHandedness</name>
+        <reimplementedby refid="classof_renderer_collection_1aed50113ca95678d9d21547f0d4a9ab61">getCoordHandedness</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ad4dfd1712d8a302c4191fcd0c5ede706">getCoordHandedness</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a64f0ffe7d2b90f1501046f5e3a4a23a6">getCoordHandedness</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="304" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="304" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ab8023e1f20a975cbc5480afb30d78fec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::pushMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>pushMatrix</name>
+        <reimplementedby refid="classof_renderer_collection_1a048730d889a884ef335b381a91788c72">pushMatrix</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ae80318ec09fad18566517d1034fa7bec">pushMatrix</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1aa2afddce8fd2a7870521dd47c74af7a0">pushMatrix</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="307" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="307" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a33dfe4df5c05128e0a965b1e445ceb9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::popMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>popMatrix</name>
+        <reimplementedby refid="classof_renderer_collection_1ad9330053dcf587bbc803757ea109afaa">popMatrix</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a14b22e5b97713bd80adc129923a33fbe">popMatrix</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a64d1caafe69099c73802652d39588e91">popMatrix</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="308" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="308" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a82bc2ad661caabd15f9ee7888a6e3f61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::translate</definition>
+        <argsstring>(float x, float y, float z=0)</argsstring>
+        <name>translate</name>
+        <reimplementedby refid="classof_renderer_collection_1a9c0d3a09db035e040041bbee4636168d">translate</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ac7767ad5bc65fe42932d8043ffccd699">translate</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ac90b43ad1bb96f962af54f1488e0e819">translate</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="309" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="309" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1abc3f59783eb1af3d88e94e026652d0f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::translate</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>translate</name>
+        <reimplementedby refid="classof_renderer_collection_1a3cfe7642e1c12374db588e345102f071">translate</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1acc56715da18f40bc224dc3caca21b6b1">translate</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a2e254123fc865dd0a8f5133f185b2cbc">translate</reimplementedby>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="310" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="310" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aa90785f6afb56f9918523630319394f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::scale</definition>
+        <argsstring>(float xAmnt, float yAmnt, float zAmnt=1)</argsstring>
+        <name>scale</name>
+        <reimplementedby refid="classof_renderer_collection_1a1968fe3b2f2033a0ab53a9c07172bd9c">scale</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a02195750c37c906936670424102c2cf4">scale</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a771ba672fc6434ea280a520d133f632c">scale</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>xAmnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yAmnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>zAmnt</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="311" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="311" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a76ea3a2691d80054696f41aa7069231d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::rotate</definition>
+        <argsstring>(float degrees, float vecX, float vecY, float vecZ)</argsstring>
+        <name>rotate</name>
+        <reimplementedby refid="classof_renderer_collection_1adf166761a6667c2a02e0474c51a1c5f4">rotate</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a8822b11dafbe4649824e1abaa2d90377">rotate</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1aa19c82279ab5c15c8c1c8dd79e18cf4f">rotate</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="312" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="312" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ac52830fd0ab1f62f9f094f9501156fee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::rotateX</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateX</name>
+        <reimplementedby refid="classof_renderer_collection_1a0c5e97089208e52f40e26ec6aba6cc96">rotateX</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a95e2617b09a278951a9da61b84dd73f4">rotateX</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ad97908ef76005fca1fdca3149e3811ad">rotateX</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="313" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="313" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aeb7dd85ce856ff9510f6bc0159ba834f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::rotateY</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateY</name>
+        <reimplementedby refid="classof_renderer_collection_1a46a99e4166855b99a115db39a89b2b91">rotateY</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a8708e85a264993c6a1c17a603f5c3622">rotateY</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1abc15d35c7c3dcdcd8292905dc4c68555">rotateY</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="314" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="314" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1acbbd19ddcddf7118d8e5d501054a706e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::rotateZ</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotateZ</name>
+        <reimplementedby refid="classof_renderer_collection_1a63aafe2a1d81345e52fb402e4fd0390d">rotateZ</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ae49c0dd54cc8eeededda39ce57df3958">rotateZ</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1adaddc8874c08b0e488c4fcbac4f828af">rotateZ</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="315" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="315" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a54e1bb2754e2764301ac3a7de13852d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::rotate</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>rotate</name>
+        <reimplementedby refid="classof_renderer_collection_1a8621b6d166d85783d16f159c334dce31">rotate</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a851fe7d8806fdbc44e4c1a44cc4c1ddf">rotate</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a81627f064a499681e8321b5ee8294a6f">rotate</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="316" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="316" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a50d914b89a78f918e419771a1ce4a72e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setupGraphicDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>setupGraphicDefaults</name>
+        <reimplementedby refid="classof_renderer_collection_1acc8c68cb89db19f3dd2de0ab4ca60a34">setupGraphicDefaults</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a067de4b242130b80d9e07617eda7dd37">setupGraphicDefaults</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a788951d57f6e4698b5e28d1684b771df">setupGraphicDefaults</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="319" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="319" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a951bece465546fee7e5006bd76338bfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>setupScreen</name>
+        <reimplementedby refid="classof_renderer_collection_1a01d89c4fa1210bc14e38d16d00728985">setupScreen</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1aff0476945a318bc4580e639b60017338">setupScreen</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1adf20fa42653709d3c6ae3aa53ae67974">setupScreen</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="320" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="320" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a86513eb142468db2878d815068a7de2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setRectMode</definition>
+        <argsstring>(ofRectMode mode)=0</argsstring>
+        <name>setRectMode</name>
+        <reimplementedby refid="classof_renderer_collection_1aa86ada3e4a6ac351c1ae9b11aaad95e6">setRectMode</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a0b4c7064a42559a09763c60489c9ee37">setRectMode</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ad5915cd57862078d500efaf5c7b994ed">setRectMode</reimplementedby>
+        <param>
+          <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a08d589a5bdf58fe755604a3500b5d171" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+        <definition>virtual ofRectMode ofBaseRenderer::getRectMode</definition>
+        <argsstring>()=0</argsstring>
+        <name>getRectMode</name>
+        <reimplementedby refid="classof_renderer_collection_1a390d672492f82ffb4257babe87669c24">getRectMode</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ad53c213918dd9a3011788ac36ed21f28">getRectMode</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a8e63b294df9f4a84f636b85c00469d3d">getRectMode</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a15a68864b7da753c0415490942caa76b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setFillMode</definition>
+        <argsstring>(ofFillFlag fill)=0</argsstring>
+        <name>setFillMode</name>
+        <reimplementedby refid="classof_renderer_collection_1aa3489b59899b540ce86e8c228330b02b">setFillMode</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a535bf1e13b51d0a5d4de152a94382c15">setFillMode</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1aacc0eab2f3d4e7e6f2ac425b209ef596">setFillMode</reimplementedby>
+        <param>
+          <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+          <declname>fill</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="325"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aa840440af71eb0663f2943d48df00360" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+        <definition>virtual ofFillFlag ofBaseRenderer::getFillMode</definition>
+        <argsstring>()=0</argsstring>
+        <name>getFillMode</name>
+        <reimplementedby refid="classof_renderer_collection_1a3d04dc6a68993bed2e9044b9829b73f8">getFillMode</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a2e3ec897cb1c67bce8e99900c50cc8af">getFillMode</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ae4233d9a6b431f1a50118bc84ec414d7">getFillMode</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a46a712e72a2f812fdc7c6658ee29498d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setLineWidth</definition>
+        <argsstring>(float lineWidth)=0</argsstring>
+        <name>setLineWidth</name>
+        <reimplementedby refid="classof_renderer_collection_1a0165e4121b7fd166d0563366046014f1">setLineWidth</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1aa23662a69a84b60b645b0b732eb69796">setLineWidth</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a2d6b8de48998dc05fc023a3ca41ef135">setLineWidth</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a0bb776a37e221e48da6f75cffc6a3e8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setBlendMode</definition>
+        <argsstring>(ofBlendMode blendMode)=0</argsstring>
+        <name>setBlendMode</name>
+        <reimplementedby refid="classof_renderer_collection_1acb323c4a55fb32c3e84cb2d54949b2f2">setBlendMode</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ad17ae254ba8de9f79708149a78fc26eb">setBlendMode</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ac3c8e88601fd476d18f6165f8c7d318d">setBlendMode</reimplementedby>
+        <param>
+          <type><ref refid="of_constants_8h_1a5f194ae56b1bc61651eac7184ed1ad2e" kindref="member">ofBlendMode</ref></type>
+          <declname>blendMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1acbe8f9dee80dce144e225a60bbb1db77" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setLineSmoothing</definition>
+        <argsstring>(bool smooth)=0</argsstring>
+        <name>setLineSmoothing</name>
+        <reimplementedby refid="classof_renderer_collection_1a2c88c2af62cbe79bbad5ac6bbd80ffd9">setLineSmoothing</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a1901f46679555e72239d24807a269081">setLineSmoothing</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1af6f3b671e6583114c5589551915c3f94">setLineSmoothing</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>smooth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a0f3753a0264093b42a0a5b59359f5142" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setCircleResolution</definition>
+        <argsstring>(int res)</argsstring>
+        <name>setCircleResolution</name>
+        <reimplementedby refid="classof_renderer_collection_1afc948a9f1f9a025530731693157d3b0a">setCircleResolution</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a14db8e625b98e472a945bd6e9f7e19dc">setCircleResolution</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="330" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="330" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aba08589f0c9394a6a2fa89aa1b746a21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::enablePointSprites</definition>
+        <argsstring>()</argsstring>
+        <name>enablePointSprites</name>
+        <reimplementedby refid="classof_renderer_collection_1ae9d52e4565be0d80c54fc96f3d8b0933">enablePointSprites</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a8b1c399f9c11276a73c588aaf9f1a1de">enablePointSprites</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="331" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="331" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a78fd8d5b4864b1277fa8208c09d5d242" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::disablePointSprites</definition>
+        <argsstring>()</argsstring>
+        <name>disablePointSprites</name>
+        <reimplementedby refid="classof_renderer_collection_1a3ac870644ba4dce8f2d4b46796ad572e">disablePointSprites</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ab8d4e88def4a5b3300aab3ba1c597bc4">disablePointSprites</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="332" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="332" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aafcf166497ea6350488fe5ac22343c64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setColor</definition>
+        <argsstring>(int r, int g, int b)</argsstring>
+        <name>setColor</name>
+        <reimplementedby refid="classof_renderer_collection_1a716ce382e6ac92a64cc5d62c46cbc3d9">setColor</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1aae49df33ec0e2e50b192d02bc9254329">setColor</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a3c1195df49743118619b099a77a74a11">setColor</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="335" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="335" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aca859e4f28406b9b03b57accf389e8fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setColor</definition>
+        <argsstring>(int r, int g, int b, int a)</argsstring>
+        <name>setColor</name>
+        <reimplementedby refid="classof_renderer_collection_1ac7eb16d71c34915a020b45e66dbde7b2">setColor</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ae73b748777bf75fb64ed1d5f6f5db023">setColor</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a0ea5b1baf697b63cd38d9fe0e5ea88e8">setColor</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="336" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="336" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ad45d77dabb749bb04893dbf8b3a3d5d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setColor</definition>
+        <argsstring>(const ofColor &amp;color)</argsstring>
+        <name>setColor</name>
+        <reimplementedby refid="classof_renderer_collection_1a7af63c0b192fca3b52780884b812c11d">setColor</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a1cf81f64f592e2277b88bfeb5cbd6aa7">setColor</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a43aca9fa8ea97a1db2ed51c7b2b6b0d6">setColor</reimplementedby>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="337" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="337" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a144f56ef69c3a28a40a8c30a06c469cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setColor</definition>
+        <argsstring>(const ofColor &amp;color, int _a)</argsstring>
+        <name>setColor</name>
+        <reimplementedby refid="classof_renderer_collection_1aa825e39c553e6b7967fa7d1adb2a1a7c">setColor</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a0912699ae36ae6108f65e0c271a13b31">setColor</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a7d256ba490f4afc6214ca203b2750473">setColor</reimplementedby>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="338" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="338" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1ac22b7825c00c182594db54c0a936c274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setColor</definition>
+        <argsstring>(int gray)</argsstring>
+        <name>setColor</name>
+        <reimplementedby refid="classof_renderer_collection_1aa0841ea3dd7853753afe816a80c51cbc">setColor</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1aaf5079ce467b4741ee9beea895e09109">setColor</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a12b306db178d8ddca5c3976dbbd7956e">setColor</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>gray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="339" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="339" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a411219c793abfeca94161ad87ddaf8b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setHexColor</definition>
+        <argsstring>(int hexColor)</argsstring>
+        <name>setHexColor</name>
+        <reimplementedby refid="classof_renderer_collection_1aa701e4549e4597ba2c70a3b8ad9876a5">setHexColor</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a12eb0672c7053617129837077700fbe4">setHexColor</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1accb8795036878d6c3b32283b31746967">setHexColor</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="340" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="340" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a91919a80d1e097a2d2dd2cb9ffde155c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofFloatColor</ref> &amp;</type>
+        <definition>virtual ofFloatColor&amp; ofBaseRenderer::getBgColor</definition>
+        <argsstring>()=0</argsstring>
+        <name>getBgColor</name>
+        <reimplementedby refid="classof_renderer_collection_1a147997dc7ce238bca9bec801811f99a1">getBgColor</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a330c7be0c5952c535240e2f2220f1643">getBgColor</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ad93bea380ca109a60fa694786c3d53ea">getBgColor</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="343"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a0c1c62df5a7009190f48450b34a7be77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool ofBaseRenderer::bClearBg</definition>
+        <argsstring>()</argsstring>
+        <name>bClearBg</name>
+        <reimplementedby refid="classof_renderer_collection_1a45bfc8647080bf08f00473f11cbb3939">bClearBg</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1adbd43a9920495d686c9381e44c723c68">bClearBg</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a7948f0d1aa7c192b4cee992001536cb8">bClearBg</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="344" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="344" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1af31f3e9845f0e035ccbb9dd7be266760" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::background</definition>
+        <argsstring>(const ofColor &amp;c)</argsstring>
+        <name>background</name>
+        <reimplementedby refid="classof_renderer_collection_1a7c660859c37d6ce0d87ff287f0153a3b">background</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1afe6b29f670e797e1cab85562ae365372">background</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1af6e5ccbc3e326071a7cbc6ddc3396e5e">background</reimplementedby>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="345" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="345" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a1b4b07382a01d12f6a96d8d7c0ee2e36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::background</definition>
+        <argsstring>(float brightness)</argsstring>
+        <name>background</name>
+        <reimplementedby refid="classof_renderer_collection_1ad72e46c9c739c319cebef3cba720cdf2">background</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a55ee27e3f9b943c50d011ff5a038e995">background</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a85246318e21a701975ffb7653821c175">background</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="346" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="346" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aa55a1c7d2b1f3512c08ceb6d2c5ffb28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::background</definition>
+        <argsstring>(int hexColor, float _a=255.0f)</argsstring>
+        <name>background</name>
+        <reimplementedby refid="classof_renderer_collection_1a399467b010c7bffb8c68f6254cd1403b">background</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a8fa6a2ca6fdefd7008eb85cffef2447a">background</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a0ca4eb5d33451a27bc3ecfbee06ba8d4">background</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+          <defval>255.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="347" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="347" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a7c5bf8bb1e77ae1417da8b6e3c176437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::background</definition>
+        <argsstring>(int r, int g, int b, int a=255)</argsstring>
+        <name>background</name>
+        <reimplementedby refid="classof_renderer_collection_1abfad33e9148287de46953db0443d0d3d">background</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a1e21b211773d1dd77d668835f964e811">background</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ad83bc3d1980ee121f9936b0ef20207b1">background</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+          <defval>255</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="348" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="348" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a35571f83c83743277a5f3c602cb12745" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::setBackgroundAuto</definition>
+        <argsstring>(bool bManual)</argsstring>
+        <name>setBackgroundAuto</name>
+        <reimplementedby refid="classof_renderer_collection_1aa275d00cea2a518a86524ca275fd5d19">setBackgroundAuto</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a3c095b39a1fa8f7af272331c88a559c0">setBackgroundAuto</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a0e52b69e3652bf1d72e1736b52cc9886">setBackgroundAuto</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>bManual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="350" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="350" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a60e947dd7b5dcabe05fd9f73a070630d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::clear</definition>
+        <argsstring>(float r, float g, float b, float a=0)</argsstring>
+        <name>clear</name>
+        <reimplementedby refid="classof_renderer_collection_1a7940fb36045037c38c0a8706968735e2">clear</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a08f08fcdb8864fde81872d1f3b2308c9">clear</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ab0a453bcb7d5c7b981a0c01104735633">clear</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="352" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="352" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a74c432629b0ca9f3f2aabe4cd580b301" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::clear</definition>
+        <argsstring>(float brightness, float a=0)</argsstring>
+        <name>clear</name>
+        <reimplementedby refid="classof_renderer_collection_1a9b492380fb0424bb838c1a67d279b886">clear</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a475f7c41e13ffe154ed353c4b2e836e9">clear</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a6b2b684fb5450c3ac1e196927dac6be9">clear</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="353" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="353" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a36a81fdf10aeeef3f8e1279e34fd3d3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::clearAlpha</definition>
+        <argsstring>()</argsstring>
+        <name>clearAlpha</name>
+        <reimplementedby refid="classof_renderer_collection_1a5980b28671336d94afcf9a513c747797">clearAlpha</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1ad3a309e756af77fa962928018e1caeee">clearAlpha</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a9c39e468eb9116eeb69ea41676fbe68e">clearAlpha</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="354" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="354" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a88e533aef9bd60b8bbda790f9a9d67bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::drawLine</definition>
+        <argsstring>(float x1, float y1, float z1, float x2, float y2, float z2)=0</argsstring>
+        <name>drawLine</name>
+        <reimplementedby refid="classof_renderer_collection_1a6dd8837b75c9db536f1ae0fa5e48465b">drawLine</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1af8f5534e273d3e480e983e49cb25416b">drawLine</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1ad99745cf58b3d20fd4aa6a875f5b631c">drawLine</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a69581b0027e9c27b76acf1b947ace1a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::drawRectangle</definition>
+        <argsstring>(float x, float y, float z, float w, float h)=0</argsstring>
+        <name>drawRectangle</name>
+        <reimplementedby refid="classof_renderer_collection_1aa6bed8a7799f27fc5a301c3f362fcf26">drawRectangle</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a87ca38cd07aad94f36d3bc0aa9bab757">drawRectangle</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a4641d1dad06be90318f95bd134bd8070">drawRectangle</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1aaf947850edf68e5a92da374d4347492d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::drawTriangle</definition>
+        <argsstring>(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3)=0</argsstring>
+        <name>drawTriangle</name>
+        <reimplementedby refid="classof_renderer_collection_1a34aedb0a2eb0d855d1a96945e602559b">drawTriangle</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a7437fda0cc3291a4734c30d5215cb304">drawTriangle</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1aa6d9513ab328063dc0a13975ff0bf196">drawTriangle</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a9858e271b9a3e53c79a3e7b4b495ca93" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::drawCircle</definition>
+        <argsstring>(float x, float y, float z, float radius)=0</argsstring>
+        <name>drawCircle</name>
+        <reimplementedby refid="classof_renderer_collection_1a00e13ab5e85c771e8753563de38e3b49">drawCircle</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a92e52d81d4aee42ee2444a82bf85d748">drawCircle</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a8995251bacac0eca21a1586794f99dfc">drawCircle</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a71a1a82945587067107f6dbae14e95a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::drawEllipse</definition>
+        <argsstring>(float x, float y, float z, float width, float height)=0</argsstring>
+        <name>drawEllipse</name>
+        <reimplementedby refid="classof_renderer_collection_1a4f22b60a3a88f5aa23b3b15e685db047">drawEllipse</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a8641b0baf1a323a1371a025ecc844eb5">drawEllipse</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a38808615f4653987ca0cb206c727d800">drawEllipse</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1a29897c32df48511a61d32a1bf8ae614a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ofBaseRenderer::drawString</definition>
+        <argsstring>(string text, float x, float y, float z, ofDrawBitmapMode mode)=0</argsstring>
+        <name>drawString</name>
+        <reimplementedby refid="classof_renderer_collection_1a1393cf51a9b203b88dcedc2235fdb7da">drawString</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a686cd4854a5e1fb94a16386728d6c695">drawString</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a6f724c04b47a855d528e489d68054678">drawString</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a14966be842b99f71080a7444cebbc0b7" kindref="member">ofDrawBitmapMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_base_renderer_1abdaece01a43329ef7769615cd958b7e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ofBaseRenderer::rendersPathPrimitives</definition>
+        <argsstring>()=0</argsstring>
+        <name>rendersPathPrimitives</name>
+        <reimplementedby refid="classof_renderer_collection_1a0fea7627d79f0c77a8b101c4eb5bd577">rendersPathPrimitives</reimplementedby>
+        <reimplementedby refid="classof_cairo_renderer_1a933632be24a7f9ee8175c3660a263c24">rendersPathPrimitives</reimplementedby>
+        <reimplementedby refid="classof_g_l_renderer_1a34735b5f64b528d0f3103a5e37103b45">rendersPathPrimitives</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="366"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="108">
+        <label>ofCairoRenderer</label>
+        <link refid="classof_cairo_renderer"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>ofRendererCollection</label>
+        <link refid="classof_renderer_collection"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>ofBaseRenderer</label>
+        <link refid="classof_base_renderer"/>
+      </node>
+      <node id="109">
+        <label>ofGLRenderer</label>
+        <link refid="classof_g_l_renderer"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" line="270" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h" bodystart="270" bodyend="367"/>
+    <listofallmembers>
+      <member refid="classof_base_renderer_1af31f3e9845f0e035ccbb9dd7be266760" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>background</name></member>
+      <member refid="classof_base_renderer_1a1b4b07382a01d12f6a96d8d7c0ee2e36" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>background</name></member>
+      <member refid="classof_base_renderer_1aa55a1c7d2b1f3512c08ceb6d2c5ffb28" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>background</name></member>
+      <member refid="classof_base_renderer_1a7c5bf8bb1e77ae1417da8b6e3c176437" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>background</name></member>
+      <member refid="classof_base_renderer_1a0c1c62df5a7009190f48450b34a7be77" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>bClearBg</name></member>
+      <member refid="classof_base_renderer_1a60e947dd7b5dcabe05fd9f73a070630d" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>clear</name></member>
+      <member refid="classof_base_renderer_1a74c432629b0ca9f3f2aabe4cd580b301" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>clear</name></member>
+      <member refid="classof_base_renderer_1a36a81fdf10aeeef3f8e1279e34fd3d3e" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>clearAlpha</name></member>
+      <member refid="classof_base_renderer_1a78fd8d5b4864b1277fa8208c09d5d242" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>disablePointSprites</name></member>
+      <member refid="classof_base_renderer_1afffdfdf65fd5f954a2a4e264e6bc40a8" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>draw</name></member>
+      <member refid="classof_base_renderer_1ab5a8c1dfe33aa369a84860087dd286ec" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>draw</name></member>
+      <member refid="classof_base_renderer_1abeae3ce1e1502182cbeadb5414b2ecc4" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>draw</name></member>
+      <member refid="classof_base_renderer_1a5e8c241c15e444b3929cd5f9ebdb2ef3" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>draw</name></member>
+      <member refid="classof_base_renderer_1a7884c6bf187a0449ce3aa8052c6056bc" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>draw</name></member>
+      <member refid="classof_base_renderer_1a118fa7be01237fd13d01a7db526e67e0" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>draw</name></member>
+      <member refid="classof_base_renderer_1ab4c38d47ee2af391352147684a79a691" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>draw</name></member>
+      <member refid="classof_base_renderer_1ae29929dc33a2f803c8258bc7e48d7f18" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>draw</name></member>
+      <member refid="classof_base_renderer_1a9858e271b9a3e53c79a3e7b4b495ca93" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>drawCircle</name></member>
+      <member refid="classof_base_renderer_1a71a1a82945587067107f6dbae14e95a6" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>drawEllipse</name></member>
+      <member refid="classof_base_renderer_1a88e533aef9bd60b8bbda790f9a9d67bf" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>drawLine</name></member>
+      <member refid="classof_base_renderer_1a69581b0027e9c27b76acf1b947ace1a9" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>drawRectangle</name></member>
+      <member refid="classof_base_renderer_1a29897c32df48511a61d32a1bf8ae614a" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>drawString</name></member>
+      <member refid="classof_base_renderer_1aaf947850edf68e5a92da374d4347492d" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>drawTriangle</name></member>
+      <member refid="classof_base_renderer_1aba08589f0c9394a6a2fa89aa1b746a21" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>enablePointSprites</name></member>
+      <member refid="classof_base_renderer_1a91919a80d1e097a2d2dd2cb9ffde155c" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>getBgColor</name></member>
+      <member refid="classof_base_renderer_1ad5f5cd75cc18f229a9fdae1e352b71db" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>getCoordHandedness</name></member>
+      <member refid="classof_base_renderer_1a6c143444f0f3db1982a19abbc4777ddd" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>getCurrentViewport</name></member>
+      <member refid="classof_base_renderer_1aa840440af71eb0663f2943d48df00360" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>getFillMode</name></member>
+      <member refid="classof_base_renderer_1a08d589a5bdf58fe755604a3500b5d171" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>getRectMode</name></member>
+      <member refid="classof_base_renderer_1ab04ab2e86135ab95b598f2d9c4929e7c" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>getType</name></member>
+      <member refid="classof_base_renderer_1a026faf25094809f38e9d0eab2f7e09b6" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>getViewportHeight</name></member>
+      <member refid="classof_base_renderer_1abef959b1493b9f2ccaaf00a8a75d6218" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>getViewportWidth</name></member>
+      <member refid="classof_base_renderer_1a33dfe4df5c05128e0a965b1e445ceb9a" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>popMatrix</name></member>
+      <member refid="classof_base_renderer_1a99baa88fbb41b5cb57ae7d6a670738c1" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>popView</name></member>
+      <member refid="classof_base_renderer_1ab8023e1f20a975cbc5480afb30d78fec" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>pushMatrix</name></member>
+      <member refid="classof_base_renderer_1a83e111dfc4a5743f3bdc263e92b99682" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>pushView</name></member>
+      <member refid="classof_base_renderer_1abdaece01a43329ef7769615cd958b7e2" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>rendersPathPrimitives</name></member>
+      <member refid="classof_base_renderer_1a76ea3a2691d80054696f41aa7069231d" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>rotate</name></member>
+      <member refid="classof_base_renderer_1a54e1bb2754e2764301ac3a7de13852d1" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>rotate</name></member>
+      <member refid="classof_base_renderer_1ac52830fd0ab1f62f9f094f9501156fee" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>rotateX</name></member>
+      <member refid="classof_base_renderer_1aeb7dd85ce856ff9510f6bc0159ba834f" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>rotateY</name></member>
+      <member refid="classof_base_renderer_1acbbd19ddcddf7118d8e5d501054a706e" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>rotateZ</name></member>
+      <member refid="classof_base_renderer_1aa90785f6afb56f9918523630319394f8" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>scale</name></member>
+      <member refid="classof_base_renderer_1a35571f83c83743277a5f3c602cb12745" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setBackgroundAuto</name></member>
+      <member refid="classof_base_renderer_1a0bb776a37e221e48da6f75cffc6a3e8c" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>setBlendMode</name></member>
+      <member refid="classof_base_renderer_1a0f3753a0264093b42a0a5b59359f5142" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setCircleResolution</name></member>
+      <member refid="classof_base_renderer_1aafcf166497ea6350488fe5ac22343c64" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setColor</name></member>
+      <member refid="classof_base_renderer_1aca859e4f28406b9b03b57accf389e8fe" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setColor</name></member>
+      <member refid="classof_base_renderer_1ad45d77dabb749bb04893dbf8b3a3d5d3" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setColor</name></member>
+      <member refid="classof_base_renderer_1a144f56ef69c3a28a40a8c30a06c469cb" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setColor</name></member>
+      <member refid="classof_base_renderer_1ac22b7825c00c182594db54c0a936c274" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setColor</name></member>
+      <member refid="classof_base_renderer_1ab4501fbf80f10f4e6ab0d59a890e4117" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setCoordHandedness</name></member>
+      <member refid="classof_base_renderer_1a15a68864b7da753c0415490942caa76b" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>setFillMode</name></member>
+      <member refid="classof_base_renderer_1a411219c793abfeca94161ad87ddaf8b6" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setHexColor</name></member>
+      <member refid="classof_base_renderer_1acbe8f9dee80dce144e225a60bbb1db77" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>setLineSmoothing</name></member>
+      <member refid="classof_base_renderer_1a46a712e72a2f812fdc7c6658ee29498d" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>setLineWidth</name></member>
+      <member refid="classof_base_renderer_1a86513eb142468db2878d815068a7de2a" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>setRectMode</name></member>
+      <member refid="classof_base_renderer_1a50d914b89a78f918e419771a1ce4a72e" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setupGraphicDefaults</name></member>
+      <member refid="classof_base_renderer_1a951bece465546fee7e5006bd76338bfa" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setupScreen</name></member>
+      <member refid="classof_base_renderer_1a78aaffdae40b4a568b011171fc8556a6" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setupScreenOrtho</name></member>
+      <member refid="classof_base_renderer_1aefb98b7ef168dbff450f6054bf00d406" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>setupScreenPerspective</name></member>
+      <member refid="classof_base_renderer_1a82bc2ad661caabd15f9ee7888a6e3f61" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>translate</name></member>
+      <member refid="classof_base_renderer_1abc3f59783eb1af3d88e94e026652d0f3" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>translate</name></member>
+      <member refid="classof_base_renderer_1af6c14407372ca754bb0112bb0874dc57" prot="public" virt="pure-virtual"><scope>ofBaseRenderer</scope><name>update</name></member>
+      <member refid="classof_base_renderer_1affffe2c452504484f1e465f16893ab60" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>viewport</name></member>
+      <member refid="classof_base_renderer_1a300bd8d884c882a8ae3539367b0b7d9f" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>viewport</name></member>
+      <member refid="classof_base_renderer_1a162ef56f1fa1ee5e245c47c24c76a54e" prot="public" virt="virtual"><scope>ofBaseRenderer</scope><name>~ofBaseRenderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

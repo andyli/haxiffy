@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_gst_video_grabber" kind="class" prot="public">
+    <compoundname>ofGstVideoGrabber</compoundname>
+    <basecompoundref refid="classof_base_video_grabber" prot="public" virt="non-virtual">ofBaseVideoGrabber</basecompoundref>
+    <includes refid="of_gst_video_grabber_8h" local="no">ofGstVideoGrabber.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_gst_video_grabber_1a65dbe953510a6ea3d6094b58f12840de" prot="private" static="no" mutable="no">
+        <type><ref refid="structof_gst_cam_data" kindref="compound">ofGstCamData</ref></type>
+        <definition>ofGstCamData ofGstVideoGrabber::camData</definition>
+        <argsstring></argsstring>
+        <name>camData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="61" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_grabber_1a66fc242ced4ce196cbca92afdd20ca65" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstVideoGrabber::bIsCamera</definition>
+        <argsstring></argsstring>
+        <name>bIsCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="62" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_grabber_1afe7c8e2954eab762515b099dcd75413d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofGstVideoGrabber::attemptFramerate</definition>
+        <argsstring></argsstring>
+        <name>attemptFramerate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="63" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_grabber_1a9ee7a22907f7cb3645ee76a80286b266" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofGstVideoGrabber::deviceID</definition>
+        <argsstring></argsstring>
+        <name>deviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_grabber_1a0ca7e279cf6c461613535e4cfda4edbe" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+        <definition>ofPixelFormat ofGstVideoGrabber::internalPixelFormat</definition>
+        <argsstring></argsstring>
+        <name>internalPixelFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="65" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_video_grabber_1a757a156ed62a6704d2a935340666df37" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_gst_video_utils" kindref="compound">ofGstVideoUtils</ref></type>
+        <definition>ofGstVideoUtils ofGstVideoGrabber::videoUtils</definition>
+        <argsstring></argsstring>
+        <name>videoUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="66" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_gst_video_grabber_1a7d2490075151f6a65f70462a9f5b7fbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofGstVideoGrabber::ofGstVideoGrabber</definition>
+        <argsstring>()</argsstring>
+        <name>ofGstVideoGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1ada6936b978359779b52eca47cc6e9113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofGstVideoGrabber::~ofGstVideoGrabber</definition>
+        <argsstring>()</argsstring>
+        <name>~ofGstVideoGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a627db28d07be7a1470d21d6574289143" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoGrabber::setPixelFormat</definition>
+        <argsstring>(ofPixelFormat pixelFormat)</argsstring>
+        <name>setPixelFormat</name>
+        <reimplements refid="classof_base_video_grabber_1ac3bea58983a64528ba6ba7473d17eafe">setPixelFormat</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+<para>needs to be called before initGrabber </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1abac46aa81c7a50386398f9f358615c8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoGrabber::videoSettings</definition>
+        <argsstring>()</argsstring>
+        <name>videoSettings</name>
+        <reimplements refid="classof_base_video_grabber_1ab3601be3ab4dc5fed812916e2c3cdc1b">videoSettings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="38" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1ab21f6214be63c89a9ae75562ff9bf7a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoGrabber::listDevices</definition>
+        <argsstring>()</argsstring>
+        <name>listDevices</name>
+        <reimplements refid="classof_base_video_grabber_1a0ee487203961b1d6b635598a181a9835">listDevices</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a2d9434f03798a7217f20d98555130fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoGrabber::setDeviceID</definition>
+        <argsstring>(int id)</argsstring>
+        <name>setDeviceID</name>
+        <reimplements refid="classof_base_video_grabber_1aa38de069285824287a24a7a5680f6ab4">setDeviceID</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a02aeaf88681b341faa1580873a1a273b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoGrabber::setDesiredFrameRate</definition>
+        <argsstring>(int framerate)</argsstring>
+        <name>setDesiredFrameRate</name>
+        <reimplements refid="classof_base_video_grabber_1acfd1ec20c5ad349c4c611e1f55dfb3b5">setDesiredFrameRate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>framerate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a6450e8b568e28e8d5f0559230606ee14" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofGstVideoGrabber::initGrabber</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>initGrabber</name>
+        <reimplements refid="classof_base_video_grabber_1a7dc4e14ca5c1bf64f6c9ef49fff421e3">initGrabber</reimplements>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a221290453f8283bf8b4542833c8d10e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoGrabber::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_video_grabber_1afa0adff5581f2aeb2f2973a5686097de">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1af3edeb02c89e43dc4ad0a02b376d4a07" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofGstVideoGrabber::isFrameNew</definition>
+        <argsstring>()</argsstring>
+        <name>isFrameNew</name>
+        <reimplements refid="classof_base_video_grabber_1a49571efac6ac055c07b5147e15a98643">isFrameNew</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a28ddc9db5e4a9b968971b63710455766" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char* ofGstVideoGrabber::getPixels</definition>
+        <argsstring>()</argsstring>
+        <name>getPixels</name>
+        <reimplements refid="classof_base_video_grabber_1a7a9d9dc85963036f16d937cee730f654">getPixels</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a82629d46c4013b68ff18203d62a1f85f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref></type>
+        <definition>ofPixelsRef ofGstVideoGrabber::getPixelsRef</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelsRef</name>
+        <reimplements refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45">getPixelsRef</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1ab6aa141cd4c31cfce96230d19539bb37" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofGstVideoGrabber::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplements refid="classof_base_video_grabber_1adc370b3e10351d456a70c3097e5a25bd">getHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a7fd170dd9f1f740c0c344f9db348f1f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofGstVideoGrabber::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplements refid="classof_base_video_grabber_1a92e4e75c73b92c7eb3da31cdfbf9927e">getWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1aba7ede0a638a3f61c628f86f4e409406" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoGrabber::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_video_grabber_1a8c7237c2cf5d2aac261d37a0fc22a2a3">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1aeb63237b2af0546d49cccc6a7269e2ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofGstVideoGrabber::setVerbose</definition>
+        <argsstring>(bool bVerbose)</argsstring>
+        <name>setVerbose</name>
+        <reimplements refid="classof_base_video_grabber_1a16805cae9b0c71b209b2dba9d99ce5f7">setVerbose</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bVerbose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_video_grabber_1a3518f02084944cb76c900fb9e1a7ae31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_gst_video_utils" kindref="compound">ofGstVideoUtils</ref> *</type>
+        <definition>ofGstVideoUtils* ofGstVideoGrabber::getGstVideoUtils</definition>
+        <argsstring>()</argsstring>
+        <name>getGstVideoUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_gst_video_grabber_1a6674f40f34447709fdfc42ebac9e7133" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structof_gst_video_format" kindref="compound">ofGstVideoFormat</ref> &amp;</type>
+        <definition>ofGstVideoFormat&amp; ofGstVideoGrabber::selectFormat</definition>
+        <argsstring>(int w, int h, int desired_framerate)</argsstring>
+        <name>selectFormat</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>desired_framerate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="327">
+        <label>ofGstVideoGrabber</label>
+        <link refid="classof_gst_video_grabber"/>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="329">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="330" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="328">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="333">
+        <label>ofGstVideoGrabber</label>
+        <link refid="classof_gst_video_grabber"/>
+        <childnode refid="334" relation="public-inheritance">
+        </childnode>
+        <childnode refid="339" relation="usage">
+          <edgelabel>videoUtils</edgelabel>
+        </childnode>
+        <childnode refid="343" relation="usage">
+          <edgelabel>camData</edgelabel>
+        </childnode>
+      </node>
+      <node id="336">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="341">
+        <label>ofGstAppSink</label>
+        <link refid="classof_gst_app_sink"/>
+      </node>
+      <node id="335">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="338" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="334">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="340">
+        <label>ofGstUtils</label>
+        <link refid="classof_gst_utils"/>
+        <childnode refid="341" relation="usage">
+          <edgelabel>appsink</edgelabel>
+        </childnode>
+      </node>
+      <node id="343">
+        <label>ofGstCamData</label>
+        <link refid="structof_gst_cam_data"/>
+      </node>
+      <node id="342">
+        <label>ofPixels_&lt; unsigned char &gt;</label>
+        <link refid="classof_pixels__"/>
+      </node>
+      <node id="339">
+        <label>ofGstVideoUtils</label>
+        <link refid="classof_gst_video_utils"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+        <childnode refid="340" relation="public-inheritance">
+        </childnode>
+        <childnode refid="342" relation="usage">
+          <edgelabel>backPixels</edgelabel>
+          <edgelabel>pixels</edgelabel>
+        </childnode>
+      </node>
+      <node id="337">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstVideoGrabber.h" bodystart="31" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classof_gst_video_grabber_1afe7c8e2954eab762515b099dcd75413d" prot="private" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>attemptFramerate</name></member>
+      <member refid="classof_gst_video_grabber_1a66fc242ced4ce196cbca92afdd20ca65" prot="private" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>bIsCamera</name></member>
+      <member refid="classof_gst_video_grabber_1a65dbe953510a6ea3d6094b58f12840de" prot="private" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>camData</name></member>
+      <member refid="classof_gst_video_grabber_1aba7ede0a638a3f61c628f86f4e409406" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>close</name></member>
+      <member refid="classof_gst_video_grabber_1a9ee7a22907f7cb3645ee76a80286b266" prot="private" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>deviceID</name></member>
+      <member refid="classof_gst_video_grabber_1a3518f02084944cb76c900fb9e1a7ae31" prot="public" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>getGstVideoUtils</name></member>
+      <member refid="classof_gst_video_grabber_1ab6aa141cd4c31cfce96230d19539bb37" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>getHeight</name></member>
+      <member refid="classof_base_video_grabber_1a366ed68409e1851f4871cb873ef076b5" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>getPixelFormat</name></member>
+      <member refid="classof_gst_video_grabber_1a28ddc9db5e4a9b968971b63710455766" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>getPixels</name></member>
+      <member refid="classof_gst_video_grabber_1a82629d46c4013b68ff18203d62a1f85f" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>getPixelsRef</name></member>
+      <member refid="classof_gst_video_grabber_1a7fd170dd9f1f740c0c344f9db348f1f8" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>getWidth</name></member>
+      <member refid="classof_gst_video_grabber_1a6450e8b568e28e8d5f0559230606ee14" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>initGrabber</name></member>
+      <member refid="classof_gst_video_grabber_1a0ca7e279cf6c461613535e4cfda4edbe" prot="private" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>internalPixelFormat</name></member>
+      <member refid="classof_gst_video_grabber_1af3edeb02c89e43dc4ad0a02b376d4a07" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>isFrameNew</name></member>
+      <member refid="classof_gst_video_grabber_1ab21f6214be63c89a9ae75562ff9bf7a8" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>listDevices</name></member>
+      <member refid="classof_gst_video_grabber_1a7d2490075151f6a65f70462a9f5b7fbd" prot="public" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>ofGstVideoGrabber</name></member>
+      <member refid="classof_gst_video_grabber_1a6674f40f34447709fdfc42ebac9e7133" prot="private" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>selectFormat</name></member>
+      <member refid="classof_gst_video_grabber_1a02aeaf88681b341faa1580873a1a273b" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>setDesiredFrameRate</name></member>
+      <member refid="classof_gst_video_grabber_1a2d9434f03798a7217f20d98555130fa3" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>setDeviceID</name></member>
+      <member refid="classof_gst_video_grabber_1a627db28d07be7a1470d21d6574289143" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>setPixelFormat</name></member>
+      <member refid="classof_gst_video_grabber_1aeb63237b2af0546d49cccc6a7269e2ea" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>setVerbose</name></member>
+      <member refid="classof_gst_video_grabber_1a221290453f8283bf8b4542833c8d10e9" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>update</name></member>
+      <member refid="classof_gst_video_grabber_1abac46aa81c7a50386398f9f358615c8b" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>videoSettings</name></member>
+      <member refid="classof_gst_video_grabber_1a757a156ed62a6704d2a935340666df37" prot="private" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>videoUtils</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_updates_1a48cbac34caf49b4b72092888a7e63b27" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>~ofBaseUpdates</name></member>
+      <member refid="classof_base_video_1af8004a840c98637ba7572b2c34bbc249" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>~ofBaseVideo</name></member>
+      <member refid="classof_base_video_grabber_1a75e74f70959698d0800e960ccc525be7" prot="public" virt="virtual"><scope>ofGstVideoGrabber</scope><name>~ofBaseVideoGrabber</name></member>
+      <member refid="classof_gst_video_grabber_1ada6936b978359779b52eca47cc6e9113" prot="public" virt="non-virtual"><scope>ofGstVideoGrabber</scope><name>~ofGstVideoGrabber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

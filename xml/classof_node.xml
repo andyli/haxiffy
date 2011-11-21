@@ -1,0 +1,1256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_node" kind="class" prot="public">
+    <compoundname>ofNode</compoundname>
+    <derivedcompoundref refid="classof_camera" prot="public" virt="non-virtual">ofCamera</derivedcompoundref>
+    <derivedcompoundref refid="classof_light" prot="public" virt="non-virtual">ofLight</derivedcompoundref>
+    <includes refid="of_node_8h" local="no">ofNode.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_node_1a9fa60edff25434ada1671e837335fbdf" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_node" kindref="compound">ofNode</ref> *</type>
+        <definition>ofNode* ofNode::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="153" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_node_1a3516dcbd529eaaadc3bf55fee7cb9290" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="164" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_node_1aa45fbbeaded3f11742c376a8675e3a22" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>ofQuaternion ofNode::orientation</definition>
+        <argsstring></argsstring>
+        <name>orientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="165" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_node_1aaeb90132d65152488c965aa5844401ac" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="166" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_node_1a07fbb2b1c1f0081746e25c4a5f95de04" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::axis[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="168" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_node_1a6d26d25d71ce8febf7646e692a0ffe0f" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofNode::localTransformMatrix</definition>
+        <argsstring></argsstring>
+        <name>localTransformMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="170" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_node_1aa2b223ca1f8560ef193eb7bde666d758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofNode::ofNode</definition>
+        <argsstring>()</argsstring>
+        <name>ofNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ad0f916a28a08c95064e89bdc5131b923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ofNode::~ofNode</definition>
+        <argsstring>()</argsstring>
+        <name>~ofNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="25" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a17c41e855157cc8b896db24f8ba50201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setParent</definition>
+        <argsstring>(ofNode &amp;parent)</argsstring>
+        <name>setParent</name>
+        <param>
+          <type><ref refid="classof_node" kindref="compound">ofNode</ref> &amp;</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1abab3151dc3a440a630f5782eda3e3111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::clearParent</definition>
+        <argsstring>()</argsstring>
+        <name>clearParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a96575a8e5ecdb143438f33c0583ccbd0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_node" kindref="compound">ofNode</ref> *</type>
+        <definition>ofNode* ofNode::getParent</definition>
+        <argsstring>() const </argsstring>
+        <name>getParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a89350f61b536e5f64dc13682a6aee97d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getPosition</definition>
+        <argsstring>() const </argsstring>
+        <name>getPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a819b96492b11250d5682e7853c5b753c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNode::getX</definition>
+        <argsstring>() const </argsstring>
+        <name>getX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a1177cd7d07224c3690a4364684f1719f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNode::getY</definition>
+        <argsstring>() const </argsstring>
+        <name>getY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1aad7aed0da357927a7bfa1c5669fd9e64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNode::getZ</definition>
+        <argsstring>() const </argsstring>
+        <name>getZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a75af589eae2b502216acad4668edf43b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getXAxis</definition>
+        <argsstring>() const </argsstring>
+        <name>getXAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a6bf67ed85db5017a37aba4e3262e914a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getYAxis</definition>
+        <argsstring>() const </argsstring>
+        <name>getYAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1aecfc7c45671b9bb4757821e3a10dccb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getZAxis</definition>
+        <argsstring>() const </argsstring>
+        <name>getZAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1aaa10e7761bcbfc1c504c6312c52f833a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getSideDir</definition>
+        <argsstring>() const </argsstring>
+        <name>getSideDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a884d1b02034ac8822415bbb43ac4dd5f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getLookAtDir</definition>
+        <argsstring>() const </argsstring>
+        <name>getLookAtDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ae24a97f7de20c48a5f75d82fb12577cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getUpDir</definition>
+        <argsstring>() const </argsstring>
+        <name>getUpDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a4f52fa48348f59307623c7a7bb4ef59f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNode::getPitch</definition>
+        <argsstring>() const </argsstring>
+        <name>getPitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a91b332c93dd0da7c289ffcc95ccc5a46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNode::getHeading</definition>
+        <argsstring>() const </argsstring>
+        <name>getHeading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a0336b1426c2bc493bc15a7093fb35b5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofNode::getRoll</definition>
+        <argsstring>() const </argsstring>
+        <name>getRoll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ae8ca41c6f9eac9a64d7c19a6811f66b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>ofQuaternion ofNode::getOrientationQuat</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrientationQuat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a105586cd87594a6ab0841e39f474e70e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getOrientationEuler</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrientationEuler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a7dd2e9bbcc2c8ce02317892b40793a0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getScale</definition>
+        <argsstring>() const </argsstring>
+        <name>getScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a29a4cda17e24a56f5aa1933dea05af86" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+        <definition>const ofMatrix4x4&amp; ofNode::getLocalTransformMatrix</definition>
+        <argsstring>() const </argsstring>
+        <name>getLocalTransformMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a78a98aca9e6d389ae4918ad9783f3bf7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref></type>
+        <definition>ofMatrix4x4 ofNode::getGlobalTransformMatrix</definition>
+        <argsstring>() const </argsstring>
+        <name>getGlobalTransformMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a4ad665eca93ee00d506d0c663d6dcddd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofNode::getGlobalPosition</definition>
+        <argsstring>() const </argsstring>
+        <name>getGlobalPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a427fce44ef9e64b50c223a42d057a700" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>ofQuaternion ofNode::getGlobalOrientation</definition>
+        <argsstring>() const </argsstring>
+        <name>getGlobalOrientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1aee04a17c179cb45f7e03f8518be8d0ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setTransformMatrix</definition>
+        <argsstring>(const ofMatrix4x4 &amp;m44)</argsstring>
+        <name>setTransformMatrix</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>m44</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a6f5733da97701638ec9e089016d0381a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setPosition</definition>
+        <argsstring>(float px, float py, float pz)</argsstring>
+        <name>setPosition</name>
+        <param>
+          <type>float</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>py</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ae55d7884cc7193538fddd8071f533379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setPosition</definition>
+        <argsstring>(const ofVec3f &amp;p)</argsstring>
+        <name>setPosition</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a72d4e80f9e3cc5356860669be45076e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setGlobalPosition</definition>
+        <argsstring>(float px, float py, float pz)</argsstring>
+        <name>setGlobalPosition</name>
+        <param>
+          <type>float</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>py</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a639c866edf3aac3192713dfcdbb2e992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setGlobalPosition</definition>
+        <argsstring>(const ofVec3f &amp;p)</argsstring>
+        <name>setGlobalPosition</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a732a883de750dcd157ba03a7a9432f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setOrientation</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>setOrientation</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a7e7460d86348bc31837271fe30e74b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setOrientation</definition>
+        <argsstring>(const ofVec3f &amp;eulerAngles)</argsstring>
+        <name>setOrientation</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>eulerAngles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ac888a4aabc97bdfa86114079dcdf4832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setGlobalOrientation</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>setGlobalOrientation</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a29db49b22f24505ca352ad90a0d9ffd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setScale</definition>
+        <argsstring>(float s)</argsstring>
+        <name>setScale</name>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a1edc7d654f34143e14a88423dce97c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setScale</definition>
+        <argsstring>(float sx, float sy, float sz)</argsstring>
+        <name>setScale</name>
+        <param>
+          <type>float</type>
+          <declname>sx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a0dc74f803d307c24e08b2e163295287b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::setScale</definition>
+        <argsstring>(const ofVec3f &amp;s)</argsstring>
+        <name>setScale</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a89949bfa32613379f65466be7514032a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::move</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>move</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a2c9fe659a2f8a45336d5ec385e7442ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::move</definition>
+        <argsstring>(const ofVec3f &amp;offset)</argsstring>
+        <name>move</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a61fcc8f30420847847f62873a47cca8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::truck</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>truck</name>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ad030cd8c55b9df3dbf2786347f62ad3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::boom</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>boom</name>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a8ab940d4c166064c8b2e3b4ab237917c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::dolly</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>dolly</name>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a674ca0b1cb71f609fadf8dba79106a72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::tilt</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>tilt</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ad8f671a39235404984fb84da35dd93ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::pan</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>pan</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a6eabc08d0e5ec0f8e7b6d2931531e400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::roll</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>roll</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a1334bc48d4dbbc8d769ce42ee82fdf96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::rotate</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ae5d336038ea9a78223218183bbc446f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::rotate</definition>
+        <argsstring>(float degrees, const ofVec3f &amp;v)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a567e36b8f19965cb37b093283f7fcf09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::rotate</definition>
+        <argsstring>(float degrees, float vx, float vy, float vz)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a084b6a9cc56ae474be007ba4595c471d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::rotateAround</definition>
+        <argsstring>(const ofQuaternion &amp;q, const ofVec3f &amp;point)</argsstring>
+        <name>rotateAround</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a99683f424fc89553cfbdab53d52a1e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::rotateAround</definition>
+        <argsstring>(float degrees, const ofVec3f &amp;axis, const ofVec3f &amp;point)</argsstring>
+        <name>rotateAround</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a039b31630ea3fc3718da43e23ecd7ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::lookAt</definition>
+        <argsstring>(const ofVec3f &amp;lookAtPosition, ofVec3f upVector=ofVec3f(0, 1, 0))</argsstring>
+        <name>lookAt</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>lookAtPosition</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+          <declname>upVector</declname>
+          <defval><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref>(0, 1, 0)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ae0314a8226b1d1acbe4ac0ca6c48ae37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::lookAt</definition>
+        <argsstring>(ofNode &amp;lookAtNode, const ofVec3f &amp;upVector=ofVec3f(0, 1, 0))</argsstring>
+        <name>lookAt</name>
+        <param>
+          <type><ref refid="classof_node" kindref="compound">ofNode</ref> &amp;</type>
+          <declname>lookAtNode</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>upVector</declname>
+          <defval><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref>(0, 1, 0)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a2a0989e1ed10fcbfea932ea305f064c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::orbit</definition>
+        <argsstring>(float longitude, float latitude, float radius, const ofVec3f &amp;centerPoint=ofVec3f(0, 0, 0))</argsstring>
+        <name>orbit</name>
+        <param>
+          <type>float</type>
+          <declname>longitude</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>latitude</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>centerPoint</declname>
+          <defval><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref>(0, 0, 0)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a8d0f25fffcba51783c5c9d53d87c4f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::orbit</definition>
+        <argsstring>(float longitude, float latitude, float radius, ofNode &amp;centerNode)</argsstring>
+        <name>orbit</name>
+        <param>
+          <type>float</type>
+          <declname>longitude</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>latitude</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_node" kindref="compound">ofNode</ref> &amp;</type>
+          <declname>centerNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1af5fc70fbfb7826ebca9ae9eaa7653db8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::transformGL</definition>
+        <argsstring>() const </argsstring>
+        <name>transformGL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a9d09e55a671dae12c64b18215f2cd08c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::restoreTransformGL</definition>
+        <argsstring>() const </argsstring>
+        <name>restoreTransformGL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1ace344f081aa534670949ae9e03374626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::resetTransform</definition>
+        <argsstring>()</argsstring>
+        <name>resetTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a82804cbe87f3bce8a5d2d2b89dce5e71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofNode::customDraw</definition>
+        <argsstring>()</argsstring>
+        <name>customDraw</name>
+        <reimplementedby refid="classof_light_1a12be889562efa4d3a7f1866a433fe325">customDraw</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="141" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a13c85ec24bc0244ee7e32be7a63f2561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="150"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_node_1a7619a7cabd3690c782ad10cc13093074" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNode::createMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>createMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1aa31b92a732d3258f15c730ec8106273c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofNode::onPositionChanged</definition>
+        <argsstring>()</argsstring>
+        <name>onPositionChanged</name>
+        <reimplementedby refid="classof_light_1a3c9b1cc94062da760ac6c0a98c559e15">onPositionChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="159" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a423c1683913adf900cf8602b55361275" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofNode::onOrientationChanged</definition>
+        <argsstring>()</argsstring>
+        <name>onOrientationChanged</name>
+        <reimplementedby refid="classof_light_1a7e98265cd062457b35363232e7603119">onOrientationChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="160" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_node_1a8e851ac0a96a9348d85e365e1e7c71be" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofNode::onScaleChanged</definition>
+        <argsstring>()</argsstring>
+        <name>onScaleChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="161" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="487">
+        <label>ofNode</label>
+        <link refid="classof_node"/>
+      </node>
+      <node id="489">
+        <label>ofEasyCam</label>
+        <link refid="classof_easy_cam"/>
+        <childnode refid="488" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="488">
+        <label>ofCamera</label>
+        <link refid="classof_camera"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="490">
+        <label>ofLight</label>
+        <link refid="classof_light"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="493">
+        <label>ofVec4f</label>
+        <link refid="classof_vec4f"/>
+      </node>
+      <node id="495">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="491">
+        <label>ofNode</label>
+        <link refid="classof_node"/>
+        <childnode refid="492" relation="usage">
+          <edgelabel>orientation</edgelabel>
+        </childnode>
+        <childnode refid="491" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+        <childnode refid="494" relation="usage">
+          <edgelabel>localTransformMatrix</edgelabel>
+        </childnode>
+        <childnode refid="495" relation="usage">
+          <edgelabel>scale</edgelabel>
+          <edgelabel>position</edgelabel>
+          <edgelabel>axis</edgelabel>
+        </childnode>
+      </node>
+      <node id="492">
+        <label>ofQuaternion</label>
+        <link refid="classof_quaternion"/>
+        <childnode refid="493" relation="usage">
+          <edgelabel>_v</edgelabel>
+        </childnode>
+      </node>
+      <node id="494">
+        <label>ofMatrix4x4</label>
+        <link refid="classof_matrix4x4"/>
+        <childnode refid="493" relation="usage">
+          <edgelabel>_mat</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofNode.h" bodystart="22" bodyend="172"/>
+    <listofallmembers>
+      <member refid="classof_node_1a07fbb2b1c1f0081746e25c4a5f95de04" prot="private" virt="non-virtual"><scope>ofNode</scope><name>axis</name></member>
+      <member refid="classof_node_1ad030cd8c55b9df3dbf2786347f62ad3b" prot="public" virt="non-virtual"><scope>ofNode</scope><name>boom</name></member>
+      <member refid="classof_node_1abab3151dc3a440a630f5782eda3e3111" prot="public" virt="non-virtual"><scope>ofNode</scope><name>clearParent</name></member>
+      <member refid="classof_node_1a7619a7cabd3690c782ad10cc13093074" prot="protected" virt="non-virtual"><scope>ofNode</scope><name>createMatrix</name></member>
+      <member refid="classof_node_1a82804cbe87f3bce8a5d2d2b89dce5e71" prot="public" virt="virtual"><scope>ofNode</scope><name>customDraw</name></member>
+      <member refid="classof_node_1a8ab940d4c166064c8b2e3b4ab237917c" prot="public" virt="non-virtual"><scope>ofNode</scope><name>dolly</name></member>
+      <member refid="classof_node_1a13c85ec24bc0244ee7e32be7a63f2561" prot="public" virt="non-virtual"><scope>ofNode</scope><name>draw</name></member>
+      <member refid="classof_node_1a427fce44ef9e64b50c223a42d057a700" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getGlobalOrientation</name></member>
+      <member refid="classof_node_1a4ad665eca93ee00d506d0c663d6dcddd" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getGlobalPosition</name></member>
+      <member refid="classof_node_1a78a98aca9e6d389ae4918ad9783f3bf7" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getGlobalTransformMatrix</name></member>
+      <member refid="classof_node_1a91b332c93dd0da7c289ffcc95ccc5a46" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getHeading</name></member>
+      <member refid="classof_node_1a29a4cda17e24a56f5aa1933dea05af86" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getLocalTransformMatrix</name></member>
+      <member refid="classof_node_1a884d1b02034ac8822415bbb43ac4dd5f" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getLookAtDir</name></member>
+      <member refid="classof_node_1a105586cd87594a6ab0841e39f474e70e" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getOrientationEuler</name></member>
+      <member refid="classof_node_1ae8ca41c6f9eac9a64d7c19a6811f66b5" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getOrientationQuat</name></member>
+      <member refid="classof_node_1a96575a8e5ecdb143438f33c0583ccbd0" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getParent</name></member>
+      <member refid="classof_node_1a4f52fa48348f59307623c7a7bb4ef59f" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getPitch</name></member>
+      <member refid="classof_node_1a89350f61b536e5f64dc13682a6aee97d" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getPosition</name></member>
+      <member refid="classof_node_1a0336b1426c2bc493bc15a7093fb35b5a" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getRoll</name></member>
+      <member refid="classof_node_1a7dd2e9bbcc2c8ce02317892b40793a0f" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getScale</name></member>
+      <member refid="classof_node_1aaa10e7761bcbfc1c504c6312c52f833a" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getSideDir</name></member>
+      <member refid="classof_node_1ae24a97f7de20c48a5f75d82fb12577cf" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getUpDir</name></member>
+      <member refid="classof_node_1a819b96492b11250d5682e7853c5b753c" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getX</name></member>
+      <member refid="classof_node_1a75af589eae2b502216acad4668edf43b" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getXAxis</name></member>
+      <member refid="classof_node_1a1177cd7d07224c3690a4364684f1719f" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getY</name></member>
+      <member refid="classof_node_1a6bf67ed85db5017a37aba4e3262e914a" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getYAxis</name></member>
+      <member refid="classof_node_1aad7aed0da357927a7bfa1c5669fd9e64" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getZ</name></member>
+      <member refid="classof_node_1aecfc7c45671b9bb4757821e3a10dccb1" prot="public" virt="non-virtual"><scope>ofNode</scope><name>getZAxis</name></member>
+      <member refid="classof_node_1a6d26d25d71ce8febf7646e692a0ffe0f" prot="private" virt="non-virtual"><scope>ofNode</scope><name>localTransformMatrix</name></member>
+      <member refid="classof_node_1a039b31630ea3fc3718da43e23ecd7ef3" prot="public" virt="non-virtual"><scope>ofNode</scope><name>lookAt</name></member>
+      <member refid="classof_node_1ae0314a8226b1d1acbe4ac0ca6c48ae37" prot="public" virt="non-virtual"><scope>ofNode</scope><name>lookAt</name></member>
+      <member refid="classof_node_1a89949bfa32613379f65466be7514032a" prot="public" virt="non-virtual"><scope>ofNode</scope><name>move</name></member>
+      <member refid="classof_node_1a2c9fe659a2f8a45336d5ec385e7442ac" prot="public" virt="non-virtual"><scope>ofNode</scope><name>move</name></member>
+      <member refid="classof_node_1aa2b223ca1f8560ef193eb7bde666d758" prot="public" virt="non-virtual"><scope>ofNode</scope><name>ofNode</name></member>
+      <member refid="classof_node_1a423c1683913adf900cf8602b55361275" prot="protected" virt="virtual"><scope>ofNode</scope><name>onOrientationChanged</name></member>
+      <member refid="classof_node_1aa31b92a732d3258f15c730ec8106273c" prot="protected" virt="virtual"><scope>ofNode</scope><name>onPositionChanged</name></member>
+      <member refid="classof_node_1a8e851ac0a96a9348d85e365e1e7c71be" prot="protected" virt="virtual"><scope>ofNode</scope><name>onScaleChanged</name></member>
+      <member refid="classof_node_1a2a0989e1ed10fcbfea932ea305f064c1" prot="public" virt="non-virtual"><scope>ofNode</scope><name>orbit</name></member>
+      <member refid="classof_node_1a8d0f25fffcba51783c5c9d53d87c4f82" prot="public" virt="non-virtual"><scope>ofNode</scope><name>orbit</name></member>
+      <member refid="classof_node_1aa45fbbeaded3f11742c376a8675e3a22" prot="private" virt="non-virtual"><scope>ofNode</scope><name>orientation</name></member>
+      <member refid="classof_node_1ad8f671a39235404984fb84da35dd93ae" prot="public" virt="non-virtual"><scope>ofNode</scope><name>pan</name></member>
+      <member refid="classof_node_1a9fa60edff25434ada1671e837335fbdf" prot="protected" virt="non-virtual"><scope>ofNode</scope><name>parent</name></member>
+      <member refid="classof_node_1a3516dcbd529eaaadc3bf55fee7cb9290" prot="private" virt="non-virtual"><scope>ofNode</scope><name>position</name></member>
+      <member refid="classof_node_1ace344f081aa534670949ae9e03374626" prot="public" virt="non-virtual"><scope>ofNode</scope><name>resetTransform</name></member>
+      <member refid="classof_node_1a9d09e55a671dae12c64b18215f2cd08c" prot="public" virt="non-virtual"><scope>ofNode</scope><name>restoreTransformGL</name></member>
+      <member refid="classof_node_1a6eabc08d0e5ec0f8e7b6d2931531e400" prot="public" virt="non-virtual"><scope>ofNode</scope><name>roll</name></member>
+      <member refid="classof_node_1a1334bc48d4dbbc8d769ce42ee82fdf96" prot="public" virt="non-virtual"><scope>ofNode</scope><name>rotate</name></member>
+      <member refid="classof_node_1ae5d336038ea9a78223218183bbc446f0" prot="public" virt="non-virtual"><scope>ofNode</scope><name>rotate</name></member>
+      <member refid="classof_node_1a567e36b8f19965cb37b093283f7fcf09" prot="public" virt="non-virtual"><scope>ofNode</scope><name>rotate</name></member>
+      <member refid="classof_node_1a084b6a9cc56ae474be007ba4595c471d" prot="public" virt="non-virtual"><scope>ofNode</scope><name>rotateAround</name></member>
+      <member refid="classof_node_1a99683f424fc89553cfbdab53d52a1e7f" prot="public" virt="non-virtual"><scope>ofNode</scope><name>rotateAround</name></member>
+      <member refid="classof_node_1aaeb90132d65152488c965aa5844401ac" prot="private" virt="non-virtual"><scope>ofNode</scope><name>scale</name></member>
+      <member refid="classof_node_1ac888a4aabc97bdfa86114079dcdf4832" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setGlobalOrientation</name></member>
+      <member refid="classof_node_1a72d4e80f9e3cc5356860669be45076e7" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setGlobalPosition</name></member>
+      <member refid="classof_node_1a639c866edf3aac3192713dfcdbb2e992" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setGlobalPosition</name></member>
+      <member refid="classof_node_1a732a883de750dcd157ba03a7a9432f57" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setOrientation</name></member>
+      <member refid="classof_node_1a7e7460d86348bc31837271fe30e74b89" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setOrientation</name></member>
+      <member refid="classof_node_1a17c41e855157cc8b896db24f8ba50201" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setParent</name></member>
+      <member refid="classof_node_1a6f5733da97701638ec9e089016d0381a" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setPosition</name></member>
+      <member refid="classof_node_1ae55d7884cc7193538fddd8071f533379" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setPosition</name></member>
+      <member refid="classof_node_1a29db49b22f24505ca352ad90a0d9ffd6" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setScale</name></member>
+      <member refid="classof_node_1a1edc7d654f34143e14a88423dce97c1d" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setScale</name></member>
+      <member refid="classof_node_1a0dc74f803d307c24e08b2e163295287b" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setScale</name></member>
+      <member refid="classof_node_1aee04a17c179cb45f7e03f8518be8d0ad" prot="public" virt="non-virtual"><scope>ofNode</scope><name>setTransformMatrix</name></member>
+      <member refid="classof_node_1a674ca0b1cb71f609fadf8dba79106a72" prot="public" virt="non-virtual"><scope>ofNode</scope><name>tilt</name></member>
+      <member refid="classof_node_1af5fc70fbfb7826ebca9ae9eaa7653db8" prot="public" virt="non-virtual"><scope>ofNode</scope><name>transformGL</name></member>
+      <member refid="classof_node_1a61fcc8f30420847847f62873a47cca8a" prot="public" virt="non-virtual"><scope>ofNode</scope><name>truck</name></member>
+      <member refid="classof_node_1ad0f916a28a08c95064e89bdc5131b923" prot="public" virt="virtual"><scope>ofNode</scope><name>~ofNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_f81b7c4839eb8c76ab209f4a7b200ff1" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/</compoundname>
+    <innerfile refid="of_direct_show_grabber_8h">ofDirectShowGrabber.h</innerfile>
+    <innerfile refid="of_gst_utils_8h">ofGstUtils.h</innerfile>
+    <innerfile refid="of_gst_video_grabber_8h">ofGstVideoGrabber.h</innerfile>
+    <innerfile refid="of_gst_video_player_8h">ofGstVideoPlayer.h</innerfile>
+    <innerfile refid="ofi_phone_video_grabber_8h">ofiPhoneVideoGrabber.h</innerfile>
+    <innerfile refid="ofi_phone_video_grabber_8mm">ofiPhoneVideoGrabber.mm</innerfile>
+    <innerfile refid="ofi_phone_video_player_8h">ofiPhoneVideoPlayer.h</innerfile>
+    <innerfile refid="ofi_phone_video_player_8mm">ofiPhoneVideoPlayer.mm</innerfile>
+    <innerfile refid="of_qt_utils_8h">ofQtUtils.h</innerfile>
+    <innerfile refid="of_quick_time_grabber_8h">ofQuickTimeGrabber.h</innerfile>
+    <innerfile refid="of_quick_time_player_8h">ofQuickTimePlayer.h</innerfile>
+    <innerfile refid="of_video_grabber_8h">ofVideoGrabber.h</innerfile>
+    <innerfile refid="of_video_player_8h">ofVideoPlayer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/"/>
+  </compounddef>
+</doxygen>

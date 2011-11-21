@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="dir_6fb9b679da80a64ec4633b53c22cb10f" kind="dir">
+    <compoundname>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/</compoundname>
+    <innerfile refid="of_bitmap_font_8h">ofBitmapFont.h</innerfile>
+    <innerfile refid="of_cairo_renderer_8h">ofCairoRenderer.h</innerfile>
+    <innerfile refid="of_graphics_8h">ofGraphics.h</innerfile>
+    <innerfile refid="of_image_8h">ofImage.h</innerfile>
+    <innerfile refid="of_path_8h">ofPath.h</innerfile>
+    <innerfile refid="of_pixels_8h">ofPixels.h</innerfile>
+    <innerfile refid="of_polyline_8h">ofPolyline.h</innerfile>
+    <innerfile refid="of_renderer_collection_8h">ofRendererCollection.h</innerfile>
+    <innerfile refid="of_tessellator_8h">ofTessellator.h</innerfile>
+    <innerfile refid="of_true_type_font_8h">ofTrueTypeFont.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/"/>
+  </compounddef>
+</doxygen>

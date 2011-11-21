@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_p_a_sound_stream" kind="class" prot="public">
+    <compoundname>ofPASoundStream</compoundname>
+    <basecompoundref refid="classof_base_sound_stream" prot="public" virt="non-virtual">ofBaseSoundStream</basecompoundref>
+    <includes refid="of_p_a_sound_stream_8h" local="no">ofPASoundStream.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1ac5372f6eabcdd4c51f3b40a99addbf30" prot="private" static="no" mutable="no">
+        <type>long unsigned long</type>
+        <definition>long unsigned long ofPASoundStream::tickCount</definition>
+        <argsstring></argsstring>
+        <name>tickCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="35" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1a5905e62943c7193a7c15ae909b996cd2" prot="private" static="no" mutable="no">
+        <type><ref refid="of_p_a_sound_stream_8h_1a19874734f89958fccf86785490d53b4c" kindref="member">PaStream</ref> *</type>
+        <definition>PaStream* ofPASoundStream::audio</definition>
+        <argsstring></argsstring>
+        <name>audio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="36" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1a7562e0651c5562f0c01a3f6b56885d53" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPASoundStream::sampleRate</definition>
+        <argsstring></argsstring>
+        <name>sampleRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="37" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1a1c40f6b379227f0dab5bc20d9da7ae4e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPASoundStream::deviceID</definition>
+        <argsstring></argsstring>
+        <name>deviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="38" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1affee89c97513fe99cd9970fe88a362cd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPASoundStream::nInputChannels</definition>
+        <argsstring></argsstring>
+        <name>nInputChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="39" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1afb67385602ddb2f508c024f33a4396c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPASoundStream::nOutputChannels</definition>
+        <argsstring></argsstring>
+        <name>nOutputChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="40" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1ac8f70b29fead1c2e6a744d55e2caf4a7" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref> *</type>
+        <definition>ofBaseSoundInput* ofPASoundStream::soundInputPtr</definition>
+        <argsstring></argsstring>
+        <name>soundInputPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="41" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1a82810f706c09c95af8299a2f9b37a59b" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref> *</type>
+        <definition>ofBaseSoundOutput* ofPASoundStream::soundOutputPtr</definition>
+        <argsstring></argsstring>
+        <name>soundOutputPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="42" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classof_p_a_sound_stream_1ae73ecabe29413a6ae286e606a52d1497" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPASoundStream::initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="50" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_p_a_sound_stream_1aac8f8e80d5b42dd13840c077be5cac27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofPASoundStream::ofPASoundStream</definition>
+        <argsstring>()</argsstring>
+        <name>ofPASoundStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1ad0d74619a6d640b25724be5e28d8c507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofPASoundStream::~ofPASoundStream</definition>
+        <argsstring>()</argsstring>
+        <name>~ofPASoundStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a71ebc79ef330c86ad8448be51ebbf401" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofPASoundStream::listDevices</definition>
+        <argsstring>()</argsstring>
+        <name>listDevices</name>
+        <reimplements refid="classof_base_sound_stream_1aec4462be763b5b784a91aa569733d94e">listDevices</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1abe79522198798017b1427588ed2e253e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofPASoundStream::setDeviceID</definition>
+        <argsstring>(int deviceID)</argsstring>
+        <name>setDeviceID</name>
+        <reimplements refid="classof_base_sound_stream_1a309be9bbda641649d801093359a3b2c5">setDeviceID</reimplements>
+        <param>
+          <type>int</type>
+          <declname>deviceID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a5544af18e539fbdd93cefa83c034fa4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofPASoundStream::setInput</definition>
+        <argsstring>(ofBaseSoundInput *soundInput)</argsstring>
+        <name>setInput</name>
+        <reimplements refid="classof_base_sound_stream_1a1fa47c366b7790ee7419513b3efcd0e5">setInput</reimplements>
+        <param>
+          <type><ref refid="classof_base_sound_input" kindref="compound">ofBaseSoundInput</ref> *</type>
+          <declname>soundInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1aa138c4b504a5ad46c9eb8c1ac6bd7944" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofPASoundStream::setOutput</definition>
+        <argsstring>(ofBaseSoundOutput *soundOutput)</argsstring>
+        <name>setOutput</name>
+        <reimplements refid="classof_base_sound_stream_1a7ab9e9a649a08921bfbde67cd6a752f7">setOutput</reimplements>
+        <param>
+          <type><ref refid="classof_base_sound_output" kindref="compound">ofBaseSoundOutput</ref> *</type>
+          <declname>soundOutput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a64c29ce3a433b71a7d08f870234a49c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofPASoundStream::setup</definition>
+        <argsstring>(int outChannels, int inChannels, int sampleRate, int bufferSize, int nBuffers)</argsstring>
+        <name>setup</name>
+        <reimplements refid="classof_base_sound_stream_1a603054248acf232b3a36c944cbe5fdb4">setup</reimplements>
+        <param>
+          <type>int</type>
+          <declname>outChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sampleRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBuffers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a1d26c4ea233f5c522b205a3fc54b379d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofPASoundStream::setup</definition>
+        <argsstring>(ofBaseApp *app, int outChannels, int inChannels, int sampleRate, int bufferSize, int nBuffers)</argsstring>
+        <name>setup</name>
+        <reimplements refid="classof_base_sound_stream_1aad3e1f8d7f77e24699cbfe28f2c1f8ef">setup</reimplements>
+        <param>
+          <type><ref refid="classof_base_app" kindref="compound">ofBaseApp</ref> *</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>outChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sampleRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBuffers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a72a2fd5fe50636767dd32bd6f1b91b60" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofPASoundStream::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <reimplements refid="classof_base_sound_stream_1a68cb0a39471073a6bc9ca14abeb60c61">start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1af6a337326b7bd52ab8d2c47e75d007e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofPASoundStream::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classof_base_sound_stream_1a500ed10a32ae3b6efa223cfba115086e">stop</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a810c14d4a9f85711e0c212cdeb65fc78" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofPASoundStream::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_sound_stream_1a972327e868ca15ecc79476919fbd25bf">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1ae883c3960dfe3be43dc7273d746face6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long unsigned long</type>
+        <definition>long unsigned long ofPASoundStream::getTickCount</definition>
+        <argsstring>()</argsstring>
+        <name>getTickCount</name>
+        <reimplements refid="classof_base_sound_stream_1a8f0693f0fb84d3a83763b32e3ee8496c">getTickCount</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a58bfc141545fb3c652c3e8328e2c94c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPASoundStream::getNumInputChannels</definition>
+        <argsstring>()</argsstring>
+        <name>getNumInputChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a4992eeace6b11736a86b0b965747ec75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPASoundStream::getNumOutputChannels</definition>
+        <argsstring>()</argsstring>
+        <name>getNumOutputChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classof_p_a_sound_stream_1a4f8b846a992a3feb9310c15034ec3d5f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ofPASoundStream::paAudioCallback</definition>
+        <argsstring>(const void *inputBuffer, void *outputBuffer, unsigned long bufferSize, const PaStreamCallbackTimeInfo *streamTime, PaStreamCallbackFlags status, void *data)</argsstring>
+        <name>paAudioCallback</name>
+        <param>
+          <type>const void *</type>
+          <declname>inputBuffer</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>outputBuffer</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>bufferSize</declname>
+        </param>
+        <param>
+          <type>const PaStreamCallbackTimeInfo *</type>
+          <declname>streamTime</declname>
+        </param>
+        <param>
+          <type><ref refid="of_p_a_sound_stream_8h_1a55a005924bcfa0424594f4f65cd4ae82" kindref="member">PaStreamCallbackFlags</ref></type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="497">
+        <label>ofBaseSoundStream</label>
+        <link refid="classof_base_sound_stream"/>
+      </node>
+      <node id="496">
+        <label>ofPASoundStream</label>
+        <link refid="classof_p_a_sound_stream"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="501">
+        <label>ofBaseSoundInput</label>
+        <link refid="classof_base_sound_input"/>
+      </node>
+      <node id="499">
+        <label>ofBaseSoundStream</label>
+        <link refid="classof_base_sound_stream"/>
+      </node>
+      <node id="498">
+        <label>ofPASoundStream</label>
+        <link refid="classof_p_a_sound_stream"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="500" relation="usage">
+          <edgelabel>soundOutputPtr</edgelabel>
+        </childnode>
+        <childnode refid="501" relation="usage">
+          <edgelabel>soundInputPtr</edgelabel>
+        </childnode>
+      </node>
+      <node id="500">
+        <label>ofBaseSoundOutput</label>
+        <link refid="classof_base_sound_output"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" line="11" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/sound/ofPASoundStream.h" bodystart="11" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classof_p_a_sound_stream_1a5905e62943c7193a7c15ae909b996cd2" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>audio</name></member>
+      <member refid="classof_p_a_sound_stream_1a810c14d4a9f85711e0c212cdeb65fc78" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>close</name></member>
+      <member refid="classof_p_a_sound_stream_1a1c40f6b379227f0dab5bc20d9da7ae4e" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>deviceID</name></member>
+      <member refid="classof_p_a_sound_stream_1a58bfc141545fb3c652c3e8328e2c94c6" prot="public" virt="non-virtual"><scope>ofPASoundStream</scope><name>getNumInputChannels</name></member>
+      <member refid="classof_p_a_sound_stream_1a4992eeace6b11736a86b0b965747ec75" prot="public" virt="non-virtual"><scope>ofPASoundStream</scope><name>getNumOutputChannels</name></member>
+      <member refid="classof_p_a_sound_stream_1ae883c3960dfe3be43dc7273d746face6" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>getTickCount</name></member>
+      <member refid="classof_p_a_sound_stream_1ae73ecabe29413a6ae286e606a52d1497" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>initialized</name></member>
+      <member refid="classof_p_a_sound_stream_1a71ebc79ef330c86ad8448be51ebbf401" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>listDevices</name></member>
+      <member refid="classof_p_a_sound_stream_1affee89c97513fe99cd9970fe88a362cd" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>nInputChannels</name></member>
+      <member refid="classof_p_a_sound_stream_1afb67385602ddb2f508c024f33a4396c9" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>nOutputChannels</name></member>
+      <member refid="classof_p_a_sound_stream_1aac8f8e80d5b42dd13840c077be5cac27" prot="public" virt="non-virtual"><scope>ofPASoundStream</scope><name>ofPASoundStream</name></member>
+      <member refid="classof_p_a_sound_stream_1a4f8b846a992a3feb9310c15034ec3d5f" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>paAudioCallback</name></member>
+      <member refid="classof_p_a_sound_stream_1a7562e0651c5562f0c01a3f6b56885d53" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>sampleRate</name></member>
+      <member refid="classof_p_a_sound_stream_1abe79522198798017b1427588ed2e253e" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>setDeviceID</name></member>
+      <member refid="classof_p_a_sound_stream_1a5544af18e539fbdd93cefa83c034fa4c" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>setInput</name></member>
+      <member refid="classof_p_a_sound_stream_1aa138c4b504a5ad46c9eb8c1ac6bd7944" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>setOutput</name></member>
+      <member refid="classof_p_a_sound_stream_1a64c29ce3a433b71a7d08f870234a49c6" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>setup</name></member>
+      <member refid="classof_p_a_sound_stream_1a1d26c4ea233f5c522b205a3fc54b379d" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>setup</name></member>
+      <member refid="classof_p_a_sound_stream_1ac8f70b29fead1c2e6a744d55e2caf4a7" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>soundInputPtr</name></member>
+      <member refid="classof_p_a_sound_stream_1a82810f706c09c95af8299a2f9b37a59b" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>soundOutputPtr</name></member>
+      <member refid="classof_p_a_sound_stream_1a72a2fd5fe50636767dd32bd6f1b91b60" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>start</name></member>
+      <member refid="classof_p_a_sound_stream_1af6a337326b7bd52ab8d2c47e75d007e7" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>stop</name></member>
+      <member refid="classof_p_a_sound_stream_1ac5372f6eabcdd4c51f3b40a99addbf30" prot="private" virt="non-virtual"><scope>ofPASoundStream</scope><name>tickCount</name></member>
+      <member refid="classof_base_sound_stream_1a238e638c8990dce27b1b2f2774f0aa68" prot="public" virt="virtual"><scope>ofPASoundStream</scope><name>~ofBaseSoundStream</name></member>
+      <member refid="classof_p_a_sound_stream_1ad0d74619a6d640b25724be5e28d8c507" prot="public" virt="non-virtual"><scope>ofPASoundStream</scope><name>~ofPASoundStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

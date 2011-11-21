@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_ptr" kind="class" prot="public">
+    <compoundname>ofPtr</compoundname>
+    <basecompoundref refid="classstd_1_1tr1_1_1shared__ptr" prot="public" virt="non-virtual">std::tr1::shared_ptr&lt; T &gt;</basecompoundref>
+    <includes refid="of_types_8h" local="no">ofTypes.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofPtr&lt; T &gt;::ofPtr</definition>
+        <argsstring>()</argsstring>
+        <name>ofPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="108" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="107" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_ptr_1a578204e56ec8de90932976ef6ed93539" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Tp1</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ofPtr&lt; T &gt;::ofPtr</definition>
+        <argsstring>(Tp1 *__p)</argsstring>
+        <name>ofPtr</name>
+        <param>
+          <type>Tp1 *</type>
+          <declname>__p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="113" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="112" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_ptr_1a7c0853acc5542d826625d2ae2edc9f98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Tp1</type>
+          </param>
+          <param>
+            <type>typename _Deleter</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ofPtr&lt; T &gt;::ofPtr</definition>
+        <argsstring>(Tp1 *__p, _Deleter __d)</argsstring>
+        <name>ofPtr</name>
+        <param>
+          <type>Tp1 *</type>
+          <declname>__p</declname>
+        </param>
+        <param>
+          <type>_Deleter</type>
+          <declname>__d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="117" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="116" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_ptr_1ac2f20b425ac323fb0f4b329f3ccc87c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Tp1</type>
+          </param>
+          <param>
+            <type>typename _Deleter</type>
+          </param>
+          <param>
+            <type>typename _Alloc</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ofPtr&lt; T &gt;::ofPtr</definition>
+        <argsstring>(Tp1 *__p, _Deleter __d, const _Alloc &amp;__a)</argsstring>
+        <name>ofPtr</name>
+        <param>
+          <type>Tp1 *</type>
+          <declname>__p</declname>
+        </param>
+        <param>
+          <type>_Deleter</type>
+          <declname>__d</declname>
+        </param>
+        <param>
+          <type>const _Alloc &amp;</type>
+          <declname>__a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="121" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="120" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_ptr_1a9925a994ffcf5f12a372a01b9a871cf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Tp1</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ofPtr&lt; T &gt;::ofPtr</definition>
+        <argsstring>(const ofPtr&lt; Tp1 &gt; &amp;__r, T *__p)</argsstring>
+        <name>ofPtr</name>
+        <param>
+          <type>const <ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; Tp1 &gt; &amp;</type>
+          <declname>__r</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>__p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="126" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="125" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_ptr_1a245e3072432b1d3bcd43bf5b28a84f62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Tp1</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ofPtr&lt; T &gt;::ofPtr</definition>
+        <argsstring>(const ofPtr&lt; Tp1 &gt; &amp;__r)</argsstring>
+        <name>ofPtr</name>
+        <param>
+          <type>const <ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; Tp1 &gt; &amp;</type>
+          <declname>__r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="130" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="129" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_ptr_1a3835bb766697085a05f7cafbcf2b08ae" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Tp1</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ofPtr&lt; T &gt;::ofPtr</definition>
+        <argsstring>(const std::tr1::weak_ptr&lt; Tp1 &gt; &amp;__r)</argsstring>
+        <name>ofPtr</name>
+        <param>
+          <type>const std::tr1::weak_ptr&lt; Tp1 &gt; &amp;</type>
+          <declname>__r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="142" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="141" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="513">
+        <label>std::tr1::shared_ptr&lt; T &gt;</label>
+        <link refid="classstd_1_1tr1_1_1shared__ptr"/>
+      </node>
+      <node id="512">
+        <label>ofPtr&lt; T &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="513" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="515">
+        <label>std::tr1::shared_ptr&lt; T &gt;</label>
+        <link refid="classstd_1_1tr1_1_1shared__ptr"/>
+      </node>
+      <node id="514">
+        <label>ofPtr&lt; T &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="515" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="103" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" bodystart="102" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classof_ptr_1a7b4c23bfc2a57f57a7e8c469299033d9" prot="public" virt="non-virtual"><scope>ofPtr</scope><name>ofPtr</name></member>
+      <member refid="classof_ptr_1a578204e56ec8de90932976ef6ed93539" prot="public" virt="non-virtual"><scope>ofPtr</scope><name>ofPtr</name></member>
+      <member refid="classof_ptr_1a7c0853acc5542d826625d2ae2edc9f98" prot="public" virt="non-virtual"><scope>ofPtr</scope><name>ofPtr</name></member>
+      <member refid="classof_ptr_1ac2f20b425ac323fb0f4b329f3ccc87c6" prot="public" virt="non-virtual"><scope>ofPtr</scope><name>ofPtr</name></member>
+      <member refid="classof_ptr_1a9925a994ffcf5f12a372a01b9a871cf3" prot="public" virt="non-virtual"><scope>ofPtr</scope><name>ofPtr</name></member>
+      <member refid="classof_ptr_1a245e3072432b1d3bcd43bf5b28a84f62" prot="public" virt="non-virtual"><scope>ofPtr</scope><name>ofPtr</name></member>
+      <member refid="classof_ptr_1a3835bb766697085a05f7cafbcf2b08ae" prot="public" virt="non-virtual"><scope>ofPtr</scope><name>ofPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

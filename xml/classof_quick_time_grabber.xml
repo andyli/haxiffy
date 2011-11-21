@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_quick_time_grabber" kind="class" prot="public">
+    <compoundname>ofQuickTimeGrabber</compoundname>
+    <basecompoundref refid="classof_base_video_grabber" prot="public" virt="non-virtual">ofBaseVideoGrabber</basecompoundref>
+    <includes refid="of_quick_time_grabber_8h" local="no">ofQuickTimeGrabber.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_quick_time_grabber_1ad22297ce804ce3bd815ab4964bed85bc" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::bChooseDevice</definition>
+        <argsstring></argsstring>
+        <name>bChooseDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a19231f9eb876167962510cb6d1aaf861" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofQuickTimeGrabber::deviceID</definition>
+        <argsstring></argsstring>
+        <name>deviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="47" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1ae1918424ae672a5d4153b377b9c2c009" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::bVerbose</definition>
+        <argsstring></argsstring>
+        <name>bVerbose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="48" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a23ee9bbc013a6c2f5f7e7113a96a10d1" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::bGrabberInited</definition>
+        <argsstring></argsstring>
+        <name>bGrabberInited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="49" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a03ece8e32cdd21b9c2c31844d4e10ec0" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixels</ref></type>
+        <definition>ofPixels ofQuickTimeGrabber::pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="50" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a70c48bc984354a6cafb621e9f906bc67" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofQuickTimeGrabber::attemptFramerate</definition>
+        <argsstring></argsstring>
+        <name>attemptFramerate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="51" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1aea270efe024dc07d48d4d89fee3296d2" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::bIsFrameNew</definition>
+        <argsstring></argsstring>
+        <name>bIsFrameNew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="52" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a838b6e689ea5db15cacb9b471ae17862" prot="protected" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* ofQuickTimeGrabber::offscreenGWorldPixels</definition>
+        <argsstring></argsstring>
+        <name>offscreenGWorldPixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="56" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a23a3ffa81b3552c11e7e32189d8bddf1" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::bHavePixelsChanged</definition>
+        <argsstring></argsstring>
+        <name>bHavePixelsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="58" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1ab73ed8ce44e7b2df59b03327181ea20e" prot="protected" static="no" mutable="no">
+        <type>GWorldPtr</type>
+        <definition>GWorldPtr ofQuickTimeGrabber::videogworld</definition>
+        <argsstring></argsstring>
+        <name>videogworld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="59" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a0a9949516bd9a502c921c2105fa4759c" prot="protected" static="no" mutable="no">
+        <type>SeqGrabComponent</type>
+        <definition>SeqGrabComponent ofQuickTimeGrabber::gSeqGrabber</definition>
+        <argsstring></argsstring>
+        <name>gSeqGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="60" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a2582a42cdee02f3f07203fd212bec52f" prot="protected" static="no" mutable="no">
+        <type>SGChannel</type>
+        <definition>SGChannel ofQuickTimeGrabber::gVideoChannel</definition>
+        <argsstring></argsstring>
+        <name>gVideoChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="61" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1aeddaf040d3da7f89bbdd85f046849780" prot="protected" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect ofQuickTimeGrabber::videoRect</definition>
+        <argsstring></argsstring>
+        <name>videoRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="62" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a222e2296acd1747e9d457dfa32e0a397" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::bSgInited</definition>
+        <argsstring></argsstring>
+        <name>bSgInited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="63" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1a03c67ebffaf370db0a5c867ff9b9af83" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofQuickTimeGrabber::deviceName</definition>
+        <argsstring></argsstring>
+        <name>deviceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_quick_time_grabber_1ad8928b8d6530837f919da494987cc82f" prot="protected" static="no" mutable="no">
+        <type>SGGrabCompleteBottleUPP</type>
+        <definition>SGGrabCompleteBottleUPP ofQuickTimeGrabber::myGrabCompleteProc</definition>
+        <argsstring></argsstring>
+        <name>myGrabCompleteProc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="65" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_quick_time_grabber_1a202fe7a11c80ee95496392f6cdd7d5e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofQuickTimeGrabber::ofQuickTimeGrabber</definition>
+        <argsstring>()</argsstring>
+        <name>ofQuickTimeGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1adb5836588fc6904a56e3be1d309098c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofQuickTimeGrabber::~ofQuickTimeGrabber</definition>
+        <argsstring>()</argsstring>
+        <name>~ofQuickTimeGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a69cba04c77f24d6035fa8003fcbe5f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimeGrabber::listDevices</definition>
+        <argsstring>()</argsstring>
+        <name>listDevices</name>
+        <reimplements refid="classof_base_video_grabber_1a0ee487203961b1d6b635598a181a9835">listDevices</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a7b5b519e5fcbd70ff1eedf71ab376731" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::initGrabber</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>initGrabber</name>
+        <reimplements refid="classof_base_video_grabber_1a7dc4e14ca5c1bf64f6c9ef49fff421e3">initGrabber</reimplements>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1ad83a7982a79ac87d486452afbe5278bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimeGrabber::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_video_grabber_1afa0adff5581f2aeb2f2973a5686097de">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a06bd850a1a2b9eda86040c06d1d46baf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::isFrameNew</definition>
+        <argsstring>()</argsstring>
+        <name>isFrameNew</name>
+        <reimplements refid="classof_base_video_grabber_1a49571efac6ac055c07b5147e15a98643">isFrameNew</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a0dd62853a77aeb042bf29ff0b8277ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char* ofQuickTimeGrabber::getPixels</definition>
+        <argsstring>()</argsstring>
+        <name>getPixels</name>
+        <reimplements refid="classof_base_video_grabber_1a7a9d9dc85963036f16d937cee730f654">getPixels</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a9dda4485108619ae84cd5425cd5c0ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref></type>
+        <definition>ofPixelsRef ofQuickTimeGrabber::getPixelsRef</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelsRef</name>
+        <reimplements refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45">getPixelsRef</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a82b7004cb9da462391efff82bd484fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimeGrabber::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_video_grabber_1a8c7237c2cf5d2aac261d37a0fc22a2a3">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1aee51f3568d94c69f5d58c5f721cd4df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuickTimeGrabber::clearMemory</definition>
+        <argsstring>()</argsstring>
+        <name>clearMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a0b4b94dc5ffa373d4913789201f66d54" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimeGrabber::videoSettings</definition>
+        <argsstring>()</argsstring>
+        <name>videoSettings</name>
+        <reimplements refid="classof_base_video_grabber_1ab3601be3ab4dc5fed812916e2c3cdc1b">videoSettings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a890e789907e0d63d694e77db55722e64" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofQuickTimeGrabber::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplements refid="classof_base_video_grabber_1a92e4e75c73b92c7eb3da31cdfbf9927e">getWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a8b0aae3a91c48a557e38c8a285861550" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofQuickTimeGrabber::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplements refid="classof_base_video_grabber_1adc370b3e10351d456a70c3097e5a25bd">getHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a98b57f09a21343e7712b35c58fb2b22a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimeGrabber::setVerbose</definition>
+        <argsstring>(bool bTalkToMe)</argsstring>
+        <name>setVerbose</name>
+        <reimplements refid="classof_base_video_grabber_1a16805cae9b0c71b209b2dba9d99ce5f7">setVerbose</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bTalkToMe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1adb7dcb7d8a3a7aa6541cbb38b9c025a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimeGrabber::setDeviceID</definition>
+        <argsstring>(int _deviceID)</argsstring>
+        <name>setDeviceID</name>
+        <reimplements refid="classof_base_video_grabber_1aa38de069285824287a24a7a5680f6ab4">setDeviceID</reimplements>
+        <param>
+          <type>int</type>
+          <declname>_deviceID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a573328a8689c99fa75bb4aad869cb692" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofQuickTimeGrabber::setDesiredFrameRate</definition>
+        <argsstring>(int framerate)</argsstring>
+        <name>setDesiredFrameRate</name>
+        <reimplements refid="classof_base_video_grabber_1acfd1ec20c5ad349c4c611e1f55dfb3b5">setDesiredFrameRate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>framerate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_quick_time_grabber_1afafea3c9b08c01021bc4e81fc7001e07" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::qtInitSeqGrabber</definition>
+        <argsstring>()</argsstring>
+        <name>qtInitSeqGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a22e7dd03ad8e6c912352119e31403f39" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::qtCloseSeqGrabber</definition>
+        <argsstring>()</argsstring>
+        <name>qtCloseSeqGrabber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a4ae9c4a971a64db1134aaacc1a5e6aa9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::qtSelectDevice</definition>
+        <argsstring>(int deviceNumber, bool didWeChooseADevice)</argsstring>
+        <name>qtSelectDevice</name>
+        <param>
+          <type>int</type>
+          <declname>deviceNumber</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>didWeChooseADevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1aba145c8ed63c7d35d1e08dfebee28144" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::saveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>saveSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quick_time_grabber_1a35ee7928acf6d043f479e0d9b6c272d9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofQuickTimeGrabber::loadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>loadSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="522">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="523" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="519">
+        <label>ofQuickTimeGrabber</label>
+        <link refid="classof_quick_time_grabber"/>
+        <childnode refid="520" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="521">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="522" relation="public-inheritance">
+        </childnode>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="524">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="520">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="521" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="523">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="528">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="529" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="525">
+        <label>ofQuickTimeGrabber</label>
+        <link refid="classof_quick_time_grabber"/>
+        <childnode refid="526" relation="public-inheritance">
+        </childnode>
+        <childnode refid="531" relation="usage">
+          <edgelabel>pixels</edgelabel>
+        </childnode>
+      </node>
+      <node id="527">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="528" relation="public-inheritance">
+        </childnode>
+        <childnode refid="530" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="530">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="526">
+        <label>ofBaseVideoGrabber</label>
+        <link refid="classof_base_video_grabber"/>
+        <childnode refid="527" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="531">
+        <label>ofPixels_&lt; unsigned char &gt;</label>
+        <link refid="classof_pixels__"/>
+      </node>
+      <node id="529">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" line="16" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofQuickTimeGrabber.h" bodystart="16" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classof_quick_time_grabber_1a70c48bc984354a6cafb621e9f906bc67" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>attemptFramerate</name></member>
+      <member refid="classof_quick_time_grabber_1ad22297ce804ce3bd815ab4964bed85bc" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>bChooseDevice</name></member>
+      <member refid="classof_quick_time_grabber_1a23ee9bbc013a6c2f5f7e7113a96a10d1" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>bGrabberInited</name></member>
+      <member refid="classof_quick_time_grabber_1a23a3ffa81b3552c11e7e32189d8bddf1" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>bHavePixelsChanged</name></member>
+      <member refid="classof_quick_time_grabber_1aea270efe024dc07d48d4d89fee3296d2" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>bIsFrameNew</name></member>
+      <member refid="classof_quick_time_grabber_1a222e2296acd1747e9d457dfa32e0a397" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>bSgInited</name></member>
+      <member refid="classof_quick_time_grabber_1ae1918424ae672a5d4153b377b9c2c009" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>bVerbose</name></member>
+      <member refid="classof_quick_time_grabber_1aee51f3568d94c69f5d58c5f721cd4df3" prot="public" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>clearMemory</name></member>
+      <member refid="classof_quick_time_grabber_1a82b7004cb9da462391efff82bd484fcb" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>close</name></member>
+      <member refid="classof_quick_time_grabber_1a19231f9eb876167962510cb6d1aaf861" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>deviceID</name></member>
+      <member refid="classof_quick_time_grabber_1a03c67ebffaf370db0a5c867ff9b9af83" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>deviceName</name></member>
+      <member refid="classof_quick_time_grabber_1a8b0aae3a91c48a557e38c8a285861550" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>getHeight</name></member>
+      <member refid="classof_base_video_grabber_1a366ed68409e1851f4871cb873ef076b5" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>getPixelFormat</name></member>
+      <member refid="classof_quick_time_grabber_1a0dd62853a77aeb042bf29ff0b8277ae9" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>getPixels</name></member>
+      <member refid="classof_quick_time_grabber_1a9dda4485108619ae84cd5425cd5c0ab0" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>getPixelsRef</name></member>
+      <member refid="classof_quick_time_grabber_1a890e789907e0d63d694e77db55722e64" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>getWidth</name></member>
+      <member refid="classof_quick_time_grabber_1a0a9949516bd9a502c921c2105fa4759c" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>gSeqGrabber</name></member>
+      <member refid="classof_quick_time_grabber_1a2582a42cdee02f3f07203fd212bec52f" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>gVideoChannel</name></member>
+      <member refid="classof_quick_time_grabber_1a7b5b519e5fcbd70ff1eedf71ab376731" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>initGrabber</name></member>
+      <member refid="classof_quick_time_grabber_1a06bd850a1a2b9eda86040c06d1d46baf" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>isFrameNew</name></member>
+      <member refid="classof_quick_time_grabber_1a69cba04c77f24d6035fa8003fcbe5f9b" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>listDevices</name></member>
+      <member refid="classof_quick_time_grabber_1a35ee7928acf6d043f479e0d9b6c272d9" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>loadSettings</name></member>
+      <member refid="classof_quick_time_grabber_1ad8928b8d6530837f919da494987cc82f" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>myGrabCompleteProc</name></member>
+      <member refid="classof_quick_time_grabber_1a838b6e689ea5db15cacb9b471ae17862" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>offscreenGWorldPixels</name></member>
+      <member refid="classof_quick_time_grabber_1a202fe7a11c80ee95496392f6cdd7d5e0" prot="public" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>ofQuickTimeGrabber</name></member>
+      <member refid="classof_quick_time_grabber_1a03ece8e32cdd21b9c2c31844d4e10ec0" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>pixels</name></member>
+      <member refid="classof_quick_time_grabber_1a22e7dd03ad8e6c912352119e31403f39" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>qtCloseSeqGrabber</name></member>
+      <member refid="classof_quick_time_grabber_1afafea3c9b08c01021bc4e81fc7001e07" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>qtInitSeqGrabber</name></member>
+      <member refid="classof_quick_time_grabber_1a4ae9c4a971a64db1134aaacc1a5e6aa9" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>qtSelectDevice</name></member>
+      <member refid="classof_quick_time_grabber_1aba145c8ed63c7d35d1e08dfebee28144" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>saveSettings</name></member>
+      <member refid="classof_quick_time_grabber_1a573328a8689c99fa75bb4aad869cb692" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>setDesiredFrameRate</name></member>
+      <member refid="classof_quick_time_grabber_1adb7dcb7d8a3a7aa6541cbb38b9c025a6" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>setDeviceID</name></member>
+      <member refid="classof_base_video_grabber_1ac3bea58983a64528ba6ba7473d17eafe" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>setPixelFormat</name></member>
+      <member refid="classof_quick_time_grabber_1a98b57f09a21343e7712b35c58fb2b22a" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>setVerbose</name></member>
+      <member refid="classof_quick_time_grabber_1ad83a7982a79ac87d486452afbe5278bb" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>update</name></member>
+      <member refid="classof_quick_time_grabber_1ab73ed8ce44e7b2df59b03327181ea20e" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>videogworld</name></member>
+      <member refid="classof_quick_time_grabber_1aeddaf040d3da7f89bbdd85f046849780" prot="protected" virt="non-virtual"><scope>ofQuickTimeGrabber</scope><name>videoRect</name></member>
+      <member refid="classof_quick_time_grabber_1a0b4b94dc5ffa373d4913789201f66d54" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>videoSettings</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_updates_1a48cbac34caf49b4b72092888a7e63b27" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>~ofBaseUpdates</name></member>
+      <member refid="classof_base_video_1af8004a840c98637ba7572b2c34bbc249" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>~ofBaseVideo</name></member>
+      <member refid="classof_base_video_grabber_1a75e74f70959698d0800e960ccc525be7" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>~ofBaseVideoGrabber</name></member>
+      <member refid="classof_quick_time_grabber_1adb5836588fc6904a56e3be1d309098c7" prot="public" virt="virtual"><scope>ofQuickTimeGrabber</scope><name>~ofQuickTimeGrabber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+-cpp bin
+-main haxiffy.Main
+-cp src
+-lib erazor
+-lib casalib

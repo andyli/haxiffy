@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_gst_app_sink" kind="class" prot="public">
+    <compoundname>ofGstAppSink</compoundname>
+    <derivedcompoundref refid="classof_gst_video_player" prot="public" virt="non-virtual">ofGstVideoPlayer</derivedcompoundref>
+    <includes refid="of_gst_utils_8h" local="no">ofGstUtils.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_gst_app_sink_1a9f9a13d8ae5b86820e509dd398ccdbb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>GstFlowReturn</type>
+        <definition>virtual GstFlowReturn ofGstAppSink::on_preroll</definition>
+        <argsstring>(GstBuffer *buffer)</argsstring>
+        <name>on_preroll</name>
+        <param>
+          <type>GstBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="148" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="148" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_app_sink_1a9357d95da1452f3143d8a3bafb888ee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>GstFlowReturn</type>
+        <definition>virtual GstFlowReturn ofGstAppSink::on_buffer</definition>
+        <argsstring>(GstBuffer *buffer)</argsstring>
+        <name>on_buffer</name>
+        <param>
+          <type>GstBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="151" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="151" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_app_sink_1a03b003d1a338cf12be908d7f0138fb3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofGstAppSink::on_eos</definition>
+        <argsstring>()</argsstring>
+        <name>on_eos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="154" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="154" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_app_sink_1a60f84fb94bb4b9edca99684f9b4dde63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool ofGstAppSink::on_message</definition>
+        <argsstring>(GstMessage *msg)</argsstring>
+        <name>on_message</name>
+        <reimplementedby refid="classof_gst_video_player_1a30a1c4b0d176b6b8bbebf7875e4a4782">on_message</reimplementedby>
+        <param>
+          <type>GstMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="157" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_app_sink_1a2f0e2897c2967e2ec442e81a4af89ddc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofGstAppSink::on_stream_prepared</definition>
+        <argsstring>()</argsstring>
+        <name>on_stream_prepared</name>
+        <reimplementedby refid="classof_gst_video_player_1ac3d97ba6cd0b922dab0fe8c4717d8071">on_stream_prepared</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="160" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="290">
+        <label>ofGstVideoPlayer</label>
+        <link refid="classof_gst_video_player"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>ofGstAppSink</label>
+        <link refid="classof_gst_app_sink"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="146" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="146" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classof_gst_app_sink_1a9357d95da1452f3143d8a3bafb888ee8" prot="public" virt="virtual"><scope>ofGstAppSink</scope><name>on_buffer</name></member>
+      <member refid="classof_gst_app_sink_1a03b003d1a338cf12be908d7f0138fb3e" prot="public" virt="virtual"><scope>ofGstAppSink</scope><name>on_eos</name></member>
+      <member refid="classof_gst_app_sink_1a60f84fb94bb4b9edca99684f9b4dde63" prot="public" virt="virtual"><scope>ofGstAppSink</scope><name>on_message</name></member>
+      <member refid="classof_gst_app_sink_1a9f9a13d8ae5b86820e509dd398ccdbb8" prot="public" virt="virtual"><scope>ofGstAppSink</scope><name>on_preroll</name></member>
+      <member refid="classof_gst_app_sink_1a2f0e2897c2967e2ec442e81a4af89ddc" prot="public" virt="virtual"><scope>ofGstAppSink</scope><name>on_stream_prepared</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,680 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classofi_phone_video_player" kind="class" prot="public">
+    <compoundname>ofiPhoneVideoPlayer</compoundname>
+    <basecompoundref refid="classof_base_video_player" prot="public" virt="non-virtual">ofBaseVideoPlayer</basecompoundref>
+    <includes refid="ofi_phone_video_player_8h" local="no">ofiPhoneVideoPlayer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classofi_phone_video_player_1a1384f1a0aead1fa153529a237dcdd6c3" prot="protected" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* ofiPhoneVideoPlayer::videoPlayer</definition>
+        <argsstring></argsstring>
+        <name>videoPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="66" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1adf0802b5bcb5c8c693ba2148e40b4f59" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofiPhoneVideoPlayer::videoPath</definition>
+        <argsstring></argsstring>
+        <name>videoPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="68" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a4e46fe3e529da1f072e18c355e58727c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoPlayer::videoWasStopped</definition>
+        <argsstring></argsstring>
+        <name>videoWasStopped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="69" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a6bc99b8e6e9cd4dbe5c1c736acb28745" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofiPhoneVideoPlayer::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="70" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a4c10c693bc3155f451682c5999d35d4e" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofiPhoneVideoPlayer::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="71" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a9b3d1dc7660dcdba69aeffb67980bfa2" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofiPhoneVideoPlayer::playbackSpeed</definition>
+        <argsstring></argsstring>
+        <name>playbackSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="72" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1acab1bdfa6246681aec5c8b5fe70126a9" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofiPhoneVideoPlayer::vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="74" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a9e4033fb2beeee1e6a8e7df6c7d84ef6" prot="protected" static="no" mutable="no">
+        <type>GLubyte *</type>
+        <definition>GLubyte* ofiPhoneVideoPlayer::pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="76" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a2318ee1ef08df1c6b7d71bbb4ca6c63a" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_texture" kindref="compound">ofTexture</ref></type>
+        <definition>ofTexture ofiPhoneVideoPlayer::videoTexture</definition>
+        <argsstring></argsstring>
+        <name>videoTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="77" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a75d1e28833af2a83cfeb795249a9b8fd" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofiPhoneVideoPlayer::lastUpdateTime</definition>
+        <argsstring></argsstring>
+        <name>lastUpdateTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="79" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a927ab977d9427181d89cae906405b545" prot="protected" static="no" mutable="no">
+        <type>GLint</type>
+        <definition>GLint ofiPhoneVideoPlayer::internalGLFormat</definition>
+        <argsstring></argsstring>
+        <name>internalGLFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="80" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classofi_phone_video_player_1a0ff91c953da6cf77ca6c3adee76575f0" prot="protected" static="no" mutable="no">
+        <type>GLubyte *</type>
+        <definition>GLubyte* ofiPhoneVideoPlayer::pixelsTmp</definition>
+        <argsstring></argsstring>
+        <name>pixelsTmp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="81" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classofi_phone_video_player_1acf73fce6a48bfe2ef98aeb95df4c61a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofiPhoneVideoPlayer::ofiPhoneVideoPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>ofiPhoneVideoPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="15" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="5" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a5e0dbe82eacc1f54f526126daa13f69d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofiPhoneVideoPlayer::~ofiPhoneVideoPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>~ofiPhoneVideoPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="16" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a33cdcbf0f72d7f8ed82fa31c77f59347" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoPlayer::loadMovie</definition>
+        <argsstring>(string name)</argsstring>
+        <name>loadMovie</name>
+        <reimplements refid="classof_base_video_player_1a5729b23ec498767da1439d272456b982">loadMovie</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="18" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="27" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a44baeca582013711a1fe95b15e7629eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::setPixelFormat</definition>
+        <argsstring>(ofPixelFormat PixelFormat)</argsstring>
+        <name>setPixelFormat</name>
+        <reimplements refid="classof_base_video_player_1aed1a18f1eafa7669bd537429f61361ed">setPixelFormat</reimplements>
+        <param>
+          <type><ref refid="of_constants_8h_1ae227396622740556688053d3dc0f1693" kindref="member">ofPixelFormat</ref></type>
+          <declname>PixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="19" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1abf34017cd529f4116b5c8da10ca5fc4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplements refid="classof_base_video_player_1a36a8d556e9e5a92c5f9415e14ca15deb">close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="20" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="54" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a21bf2e7719d9fd65c0294ce85f47dcd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <reimplements refid="classof_base_video_player_1af147fdc80b43b2f9b9bf2b5316475b6c">play</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="75" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a85f7c8cfe1e08ea89c964c275f06bdc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classof_base_video_player_1a3335147d5f721caf1eb9f66fb77a8ead">stop</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="23" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="92" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a87b415ab8b8b7c653a6928a6f24048f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoPlayer::isFrameNew</definition>
+        <argsstring>()</argsstring>
+        <name>isFrameNew</name>
+        <reimplements refid="classof_base_video_player_1a0490cb3fdf0a98aed9232fd14fd8873d">isFrameNew</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="25" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="104" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1ac8635bf26011a71d648dd087c6b1b2c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char * ofiPhoneVideoPlayer::getPixels</definition>
+        <argsstring>()</argsstring>
+        <name>getPixels</name>
+        <reimplements refid="classof_base_video_player_1a219fabc2debd7c542e10a56738fe1f5a">getPixels</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="26" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="113" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1afd4e7a5c227e631f0f7ea7e3be0c3db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_pixels__" kindref="compound">ofPixelsRef</ref></type>
+        <definition>ofPixelsRef ofiPhoneVideoPlayer::getPixelsRef</definition>
+        <argsstring>()</argsstring>
+        <name>getPixelsRef</name>
+        <reimplements refid="classof_base_has_pixels___1a0e74503eeea2afb44a8f5d6b65422f45">getPixelsRef</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="27" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="345" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a3638b8049f4273af9797bffe1c0086e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classof_texture" kindref="compound">ofTexture</ref> *</type>
+        <definition>ofTexture * ofiPhoneVideoPlayer::getTexture</definition>
+        <argsstring>()</argsstring>
+        <name>getTexture</name>
+        <reimplements refid="classof_base_video_player_1a4a8134aab90cdd2f94c73d1e871be8b0">getTexture</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="194" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a4d45b8058d3a95cff2db86fe3dc91d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofiPhoneVideoPlayer::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <reimplements refid="classof_base_video_player_1aa641fa782033d2f46f09970d2f94a57f">getWidth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="30" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="242" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a67c98e28f2709887abb729b0a41cc568" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofiPhoneVideoPlayer::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <reimplements refid="classof_base_video_player_1a3047ea3f60cae76366314c7dca5de8e2">getHeight</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="252" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a667284bcb2f74379f103660aae14b93c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoPlayer::isPaused</definition>
+        <argsstring>()</argsstring>
+        <name>isPaused</name>
+        <reimplements refid="classof_base_video_player_1aceff7a4857b19b7813a6dae15b95a998">isPaused</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="33" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="262" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a5f8ad4104b65527746adea3555911ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoPlayer::isLoaded</definition>
+        <argsstring>()</argsstring>
+        <name>isLoaded</name>
+        <reimplements refid="classof_base_video_player_1a23210b8f2c1a3ba979b0f097fc43b50b">isLoaded</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="34" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="271" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a603aa35c0e0782aa6e5c1e0add734328" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoPlayer::isPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>isPlaying</name>
+        <reimplements refid="classof_base_video_player_1af716ac15560b86d5138b46e8d367178c">isPlaying</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="35" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="280" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a8fb8746d69cbd3616f1f4c20ada6f547" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <reimplements refid="classof_base_video_player_1a792ee92185229d27e9a8d6554034622a">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="37" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="291" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a23c7975ccb6d7a8c2841ff897e9d3954" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofiPhoneVideoPlayer::getPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getPosition</name>
+        <reimplements refid="classof_base_video_player_1ab7922b6b4eb47e491f2359418f807f85">getPosition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="39" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="299" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1aa41eacf7e5fd7cd5d70fd55105a7376d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float ofiPhoneVideoPlayer::getDuration</definition>
+        <argsstring>()</argsstring>
+        <name>getDuration</name>
+        <reimplements refid="classof_base_video_player_1ab588d8d53e643bafa4207b10d6b78e27">getDuration</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="40" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="306" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1ae6cbf821b8a6cd1f68ff864e09dac215" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ofiPhoneVideoPlayer::getIsMovieDone</definition>
+        <argsstring>()</argsstring>
+        <name>getIsMovieDone</name>
+        <reimplements refid="classof_base_video_player_1a7865e11fc5d7522da1d848373837ea03">getIsMovieDone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="41" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="314" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a65300113e48c60ff92c2a21b68b00181" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::setPaused</definition>
+        <argsstring>(bool bPause)</argsstring>
+        <name>setPaused</name>
+        <reimplements refid="classof_base_video_player_1a21ef216c2f1f9e56e18acdda5481fc72">setPaused</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>bPause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="42" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="321" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a8988f223a69742e3411ab1c7c52e6e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::setVolume</definition>
+        <argsstring>(int volume)</argsstring>
+        <name>setVolume</name>
+        <reimplements refid="classof_base_video_player_1a80c26c4218597f0e071f7ef7f3099f59">setVolume</reimplements>
+        <param>
+          <type>int</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="44" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="330" bodyend="334"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classofi_phone_video_player_1a728fde41838568fb58457b86e30e680f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::initWithPath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>initWithPath</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="63" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.mm" bodystart="338" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classofi_phone_video_player_1a6992fd71618845df1d3ece76689e39d7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofiPhoneVideoPlayer::updateCurrentFrameRef</definition>
+        <argsstring>()</argsstring>
+        <name>updateCurrentFrameRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="415">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="417">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="413">
+        <label>ofBaseVideoPlayer</label>
+        <link refid="classof_base_video_player"/>
+        <childnode refid="414" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="412">
+        <label>ofiPhoneVideoPlayer</label>
+        <link refid="classofi_phone_video_player"/>
+        <childnode refid="413" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="427">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="421">
+        <label>ofBaseHasPixels</label>
+        <link refid="classof_base_has_pixels__"/>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>ofBaseVideo</label>
+        <link refid="classof_base_video"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>ofBaseUpdates</label>
+        <link refid="classof_base_updates"/>
+      </node>
+      <node id="424">
+        <label>ofTexture</label>
+        <link refid="classof_texture"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+        <childnode refid="426" relation="usage">
+          <edgelabel>texData</edgelabel>
+        </childnode>
+        <childnode refid="427" relation="usage">
+          <edgelabel>anchor</edgelabel>
+        </childnode>
+      </node>
+      <node id="419">
+        <label>ofBaseVideoPlayer</label>
+        <link refid="classof_base_video_player"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>ofiPhoneVideoPlayer</label>
+        <link refid="classofi_phone_video_player"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+        <childnode refid="424" relation="usage">
+          <edgelabel>videoTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="425">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="426">
+        <label>ofTextureData</label>
+        <link refid="classof_texture_data"/>
+      </node>
+      <node id="422">
+        <label>ofAbstractHasPixels</label>
+        <link refid="classof_abstract_has_pixels"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" line="10" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofiPhoneVideoPlayer.h" bodystart="10" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classofi_phone_video_player_1abf34017cd529f4116b5c8da10ca5fc4e" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>close</name></member>
+      <member refid="classof_base_video_player_1a0d6187f84d4aceb7e2cf3b24065256bb" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>firstFrame</name></member>
+      <member refid="classof_base_video_player_1afefe27f110d8d8a4979539c53bfb32b6" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getCurrentFrame</name></member>
+      <member refid="classofi_phone_video_player_1aa41eacf7e5fd7cd5d70fd55105a7376d" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getDuration</name></member>
+      <member refid="classofi_phone_video_player_1a67c98e28f2709887abb729b0a41cc568" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getHeight</name></member>
+      <member refid="classofi_phone_video_player_1ae6cbf821b8a6cd1f68ff864e09dac215" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getIsMovieDone</name></member>
+      <member refid="classof_base_video_player_1af9bf92d459f19767ea5458d34f879f2c" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getLoopState</name></member>
+      <member refid="classofi_phone_video_player_1ac8635bf26011a71d648dd087c6b1b2c3" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getPixels</name></member>
+      <member refid="classofi_phone_video_player_1afd4e7a5c227e631f0f7ea7e3be0c3db9" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getPixelsRef</name></member>
+      <member refid="classofi_phone_video_player_1a23c7975ccb6d7a8c2841ff897e9d3954" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getPosition</name></member>
+      <member refid="classof_base_video_player_1a7ade13b100352b5f9bac10c1f41340e9" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getSpeed</name></member>
+      <member refid="classofi_phone_video_player_1a3638b8049f4273af9797bffe1c0086e6" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getTexture</name></member>
+      <member refid="classof_base_video_player_1a67e6f1bff3c40685408d5e6cc0797b0a" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getTotalNumFrames</name></member>
+      <member refid="classofi_phone_video_player_1a4d45b8058d3a95cff2db86fe3dc91d2d" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>getWidth</name></member>
+      <member refid="classofi_phone_video_player_1a4c10c693bc3155f451682c5999d35d4e" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>height</name></member>
+      <member refid="classofi_phone_video_player_1a728fde41838568fb58457b86e30e680f" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>initWithPath</name></member>
+      <member refid="classofi_phone_video_player_1a927ab977d9427181d89cae906405b545" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>internalGLFormat</name></member>
+      <member refid="classofi_phone_video_player_1a87b415ab8b8b7c653a6928a6f24048f8" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>isFrameNew</name></member>
+      <member refid="classofi_phone_video_player_1a5f8ad4104b65527746adea3555911ffb" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>isLoaded</name></member>
+      <member refid="classofi_phone_video_player_1a667284bcb2f74379f103660aae14b93c" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>isPaused</name></member>
+      <member refid="classofi_phone_video_player_1a603aa35c0e0782aa6e5c1e0add734328" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>isPlaying</name></member>
+      <member refid="classofi_phone_video_player_1a75d1e28833af2a83cfeb795249a9b8fd" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>lastUpdateTime</name></member>
+      <member refid="classofi_phone_video_player_1a33cdcbf0f72d7f8ed82fa31c77f59347" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>loadMovie</name></member>
+      <member refid="classof_base_video_player_1ad41d679181a0ba579ffa74f9a111dba8" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>nextFrame</name></member>
+      <member refid="classofi_phone_video_player_1acf73fce6a48bfe2ef98aeb95df4c61a3" prot="public" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>ofiPhoneVideoPlayer</name></member>
+      <member refid="classofi_phone_video_player_1a9e4033fb2beeee1e6a8e7df6c7d84ef6" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>pixels</name></member>
+      <member refid="classofi_phone_video_player_1a0ff91c953da6cf77ca6c3adee76575f0" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>pixelsTmp</name></member>
+      <member refid="classofi_phone_video_player_1a21bf2e7719d9fd65c0294ce85f47dcd9" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>play</name></member>
+      <member refid="classofi_phone_video_player_1a9b3d1dc7660dcdba69aeffb67980bfa2" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>playbackSpeed</name></member>
+      <member refid="classof_base_video_player_1aeecaa58315db3f080420d429c68ac0a2" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>previousFrame</name></member>
+      <member refid="classof_base_video_player_1abe2aa4c206d203cfc74355acee227a74" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>setFrame</name></member>
+      <member refid="classof_base_video_player_1a8f9599e7ef06655b028c196bdd7e9fa7" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>setLoopState</name></member>
+      <member refid="classofi_phone_video_player_1a65300113e48c60ff92c2a21b68b00181" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>setPaused</name></member>
+      <member refid="classofi_phone_video_player_1a44baeca582013711a1fe95b15e7629eb" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>setPixelFormat</name></member>
+      <member refid="classof_base_video_player_1ab4062ece76897e05541f649facdbfdc5" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>setPosition</name></member>
+      <member refid="classof_base_video_player_1ac0662c003a3e6b9a97a81d1b5ef1785d" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>setSpeed</name></member>
+      <member refid="classofi_phone_video_player_1a8988f223a69742e3411ab1c7c52e6e76" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>setVolume</name></member>
+      <member refid="classofi_phone_video_player_1a85f7c8cfe1e08ea89c964c275f06bdc9" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>stop</name></member>
+      <member refid="classofi_phone_video_player_1a8fb8746d69cbd3616f1f4c20ada6f547" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>update</name></member>
+      <member refid="classofi_phone_video_player_1a6992fd71618845df1d3ece76689e39d7" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>updateCurrentFrameRef</name></member>
+      <member refid="classofi_phone_video_player_1adf0802b5bcb5c8c693ba2148e40b4f59" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>videoPath</name></member>
+      <member refid="classofi_phone_video_player_1a1384f1a0aead1fa153529a237dcdd6c3" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>videoPlayer</name></member>
+      <member refid="classofi_phone_video_player_1a2318ee1ef08df1c6b7d71bbb4ca6c63a" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>videoTexture</name></member>
+      <member refid="classofi_phone_video_player_1a4e46fe3e529da1f072e18c355e58727c" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>videoWasStopped</name></member>
+      <member refid="classofi_phone_video_player_1acab1bdfa6246681aec5c8b5fe70126a9" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>vol</name></member>
+      <member refid="classofi_phone_video_player_1a6bc99b8e6e9cd4dbe5c1c736acb28745" prot="protected" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>width</name></member>
+      <member refid="classof_abstract_has_pixels_1ad47946469061dbdfbe106f61e80a1b33" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>~ofAbstractHasPixels</name></member>
+      <member refid="classof_base_has_pixels___1a62cfed9db02b38b104b6870a542031ee" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>~ofBaseHasPixels_</name></member>
+      <member refid="classof_base_updates_1a48cbac34caf49b4b72092888a7e63b27" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>~ofBaseUpdates</name></member>
+      <member refid="classof_base_video_1af8004a840c98637ba7572b2c34bbc249" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>~ofBaseVideo</name></member>
+      <member refid="classof_base_video_player_1a86a1a45f064c32fce624e6b104f61491" prot="public" virt="virtual"><scope>ofiPhoneVideoPlayer</scope><name>~ofBaseVideoPlayer</name></member>
+      <member refid="classofi_phone_video_player_1a5e0dbe82eacc1f54f526126daa13f69d" prot="public" virt="non-virtual"><scope>ofiPhoneVideoPlayer</scope><name>~ofiPhoneVideoPlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

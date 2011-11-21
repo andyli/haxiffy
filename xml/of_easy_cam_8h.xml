@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_easy_cam_8h" kind="file">
+    <compoundname>ofEasyCam.h</compoundname>
+    <includes refid="of_camera_8h" local="yes">ofCamera.h</includes>
+    <includes local="yes">ofEvents.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h</label>
+        <link refid="ofEasyCam.h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>ofEvents.h</label>
+      </node>
+      <node id="19">
+        <label>ofVectorMath.h</label>
+      </node>
+      <node id="17">
+        <label>ofAppRunner.h</label>
+      </node>
+      <node id="15">
+        <label>ofCamera.h</label>
+        <link refid="of_camera_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>ofGraphics.h</label>
+      </node>
+      <node id="20">
+        <label>of3dUtils.h</label>
+        <link refid="of3d_utils_8h"/>
+      </node>
+      <node id="18">
+        <label>ofNode.h</label>
+        <link refid="of_node_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>ofRectangle.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classof_easy_cam" prot="public">ofEasyCam</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_camera_8h" kindref="compound">ofCamera.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofEvents.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classof_easy_cam" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_easy_cam" kindref="compound">ofEasyCam</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_camera" kindref="compound">ofCamera</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_easy_cam_1ae432309081375a91cacf80c5d9093c14" kindref="member">ofEasyCam</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_easy_cam_1a00f32e3774a5d9f4733ee43dd6b9b8f7" kindref="member">~ofEasyCam</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>this<sp/>should<sp/>be<sp/>ofGetViewRect()<sp/>eventually</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a69e29e71e34e9173f82543cc35ee1b3e" kindref="member">begin</ref>(<ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>());</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a8833ae781975911013b5f6aa3bec32cd" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>advanced<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a16d54adecaba3892262551e5ea8dce25" kindref="member">setTarget</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref>&amp;<sp/><ref refid="classof_easy_cam_1a70bc15c733fb25d7b937f84edc94dd14" kindref="member">target</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a16d54adecaba3892262551e5ea8dce25" kindref="member">setTarget</ref>(<ref refid="classof_node" kindref="compound">ofNode</ref>&amp;<sp/>target);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_node" kindref="compound">ofNode</ref>&amp;<sp/><ref refid="classof_easy_cam_1afade82c98e2a489333cf1ec6b70f3c63" kindref="member">getTarget</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a4e3ba707cdc44c46bd442641d1b0c25a" kindref="member">setDistance</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a27eac21ea675b765c599cc3947455efd" kindref="member">getDistance</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>drag<sp/>is<sp/>how<sp/>quickly<sp/>the<sp/>camera<sp/>picks<sp/>up<sp/>and<sp/>slows<sp/>down</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>it<sp/>is<sp/>a<sp/>normalized<sp/>value<sp/>between<sp/>0-1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a3c25cc3a6ca19efd4e06667bcc2586b0" kindref="member">setDrag</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1aabc5379aa25258ecf08c0d9205c99bd2" kindref="member">drag</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a160c0400017413385c89bb9084073bff" kindref="member">getDrag</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1adb35a02a3c31cc833cd4d30830e9f006" kindref="member">mouseDragged</ref>(ofMouseEventArgs&amp;<sp/>mouse);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a9a0e60352d69fc7a03dc5a9b814e6c9d" kindref="member">mouseMoved</ref>(ofMouseEventArgs&amp;<sp/>mouse);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1adab10e1df89a77f056663af17bbf5ed3" kindref="member">mousePressed</ref>(ofMouseEventArgs&amp;<sp/>mouse);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a4ad97ad37c1d0b737dd1fc0ab7bf9590" kindref="member">mouseReleased</ref>(ofMouseEventArgs&amp;<sp/>mouse);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>enable<sp/>or<sp/>disable<sp/>mouse<sp/>input<sp/>to<sp/>navigate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1ac267e28e06a92003f6422e0ba707bfae" kindref="member">enableMouseInput</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a206a55a70de3bc16bd53cc3b6e9d07f0" kindref="member">disableMouseInput</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a47affec73161672979f9ae3e826702d6" kindref="member">getMouseInputEnabled</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a4e3ba707cdc44c46bd442641d1b0c25a" kindref="member">setDistance</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>save);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_node" kindref="compound">ofNode</ref><sp/><ref refid="classof_easy_cam_1a70bc15c733fb25d7b937f84edc94dd14" kindref="member">target</ref>;</highlight></codeline>
+<codeline lineno="44" refid="classof_easy_cam_1a70bc15c733fb25d7b937f84edc94dd14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1aabc5379aa25258ecf08c0d9205c99bd2" kindref="member">drag</ref>;</highlight></codeline>
+<codeline lineno="46" refid="classof_easy_cam_1aabc5379aa25258ecf08c0d9205c99bd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a3a8a3e5663d3f7769daa5334f144377b" kindref="member">zoomSpeed</ref>;</highlight></codeline>
+<codeline lineno="47" refid="classof_easy_cam_1a3a8a3e5663d3f7769daa5334f144377b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a462417ceebfb669e97bce5dbca0c041d" kindref="member">bMouseInputEnabled</ref>;</highlight></codeline>
+<codeline lineno="48" refid="classof_easy_cam_1a462417ceebfb669e97bce5dbca0c041d" refkind="member"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/><ref refid="classof_easy_cam_1afd62786b98e799a847d0b8b4713b415a" kindref="member">mousePosViewPrev</ref>;</highlight></codeline>
+<codeline lineno="50" refid="classof_easy_cam_1afd62786b98e799a847d0b8b4713b415a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/><ref refid="classof_easy_cam_1aaab8260ff7d10c6be3dc4e16cde069b0" kindref="member">mousePosScreenPrev</ref>;</highlight></codeline>
+<codeline lineno="51" refid="classof_easy_cam_1aaab8260ff7d10c6be3dc4e16cde069b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a0461c8c6317541d2d1d2856cb4bb8f44" kindref="member">lastFrame</ref>;</highlight></codeline>
+<codeline lineno="52" refid="classof_easy_cam_1a0461c8c6317541d2d1d2856cb4bb8f44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1ae13130e61eefe051011877b56867ec43" kindref="member">lastTap</ref>;</highlight></codeline>
+<codeline lineno="54" refid="classof_easy_cam_1ae13130e61eefe051011877b56867ec43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a82b0414674d9ee7ef4cb3ac30b10a01d" kindref="member">mousePressedPrev</ref>[2];</highlight></codeline>
+<codeline lineno="55" refid="classof_easy_cam_1a82b0414674d9ee7ef4cb3ac30b10a01d" refkind="member"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1aa2c64a7e4c6c3c78872a18fdb7458e2e" kindref="member">bDistanceSet</ref>;</highlight></codeline>
+<codeline lineno="57" refid="classof_easy_cam_1aa2c64a7e4c6c3c78872a18fdb7458e2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a0e4029cb59599ddbc0c7169b2f1273b1" kindref="member">lastDistance</ref>;</highlight></codeline>
+<codeline lineno="58" refid="classof_easy_cam_1a0e4029cb59599ddbc0c7169b2f1273b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classof_easy_cam_1a53ee3bf5e226175ce91366aaca9240ea" kindref="member">distanceScaleVelocity</ref>;</highlight></codeline>
+<codeline lineno="59" refid="classof_easy_cam_1a53ee3bf5e226175ce91366aaca9240ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref><sp/><ref refid="classof_easy_cam_1a7c0ae464e0c4ee3c5378199ad8091a48" kindref="member">rotation</ref>;</highlight></codeline>
+<codeline lineno="61" refid="classof_easy_cam_1a7c0ae464e0c4ee3c5378199ad8091a48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/><ref refid="classof_easy_cam_1ae48c2d0474d83dd562f0afad07b9876a" kindref="member">translation</ref>;</highlight></codeline>
+<codeline lineno="62" refid="classof_easy_cam_1ae48c2d0474d83dd562f0afad07b9876a" refkind="member"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/3d/ofEasyCam.h"/>
+  </compounddef>
+</doxygen>

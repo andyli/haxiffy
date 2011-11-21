@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_buffer" kind="class" prot="public">
+    <compoundname>ofBuffer</compoundname>
+    <includes refid="of_file_utils_8h" local="no">ofFileUtils.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_buffer_1ac776677efca95d126f9b633a0d1b5ca2" prot="private" static="no" mutable="no">
+        <type>vector&lt; char &gt;</type>
+        <definition>vector&lt;char&gt; ofBuffer::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="46" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_buffer_1a38f1a83de4fc984b0e0e5558cd2e747d" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ofBuffer::nextLinePos</definition>
+        <argsstring></argsstring>
+        <name>nextLinePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="47" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_buffer_1a38fa5ffd31f6100353ac59a3a9353f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofBuffer::ofBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>ofBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a499bc7b28b055e2dc67c2d666622297b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofBuffer::ofBuffer</definition>
+        <argsstring>(const char *buffer, int size)</argsstring>
+        <name>ofBuffer</name>
+        <param>
+          <type>const char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1ad5f956154e61dffd7b4c7792a43774ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofBuffer::ofBuffer</definition>
+        <argsstring>(istream &amp;stream)</argsstring>
+        <name>ofBuffer</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1af3b642a083e1ff77af4e8e1169e78490" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofBuffer::ofBuffer</definition>
+        <argsstring>(const ofBuffer &amp;buffer_)</argsstring>
+        <name>ofBuffer</name>
+        <param>
+          <type>const <ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>buffer_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a12268dac2878919ecae61b04d6a3458e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofBuffer::~ofBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>~ofBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1ae7dc433b43b9ca1569313966f1acab5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBuffer::set</definition>
+        <argsstring>(const char *_buffer, int _size)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const char *</type>
+          <declname>_buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1ad907debb84ee2107a877b503e5cf2be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofBuffer::set</definition>
+        <argsstring>(istream &amp;stream)</argsstring>
+        <name>set</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a0cdd668fb1780e8512d4a3c1b2931d8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofBuffer::writeTo</definition>
+        <argsstring>(ostream &amp;stream) const </argsstring>
+        <name>writeTo</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a6a14d4d2d028d9a3146a898d9a594b76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBuffer::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a5c07c6479de366fbf6745d91fc9f0b92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBuffer::allocate</definition>
+        <argsstring>(long _size)</argsstring>
+        <name>allocate</name>
+        <param>
+          <type>long</type>
+          <declname>_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a22e07ca3892b4ce73d16b9cb89995ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* ofBuffer::getBinaryBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>getBinaryBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a1a5af1a410b9b1c7f916a722425be91b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* ofBuffer::getBinaryBuffer</definition>
+        <argsstring>() const </argsstring>
+        <name>getBinaryBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a8f29fce1c8241d49032f8d69be0bf654" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofBuffer::getText</definition>
+        <argsstring>() const </argsstring>
+        <name>getText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1aed1256dccbb0f9fc90e66a29a27aec75" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofBuffer::operator string</definition>
+        <argsstring>() const </argsstring>
+        <name>operator string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1aec5c8692ba9fd31d57aa5c9d76aeba08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ofBuffer::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a9ef3d523459b1a12a69e3414d80f99f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofBuffer::getNextLine</definition>
+        <argsstring>()</argsstring>
+        <name>getNextLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a6d7fb51231e1672ca05c6d2e03ff9e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofBuffer::getFirstLine</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1a3ef12886512bf48d287c9dc87e9603c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofBuffer::isLastLine</definition>
+        <argsstring>()</argsstring>
+        <name>isLastLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_buffer_1ab7142e37735f084a5dd0b5cd049526f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBuffer::resetLineReader</definition>
+        <argsstring>()</argsstring>
+        <name>resetLineReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classof_buffer_1ac2361b6e648b909436795e2d76f39bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;ostr, const ofBuffer &amp;buf)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>ostr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="42"/>
+      </memberdef>
+      <memberdef kind="friend" id="classof_buffer_1a5768a499dc84fb7d542c1885dccd6b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend istream &amp;</type>
+        <definition>istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;istr, ofBuffer &amp;buf)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>istr</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_buffer" kindref="compound">ofBuffer</ref> &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" line="10" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofFileUtils.h" bodystart="10" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classof_buffer_1a5c07c6479de366fbf6745d91fc9f0b92" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>allocate</name></member>
+      <member refid="classof_buffer_1ac776677efca95d126f9b633a0d1b5ca2" prot="private" virt="non-virtual"><scope>ofBuffer</scope><name>buffer</name></member>
+      <member refid="classof_buffer_1a6a14d4d2d028d9a3146a898d9a594b76" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>clear</name></member>
+      <member refid="classof_buffer_1a22e07ca3892b4ce73d16b9cb89995ff0" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>getBinaryBuffer</name></member>
+      <member refid="classof_buffer_1a1a5af1a410b9b1c7f916a722425be91b" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>getBinaryBuffer</name></member>
+      <member refid="classof_buffer_1a6d7fb51231e1672ca05c6d2e03ff9e6c" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>getFirstLine</name></member>
+      <member refid="classof_buffer_1a9ef3d523459b1a12a69e3414d80f99f2" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>getNextLine</name></member>
+      <member refid="classof_buffer_1a8f29fce1c8241d49032f8d69be0bf654" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>getText</name></member>
+      <member refid="classof_buffer_1a3ef12886512bf48d287c9dc87e9603c4" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>isLastLine</name></member>
+      <member refid="classof_buffer_1a38f1a83de4fc984b0e0e5558cd2e747d" prot="private" virt="non-virtual"><scope>ofBuffer</scope><name>nextLinePos</name></member>
+      <member refid="classof_buffer_1a38fa5ffd31f6100353ac59a3a9353f70" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>ofBuffer</name></member>
+      <member refid="classof_buffer_1a499bc7b28b055e2dc67c2d666622297b" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>ofBuffer</name></member>
+      <member refid="classof_buffer_1ad5f956154e61dffd7b4c7792a43774ae" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>ofBuffer</name></member>
+      <member refid="classof_buffer_1af3b642a083e1ff77af4e8e1169e78490" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>ofBuffer</name></member>
+      <member refid="classof_buffer_1aed1256dccbb0f9fc90e66a29a27aec75" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>operator string</name></member>
+      <member refid="classof_buffer_1ac2361b6e648b909436795e2d76f39bef" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classof_buffer_1a5768a499dc84fb7d542c1885dccd6b1e" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classof_buffer_1ab7142e37735f084a5dd0b5cd049526f9" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>resetLineReader</name></member>
+      <member refid="classof_buffer_1ae7dc433b43b9ca1569313966f1acab5a" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>set</name></member>
+      <member refid="classof_buffer_1ad907debb84ee2107a877b503e5cf2be1" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>set</name></member>
+      <member refid="classof_buffer_1aec5c8692ba9fd31d57aa5c9d76aeba08" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>size</name></member>
+      <member refid="classof_buffer_1a0cdd668fb1780e8512d4a3c1b2931d8b" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>writeTo</name></member>
+      <member refid="classof_buffer_1a12268dac2878919ecae61b04d6a3458e" prot="public" virt="non-virtual"><scope>ofBuffer</scope><name>~ofBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

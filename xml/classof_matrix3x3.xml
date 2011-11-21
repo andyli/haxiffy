@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_matrix3x3" kind="class" prot="public">
+    <compoundname>ofMatrix3x3</compoundname>
+    <includes refid="of_matrix3x3_8h" local="no">ofMatrix3x3.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_matrix3x3_1afe58dfb5d5e8b1c2c27e552e7895bbc1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[ a b c ] [ d e f ] [ g h i ] </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="21" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_matrix3x3_1af5e92e450e2c886f009351fe55937ec7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_matrix3x3_1ad64f86e99a57956d03458e337044325c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="23" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_matrix3x3_1a68861184f8d01324c1f60bb38c6dfced" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="24" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_matrix3x3_1a1d1af02986f08ab19d16c62c91c2a952" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="25" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_matrix3x3_1a47826886d312ad344c540e5b49a553f1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="26" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_matrix3x3_1a63d6bf413ac25ad24536db78a32b2e2c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="27" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_matrix3x3_1a232ca8e16bc72b7193843a34832f0b35" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_matrix3x3_1ae59b727db6bd3fce4cc55c019f1605f3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofMatrix3x3::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="29" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_matrix3x3_1aa39ac80972bf70055f8a7f7c35e6be4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofMatrix3x3::ofMatrix3x3</definition>
+        <argsstring>(float _a=0.0, float _b=0.0, float _c=0.0, float _d=0.0, float _e=0.0, float _f=0.0, float _g=0.0, float _h=0.0, float _i=0.0)</argsstring>
+        <name>ofMatrix3x3</name>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_b</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_c</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_d</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_e</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_f</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_g</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_h</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_i</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a2d3575fb8d483aec537feb0c53716856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::set</definition>
+        <argsstring>(float _a, float _b, float _c, float _d, float _e, float _f, float _g, float _h, float _i)</argsstring>
+        <name>set</name>
+        <param>
+          <type>float</type>
+          <declname>_a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_d</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_f</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_h</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a329bb84d60e7e58a409a80454f119344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float&amp; ofMatrix3x3::operator[]</definition>
+        <argsstring>(const int &amp;index)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1ab6a97a494d36b7839f7476caeb4b3de4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::transpose</definition>
+        <argsstring>()</argsstring>
+        <name>transpose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transpose: This changes the matrix. [ a b c ]T [ a d g ] [ d e f ] = [ b e h ] [ g h i ] [ c f i ] </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1ae13f18c324f8daaaa2cb7b3bdf8843f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref></type>
+        <definition>ofMatrix3x3 ofMatrix3x3::transpose</definition>
+        <argsstring>(const ofMatrix3x3 &amp;A)</argsstring>
+        <name>transpose</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>A</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transpose without changing the matrix. Uses the &quot;swap&quot; method with additions and subtractions to swap the elements that aren&apos;t on the main diagonal. <simplesect kind="return"><para>transposed matrix. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a9033ce258911253884a6876ef19f2f24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofMatrix3x3::determinant</definition>
+        <argsstring>() const </argsstring>
+        <name>determinant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determinant: <ulink url="http://mathworld.wolfram.com/Determinant.html">http://mathworld.wolfram.com/Determinant.html</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1af3f0d57d3c4a9add81bf6818608b1984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofMatrix3x3::determinant</definition>
+        <argsstring>(const ofMatrix3x3 &amp;A)</argsstring>
+        <name>determinant</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>A</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a6769d224cf5ac39ca3d2d96decdca0a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::invert</definition>
+        <argsstring>()</argsstring>
+        <name>invert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inverse of a 3x3 matrix the inverse is the adjoint divided through the determinant find the matrix of minors (minor = determinant of 2x2 matrix of the 2 rows/colums current element is NOT in) turn them in cofactors (= change some of the signs) find the adjoint by transposing the matrix of cofactors divide this through the determinant to get the inverse </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a491fd57f5c610f54464bef4424398979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref></type>
+        <definition>ofMatrix3x3 ofMatrix3x3::inverse</definition>
+        <argsstring>(const ofMatrix3x3 &amp;A)</argsstring>
+        <name>inverse</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>A</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1ae671d83fa87bea0a606b3e2076afaa38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref></type>
+        <definition>ofMatrix3x3 ofMatrix3x3::operator+</definition>
+        <argsstring>(const ofMatrix3x3 &amp;B)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add two matrices </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1af6f2911e272cf537159886be3a54a2d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::operator+=</definition>
+        <argsstring>(const ofMatrix3x3 &amp;B)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a6c5c067925a3d87bdf30e0ed85b86613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref></type>
+        <definition>ofMatrix3x3 ofMatrix3x3::operator-</definition>
+        <argsstring>(const ofMatrix3x3 &amp;B)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subtract two matrices </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a59f42dee005190722b8e54355836ca74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::operator-=</definition>
+        <argsstring>(const ofMatrix3x3 &amp;B)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a14ed2bf93542c3d540365443df6ae95a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref></type>
+        <definition>ofMatrix3x3 ofMatrix3x3::operator*</definition>
+        <argsstring>(float scalar)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>float</type>
+          <declname>scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiply a matrix with a scalar </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a86c70609d64198aa25d9d24bdd437610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::operator*=</definition>
+        <argsstring>(const ofMatrix3x3 &amp;B)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a527b5b937243b20adde4b709c2cd96b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::operator*=</definition>
+        <argsstring>(float scalar)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>float</type>
+          <declname>scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a5a7b30409c9121080666229a17f3eba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref></type>
+        <definition>ofMatrix3x3 ofMatrix3x3::operator*</definition>
+        <argsstring>(const ofMatrix3x3 &amp;B)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiply a 3x3 matrix with a 3x3 matrix </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1adcf2270544195d4f525ceb741b9319d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref></type>
+        <definition>ofMatrix3x3 ofMatrix3x3::operator/</definition>
+        <argsstring>(float scalar)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>float</type>
+          <declname>scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Divide a matrix through a scalar </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1ac4ad50cae99696ab3514fa2ab44c94be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::operator/=</definition>
+        <argsstring>(const ofMatrix3x3 &amp;B)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_matrix3x3_1a9062fd8ddd5b8136cc77d8c4a590f99b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofMatrix3x3::operator/=</definition>
+        <argsstring>(float scalar)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>float</type>
+          <declname>scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="134"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classof_matrix3x3_1a3a751851e70f7d08933a8bb74ae79b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const ofMatrix3x3 &amp;M)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>M</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="118"/>
+      </memberdef>
+      <memberdef kind="friend" id="classof_matrix3x3_1abf46313577c6b9cd10201245f1e46f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend istream &amp;</type>
+        <definition>istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;is, ofMatrix3x3 &amp;M)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_matrix3x3" kindref="compound">ofMatrix3x3</ref> &amp;</type>
+          <declname>M</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Credits: Code adopted from Lode Vandevenne <ulink url="http://student.kuleuven.be/~m0216922/CG/">http://student.kuleuven.be/~m0216922/CG/</ulink> </para>    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" line="11" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofMatrix3x3.h" bodystart="11" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classof_matrix3x3_1afe58dfb5d5e8b1c2c27e552e7895bbc1" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>a</name></member>
+      <member refid="classof_matrix3x3_1af5e92e450e2c886f009351fe55937ec7" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>b</name></member>
+      <member refid="classof_matrix3x3_1ad64f86e99a57956d03458e337044325c" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>c</name></member>
+      <member refid="classof_matrix3x3_1a68861184f8d01324c1f60bb38c6dfced" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>d</name></member>
+      <member refid="classof_matrix3x3_1a9033ce258911253884a6876ef19f2f24" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>determinant</name></member>
+      <member refid="classof_matrix3x3_1af3f0d57d3c4a9add81bf6818608b1984" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>determinant</name></member>
+      <member refid="classof_matrix3x3_1a1d1af02986f08ab19d16c62c91c2a952" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>e</name></member>
+      <member refid="classof_matrix3x3_1a47826886d312ad344c540e5b49a553f1" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>f</name></member>
+      <member refid="classof_matrix3x3_1a63d6bf413ac25ad24536db78a32b2e2c" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>g</name></member>
+      <member refid="classof_matrix3x3_1a232ca8e16bc72b7193843a34832f0b35" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>h</name></member>
+      <member refid="classof_matrix3x3_1ae59b727db6bd3fce4cc55c019f1605f3" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>i</name></member>
+      <member refid="classof_matrix3x3_1a491fd57f5c610f54464bef4424398979" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>inverse</name></member>
+      <member refid="classof_matrix3x3_1a6769d224cf5ac39ca3d2d96decdca0a5" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>invert</name></member>
+      <member refid="classof_matrix3x3_1aa39ac80972bf70055f8a7f7c35e6be4e" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>ofMatrix3x3</name></member>
+      <member refid="classof_matrix3x3_1a14ed2bf93542c3d540365443df6ae95a" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator*</name></member>
+      <member refid="classof_matrix3x3_1a5a7b30409c9121080666229a17f3eba5" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator*</name></member>
+      <member refid="classof_matrix3x3_1a86c70609d64198aa25d9d24bdd437610" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator*=</name></member>
+      <member refid="classof_matrix3x3_1a527b5b937243b20adde4b709c2cd96b5" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator*=</name></member>
+      <member refid="classof_matrix3x3_1ae671d83fa87bea0a606b3e2076afaa38" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator+</name></member>
+      <member refid="classof_matrix3x3_1af6f2911e272cf537159886be3a54a2d5" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator+=</name></member>
+      <member refid="classof_matrix3x3_1a6c5c067925a3d87bdf30e0ed85b86613" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator-</name></member>
+      <member refid="classof_matrix3x3_1a59f42dee005190722b8e54355836ca74" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator-=</name></member>
+      <member refid="classof_matrix3x3_1adcf2270544195d4f525ceb741b9319d5" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator/</name></member>
+      <member refid="classof_matrix3x3_1ac4ad50cae99696ab3514fa2ab44c94be" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator/=</name></member>
+      <member refid="classof_matrix3x3_1a9062fd8ddd5b8136cc77d8c4a590f99b" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator/=</name></member>
+      <member refid="classof_matrix3x3_1a3a751851e70f7d08933a8bb74ae79b7d" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classof_matrix3x3_1abf46313577c6b9cd10201245f1e46f87" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classof_matrix3x3_1a329bb84d60e7e58a409a80454f119344" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>operator[]</name></member>
+      <member refid="classof_matrix3x3_1a2d3575fb8d483aec537feb0c53716856" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>set</name></member>
+      <member refid="classof_matrix3x3_1ab6a97a494d36b7839f7476caeb4b3de4" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>transpose</name></member>
+      <member refid="classof_matrix3x3_1ae13f18c324f8daaaa2cb7b3bdf8843f9" prot="public" virt="non-virtual"><scope>ofMatrix3x3</scope><name>transpose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_log_8h" kind="file">
+    <compoundname>ofLog.h</compoundname>
+    <includes refid="of_constants_8h" local="yes">ofConstants.h</includes>
+    <includes refid="of_file_utils_8h" local="yes">ofFileUtils.h</includes>
+    <includes local="yes">ofTypes.h</includes>
+    <includedby refid="of_utils_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofUtils.h</includedby>
+    <incdepgraph>
+      <node id="513">
+        <label>iomanip</label>
+      </node>
+      <node id="501">
+        <label>GL/glx.h</label>
+      </node>
+      <node id="497">
+        <label>ofConstants.h</label>
+        <link refid="of_constants_8h"/>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="499" relation="include">
+        </childnode>
+        <childnode refid="500" relation="include">
+        </childnode>
+        <childnode refid="501" relation="include">
+        </childnode>
+        <childnode refid="502" relation="include">
+        </childnode>
+        <childnode refid="503" relation="include">
+        </childnode>
+        <childnode refid="504" relation="include">
+        </childnode>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="507" relation="include">
+        </childnode>
+        <childnode refid="508" relation="include">
+        </childnode>
+        <childnode refid="509" relation="include">
+        </childnode>
+        <childnode refid="510" relation="include">
+        </childnode>
+        <childnode refid="511" relation="include">
+        </childnode>
+        <childnode refid="512" relation="include">
+        </childnode>
+        <childnode refid="513" relation="include">
+        </childnode>
+        <childnode refid="514" relation="include">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>cmath</label>
+      </node>
+      <node id="508">
+        <label>string</label>
+      </node>
+      <node id="505">
+        <label>cstdarg</label>
+      </node>
+      <node id="499">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="516">
+        <label>Poco/File.h</label>
+      </node>
+      <node id="502">
+        <label>tesselator.h</label>
+      </node>
+      <node id="514">
+        <label>fstream</label>
+      </node>
+      <node id="496">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h</label>
+        <link refid="ofLog.h"/>
+        <childnode refid="497" relation="include">
+        </childnode>
+        <childnode refid="515" relation="include">
+        </childnode>
+        <childnode refid="517" relation="include">
+        </childnode>
+      </node>
+      <node id="504">
+        <label>cstdio</label>
+      </node>
+      <node id="507">
+        <label>ctime</label>
+      </node>
+      <node id="498">
+        <label>unistd.h</label>
+      </node>
+      <node id="510">
+        <label>vector</label>
+      </node>
+      <node id="512">
+        <label>sstream</label>
+      </node>
+      <node id="517">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="503">
+        <label>cstdlib</label>
+      </node>
+      <node id="509">
+        <label>iostream</label>
+      </node>
+      <node id="515">
+        <label>ofFileUtils.h</label>
+        <link refid="of_file_utils_8h"/>
+        <childnode refid="497" relation="include">
+        </childnode>
+        <childnode refid="516" relation="include">
+        </childnode>
+      </node>
+      <node id="500">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="511">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="519">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofUtils.h</label>
+        <link refid="of_utils_8h"/>
+      </node>
+      <node id="518">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h</label>
+        <link refid="ofLog.h"/>
+        <childnode refid="519" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classof_log" prot="public">ofLog</innerclass>
+    <innerclass refid="classof_log_verbose" prot="public">ofLogVerbose</innerclass>
+    <innerclass refid="classof_log_notice" prot="public">ofLogNotice</innerclass>
+    <innerclass refid="classof_log_warning" prot="public">ofLogWarning</innerclass>
+    <innerclass refid="classof_log_error" prot="public">ofLogError</innerclass>
+    <innerclass refid="classof_log_fatal_error" prot="public">ofLogFatalError</innerclass>
+    <innerclass refid="classof_base_logger_channel" prot="public">ofBaseLoggerChannel</innerclass>
+    <innerclass refid="classof_console_logger_channel" prot="public">ofConsoleLoggerChannel</innerclass>
+    <innerclass refid="classof_file_logger_channel" prot="public">ofFileLoggerChannel</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" prot="public" static="no">
+        <name>ofLogLevel</name>
+        <enumvalue id="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a344bd0fb24d6bd1f23f6d7e09a1ada2f" prot="public">
+          <name>OF_LOG_VERBOSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4ae694d6f9c9ad50b955aa85ded74c41bc" prot="public">
+          <name>OF_LOG_NOTICE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a0ece8203f15199db94060ba73e974635" prot="public">
+          <name>OF_LOG_WARNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a64e5a9d8e8727e95ec14005ffd896a6d" prot="public">
+          <name>OF_LOG_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a5379d861c8b09cd189567f6779256dd2" prot="public">
+          <name>OF_LOG_FATAL_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4ad2f1bd16f52d94ab0ff47f9095d4a7f3" prot="public">
+          <name>OF_LOG_SILENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="7" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" bodystart="7" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_log_8h_1a18dbcd116b6de7fdd84a2699bbb935fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetLogLevel</definition>
+        <argsstring>(ofLogLevel logLevel)</argsstring>
+        <name>ofSetLogLevel</name>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>logLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="of_log_8h_1a85cc790951f666d190149e09b836ba01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetLogLevel</definition>
+        <argsstring>(string module, ofLogLevel logLevel)</argsstring>
+        <name>ofSetLogLevel</name>
+        <param>
+          <type>string</type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>logLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="of_log_8h_1ac6e0d81bf5142843892fe54908399794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+        <definition>ofLogLevel ofGetLogLevel</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetLogLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="of_log_8h_1a669a0da89a1dbc61c35aeb5b02d5b21c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetLoggerChannel</definition>
+        <argsstring>(ofPtr&lt; ofBaseLoggerChannel &gt; loggerChannel)</argsstring>
+        <name>ofSetLoggerChannel</name>
+        <param>
+          <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_logger_channel" kindref="compound">ofBaseLoggerChannel</ref> &gt;</type>
+          <declname>loggerChannel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="of_log_8h_1ae02174a9ed5d36407a67514553677628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ofGetLogLevelName</definition>
+        <argsstring>(ofLogLevel level)</argsstring>
+        <name>ofGetLogLevelName</name>
+        <param>
+          <type><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref></type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="of_log_8h_1a1ed956aa67bdd9871b2839ead0dc1191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLogToFile</definition>
+        <argsstring>(const string &amp;path, bool append=false)</argsstring>
+        <name>ofLogToFile</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>append</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="of_log_8h_1aeaeb5016cb838a99e88502a57d8b2cb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLogToConsole</definition>
+        <argsstring>()</argsstring>
+        <name>ofLogToConsole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h" line="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_constants_8h" kindref="compound">ofConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="of_file_utils_8h" kindref="compound">ofFileUtils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a344bd0fb24d6bd1f23f6d7e09a1ada2f" kindref="member">OF_LOG_VERBOSE</ref>,</highlight></codeline>
+<codeline lineno="9" refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a344bd0fb24d6bd1f23f6d7e09a1ada2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4ae694d6f9c9ad50b955aa85ded74c41bc" kindref="member">OF_LOG_NOTICE</ref>,</highlight></codeline>
+<codeline lineno="10" refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4ae694d6f9c9ad50b955aa85ded74c41bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a0ece8203f15199db94060ba73e974635" kindref="member">OF_LOG_WARNING</ref>,</highlight></codeline>
+<codeline lineno="11" refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a0ece8203f15199db94060ba73e974635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a64e5a9d8e8727e95ec14005ffd896a6d" kindref="member">OF_LOG_ERROR</ref>,</highlight></codeline>
+<codeline lineno="12" refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a64e5a9d8e8727e95ec14005ffd896a6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a5379d861c8b09cd189567f6779256dd2" kindref="member">OF_LOG_FATAL_ERROR</ref>,</highlight></codeline>
+<codeline lineno="13" refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4a5379d861c8b09cd189567f6779256dd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4ad2f1bd16f52d94ab0ff47f9095d4a7f3" kindref="member">OF_LOG_SILENT</ref><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>one<sp/>is<sp/>special<sp/>and<sp/>should<sp/>always<sp/>be<sp/>last,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4ad2f1bd16f52d94ab0ff47f9095d4a7f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>ofSetLogLevel<sp/>to<sp/>OF_SILENT<sp/>to<sp/>not<sp/>recieve<sp/>any<sp/>messages</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_base_logger_channel" kindref="compound">ofBaseLoggerChannel</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//--------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_log_8h_1a18dbcd116b6de7fdd84a2699bbb935fa" kindref="member">ofSetLogLevel</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_log_8h_1a18dbcd116b6de7fdd84a2699bbb935fa" kindref="member">ofSetLogLevel</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>module,<sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/><ref refid="of_log_8h_1ac6e0d81bf5142843892fe54908399794" kindref="member">ofGetLogLevel</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_log_8h_1a669a0da89a1dbc61c35aeb5b02d5b21c" kindref="member">ofSetLoggerChannel</ref>(<ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseLoggerChannel&gt;</ref><sp/>loggerChannel);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="of_log_8h_1ae02174a9ed5d36407a67514553677628" kindref="member">ofGetLogLevelName</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>level);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_log_8h_1a1ed956aa67bdd9871b2839ead0dc1191" kindref="member">ofLogToFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>append=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_log_8h_1aeaeb5016cb838a99e88502a57d8b2cb6" kindref="member">ofLogToConsole</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="54" refid="classof_log" refkind="compound"><highlight class="comment"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_1a11a926adbe4ef4bfbee393345f5df1cc" kindref="member" tooltip="use the default log level">ofLog</ref>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_1a11a926adbe4ef4bfbee393345f5df1cc" kindref="member" tooltip="use the default log level">ofLog</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_1a11a926adbe4ef4bfbee393345f5df1cc" kindref="member" tooltip="use the default log level">ofLog</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1ab3d3e5b757165ab10f455d678917c9da" kindref="member" tooltip="temp buffer">message</ref>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_1a11a926adbe4ef4bfbee393345f5df1cc" kindref="member" tooltip="use the default log level">ofLog</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>format,<sp/>...);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classof_log_1a50698995eea3deb35f9ea539f51d398b" kindref="member" tooltip="does the actual printing when the ostream is done">~ofLog</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;<sp/></highlight></codeline>
+<codeline lineno="72" refid="classof_log_1a66ccaaa768250066ca2078d63ccb14d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>&amp;<sp/><ref refid="classof_log_1a66ccaaa768250066ca2078d63ccb14d0" kindref="member" tooltip="catch the &amp;lt;&amp;lt; ostream with a template class to read any type of data">operator&lt;&lt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>value){</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>message<sp/>&lt;&lt;<sp/>value<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="classof_log_1a10502cf2a6a2ad636e5f1c4058bd037f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>&amp;<sp/><ref refid="classof_log_1a10502cf2a6a2ad636e5f1c4058bd037f" kindref="member" tooltip="catch the &amp;lt;&amp;lt; ostream function pointers such as std::endl and std::hex">operator&lt;&lt;</ref>(std::ostream&amp;<sp/>(*func)(std::ostream&amp;)){</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>func(message);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_log_1ad20297d62c7d8b547553bea3b6d18029" kindref="member">setChannel</ref>(<ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseLoggerChannel&gt;</ref><sp/><ref refid="classof_log_1addce8088c4d55fb91360f3b91e4801ef" kindref="member">channel</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="86" refid="classof_log_1ae6e5efb037f89eec86c478c7501b7f11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/><ref refid="classof_log_1ae6e5efb037f89eec86c478c7501b7f11" kindref="member" tooltip="log level">level</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87" refid="classof_log_1adfeb1385b39fad45477eb0bc1f70fdb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_log_1adfeb1385b39fad45477eb0bc1f70fdb4" kindref="member" tooltip="has the msg been printed in the constructor?">bPrinted</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88" refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_log_1a1d4ece9af238988b484420a2422c69e9" kindref="member" tooltip="print a log line">_log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/><ref refid="classof_log_1ae6e5efb037f89eec86c478c7501b7f11" kindref="member" tooltip="log level">level</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classof_log_1a3288e9556cd90f363a1575ef3ec2ed0d" kindref="member">checkLog</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/><ref refid="classof_log_1ae6e5efb037f89eec86c478c7501b7f11" kindref="member" tooltip="log level">level</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="96" refid="classof_log_1ab3d3e5b757165ab10f455d678917c9da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::ostringstream<sp/><ref refid="classof_log_1ab3d3e5b757165ab10f455d678917c9da" kindref="member" tooltip="temp buffer">message</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98" refid="classof_log_1ad0aa8f5065d3bd49e4e104aacea40955" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_1ad0aa8f5065d3bd49e4e104aacea40955" kindref="member">ofLog</ref>(<ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;)<sp/>{}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>not<sp/>defined,<sp/>not<sp/>copyable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="classof_log_1a456b2aefb5d50535a423c506a44e1d14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>&amp;<sp/><ref refid="classof_log_1a456b2aefb5d50535a423c506a44e1d14" kindref="member">operator=</ref>(<ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>&amp;<sp/>from)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;}<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>not<sp/>defined,<sp/>not<sp/>assignable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="classof_log_1addce8088c4d55fb91360f3b91e4801ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseLoggerChannel&gt;</ref><sp/><ref refid="classof_log_1addce8088c4d55fb91360f3b91e4801ef" kindref="member">channel</ref>;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//--------------------------------------------------------------</highlight></codeline>
+<codeline lineno="109" refid="classof_log_verbose" refkind="compound"><highlight class="comment"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_log_verbose" kindref="compound">ofLogVerbose</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_verbose_1a3d7015d7e3195a40aff9d2ec5bdaa1ee" kindref="member">ofLogVerbose</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>=</highlight><highlight class="stringliteral">&quot;OF&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_verbose_1a3d7015d7e3195a40aff9d2ec5bdaa1ee" kindref="member">ofLogVerbose</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="classof_log_notice" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_log_notice" kindref="compound">ofLogNotice</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_notice_1ad37dd2a80050670ceef61d115d76a70c" kindref="member">ofLogNotice</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>=</highlight><highlight class="stringliteral">&quot;OF&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_notice_1ad37dd2a80050670ceef61d115d76a70c" kindref="member">ofLogNotice</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="classof_log_warning" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_log_warning" kindref="compound">ofLogWarning</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_warning_1af4c6960bca72b79d68b3412d42b00c67" kindref="member">ofLogWarning</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>=</highlight><highlight class="stringliteral">&quot;OF&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_warning_1af4c6960bca72b79d68b3412d42b00c67" kindref="member">ofLogWarning</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="classof_log_error" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_log_error" kindref="compound">ofLogError</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_error_1afbd09ef9f8ff7928bad308e5c5723dc2" kindref="member">ofLogError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>=</highlight><highlight class="stringliteral">&quot;OF&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_error_1afbd09ef9f8ff7928bad308e5c5723dc2" kindref="member">ofLogError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="classof_log_fatal_error" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_log_fatal_error" kindref="compound">ofLogFatalError</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_log" kindref="compound" tooltip="a streaming log interface">ofLog</ref>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_fatal_error_1a83f0acc3197e3a2148329424d7de5496" kindref="member">ofLogFatalError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>=</highlight><highlight class="stringliteral">&quot;OF&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_log_fatal_error_1a83f0acc3197e3a2148329424d7de5496" kindref="member">ofLogFatalError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="classof_log_1aa1f61b048422566b8bdd9c50f5a05f44" kindref="member">module</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="classof_base_logger_channel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_base_logger_channel" kindref="compound">ofBaseLoggerChannel</ref>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="141" refid="classof_base_logger_channel_1ad25596521f5df6c781fd2668c829c50e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classof_base_logger_channel_1ad25596521f5df6c781fd2668c829c50e" kindref="member">~ofBaseLoggerChannel</ref>(){};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_logger_channel_1a41859e4af28dd6263df054666a5fe58f" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>level,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message)=0;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_logger_channel_1a41859e4af28dd6263df054666a5fe58f" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>format,<sp/>...)=0;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_base_logger_channel_1a41859e4af28dd6263df054666a5fe58f" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>format,<sp/>va_list<sp/>args)=0;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="classof_console_logger_channel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_console_logger_channel" kindref="compound">ofConsoleLoggerChannel</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_base_logger_channel" kindref="compound">ofBaseLoggerChannel</ref>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="149" refid="classof_console_logger_channel_1a4eadfde9d9789bff8eee8bb8949aed97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classof_console_logger_channel_1a4eadfde9d9789bff8eee8bb8949aed97" kindref="member">~ofConsoleLoggerChannel</ref>(){};</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_console_logger_channel_1aa07ecce14277c0eaeae57c2078619394" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>level,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_console_logger_channel_1aa07ecce14277c0eaeae57c2078619394" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>format,<sp/>...);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_console_logger_channel_1aa07ecce14277c0eaeae57c2078619394" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>format,<sp/>va_list<sp/>args);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="classof_file_logger_channel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classof_file_logger_channel" kindref="compound">ofFileLoggerChannel</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classof_base_logger_channel" kindref="compound">ofBaseLoggerChannel</ref>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_logger_channel_1a4db912afeff73bff1b44d744252c48c9" kindref="member">ofFileLoggerChannel</ref>();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file_logger_channel_1a4db912afeff73bff1b44d744252c48c9" kindref="member">ofFileLoggerChannel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>path,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>append);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classof_file_logger_channel_1a7fbfbd9127d8ef7df1abdc12e50b9b5d" kindref="member">~ofFileLoggerChannel</ref>();</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_logger_channel_1a7f1e7e14ba2b3ee28b4310128acd5796" kindref="member">setFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>path,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>append=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_logger_channel_1a6508d0b263dfbb3c3b73f28fed4116e6" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>level,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>message);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_logger_channel_1a6508d0b263dfbb3c3b73f28fed4116e6" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>format,<sp/>...);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_logger_channel_1a6508d0b263dfbb3c3b73f28fed4116e6" kindref="member">log</ref>(<ref refid="of_log_8h_1a6b3aba959377cae6ed3afbb9d5826fe4" kindref="member">ofLogLevel</ref><sp/>logLevel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>format,<sp/>va_list<sp/>args);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classof_file_logger_channel_1a4afd7cfd7aea4071c2d6320e32c157e9" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="170" refid="classof_file_logger_channel_1ae0705a203bf98b2d99f64eab9fd1832a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classof_file" kindref="compound">ofFile</ref><sp/><ref refid="classof_file_logger_channel_1ae0705a203bf98b2d99f64eab9fd1832a" kindref="member">file</ref>;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/utils/ofLog.h"/>
+  </compounddef>
+</doxygen>

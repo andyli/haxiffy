@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="structchar_props" kind="struct" prot="public">
+    <compoundname>charProps</compoundname>
+    <includes refid="of_true_type_font_8h" local="no">ofTrueTypeFont.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structchar_props_1add93b5dc8ccb5dd0222182a48542215e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int charProps::character</definition>
+        <argsstring></argsstring>
+        <name>character</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="14" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1a5f699d8851a3bc09494e10da688f1071" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int charProps::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="15" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1abfc5bd615c705713bda6c79691fb5189" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int charProps::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="16" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1a6e01012c0e3041753df888d3b7d86258" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int charProps::setWidth</definition>
+        <argsstring></argsstring>
+        <name>setWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="17" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1a36af5fe77195b307b9d187907f43deb7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int charProps::topExtent</definition>
+        <argsstring></argsstring>
+        <name>topExtent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="18" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1aec1939811534ecd96d0dff264a01d6dc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int charProps::leftExtent</definition>
+        <argsstring></argsstring>
+        <name>leftExtent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="19" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1ab4a2338ad06a1418bd8fe44c125b9b47" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::tW</definition>
+        <argsstring></argsstring>
+        <name>tW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="20" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1aec99e0549b216c92c4b969ccdc0d106b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::tH</definition>
+        <argsstring></argsstring>
+        <name>tH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="20" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1a1a7c4050d67607482ab5fc73dc48b766" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::x1</definition>
+        <argsstring></argsstring>
+        <name>x1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="21" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1a48894e5c09c412444b2928c8fc7e8f28" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::x2</definition>
+        <argsstring></argsstring>
+        <name>x2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="21" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1adb4ee878b12e5c0f0581c35adb654bf4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::y1</definition>
+        <argsstring></argsstring>
+        <name>y1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="21" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1a0c5799643a84c7491a1329a4cdb54e8f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::y2</definition>
+        <argsstring></argsstring>
+        <name>y2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="21" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1af254bc00d36df02fc24d06cbc0879eef" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::t1</definition>
+        <argsstring></argsstring>
+        <name>t1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1ac8f15861f1a6e11bbee14868fdb85e6b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::t2</definition>
+        <argsstring></argsstring>
+        <name>t2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1ab3b0790ac65d76a004108c9a0f648671" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::v1</definition>
+        <argsstring></argsstring>
+        <name>v1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchar_props_1a2e9e6d82f173a66318ebcb9aabc20042" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float charProps::v2</definition>
+        <argsstring></argsstring>
+        <name>v2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="22" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="13" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="13" bodyend="23"/>
+    <listofallmembers>
+      <member refid="structchar_props_1add93b5dc8ccb5dd0222182a48542215e" prot="public" virt="non-virtual"><scope>charProps</scope><name>character</name></member>
+      <member refid="structchar_props_1a5f699d8851a3bc09494e10da688f1071" prot="public" virt="non-virtual"><scope>charProps</scope><name>height</name></member>
+      <member refid="structchar_props_1aec1939811534ecd96d0dff264a01d6dc" prot="public" virt="non-virtual"><scope>charProps</scope><name>leftExtent</name></member>
+      <member refid="structchar_props_1a6e01012c0e3041753df888d3b7d86258" prot="public" virt="non-virtual"><scope>charProps</scope><name>setWidth</name></member>
+      <member refid="structchar_props_1af254bc00d36df02fc24d06cbc0879eef" prot="public" virt="non-virtual"><scope>charProps</scope><name>t1</name></member>
+      <member refid="structchar_props_1ac8f15861f1a6e11bbee14868fdb85e6b" prot="public" virt="non-virtual"><scope>charProps</scope><name>t2</name></member>
+      <member refid="structchar_props_1aec99e0549b216c92c4b969ccdc0d106b" prot="public" virt="non-virtual"><scope>charProps</scope><name>tH</name></member>
+      <member refid="structchar_props_1a36af5fe77195b307b9d187907f43deb7" prot="public" virt="non-virtual"><scope>charProps</scope><name>topExtent</name></member>
+      <member refid="structchar_props_1ab4a2338ad06a1418bd8fe44c125b9b47" prot="public" virt="non-virtual"><scope>charProps</scope><name>tW</name></member>
+      <member refid="structchar_props_1ab3b0790ac65d76a004108c9a0f648671" prot="public" virt="non-virtual"><scope>charProps</scope><name>v1</name></member>
+      <member refid="structchar_props_1a2e9e6d82f173a66318ebcb9aabc20042" prot="public" virt="non-virtual"><scope>charProps</scope><name>v2</name></member>
+      <member refid="structchar_props_1abfc5bd615c705713bda6c79691fb5189" prot="public" virt="non-virtual"><scope>charProps</scope><name>width</name></member>
+      <member refid="structchar_props_1a1a7c4050d67607482ab5fc73dc48b766" prot="public" virt="non-virtual"><scope>charProps</scope><name>x1</name></member>
+      <member refid="structchar_props_1a48894e5c09c412444b2928c8fc7e8f28" prot="public" virt="non-virtual"><scope>charProps</scope><name>x2</name></member>
+      <member refid="structchar_props_1adb4ee878b12e5c0f0581c35adb654bf4" prot="public" virt="non-virtual"><scope>charProps</scope><name>y1</name></member>
+      <member refid="structchar_props_1a0c5799643a84c7491a1329a4cdb54e8f" prot="public" virt="non-virtual"><scope>charProps</scope><name>y2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classstd_1_1tr1_1_1shared__ptr" kind="class" prot="public">
+    <compoundname>std::tr1::shared_ptr</compoundname>
+    <derivedcompoundref refid="classof_ptr" prot="public" virt="non-virtual">ofPtr&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_ptr" prot="public" virt="non-virtual">ofPtr&lt; AVFoundationVideoGrabber &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_ptr" prot="public" virt="non-virtual">ofPtr&lt; ofBaseLoggerChannel &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_ptr" prot="public" virt="non-virtual">ofPtr&lt; ofBaseSoundPlayer &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_ptr" prot="public" virt="non-virtual">ofPtr&lt; ofBaseSoundStream &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_ptr" prot="public" virt="non-virtual">ofPtr&lt; ofBaseVideoGrabber &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_ptr" prot="public" virt="non-virtual">ofPtr&lt; ofBaseVideoPlayer &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classof_ptr" prot="public" virt="non-virtual">ofPtr&lt; RtAudio &gt;</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="667">
+        <label>ofPtr&lt; AVFoundationVideoGrabber &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="668">
+        <label>ofPtr&lt; ofBaseLoggerChannel &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="666">
+        <label>ofPtr&lt; T &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="671">
+        <label>ofPtr&lt; ofBaseVideoGrabber &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>shared_ptr</label>
+        <link refid="classstd_1_1tr1_1_1shared__ptr"/>
+      </node>
+      <node id="673">
+        <label>ofPtr&lt; RtAudio &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="670">
+        <label>ofPtr&lt; ofBaseSoundStream &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="672">
+        <label>ofPtr&lt; ofBaseVideoPlayer &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="669">
+        <label>ofPtr&lt; ofBaseSoundPlayer &gt;</label>
+        <link refid="classof_ptr"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofTypes.h" line="103"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,845 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_gst_utils" kind="class" prot="public">
+    <compoundname>ofGstUtils</compoundname>
+    <derivedcompoundref refid="classof_gst_video_utils" prot="public" virt="non-virtual">ofGstVideoUtils</derivedcompoundref>
+    <includes refid="of_gst_utils_8h" local="no">ofGstUtils.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_gst_utils_1a311c54ecf85f673c7c9320a5a0faae15" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstUtils::bPlaying</definition>
+        <argsstring></argsstring>
+        <name>bPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="67" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1ad26725b0bdd3cf2d618384bbee3950a7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstUtils::bPaused</definition>
+        <argsstring></argsstring>
+        <name>bPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="68" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a443f7fe3bbe750f34a362a8ce81327b5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstUtils::bIsMovieDone</definition>
+        <argsstring></argsstring>
+        <name>bIsMovieDone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="69" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a69d9960025016c64a9e407f22006810e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstUtils::bLoaded</definition>
+        <argsstring></argsstring>
+        <name>bLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="70" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a1a693e8c9a2c08553dc360bccac3ed5c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstUtils::bFrameByFrame</definition>
+        <argsstring></argsstring>
+        <name>bFrameByFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="71" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a625ff9ba56e3d2f808e554bc604edf08" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1a10213537a43a583f9caa5764d76ff4a4" kindref="member">ofLoopType</ref></type>
+        <definition>ofLoopType ofGstUtils::loopMode</definition>
+        <argsstring></argsstring>
+        <name>loopMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="72" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a7ec57536d6747109f3e88fd7dedd17b8" prot="private" static="no" mutable="no">
+        <type>GstElement *</type>
+        <definition>GstElement* ofGstUtils::gstSink</definition>
+        <argsstring></argsstring>
+        <name>gstSink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="74" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a0bef4c3aa1bbde3cf55825aba4adef07" prot="private" static="no" mutable="no">
+        <type>GstElement *</type>
+        <definition>GstElement* ofGstUtils::gstPipeline</definition>
+        <argsstring></argsstring>
+        <name>gstPipeline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="75" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a4fd9112e1b67e89b558270368e8283fd" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_gst_app_sink" kindref="compound">ofGstAppSink</ref> *</type>
+        <definition>ofGstAppSink* ofGstUtils::appsink</definition>
+        <argsstring></argsstring>
+        <name>appsink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="76" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a3448b06bd5fd1b0a6433cfc3a4588b02" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstUtils::posChangingPaused</definition>
+        <argsstring></argsstring>
+        <name>posChangingPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="78" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a22aa514c5406340c01cf408808f5e50f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofGstUtils::pipelineState</definition>
+        <argsstring></argsstring>
+        <name>pipelineState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="79" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1af953343449eddafe90ef6f840d466804" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofGstUtils::speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="80" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1a8f88d645ce2a429c480a5c08e3e02f29" prot="private" static="no" mutable="no">
+        <type>gint64</type>
+        <definition>gint64 ofGstUtils::durationNanos</definition>
+        <argsstring></argsstring>
+        <name>durationNanos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="81" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1ac9d4e6839264b761e0e18b2425f36d47" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstUtils::isAppSink</definition>
+        <argsstring></argsstring>
+        <name>isAppSink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="82" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_gst_utils_1adc1c7cac61e23ff5ff6c9598742d5cf8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofGstUtils::isStream</definition>
+        <argsstring></argsstring>
+        <name>isStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_gst_utils_1a3ebd832cebad7cda978b546fa68c20cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofGstUtils::ofGstUtils</definition>
+        <argsstring>()</argsstring>
+        <name>ofGstUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a2c9cb31a093afa396a481ea3ef5752e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofGstUtils::~ofGstUtils</definition>
+        <argsstring>()</argsstring>
+        <name>~ofGstUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a816c80e57bb82d7f909a1bc77d861767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstUtils::setPipelineWithSink</definition>
+        <argsstring>(string pipeline, string sinkname=&quot;sink&quot;, bool isStream=false)</argsstring>
+        <name>setPipelineWithSink</name>
+        <param>
+          <type>string</type>
+          <declname>pipeline</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sinkname</declname>
+          <defval>&quot;sink&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isStream</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1ad1da12372074e6ee1915ec54f2a47fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstUtils::setPipelineWithSink</definition>
+        <argsstring>(GstElement *pipeline, GstElement *sink, bool isStream=false)</argsstring>
+        <name>setPipelineWithSink</name>
+        <param>
+          <type>GstElement *</type>
+          <declname>pipeline</declname>
+        </param>
+        <param>
+          <type>GstElement *</type>
+          <declname>sink</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isStream</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a7eb877ffd5e8cbb098c7f89ef47ef6cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1ae6cb3561b7c5c89f1a15fceab060ac2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1afbcc138c11944853635325e693c47666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::setPaused</definition>
+        <argsstring>(bool bPause)</argsstring>
+        <name>setPaused</name>
+        <param>
+          <type>bool</type>
+          <declname>bPause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1ab50b3f5aab7d51875cd173407cd1f237" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstUtils::isPaused</definition>
+        <argsstring>()</argsstring>
+        <name>isPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="30" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a5bd506e4281b50710f1463170ab504b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstUtils::isLoaded</definition>
+        <argsstring>()</argsstring>
+        <name>isLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1ab7e9a7cbddd5ea76394900ad3bf3b381" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstUtils::isPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>isPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="32" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a0f56586ff19e8cc7c256793eb75c94af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofGstUtils::getPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a60751245ec54e52314ba9abfc4b2adc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofGstUtils::getSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>getSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a97660d4b80b24ab8f12a0ee295dad6e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofGstUtils::getDuration</definition>
+        <argsstring>()</argsstring>
+        <name>getDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a99d3a1edadd3e8e28e7c58ab4fe31ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>guint64</type>
+        <definition>guint64 ofGstUtils::getDurationNanos</definition>
+        <argsstring>()</argsstring>
+        <name>getDurationNanos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1afb331370b918cdf2673feaee574f40a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstUtils::getIsMovieDone</definition>
+        <argsstring>()</argsstring>
+        <name>getIsMovieDone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1ae97d801679bd1149c272d2bc4256a27e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::setPosition</definition>
+        <argsstring>(float pct)</argsstring>
+        <name>setPosition</name>
+        <param>
+          <type>float</type>
+          <declname>pct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a3548908a1ed502f679e4a73af0a56abd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::setVolume</definition>
+        <argsstring>(int volume)</argsstring>
+        <name>setVolume</name>
+        <param>
+          <type>int</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a07e3a3a5daa241016f6ee0a3af2155bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::setLoopState</definition>
+        <argsstring>(ofLoopType state)</argsstring>
+        <name>setLoopState</name>
+        <param>
+          <type><ref refid="of_constants_8h_1a10213537a43a583f9caa5764d76ff4a4" kindref="member">ofLoopType</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a3dce69dc116bd794264c61bf856305ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGstUtils::getLoopState</definition>
+        <argsstring>()</argsstring>
+        <name>getLoopState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="43" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a2729352bcf45dbba333f4b2305579873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::setSpeed</definition>
+        <argsstring>(float speed)</argsstring>
+        <name>setSpeed</name>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a276790e1db3e5427b4a217b4fd748474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::setFrameByFrame</definition>
+        <argsstring>(bool bFrameByFrame)</argsstring>
+        <name>setFrameByFrame</name>
+        <param>
+          <type>bool</type>
+          <declname>bFrameByFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1aa5bb497d704c18223dc996030b0c613f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstUtils::isFrameByFrame</definition>
+        <argsstring>()</argsstring>
+        <name>isFrameByFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a3e2cefbb93d44874cc9af6d1e25f77a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GstElement *</type>
+        <definition>GstElement* ofGstUtils::getPipeline</definition>
+        <argsstring>()</argsstring>
+        <name>getPipeline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a5e1401603594a520213e5524783b64ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GstElement *</type>
+        <definition>GstElement* ofGstUtils::getSink</definition>
+        <argsstring>()</argsstring>
+        <name>getSink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1aaacf7b7a3e51a02efcb8f9058160fcfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofGstUtils::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <reimplementedby refid="classof_gst_video_utils_1a9c455d0326dd313597b31111d321c357">close</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1ab3d18babb241883af12d3b1c1e4de5a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::setSinkListener</definition>
+        <argsstring>(ofGstAppSink *appsink)</argsstring>
+        <name>setSinkListener</name>
+        <param>
+          <type><ref refid="classof_gst_app_sink" kindref="compound">ofGstAppSink</ref> *</type>
+          <declname>appsink</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_gst_utils_1af7ecbe2a5ee974cc7720aa980d9a11cd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>GstFlowReturn</type>
+        <definition>virtual GstFlowReturn ofGstUtils::preroll_cb</definition>
+        <argsstring>(GstBuffer *buffer)</argsstring>
+        <name>preroll_cb</name>
+        <reimplementedby refid="classof_gst_video_utils_1a9a2618c1779a9db8bfb96d450da0ea4e">preroll_cb</reimplementedby>
+        <param>
+          <type>GstBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a7e5937a1f519499d5fc0e3d7f411d94d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>GstFlowReturn</type>
+        <definition>virtual GstFlowReturn ofGstUtils::buffer_cb</definition>
+        <argsstring>(GstBuffer *buffer)</argsstring>
+        <name>buffer_cb</name>
+        <reimplementedby refid="classof_gst_video_utils_1a8423b2a3242af9b5ba22524c3ce3a3de">buffer_cb</reimplementedby>
+        <param>
+          <type>GstBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1add74fae9f4dfd32fbd01133ceda38534" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ofGstUtils::eos_cb</definition>
+        <argsstring>()</argsstring>
+        <name>eos_cb</name>
+        <reimplementedby refid="classof_gst_video_utils_1a8dc4163e3a59600873fd238c08627a8b">eos_cb</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_gst_utils_1a9efeacc2acf7eddfdce92f2f19107b8e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::gstHandleMessage</definition>
+        <argsstring>()</argsstring>
+        <name>gstHandleMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1a24e117f1042f11621d3b0574fb4bdfa4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofGstUtils::update</definition>
+        <argsstring>(ofEventArgs &amp;args)</argsstring>
+        <name>update</name>
+        <param>
+          <type>ofEventArgs &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_gst_utils_1ac5cdaa6b90ae4e6d27e04358c07ffd51" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGstUtils::startPipeline</definition>
+        <argsstring>()</argsstring>
+        <name>startPipeline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classof_gst_utils_1afa468f3efb7cd6677d26bec5e62db628" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend GstFlowReturn</type>
+        <definition>GstFlowReturn on_new_buffer_from_source</definition>
+        <argsstring>(GstAppSink *elt, void *data)</argsstring>
+        <name>on_new_buffer_from_source</name>
+        <param>
+          <type>GstAppSink *</type>
+          <declname>elt</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="86"/>
+      </memberdef>
+      <memberdef kind="friend" id="classof_gst_utils_1ad6b95fca552211af7e3ae6230e7b0f68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend GstFlowReturn</type>
+        <definition>GstFlowReturn on_new_preroll_from_source</definition>
+        <argsstring>(GstAppSink *elt, void *data)</argsstring>
+        <name>on_new_preroll_from_source</name>
+        <param>
+          <type>GstAppSink *</type>
+          <declname>elt</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="87"/>
+      </memberdef>
+      <memberdef kind="friend" id="classof_gst_utils_1aba0394b65267b97614a64b576a041f3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend void</type>
+        <definition>void on_eos_from_source</definition>
+        <argsstring>(GstAppSink *elt, void *data)</argsstring>
+        <name>on_eos_from_source</name>
+        <param>
+          <type>GstAppSink *</type>
+          <declname>elt</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="309">
+        <label>ofGstUtils</label>
+        <link refid="classof_gst_utils"/>
+      </node>
+      <node id="310">
+        <label>ofGstVideoUtils</label>
+        <link refid="classof_gst_video_utils"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="312">
+        <label>ofGstAppSink</label>
+        <link refid="classof_gst_app_sink"/>
+      </node>
+      <node id="311">
+        <label>ofGstUtils</label>
+        <link refid="classof_gst_utils"/>
+        <childnode refid="312" relation="usage">
+          <edgelabel>appsink</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" line="19" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/video/ofGstUtils.h" bodystart="19" bodyend="90"/>
+    <listofallmembers>
+      <member refid="classof_gst_utils_1a4fd9112e1b67e89b558270368e8283fd" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>appsink</name></member>
+      <member refid="classof_gst_utils_1a1a693e8c9a2c08553dc360bccac3ed5c" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>bFrameByFrame</name></member>
+      <member refid="classof_gst_utils_1a443f7fe3bbe750f34a362a8ce81327b5" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>bIsMovieDone</name></member>
+      <member refid="classof_gst_utils_1a69d9960025016c64a9e407f22006810e" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>bLoaded</name></member>
+      <member refid="classof_gst_utils_1ad26725b0bdd3cf2d618384bbee3950a7" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>bPaused</name></member>
+      <member refid="classof_gst_utils_1a311c54ecf85f673c7c9320a5a0faae15" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>bPlaying</name></member>
+      <member refid="classof_gst_utils_1a7e5937a1f519499d5fc0e3d7f411d94d" prot="protected" virt="virtual"><scope>ofGstUtils</scope><name>buffer_cb</name></member>
+      <member refid="classof_gst_utils_1aaacf7b7a3e51a02efcb8f9058160fcfe" prot="public" virt="virtual"><scope>ofGstUtils</scope><name>close</name></member>
+      <member refid="classof_gst_utils_1a8f88d645ce2a429c480a5c08e3e02f29" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>durationNanos</name></member>
+      <member refid="classof_gst_utils_1add74fae9f4dfd32fbd01133ceda38534" prot="protected" virt="virtual"><scope>ofGstUtils</scope><name>eos_cb</name></member>
+      <member refid="classof_gst_utils_1a97660d4b80b24ab8f12a0ee295dad6e9" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>getDuration</name></member>
+      <member refid="classof_gst_utils_1a99d3a1edadd3e8e28e7c58ab4fe31ac8" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>getDurationNanos</name></member>
+      <member refid="classof_gst_utils_1afb331370b918cdf2673feaee574f40a5" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>getIsMovieDone</name></member>
+      <member refid="classof_gst_utils_1a3dce69dc116bd794264c61bf856305ef" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>getLoopState</name></member>
+      <member refid="classof_gst_utils_1a3e2cefbb93d44874cc9af6d1e25f77a4" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>getPipeline</name></member>
+      <member refid="classof_gst_utils_1a0f56586ff19e8cc7c256793eb75c94af" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>getPosition</name></member>
+      <member refid="classof_gst_utils_1a5e1401603594a520213e5524783b64ea" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>getSink</name></member>
+      <member refid="classof_gst_utils_1a60751245ec54e52314ba9abfc4b2adc4" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>getSpeed</name></member>
+      <member refid="classof_gst_utils_1a9efeacc2acf7eddfdce92f2f19107b8e" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>gstHandleMessage</name></member>
+      <member refid="classof_gst_utils_1a0bef4c3aa1bbde3cf55825aba4adef07" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>gstPipeline</name></member>
+      <member refid="classof_gst_utils_1a7ec57536d6747109f3e88fd7dedd17b8" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>gstSink</name></member>
+      <member refid="classof_gst_utils_1ac9d4e6839264b761e0e18b2425f36d47" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>isAppSink</name></member>
+      <member refid="classof_gst_utils_1aa5bb497d704c18223dc996030b0c613f" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>isFrameByFrame</name></member>
+      <member refid="classof_gst_utils_1a5bd506e4281b50710f1463170ab504b3" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>isLoaded</name></member>
+      <member refid="classof_gst_utils_1ab50b3f5aab7d51875cd173407cd1f237" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>isPaused</name></member>
+      <member refid="classof_gst_utils_1ab7e9a7cbddd5ea76394900ad3bf3b381" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>isPlaying</name></member>
+      <member refid="classof_gst_utils_1adc1c7cac61e23ff5ff6c9598742d5cf8" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>isStream</name></member>
+      <member refid="classof_gst_utils_1a625ff9ba56e3d2f808e554bc604edf08" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>loopMode</name></member>
+      <member refid="classof_gst_utils_1a3ebd832cebad7cda978b546fa68c20cf" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>ofGstUtils</name></member>
+      <member refid="classof_gst_utils_1aba0394b65267b97614a64b576a041f3f" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>on_eos_from_source</name></member>
+      <member refid="classof_gst_utils_1afa468f3efb7cd6677d26bec5e62db628" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>on_new_buffer_from_source</name></member>
+      <member refid="classof_gst_utils_1ad6b95fca552211af7e3ae6230e7b0f68" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>on_new_preroll_from_source</name></member>
+      <member refid="classof_gst_utils_1a22aa514c5406340c01cf408808f5e50f" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>pipelineState</name></member>
+      <member refid="classof_gst_utils_1a7eb877ffd5e8cbb098c7f89ef47ef6cc" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>play</name></member>
+      <member refid="classof_gst_utils_1a3448b06bd5fd1b0a6433cfc3a4588b02" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>posChangingPaused</name></member>
+      <member refid="classof_gst_utils_1af7ecbe2a5ee974cc7720aa980d9a11cd" prot="protected" virt="virtual"><scope>ofGstUtils</scope><name>preroll_cb</name></member>
+      <member refid="classof_gst_utils_1a276790e1db3e5427b4a217b4fd748474" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setFrameByFrame</name></member>
+      <member refid="classof_gst_utils_1a07e3a3a5daa241016f6ee0a3af2155bd" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setLoopState</name></member>
+      <member refid="classof_gst_utils_1afbcc138c11944853635325e693c47666" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setPaused</name></member>
+      <member refid="classof_gst_utils_1a816c80e57bb82d7f909a1bc77d861767" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setPipelineWithSink</name></member>
+      <member refid="classof_gst_utils_1ad1da12372074e6ee1915ec54f2a47fa8" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setPipelineWithSink</name></member>
+      <member refid="classof_gst_utils_1ae97d801679bd1149c272d2bc4256a27e" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setPosition</name></member>
+      <member refid="classof_gst_utils_1ab3d18babb241883af12d3b1c1e4de5a8" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setSinkListener</name></member>
+      <member refid="classof_gst_utils_1a2729352bcf45dbba333f4b2305579873" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setSpeed</name></member>
+      <member refid="classof_gst_utils_1a3548908a1ed502f679e4a73af0a56abd" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>setVolume</name></member>
+      <member refid="classof_gst_utils_1af953343449eddafe90ef6f840d466804" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>speed</name></member>
+      <member refid="classof_gst_utils_1ac5cdaa6b90ae4e6d27e04358c07ffd51" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>startPipeline</name></member>
+      <member refid="classof_gst_utils_1ae6cb3561b7c5c89f1a15fceab060ac2e" prot="public" virt="non-virtual"><scope>ofGstUtils</scope><name>stop</name></member>
+      <member refid="classof_gst_utils_1a24e117f1042f11621d3b0574fb4bdfa4" prot="private" virt="non-virtual"><scope>ofGstUtils</scope><name>update</name></member>
+      <member refid="classof_gst_utils_1a2c9cb31a093afa396a481ea3ef5752e1" prot="public" virt="virtual"><scope>ofGstUtils</scope><name>~ofGstUtils</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

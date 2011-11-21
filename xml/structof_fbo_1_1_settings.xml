@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="structof_fbo_1_1_settings" kind="struct" prot="public">
+    <compoundname>ofFbo::Settings</compoundname>
+    <includes refid="of_fbo_8h" local="no">ofFbo.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1a697662cf9724b38894be08178e34a6f5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::Settings::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="63" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1a460d5444b21aa03ee600e3e7c9b6b8bd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::Settings::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1ab85dc36f71b6ea5dd3bbd0f50e600f91" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::Settings::numColorbuffers</definition>
+        <argsstring></argsstring>
+        <name>numColorbuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="65" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1a6e0502aec7fe715ba4bc1430434148f1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofFbo::Settings::useDepth</definition>
+        <argsstring></argsstring>
+        <name>useDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="66" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1a97523c603e7e0accd8a03badecfda4f8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofFbo::Settings::useStencil</definition>
+        <argsstring></argsstring>
+        <name>useStencil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="67" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1aceab3e3c3142d889a2a7c0aed56f5b23" prot="public" static="no" mutable="no">
+        <type>GLenum</type>
+        <definition>GLenum ofFbo::Settings::textureTarget</definition>
+        <argsstring></argsstring>
+        <name>textureTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="68" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1a254bb6170777abb1949c55c94e08342e" prot="public" static="no" mutable="no">
+        <type>GLint</type>
+        <definition>GLint ofFbo::Settings::internalformat</definition>
+        <argsstring></argsstring>
+        <name>internalformat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="69" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1a26ae391c6dbe6360357946b7b1004e6d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::Settings::wrapModeHorizontal</definition>
+        <argsstring></argsstring>
+        <name>wrapModeHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="70" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1a175aa9e841b76ab80fac11a98a5efa8c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::Settings::wrapModeVertical</definition>
+        <argsstring></argsstring>
+        <name>wrapModeVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="71" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1ab1b7e85b72d3b1c287a77a00fee1a844" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::Settings::minFilter</definition>
+        <argsstring></argsstring>
+        <name>minFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="72" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1adf363d44cf83cf3a1e7ff9182ceeac36" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::Settings::maxFilter</definition>
+        <argsstring></argsstring>
+        <name>maxFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="73" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structof_fbo_1_1_settings_1a83180a9ba5323bbad457ed644b9dff72" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofFbo::Settings::numSamples</definition>
+        <argsstring></argsstring>
+        <name>numSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="74" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structof_fbo_1_1_settings_1a0fe5841154bd24a2aef970d42a273f4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofFbo::Settings::Settings</definition>
+        <argsstring>()</argsstring>
+        <name>Settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" line="62" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/gl/ofFbo.h" bodystart="62" bodyend="77"/>
+    <listofallmembers>
+      <member refid="structof_fbo_1_1_settings_1a460d5444b21aa03ee600e3e7c9b6b8bd" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>height</name></member>
+      <member refid="structof_fbo_1_1_settings_1a254bb6170777abb1949c55c94e08342e" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>internalformat</name></member>
+      <member refid="structof_fbo_1_1_settings_1adf363d44cf83cf3a1e7ff9182ceeac36" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>maxFilter</name></member>
+      <member refid="structof_fbo_1_1_settings_1ab1b7e85b72d3b1c287a77a00fee1a844" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>minFilter</name></member>
+      <member refid="structof_fbo_1_1_settings_1ab85dc36f71b6ea5dd3bbd0f50e600f91" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>numColorbuffers</name></member>
+      <member refid="structof_fbo_1_1_settings_1a83180a9ba5323bbad457ed644b9dff72" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>numSamples</name></member>
+      <member refid="structof_fbo_1_1_settings_1a0fe5841154bd24a2aef970d42a273f4a" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>Settings</name></member>
+      <member refid="structof_fbo_1_1_settings_1aceab3e3c3142d889a2a7c0aed56f5b23" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>textureTarget</name></member>
+      <member refid="structof_fbo_1_1_settings_1a6e0502aec7fe715ba4bc1430434148f1" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>useDepth</name></member>
+      <member refid="structof_fbo_1_1_settings_1a97523c603e7e0accd8a03badecfda4f8" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>useStencil</name></member>
+      <member refid="structof_fbo_1_1_settings_1a697662cf9724b38894be08178e34a6f5" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>width</name></member>
+      <member refid="structof_fbo_1_1_settings_1a26ae391c6dbe6360357946b7b1004e6d" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>wrapModeHorizontal</name></member>
+      <member refid="structof_fbo_1_1_settings_1a175aa9e841b76ab80fac11a98a5efa8c" prot="public" virt="non-virtual"><scope>ofFbo::Settings</scope><name>wrapModeVertical</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

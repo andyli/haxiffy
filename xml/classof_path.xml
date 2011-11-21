@@ -1,0 +1,1520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_path" kind="class" prot="public">
+    <compoundname>ofPath</compoundname>
+    <includes refid="of_path_8h" local="no">ofPath.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classof_path_1aa20ad057e28b19dfa200361fba0bb343" prot="public" static="no">
+        <name>Mode</name>
+        <enumvalue id="classof_path_1aa20ad057e28b19dfa200361fba0bb343a58bb06c6644c1f4044d18f185bc96eb1" prot="public">
+          <name>PATHS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classof_path_1aa20ad057e28b19dfa200361fba0bb343a8d1ec0889c2c552c7638db8355fcca95" prot="public">
+          <name>POLYLINES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="83" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classof_path_1a7279c2c79efdeb02b6c35b0f4c2c0904" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_sub_path" kindref="compound">ofSubPath</ref> &gt;</type>
+        <definition>vector&lt;ofSubPath&gt; ofPath::paths</definition>
+        <argsstring></argsstring>
+        <name>paths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="113" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a866f61a77915cb11eba0da643f4ae96b" prot="private" static="no" mutable="no">
+        <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+        <definition>ofPolyWindingMode ofPath::windingMode</definition>
+        <argsstring></argsstring>
+        <name>windingMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="114" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a83bf93d484936a03525e89bd01bccb5f" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofColor</ref></type>
+        <definition>ofColor ofPath::fillColor</definition>
+        <argsstring></argsstring>
+        <name>fillColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="115" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a4ce3baba10805b3805cd1a1724e737d2" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_color__" kindref="compound">ofColor</ref></type>
+        <definition>ofColor ofPath::strokeColor</definition>
+        <argsstring></argsstring>
+        <name>strokeColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="116" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a9bf64aafd251fca30ec8021b245e2806" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofPath::strokeWidth</definition>
+        <argsstring></argsstring>
+        <name>strokeWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="117" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a982b9695c262004373157426c355a44e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPath::bFill</definition>
+        <argsstring></argsstring>
+        <name>bFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="118" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1abe0a7953023008fc66d839fd8c2fa552" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPath::bUseShapeColor</definition>
+        <argsstring></argsstring>
+        <name>bUseShapeColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="119" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1afb1c7dd47cdfec25ecd441502a3708b4" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &gt;</type>
+        <definition>vector&lt;ofPolyline&gt; ofPath::polylines</definition>
+        <argsstring></argsstring>
+        <name>polylines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="122" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1aeb190bfa8a2e022167d59b1b8c15ec08" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &gt;</type>
+        <definition>vector&lt;ofPolyline&gt; ofPath::tessellatedContour</definition>
+        <argsstring></argsstring>
+        <name>tessellatedContour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="123" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a5ef8f8b8fc624a1297fd6233ea8b0dde" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref></type>
+        <definition>ofMesh ofPath::cachedTessellation</definition>
+        <argsstring></argsstring>
+        <name>cachedTessellation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="125" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a1fb294e9e6d0553e731bdd2a87f846ec" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPath::cachedTessellationValid</definition>
+        <argsstring></argsstring>
+        <name>cachedTessellationValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="126" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1ad64b2a5bd6d8a02cced5f0e4174fc553" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPath::hasChanged</definition>
+        <argsstring></argsstring>
+        <name>hasChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="130" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a72488abd7f2dcf8401a6b26c1603deef" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPath::prevCurveRes</definition>
+        <argsstring></argsstring>
+        <name>prevCurveRes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="131" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1ae5922d302d99ee778f3c45d3df61e532" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPath::curveResolution</definition>
+        <argsstring></argsstring>
+        <name>curveResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="132" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a15e32f99c2ec79d95c001102d7478d12" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofPath::arcResolution</definition>
+        <argsstring></argsstring>
+        <name>arcResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="133" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a455bc8866b54a1c9d900f723938d2e07" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofPath::bNeedsTessellation</definition>
+        <argsstring></argsstring>
+        <name>bNeedsTessellation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="134" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_path_1a237a8f3ef42444de6d9b4fdaa4ce1136" prot="private" static="no" mutable="no">
+        <type><ref refid="classof_path_1aa20ad057e28b19dfa200361fba0bb343" kindref="member">Mode</ref></type>
+        <definition>Mode ofPath::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="136" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classof_path_1a8e5cfd1f1361cacd0263bac6202e10ed" prot="private" static="yes" mutable="no">
+        <type><ref refid="classof_tessellator" kindref="compound">ofTessellator</ref></type>
+        <definition>ofTessellator ofPath::tessellator</definition>
+        <argsstring></argsstring>
+        <name>tessellator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="128" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_path_1abf008d9a4e5d2ba92e5046286acebe29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofPath::ofPath</definition>
+        <argsstring>()</argsstring>
+        <name>ofPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a52ee0333f743cc11c4d450cac3fe60b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1abfe7284268e42ffcea066c9ffbe9a596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::newSubPath</definition>
+        <argsstring>()</argsstring>
+        <name>newSubPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a01ecb50374aa3158db59186684b3e781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1aebe447c51e0a62dc3dba6355cea6c587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::lineTo</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>lineTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1af9f88c90ce91ec033cd1283ab6ae246a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::lineTo</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>lineTo</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a597ebc962fa9260c2572e9bce9340125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::lineTo</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>lineTo</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a4bee384547bd5540dd79da32dca4d829" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::moveTo</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>moveTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1afa64e262e68b181a93f515d984c37647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::moveTo</definition>
+        <argsstring>(float x, float y, float z=0)</argsstring>
+        <name>moveTo</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a7b5e77990781a76bdf99074205ba5669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::curveTo</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>curveTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a59b397fb9a76421a819e7f8bba43e93c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::curveTo</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>curveTo</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1ad1b2486323aab4dfb0e33c3fef0efdc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::curveTo</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>curveTo</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1abe2206bc8cf9431dcf19528f43a07355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::bezierTo</definition>
+        <argsstring>(const ofPoint &amp;cp1, const ofPoint &amp;cp2, const ofPoint &amp;p)</argsstring>
+        <name>bezierTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>cp1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>cp2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a2bd82eef18d595b98de44b2b56d09ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::bezierTo</definition>
+        <argsstring>(float cx1, float cy1, float cx2, float cy2, float x, float y)</argsstring>
+        <name>bezierTo</name>
+        <param>
+          <type>float</type>
+          <declname>cx1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a492f6d455b6f6b9711c9ba78a3ddc66f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::bezierTo</definition>
+        <argsstring>(float cx1, float cy1, float cz1, float cx2, float cy2, float cz2, float x, float y, float z)</argsstring>
+        <name>bezierTo</name>
+        <param>
+          <type>float</type>
+          <declname>cx1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cz1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cz2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a14bc5570b79816809d85fb4f1fb51ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::quadBezierTo</definition>
+        <argsstring>(const ofPoint &amp;cp1, const ofPoint &amp;cp2, const ofPoint &amp;p)</argsstring>
+        <name>quadBezierTo</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>cp1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>cp2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1acf304a15986d74ed02ee8e1611c79e50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::quadBezierTo</definition>
+        <argsstring>(float cx1, float cy1, float cx2, float cy2, float x, float y)</argsstring>
+        <name>quadBezierTo</name>
+        <param>
+          <type>float</type>
+          <declname>cx1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a37de06d66626c505f68e8c0555c28e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::quadBezierTo</definition>
+        <argsstring>(float cx1, float cy1, float cz1, float cx2, float cy2, float cz2, float x, float y, float z)</argsstring>
+        <name>quadBezierTo</name>
+        <param>
+          <type>float</type>
+          <declname>cx1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cz1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cz2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a4cc251c298d9c257aa7d97ccb43fd6fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::arc</definition>
+        <argsstring>(const ofPoint &amp;centre, float radiusX, float radiusY, float angleBegin, float angleEnd)</argsstring>
+        <name>arc</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>centre</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleBegin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleEnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1ae9d788dc4845b33ca8bd7a26be52e4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::arc</definition>
+        <argsstring>(float x, float y, float radiusX, float radiusY, float angleBegin, float angleEnd)</argsstring>
+        <name>arc</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleBegin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleEnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a56045c2a6c5daf8834f57312a34631ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::arc</definition>
+        <argsstring>(float x, float y, float z, float radiusX, float radiusY, float angleBegin, float angleEnd)</argsstring>
+        <name>arc</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleBegin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleEnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a29f7455bf947e50f5bbb9ffcae925ef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setPolyWindingMode</definition>
+        <argsstring>(ofPolyWindingMode mode)</argsstring>
+        <name>setPolyWindingMode</name>
+        <param>
+          <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1aa470f0d1cc5af2369a96e1fcd8e223ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setFilled</definition>
+        <argsstring>(bool hasFill)</argsstring>
+        <name>setFilled</name>
+        <param>
+          <type>bool</type>
+          <declname>hasFill</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a5407cf0f483c657aca3d7b82cee5c0b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setStrokeWidth</definition>
+        <argsstring>(float width)</argsstring>
+        <name>setStrokeWidth</name>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a9bc4e6a5ce711a5082edba79d1ae34e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setColor</definition>
+        <argsstring>(const ofColor &amp;color)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1afe58c52513af6a02b55ca5332e65fa45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setHexColor</definition>
+        <argsstring>(int hex)</argsstring>
+        <name>setHexColor</name>
+        <param>
+          <type>int</type>
+          <declname>hex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a827a468d423f0adf57f46205f1808b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setFillColor</definition>
+        <argsstring>(const ofColor &amp;color)</argsstring>
+        <name>setFillColor</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a769ad92764c815e76072ba9db3e63704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setFillHexColor</definition>
+        <argsstring>(int hex)</argsstring>
+        <name>setFillHexColor</name>
+        <param>
+          <type>int</type>
+          <declname>hex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a8b695fd0491198313b70a76e20788d44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setStrokeColor</definition>
+        <argsstring>(const ofColor &amp;color)</argsstring>
+        <name>setStrokeColor</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1aa55475fa84607cc9a53c9c8225d775cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setStrokeHexColor</definition>
+        <argsstring>(int hex)</argsstring>
+        <name>setStrokeHexColor</name>
+        <param>
+          <type>int</type>
+          <declname>hex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a3e9e31ca27d8bac11a52de7f057acd9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+        <definition>ofPolyWindingMode ofPath::getWindingMode</definition>
+        <argsstring>() const </argsstring>
+        <name>getWindingMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1af19c58151d77de3a6892388ba9e207fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPath::isFilled</definition>
+        <argsstring>() const </argsstring>
+        <name>isFilled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a0ea62d736ab934fdf0e9c3e2a52a55c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor</ref></type>
+        <definition>ofColor ofPath::getFillColor</definition>
+        <argsstring>() const </argsstring>
+        <name>getFillColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a3aae4f748cdc408e1f61458b3572e56f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_color__" kindref="compound">ofColor</ref></type>
+        <definition>ofColor ofPath::getStrokeColor</definition>
+        <argsstring>() const </argsstring>
+        <name>getStrokeColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1adf29ae43e44502ac1554457f232f8538" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofPath::getStrokeWidth</definition>
+        <argsstring>() const </argsstring>
+        <name>getStrokeWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1af4ae5d63424ab2d5ed2fba9477887a4b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPath::hasOutline</definition>
+        <argsstring>() const </argsstring>
+        <name>hasOutline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="67" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a982c7b6f6c0970e2b69b6b100c724c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::draw</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>draw</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a08d62c014fddc97736be9459e7a585c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1ae2409e66ce87e9ff4b782ff7d89836fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="classof_sub_path" kindref="compound">ofSubPath</ref> &gt; &amp;</type>
+        <definition>vector&lt;ofSubPath&gt;&amp; ofPath::getSubPaths</definition>
+        <argsstring>()</argsstring>
+        <name>getSubPaths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1abec9f8e58ba2a25a8ab49fd3ce530996" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const vector&lt; <ref refid="classof_sub_path" kindref="compound">ofSubPath</ref> &gt; &amp;</type>
+        <definition>const vector&lt;ofSubPath&gt;&amp; ofPath::getSubPaths</definition>
+        <argsstring>() const </argsstring>
+        <name>getSubPaths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a5b41703e56fc12633854f59722ee5718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &gt; &amp;</type>
+        <definition>vector&lt;ofPolyline&gt;&amp; ofPath::getOutline</definition>
+        <argsstring>()</argsstring>
+        <name>getOutline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1af6992b0da8a3146e23745a6092c372f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref> &amp;</type>
+        <definition>ofMesh&amp; ofPath::getTessellation</definition>
+        <argsstring>()</argsstring>
+        <name>getTessellation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a7fb4475f27f424887fd3739066b180ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::simplify</definition>
+        <argsstring>(float tolerance=0.3)</argsstring>
+        <name>simplify</name>
+        <param>
+          <type>float</type>
+          <declname>tolerance</declname>
+          <defval>0.3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a740471f9e57701c0af59f9b6abc38787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::flagShapeChanged</definition>
+        <argsstring>()</argsstring>
+        <name>flagShapeChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a95bdbcb31dee7fd65c0f02ce0be29834" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setMode</definition>
+        <argsstring>(Mode mode)</argsstring>
+        <name>setMode</name>
+        <param>
+          <type><ref refid="classof_path_1aa20ad057e28b19dfa200361fba0bb343" kindref="member">Mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a5a2aa3d688dd5a0d8cc40f131c86dc6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setCurveResolution</definition>
+        <argsstring>(int curveResolution)</argsstring>
+        <name>setCurveResolution</name>
+        <param>
+          <type>int</type>
+          <declname>curveResolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a9987954e17062c3df0028616482aa2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPath::getCurveResolution</definition>
+        <argsstring>()</argsstring>
+        <name>getCurveResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1ada1670a182e09db27590054e448c2fa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setArcResolution</definition>
+        <argsstring>(int res)</argsstring>
+        <name>setArcResolution</name>
+        <param>
+          <type>int</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1acf69fa219bc7dfbc1fe6c7d9f2fbed7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofPath::getArcResolution</definition>
+        <argsstring>()</argsstring>
+        <name>getArcResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1aedd36f8faf69ae9f99898a2f46659430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::setUseShapeColor</definition>
+        <argsstring>(bool useColor)</argsstring>
+        <name>setUseShapeColor</name>
+        <param>
+          <type>bool</type>
+          <declname>useColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a3ceb034e8a7264204e33a0022aa48e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofPath::getUseShapeColor</definition>
+        <argsstring>()</argsstring>
+        <name>getUseShapeColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a0af9ebdbe2bc60422fdd3b3cd05dd870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::tessellate</definition>
+        <argsstring>()</argsstring>
+        <name>tessellate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a32ca65c1f1043662292888982cca526a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::translate</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>translate</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a9f29f576beeb9745c86f9af88681a62b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::rotate</definition>
+        <argsstring>(float az, const ofVec3f &amp;axis)</argsstring>
+        <name>rotate</name>
+        <param>
+          <type>float</type>
+          <declname>az</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a74449f5b6f444b881a7671dc12a4d40b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::scale</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>scale</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_path_1a593a4807aa83ff75cb916aa5978c5b6e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_sub_path" kindref="compound">ofSubPath</ref> &amp;</type>
+        <definition>ofSubPath&amp; ofPath::lastPath</definition>
+        <argsstring>()</argsstring>
+        <name>lastPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a1cbf6ea114ab5cb7e37d1fd7d0dacd3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_polyline" kindref="compound">ofPolyline</ref> &amp;</type>
+        <definition>ofPolyline&amp; ofPath::lastPolyline</definition>
+        <argsstring>()</argsstring>
+        <name>lastPolyline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_path_1a7d1e95397c6c37a1932582423c384770" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPath::generatePolylinesFromPaths</definition>
+        <argsstring>()</argsstring>
+        <name>generatePolylinesFromPaths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="506">
+        <label>ofColor_&lt; unsigned char &gt;</label>
+        <link refid="classof_color__"/>
+        <childnode refid="506" relation="usage">
+          <edgelabel>cyan</edgelabel>
+          <edgelabel>gray</edgelabel>
+          <edgelabel>white</edgelabel>
+          <edgelabel>yellow</edgelabel>
+          <edgelabel>magenta</edgelabel>
+          <edgelabel>black</edgelabel>
+          <edgelabel>blue</edgelabel>
+          <edgelabel>red</edgelabel>
+          <edgelabel>green</edgelabel>
+        </childnode>
+      </node>
+      <node id="503">
+        <label>ofPath</label>
+        <link refid="classof_path"/>
+        <childnode refid="504" relation="usage">
+          <edgelabel>tessellator</edgelabel>
+        </childnode>
+        <childnode refid="505" relation="usage">
+          <edgelabel>cachedTessellation</edgelabel>
+        </childnode>
+        <childnode refid="506" relation="usage">
+          <edgelabel>fillColor</edgelabel>
+          <edgelabel>strokeColor</edgelabel>
+        </childnode>
+      </node>
+      <node id="505">
+        <label>ofMesh</label>
+        <link refid="classof_mesh"/>
+      </node>
+      <node id="504">
+        <label>ofTessellator</label>
+        <link refid="classof_tessellator"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" line="13" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofPath.h" bodystart="13" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classof_path_1a4cc251c298d9c257aa7d97ccb43fd6fd" prot="public" virt="non-virtual"><scope>ofPath</scope><name>arc</name></member>
+      <member refid="classof_path_1ae9d788dc4845b33ca8bd7a26be52e4ef" prot="public" virt="non-virtual"><scope>ofPath</scope><name>arc</name></member>
+      <member refid="classof_path_1a56045c2a6c5daf8834f57312a34631ea" prot="public" virt="non-virtual"><scope>ofPath</scope><name>arc</name></member>
+      <member refid="classof_path_1a15e32f99c2ec79d95c001102d7478d12" prot="private" virt="non-virtual"><scope>ofPath</scope><name>arcResolution</name></member>
+      <member refid="classof_path_1abe2206bc8cf9431dcf19528f43a07355" prot="public" virt="non-virtual"><scope>ofPath</scope><name>bezierTo</name></member>
+      <member refid="classof_path_1a2bd82eef18d595b98de44b2b56d09ab2" prot="public" virt="non-virtual"><scope>ofPath</scope><name>bezierTo</name></member>
+      <member refid="classof_path_1a492f6d455b6f6b9711c9ba78a3ddc66f" prot="public" virt="non-virtual"><scope>ofPath</scope><name>bezierTo</name></member>
+      <member refid="classof_path_1a982b9695c262004373157426c355a44e" prot="private" virt="non-virtual"><scope>ofPath</scope><name>bFill</name></member>
+      <member refid="classof_path_1a455bc8866b54a1c9d900f723938d2e07" prot="private" virt="non-virtual"><scope>ofPath</scope><name>bNeedsTessellation</name></member>
+      <member refid="classof_path_1abe0a7953023008fc66d839fd8c2fa552" prot="private" virt="non-virtual"><scope>ofPath</scope><name>bUseShapeColor</name></member>
+      <member refid="classof_path_1a5ef8f8b8fc624a1297fd6233ea8b0dde" prot="private" virt="non-virtual"><scope>ofPath</scope><name>cachedTessellation</name></member>
+      <member refid="classof_path_1a1fb294e9e6d0553e731bdd2a87f846ec" prot="private" virt="non-virtual"><scope>ofPath</scope><name>cachedTessellationValid</name></member>
+      <member refid="classof_path_1a52ee0333f743cc11c4d450cac3fe60b4" prot="public" virt="non-virtual"><scope>ofPath</scope><name>clear</name></member>
+      <member refid="classof_path_1a01ecb50374aa3158db59186684b3e781" prot="public" virt="non-virtual"><scope>ofPath</scope><name>close</name></member>
+      <member refid="classof_path_1ae5922d302d99ee778f3c45d3df61e532" prot="private" virt="non-virtual"><scope>ofPath</scope><name>curveResolution</name></member>
+      <member refid="classof_path_1a7b5e77990781a76bdf99074205ba5669" prot="public" virt="non-virtual"><scope>ofPath</scope><name>curveTo</name></member>
+      <member refid="classof_path_1a59b397fb9a76421a819e7f8bba43e93c" prot="public" virt="non-virtual"><scope>ofPath</scope><name>curveTo</name></member>
+      <member refid="classof_path_1ad1b2486323aab4dfb0e33c3fef0efdc6" prot="public" virt="non-virtual"><scope>ofPath</scope><name>curveTo</name></member>
+      <member refid="classof_path_1a982c7b6f6c0970e2b69b6b100c724c60" prot="public" virt="non-virtual"><scope>ofPath</scope><name>draw</name></member>
+      <member refid="classof_path_1a08d62c014fddc97736be9459e7a585c4" prot="public" virt="non-virtual"><scope>ofPath</scope><name>draw</name></member>
+      <member refid="classof_path_1a83bf93d484936a03525e89bd01bccb5f" prot="private" virt="non-virtual"><scope>ofPath</scope><name>fillColor</name></member>
+      <member refid="classof_path_1a740471f9e57701c0af59f9b6abc38787" prot="public" virt="non-virtual"><scope>ofPath</scope><name>flagShapeChanged</name></member>
+      <member refid="classof_path_1a7d1e95397c6c37a1932582423c384770" prot="private" virt="non-virtual"><scope>ofPath</scope><name>generatePolylinesFromPaths</name></member>
+      <member refid="classof_path_1acf69fa219bc7dfbc1fe6c7d9f2fbed7e" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getArcResolution</name></member>
+      <member refid="classof_path_1a9987954e17062c3df0028616482aa2bd" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getCurveResolution</name></member>
+      <member refid="classof_path_1a0ea62d736ab934fdf0e9c3e2a52a55c6" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getFillColor</name></member>
+      <member refid="classof_path_1a5b41703e56fc12633854f59722ee5718" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getOutline</name></member>
+      <member refid="classof_path_1a3aae4f748cdc408e1f61458b3572e56f" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getStrokeColor</name></member>
+      <member refid="classof_path_1adf29ae43e44502ac1554457f232f8538" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getStrokeWidth</name></member>
+      <member refid="classof_path_1ae2409e66ce87e9ff4b782ff7d89836fe" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getSubPaths</name></member>
+      <member refid="classof_path_1abec9f8e58ba2a25a8ab49fd3ce530996" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getSubPaths</name></member>
+      <member refid="classof_path_1af6992b0da8a3146e23745a6092c372f0" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getTessellation</name></member>
+      <member refid="classof_path_1a3ceb034e8a7264204e33a0022aa48e32" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getUseShapeColor</name></member>
+      <member refid="classof_path_1a3e9e31ca27d8bac11a52de7f057acd9e" prot="public" virt="non-virtual"><scope>ofPath</scope><name>getWindingMode</name></member>
+      <member refid="classof_path_1ad64b2a5bd6d8a02cced5f0e4174fc553" prot="private" virt="non-virtual"><scope>ofPath</scope><name>hasChanged</name></member>
+      <member refid="classof_path_1af4ae5d63424ab2d5ed2fba9477887a4b" prot="public" virt="non-virtual"><scope>ofPath</scope><name>hasOutline</name></member>
+      <member refid="classof_path_1af19c58151d77de3a6892388ba9e207fc" prot="public" virt="non-virtual"><scope>ofPath</scope><name>isFilled</name></member>
+      <member refid="classof_path_1a593a4807aa83ff75cb916aa5978c5b6e" prot="private" virt="non-virtual"><scope>ofPath</scope><name>lastPath</name></member>
+      <member refid="classof_path_1a1cbf6ea114ab5cb7e37d1fd7d0dacd3f" prot="private" virt="non-virtual"><scope>ofPath</scope><name>lastPolyline</name></member>
+      <member refid="classof_path_1aebe447c51e0a62dc3dba6355cea6c587" prot="public" virt="non-virtual"><scope>ofPath</scope><name>lineTo</name></member>
+      <member refid="classof_path_1af9f88c90ce91ec033cd1283ab6ae246a" prot="public" virt="non-virtual"><scope>ofPath</scope><name>lineTo</name></member>
+      <member refid="classof_path_1a597ebc962fa9260c2572e9bce9340125" prot="public" virt="non-virtual"><scope>ofPath</scope><name>lineTo</name></member>
+      <member refid="classof_path_1aa20ad057e28b19dfa200361fba0bb343" prot="public" virt="non-virtual"><scope>ofPath</scope><name>Mode</name></member>
+      <member refid="classof_path_1a237a8f3ef42444de6d9b4fdaa4ce1136" prot="private" virt="non-virtual"><scope>ofPath</scope><name>mode</name></member>
+      <member refid="classof_path_1a4bee384547bd5540dd79da32dca4d829" prot="public" virt="non-virtual"><scope>ofPath</scope><name>moveTo</name></member>
+      <member refid="classof_path_1afa64e262e68b181a93f515d984c37647" prot="public" virt="non-virtual"><scope>ofPath</scope><name>moveTo</name></member>
+      <member refid="classof_path_1abfe7284268e42ffcea066c9ffbe9a596" prot="public" virt="non-virtual"><scope>ofPath</scope><name>newSubPath</name></member>
+      <member refid="classof_path_1abf008d9a4e5d2ba92e5046286acebe29" prot="public" virt="non-virtual"><scope>ofPath</scope><name>ofPath</name></member>
+      <member refid="classof_path_1aa20ad057e28b19dfa200361fba0bb343a58bb06c6644c1f4044d18f185bc96eb1" prot="public" virt="non-virtual"><scope>ofPath</scope><name>PATHS</name></member>
+      <member refid="classof_path_1a7279c2c79efdeb02b6c35b0f4c2c0904" prot="private" virt="non-virtual"><scope>ofPath</scope><name>paths</name></member>
+      <member refid="classof_path_1afb1c7dd47cdfec25ecd441502a3708b4" prot="private" virt="non-virtual"><scope>ofPath</scope><name>polylines</name></member>
+      <member refid="classof_path_1aa20ad057e28b19dfa200361fba0bb343a8d1ec0889c2c552c7638db8355fcca95" prot="public" virt="non-virtual"><scope>ofPath</scope><name>POLYLINES</name></member>
+      <member refid="classof_path_1a72488abd7f2dcf8401a6b26c1603deef" prot="private" virt="non-virtual"><scope>ofPath</scope><name>prevCurveRes</name></member>
+      <member refid="classof_path_1a14bc5570b79816809d85fb4f1fb51ff8" prot="public" virt="non-virtual"><scope>ofPath</scope><name>quadBezierTo</name></member>
+      <member refid="classof_path_1acf304a15986d74ed02ee8e1611c79e50" prot="public" virt="non-virtual"><scope>ofPath</scope><name>quadBezierTo</name></member>
+      <member refid="classof_path_1a37de06d66626c505f68e8c0555c28e01" prot="public" virt="non-virtual"><scope>ofPath</scope><name>quadBezierTo</name></member>
+      <member refid="classof_path_1a9f29f576beeb9745c86f9af88681a62b" prot="public" virt="non-virtual"><scope>ofPath</scope><name>rotate</name></member>
+      <member refid="classof_path_1a74449f5b6f444b881a7671dc12a4d40b" prot="public" virt="non-virtual"><scope>ofPath</scope><name>scale</name></member>
+      <member refid="classof_path_1ada1670a182e09db27590054e448c2fa6" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setArcResolution</name></member>
+      <member refid="classof_path_1a9bc4e6a5ce711a5082edba79d1ae34e2" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setColor</name></member>
+      <member refid="classof_path_1a5a2aa3d688dd5a0d8cc40f131c86dc6d" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setCurveResolution</name></member>
+      <member refid="classof_path_1a827a468d423f0adf57f46205f1808b49" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setFillColor</name></member>
+      <member refid="classof_path_1aa470f0d1cc5af2369a96e1fcd8e223ed" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setFilled</name></member>
+      <member refid="classof_path_1a769ad92764c815e76072ba9db3e63704" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setFillHexColor</name></member>
+      <member refid="classof_path_1afe58c52513af6a02b55ca5332e65fa45" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setHexColor</name></member>
+      <member refid="classof_path_1a95bdbcb31dee7fd65c0f02ce0be29834" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setMode</name></member>
+      <member refid="classof_path_1a29f7455bf947e50f5bbb9ffcae925ef2" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setPolyWindingMode</name></member>
+      <member refid="classof_path_1a8b695fd0491198313b70a76e20788d44" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setStrokeColor</name></member>
+      <member refid="classof_path_1aa55475fa84607cc9a53c9c8225d775cb" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setStrokeHexColor</name></member>
+      <member refid="classof_path_1a5407cf0f483c657aca3d7b82cee5c0b6" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setStrokeWidth</name></member>
+      <member refid="classof_path_1aedd36f8faf69ae9f99898a2f46659430" prot="public" virt="non-virtual"><scope>ofPath</scope><name>setUseShapeColor</name></member>
+      <member refid="classof_path_1a7fb4475f27f424887fd3739066b180ad" prot="public" virt="non-virtual"><scope>ofPath</scope><name>simplify</name></member>
+      <member refid="classof_path_1a4ce3baba10805b3805cd1a1724e737d2" prot="private" virt="non-virtual"><scope>ofPath</scope><name>strokeColor</name></member>
+      <member refid="classof_path_1a9bf64aafd251fca30ec8021b245e2806" prot="private" virt="non-virtual"><scope>ofPath</scope><name>strokeWidth</name></member>
+      <member refid="classof_path_1a0af9ebdbe2bc60422fdd3b3cd05dd870" prot="public" virt="non-virtual"><scope>ofPath</scope><name>tessellate</name></member>
+      <member refid="classof_path_1aeb190bfa8a2e022167d59b1b8c15ec08" prot="private" virt="non-virtual"><scope>ofPath</scope><name>tessellatedContour</name></member>
+      <member refid="classof_path_1a8e5cfd1f1361cacd0263bac6202e10ed" prot="private" virt="non-virtual"><scope>ofPath</scope><name>tessellator</name></member>
+      <member refid="classof_path_1a32ca65c1f1043662292888982cca526a" prot="public" virt="non-virtual"><scope>ofPath</scope><name>translate</name></member>
+      <member refid="classof_path_1a866f61a77915cb11eba0da643f4ae96b" prot="private" virt="non-virtual"><scope>ofPath</scope><name>windingMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_true_type_font" kind="class" prot="public">
+    <compoundname>ofTrueTypeFont</compoundname>
+    <includes refid="of_true_type_font_8h" local="no">ofTrueTypeFont.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classof_true_type_font_1ae1b94826e0a87e7a9057b2285d1d8f4d" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::bLoadedOk</definition>
+        <argsstring></argsstring>
+        <name>bLoadedOk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="74" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1ae0529672211eb65fb3d52d0c3555e764" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::bAntiAliased</definition>
+        <argsstring></argsstring>
+        <name>bAntiAliased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="75" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1ab174a525150961a41183ef4c0603806b" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::bFullCharacterSet</definition>
+        <argsstring></argsstring>
+        <name>bFullCharacterSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="76" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1aac4b8c9259c44c1f8cb8f38c884a94c1" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofTrueTypeFont::nCharacters</definition>
+        <argsstring></argsstring>
+        <name>nCharacters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="77" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a0d2c3da16937f1b2be80a02c055f12b4" prot="protected" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classof_path" kindref="compound">ofTTFCharacter</ref> &gt;</type>
+        <definition>vector&lt;ofTTFCharacter&gt; ofTrueTypeFont::charOutlines</definition>
+        <argsstring></argsstring>
+        <name>charOutlines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="79" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a013460cfe40116939f07374222cd3c17" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofTrueTypeFont::lineHeight</definition>
+        <argsstring></argsstring>
+        <name>lineHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="81" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a8cf821087583ddaba20d4318ff1374c3" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofTrueTypeFont::letterSpacing</definition>
+        <argsstring></argsstring>
+        <name>letterSpacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="82" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a54a51a4379f956872cf136cc8c59dd17" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ofTrueTypeFont::spaceSize</definition>
+        <argsstring></argsstring>
+        <name>spaceSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a2d1b89d3dc046e97f4ee716b0e65cbf6" prot="protected" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structchar_props" kindref="compound">charProps</ref> &gt;</type>
+        <definition>vector&lt;charProps&gt; ofTrueTypeFont::cps</definition>
+        <argsstring></argsstring>
+        <name>cps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="85" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a5a6f8535815231d1f250c481ac5dfe6f" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofTrueTypeFont::fontSize</definition>
+        <argsstring></argsstring>
+        <name>fontSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="87" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1aca35042934d2b5f3cfb92b1a57591e87" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::bMakeContours</definition>
+        <argsstring></argsstring>
+        <name>bMakeContours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1ae09bc97209804f330e79a68512e39520" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ofTrueTypeFont::border</definition>
+        <argsstring></argsstring>
+        <name>border</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="93" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a45ccd39c69fc58ad564474c995cce89a" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ofTrueTypeFont::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="94" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a456c0fc05723e715ccecd528c2bf9551" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_texture" kindref="compound">ofTexture</ref></type>
+        <definition>ofTexture ofTrueTypeFont::texAtlas</definition>
+        <argsstring></argsstring>
+        <name>texAtlas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="96" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a31d43872f74737dff07d7a7af8da0b37" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::binded</definition>
+        <argsstring></argsstring>
+        <name>binded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="97" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classof_true_type_font_1a3aa0ef4fbbac6fca3cdeb5a6345cfc37" prot="protected" static="no" mutable="no">
+        <type><ref refid="classof_mesh" kindref="compound">ofMesh</ref></type>
+        <definition>ofMesh ofTrueTypeFont::stringQuads</definition>
+        <argsstring></argsstring>
+        <name>stringQuads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="98" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_true_type_font_1a5af9f717ceaa6f53e7b8c100b40ef923" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ofTrueTypeFont::ofTrueTypeFont</definition>
+        <argsstring>()</argsstring>
+        <name>ofTrueTypeFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a799be6c5ab65278eec5d9bb33f5669f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ofTrueTypeFont::~ofTrueTypeFont</definition>
+        <argsstring>()</argsstring>
+        <name>~ofTrueTypeFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a55cc803d12857a970408f2e14b6b568c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::loadFont</definition>
+        <argsstring>(string filename, int fontsize, bool _bAntiAliased=true, bool _bFullCharacterSet=false, bool makeContours=false, float simplifyAmt=0.3, int dpi=0)</argsstring>
+        <name>loadFont</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fontsize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_bAntiAliased</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_bFullCharacterSet</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>makeContours</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>simplifyAmt</declname>
+          <defval>0.3</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dpi</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1aa5694c01739ede1bb0a136153b848ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::isLoaded</definition>
+        <argsstring>()</argsstring>
+        <name>isLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1ab565e2941f3d53d97f2292d07bf87b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::isAntiAliased</definition>
+        <argsstring>()</argsstring>
+        <name>isAntiAliased</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a30ad1c1bd00c8708324463f5d46e466a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofTrueTypeFont::hasFullCharacterSet</definition>
+        <argsstring>()</argsstring>
+        <name>hasFullCharacterSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1adbb80647aa21a907250af47d5a3fcc6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofTrueTypeFont::getSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1ab3bc6e1c7a358236094471e85556fa70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofTrueTypeFont::getLineHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getLineHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a4c7fa9a7f2e681af2ceb6bb2f5b24788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::setLineHeight</definition>
+        <argsstring>(float height)</argsstring>
+        <name>setLineHeight</name>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a634099486e62ef1b02f74efc57f2d9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofTrueTypeFont::getLetterSpacing</definition>
+        <argsstring>()</argsstring>
+        <name>getLetterSpacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a5cd0651d15f07ae1b350bf398871be62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::setLetterSpacing</definition>
+        <argsstring>(float spacing)</argsstring>
+        <name>setLetterSpacing</name>
+        <param>
+          <type>float</type>
+          <declname>spacing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a1aa32271150b500832930386c6f3d698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofTrueTypeFont::getSpaceSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSpaceSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1aff2f15127afb428d59a12b583fbea178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::setSpaceSize</definition>
+        <argsstring>(float size)</argsstring>
+        <name>setSpaceSize</name>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1aecb42f8691b704a8fc3394353c9cefd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofTrueTypeFont::stringWidth</definition>
+        <argsstring>(string s)</argsstring>
+        <name>stringWidth</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a5de7ff4031df5404d2a6be33ca8b62ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofTrueTypeFont::stringHeight</definition>
+        <argsstring>(string s)</argsstring>
+        <name>stringHeight</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1abdd3e920bdd44cef5e7aa05db0907cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+        <definition>ofRectangle ofTrueTypeFont::getStringBoundingBox</definition>
+        <argsstring>(string s, float x, float y)</argsstring>
+        <name>getStringBoundingBox</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1ad775d8f4f08a21356fb4323238430607" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::drawString</definition>
+        <argsstring>(string s, float x, float y)</argsstring>
+        <name>drawString</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1ab2351167f6a15eea29e8fea7ae8ed632" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::drawStringAsShapes</definition>
+        <argsstring>(string s, float x, float y)</argsstring>
+        <name>drawStringAsShapes</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a37523f38c5be929f82d87bac15308f03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofTrueTypeFont::getNumCharacters</definition>
+        <argsstring>()</argsstring>
+        <name>getNumCharacters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1ac4a60f9cc402458811b6b236b40779ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_path" kindref="compound">ofTTFCharacter</ref></type>
+        <definition>ofTTFCharacter ofTrueTypeFont::getCharacterAsPoints</definition>
+        <argsstring>(int character)</argsstring>
+        <name>getCharacterAsPoints</name>
+        <param>
+          <type>int</type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a924f9774c4a892e0b89de06be83b169a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="classof_path" kindref="compound">ofTTFCharacter</ref> &gt;</type>
+        <definition>vector&lt;ofTTFCharacter&gt; ofTrueTypeFont::getStringAsPoints</definition>
+        <argsstring>(string str)</argsstring>
+        <name>getStringAsPoints</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a8101f091667f0033e5e03ade307f48d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::bind</definition>
+        <argsstring>()</argsstring>
+        <name>bind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a1270a90ae2a39acd665f9187f5dbf6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::unbind</definition>
+        <argsstring>()</argsstring>
+        <name>unbind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classof_true_type_font_1a83200267fe48ceadbc777bacc1fc7b1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ofTrueTypeFont::setGlobalDpi</definition>
+        <argsstring>(int newDpi)</argsstring>
+        <name>setGlobalDpi</name>
+        <param>
+          <type>int</type>
+          <declname>newDpi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classof_true_type_font_1ad36450962da531f43d40bf3eea34619e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::drawChar</definition>
+        <argsstring>(int c, float x, float y)</argsstring>
+        <name>drawChar</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a2e6acb96718ed85be4a345c05203c3f3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::drawCharAsShape</definition>
+        <argsstring>(int c, float x, float y)</argsstring>
+        <name>drawCharAsShape</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classof_true_type_font_1a55a9f90fd907df2243768aef5aff1075" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::unloadTextures</definition>
+        <argsstring>()</argsstring>
+        <name>unloadTextures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_true_type_font_1a0b2b93524b930541584751b4d06a8911" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTrueTypeFont::reloadTextures</definition>
+        <argsstring>()</argsstring>
+        <name>reloadTextures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="594">
+        <label>ofTrueTypeFont</label>
+        <link refid="classof_true_type_font"/>
+        <childnode refid="595" relation="usage">
+          <edgelabel>stringQuads</edgelabel>
+        </childnode>
+        <childnode refid="596" relation="usage">
+          <edgelabel>texAtlas</edgelabel>
+        </childnode>
+      </node>
+      <node id="599">
+        <label>ofVec3f</label>
+        <link refid="classof_vec3f"/>
+      </node>
+      <node id="596">
+        <label>ofTexture</label>
+        <link refid="classof_texture"/>
+        <childnode refid="597" relation="public-inheritance">
+        </childnode>
+        <childnode refid="598" relation="usage">
+          <edgelabel>texData</edgelabel>
+        </childnode>
+        <childnode refid="599" relation="usage">
+          <edgelabel>anchor</edgelabel>
+        </childnode>
+      </node>
+      <node id="597">
+        <label>ofBaseDraws</label>
+        <link refid="classof_base_draws"/>
+      </node>
+      <node id="598">
+        <label>ofTextureData</label>
+        <link refid="classof_texture_data"/>
+      </node>
+      <node id="595">
+        <label>ofMesh</label>
+        <link refid="classof_mesh"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofTrueTypeFont.h" bodystart="31" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classof_true_type_font_1ae0529672211eb65fb3d52d0c3555e764" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>bAntiAliased</name></member>
+      <member refid="classof_true_type_font_1ab174a525150961a41183ef4c0603806b" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>bFullCharacterSet</name></member>
+      <member refid="classof_true_type_font_1a8101f091667f0033e5e03ade307f48d7" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>bind</name></member>
+      <member refid="classof_true_type_font_1a31d43872f74737dff07d7a7af8da0b37" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>binded</name></member>
+      <member refid="classof_true_type_font_1ae1b94826e0a87e7a9057b2285d1d8f4d" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>bLoadedOk</name></member>
+      <member refid="classof_true_type_font_1aca35042934d2b5f3cfb92b1a57591e87" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>bMakeContours</name></member>
+      <member refid="classof_true_type_font_1ae09bc97209804f330e79a68512e39520" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>border</name></member>
+      <member refid="classof_true_type_font_1a0d2c3da16937f1b2be80a02c055f12b4" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>charOutlines</name></member>
+      <member refid="classof_true_type_font_1a2d1b89d3dc046e97f4ee716b0e65cbf6" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>cps</name></member>
+      <member refid="classof_true_type_font_1ad36450962da531f43d40bf3eea34619e" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>drawChar</name></member>
+      <member refid="classof_true_type_font_1a2e6acb96718ed85be4a345c05203c3f3" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>drawCharAsShape</name></member>
+      <member refid="classof_true_type_font_1ad775d8f4f08a21356fb4323238430607" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>drawString</name></member>
+      <member refid="classof_true_type_font_1ab2351167f6a15eea29e8fea7ae8ed632" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>drawStringAsShapes</name></member>
+      <member refid="classof_true_type_font_1a45ccd39c69fc58ad564474c995cce89a" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>filename</name></member>
+      <member refid="classof_true_type_font_1a5a6f8535815231d1f250c481ac5dfe6f" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>fontSize</name></member>
+      <member refid="classof_true_type_font_1ac4a60f9cc402458811b6b236b40779ce" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>getCharacterAsPoints</name></member>
+      <member refid="classof_true_type_font_1a634099486e62ef1b02f74efc57f2d9ae" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>getLetterSpacing</name></member>
+      <member refid="classof_true_type_font_1ab3bc6e1c7a358236094471e85556fa70" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>getLineHeight</name></member>
+      <member refid="classof_true_type_font_1a37523f38c5be929f82d87bac15308f03" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>getNumCharacters</name></member>
+      <member refid="classof_true_type_font_1adbb80647aa21a907250af47d5a3fcc6f" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>getSize</name></member>
+      <member refid="classof_true_type_font_1a1aa32271150b500832930386c6f3d698" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>getSpaceSize</name></member>
+      <member refid="classof_true_type_font_1a924f9774c4a892e0b89de06be83b169a" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>getStringAsPoints</name></member>
+      <member refid="classof_true_type_font_1abdd3e920bdd44cef5e7aa05db0907cc4" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>getStringBoundingBox</name></member>
+      <member refid="classof_true_type_font_1a30ad1c1bd00c8708324463f5d46e466a" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>hasFullCharacterSet</name></member>
+      <member refid="classof_true_type_font_1ab565e2941f3d53d97f2292d07bf87b61" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>isAntiAliased</name></member>
+      <member refid="classof_true_type_font_1aa5694c01739ede1bb0a136153b848ebc" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>isLoaded</name></member>
+      <member refid="classof_true_type_font_1a8cf821087583ddaba20d4318ff1374c3" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>letterSpacing</name></member>
+      <member refid="classof_true_type_font_1a013460cfe40116939f07374222cd3c17" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>lineHeight</name></member>
+      <member refid="classof_true_type_font_1a55cc803d12857a970408f2e14b6b568c" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>loadFont</name></member>
+      <member refid="classof_true_type_font_1aac4b8c9259c44c1f8cb8f38c884a94c1" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>nCharacters</name></member>
+      <member refid="classof_true_type_font_1a5af9f717ceaa6f53e7b8c100b40ef923" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>ofTrueTypeFont</name></member>
+      <member refid="classof_true_type_font_1a0b2b93524b930541584751b4d06a8911" prot="private" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>reloadTextures</name></member>
+      <member refid="classof_true_type_font_1a83200267fe48ceadbc777bacc1fc7b1f" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>setGlobalDpi</name></member>
+      <member refid="classof_true_type_font_1a5cd0651d15f07ae1b350bf398871be62" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>setLetterSpacing</name></member>
+      <member refid="classof_true_type_font_1a4c7fa9a7f2e681af2ceb6bb2f5b24788" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>setLineHeight</name></member>
+      <member refid="classof_true_type_font_1aff2f15127afb428d59a12b583fbea178" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>setSpaceSize</name></member>
+      <member refid="classof_true_type_font_1a54a51a4379f956872cf136cc8c59dd17" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>spaceSize</name></member>
+      <member refid="classof_true_type_font_1a5de7ff4031df5404d2a6be33ca8b62ea" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>stringHeight</name></member>
+      <member refid="classof_true_type_font_1a3aa0ef4fbbac6fca3cdeb5a6345cfc37" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>stringQuads</name></member>
+      <member refid="classof_true_type_font_1aecb42f8691b704a8fc3394353c9cefd8" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>stringWidth</name></member>
+      <member refid="classof_true_type_font_1a456c0fc05723e715ccecd528c2bf9551" prot="protected" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>texAtlas</name></member>
+      <member refid="classof_true_type_font_1a1270a90ae2a39acd665f9187f5dbf6c3" prot="public" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>unbind</name></member>
+      <member refid="classof_true_type_font_1a55a9f90fd907df2243768aef5aff1075" prot="private" virt="non-virtual"><scope>ofTrueTypeFont</scope><name>unloadTextures</name></member>
+      <member refid="classof_true_type_font_1a799be6c5ab65278eec5d9bb33f5669f3" prot="public" virt="virtual"><scope>ofTrueTypeFont</scope><name>~ofTrueTypeFont</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

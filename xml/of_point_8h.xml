@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_point_8h" kind="file">
+    <compoundname>ofPoint.h</compoundname>
+    <includes local="yes">ofVec3f.h</includes>
+    <includedby refid="of_base_types_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h</includedby>
+    <includedby refid="of_rectangle_8h" local="yes">/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h</includedby>
+    <incdepgraph>
+      <node id="431">
+        <label>ofVec3f.h</label>
+      </node>
+      <node id="430">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofPoint.h</label>
+        <link refid="ofPoint.h"/>
+        <childnode refid="431" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="434">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofRectangle.h</label>
+        <link refid="of_rectangle_8h"/>
+        <childnode refid="433" relation="include">
+        </childnode>
+      </node>
+      <node id="432">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofPoint.h</label>
+        <link refid="ofPoint.h"/>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofBaseTypes.h</label>
+        <link refid="of_base_types_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="of_point_8h_1a0e9c5f9596918593de99ee1bd275476f" prot="public" static="no">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>typedef ofVec3f ofPoint</definition>
+        <argsstring></argsstring>
+        <name>ofPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofPoint.h" line="5" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofPoint.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofVec3f.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="of_point_8h_1a0e9c5f9596918593de99ee1bd275476f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref><sp/><ref refid="of_point_8h_1a0e9c5f9596918593de99ee1bd275476f" kindref="member">ofPoint</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/types/ofPoint.h"/>
+  </compounddef>
+</doxygen>

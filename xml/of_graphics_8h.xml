@@ -1,0 +1,2732 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="of_graphics_8h" kind="file">
+    <compoundname>ofGraphics.h</compoundname>
+    <includes local="yes">ofConstants.h</includes>
+    <includes local="yes">ofColor.h</includes>
+    <includes local="yes">ofPoint.h</includes>
+    <includes local="yes">ofMatrix4x4.h</includes>
+    <includes local="yes">ofRectangle.h</includes>
+    <includes local="yes">ofTypes.h</includes>
+    <includes local="yes">ofBaseTypes.h</includes>
+    <includes local="yes">ofGLRenderer.h</includes>
+    <incdepgraph>
+      <node id="178">
+        <label>ofConstants.h</label>
+      </node>
+      <node id="177">
+        <label>/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h</label>
+        <link refid="ofGraphics.h"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>ofGLRenderer.h</label>
+      </node>
+      <node id="181">
+        <label>ofMatrix4x4.h</label>
+      </node>
+      <node id="179">
+        <label>ofColor.h</label>
+      </node>
+      <node id="183">
+        <label>ofTypes.h</label>
+      </node>
+      <node id="180">
+        <label>ofPoint.h</label>
+      </node>
+      <node id="184">
+        <label>ofBaseTypes.h</label>
+      </node>
+      <node id="182">
+        <label>ofRectangle.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="of_graphics_8h_1afa335a0122f14deecf486ca1e475c5ec" prot="public" static="no">
+        <name>CIRC_RESOLUTION</name>
+        <initializer>22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="12" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="of_graphics_8h_1af2d7e3b10b28a0513bdf5925a7f2fb5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetCurrentRenderer</definition>
+        <argsstring>(ofPtr&lt; ofBaseRenderer &gt; renderer)</argsstring>
+        <name>ofSetCurrentRenderer</name>
+        <param>
+          <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_renderer" kindref="compound">ofBaseRenderer</ref> &gt;</type>
+          <declname>renderer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a5af4f0d15709b91e778564842e7a6db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_base_renderer" kindref="compound">ofBaseRenderer</ref> &gt; &amp;</type>
+        <definition>ofPtr&lt;ofBaseRenderer&gt;&amp; ofGetCurrentRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetCurrentRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ac11af371124c215495e01a8a3a4eaf3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_ptr" kindref="compound">ofPtr</ref>&lt; <ref refid="classof_g_l_renderer" kindref="compound">ofGLRenderer</ref> &gt;</type>
+        <definition>ofPtr&lt;ofGLRenderer&gt; ofGetGLRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetGLRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a55bc35dd6cd88203238184e09a9044a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBeginSaveScreenAsPDF</definition>
+        <argsstring>(string filename, bool bMultipage=false, bool b3D=false, ofRectangle viewport=ofRectangle(0, 0, 0, 0))</argsstring>
+        <name>ofBeginSaveScreenAsPDF</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bMultipage</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b3D</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+          <defval><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref>(0, 0, 0, 0)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a4a21e5ba201341498a2e2dd1700bdeda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEndSaveScreenAsPDF</definition>
+        <argsstring>()</argsstring>
+        <name>ofEndSaveScreenAsPDF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ae0f994e7424dc7c5309aff96109228da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGetUsingArbTex</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetUsingArbTex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a2522ef9f2c9415f8ac2d967c6bb37b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEnableArbTex</definition>
+        <argsstring>()</argsstring>
+        <name>ofEnableArbTex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a6b679cd9538f7a1399cec6078c227c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDisableArbTex</definition>
+        <argsstring>()</argsstring>
+        <name>ofDisableArbTex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a88fcb7afbd579aa6ee79b0c5bb64b096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGetUsingNormalizedTexCoords</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetUsingNormalizedTexCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a444caf6c6cb03c61bcd569345ee0fbe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEnableNormalizedTexCoords</definition>
+        <argsstring>()</argsstring>
+        <name>ofEnableNormalizedTexCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aeab07f8c299416402fc0ee745f099686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDisableNormalizedTexCoords</definition>
+        <argsstring>()</argsstring>
+        <name>ofDisableNormalizedTexCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a8bb3844b5e80005c2ac2fea35a00365f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetTextureWrap</definition>
+        <argsstring>(GLfloat wrapS=GL_CLAMP_TO_EDGE, GLfloat wrapT=GL_CLAMP_TO_EDGE)</argsstring>
+        <name>ofSetTextureWrap</name>
+        <param>
+          <type>GLfloat</type>
+          <declname>wrapS</declname>
+          <defval>GL_CLAMP_TO_EDGE</defval>
+        </param>
+        <param>
+          <type>GLfloat</type>
+          <declname>wrapT</declname>
+          <defval>GL_CLAMP_TO_EDGE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a8c2ccd16a076b64e2322d0eb24119ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGetUsingCustomTextureWrap</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetUsingCustomTextureWrap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aaee286a4bb9632c17544ae330eee8cea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRestoreTextureWrap</definition>
+        <argsstring>()</argsstring>
+        <name>ofRestoreTextureWrap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a1d8492e4ce3782bb7647e7b5a1f049bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetMinMagFilters</definition>
+        <argsstring>(GLfloat minFilter=GL_LINEAR, GLfloat maxFilter=GL_LINEAR)</argsstring>
+        <name>ofSetMinMagFilters</name>
+        <param>
+          <type>GLfloat</type>
+          <declname>minFilter</declname>
+          <defval>GL_LINEAR</defval>
+        </param>
+        <param>
+          <type>GLfloat</type>
+          <declname>maxFilter</declname>
+          <defval>GL_LINEAR</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a43b3a0baaffc4acfd85ab7965ed17344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofGetUsingCustomMinMagFilters</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetUsingCustomMinMagFilters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1acb822a64ba1482a7f69cf4d7c1cb4d7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRestoreMinMagFilters</definition>
+        <argsstring>()</argsstring>
+        <name>ofRestoreMinMagFilters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a68017a9ee9223c29e2c87f13f98e4503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPushView</definition>
+        <argsstring>()</argsstring>
+        <name>ofPushView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a2839f3526b16f01c4e06158d6eb00393" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPopView</definition>
+        <argsstring>()</argsstring>
+        <name>ofPopView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="54"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a95cb04add69b7de7403d4d022e5f0391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofViewport</definition>
+        <argsstring>(ofRectangle viewport)</argsstring>
+        <name>ofViewport</name>
+        <param>
+          <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a9433e80f3f9535d2d1b2a747d64ab98f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofViewport</definition>
+        <argsstring>(float x=0, float y=0, float width=0, float height=0, bool invertY=true)</argsstring>
+        <name>ofViewport</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invertY</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="60"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a03cfd0494bd86be61c553d3df46d9928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetupScreenPerspective</definition>
+        <argsstring>(float width=0, float height=0, ofOrientation orientation=OF_ORIENTATION_UNKNOWN, bool vFlip=true, float fov=60, float nearDist=0, float farDist=0)</argsstring>
+        <name>ofSetupScreenPerspective</name>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+          <defval>OF_ORIENTATION_UNKNOWN</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vFlip</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fov</declname>
+          <defval>60</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearDist</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDist</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a6066421134b2fcdff038ab69ec9e5994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetupScreenOrtho</definition>
+        <argsstring>(float width=0, float height=0, ofOrientation orientation=OF_ORIENTATION_UNKNOWN, bool vFlip=true, float nearDist=-1, float farDist=1)</argsstring>
+        <name>ofSetupScreenOrtho</name>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+          <defval>OF_ORIENTATION_UNKNOWN</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vFlip</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nearDist</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDist</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref></type>
+        <definition>ofRectangle ofGetCurrentViewport</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetCurrentViewport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1afcf3ff3d2b069575405c8b4e15fa5b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetViewportWidth</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetViewportWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="64"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a9e60bc439b7e73b3f7d65927726bc7f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofGetViewportHeight</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetViewportHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a6021c01064b53d531b82626c1e7478fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ofOrientationToDegrees</definition>
+        <argsstring>(ofOrientation orientation)</argsstring>
+        <name>ofOrientationToDegrees</name>
+        <param>
+          <type><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref></type>
+          <declname>orientation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ad9ef1ea2ced1ba354ff486af1a32348a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetCoordHandedness</definition>
+        <argsstring>(ofHandednessType handedness)</argsstring>
+        <name>ofSetCoordHandedness</name>
+        <param>
+          <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+          <declname>handedness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a63e641c07db5b649b5be63e9a33ca796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref></type>
+        <definition>ofHandednessType ofGetCoordHandedness</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetCoordHandedness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a0c763071df1c6d7b7ef78b968c3c1846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPushMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>ofPushMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a72fb7d61d2c4dccbd5b73d9ae270d98b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPopMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>ofPopMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a7b51429deac71536624b02f377e412f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTranslate</definition>
+        <argsstring>(float x, float y, float z=0)</argsstring>
+        <name>ofTranslate</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1af8406ae299b6ddfe7c4885eefae8c48a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTranslate</definition>
+        <argsstring>(const ofPoint &amp;p)</argsstring>
+        <name>ofTranslate</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a8feef254ff98a5f70a4c48d669b228af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofScale</definition>
+        <argsstring>(float xAmnt, float yAmnt, float zAmnt=1)</argsstring>
+        <name>ofScale</name>
+        <param>
+          <type>float</type>
+          <declname>xAmnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yAmnt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>zAmnt</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1af731d6cc02492931cf2da415a5b5f11e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRotate</definition>
+        <argsstring>(float degrees, float vecX, float vecY, float vecZ)</argsstring>
+        <name>ofRotate</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vecZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ac5a060b746c81b0b1d860dbca5a8ec8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRotateX</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>ofRotateX</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a4137b614c8727203accc8b94e423d91a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRotateY</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>ofRotateY</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a5786f2c380cd20f0944d0fd2bea722a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRotateZ</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>ofRotateZ</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1afe3e6fef5775190decd800f75a214e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRotate</definition>
+        <argsstring>(float degrees)</argsstring>
+        <name>ofRotate</name>
+        <param>
+          <type>float</type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a3bbf989ce19e74eaef8dfd449476faac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetupGraphicDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>ofSetupGraphicDefaults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aff5f29e5fca99e6c6a291bf0d2e3b49a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetupScreen</definition>
+        <argsstring>()</argsstring>
+        <name>ofSetupScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ad09b5d9905eab485e5d95e666a7da677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+        <definition>ofRectMode ofGetRectMode</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetRectMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="97"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a2bc6e23441a66d00f428dfd6beff8eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetCircleResolution</definition>
+        <argsstring>(int res)</argsstring>
+        <name>ofSetCircleResolution</name>
+        <param>
+          <type>int</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="99"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aa92b50be8af6262f9f5795f530c6ecbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetCurveResolution</definition>
+        <argsstring>(int res)</argsstring>
+        <name>ofSetCurveResolution</name>
+        <param>
+          <type>int</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="100"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aa767c995f535028f7e1eba514a977519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetSphereResolution</definition>
+        <argsstring>(int res)</argsstring>
+        <name>ofSetSphereResolution</name>
+        <param>
+          <type>int</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a13ed7d6bb39a2dfc6f9a4170d8db7f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNoFill</definition>
+        <argsstring>()</argsstring>
+        <name>ofNoFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="105"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a25b1aa7e2b181dd3cb8b1086f6abbee6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofFill</definition>
+        <argsstring>()</argsstring>
+        <name>ofFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="106"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a93bbf446ab96aa33c097e0992e016c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref></type>
+        <definition>ofFillFlag ofGetFill</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="107"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aa27a9ae972732c266fdbe578e680f716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>ofSetLineWidth</name>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="109"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a6ab858e059a27466a832624bd3ebcee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetColor</definition>
+        <argsstring>(int r, int g, int b)</argsstring>
+        <name>ofSetColor</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="112"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1af6955737513495badbadc723dc0eea33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetColor</definition>
+        <argsstring>(int r, int g, int b, int a)</argsstring>
+        <name>ofSetColor</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="113"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1abf32a6859916c39dfe5e4835c725fb6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetColor</definition>
+        <argsstring>(const ofColor &amp;color)</argsstring>
+        <name>ofSetColor</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="114"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ac492a05b947b4cb9910e8840c9ef2102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetColor</definition>
+        <argsstring>(const ofColor &amp;color, int _a)</argsstring>
+        <name>ofSetColor</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a4b66e961a224f0efc86da661bc83c522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetColor</definition>
+        <argsstring>(int gray)</argsstring>
+        <name>ofSetColor</name>
+        <param>
+          <type>int</type>
+          <declname>gray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a6abdc4a3fa97f5c5f1022d1996bfdbff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetHexColor</definition>
+        <argsstring>(int hexColor)</argsstring>
+        <name>ofSetHexColor</name>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="117"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ad5249029f45c096dd41d1dd11a134f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEnableBlendMode</definition>
+        <argsstring>(ofBlendMode blendMode)</argsstring>
+        <name>ofEnableBlendMode</name>
+        <param>
+          <type><ref refid="of_constants_8h_1a5f194ae56b1bc61651eac7184ed1ad2e" kindref="member">ofBlendMode</ref></type>
+          <declname>blendMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1acfd06ec30515dbf0541e65887c7e7332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDisableBlendMode</definition>
+        <argsstring>()</argsstring>
+        <name>ofDisableBlendMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="121"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aabcdb6125fc75664423511a136bfbe55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEnablePointSprites</definition>
+        <argsstring>()</argsstring>
+        <name>ofEnablePointSprites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="124"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a35555bd2edb90651e5532b64003c67bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDisablePointSprites</definition>
+        <argsstring>()</argsstring>
+        <name>ofDisablePointSprites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="125"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a9e5b48d175f4210922a647cb6f9cdfd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEnableAlphaBlending</definition>
+        <argsstring>()</argsstring>
+        <name>ofEnableAlphaBlending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="128"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ab45f91c85107f9ed11033605225334bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDisableAlphaBlending</definition>
+        <argsstring>()</argsstring>
+        <name>ofDisableAlphaBlending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="129"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a91d3e24015015f27f698dd1ee587cc6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEnableSmoothing</definition>
+        <argsstring>()</argsstring>
+        <name>ofEnableSmoothing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1af356e3766f294f2723047513ba497b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDisableSmoothing</definition>
+        <argsstring>()</argsstring>
+        <name>ofDisableSmoothing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="133"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1accbcb856bf7135705117d5f8f13e05dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_style" kindref="compound">ofStyle</ref></type>
+        <definition>ofStyle ofGetStyle</definition>
+        <argsstring>()</argsstring>
+        <name>ofGetStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="136"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a79446443c35a5544832f5064bf21a8b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetStyle</definition>
+        <argsstring>(ofStyle style)</argsstring>
+        <name>ofSetStyle</name>
+        <param>
+          <type><ref refid="classof_style" kindref="compound">ofStyle</ref></type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="137"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a6e09db8026bfe44d1ed68e5b56603c17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPushStyle</definition>
+        <argsstring>()</argsstring>
+        <name>ofPushStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="138"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1afb73a699845d394eb8aca21772d22ac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofPopStyle</definition>
+        <argsstring>()</argsstring>
+        <name>ofPopStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="139"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ab9798e5e519b1d09351a602ded3468bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetPolyMode</definition>
+        <argsstring>(ofPolyWindingMode mode)</argsstring>
+        <name>ofSetPolyMode</name>
+        <param>
+          <type><ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="141"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aa3b1c1ceb97a0d2eb223c079f460239e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetRectMode</definition>
+        <argsstring>(ofRectMode mode)</argsstring>
+        <name>ofSetRectMode</name>
+        <param>
+          <type><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="142"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a9e3654a284e40341185937f3e8d642b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float *</type>
+        <definition>float* ofBgColorPtr</definition>
+        <argsstring>()</argsstring>
+        <name>ofBgColorPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="152"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a1e43615fcc671d11a6a42570146283e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBackground</definition>
+        <argsstring>(int r, int g, int b, int a=255)</argsstring>
+        <name>ofBackground</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+          <defval>255</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="153"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a199c074a7e395185cba8b505521688f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBackground</definition>
+        <argsstring>(int brightness, int alpha=255)</argsstring>
+        <name>ofBackground</name>
+        <param>
+          <type>int</type>
+          <declname>brightness</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>alpha</declname>
+          <defval>255</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="154"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a4a1048c3d0b586a7b78554aff7d62114" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBackground</definition>
+        <argsstring>(const ofColor &amp;c)</argsstring>
+        <name>ofBackground</name>
+        <param>
+          <type>const <ref refid="classof_color__" kindref="compound">ofColor</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="155"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a79333624d75fcf841d2b3784b83be901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBackgroundHex</definition>
+        <argsstring>(int hexColor, int alpha=255)</argsstring>
+        <name>ofBackgroundHex</name>
+        <param>
+          <type>int</type>
+          <declname>hexColor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>alpha</declname>
+          <defval>255</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="156"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a519a4feeeeb6c0764abdab9e662c16b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetBackgroundAuto</definition>
+        <argsstring>(bool bManual)</argsstring>
+        <name>ofSetBackgroundAuto</name>
+        <param>
+          <type>bool</type>
+          <declname>bManual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="159"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aa36a658d424bae234c79d4642be5f47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofClear</definition>
+        <argsstring>(float r, float g, float b, float a=0)</argsstring>
+        <name>ofClear</name>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="161"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a0e57f26a6b6e84b797529d3d2a019985" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofClear</definition>
+        <argsstring>(float brightness, float a=0)</argsstring>
+        <name>ofClear</name>
+        <param>
+          <type>float</type>
+          <declname>brightness</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="162"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a5870ff9e52ac377082063ecac66e3f51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofClearAlpha</definition>
+        <argsstring>()</argsstring>
+        <name>ofClearAlpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="163"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a0c90134d2762b8832dd8caa03363802a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofbClearBg</definition>
+        <argsstring>()</argsstring>
+        <name>ofbClearBg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="166"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a67e825427915c4736cdf3a2e2f73cfe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTriangle</definition>
+        <argsstring>(float x1, float y1, float x2, float y2, float x3, float y3)</argsstring>
+        <name>ofTriangle</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="179"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a905c399f74eaf561028b2b28e19a3dfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTriangle</definition>
+        <argsstring>(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3)</argsstring>
+        <name>ofTriangle</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="180"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1af339ec5ece01a864124a3c091cf363fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofTriangle</definition>
+        <argsstring>(const ofPoint &amp;p1, const ofPoint &amp;p2, const ofPoint &amp;p3)</argsstring>
+        <name>ofTriangle</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="181"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a79512e50f3f313c659e7b9c51eecb570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCircle</definition>
+        <argsstring>(float x, float y, float radius)</argsstring>
+        <name>ofCircle</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="183"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a6d218b67bfe70a42bf370aefd9fc14d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCircle</definition>
+        <argsstring>(float x, float y, float z, float radius)</argsstring>
+        <name>ofCircle</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="184"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a934eb636c14de6bd19cd70e25f180f1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCircle</definition>
+        <argsstring>(const ofPoint &amp;p, float radius)</argsstring>
+        <name>ofCircle</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="185"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a953dc38486403c98fe036e00811c60e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEllipse</definition>
+        <argsstring>(float x, float y, float width, float height)</argsstring>
+        <name>ofEllipse</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="187"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a5f6480a0d262d6ed0e8ad758b23b5344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEllipse</definition>
+        <argsstring>(float x, float y, float z, float width, float height)</argsstring>
+        <name>ofEllipse</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="188"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a948ae4bd718b65f1b14636ca8861c711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEllipse</definition>
+        <argsstring>(const ofPoint &amp;p, float width, float height)</argsstring>
+        <name>ofEllipse</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="189"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a729853a4a1a8c9fe72bad628880946d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLine</definition>
+        <argsstring>(float x1, float y1, float x2, float y2)</argsstring>
+        <name>ofLine</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="191"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ab2e9dd3ffb08bca86f7dab9749e2f619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLine</definition>
+        <argsstring>(float x1, float y1, float z1, float x2, float y2, float z2)</argsstring>
+        <name>ofLine</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="192"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1acc4b7173caaa9e04c8965782c6925bdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofLine</definition>
+        <argsstring>(const ofPoint &amp;p1, const ofPoint &amp;p2)</argsstring>
+        <name>ofLine</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="193"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a0ca9ec6a10421a180331cdaaab40e181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRect</definition>
+        <argsstring>(float x1, float y1, float w, float h)</argsstring>
+        <name>ofRect</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="195"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a41e5fdef42e0eb1cd15aaf5f9479d5c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRect</definition>
+        <argsstring>(const ofRectangle &amp;r)</argsstring>
+        <name>ofRect</name>
+        <param>
+          <type>const <ref refid="classof_rectangle" kindref="compound">ofRectangle</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="196"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a994b1258f917100f23cee819979405d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRect</definition>
+        <argsstring>(const ofPoint &amp;p, float w, float h)</argsstring>
+        <name>ofRect</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="197"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a75441ef0f41a279560c68b60fea4c3c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofRect</definition>
+        <argsstring>(float x, float y, float z, float w, float h)</argsstring>
+        <name>ofRect</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="198"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a274546cd382ccb5d5d3e655e6d8fbe1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCurve</definition>
+        <argsstring>(float x0, float y0, float x1, float y1, float x2, float y2, float x3, float y3)</argsstring>
+        <name>ofCurve</name>
+        <param>
+          <type>float</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="200"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a9f61314aafeb44d3e3ed93fd2d6cd860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBezier</definition>
+        <argsstring>(float x0, float y0, float x1, float y1, float x2, float y2, float x3, float y3)</argsstring>
+        <name>ofBezier</name>
+        <param>
+          <type>float</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="201"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a069488d224bc10fdc2914a16c113a680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBeginShape</definition>
+        <argsstring>()</argsstring>
+        <name>ofBeginShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="205"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a66ca0f76c8baf52d86bb241e909f632a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVertex</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>ofVertex</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="206"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a9b19b7c58761f931c5bd72e9fdbf27c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVertex</definition>
+        <argsstring>(ofPoint &amp;p)</argsstring>
+        <name>ofVertex</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="207"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a883ddbba252bf0b17f6f8cb06c001ce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofVertexes</definition>
+        <argsstring>(const vector&lt; ofPoint &gt; &amp;polyPoints)</argsstring>
+        <name>ofVertexes</name>
+        <param>
+          <type>const vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>polyPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="208"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1acabbc96ee453b107bc1633086f0fff3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCurveVertex</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>ofCurveVertex</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="211"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1adabfbe46efff249d6afbe7ea917b7d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCurveVertex</definition>
+        <argsstring>(ofPoint &amp;p)</argsstring>
+        <name>ofCurveVertex</name>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="212"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1afadf4c3f1e84bb5bbb51aa6557215d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofCurveVertexes</definition>
+        <argsstring>(const vector&lt; ofPoint &gt; &amp;curvePoints)</argsstring>
+        <name>ofCurveVertexes</name>
+        <param>
+          <type>const vector&lt; <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &gt; &amp;</type>
+          <declname>curvePoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="213"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aecf44c0231a1b83b1142f193f982ee49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBezierVertex</definition>
+        <argsstring>(float x1, float y1, float x2, float y2, float x3, float y3)</argsstring>
+        <name>ofBezierVertex</name>
+        <param>
+          <type>float</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="215"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a649078e02b637693cbf8252f36b3820a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofEndShape</definition>
+        <argsstring>(bool bClose=false)</argsstring>
+        <name>ofEndShape</name>
+        <param>
+          <type>bool</type>
+          <declname>bClose</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="217"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ac35c248ef3e1e9c28bd15c2658845350" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofNextContour</definition>
+        <argsstring>(bool bClose=false)</argsstring>
+        <name>ofNextContour</name>
+        <param>
+          <type>bool</type>
+          <declname>bClose</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="218"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a6d5e181690ba48905c2353f36e5b05c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSphere</definition>
+        <argsstring>(float x, float y, float z, float radius)</argsstring>
+        <name>ofSphere</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="222"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1af2e33027d7461d2eda01a1b957a067fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSphere</definition>
+        <argsstring>(float x, float y, float radius)</argsstring>
+        <name>ofSphere</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="223"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a677809831e62d9222a0a98d1e0595233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSphere</definition>
+        <argsstring>(const ofPoint &amp;position, float radius)</argsstring>
+        <name>ofSphere</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="224"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a13e2253ccfcdd10d6125868dae1ba08a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSphere</definition>
+        <argsstring>(float radius)</argsstring>
+        <name>ofSphere</name>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="225"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a31c2ae230b3f8335cb17cd93b9594ad1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBox</definition>
+        <argsstring>(float x, float y, float z, float size)</argsstring>
+        <name>ofBox</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="227"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1aab08d3d0b51a094be62b34c645be04f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBox</definition>
+        <argsstring>(float x, float y, float size)</argsstring>
+        <name>ofBox</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="228"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ae625d3a1746010dccfa0f2676dbc00b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBox</definition>
+        <argsstring>(const ofPoint &amp;position, float size)</argsstring>
+        <name>ofBox</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="229"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a740be0cd22c13df041616c0e1d88c3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofBox</definition>
+        <argsstring>(float size)</argsstring>
+        <name>ofBox</name>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="230"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1ab7c21bff5f0eec37f9d73f93f83c61be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofSetDrawBitmapMode</definition>
+        <argsstring>(ofDrawBitmapMode mode)</argsstring>
+        <name>ofSetDrawBitmapMode</name>
+        <param>
+          <type><ref refid="of_constants_8h_1a14966be842b99f71080a7444cebbc0b7" kindref="member">ofDrawBitmapMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="234"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a33abcd02d5cb42a23ca19bcfa5c99c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDrawBitmapString</definition>
+        <argsstring>(string textString, const ofPoint &amp;p)</argsstring>
+        <name>ofDrawBitmapString</name>
+        <param>
+          <type>string</type>
+          <declname>textString</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="235"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a3cc0899aad51948883a2a1ea6413cce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDrawBitmapString</definition>
+        <argsstring>(string textString, float x, float y)</argsstring>
+        <name>ofDrawBitmapString</name>
+        <param>
+          <type>string</type>
+          <declname>textString</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="236"/>
+      </memberdef>
+      <memberdef kind="function" id="of_graphics_8h_1a583a0c96bb7a380d6f02faa08b5bdf64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofDrawBitmapString</definition>
+        <argsstring>(string textString, float x, float y, float z)</argsstring>
+        <name>ofDrawBitmapString</name>
+        <param>
+          <type>string</type>
+          <declname>textString</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h" line="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofConstants.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofColor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofPoint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofMatrix4x4.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofRectangle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofBaseTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ofGLRenderer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="of_graphics_8h_1afa335a0122f14deecf486ca1e475c5ec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CIRC_RESOLUTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>22<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>22<sp/>pts<sp/>for<sp/>a<sp/>circle...</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1af2d7e3b10b28a0513bdf5925a7f2fb5e" kindref="member">ofSetCurrentRenderer</ref>(<ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseRenderer&gt;</ref><sp/>renderer);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofBaseRenderer&gt;</ref><sp/>&amp;<sp/><ref refid="of_graphics_8h_1a5af4f0d15709b91e778564842e7a6db5" kindref="member">ofGetCurrentRenderer</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="classof_ptr" kindref="compound">ofPtr&lt;ofGLRenderer&gt;</ref><sp/><ref refid="of_graphics_8h_1ac11af371124c215495e01a8a3a4eaf3a" kindref="member">ofGetGLRenderer</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//for<sp/>pdf<sp/>screenshot</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a55bc35dd6cd88203238184e09a9044a0" kindref="member">ofBeginSaveScreenAsPDF</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filename,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bMultipage<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b3D<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport<sp/>=<sp/><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref>(0,0,0,0));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a4a21e5ba201341498a2e2dd1700bdeda" kindref="member">ofEndSaveScreenAsPDF</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//opengl<sp/>specifics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//set<sp/>whether<sp/>OF<sp/>uses<sp/>ARB<sp/>rectangular<sp/>texture<sp/>or<sp/>the<sp/>more<sp/>traditonal<sp/>GL_TEXTURE_2D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1ae0f994e7424dc7c5309aff96109228da" kindref="member">ofGetUsingArbTex</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a2522ef9f2c9415f8ac2d967c6bb37b01" kindref="member">ofEnableArbTex</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6b679cd9538f7a1399cec6078c227c71" kindref="member">ofDisableArbTex</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a88fcb7afbd579aa6ee79b0c5bb64b096" kindref="member">ofGetUsingNormalizedTexCoords</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a444caf6c6cb03c61bcd569345ee0fbe9" kindref="member">ofEnableNormalizedTexCoords</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aeab07f8c299416402fc0ee745f099686" kindref="member">ofDisableNormalizedTexCoords</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//*****<sp/>add<sp/>global<sp/>functions<sp/>to<sp/>override<sp/>texture<sp/>settings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a8bb3844b5e80005c2ac2fea35a00365f" kindref="member">ofSetTextureWrap</ref>(GLfloat<sp/>wrapS<sp/>=<sp/>GL_CLAMP_TO_EDGE,<sp/>GLfloat<sp/>wrapT<sp/>=<sp/>GL_CLAMP_TO_EDGE);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a8c2ccd16a076b64e2322d0eb24119ce7" kindref="member">ofGetUsingCustomTextureWrap</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aaee286a4bb9632c17544ae330eee8cea" kindref="member">ofRestoreTextureWrap</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a1d8492e4ce3782bb7647e7b5a1f049bb" kindref="member">ofSetMinMagFilters</ref>(GLfloat<sp/>minFilter<sp/>=<sp/>GL_LINEAR,<sp/>GLfloat<sp/>maxFilter<sp/>=<sp/>GL_LINEAR);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a43b3a0baaffc4acfd85ab7965ed17344" kindref="member">ofGetUsingCustomMinMagFilters</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1acb822a64ba1482a7f69cf4d7c1cb4d7c" kindref="member">ofRestoreMinMagFilters</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//*****</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//end<sp/>opengl<sp/>specifics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>transformations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>push<sp/>and<sp/>pop<sp/>all<sp/>matrices<sp/>and<sp/>viewport</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a68017a9ee9223c29e2c87f13f98e4503" kindref="member">ofPushView</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a2839f3526b16f01c4e06158d6eb00393" kindref="member">ofPopView</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>setup<sp/>matrices<sp/>and<sp/>viewport<sp/>(upto<sp/>you<sp/>to<sp/>push<sp/>and<sp/>pop<sp/>view<sp/>before<sp/>and<sp/>after)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>width<sp/>or<sp/>height<sp/>are<sp/>0,<sp/>assume<sp/>windows<sp/>dimensions<sp/>(ofGetWidth(),<sp/>ofGetHeight())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>if<sp/>nearDist<sp/>or<sp/>farDist<sp/>are<sp/>0<sp/>assume<sp/>defaults<sp/>(calculated<sp/>based<sp/>on<sp/>width<sp/>/<sp/>height)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a95cb04add69b7de7403d4d022e5f0391" kindref="member">ofViewport</ref>(<ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>viewport);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a95cb04add69b7de7403d4d022e5f0391" kindref="member">ofViewport</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>invertY<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a03cfd0494bd86be61c553d3df46d9928" kindref="member">ofSetupScreenPerspective</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height<sp/>=<sp/>0,<sp/><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref><sp/>orientation<sp/>=<sp/><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1caa38a6f3fee424ea35be626cb0b6e423b" kindref="member">OF_ORIENTATION_UNKNOWN</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>vFlip<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fov<sp/>=<sp/>60,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>nearDist<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>farDist<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6066421134b2fcdff038ab69ec9e5994" kindref="member">ofSetupScreenOrtho</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height<sp/>=<sp/>0,<sp/><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref><sp/>orientation<sp/>=<sp/><ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1caa38a6f3fee424ea35be626cb0b6e423b" kindref="member">OF_ORIENTATION_UNKNOWN</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>vFlip<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>nearDist<sp/>=<sp/>-1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>farDist<sp/>=<sp/>1);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/><ref refid="of_graphics_8h_1a9b45fc63c10fdf222fcbf20543183220" kindref="member">ofGetCurrentViewport</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1afcf3ff3d2b069575405c8b4e15fa5b11" kindref="member">ofGetViewportWidth</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a9e60bc439b7e73b3f7d65927726bc7f1" kindref="member">ofGetViewportHeight</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6021c01064b53d531b82626c1e7478fc" kindref="member">ofOrientationToDegrees</ref>(<ref refid="of_constants_8h_1a85ec4045e22bafeea5c561f9778c1f1c" kindref="member">ofOrientation</ref><sp/>orientation);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1ad9ef1ea2ced1ba354ff486af1a32348a" kindref="member">ofSetCoordHandedness</ref>(<ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref><sp/>handedness);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><ref refid="of_constants_8h_1a35cd63b4a2e112ecf30eaf0542f2388b" kindref="member">ofHandednessType</ref><sp/><ref refid="of_graphics_8h_1a63e641c07db5b649b5be63e9a33ca796" kindref="member">ofGetCoordHandedness</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//our<sp/>openGL<sp/>wrappers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a0c763071df1c6d7b7ef78b968c3c1846" kindref="member">ofPushMatrix</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a72fb7d61d2c4dccbd5b73d9ae270d98b" kindref="member">ofPopMatrix</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a7b51429deac71536624b02f377e412f5" kindref="member">ofTranslate</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a7b51429deac71536624b02f377e412f5" kindref="member">ofTranslate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a8feef254ff98a5f70a4c48d669b228af" kindref="member">ofScale</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>xAmnt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>yAmnt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zAmnt<sp/>=<sp/>1);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1af731d6cc02492931cf2da415a5b5f11e" kindref="member">ofRotate</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>degrees,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>vecX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>vecY,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>vecZ);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1ac5a060b746c81b0b1d860dbca5a8ec8c" kindref="member">ofRotateX</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>degrees);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a4137b614c8727203accc8b94e423d91a" kindref="member">ofRotateY</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>degrees);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a5786f2c380cd20f0944d0fd2bea722a8" kindref="member">ofRotateZ</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>degrees);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1af731d6cc02492931cf2da415a5b5f11e" kindref="member">ofRotate</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>degrees);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>screen<sp/>coordinate<sp/>things<sp/>/<sp/>default<sp/>gl<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a3bbf989ce19e74eaef8dfd449476faac" kindref="member">ofSetupGraphicDefaults</ref>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aff5f29e5fca99e6c6a291bf0d2e3b49a" kindref="member">ofSetupScreen</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>end<sp/>transformations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//<sp/>drawing<sp/>modes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="of_graphics_8h_1ad09b5d9905eab485e5d95e666a7da677" kindref="member">ofGetRectMode</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>OF_RECTMODE_CORNER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a2bc6e23441a66d00f428dfd6beff8eba" kindref="member">ofSetCircleResolution</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>res);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>there<sp/>22<sp/>is<sp/>a<sp/>problem,<sp/>you<sp/>can<sp/>change<sp/>it<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aa92b50be8af6262f9f5795f530c6ecbe" kindref="member">ofSetCurveResolution</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>res);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aa767c995f535028f7e1eba514a977519" kindref="member">ofSetSphereResolution</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>res);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>drawing<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a13ed7d6bb39a2dfc6f9a4170d8db7f15" kindref="member">ofNoFill</ref>();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a25b1aa7e2b181dd3cb8b1086f6abbee6" kindref="member">ofFill</ref>();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><ref refid="of_constants_8h_1ae2388165eb5c77ed1edbee0d7d68d4dc" kindref="member">ofFillFlag</ref><sp/><ref refid="of_graphics_8h_1a93bbf446ab96aa33c097e0992e016c2a" kindref="member">ofGetFill</ref>();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aa27a9ae972732c266fdbe578e680f716" kindref="member">ofSetLineWidth</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>lineWidth);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>color<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6ab858e059a27466a832624bd3ebcee4" kindref="member">ofSetColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b);<sp/></highlight><highlight class="comment">//<sp/>0-255</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6ab858e059a27466a832624bd3ebcee4" kindref="member">ofSetColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a);<sp/></highlight><highlight class="comment">//<sp/>0-255</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6ab858e059a27466a832624bd3ebcee4" kindref="member">ofSetColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_color__" kindref="compound">ofColor</ref><sp/>&amp;<sp/>color);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6ab858e059a27466a832624bd3ebcee4" kindref="member">ofSetColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_color__" kindref="compound">ofColor</ref><sp/>&amp;<sp/>color,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_a);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6ab858e059a27466a832624bd3ebcee4" kindref="member">ofSetColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gray);<sp/></highlight><highlight class="comment">//<sp/>new<sp/>set<sp/>a<sp/>color<sp/>as<sp/>grayscale<sp/>with<sp/>one<sp/>argument</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6abdc4a3fa97f5c5f1022d1996bfdbff" kindref="member">ofSetHexColor</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hexColor<sp/>);<sp/></highlight><highlight class="comment">//<sp/>hex,<sp/>like<sp/>web<sp/>0xFF0033;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Blending</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1ad5249029f45c096dd41d1dd11a134f0e" kindref="member">ofEnableBlendMode</ref>(<ref refid="of_constants_8h_1a5f194ae56b1bc61651eac7184ed1ad2e" kindref="member">ofBlendMode</ref><sp/>blendMode);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1acfd06ec30515dbf0541e65887c7e7332" kindref="member">ofDisableBlendMode</ref>();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">//<sp/>point<sp/>sprites</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aabcdb6125fc75664423511a136bfbe55" kindref="member">ofEnablePointSprites</ref>();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a35555bd2edb90651e5532b64003c67bf" kindref="member">ofDisablePointSprites</ref>();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">//<sp/>transparency</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a9e5b48d175f4210922a647cb6f9cdfd9" kindref="member">ofEnableAlphaBlending</ref>();<sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>just<sp/>turns<sp/>on<sp/>and<sp/>off<sp/>opengl<sp/>blending,<sp/>the<sp/>common<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1ab45f91c85107f9ed11033605225334bc" kindref="member">ofDisableAlphaBlending</ref>();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="comment">//<sp/>smooth<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a91d3e24015015f27f698dd1ee587cc6e" kindref="member">ofEnableSmoothing</ref>();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1af356e3766f294f2723047513ba497b1e" kindref="member">ofDisableSmoothing</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment">//<sp/>drawing<sp/>style<sp/>-<sp/>combines<sp/>color,<sp/>fill,<sp/>blending<sp/>and<sp/>smoothing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><ref refid="classof_style" kindref="compound">ofStyle</ref><sp/><ref refid="of_graphics_8h_1accbcb856bf7135705117d5f8f13e05dd" kindref="member">ofGetStyle</ref>();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a79446443c35a5544832f5064bf21a8b9" kindref="member">ofSetStyle</ref>(<ref refid="classof_style" kindref="compound">ofStyle</ref><sp/>style);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6e09db8026bfe44d1ed68e5b56603c17" kindref="member">ofPushStyle</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1afb73a699845d394eb8aca21772d22ac2" kindref="member">ofPopStyle</ref>();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1ab9798e5e519b1d09351a602ded3468bd" kindref="member">ofSetPolyMode</ref>(<ref refid="of_constants_8h_1aca8e53bffcbd2dd34e724531d8a0f375" kindref="member">ofPolyWindingMode</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aa3b1c1ceb97a0d2eb223c079f460239e" kindref="member">ofSetRectMode</ref>(<ref refid="of_constants_8h_1a52116548570a64993cbe3be944443fce" kindref="member">ofRectMode</ref><sp/>mode);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>mode,<sp/>either<sp/>to<sp/>OF_RECTMODE_CORNER<sp/>or<sp/>OF_RECTMODE_CENTER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">//<sp/>end<sp/>drawing<sp/>modes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//-----------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>background</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bg<sp/>color</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<sp/><ref refid="of_graphics_8h_1a9e3654a284e40341185937f3e8d642b2" kindref="member">ofBgColorPtr</ref>();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a1e43615fcc671d11a6a42570146283e7" kindref="member">ofBackground</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a=255);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a1e43615fcc671d11a6a42570146283e7" kindref="member">ofBackground</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>brightness,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>alpha<sp/>=<sp/>255);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a1e43615fcc671d11a6a42570146283e7" kindref="member">ofBackground</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_color__" kindref="compound">ofColor</ref><sp/>&amp;<sp/>c);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a79333624d75fcf841d2b3784b83be901" kindref="member">ofBackgroundHex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hexColor,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>alpha<sp/>=<sp/>255);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment">//<sp/>user&apos;s<sp/>access<sp/>to<sp/>settings<sp/>(bgAuto,<sp/>corner<sp/>mode):</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="of_graphics_8h_1a519a4feeeeb6c0764abdab9e662c16b6" kindref="member">ofSetBackgroundAuto</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bManual);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>is<sp/>true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aa36a658d424bae234c79d4642be5f47c" kindref="member">ofClear</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a=0);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aa36a658d424bae234c79d4642be5f47c" kindref="member">ofClear</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>brightness,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a=0);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a5870ff9e52ac377082063ecac66e3f51" kindref="member">ofClearAlpha</ref>();</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OF&apos;s<sp/>access<sp/>to<sp/>settings<sp/>(bgAuto,<sp/>origin,<sp/>corner<sp/>mode):</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="of_graphics_8h_1a0c90134d2762b8832dd8caa03363802a" kindref="member">ofbClearBg</ref>();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="comment">//<sp/>end<sp/>background</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//<sp/>----------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="comment">//<sp/>geometry</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a67e825427915c4736cdf3a2e2f73cfe5" kindref="member">ofTriangle</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y3);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a67e825427915c4736cdf3a2e2f73cfe5" kindref="member">ofTriangle</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z2,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y3,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z3);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a67e825427915c4736cdf3a2e2f73cfe5" kindref="member">ofTriangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p3);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a79512e50f3f313c659e7b9c51eecb570" kindref="member">ofCircle</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a79512e50f3f313c659e7b9c51eecb570" kindref="member">ofCircle</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a79512e50f3f313c659e7b9c51eecb570" kindref="member">ofCircle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a953dc38486403c98fe036e00811c60e7" kindref="member">ofEllipse</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a953dc38486403c98fe036e00811c60e7" kindref="member">ofEllipse</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a953dc38486403c98fe036e00811c60e7" kindref="member">ofEllipse</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a729853a4a1a8c9fe72bad628880946d8" kindref="member">ofLine</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a729853a4a1a8c9fe72bad628880946d8" kindref="member">ofLine</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z2);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a729853a4a1a8c9fe72bad628880946d8" kindref="member">ofLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p2);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a0ca9ec6a10421a180331cdaaab40e181" kindref="member">ofRect</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a0ca9ec6a10421a180331cdaaab40e181" kindref="member">ofRect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_rectangle" kindref="compound">ofRectangle</ref><sp/>&amp;<sp/>r);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a0ca9ec6a10421a180331cdaaab40e181" kindref="member">ofRect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a0ca9ec6a10421a180331cdaaab40e181" kindref="member">ofRect</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>w,</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a274546cd382ccb5d5d3e655e6d8fbe1d" kindref="member">ofCurve</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y3);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a9f61314aafeb44d3e3ed93fd2d6cd860" kindref="member">ofBezier</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y3);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>polygons</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a069488d224bc10fdc2914a16c113a680" kindref="member">ofBeginShape</ref>();</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a66ca0f76c8baf52d86bb241e909f632a" kindref="member">ofVertex</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a66ca0f76c8baf52d86bb241e909f632a" kindref="member">ofVertex</ref>(<ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a883ddbba252bf0b17f6f8cb06c001ce5" kindref="member">ofVertexes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector<sp/>&lt;ofPoint&gt;<sp/>&amp;<sp/>polyPoints);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1acabbc96ee453b107bc1633086f0fff3e" kindref="member">ofCurveVertex</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1acabbc96ee453b107bc1633086f0fff3e" kindref="member">ofCurveVertex</ref>(<ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1afadf4c3f1e84bb5bbb51aa6557215d6a" kindref="member">ofCurveVertexes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector<sp/>&lt;ofPoint&gt;<sp/>&amp;<sp/>curvePoints);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1aecf44c0231a1b83b1142f193f982ee49" kindref="member">ofBezierVertex</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y3);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a649078e02b637693cbf8252f36b3820a" kindref="member">ofEndShape</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bClose<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1ac35c248ef3e1e9c28bd15c2658845350" kindref="member">ofNextContour</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bClose<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>multi<sp/>contour<sp/>shapes!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">//3d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6d5e181690ba48905c2353f36e5b05c7" kindref="member">ofSphere</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6d5e181690ba48905c2353f36e5b05c7" kindref="member">ofSphere</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6d5e181690ba48905c2353f36e5b05c7" kindref="member">ofSphere</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref>&amp;<sp/>position,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a6d5e181690ba48905c2353f36e5b05c7" kindref="member">ofSphere</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a31c2ae230b3f8335cb17cd93b9594ad1" kindref="member">ofBox</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a31c2ae230b3f8335cb17cd93b9594ad1" kindref="member">ofBox</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a31c2ae230b3f8335cb17cd93b9594ad1" kindref="member">ofBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref>&amp;<sp/>position,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a31c2ae230b3f8335cb17cd93b9594ad1" kindref="member">ofBox</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bitmapped<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1ab7c21bff5f0eec37f9d73f93f83c61be" kindref="member">ofSetDrawBitmapMode</ref>(<ref refid="of_constants_8h_1a14966be842b99f71080a7444cebbc0b7" kindref="member">ofDrawBitmapMode</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a33abcd02d5cb42a23ca19bcfa5c99c32" kindref="member">ofDrawBitmapString</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>textString,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classof_vec3f" kindref="compound">ofPoint</ref><sp/>&amp;<sp/>p);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a33abcd02d5cb42a23ca19bcfa5c99c32" kindref="member">ofDrawBitmapString</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>textString,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="of_graphics_8h_1a33abcd02d5cb42a23ca19bcfa5c99c32" kindref="member">ofDrawBitmapString</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>textString,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>z);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="comment">//<sp/>end<sp/>primitives</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/graphics/ofGraphics.h"/>
+  </compounddef>
+</doxygen>

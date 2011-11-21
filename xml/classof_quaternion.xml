@@ -1,0 +1,1061 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.3">
+  <compounddef id="classof_quaternion" kind="class" prot="public">
+    <compoundname>ofQuaternion</compoundname>
+    <includes refid="of_quaternion_8h" local="no">ofQuaternion.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classof_quaternion_1ab982b5638bed96d546f666393f4e2183" prot="public" static="no" mutable="no">
+        <type><ref refid="classof_vec4f" kindref="compound">ofVec4f</ref></type>
+        <definition>ofVec4f ofQuaternion::_v</definition>
+        <argsstring></argsstring>
+        <name>_v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="28" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classof_quaternion_1a88872fa61612eb7763ad4e2195775c71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofQuaternion::ofQuaternion</definition>
+        <argsstring>()</argsstring>
+        <name>ofQuaternion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="30" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="143" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a8f887a94cb20196027d97b6dd04e5057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofQuaternion::ofQuaternion</definition>
+        <argsstring>(float x, float y, float z, float w)</argsstring>
+        <name>ofQuaternion</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="31" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="169" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a35a3d385ab3f4128f7b3d24604cf9ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofQuaternion::ofQuaternion</definition>
+        <argsstring>(const ofVec4f &amp;v)</argsstring>
+        <name>ofQuaternion</name>
+        <param>
+          <type>const <ref refid="classof_vec4f" kindref="compound">ofVec4f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="32" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="175" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a529608f982d4c6c0970dbc77308b788c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofQuaternion::ofQuaternion</definition>
+        <argsstring>(float angle, const ofVec3f &amp;axis)</argsstring>
+        <name>ofQuaternion</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="33" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a5a81d8b69b470bcaad2139c539ce06c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ofQuaternion::ofQuaternion</definition>
+        <argsstring>(float angle1, const ofVec3f &amp;axis1, float angle2, const ofVec3f &amp;axis2, float angle3, const ofVec3f &amp;axis3)</argsstring>
+        <name>ofQuaternion</name>
+        <param>
+          <type>float</type>
+          <declname>angle1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle3</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="34" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="187" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a592466c425cd8660757421a718c9f298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+        <definition>ofQuaternion &amp; ofQuaternion::operator=</definition>
+        <argsstring>(const ofQuaternion &amp;q)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="36" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="193" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ad298750d0652d3c99217232ca778bc08" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofQuaternion::operator==</definition>
+        <argsstring>(const ofQuaternion &amp;q) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="37" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="200" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1afab0bac3e5c4a79ce47e2652cc9250e0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofQuaternion::operator!=</definition>
+        <argsstring>(const ofQuaternion &amp;q) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="38" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="206" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a4f5d77351d6aeec11a18edc746542032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream &amp; ofQuaternion::operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="41" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1af815e32922d3c6b46bf084cc8d57f968" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>istream &amp;</type>
+        <definition>istream &amp; ofQuaternion::operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;is)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="42" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="156" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a0afc1e4dba0677c0907290331c09bfeb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec4f" kindref="compound">ofVec4f</ref></type>
+        <definition>ofVec4f ofQuaternion::asVec4</definition>
+        <argsstring>() const </argsstring>
+        <name>asVec4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="44" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="225" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a80e1aac743b27f8511faec3b970d0714" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofQuaternion::asVec3</definition>
+        <argsstring>() const </argsstring>
+        <name>asVec3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="45" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="231" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1aaea1c7238849deac834b9a6396c5017f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::set</definition>
+        <argsstring>(float x, float y, float z, float w)</argsstring>
+        <name>set</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="48" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="237" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a39fad344afc50ad4f1c85983438321b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::set</definition>
+        <argsstring>(const ofVec4f &amp;v)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const <ref refid="classof_vec4f" kindref="compound">ofVec4f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="49" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="243" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a945a7900ba26b4bba79af97e31114331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::set</definition>
+        <argsstring>(const ofMatrix4x4 &amp;matrix)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const <ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a8fd7a5fdcfbea7c7eb075eb0656cb087" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::get</definition>
+        <argsstring>(ofMatrix4x4 &amp;matrix) const </argsstring>
+        <name>get</name>
+        <param>
+          <type><ref refid="classof_matrix4x4" kindref="compound">ofMatrix4x4</ref> &amp;</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ac03b642d172c552ccf6ffe71e5bad052" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float &amp; ofQuaternion::operator[]</definition>
+        <argsstring>(int i)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="54" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="249" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a1a4c11305826bdbae49076b3f2ad231d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofQuaternion::operator[]</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="55" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="256" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1aa3730ef64c850701efaff85f0b8461f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float &amp; ofQuaternion::x</definition>
+        <argsstring>()</argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="57" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="262" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a9c8f391cfb5b60171d7d394fcb93ad00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float &amp; ofQuaternion::y</definition>
+        <argsstring>()</argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="58" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="268" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a9eb7869157324521ac0c3ff10f299c1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float &amp; ofQuaternion::z</definition>
+        <argsstring>()</argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="59" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="274" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a80b8ab68425afe5180bd3e8de747d636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float &amp; ofQuaternion::w</definition>
+        <argsstring>()</argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="60" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="280" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a6c09964ebebdbce304d3b7d89e1aba54" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofQuaternion::x</definition>
+        <argsstring>() const </argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="62" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="286" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1aa17e4332c00adca6d87480c564a0e86c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofQuaternion::y</definition>
+        <argsstring>() const </argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="63" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="292" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ab9b647639d27e0fa93bcb6ed9fe9a37d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofQuaternion::z</definition>
+        <argsstring>() const </argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="64" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="298" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1aeedfaba90bc14ef3eb523a392f72d6e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofQuaternion::w</definition>
+        <argsstring>() const </argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="65" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="304" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ace53cb8ce367160451c94da875da43da" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ofQuaternion::zeroRotation</definition>
+        <argsstring>() const </argsstring>
+        <name>zeroRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="68" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="310" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ac6faabefadebda67810c179e1eadac43" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>const ofQuaternion ofQuaternion::operator*</definition>
+        <argsstring>(float rhs) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>float</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="78" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="317" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ada1a66e0205575f85ac25d049c4c1d33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+        <definition>ofQuaternion &amp; ofQuaternion::operator*=</definition>
+        <argsstring>(float rhs)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>float</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="79" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="323" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ab3e39016657595f98b712649a6f7d28a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>const ofQuaternion ofQuaternion::operator*</definition>
+        <argsstring>(const ofQuaternion &amp;rhs) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="80" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="333" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a5256cbea450256f55defc644a9b1713f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+        <definition>ofQuaternion &amp; ofQuaternion::operator*=</definition>
+        <argsstring>(const ofQuaternion &amp;rhs)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="81" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="342" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1aa87455e07579f3cd11e996e3f00e97fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>ofQuaternion ofQuaternion::operator/</definition>
+        <argsstring>(float rhs) const </argsstring>
+        <name>operator/</name>
+        <param>
+          <type>float</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="82" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="357" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a484f9e9ce91f24b9ad43993756c04f24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+        <definition>ofQuaternion &amp; ofQuaternion::operator/=</definition>
+        <argsstring>(float rhs)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>float</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="83" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="364" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a7b890891550e8a5eda04be85f19d5703" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>const ofQuaternion ofQuaternion::operator/</definition>
+        <argsstring>(const ofQuaternion &amp;denom) const </argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>denom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="84" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="375" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1afbe116fb57777b2f1c13ac5d4b572baa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+        <definition>ofQuaternion &amp; ofQuaternion::operator/=</definition>
+        <argsstring>(const ofQuaternion &amp;denom)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>denom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="85" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="381" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a8cad4ddd9eae2958f1567fccd824adb7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>const ofQuaternion ofQuaternion::operator+</definition>
+        <argsstring>(const ofQuaternion &amp;rhs) const </argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="86" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="388" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a774ebcc5bbbc7ac40749fc78cb8e5061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+        <definition>ofQuaternion &amp; ofQuaternion::operator+=</definition>
+        <argsstring>(const ofQuaternion &amp;rhs)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="87" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="395" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a3e2aa42f5e01b6b29a417ff6d3be7438" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>const ofQuaternion ofQuaternion::operator-</definition>
+        <argsstring>(const ofQuaternion &amp;rhs) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="88" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="405" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1adfcbaf0970f5371ff2e34ce647a79675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+        <definition>ofQuaternion &amp; ofQuaternion::operator-=</definition>
+        <argsstring>(const ofQuaternion &amp;rhs)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="89" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="412" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1affc594ec09ed8625410e9fb4ca48cd34" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>const ofQuaternion ofQuaternion::operator-</definition>
+        <argsstring>() const </argsstring>
+        <name>operator-</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="90" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="422" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ae31833c840e5f96c9ec80f8f84d948d0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofQuaternion::operator*</definition>
+        <argsstring>(const ofVec3f &amp;v) const </argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="91" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="453" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1af57e2004c17df8531fb171c6faa0770b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofQuaternion::length</definition>
+        <argsstring>() const </argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="95" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="428" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1afbe5ae05c94c7a768bb34f05156fe950" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ofQuaternion::length2</definition>
+        <argsstring>() const </argsstring>
+        <name>length2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="98" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="434" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a82f2d70fd24c1da082e008beb371c3c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>ofQuaternion ofQuaternion::conj</definition>
+        <argsstring>() const </argsstring>
+        <name>conj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="101" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="440" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a5aabbcc14b4971e179e4f4f8c7a360af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref></type>
+        <definition>const ofQuaternion ofQuaternion::inverse</definition>
+        <argsstring>() const </argsstring>
+        <name>inverse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="104" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="446" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a5016a3ee4571fe53277e8a362ee11ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::makeRotate</definition>
+        <argsstring>(float angle, float x, float y, float z)</argsstring>
+        <name>makeRotate</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1aee983a7373cb766b9c331b515f351c82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::makeRotate</definition>
+        <argsstring>(float angle, const ofVec3f &amp;vec)</argsstring>
+        <name>makeRotate</name>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1abf60a6123de7244b139e5fadbbda8ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::makeRotate</definition>
+        <argsstring>(float angle1, const ofVec3f &amp;axis1, float angle2, const ofVec3f &amp;axis2, float angle3, const ofVec3f &amp;axis3)</argsstring>
+        <name>makeRotate</name>
+        <param>
+          <type>float</type>
+          <declname>angle1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle3</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>axis3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a3dd602061e20cd48b156af56fe2f3210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::makeRotate</definition>
+        <argsstring>(const ofVec3f &amp;vec1, const ofVec3f &amp;vec2)</argsstring>
+        <name>makeRotate</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>vec1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>vec2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a2a93cb5acd035d43fb76538fbd16c3cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::makeRotate_original</definition>
+        <argsstring>(const ofVec3f &amp;vec1, const ofVec3f &amp;vec2)</argsstring>
+        <name>makeRotate_original</name>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>vec1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>vec2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a785d6dda9fd0a9c7643c39ce125f3f54" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::getRotate</definition>
+        <argsstring>(float &amp;angle, float &amp;x, float &amp;y, float &amp;z) const </argsstring>
+        <name>getRotate</name>
+        <param>
+          <type>float &amp;</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1ae3c7cea33a308f8e148a0122be40fa89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::getRotate</definition>
+        <argsstring>(float &amp;angle, ofVec3f &amp;vec) const </argsstring>
+        <name>getRotate</name>
+        <param>
+          <type>float &amp;</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a8b0ed0f29b9b21c8af859dd6524ac501" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classof_vec3f" kindref="compound">ofVec3f</ref></type>
+        <definition>ofVec3f ofQuaternion::getEuler</definition>
+        <argsstring>() const </argsstring>
+        <name>getEuler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classof_quaternion_1a41b20d0248fc98bbf9c64f47da52ed89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ofQuaternion::slerp</definition>
+        <argsstring>(float t, const ofQuaternion &amp;from, const ofQuaternion &amp;to)</argsstring>
+        <name>slerp</name>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classof_quaternion" kindref="compound">ofQuaternion</ref> &amp;</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="518">
+        <label>ofVec4f</label>
+        <link refid="classof_vec4f"/>
+      </node>
+      <node id="517">
+        <label>ofQuaternion</label>
+        <link refid="classof_quaternion"/>
+        <childnode refid="518" relation="usage">
+          <edgelabel>_v</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" line="25" bodyfile="/Users/andy/Documents/of_preRelease_v007_osx/libs/openFrameworks/math/ofQuaternion.h" bodystart="25" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classof_quaternion_1ab982b5638bed96d546f666393f4e2183" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>_v</name></member>
+      <member refid="classof_quaternion_1a80e1aac743b27f8511faec3b970d0714" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>asVec3</name></member>
+      <member refid="classof_quaternion_1a0afc1e4dba0677c0907290331c09bfeb" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>asVec4</name></member>
+      <member refid="classof_quaternion_1a82f2d70fd24c1da082e008beb371c3c8" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>conj</name></member>
+      <member refid="classof_quaternion_1a8fd7a5fdcfbea7c7eb075eb0656cb087" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>get</name></member>
+      <member refid="classof_quaternion_1a8b0ed0f29b9b21c8af859dd6524ac501" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>getEuler</name></member>
+      <member refid="classof_quaternion_1a785d6dda9fd0a9c7643c39ce125f3f54" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>getRotate</name></member>
+      <member refid="classof_quaternion_1ae3c7cea33a308f8e148a0122be40fa89" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>getRotate</name></member>
+      <member refid="classof_quaternion_1a5aabbcc14b4971e179e4f4f8c7a360af" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>inverse</name></member>
+      <member refid="classof_quaternion_1af57e2004c17df8531fb171c6faa0770b" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>length</name></member>
+      <member refid="classof_quaternion_1afbe5ae05c94c7a768bb34f05156fe950" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>length2</name></member>
+      <member refid="classof_quaternion_1a5016a3ee4571fe53277e8a362ee11ab0" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>makeRotate</name></member>
+      <member refid="classof_quaternion_1aee983a7373cb766b9c331b515f351c82" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>makeRotate</name></member>
+      <member refid="classof_quaternion_1abf60a6123de7244b139e5fadbbda8ee9" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>makeRotate</name></member>
+      <member refid="classof_quaternion_1a3dd602061e20cd48b156af56fe2f3210" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>makeRotate</name></member>
+      <member refid="classof_quaternion_1a2a93cb5acd035d43fb76538fbd16c3cd" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>makeRotate_original</name></member>
+      <member refid="classof_quaternion_1a88872fa61612eb7763ad4e2195775c71" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>ofQuaternion</name></member>
+      <member refid="classof_quaternion_1a8f887a94cb20196027d97b6dd04e5057" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>ofQuaternion</name></member>
+      <member refid="classof_quaternion_1a35a3d385ab3f4128f7b3d24604cf9ac4" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>ofQuaternion</name></member>
+      <member refid="classof_quaternion_1a529608f982d4c6c0970dbc77308b788c" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>ofQuaternion</name></member>
+      <member refid="classof_quaternion_1a5a81d8b69b470bcaad2139c539ce06c2" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>ofQuaternion</name></member>
+      <member refid="classof_quaternion_1afab0bac3e5c4a79ce47e2652cc9250e0" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator!=</name></member>
+      <member refid="classof_quaternion_1ac6faabefadebda67810c179e1eadac43" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator*</name></member>
+      <member refid="classof_quaternion_1ab3e39016657595f98b712649a6f7d28a" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator*</name></member>
+      <member refid="classof_quaternion_1ae31833c840e5f96c9ec80f8f84d948d0" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator*</name></member>
+      <member refid="classof_quaternion_1ada1a66e0205575f85ac25d049c4c1d33" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator*=</name></member>
+      <member refid="classof_quaternion_1a5256cbea450256f55defc644a9b1713f" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator*=</name></member>
+      <member refid="classof_quaternion_1a8cad4ddd9eae2958f1567fccd824adb7" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator+</name></member>
+      <member refid="classof_quaternion_1a774ebcc5bbbc7ac40749fc78cb8e5061" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator+=</name></member>
+      <member refid="classof_quaternion_1a3e2aa42f5e01b6b29a417ff6d3be7438" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator-</name></member>
+      <member refid="classof_quaternion_1affc594ec09ed8625410e9fb4ca48cd34" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator-</name></member>
+      <member refid="classof_quaternion_1adfcbaf0970f5371ff2e34ce647a79675" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator-=</name></member>
+      <member refid="classof_quaternion_1aa87455e07579f3cd11e996e3f00e97fa" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator/</name></member>
+      <member refid="classof_quaternion_1a7b890891550e8a5eda04be85f19d5703" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator/</name></member>
+      <member refid="classof_quaternion_1a484f9e9ce91f24b9ad43993756c04f24" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator/=</name></member>
+      <member refid="classof_quaternion_1afbe116fb57777b2f1c13ac5d4b572baa" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator/=</name></member>
+      <member refid="classof_quaternion_1a4f5d77351d6aeec11a18edc746542032" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classof_quaternion_1a592466c425cd8660757421a718c9f298" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator=</name></member>
+      <member refid="classof_quaternion_1ad298750d0652d3c99217232ca778bc08" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator==</name></member>
+      <member refid="classof_quaternion_1af815e32922d3c6b46bf084cc8d57f968" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classof_quaternion_1ac03b642d172c552ccf6ffe71e5bad052" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator[]</name></member>
+      <member refid="classof_quaternion_1a1a4c11305826bdbae49076b3f2ad231d" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>operator[]</name></member>
+      <member refid="classof_quaternion_1aaea1c7238849deac834b9a6396c5017f" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>set</name></member>
+      <member refid="classof_quaternion_1a39fad344afc50ad4f1c85983438321b3" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>set</name></member>
+      <member refid="classof_quaternion_1a945a7900ba26b4bba79af97e31114331" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>set</name></member>
+      <member refid="classof_quaternion_1a41b20d0248fc98bbf9c64f47da52ed89" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>slerp</name></member>
+      <member refid="classof_quaternion_1a80b8ab68425afe5180bd3e8de747d636" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>w</name></member>
+      <member refid="classof_quaternion_1aeedfaba90bc14ef3eb523a392f72d6e6" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>w</name></member>
+      <member refid="classof_quaternion_1aa3730ef64c850701efaff85f0b8461f3" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>x</name></member>
+      <member refid="classof_quaternion_1a6c09964ebebdbce304d3b7d89e1aba54" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>x</name></member>
+      <member refid="classof_quaternion_1a9c8f391cfb5b60171d7d394fcb93ad00" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>y</name></member>
+      <member refid="classof_quaternion_1aa17e4332c00adca6d87480c564a0e86c" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>y</name></member>
+      <member refid="classof_quaternion_1a9eb7869157324521ac0c3ff10f299c1b" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>z</name></member>
+      <member refid="classof_quaternion_1ab9b647639d27e0fa93bcb6ed9fe9a37d" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>z</name></member>
+      <member refid="classof_quaternion_1ace53cb8ce367160451c94da875da43da" prot="public" virt="non-virtual"><scope>ofQuaternion</scope><name>zeroRotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
